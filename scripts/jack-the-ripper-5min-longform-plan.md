@@ -48,3 +48,32 @@ shots). Stills carry the long archival lines — they can hold any length under 
 slow Ken Burns push. Assembly: same ffmpeg pipeline as the Short, 1920×1080,
 silence-trimmed VO, stamps burned Montserrat ExtraBold. No music bed (speech-only
 audio models) — drone map: under 01–12, out at 13, silent 14, back 15–24.
+
+---
+
+## BUILD RECORD (final render)
+
+**Output:** `ripper-1888-5min-1920x1080.mp4` — 1920×1080, 30fps, H.264+AAC,
+**277.0s (4:37)**, 196 MB, media_id `bb894c24-5406-43b9-a5c1-3ffc0188b05f`.
+
+Generated: 17 clips + 7 stills + 24 VO lines, **zero failed jobs**. The dawn
+street shot was the only preset interception this run — the pre-declined night
+shots all passed, confirming `declined_preset_id` works preemptively.
+
+**Timing came from measured VO, not the 150wpm estimate.** Her long-form read
+ran much slower than the Short (down to ~90wpm on atmospheric lines), so eight
+clip segments needed 3–8s more than their 8s of footage. Freeze-frames at that
+length look broken on shots with people, so those eight (01, 02, 07, 11, 13,
+17, 21, 24) were re-rendered with a frame-blended slow-down
+(`setpts` + `framerate` interpolation, 1.18×–1.96× stretch) instead — on fog,
+firelight and slow drift it reads as deliberate slow motion. Stills carried the
+five longest lines (up to 19.9s) under a Ken Burns push, which is why the shot
+plan put the archival beats on stills in the first place.
+
+Runtime landed at 4:37 rather than 5:00 because pads were kept tight (0.5s)
+against the slower read. To hit 5:00 exactly, widen the pads on the section
+boundaries (shots 9→10, 12→13, 22→23) by ~1.5s each rather than stretching
+any shot further.
+
+Still outstanding: music/ambience bed (speech-only audio models — drone map in
+the plan above), thumbnail, YouTube title/description.
