@@ -31,29 +31,61 @@ shot came back 2s too short.
 
 ## STEP 1 — BUILD THE CHARACTER ANCHOR FIRST
 
+The host is **Nia** — a recurring character across the channel, so her likeness
+must stay locked shot to shot and video to video.
+
 Do **not** feed the athleisure studio photo straight into 12 foggy Victorian
 scenes. A white-cyclorama e-comm shot and a gas-lit alley are too far apart, and
-identity will drift shot to shot.
+identity will drift. Generate one approved still of Nia in full Victorian
+costume, then use **that still** as `image_references` on all 12 clips.
 
-Instead: generate one still of her in full Victorian costume using the photo as
-the face reference, approve it, then use **that still** as `image_references` on
-all 12 clips.
+### Model choice — do not use Soul 2 for this
 
-**Anchor prompt** (`soul_2` or `nano_banana_pro`, 9:16, photo as reference):
+`soul_2` runs with `enhance_prompt: true` permanently on and does not expose a
+switch to disable it. On a costume-change brief it **discards the written prompt
+entirely** and substitutes an auto-caption of the reference image, so the output
+is a recreation of the input photo — modern clothing, studio backdrop and all.
+Confirmed the hard way: the first two anchors came back as the athleisure shot
+with the prompt replaced by a description of the green quarter-zip and the
+"THE PLAN" notebook.
 
-> Full-body portrait of the woman from the reference image, same face, same
-> features, same skin tone, photographed in 1888 Whitechapel, London. She wears
-> authentic Victorian working-class clothing: a heavy dark charcoal wool dress
-> buttoned to the throat, a worn cream knitted shawl around her shoulders, hair
-> pinned up with loose curls escaping at the temples. Standing on wet cobblestones
-> in thin fog, gas lamp light from the left. Muted desaturated palette, grey-brown
-> haze, soot and grime, no modern objects, no makeup gloss. Photorealistic,
-> naturalistic film grain, documentary realism, unretouched skin.
+Use **`nano_banana_pro`** instead. No prompt enhancer, strong instruction
+following, reference role is `image_references` (not `image`). The prompt is
+stored and executed verbatim — check `params.prompt` on the returned job to
+confirm it wasn't rewritten.
 
-Approve this before spending anything on video. It's the cheapest possible place
-to catch a wardrobe or face problem.
+### Anchor prompt
 
----
+Phrase it as an explicit **keep / change** instruction rather than a description.
+Naming what to preserve and what to delete, item by item, is what makes it hold:
+
+> Using the reference photograph, keep the woman's face, bone structure, skin
+> tone and identity EXACTLY as they are. Change everything else completely.
+>
+> Replace her clothing entirely: she now wears authentic 1888 Victorian
+> working-class dress — a heavy dark charcoal wool dress buttoned high to the
+> throat with long sleeves to the wrist, and a worn, slightly frayed cream
+> knitted shawl wrapped around her shoulders. Remove the crossbody bag, the
+> notebook, the leggings, the socks and the sneakers entirely. Her hair is
+> pinned up in a period style with loose curls escaping at the temples.
+>
+> Replace the white studio backdrop entirely: she stands on wet cobblestones in
+> a narrow Whitechapel alley at night, thin fog drifting, a cast-iron gas lamp
+> glowing off to her left, soot-stained brick walls behind her.
+>
+> Full-length shot. Muted desaturated grey-brown palette, naturalistic film
+> grain, documentary realism, unretouched skin with visible texture, no modern
+> objects of any kind, no glossy makeup, no studio lighting.
+
+**Hair:** period-pinned, approved. Worth knowing that her long curls are her
+most recognizable feature after her face, so if identity ever drifts in a later
+episode, reverting to hair-down is the fastest fix — swap the hair sentence for
+"the same long, loose, thick black curly hair falling well past her shoulders.
+Do not restyle, pin up, straighten or shorten her hair."
+
+Approve the anchor before spending anything on video. It is the cheapest place
+to catch a wardrobe or identity problem, and every one of the 12 clips inherits
+whatever it gets wrong.
 
 ## STEP 2 — THE 12 SHOT PROMPTS
 
