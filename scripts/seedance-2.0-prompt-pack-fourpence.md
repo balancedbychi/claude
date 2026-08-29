@@ -203,3 +203,31 @@ Seedance returns 12 silent clips. Everything else is assembly:
   Burns move in the edit instead — cheaper and more controllable.
 - **Text in frame** — never ask Seedance for legible signage or headlines. Shot 10
   specifies blurred type deliberately. All readable text is added in post.
+
+---
+
+## BATCH SUBMISSION GOTCHAS (learned in production)
+
+**1. Preset interception.** Six of the twelve — every night exterior — came back
+`submission_failed` with *"Preset \"IN THE DARK\" was recommended instead of
+submitting a job."* No job is created and nothing is charged; the server offers
+a styled preset instead. Accepting it would impose the preset's own look and
+break continuity with the shots that submitted normally. Decline and resubmit
+with `declined_preset_id` set to the offered preset id. The decline applies to
+that one retry only, so it goes on every affected request in the resubmission.
+
+**2. Attach the character reference only where the character appears.**
+Passing Nia's anchor on all twelve would contaminate the shots she isn't in —
+09 and 11 are archival portraits of *other* women, 02–05 are POV with her behind
+the camera. Reference goes on **01, 06, 12** only. The rest hold the look through
+prompt language (`desaturated grey-brown`, `soot`, `1888`, `no modern objects`).
+
+**3. `generate_audio: false` is not optional.** Seedance's native audio invents
+dialogue. On a scripted-VO piece that is unusable, and you pay for it either way.
+
+**4. Nano Banana Pro reports as `nano_banana_2`** in job status responses. That
+is the same model, not a silent downgrade.
+
+**5. Verify the stored prompt.** After submitting, check `params.prompt` on the
+returned job. If it does not match what you wrote, an enhancer rewrote it — kill
+the batch before it renders rather than paying to find out.
