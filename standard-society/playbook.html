@@ -1,0 +1,688 @@
+<title>Chi &amp; Nia Playbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{
+  --bg:#E9EAEE; --surf:#F7F8FA; --surf2:#FFFFFF; --line:#D3D7DF; --line-soft:#E0E3E9;
+  --tx:#161B26; --tx2:#464E5F; --mut:#6E7686;
+  --nia:#8A6207; --nia-mark:#D9A82E; --nia-wash:#F7EFDC;
+  --chi:#2A5A93; --chi-mark:#4A82C4; --chi-wash:#E3EAF4;
+  --camel:#936C40; --warn:#9A3412; --warn-wash:#FAEBE3;
+  --shadow:0 1px 2px rgba(20,26,38,.06),0 8px 24px -12px rgba(20,26,38,.18);
+  --sans:"Archivo",ui-sans-serif,system-ui,"Segoe UI",sans-serif;
+  --disp:"Fraunces",ui-serif,Georgia,serif;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#121724; --surf:#19202F; --surf2:#202839; --line:#2E374B; --line-soft:#242C3C;
+    --tx:#E9E7E1; --tx2:#B6BCC8; --mut:#8992A2;
+    --nia:#E8B93C; --nia-mark:#E8B93C; --nia-wash:#241F14;
+    --chi:#84ABDB; --chi-mark:#84ABDB; --chi-wash:#161E2C;
+    --camel:#C89B6A; --warn:#E8A07C; --warn-wash:#251A16;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px -14px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121724; --surf:#19202F; --surf2:#202839; --line:#2E374B; --line-soft:#242C3C;
+  --tx:#E9E7E1; --tx2:#B6BCC8; --mut:#8992A2;
+  --nia:#E8B93C; --nia-mark:#E8B93C; --nia-wash:#241F14;
+  --chi:#84ABDB; --chi-mark:#84ABDB; --chi-wash:#161E2C;
+  --camel:#C89B6A; --warn:#E8A07C; --warn-wash:#251A16;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px -14px rgba(0,0,0,.6);
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--tx);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px;padding-block:0}
+h1,h2,h3,h4{font-family:var(--disp);font-weight:600;text-wrap:balance;margin:0;line-height:1.15;font-variation-settings:"SOFT" 40,"opsz" 40}
+p{margin:0}
+a{color:var(--chi)}
+code,.mono{font-family:var(--mono)}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);font-weight:500}
+
+/* ---------- nav ---------- */
+nav{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line-soft)}
+.navin{max-width:1080px;margin:0 auto;padding:10px 20px;display:flex;gap:18px;align-items:center;overflow-x:auto;scrollbar-width:none}
+.navin::-webkit-scrollbar{display:none}
+.navmark{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.1em;color:var(--tx);white-space:nowrap;padding-right:4px;border-right:1px solid var(--line);margin-right:2px}
+nav a{font-size:13px;color:var(--tx2);text-decoration:none;white-space:nowrap;padding:3px 0;border-bottom:1.5px solid transparent}
+nav a:hover{color:var(--tx);border-bottom-color:var(--nia-mark)}
+nav a:focus-visible,.sw:focus-visible{outline:2px solid var(--chi);outline-offset:3px;border-radius:2px}
+.sw{margin-left:auto;background:none;border:1px solid var(--line);color:var(--tx2);font-family:var(--mono);font-size:10px;letter-spacing:.08em;padding:4px 9px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.sw:hover{border-color:var(--nia-mark);color:var(--tx)}
+
+/* ---------- hero ---------- */
+header{padding-block:56px 40px;border-bottom:1px solid var(--line)}
+.brand{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--nia);font-weight:700}
+h1{font-size:clamp(38px,7vw,66px);letter-spacing:-.025em;margin-top:14px;font-variation-settings:"SOFT" 30,"opsz" 120}
+h1 .amp{font-style:italic;color:var(--nia);font-weight:400}
+.thesis{font-family:var(--disp);font-size:clamp(19px,2.6vw,25px);line-height:1.42;color:var(--tx2);margin-top:22px;max-width:24ch;font-weight:400}
+.thesis b{color:var(--tx);font-weight:600}
+.herogrid{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:end}
+@media(max-width:760px){.herogrid{grid-template-columns:1fr;gap:30px}.thesis{max-width:34ch}}
+.facts{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--line)}
+.fact{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid var(--line-soft);font-size:13px}
+.fact dt{color:var(--mut)}
+.fact dd{margin:0;font-family:var(--mono);font-size:12px;color:var(--tx);text-align:right;font-variant-numeric:tabular-nums}
+
+/* ---------- generic ---------- */
+section{padding-block:54px;border-bottom:1px solid var(--line)}
+.shead{display:flex;align-items:baseline;gap:14px;margin-bottom:8px;flex-wrap:wrap}
+.snum{font-family:var(--mono);font-size:11px;color:var(--mut);letter-spacing:.1em;font-weight:500}
+h2{font-size:clamp(25px,3.6vw,34px);letter-spacing:-.015em}
+.lede{color:var(--tx2);max-width:66ch;margin-top:10px;font-size:15.5px}
+.lede + .lede{margin-top:12px}
+
+/* ---------- note / callout ---------- */
+.note{background:var(--surf);border:1px solid var(--line);border-left:3px solid var(--camel);padding:16px 18px;border-radius:0 6px 6px 0;font-size:14.5px;color:var(--tx2);margin-top:24px;max-width:74ch}
+.note b{color:var(--tx)}
+.block{background:var(--warn-wash);border:1px solid color-mix(in srgb,var(--warn) 32%,transparent);border-radius:8px;padding:20px 22px;margin-top:26px}
+.block h3{font-size:19px;color:var(--warn);margin-bottom:8px}
+.block p{font-size:14.5px;color:var(--tx2);max-width:70ch}
+
+/* ---------- character cards ---------- */
+.chars{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:30px}
+@media(max-width:760px){.chars{grid-template-columns:1fr}}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:14px}
+.card.nia{border-top:3px solid var(--nia-mark)}
+.card.chi{border-top:3px solid var(--chi-mark)}
+.cname{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.cname h3{font-size:27px;letter-spacing:-.01em}
+.cname .role{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase}
+.nia .role{color:var(--nia)} .chi .role{color:var(--chi)}
+.card p{font-size:14.5px;color:var(--tx2)}
+.spec{display:flex;flex-direction:column;gap:0;margin-top:2px}
+.spec div{display:flex;gap:12px;padding:7px 0;border-top:1px solid var(--line-soft);font-size:13px;align-items:baseline}
+.spec dt{color:var(--mut);flex:0 0 88px;font-size:12px}
+.spec dd{margin:0;color:var(--tx2);flex:1}
+.spec dd.id{font-family:var(--mono);font-size:11px;word-break:break-all;color:var(--tx)}
+.missing{color:var(--warn);font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.05em}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;padding:3px 8px;border-radius:4px;border:1px solid var(--line)}
+.nia .tag{background:var(--nia-wash);color:var(--nia);border-color:color-mix(in srgb,var(--nia) 28%,transparent)}
+.chi .tag{background:var(--chi-wash);color:var(--chi);border-color:color-mix(in srgb,var(--chi) 28%,transparent)}
+
+/* ---------- titanic canon ---------- */
+.canon{margin-top:32px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surf)}
+.canonhead{padding:14px 18px;background:var(--nia-wash);border-bottom:1px solid var(--line)}
+.canonhead .eyebrow{color:var(--nia)}
+.canonrow{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:13px 18px;border-bottom:1px solid var(--line-soft);align-items:start}
+.canonrow:last-child{border-bottom:none}
+.canonrow q{font-family:var(--disp);font-size:16px;color:var(--tx);font-style:italic;quotes:"“" "”"}
+.canonrow span{font-size:13.5px;color:var(--tx2)}
+@media(max-width:700px){.canonrow{grid-template-columns:1fr;gap:5px}}
+
+/* ---------- tables ---------- */
+.tw{overflow-x:auto;margin-top:24px;border:1px solid var(--line);border-radius:10px;background:var(--surf)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:13.5px}
+th{text-align:left;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);font-weight:500;padding:12px 16px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:12px 16px;border-bottom:1px solid var(--line-soft);color:var(--tx2);vertical-align:top}
+tr:last-child td{border-bottom:none}
+td.k{color:var(--tx);font-weight:500}
+td .kw{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--nia);background:var(--nia-wash);padding:2px 7px;border-radius:4px;white-space:nowrap}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--tx)}
+.who{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
+.who.n{color:var(--nia)} .who.c{color:var(--chi)} .who.b{color:var(--camel)}
+
+/* ---------- funnel ---------- */
+.funnel{margin-top:28px;display:flex;flex-direction:column;gap:0;max-width:640px}
+.frow{display:flex;gap:16px;align-items:flex-start;position:relative;padding-bottom:18px}
+.frow:last-child{padding-bottom:0}
+.frow::before{content:"";position:absolute;left:11px;top:24px;bottom:0;width:1px;background:var(--line)}
+.frow:last-child::before{display:none}
+.fdot{flex:0 0 23px;height:23px;border-radius:50%;border:1.5px solid var(--line);background:var(--surf);display:grid;place-items:center;font-family:var(--mono);font-size:10px;color:var(--mut);position:relative;z-index:1}
+.frow.hot .fdot{border-color:var(--nia-mark);background:var(--nia-wash);color:var(--nia);font-weight:700}
+.fbody h4{font-size:16.5px;margin-bottom:3px}
+.fbody p{font-size:13.5px;color:var(--tx2);max-width:52ch}
+.fbody .price{font-family:var(--mono);font-size:12px;color:var(--nia);font-weight:500}
+
+/* ---------- scripts ---------- */
+.legend{display:flex;gap:20px;flex-wrap:wrap;margin-top:22px;padding-bottom:4px}
+.legend div{font-size:12.5px;color:var(--tx2);display:flex;align-items:center;gap:7px}
+.swatch{width:11px;height:11px;border-radius:2px;flex:none}
+.scripts{display:flex;flex-direction:column;gap:18px;margin-top:26px}
+.pillar{margin-top:38px;padding-top:20px;border-top:2px solid var(--line)}
+.pillar:first-of-type{margin-top:26px}
+.pillar > .eyebrow{color:var(--camel)}
+.pillar h3{font-size:22px;margin-top:5px}
+.pillar .psub{font-size:14px;color:var(--mut);margin-top:4px;font-style:italic;font-family:var(--disp)}
+.scr{background:var(--surf);border:1px solid var(--line);border-radius:10px;overflow:hidden;box-shadow:var(--shadow)}
+.scr.hero{border-color:color-mix(in srgb,var(--nia) 40%,transparent);background:var(--surf2)}
+.scrhead{display:flex;align-items:center;gap:12px;padding:13px 18px;border-bottom:1px solid var(--line-soft);flex-wrap:wrap}
+.scrid{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.08em;padding:3px 8px;border-radius:4px;background:var(--bg);border:1px solid var(--line);color:var(--tx)}
+.scr.hero .scrid{background:var(--nia-wash);border-color:color-mix(in srgb,var(--nia) 35%,transparent);color:var(--nia)}
+.scrhead h4{font-size:17.5px;flex:1;min-width:140px}
+.meta{font-family:var(--mono);font-size:10.5px;color:var(--mut);letter-spacing:.05em;white-space:nowrap}
+.scrbody{padding:16px 18px;display:flex;flex-direction:column;gap:11px}
+.ln{padding-left:14px;border-left:2px solid var(--line);max-width:64ch}
+.ln.n{border-left-color:var(--nia-mark)}
+.ln.c{border-left-color:var(--chi-mark);margin-left:min(9%,60px)}
+.ln .spk{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;display:block;margin-bottom:3px;font-weight:700}
+.ln.n .spk{color:var(--nia)} .ln.c .spk{color:var(--chi)}
+.ln p{font-family:var(--disp);font-size:16.5px;line-height:1.45;color:var(--tx)}
+.ln p + p{margin-top:7px}
+.dir{font-size:12.5px;color:var(--mut);font-style:italic;max-width:60ch;padding-left:14px;border-left:2px solid transparent}
+.cut{display:flex;align-items:center;gap:10px;margin:3px 0}
+.cut span{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;color:var(--mut);white-space:nowrap}
+.cut::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--nia-mark),var(--chi-mark))}
+.scrfoot{padding:12px 18px;border-top:1px solid var(--line-soft);background:var(--bg);display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
+.scrfoot .cta{font-size:13.5px;color:var(--tx2);flex:1;min-width:180px}
+.scrfoot .cta b{color:var(--tx);font-weight:500}
+.kwtag{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--nia);background:var(--nia-wash);border:1px solid color-mix(in srgb,var(--nia) 30%,transparent);padding:3px 9px;border-radius:4px;white-space:nowrap}
+
+/* ---------- hooks ---------- */
+.hooks{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:26px}
+@media(max-width:760px){.hooks{grid-template-columns:1fr}}
+.hookcol{border:1px solid var(--line);border-radius:10px;background:var(--surf);overflow:hidden}
+.hookcol > header{padding:12px 16px;border-bottom:1px solid var(--line);border-radius:0}
+.hookcol.n > header{background:var(--nia-wash)} .hookcol.c > header{background:var(--chi-wash)}
+.hookcol > header .eyebrow{font-weight:700}
+.hookcol.n > header .eyebrow{color:var(--nia)} .hookcol.c > header .eyebrow{color:var(--chi)}
+.hookcol ol{margin:0;padding:6px 16px 14px 34px;display:flex;flex-direction:column;gap:0}
+.hookcol li{font-family:var(--disp);font-size:15px;color:var(--tx);padding:7px 0;border-bottom:1px solid var(--line-soft);line-height:1.35}
+.hookcol li:last-child{border-bottom:none}
+.hookcol li::marker{font-family:var(--mono);font-size:10px;color:var(--mut)}
+
+/* ---------- prompt block ---------- */
+pre{margin:22px 0 0;background:var(--surf2);border:1px solid var(--line);border-radius:8px;padding:16px 18px;overflow-x:auto;font-family:var(--mono);font-size:12px;line-height:1.65;color:var(--tx2);white-space:pre}
+pre b{color:var(--nia);font-weight:500}
+
+/* ---------- guardrails ---------- */
+.rails{display:flex;flex-direction:column;gap:0;margin-top:26px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surf)}
+.rail{display:grid;grid-template-columns:1fr 1fr;gap:0;border-bottom:1px solid var(--line-soft)}
+.rail:last-child{border-bottom:none}
+.rail > div{padding:14px 18px}
+.rail .no{border-right:1px solid var(--line-soft)}
+.rail .no p{font-size:14.5px;color:var(--tx);font-family:var(--disp)}
+.rail .no .lbl,.rail .yes .lbl{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;display:block;margin-bottom:5px}
+.rail .no .lbl{color:var(--warn)} .rail .yes .lbl{color:var(--chi)}
+.rail .yes p{font-size:14.5px;color:var(--tx2)}
+.rail .why{font-size:12.5px;color:var(--mut);margin-top:5px}
+@media(max-width:700px){.rail{grid-template-columns:1fr}.rail .no{border-right:none;border-bottom:1px solid var(--line-soft)}}
+
+/* ---------- next ---------- */
+.next{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-top:28px}
+.step{border:1px solid var(--line);border-radius:10px;padding:18px;background:var(--surf)}
+.step .n{font-family:var(--mono);font-size:11px;color:var(--nia);font-weight:700;letter-spacing:.1em}
+.step h4{font-size:16px;margin:7px 0 5px}
+.step p{font-size:13.5px;color:var(--tx2)}
+footer{padding-block:38px 56px;color:var(--mut);font-size:13px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer .mono{font-size:11px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+html{scroll-behavior:smooth}
+section[id]{scroll-margin-top:56px}
+</style>
+
+<nav>
+  <div class="navin">
+    <span class="navmark">CHI &amp; NIA</span>
+    <a href="#cast">Cast</a>
+    <a href="#strategy">Strategy</a>
+    <a href="#funnel">Funnel</a>
+    <a href="#scripts">Scripts</a>
+    <a href="#hooks">Hooks</a>
+    <a href="#production">Production</a>
+    <a href="#guardrails">Guardrails</a>
+    <button class="sw" id="themeSw" type="button">THEME</button>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<header>
+  <div class="herogrid">
+    <div>
+      <div class="brand">The Standard Society</div>
+      <h1>Chi <span class="amp">&amp;</span> Nia</h1>
+      <p class="thesis"><b>Nia is the reach. Chi is the reason.</b> The DM is the shop.</p>
+    </div>
+    <dl class="facts">
+      <div class="fact"><dt>Platform</dt><dd>Instagram — Reels led</dd></div>
+      <div class="fact"><dt>Offer</dt><dd>Let It Go · $17</dd></div>
+      <div class="fact"><dt>Scripts ready</dt><dd>22</dd></div>
+      <div class="fact"><dt>Cadence</dt><dd>1 Reel/day + Stories</dd></div>
+      <div class="fact"><dt>Production</dt><dd>Higgsfield · Munch Studio</dd></div>
+    </dl>
+  </div>
+  <div class="note"><b>Standing assumption.</b> The Standard Society is the audience-facing brand — it holds the community and sells Let It Go. Munch Studio is the production engine: a credit layer and a proof-of-tool track, not the main feed. If Munch Studio is the product being sold to creators, the funnel inverts and this gets rebuilt.</div>
+</header>
+
+<section id="cast">
+  <div class="shead"><span class="snum">01</span><h2>The two-hander</h2></div>
+  <p class="lede">One talking head gives advice. Two characters give a relationship the viewer can stand inside. <b>Nia is the person in it. Chi is the person on solid ground.</b> The viewer is Nia — and Chi is the friend she wishes was on the phone at 11:40pm.</p>
+  <p class="lede">That gap is the product. Let It Go exists for the moment between the urge and the action, and this format dramatises that moment in every single post. Critically: Chi never judges Nia, and <b>Nia never gets fixed.</b> She keeps struggling across the series. That's the brand promise made visual — nobody gets shamed for staying, returning, or finding it hard.</p>
+
+  <div class="chars">
+    <div class="card nia">
+      <div class="cname"><h3>Nia</h3><span class="role">still on the ship</span></div>
+      <p>Says the embarrassing true thing out loud first. Does the maths that doesn't add up. Makes it funny so it's bearable, then writes one line in the notebook. Handheld selfie-vlog, real locations, warm low British accent, dry and deadpan.</p>
+      <div class="tags"><span class="tag">yellow notebook</span><span class="tag">camel / cream / gold</span><span class="tag">gold choker</span><span class="tag">deadpan</span></div>
+      <dl class="spec">
+        <div><dt>Reference</dt><dd class="id">362ecc5e-b110-4855-9334-5717c4082e08</dd></div>
+        <div><dt>Element</dt><dd><span class="missing">⚠ NOT CREATED</span></dd></div>
+        <div><dt>Voice</dt><dd><span class="missing">⚠ NOT CREATED</span></dd></div>
+        <div><dt>Footage</dt><dd>4 × Titanic vlog · seedance_2_0</dd></div>
+      </dl>
+    </div>
+    <div class="card chi">
+      <div class="cname"><h3>Chi</h3><span class="role">the standard</span></div>
+      <p>Names the thing without softening it. Reframes once, never lectures twice, gives one action small enough to do tonight. Never diagnoses him, never predicts the outcome. Balcony talking-head, brisk and warm — <b>direct and empowering, never angry.</b></p>
+      <div class="tags"><span class="tag">balcony · daylight</span><span class="tag">navy wrap blouse</span><span class="tag">ring-free hands</span><span class="tag">no necklace</span></div>
+      <dl class="spec">
+        <div><dt>Soul</dt><dd class="id">a2c197f1-3e10-4523-8b13-31e8e3bdfeca</dd></div>
+        <div><dt>Element</dt><dd class="id">ba68b031-4fce-48c4-81ce-5017bd6a5132</dd></div>
+        <div><dt>Voice</dt><dd class="id">b07beaa5-2b64-4f21-926d-050fd952b8a6</dd></div>
+        <div><dt>Status</dt><dd>Production-ready</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <div class="block">
+    <h3>Blocker — Nia has no Element</h3>
+    <p>She exists only as text inside four old Titanic prompts, which means every new generation risks drifting into a different woman. Create the Element <em>and</em> a voice element from the Titanic audio before producing anything — without the voice lock her British accent re-rolls on every clip and the character won't hold across posts.</p>
+  </div>
+
+  <div class="canon">
+    <div class="canonhead"><div class="eyebrow">The Titanic canon — your unfair advantage</div></div>
+    <div class="canonrow"><q>The ship was gorgeous.</q><span>He was impressive. You weren't stupid.</span></div>
+    <div class="canonrow"><q>The maths was criminal.</q><span>The effort never added up, and you knew it.</span></div>
+    <div class="canonrow"><q>The lookouts don't have binoculars. I'm sure it's fine.</q><span>You had the information. You looked away.</span></div>
+    <div class="canonrow"><q>Seats for eleven hundred, souls on board two thousand two hundred.</q><span>The numbers were always there to count.</span></div>
+    <div class="canonrow"><q>That was not in my notes.</q><span>He showed you who he was.</span></div>
+    <div class="canonrow"><q>Next time: dry land. Only dry land.</q><span>The standard, learned the hard way.</span></div>
+  </div>
+  <p class="lede" style="margin-top:18px">Her existing footage isn't an old side project — it's a ready-made origin myth that explains the whole brand in one watch. Pin it as the hero Reel and everything after it inherits the metaphor for free. It's why Nia can later say <em>"beautiful ship, not enough lifeboats"</em> in eight seconds and the entire audience gets it.</p>
+</section>
+
+<section id="strategy">
+  <div class="shead"><span class="snum">02</span><h2>Instagram is not TikTok</h2></div>
+  <p class="lede">Your brief was written for TikTok's twice-daily hook-and-churn rhythm. It doesn't transfer cleanly. The consequential difference: <b>Instagram reach is driven by sends per reach</b> — DM shares to one specific person — not watch time alone.</p>
+  <p class="lede">So write for the send, not the scroll. A woman watching a Nia video doesn't think "that was good." She thinks <em>"this is literally me and Danielle"</em> and forwards it. Every two-hander is built so there's a moment where the viewer sees her own group chat.</p>
+  <div class="note"><b>The test before anything ships:</b> who does she send this to, and what does she type with it? If you can't answer, it's a weak post.</div>
+
+  <div class="tw"><table>
+    <thead><tr><th>Pillar</th><th>Her live thought</th><th>Lead</th><th>Format</th><th>Keyword</th><th>Share</th></tr></thead>
+    <tbody>
+      <tr><td class="k">The urge to reach out</td><td>"Should I text him?"</td><td><span class="who b">two-hander</span></td><td>Reel</td><td><span class="kw">DRAFT</span></td><td class="num">20%</td></tr>
+      <tr><td class="k">Mixed signals</td><td>"He's so confusing."</td><td><span class="who c">Chi</span></td><td>Reel + carousel</td><td><span class="kw">TWICE</span></td><td class="num">15%</td></tr>
+      <tr><td class="k">Missing him anyway</td><td>"Why do I miss someone who hurt me?"</td><td><span class="who n">Nia</span></td><td>Reel</td><td><span class="kw">TUESDAY</span></td><td class="num">15%</td></tr>
+      <tr><td class="k">Asking without apologising</td><td>"Am I asking for too much?"</td><td><span class="who b">two-hander</span></td><td>Reel</td><td><span class="kw">FLOOR</span></td><td class="num">15%</td></tr>
+      <tr><td class="k">Holding the boundary</td><td>"He came back."</td><td><span class="who b">two-hander</span></td><td>Reel + Story</td><td><span class="kw">DIFFERENT</span></td><td class="num">15%</td></tr>
+      <tr><td class="k">Actions over words</td><td>"But he says he loves me."</td><td><span class="who c">Chi</span></td><td>Carousel</td><td><span class="kw">LIST</span></td><td class="num">10%</td></tr>
+      <tr><td class="k">Everyday standards</td><td>"Is this even a big deal?"</td><td><span class="who n">Nia</span></td><td>Reel</td><td><span class="kw">SOUP</span></td><td class="num">10%</td></tr>
+    </tbody>
+  </table></div>
+  <p class="lede" style="margin-top:16px">One keyword per pillar so the automation routes cleanly and you can read intent from the keyword alone. Everyday standards is the smallest slice now — it's the bridge to the future membership, and it grows as launch approaches.</p>
+
+  <div class="shead" style="margin-top:44px"><span class="snum">02b</span><h2>Cadence</h2></div>
+  <div class="tw"><table>
+    <thead><tr><th></th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Reel</td><td><span class="who b">2-hand</span></td><td><span class="who n">Nia</span></td><td><span class="who c">Chi</span></td><td><span class="who b">2-hand</span></td><td><span class="who n">Nia</span></td><td><span class="who c">Chi</span></td><td><span class="who b">2-hand</span></td></tr>
+      <tr><td class="k">Carousel</td><td>—</td><td>✓</td><td>—</td><td>✓</td><td>—</td><td>✓</td><td>—</td></tr>
+      <tr><td class="k">Stories</td><td colspan="7">3–5 frames daily · poll, Nia moment, link</td></tr>
+      <tr><td class="k">Broadcast</td><td>—</td><td>—</td><td>—</td><td>✓</td><td>—</td><td>—</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+  <div class="note">I'd push back gently on running <b>2×/day permanently.</b> On Instagram two posts compete for the same audience inside the same 24 hours, and the second usually eats the first. One strong Reel a day plus committed Stories beats two rushed Reels almost every time — save the double-post for launch sprints and offer pushes, and make the extra one a Nia solo, since those are cheap and carry the reach.</div>
+  <p class="lede" style="margin-top:18px"><b>Post at 7–9am and 9–11pm.</b> The late window matters more than it looks: that's when the urge to text peaks, which is exactly the moment Let It Go is built for.</p>
+</section>
+
+<section id="funnel">
+  <div class="shead"><span class="snum">03</span><h2>Reel → comment → DM → $17</h2></div>
+  <p class="lede">No hard pitch ever goes in a Reel. The comment keyword does the work, and the DM is where the offer lives.</p>
+  <div class="funnel">
+    <div class="frow"><div class="fdot">1</div><div class="fbody"><h4>Reel</h4><p>"Comment <b>DRAFT</b> and I'll send you the questions." Reach, and a sorted signal of what she's struggling with.</p></div></div>
+    <div class="frow hot"><div class="fdot">2</div><div class="fbody"><h4>The Notebook Page — free</h4><p>One page styled as a torn sheet from Nia's yellow notebook. Five questions to work through before you send the message. Costs nothing, instantly on-brand, makes $17 feel like the next step rather than a leap. <b>New asset — build before launch week.</b></p></div></div>
+    <div class="frow hot"><div class="fdot">3</div><div class="fbody"><h4>Let It Go Interactive Guide</h4><p class="price">$17</p><p>Somewhere to think it through in the moment between the urge and the action.</p></div></div>
+    <div class="frow"><div class="fdot">4</div><div class="fbody"><h4>Reply packs</h4><p class="price">50 / $7 · 150 / $17 · use at your own pace</p></div></div>
+    <div class="frow"><div class="fdot">5</div><div class="fbody"><h4>Broadcast channel — "Notes from the Standard"</h4><p>Free, owned, escapes the algorithm. Weekly, in Nia's voice, one page from the notebook. The correct home for membership warming — genuine interest, without ever implying enrollment is open.</p></div></div>
+  </div>
+  <div class="note"><b>Stories are where the money is.</b> Reels get discovered; Stories convert. Daily: one poll or question sticker, one Nia moment, one link frame — and the link frame only lands after the other two have earned it.</div>
+
+  <div class="shead" style="margin-top:44px"><span class="snum">03b</span><h2>What to measure</h2></div>
+  <div class="tw"><table>
+    <thead><tr><th>Metric</th><th>Why it matters</th><th>Week-4 target</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Sends per reach</td><td>The Instagram reach engine</td><td class="num">&gt; 1.5%</td></tr>
+      <tr><td class="k">Saves per reach</td><td>Signals "I'll need this later"</td><td class="num">&gt; 2%</td></tr>
+      <tr><td class="k">Keyword triggers</td><td>Top of funnel, split by pillar</td><td class="num">50+ / wk</td></tr>
+      <tr><td class="k">DM → checkout click</td><td>Automation copy quality</td><td class="num">&gt; 25%</td></tr>
+      <tr><td class="k">Broadcast opt-in</td><td>Membership interest, honestly measured</td><td class="num">&gt; 5%</td></tr>
+      <tr><td class="k">Reply-pack repurchase</td><td>Real product engagement</td><td class="num">track from day 1</td></tr>
+    </tbody>
+  </table></div>
+  <p class="lede" style="margin-top:16px"><b>The one to watch is sends per reach, split by character.</b> My expectation: Nia out-sends Chi roughly 2:1 while Chi out-saves Nia. If that holds, Nia leads reach and Chi leads conversion — weight the calendar accordingly. If it doesn't hold, the two-hander balance is wrong and needs re-cutting.</p>
+</section>
+
+<section id="scripts">
+  <div class="shead"><span class="snum">04</span><h2>The scripts</h2></div>
+  <p class="lede">Twenty-two, across all seven pillars. Every one starts at a recognisable moment rather than a lesson, carries exactly one useful idea, and gives something away to people who never buy.</p>
+  <div class="legend">
+    <div><span class="swatch" style="background:var(--nia-mark)"></span> Nia — night, handheld, dry</div>
+    <div><span class="swatch" style="background:var(--chi-mark)"></span> Chi — balcony, daylight, steady</div>
+    <div><span class="swatch" style="background:linear-gradient(90deg,var(--nia-mark),var(--chi-mark))"></span> the hard cut</div>
+  </div>
+  <div id="scriptMount"></div>
+</section>
+
+<section id="hooks">
+  <div class="shead"><span class="snum">05</span><h2>Hook bank</h2></div>
+  <p class="lede">For extending the series. One specific, recognisable moment — never a general statement. A time of day, a number, an object.</p>
+  <div class="hooks">
+    <div class="hookcol n"><header><div class="eyebrow">Nia — dry, first person, forwardable</div></header><ol>
+      <li>It's 11:40 and I have typed this four times.</li>
+      <li>Recap for everyone who said they were done.</li>
+      <li>I'm mourning a Tuesday.</li>
+      <li>I cited evidence. In a text.</li>
+      <li>I nearly folded because of a photo.</li>
+      <li>Beautiful ship. Not enough lifeboats.</li>
+      <li>I sent food back today. That's the update.</li>
+      <li>I said "kindness" like I was in a pageant.</li>
+      <li>He's been typing for four minutes. Four.</li>
+      <li>I have a spreadsheet. I want that on record.</li>
+      <li>Three weeks of silence and then a meme.</li>
+      <li>I told my friends the good version again.</li>
+      <li>I'm not waiting. I just happen to be holding my phone.</li>
+      <li>He remembered my coffee order and I nearly proposed.</li>
+      <li>Day six was fine. Day seven tried me.</li>
+    </ol></div>
+    <div class="hookcol c"><header><div class="eyebrow">Chi — name the thought, then turn it</div></header><ol>
+      <li>He's not confusing. He's inconsistent.</li>
+      <li>That's not too much. That's the floor.</li>
+      <li>Missing him isn't a sign. It's a symptom.</li>
+      <li>The apology made it easier for him to say no.</li>
+      <li>Watch what happens twice.</li>
+      <li>A boundary is what you do the third time.</li>
+      <li>Stop dating potential.</li>
+      <li>You want to be wrong. I understand that.</li>
+      <li>Checking your phone isn't power.</li>
+      <li>He's telling you about his weather.</li>
+      <li>Words are free. Actions cost something.</li>
+      <li>You weren't stupid. You had bad information.</li>
+      <li>Real, but not reliable.</li>
+      <li>Ask what's different. Not what he feels.</li>
+      <li>You're not trying to stop loving people.</li>
+    </ol></div>
+  </div>
+</section>
+
+<section id="production">
+  <div class="shead"><span class="snum">06</span><h2>Producing it in Higgsfield</h2></div>
+  <p class="lede"><b>Generate each character separately and cut them together.</b> Soul takes one <code>soul_id</code> per generation, so the two-hander is never one shot — and that isn't a limitation to work around. The split <em>is</em> the format. They're never in the same room, and the hard cut between night and day is doing the work.</p>
+
+  <div class="tw"><table>
+    <thead><tr><th>Job</th><th>Model</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Chi talking-head</td><td class="num">seedance_2_5 + Chi's-voice</td><td>Your proven path — don't change what works</td></tr>
+      <tr><td class="k">Nia selfie-vlog</td><td class="num">seedance_2_0</td><td>What the Titanic set was made on; matches her established look</td></tr>
+      <tr><td class="k">Two-hander</td><td class="num">both, cut in post</td><td>One soul_id per generation</td></tr>
+      <tr><td class="k">Carousel stills</td><td class="num">nano_banana_pro / seedream_v4_5</td><td>Elements support multiple refs; Soul does not</td></tr>
+    </tbody>
+  </table></div>
+
+  <p class="lede" style="margin-top:26px"><b>Nia prompt scaffold.</b> The three parts that carry her identity are the specific location, the notebook action, and the "dry and warm" voice direction. Keep those and she holds; drop them and she drifts.</p>
+<pre>Handheld smartphone selfie-vlog footage, <b>&lt;LOCATION, TIME OF DAY, LIGHT&gt;</b>.
+
+NIA, the exact woman from the reference image — deep warm brown skin,
+waist-length jet-black water-wave curls, diamond studs, thin gold choker,
+<b>&lt;WARDROBE in camel / cream / taupe / gold&gt;</b> — <b>&lt;ACTION with the battered
+yellow spiral notebook&gt;</b>, speaking with accurate lip sync, warm low
+British-accented young female voice, dry and warm: "<b>&lt;SCRIPT&gt;</b>"
+
+<b>&lt;CLOSING BEAT — a look to lens, a written line, a half-smile.&gt;</b>
+
+Ambient audio: <b>&lt;2–3 real sounds for the location&gt;</b>. Photorealistic
+smartphone vlog look. Vertical 9:16. No visible on-screen text,
+captions, watermark or music.</pre>
+
+  <div class="shead" style="margin-top:44px"><span class="snum">06b</span><h2>Consistency traps</h2></div>
+  <div class="tw"><table>
+    <thead><tr><th>Trap</th><th>What happens</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Rings on Chi</td><td>Your own prior prompts fight this explicitly. It will recur — check every frame. She's unmarried; studs only.</td></tr>
+      <tr><td class="k">Chi's necklace</td><td>She wears none. The choker belongs to Nia and is a key identity separator.</td></tr>
+      <tr><td class="k">Nia's curl length</td><td>Waist-length. Models shorten it. State the length every time.</td></tr>
+      <tr><td class="k">The notebook</td><td><em>Battered, yellow, spiral.</em> A generic notebook kills the whole visual system.</td></tr>
+      <tr><td class="k">Nia's accent</td><td>Re-rolls without a locked voice element. The strongest argument for creating one.</td></tr>
+      <tr><td class="k">Burned-in captions</td><td>Every prompt says no on-screen text. Caption in the edit so you can revise a hook without regenerating.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="note"><b>Budget.</b> Week 1 is roughly 28 generations against a balance of ~1,571 credits — comfortable, with room to re-roll. Identity drift is the real cost driver, not volume, so budget 2–3 re-rolls per character-critical shot. Reels crop the top ~15% and bottom ~20% for UI: keep faces and text out of both.</div>
+</section>
+
+<section id="guardrails">
+  <div class="shead"><span class="snum">07</span><h2>Guardrails</h2></div>
+  <p class="lede">This audience is vulnerable and the offer makes claims easy to overstate. Check every script against this before it ships.</p>
+  <div class="rails">
+    <div class="rail">
+      <div class="no"><span class="lbl">Never</span><p>Any specific number of replies included in the $17 purchase</p><p class="why">Not yet confirmed. This is the one most likely to break by accident — it's the natural thing to put in a caption.</p></div>
+      <div class="yes"><span class="lbl">Instead</span><p>"Access to Let It Go is $17."</p></div>
+    </div>
+    <div class="rail">
+      <div class="no"><span class="lbl">Never</span><p>"Unlimited" · "as much as you need"</p><p class="why">The initial payment doesn't cover all future replies.</p></div>
+      <div class="yes"><span class="lbl">Instead</span><p>"Reply packs are there if you want to keep going — 50 for $7, 150 for $17. Use them at your own pace."</p></div>
+    </div>
+    <div class="rail">
+      <div class="no"><span class="lbl">Never</span><p>"Like therapy" · "your therapist in your pocket" · any implied human coach</p><p class="why">It is neither.</p></div>
+      <div class="yes"><span class="lbl">Instead</span><p>"An AI chat that talks it through with you." · "Somewhere to think it through."</p></div>
+    </div>
+    <div class="rail">
+      <div class="no"><span class="lbl">Never</span><p>"You'll finally get clarity" · "this will heal you" · "he'll come back if you…"</p><p class="why">No outcome promises, and never a relationship-outcome promise.</p></div>
+      <div class="yes"><span class="lbl">Instead</span><p>"A place to sort out what you actually want to do."</p></div>
+    </div>
+    <div class="rail">
+      <div class="no"><span class="lbl">Never</span><p>"Join" · "enroll" · "doors open" · "spots" — or inventing calls, courses, coaching or community features</p><p class="why">The membership isn't named, priced, dated or built.</p></div>
+      <div class="yes"><span class="lbl">Instead</span><p>"What's one standard you're ready to stop talking yourself out of?" — invite conversation, gather in the broadcast channel.</p></div>
+    </div>
+    <div class="rail">
+      <div class="no"><span class="lbl">Never</span><p>Clinical language — attachment style, trauma response, dysregulated, narcissist, love-bombing, avoidant</p><p class="why">Also: no claims about what he's thinking, no shaming anyone for staying or going back, no "should."</p></div>
+      <div class="yes"><span class="lbl">Instead</span><p>Plain words at roughly a sixth-grade level. Chi gives options, not orders.</p></div>
+    </div>
+  </div>
+
+  <div class="note" style="border-left-color:var(--nia-mark)"><b>The line that actually protects the brand.</b> If a script drifts toward <em>"don't let him treat you like that, block him, you're too good for him"</em> — it's off-brand. That's the revenge version of this genre and it's everywhere already. The Standard Society is the version where you still love him and choose yourself anyway. That's the harder, rarer, more useful thing, and it's the entire differentiator.</div>
+
+  <div class="note"><b>Comment section.</b> This audience will post real pain in your comments. Before week 1: decide who reads them and how often, have a warm holding reply ready, and know your line for "this needs more support than a comment reply" — with a real signpost ready, not a product link. Never reply to distress with a purchase prompt.</div>
+</section>
+
+<section id="next" style="border-bottom:none">
+  <div class="shead"><span class="snum">08</span><h2>Before you generate anything</h2></div>
+  <div class="next">
+    <div class="step"><div class="n">01</div><h4>Create Nia's Element</h4><p>Plus a voice element from the Titanic audio. Nothing else can start until her identity is locked.</p></div>
+    <div class="step"><div class="n">02</div><h4>Confirm the reply count</h4><p>How many replies come with the $17 purchase. It can't appear in a single caption, DM or Story frame until it's confirmed.</p></div>
+    <div class="step"><div class="n">03</div><h4>Build the Notebook Page</h4><p>The free lead magnet the whole comment-keyword funnel hands out.</p></div>
+    <div class="step"><div class="n">04</div><h4>Decide the AI disclosure</h4><p>Openly AI-made, or not. An audience that knows from day one is fine with it; one that finds out in month six is not.</p></div>
+    <div class="step"><div class="n">05</div><h4>Batch week 1</h4><p>7 Chi audio → 7 Chi video → 7 Nia, varying her location each time. Then the hero.</p></div>
+  </div>
+</section>
+
+<footer>
+  <span>The Standard Society · Instagram playbook · Chi &amp; Nia</span>
+  <span class="mono">22 SCRIPTS · 7 PILLARS · 30 HOOKS</span>
+</footer>
+</div>
+
+<script>
+(function(){
+  var sw = document.getElementById('themeSw');
+  sw.addEventListener('click', function(){
+    var cur = document.documentElement.getAttribute('data-theme');
+    if(!cur){ cur = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+    document.documentElement.setAttribute('data-theme', cur === 'dark' ? 'light' : 'dark');
+  });
+
+  var P = [
+    {pillar:'Hero', title:'Pinned Reel', sub:'Uses the existing Titanic footage. Only the two present-day shots are new.', scripts:[
+      {id:'H-1', name:'The Ship', meta:'~50s · hero', hero:true, body:[
+        {d:'Cut from the archive — deck, grey dawn, blanket, notebook.'},
+        {s:'n', t:['The ship was gorgeous.']},
+        {d:'Cut — grand staircase, descending, one hand on the banister.'},
+        {s:'n', t:['Heated pool. A gym. A café pretending to be in Paris.']},
+        {d:'Cut — bow at dusk, glancing up at the crow’s nest.'},
+        {s:'n', t:['The lookouts didn’t have binoculars. The key left the ship in someone’s pocket. I’m sure it’s fine.']},
+        {d:'Cut — boat deck, night, deck tilted, breath fogging.'},
+        {s:'n', t:['Seats for eleven hundred. Two thousand two hundred on board.','That was not in my notes.']},
+        {cut:'HARD CUT — NIGHT TO FULL DAYLIGHT'},
+        {s:'c', t:['That’s every relationship you’ve talked yourself into.','Beautiful on the surface. Numbers that never added up. And everyone around you saying it was unsinkable.','You weren’t stupid. You were on a beautiful ship with bad information.']},
+        {d:'Cut — Nia, present day, normal clothes, same yellow notebook, kitchen table.'},
+        {s:'n', t:['So now I write it down. While I’m still on the boat.']},
+        {s:'c', t:['That’s what this is. We’re not here to make you cold.','We’re here to make you honest — early.']},
+        {d:'END CARD — The Standard Society · Your needs matter'}
+      ], cta:'Start here.', kw:'BOAT'}
+    ]},
+    {pillar:'Pillar 1', title:'The urge to text, check, reconnect', sub:'"Should I text him?"', scripts:[
+      {id:'TH-1', name:'The Draft', meta:'~35s · two-hander', body:[
+        {d:'Nia: car, parked, night, phone lit. Chi: balcony, day.'},
+        {s:'n', t:['It’s 11:40. I have typed this message four times and deleted it four times. Current draft says "hey, hope you’re good."','Three words. Two hours.']},
+        {d:'Holds up the notebook.'},
+        {s:'n', t:['I wrote down what I actually wanted to say.','"I want you to miss me first."']},
+        {cut:'HARD CUT'},
+        {s:'c', t:['That’s not a text. That’s a need. And you’re allowed to have it.','But "hey, hope you’re good" at 11:40 won’t get it met. It’ll just get you a reply that keeps you waiting again.']},
+        {s:'n', t:['…so what do I do with it.']},
+        {s:'c', t:['Hold it. Not forever. Just tonight.','See if the wanting is about him, or about how quiet it is.']},
+        {d:'Nia writes: "Hold it. Just tonight."'}
+      ], cta:'If you’re deciding whether to send it, you can talk it through with Let It Go first.', kw:'DRAFT'},
+      {id:'N-1', name:'Day One Again', meta:'~22s · Nia', body:[
+        {d:'Kitchen, night, one lamp. Deadpan.'},
+        {s:'n', t:['Recap for everyone who said they were done.','Today I did not text him. I did check if he was online — twice. Watched his story, once. And typed his name into my search bar to make sure autocomplete still knew him.','It does.','Progress isn’t a straight line. But I didn’t send it. That counts.']},
+        {d:'Writes: "Day one. Again."'}
+      ], cta:'Day one again is still day one.', kw:'DRAFT'},
+      {id:'C-1', name:'The Check', meta:'~20s · Chi', body:[
+        {d:'Balcony. Direct, unhurried.'},
+        {s:'c', t:['You keep checking your phone. You already know there’s nothing there. So why do you keep looking?','Because checking feels like doing something. It feels like you still have a say.','But refreshing a screen isn’t power. Deciding what you’ll accept is.','You don’t have to delete his number today. Just notice how you feel right after you check. That’s information.']}
+      ], cta:'Comment if that was you today.', kw:'DRAFT'}
+    ]},
+    {pillar:'Pillar 2', title:'Mixed signals and inconsistent effort', sub:'"He’s so confusing."', scripts:[
+      {id:'TH-2', name:'The Maths', meta:'~33s · two-hander', body:[
+        {d:'Nia: walking home, handheld, streetlights. Chi: balcony.'},
+        {s:'n', t:['Good morning text. Three days in a row. Then nothing for six. Then a meme. Then nothing for four.']},
+        {d:'Lifts the notebook, slightly sheepish.'},
+        {s:'n', t:['I’ve started logging it. Which — yes. I hear how that sounds.']},
+        {cut:'HARD CUT'},
+        {s:'c', t:['Don’t do that. Don’t be embarrassed.','You made a record because your gut kept saying one thing and his words kept saying another.','The log isn’t crazy. The log is you finally believing yourself.']},
+        {s:'n', t:['The maths doesn’t add up.']},
+        {s:'c', t:['It never did. You were just doing it in your head, at night, on your own.','Now it’s on paper.']}
+      ], cta:'What did you finally write down?', kw:'TWICE'},
+      {id:'C-2', name:'Not Confusing', meta:'~20s · Chi', body:[
+        {d:'Balcony. Firm, warm.'},
+        {s:'c', t:['"He’s so confusing." He’s not confusing. He’s inconsistent.','And inconsistent is a pattern. It’s just a pattern you don’t like.','Confusing means you can’t tell. You can tell. You’ve told your friends. You’ve told yourself at 2am.','You just want to be wrong.','Watch what happens twice. Not what’s promised once.']}
+      ], cta:'Comment if you needed that.', kw:'TWICE'},
+      {id:'N-2', name:'The Binoculars', meta:'~18s · Nia · run after H-1', body:[
+        {d:'Selfie, walking, dry. Callback — only run once the hero is pinned.'},
+        {s:'n', t:['Fact about the Titanic: the lookouts had no binoculars. The key to the locker left the ship in someone’s pocket in Southampton.','Nobody was watching for the thing that sank them.','I think about that more than is probably healthy.','About how many times I had the information and just… didn’t look at it directly.']}
+      ], cta:'What did you already know?', kw:'TWICE'}
+    ]},
+    {pillar:'Pillar 3', title:'Missing someone while remembering why it hurt', sub:'"Why do I miss someone who kept disappointing me?"', scripts:[
+      {id:'TH-3', name:'Both Things', meta:'~32s · two-hander', body:[
+        {d:'Nia: in bed, low light, face bare, quiet. Chi: balcony, softer than usual.'},
+        {s:'n', t:['I miss him. Which is annoying, because I also remember crying in a supermarket car park because of him.','How are both of those true at once.']},
+        {cut:'HARD CUT'},
+        {s:'c', t:['Because you’re not missing him. You’re missing the version of him you got on the good days.','That version was real. It just wasn’t reliable.','You can grieve someone who was only sometimes good to you. That’s not weakness. That’s an accurate memory.']},
+        {d:'Nia writes: "Real, but not reliable."'}
+      ], cta:'If tonight’s one of those nights, you don’t have to sit in it on your own.', kw:'TUESDAY'},
+      {id:'N-3', name:'A Tuesday', meta:'~17s · Nia', body:[
+        {d:'Sofa, evening. Wry, and a little sad.'},
+        {s:'n', t:['Nobody tells you that you don’t miss the bad days. Obviously you don’t.','You miss one specific Tuesday.','He made my tea wrong and we laughed about it for twenty minutes. That’s it. That’s the whole memory.','I’m mourning a Tuesday.']}
+      ], cta:'What’s your Tuesday?', kw:'TUESDAY'},
+      {id:'C-3', name:'Missing Isn’t A Sign', meta:'~20s · Chi', body:[
+        {d:'Balcony. Steady.'},
+        {s:'c', t:['Missing someone is not a sign you should go back. It’s a sign you’re a person who loved someone.','Your body doesn’t know the difference between "he’s gone" and "something’s wrong." It just sounds the alarm.','That’s not your intuition telling you to text him. That’s your body asking to be comforted.','So comfort it. From someone who’s been consistent with you.']}
+      ], cta:'Go text them instead.', kw:'TUESDAY'}
+    ]},
+    {pillar:'Pillar 4', title:'Asking for what you need, without apologising', sub:'"Am I asking for too much?"', scripts:[
+      {id:'TH-4', name:'Sorry, I Know That’s A Lot', meta:'~34s · two-hander', body:[
+        {d:'Nia: bathroom mirror, getting ready. Chi: balcony.'},
+        {s:'n', t:['I asked him to text me back within a day. A day. Twenty-four hours.','And then I apologised for asking. In the same message. "Sorry, I know that’s a lot."']},
+        {cut:'HARD CUT'},
+        {s:'c', t:['It isn’t a lot. And here’s the part I really want you to hear —','the apology didn’t make it easier for him to say yes. It made it easier for him to say no.','When you shrink a need down to nothing, you’ve told him it’s fine to treat it like nothing.']},
+        {s:'n', t:['So how do I say it without the sorry.']},
+        {s:'c', t:['"I need a reply within a day. Can you do that?"','That’s it. That’s the whole sentence.']}
+      ], cta:'What’s the ask you keep apologising for?', kw:'FLOOR'},
+      {id:'N-4', name:'The Essay', meta:'~17s · Nia', body:[
+        {d:'At a desk, notebook open, exasperated with herself.'},
+        {s:'n', t:['I wrote a four-paragraph message explaining why I would like to be texted back.','Four paragraphs. With a preamble. I cited evidence.','Then I deleted it and sent "hey, can you reply to me a bit faster?" and he said "yeah, sorry."','Nine words. Nine.']}
+      ], cta:'You don’t need an essay. You need a sentence.', kw:'FLOOR'},
+      {id:'C-4', name:'Am I Asking Too Much', meta:'~19s · Chi', body:[
+        {d:'Balcony. Warm, almost amused.'},
+        {s:'c', t:['"Am I asking for too much?" Let’s actually check.','You want a reply. You want to know where you stand. You want plans that don’t get cancelled twice.','That’s not too much. That’s the floor.','So here’s the real question. Are you asking too much — or are you asking the wrong person?']}
+      ], cta:'Comment if you needed that one.', kw:'FLOOR'}
+    ]},
+    {pillar:'Pillar 5', title:'Boundaries, and following through', sub:'"He came back. Does that mean something changed?"', scripts:[
+      {id:'TH-5', name:'He Came Back', meta:'~33s · two-hander', body:[
+        {d:'Nia: car, daytime, phone face-up on her knee. Chi: balcony.'},
+        {s:'n', t:['He’s back. Three weeks of nothing, and then "I’ve been thinking about you."','And my whole chest did a thing.']},
+        {cut:'HARD CUT'},
+        {s:'c', t:['I know. That feeling is real, and you don’t have to pretend it isn’t.','But "I’ve been thinking about you" isn’t a plan. It’s a feeling he had. He’s telling you about his weather.','Ask him what’s different. Not what he feels — what’s different.','If there’s no answer, you already have your answer.']},
+        {d:'Nia writes: "What’s different?"'}
+      ], cta:'If he’s come back and you’re not sure what to say, you can think it through with Let It Go first.', kw:'DIFFERENT'},
+      {id:'N-5', name:'Day Seven', meta:'~18s · Nia', body:[
+        {d:'Walking, coat on. Honest.'},
+        {s:'n', t:['I held a boundary for six days. On day seven I nearly folded because he posted a photo where he looked a bit sad.','Sad! In a photo! That he chose! And posted!','I didn’t fold. But I want you to know it was close.','It’s always closer than it looks from the outside.']}
+      ], cta:'Day seven is the hard one. What day are you on?', kw:'DIFFERENT'},
+      {id:'C-5', name:'The Third Time', meta:'~19s · Chi', body:[
+        {d:'Balcony. Slow, deliberate.'},
+        {s:'c', t:['A boundary isn’t the sentence you say. It’s what you do the third time he tests it.','The first time, you’re telling him. The second time, he’s testing.','The third time — that’s him telling you.','You don’t have to explain it again. You just have to mean it once.']}
+      ], cta:'Comment if you’re on your third time.', kw:'DIFFERENT'}
+    ]},
+    {pillar:'Pillar 6', title:'Choosing based on consistent actions', sub:'"But he says he loves me."', scripts:[
+      {id:'TH-6', name:'Two Lists', meta:'~34s · two-hander', body:[
+        {d:'Nia: kitchen table, notebook open, two columns visible. Chi: balcony.'},
+        {s:'n', t:['I made a list of everything he said he’d do. Then a list of what he actually did.','The second list is shorter. Much shorter. Embarrassingly—']},
+        {cut:'HARD CUT'},
+        {s:'c', t:['No. Don’t.','You are about to be embarrassed for keeping a record of the truth.','Words are free. Anyone can say a nice thing on a Thursday.','Actions cost him something. Time. Effort. Changing a plan he’d rather keep.','Look at what he’s willing to spend. Not what he’s willing to say.']},
+        {s:'n', t:['The second list is still shorter.']},
+        {s:'c', t:['Then you know.']}
+      ], cta:'What’s on your second list?', kw:'LIST'},
+      {id:'N-6', name:'Beautiful Ship', meta:'~13s · Nia · strongest short', body:[
+        {d:'Selfie, coat, outside. Deadpan. Run this one twice.'},
+        {s:'n', t:['He was so impressive on paper. Good job. Good flat. Took me somewhere with cloth napkins.','Beautiful ship. Genuinely. Ten out of ten ship.','Not enough lifeboats.']}
+      ], cta:'Impressive and safe are not the same thing.', kw:'LIST'},
+      {id:'C-6', name:'The Tuesday Test', meta:'~21s · Chi', body:[
+        {d:'Balcony. Even, certain.'},
+        {s:'c', t:['Stop dating potential. Potential is a story you’re telling yourself about a person who hasn’t happened yet.','You can’t build anything on who someone could be if they felt like it. You build on what they’ve already done — twice, three times, when it was inconvenient.','So watch the boring stuff. Does he show up on a Tuesday, when nothing’s happening and there’s nothing to win?','That’s the whole test.']}
+      ], cta:'Comment if you’re done dating potential.', kw:'LIST'}
+    ]},
+    {pillar:'Pillar 7', title:'Practising standards in everyday life', sub:'The bridge to the future membership — interest, never enrollment.', scripts:[
+      {id:'TH-7', name:'The Soup', meta:'~31s · two-hander', body:[
+        {d:'Nia: restaurant table, phone propped, whispering. Chi: balcony.'},
+        {s:'n', t:['I sent food back today.','That’s the whole update. It was cold. I said it was cold. They took it back. Nobody died.']},
+        {cut:'HARD CUT'},
+        {s:'c', t:['That’s not a small thing. That’s the same muscle.','The part of you that says "it’s fine, I’ll eat it cold" is the same part that says "it’s fine, he’ll text back eventually."','You just practised. In a restaurant. Where it was safe to.','Standards aren’t a personality you buy. They’re a thing you do on a Wednesday, about soup.']}
+      ], cta:'What’s one standard you’re ready to stop talking yourself out of?', kw:'SOUP'},
+      {id:'N-7', name:'Logistics', meta:'~18s · Nia', body:[
+        {d:'Sofa, notebook on knee. Amused at herself.'},
+        {s:'n', t:['Someone asked what my standards are now and I panicked and said "kindness," like I was in a pageant.','What I actually meant was: I want to know when I’m seeing you next. I want you to remember the thing I told you on Tuesday. I want to stop checking my phone like it’s a job.','So it turns out my standards are just… logistics. And being remembered.']}
+      ], cta:'What are yours, in plain words?', kw:'SOUP'},
+      {id:'C-7', name:'Not Cold', meta:'~20s · Chi · brand thesis', body:[
+        {d:'Balcony. The warmest one.'},
+        {s:'c', t:['Raising your standards doesn’t mean going cold. It doesn’t mean games, or pretending you don’t care.','You can care about someone all the way and still say "not like this."','Those aren’t opposites. That’s the whole skill.','You’re not trying to stop loving people.','You’re trying to stop abandoning yourself while you do it.']}
+      ], cta:'That last line’s yours if you need it. Save this one.', kw:'SOUP'}
+    ]}
+  ];
+
+  function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  var html = '';
+  P.forEach(function(g){
+    html += '<div class="pillar"><div class="eyebrow">'+esc(g.pillar)+'</div><h3>'+esc(g.title)+'</h3><p class="psub">'+esc(g.sub)+'</p><div class="scripts">';
+    g.scripts.forEach(function(s){
+      html += '<article class="scr'+(s.hero?' hero':'')+'">';
+      html += '<div class="scrhead"><span class="scrid">'+esc(s.id)+'</span><h4>'+esc(s.name)+'</h4><span class="meta">'+esc(s.meta)+'</span></div>';
+      html += '<div class="scrbody">';
+      s.body.forEach(function(b){
+        if(b.cut){ html += '<div class="cut"><span>'+esc(b.cut)+'</span></div>'; return; }
+        if(b.d){ html += '<p class="dir">'+esc(b.d)+'</p>'; return; }
+        html += '<div class="ln '+b.s+'"><span class="spk">'+(b.s==='n'?'Nia':'Chi')+'</span>';
+        b.t.forEach(function(t){ html += '<p>'+esc(t)+'</p>'; });
+        html += '</div>';
+      });
+      html += '</div>';
+      html += '<div class="scrfoot"><span class="cta"><b>CTA</b> · '+esc(s.cta)+'</span><span class="kwtag">'+esc(s.kw)+'</span></div>';
+      html += '</article>';
+    });
+    html += '</div></div>';
+  });
+  document.getElementById('scriptMount').innerHTML = html;
+})();
+</script>
