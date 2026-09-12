@@ -22,8 +22,8 @@ Current offer: the **Let It Go Interactive Guide**, $17.
 so every new generation risks drifting into a different person. Create the Element and a
 voice element first — exact call in `04-higgsfield-production.md` §1.
 
-## Standing assumption
+## Positioning
 
-The Standard Society is the audience-facing brand and sells Let It Go. Munch Studio is the
-production engine and gets a credit layer plus a proof-of-tool track, not the main feed.
-If Munch Studio is the product being sold, the funnel inverts.
+The Standard Society is the audience-facing brand: it runs the account, holds the community,
+and sells Let It Go. Munch Studio is the production engine and gets a credit layer plus a
+proof-of-tool track, never the main feed.

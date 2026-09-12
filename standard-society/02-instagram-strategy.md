@@ -1,6 +1,8 @@
 # Instagram Strategy — The Standard Society
 
-> **Working assumption (say the word and I'll flip it):** The Standard Society is the audience-facing brand. It runs the account, holds the community, and sells the $17 *Let It Go Interactive Guide*. **Munch Studio is the production engine** — it gets a credit layer and a proof-of-tool track (§9), not the main feed. If Munch Studio is actually the product being sold to creators, the funnel in §4 inverts and I'll rebuild it.
+> **Positioning (confirmed):** The Standard Society is the audience-facing brand. It runs the account, holds the community, and sells the $17 *Let It Go Interactive Guide*. **Munch Studio is the production engine** — it gets a credit layer and a proof-of-tool track (§9), never the main feed.
+>
+> Everything below is written for the woman deciding whether to text him at 11:40pm. She is the reader of every caption, every DM, every Story frame. Creators are a secondary audience served quietly in §9, and no post is ever written for both at once.
 
 ---
 
