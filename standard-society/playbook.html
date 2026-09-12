@@ -260,8 +260,8 @@ section[id]{scroll-margin-top:56px}
       <div class="tags"><span class="tag">yellow notebook</span><span class="tag">camel / cream / gold</span><span class="tag">gold choker</span><span class="tag">deadpan</span></div>
       <dl class="spec">
         <div><dt>Reference</dt><dd class="id">362ecc5e-b110-4855-9334-5717c4082e08</dd></div>
-        <div><dt>Element</dt><dd><span class="missing">⚠ NOT CREATED</span></dd></div>
-        <div><dt>Voice</dt><dd><span class="missing">⚠ NOT CREATED</span></dd></div>
+        <div><dt>Element</dt><dd class="id">bcd528d3-9756-4190-ba80-4aaae881f2b2</dd></div>
+        <div><dt>Voice</dt><dd><span class="missing">⚠ MUST BE CLONED</span></dd></div>
         <div><dt>Footage</dt><dd>4 × Titanic vlog · seedance_2_0</dd></div>
       </dl>
     </div>
@@ -279,8 +279,9 @@ section[id]{scroll-margin-top:56px}
   </div>
 
   <div class="block">
-    <h3>Blocker — Nia has no Element</h3>
-    <p>She exists only as text inside four old Titanic prompts, which means every new generation risks drifting into a different woman. Create the Element <em>and</em> a voice element from the Titanic audio before producing anything — without the voice lock her British accent re-rolls on every clip and the character won't hold across posts.</p>
+    <h3>Her voice doesn't exist as an asset</h3>
+    <p>The Element is created. The voice is a different problem, and worse than a missing file. All four Titanic generations passed a single image and nothing else — no audio input, no voice element, no <code>voice</code> parameter. Seedance 2.0 synthesised that voice on the fly from one line of prompt text: <em>"warm low British-accented young female voice, dry and warm."</em></p>
+    <p style="margin-top:10px">So the voice you want exists nowhere except baked into four MP4 audio tracks. Re-running the prompt gives a <em>similar</em> voice, not the same one — which is exactly the drift that kills a character posting daily. To keep it, clone it back out of the dawn recap clip (calmest ambient bed, driest delivery), then move Nia onto the same audio-first pipeline Chi already uses. Full procedure in the production notes.</p>
   </div>
 
   <div class="canon">
@@ -334,8 +335,8 @@ section[id]{scroll-margin-top:56px}
   <p class="lede">No hard pitch ever goes in a Reel. The comment keyword does the work, and the DM is where the offer lives.</p>
   <div class="funnel">
     <div class="frow"><div class="fdot">1</div><div class="fbody"><h4>Reel</h4><p>"Comment <b>DRAFT</b> and I'll send you the questions." Reach, and a sorted signal of what she's struggling with.</p></div></div>
-    <div class="frow hot"><div class="fdot">2</div><div class="fbody"><h4>The Notebook Page — free</h4><p>One page styled as a torn sheet from Nia's yellow notebook. Five questions to work through before you send the message. Costs nothing, instantly on-brand, makes $17 feel like the next step rather than a leap. <b>New asset — build before launch week.</b></p></div></div>
-    <div class="frow hot"><div class="fdot">3</div><div class="fbody"><h4>Let It Go Interactive Guide</h4><p class="price">$17</p><p>Somewhere to think it through in the moment between the urge and the action.</p></div></div>
+    <div class="frow hot"><div class="fdot">2</div><div class="fbody"><h4>The auto-DM — the free thing</h4><p>No lead magnet, no download, no asset to build. The DM opens with the actual help — the three questions, the two-column exercise, the one-sentence ask — and she gets something usable before any mention of a price.</p><p style="margin-top:6px">This is better than a freebie, not a compromise. A PDF asks her to leave Instagram, open a file, and remember she has it; at 11:40pm she won't. Eight templates, one per keyword — the highest-leverage copy in the funnel, since every sale passes through one.</p></div></div>
+    <div class="frow hot"><div class="fdot">3</div><div class="fbody"><h4>Let It Go Interactive Guide</h4><p class="price">$17 to get in · 100 replies to start</p><p>Somewhere to think it through in the moment between the urge and the action.</p></div></div>
     <div class="frow"><div class="fdot">4</div><div class="fbody"><h4>Reply packs</h4><p class="price">50 / $7 · 150 / $17 · use at your own pace</p></div></div>
     <div class="frow"><div class="fdot">5</div><div class="fbody"><h4>Broadcast channel — "Notes from the Standard"</h4><p>Free, owned, escapes the algorithm. Weekly, in Nia's voice, one page from the notebook. The correct home for membership warming — genuine interest, without ever implying enrollment is open.</p></div></div>
   </div>
@@ -416,7 +417,7 @@ section[id]{scroll-margin-top:56px}
     <thead><tr><th>Job</th><th>Model</th><th>Why</th></tr></thead>
     <tbody>
       <tr><td class="k">Chi talking-head</td><td class="num">seedance_2_5 + Chi's-voice</td><td>Your proven path — don't change what works</td></tr>
-      <tr><td class="k">Nia selfie-vlog</td><td class="num">seedance_2_0</td><td>What the Titanic set was made on; matches her established look</td></tr>
+      <tr><td class="k">Nia selfie-vlog</td><td class="num">seedance_2_0 + Nia's-voice</td><td>Audio first, then video — the same two-step Chi already uses</td></tr>
       <tr><td class="k">Two-hander</td><td class="num">both, cut in post</td><td>One soul_id per generation</td></tr>
       <tr><td class="k">Carousel stills</td><td class="num">nano_banana_pro / seedream_v4_5</td><td>Elements support multiple refs; Soul does not</td></tr>
     </tbody>
@@ -445,7 +446,7 @@ captions, watermark or music.</pre>
       <tr><td class="k">Chi's necklace</td><td>She wears none. The choker belongs to Nia and is a key identity separator.</td></tr>
       <tr><td class="k">Nia's curl length</td><td>Waist-length. Models shorten it. State the length every time.</td></tr>
       <tr><td class="k">The notebook</td><td><em>Battered, yellow, spiral.</em> A generic notebook kills the whole visual system.</td></tr>
-      <tr><td class="k">Nia's accent</td><td>Re-rolls without a locked voice element. The strongest argument for creating one.</td></tr>
+      <tr><td class="k">Nia's accent</td><td>Re-rolls on every single generation until the voice element exists. This is the one that quietly ruins the character — a viewer won't articulate it, she'll just stop believing Nia is a person.</td></tr>
       <tr><td class="k">Burned-in captions</td><td>Every prompt says no on-screen text. Caption in the edit so you can revise a hook without regenerating.</td></tr>
     </tbody>
   </table></div>
@@ -457,8 +458,8 @@ captions, watermark or music.</pre>
   <p class="lede">This audience is vulnerable and the offer makes claims easy to overstate. Check every script against this before it ships.</p>
   <div class="rails">
     <div class="rail">
-      <div class="no"><span class="lbl">Never</span><p>Any specific number of replies included in the $17 purchase</p><p class="why">Not yet confirmed. This is the one most likely to break by accident — it's the natural thing to put in a caption.</p></div>
-      <div class="yes"><span class="lbl">Instead</span><p>"Access to Let It Go is $17."</p></div>
+      <div class="no"><span class="lbl">Never</span><p>The 100 replies and the 150-for-$17 pack in the same frame</p><p class="why">The count itself is confirmed and safe to state. The framing is the live risk: 150 for $17 is better per-reply value, so side by side the entry offer reads as the bad deal.</p></div>
+      <div class="yes"><span class="lbl">Instead</span><p>"$17 to get in, 100 replies to start." Sell the way in; sell packs later, to someone who has used their hundred.</p></div>
     </div>
     <div class="rail">
       <div class="no"><span class="lbl">Never</span><p>"Unlimited" · "as much as you need"</p><p class="why">The initial payment doesn't cover all future replies.</p></div>
@@ -490,9 +491,9 @@ captions, watermark or music.</pre>
 <section id="next" style="border-bottom:none">
   <div class="shead"><span class="snum">08</span><h2>Before you generate anything</h2></div>
   <div class="next">
-    <div class="step"><div class="n">01</div><h4>Create Nia's Element</h4><p>Plus a voice element from the Titanic audio. Nothing else can start until her identity is locked.</p></div>
-    <div class="step"><div class="n">02</div><h4>Confirm the reply count</h4><p>How many replies come with the $17 purchase. It can't appear in a single caption, DM or Story frame until it's confirmed.</p></div>
-    <div class="step"><div class="n">03</div><h4>Build the Notebook Page</h4><p>The free lead magnet the whole comment-keyword funnel hands out.</p></div>
+    <div class="step"><div class="n">01</div><h4>Clone Nia's voice</h4><p>Her Element is done. The voice has to come back out of the Titanic footage — nothing else reproduces it, and every clip re-rolls until it exists.</p></div>
+    <div class="step"><div class="n">02</div><h4>Load the eight DMs</h4><p>One per comment keyword. With no lead magnet, these are both the free thing and the only conversion copy you have.</p></div>
+    <div class="step"><div class="n">03</div><h4>Watch the pack framing</h4><p>100 replies is confirmed and safe to state. Never put it beside the 150-for-$17 pack — the top-up is better value and the comparison makes the entry look bad.</p></div>
     <div class="step"><div class="n">04</div><h4>Decide the AI disclosure</h4><p>Openly AI-made, or not. An audience that knows from day one is fine with it; one that finds out in month six is not.</p></div>
     <div class="step"><div class="n">05</div><h4>Batch week 1</h4><p>7 Chi audio → 7 Chi video → 7 Nia, varying her location each time. Then the hero.</p></div>
   </div>

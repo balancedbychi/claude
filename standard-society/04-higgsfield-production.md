@@ -1,40 +1,73 @@
 # Higgsfield Production Notes
 
-Everything needed to turn the scripts into assets. **Read §1 first — it's a blocker.**
+Everything needed to turn the scripts into assets. **Read §1 first — it's the one real blocker left.**
 
 ---
 
-## 1. BLOCKER — Nia has no Element
+## 1. Nia's voice — the thing that isn't what it looks like
 
-Chi is ready. Nia is not. She exists only as text inside four old Titanic prompts, which means every new Nia generation currently risks drifting into a different woman.
+Her Element is done: `bcd528d3-9756-4190-ba80-4aaae881f2b2`.
 
-**Fix before producing anything:**
+Her **voice is a different problem, and worse than a missing asset.** All four Titanic
+generations passed a single image and nothing else — no audio input, no voice element, no
+`voice` parameter. Seedance 2.0 synthesised that voice on the fly from one line of prompt text:
+
+> *"speaking with accurate lip sync, warm low British-accented young female voice, dry and warm"*
+
+So the voice you want **does not exist as an asset anywhere.** It exists only baked into the
+audio tracks of those four MP4s. Nothing in the workspace can reproduce it, and re-running the
+same prompt gives a *similar* voice, not the same one — which is exactly the drift that kills a
+recurring character posting daily.
+
+### To solidify it
+
+This has to happen on your machine — this session's network policy blocks the Higgsfield CDN,
+so I can't pull the MP4s down and extract the audio here.
+
+1. **Download the source clip.** Best candidate is the dawn recap, generation
+   `0ebb7644-76dd-497b-a818-d5526b421ee5` — calmest ambient bed (gulls and a low engine thrum),
+   longest continuous speech, and the driest delivery, which is the register you want locked.
+   Avoid the lifeboat clip (`8ebe04a8`): hissing steam and shouted orders will poison the clone.
+   Avoid the staircase clip (`66d2b6e1`) too — a string quartet is tonal and very hard to separate.
+2. **Extract the audio** to WAV or MP3. QuickTime → Export As → Audio Only works; so does
+   `ffmpeg -i nia.mp4 -vn -acodec pcm_s16le -ar 44100 nia_voice.wav`.
+3. **Trim to speech only.** Cut the silent head and tail. Cloning wants 10s–3min of clear speech;
+   the dawn clip gives roughly 15–18s, which is enough but not generous.
+4. **Clone it** in the Create Voice widget (upload tab), named `Nia's-voice`.
+5. **Verify before batching.** Generate one short line and listen. A clone off AI-generated audio
+   with an ambient bed can come back thin or with artefacts baked in.
+
+### Two things to check first
+
+**Do the four clips actually sound like the same person?** Seedance rolls the voice per
+generation, so they may not be identical. Play them back to back. If they match, you can
+concatenate the speech from all four for ~60s of source material and get a stronger clone. If
+they don't, use the dawn clip alone — blending four near-misses produces a mushy average that
+sounds like none of them.
+
+**If the clone comes back weak,** the fallback is to pick the best Seedance roll you can get from
+a fresh clean-room generation — Nia in a quiet interior, prompt ending *"no ambient audio, no
+music, no background noise"* — and clone from that instead. You lose the exact Titanic voice, but
+you gain a locked one, and locked beats identical-once.
+
+### Why this is worth the trouble
+
+Once `Nia's-voice` exists, Nia moves onto the same pipeline Chi already uses, and that's a real
+upgrade over what the Titanic clips did:
 
 ```
-show_reference_elements
-  action:   create
-  name:     Nia
-  category: character
-  medias:   [{ id:   "362ecc5e-b110-4855-9334-5717c4082e08",
-                type: "image_job",
-                url:  "https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20260828_081057_362ecc5e-b110-4855-9334-5717c4082e08.png" }]
-  description: >
-    Recurring character Nia. Young adult woman, deep warm brown skin, waist-length
-    jet-black water-wave curls, diamond stud earrings, thin gold choker. Preserve exact
-    facial identity, complexion, curl pattern and length, apparent age, and natural body
-    proportions across all content. Wardrobe palette is camel, cream, taupe and gold.
-    Signature prop: a battered yellow spiral notebook. Voice is warm, low, British-accented,
-    dry and deadpan. Hair colour and clothing may change only on explicit request; face,
-    age, complexion and identity never change.
+generate_audio (seed_audio + Nia's-voice element)  →  @Audio1
+        ↓
+generate_video (seedance + Nia Element + @Audio1, lip-sync every word)
 ```
 
-Then verify with one test still before committing to a batch.
-
-**Also worth creating:** a **Nia voice element** from the Titanic audio, so her British delivery is locked the way Chi's is. Without it, every generation re-rolls her accent and the character won't hold across posts.
+Identical voice every post, delivery you can tune with `speech_rate`, and script edits that don't
+require re-rolling the video. Until then, every Nia clip is a fresh roll of the dice.
 
 ---
 
 ## 2. Asset register
+
 
 | Asset | Type | ID |
 |---|---|---|
@@ -43,8 +76,8 @@ Then verify with one test still before committing to a batch.
 | Chi — Voice | voice element | `b07beaa5-2b64-4f21-926d-050fd952b8a6` |
 | Chi — Alt voice | voice element | `180fdb9a-7c0b-469e-be49-3f76692a3968` |
 | Nia — Reference | image_job | `362ecc5e-b110-4855-9334-5717c4082e08` |
-| Nia — Element | — | ⚠️ create it |
-| Nia — Voice | — | ⚠️ create it |
+| Nia — Element | character | `bcd528d3-9756-4190-ba80-4aaae881f2b2` ✅ |
+| Nia — Voice | — | ⚠️ clone from Titanic audio — §1 |
 | Titanic footage | 4 × `seedance_2_0` | `0ebb7644…` `66d2b6e1…` `d8600d66…` `8ebe04a8…` |
 
 ---
@@ -54,7 +87,7 @@ Then verify with one test still before committing to a batch.
 | Job | Model | Why |
 |---|---|---|
 | Chi balcony talking-head | `seedance_2_5` + `Chi's-voice` audio | Your proven path. Don't change what works. |
-| Nia selfie-vlog | `seedance_2_0` | What the Titanic set was made on — matches her established look. |
+| Nia selfie-vlog | `seedance_2_0` + `Nia's-voice` audio | Same pipeline as Chi, once the voice is cloned. Native Seedance voice only as a stopgap — it re-rolls every clip. |
 | Two-hander | Generate each character **separately**, cut together | Soul takes one `soul_id` per generation. Never try to put both in one shot. |
 | Carousel stills | `nano_banana_pro` / `seedream_v4_5` with Element placeholders | Elements support multiple refs; Soul does not. |
 
@@ -125,7 +158,7 @@ The pieces that carry her identity are the **specific location**, the **notebook
 | Batch | Contents | Notes |
 |---|---|---|
 | **A** | Chi × 7 (C-1…C-7) | One audio track per script first, then video. Same balcony, same wardrobe — highest consistency, cheapest run. |
-| **B** | Nia × 7 (N-1…N-7) | **Vary location per script.** Seven identical-looking Nia posts read as lazy on the grid. |
+| **B** | Nia × 7 (N-1…N-7) | Audio first, then video — same two-step as Chi. **Vary location per script;** seven identical-looking Nia posts read as lazy on the grid. |
 | **C** | Two-hander halves × 14 | Generate Nia halves and Chi halves, cut in post. |
 | **D** | H-1 | Only the two present-day shots are new — the Titanic thirds are archive. |
 
@@ -139,7 +172,7 @@ Chi's audio is a separate `seed_audio` generation using her voice element, fed i
 - **Chi's necklace.** She wears none. The choker belongs to Nia and is a key identity separator.
 - **Nia's curl length.** Waist-length. Models shorten it. State the length every time.
 - **The notebook.** *Battered*, *yellow*, *spiral*. Generic notebooks kill the visual system.
-- **Nia's accent.** Re-rolls without a locked voice element. This is the strongest argument for creating one.
+- **Nia's accent.** Re-rolls on every single generation until the voice element exists. This is the one that will quietly ruin the character — a viewer won't articulate it, she'll just stop believing Nia is a person.
 - **Burned-in captions.** Every prompt says no on-screen text. Add captions in the edit so you can revise the hook without regenerating.
 
 ---

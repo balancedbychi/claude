@@ -47,11 +47,13 @@ Critically: **Chi never judges Nia, and Nia never gets fixed.** Nia keeps strugg
 
 ## NIA — "the one still on the ship"
 
-**Higgsfield assets** — ⚠️ **No Element exists yet. Create it before any production.**
+**Higgsfield assets**
 
 | Asset | ID |
 |---|---|
+| **Element** | `bcd528d3-9756-4190-ba80-4aaae881f2b2` ✅ created |
 | Canonical reference (image_job) | `362ecc5e-b110-4855-9334-5717c4082e08` |
+| Voice element | ⚠️ see production notes §1 — must be cloned from the Titanic audio |
 | Reference URL | `https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20260828_081057_362ecc5e-b110-4855-9334-5717c4082e08.png` |
 | Existing footage | 4 Titanic vlogs, `seedance_2_0` |
 

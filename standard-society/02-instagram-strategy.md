@@ -54,8 +54,8 @@ Pillar 7 is the bridge to the future membership. It's the smallest slice now and
 ```
 REEL (reach)
   └─ "Comment DRAFT and I'll send you the questions"
-       └─ AUTO-DM: the Notebook Page (free) + one line about Let It Go
-            └─ LET IT GO — $17
+       └─ AUTO-DM: the help itself, then one line about Let It Go
+            └─ LET IT GO — $17 · 100 replies to start
                  └─ Reply packs — 50/$7 · 150/$17
                       └─ BROADCAST CHANNEL
                            └─ Membership interest list
@@ -65,7 +65,9 @@ REEL (reach)
 
 `DRAFT` (urge to text) · `TWICE` (mixed signals) · `TUESDAY` (missing him) · `FLOOR` (asking) · `DIFFERENT` (he came back) · `LIST` (actions vs words) · `SOUP` (everyday standards)
 
-**The lead magnet — "The Notebook Page."** One page, styled as a torn sheet from Nia's yellow notebook. Five questions to work through before you send the message. It costs nothing, it's instantly on-brand, and it makes $17 feel like the obvious next step rather than a leap. *This is a new asset — build it before launch week.*
+**There is no lead magnet — the DM is the free thing.** No download, no landing page, no asset to build. The auto-DM opens with the actual help: the three questions, the two-column exercise, the one-sentence ask. She gets something usable in the first four lines, before any mention of a price.
+
+This is better than a freebie, not a compromise. A PDF asks her to leave Instagram, open a file, and remember she has it — at 11:40pm, she won't. A DM that helps her right there costs nothing to make, can't go stale, and keeps the brief's promise that people get something useful even when they never buy. The seven templates are in `06-dm-templates.md`; they are now the highest-leverage copy in the whole funnel, since every sale passes through one.
 
 **Stories are where the money is.** Reels get discovered; Stories convert. Daily: one poll or question sticker, one Nia moment, one link frame. The link frame only lands after the other two have earned it.
 
@@ -118,7 +120,7 @@ Talk it through before you send the text ↓
 ## 7. The first 30 days
 
 **Week 1 — Establish the world.**
-Open with the Ship hero (H-1). Everything else inherits its metaphor. Introduce Nia solo, then Chi solo, then the first two-hander. No selling. Get the comment keyword habit started with the free Notebook Page only.
+Open with the Ship hero (H-1). Everything else inherits its metaphor. Introduce Nia solo, then Chi solo, then the first two-hander. No selling. Get the comment keyword habit started early — the DM does the giving, so there's nothing to build first.
 
 **Week 2 — Prove the format.**
 Two-handers every other day. First *Let It Go* mentions, always as a soft CTA inside the moment, never a hard pitch. Start Stories polls to build the DM habit.

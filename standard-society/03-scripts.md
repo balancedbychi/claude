@@ -54,7 +54,7 @@ Stage directions in *italics*. Every script ends with its comment keyword.
 **END CARD:** *The Standard Society · Your needs matter*
 
 **Caption:** Start here. 🚢📓
-**Keyword:** comment **BOAT** for the notebook page.
+**Keyword:** comment **BOAT** for the six lines.
 
 ---
 

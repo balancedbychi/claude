@@ -8,7 +8,8 @@ Check every script against this before it ships. These come directly from the br
 
 | Never say | Why | Say instead |
 |---|---|---|
-| Any specific number of replies included in the **$17 purchase** | **Not yet confirmed.** Do not state it anywhere until it is. | "Access to Let It Go is $17." |
+| ~~Any number of replies in the $17 purchase~~ — **now confirmed at 100** | Cleared. Safe to state. | "$17 to get in, 100 replies to start." |
+| The initial 100 and the 150-pack in the same frame | 150 for $17 is better per-reply value than 100 for $17. Side by side, the entry offer looks like the bad deal. | Lead with access, not arithmetic. Packs are a separate, later beat — never the same sentence, caption or Story frame. |
 | "Unlimited" / "as much as you need" | The initial payment does not cover all future replies | "Reply packs are there if you want to keep going — 50 for $7, 150 for $17." |
 | "Expires in 30 days" / any use window | There is no window | "Use them at your own pace." |
 | "It's like therapy" / "your therapist in your pocket" | It is not therapy | "Somewhere to think it through." |
@@ -16,7 +17,7 @@ Check every script against this before it ships. These come directly from the br
 | "You'll finally get clarity" / "this will heal you" | No outcome promises | "A place to sort out what you actually want to do." |
 | "He'll come back if you…" | No relationship-outcome promises. Ever. | *Nothing. Don't go near it.* |
 
-**The reply-count rule is the one most likely to get broken by accident** — it's the natural thing to put in a caption. Confirm the number before it appears in a single asset, caption, DM template, or Story frame.
+**The live risk is now the framing, not the number.** 100 replies is confirmed and safe to state. What will hurt you is putting it next to the 150-for-$17 pack, because the top-up is better value per reply and the comparison makes the entry point look bad. Sell the way in; sell the packs later, to someone who has already used their hundred and wants more.
 
 ## The membership
 
