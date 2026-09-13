@@ -117,7 +117,12 @@ you get it on every b-roll clip from then on. One clip, 36 credits, to find out.
 ## 5. What's already paid for
 
 - **Nia — Element** `bcd528d3-9756-4190-ba80-4aaae881f2b2` · free
-- **Nia — Voice** `dd584c39-32f1-49b5-a526-5e30651364be` · 40, spent
+- **Nia — Voice v1** · 40, spent — muffled, deleted
+- **Nia — Voice v2** `12315c68-37de-41fe-8766-76ac07bcaf70` · 40, spent — restored source, the one in use
+
+The first clone cost 40 credits and was discarded. That's the price of cloning from raw Seedance
+audio, and the reason production notes §1b now says never to do it: **restore first, and check f0
+across clips before combining them.** Budget one clone per character, not two.
 - **Chi — Soul, Element, Voice** · already in the workspace
 - **Titanic footage** — four clips, already rendered. The hero Reel needs only two new present-day
   shots, so it costs roughly 2 × 45 rather than a full 50-second render.

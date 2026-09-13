@@ -24,12 +24,13 @@ Current offer: the **Let It Go Interactive Guide**, $17.
 
 Nia's **Element is created** — `bcd528d3-9756-4190-ba80-4aaae881f2b2`.
 
-Her **voice is cloned** — `dd584c39-32f1-49b5-a526-5e30651364be`. It had to be, because the
+Her **voice is cloned** — `12315c68-37de-41fe-8766-76ac07bcaf70` (`Nia-voice-v2-clear`). It had to be, because the
 Titanic clips passed no audio and no voice element: Seedance 2.0 synthesised that voice from the
 text description in the prompt, so it existed nowhere except baked into four MP4 audio tracks.
 
-If it sounds muffled, work the ladder in `04-higgsfield-production.md` §1b before re-cloning —
-sample rate and loudness cost about two credits to test; a re-clone costs forty.
+The first clone came back muffled. `04-higgsfield-production.md` §1b has the measured diagnosis
+and the restoration chain that fixed it, plus the two rules that follow: never clone from raw
+Seedance audio, and always check f0 across clips before combining them.
 
 ## Positioning
 

@@ -138,6 +138,39 @@ Pitch and pitch range are identical, and warmth moved 1.2 dB. **The tone is the 
 only the missing top was restored.** That is the whole requirement: add what was absent, touch
 nothing that carries identity.
 
+### What the re-clone actually changed — measured
+
+Rendering the same line through both clones, at 44.1 kHz with identical settings:
+
+| | Presence | Air | Warmth |
+|---|---|---|---|
+| v1 (cloned from raw audio) | −6.8 dB | −17.1 dB | −2.4 dB |
+| v2 (cloned from restored audio) | −6.8 dB | −17.1 dB | −2.4 dB |
+
+**Identical.** Both renders are spectrally healthy, and the restoration did not change the output's
+frequency balance. Two conclusions follow, and neither should be softened:
+
+**The muffle was probably never in the generated speech.** The v1 clone's *renders* already
+measured fine. What almost certainly sounded muffled was the **widget preview** — a lossy MP3 of
+the raw, unprocessed 32 kHz source, which measures −11.8 dB presence and −20.9 dB air. Always judge
+a clone on a generated line at 44.1 kHz, never on its preview.
+
+**seed_audio's vocoder normalises the output spectrum**, so source cleanliness moves the rendered
+tone far less than expected. Restoring the source is good hygiene and fixed a real, measured defect
+in the asset, but it is not a lever on output brightness. If a render genuinely sounds dull, reach
+for `sample_rate: 44100` and `loudness_rate` first — those cost about two credits, against forty
+for a clone.
+
+Where v2 is still the better asset: it is trained on **one verified voice roll** (183.9 Hz) rather
+than possibly-blended material. That affects identity consistency across many posts, which one
+render cannot measure. It is the right asset to keep; just don't expect it to sound brighter.
+
+### One operational warning
+
+**Deleting a voice appears to take its generated audio with it.** The v1 render returned HTTP 200
+before the voice was deleted and HTTP 403 afterwards, from the same CDN that still serves v2 fine.
+Before deleting any voice element, download anything generated with it that you still need.
+
 ### Two rules for any future clone
 
 **Never clone from raw Seedance audio.** It is 32 kHz, air-starved, and carries whatever ambience
@@ -159,7 +192,7 @@ fundamental are different voices, and blending them is why a clone comes back th
 | Chi — Alt voice | voice element | `180fdb9a-7c0b-469e-be49-3f76692a3968` |
 | Nia — Reference | image_job | `362ecc5e-b110-4855-9334-5717c4082e08` |
 | Nia — Element | character | `bcd528d3-9756-4190-ba80-4aaae881f2b2` ✅ |
-| Nia — Voice | voice element | `dd584c39-32f1-49b5-a526-5e30651364be` ✅ |
+| Nia — Voice | voice element | `12315c68-37de-41fe-8766-76ac07bcaf70` ✅ **Nia-voice-v2-clear** |
 | Titanic footage | 4 × `seedance_2_0` | `0ebb7644…` `66d2b6e1…` `d8600d66…` `8ebe04a8…` |
 
 ---
