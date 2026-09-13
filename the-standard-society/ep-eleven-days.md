@@ -94,8 +94,9 @@ ChiChi hangs up. Sits in the silence one full beat. Then stands, and walks towar
 
 - **Voices:** Nia → `Nia-voice-v2-clear` · ChiChi → `ChiChi-the-Influencer-Voice` (both saved voice elements)
 - **Characters:** `Nia` + `ChiChi-the-Influencer` reference elements — the exact pairing that produced the approved Sucré footage
-- **Continuity:** ChiChi's hair is dark brown/near-black, shoulder-length with outward-curled ends — never a bob, never blonde. Both women ring-free and bracelet-free; stud earrings only. Hands smooth and youthful, matching the age of each face.
-- **ChiChi is always on speakerphone.** No handset at her ear, nothing in her hands, no phone visible anywhere in her scenes. She talks toward the room.
+- **EVERY PROMPT MUST CARRY BOTH VOICE ELEMENTS.** Nia `12315c68-37de-41fe-8766-76ac07bcaf70` AND ChiChi `180fdb9a-7c0b-469e-be49-3f76692a3968`. If a character's voice element is missing from the prompt, the model invents a voice for her and the take is wasted. This was dropped in v3 and not caught until Shot 2.
+- **Continuity:** ChiChi's hair is her established honey-blonde shoulder-length layered blowout with darker roots, as rendered in the approved Shot 1 v4. Do not force it dark. Both women ring-free and bracelet-free; stud earrings only. Hands smooth and youthful, matching the age of each face.
+- **BOTH women hold mobile phones to their ears, visible in frame, in every shot.** It is a phone call and the phones must read on screen. No speakerphone, no earbuds, no hands-free.
 - **One wine glass.** ChiChi is alone; a second glass on the table implies company that isn't there. Pin the count explicitly in every prompt — "a single glass" is not strong enough phrasing for the model.
 - **Shot construction:** every clip must show BOTH women, intercut between the two apartments. seedance only binds a saved voice element to a character it can see — an off-camera speaker gets an invented voice. This is why the phone side came out wrong on the first pass.
 - **Pacing:** no gap over a quarter second between lines, and cut to the other apartment ON the first syllable of the new line, never before it.
@@ -114,7 +115,7 @@ scratch when an element exists for it.
 |---|---|---|
 | `Nia-Eleven-Days-Look` | `4237ef4c-0f12-425b-8789-1b702e738f0f` | Nia in this episode's olive halter + army-green trousers |
 | `Nia` | `bcd528d3-9756-4190-ba80-4aaae881f2b2` | Nia's canonical face, for episodes with different wardrobe |
-| `ChiChi-Series-Look` | `bc1bd310-582b-4694-abde-1fb72f0de1f8` | ChiChi — current locked series look |
+| `ChiChi-the-Influencer` | `8a8e8eeb-d41e-4d91-b245-fa0caa8801b6` | ChiChi — **this is the one in use**, as approved in Shot 1 v4 |
 
 ### Environments
 
@@ -133,7 +134,8 @@ scratch when an element exists for it.
 
 ### Superseded — do NOT use
 
-`ChiChi-the-Influencer` (`8a8e8eeb…`), `Chi-Standard-Society` (`6df69ad5…`),
+`ChiChi-Series-Look` (`bc1bd310…`, describes dark hair — not the approved look),
+`Chi-Standard-Society` (`6df69ad5…`),
 `ChiChi-Main-Character`, `ChiChi-the-Influencer-—-Primary-Reference`, `Chi2`, `Chi`.
 All describe the retired honey-blonde blowout and will pull her hair back toward
 blonde. `ChiChi-Series-Look` replaces all of them.
