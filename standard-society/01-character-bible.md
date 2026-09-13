@@ -20,7 +20,8 @@ Critically: **Chi never judges Nia, and Nia never gets fixed.** Nia keeps strugg
 | Asset | ID |
 |---|---|
 | Soul (soul_2) | `a2c197f1-3e10-4523-8b13-31e8e3bdfeca` |
-| Element | `ba68b031-4fce-48c4-81ce-5017bd6a5132` |
+| **Element** | `6df69ad5-704b-497b-b5b8-c0ae9f332ee8` — **Chi-Standard-Society**, full lock in the description |
+| Element (old) | ~~`ba68b031`~~ Chi2 — null description, superseded |
 | Voice element | `b07beaa5-2b64-4f21-926d-050fd952b8a6` ("Chi's-voice") |
 | Alt voice | `180fdb9a-7c0b-469e-be49-3f76692a3968` ("ChiChi-the-Influencer-Voice") |
 
@@ -32,7 +33,11 @@ Critically: **Chi never judges Nia, and Nia never gets fixed.** Nia keeps strugg
 - No necklace. (Nia wears the choker; that's her marker.)
 - Hair colour/style only changes on explicit request. Face, age, complexion, dental identity, head-to-body scale never change.
 
-**The hands block — paste into every Chi prompt where hands are visible**
+**As of `Chi-Standard-Society` these rules live in the Element itself** and no longer need pasting
+into every prompt. Keep the block below for two cases: any generation that does not use the Element,
+and any shot where hands are unusually prominent and worth reinforcing.
+
+**The hands block — for non-Element generations, or to reinforce a hands-forward shot**
 
 > HANDS: smooth and youthful, matching the apparent age of her face exactly — even skin tone, soft
 > full backs of the hands, plump smooth fingers, taut skin over the knuckles, natural short nails,

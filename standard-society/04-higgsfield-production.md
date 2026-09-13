@@ -211,7 +211,7 @@ fundamental are different voices, and blending them is why a clone comes back th
 | Asset | Type | ID |
 |---|---|---|
 | Chi — Soul | `soul_2` | `a2c197f1-3e10-4523-8b13-31e8e3bdfeca` |
-| Chi — Element | character | `ba68b031-4fce-48c4-81ce-5017bd6a5132` |
+| Chi — Element | character | `6df69ad5-704b-497b-b5b8-c0ae9f332ee8` ✅ **Chi-Standard-Society** |
 | Chi — Voice | voice element | `b07beaa5-2b64-4f21-926d-050fd952b8a6` |
 | Chi — Alt voice | voice element | `180fdb9a-7c0b-469e-be49-3f76692a3968` |
 | Nia — Reference | image_job | `362ecc5e-b110-4855-9334-5717c4082e08` |

@@ -194,3 +194,37 @@ The replacement mirror clip was also intercepted by the **"IN THE DARK"** preset
 caught the restaurant shot. It appears to trigger on prompts containing reflective or low-key
 language. `declined_preset_id` clears it. Two hijacks in two video batches: **treat this as routine
 and always check `submitted_count`.**
+
+
+---
+
+# Chi's Element — fixed
+
+`Chi2` (`ba68b031`) carried a **null description**, so nothing in the Element preserved her face,
+wardrobe or either hand rule. All of it depended on the right two paragraphs being pasted into every
+prompt, forever, by hand.
+
+Replaced with **`Chi-Standard-Society`** — `6df69ad5-704b-497b-b5b8-c0ae9f332ee8`. Same Chi2 source
+image, so her look is unchanged; everything the model kept forgetting now lives in the description:
+
+- Full facial identity, age, complexion, proportions, dental identity
+- Established navy wrap blouse and balcony set
+- **Hands rule one** — entirely ring-free, unmarried, no bracelets or hand jewellery
+- **Hands rule two** — smooth and youthful, matching the apparent age of her face
+- No necklace, stud earrings only
+- Bright modern luxury visual direction
+- Direct and grounded delivery, never angry
+
+## Verification
+
+Tested with a **deliberately minimal prompt** carrying no identity lock and no hand rules at all:
+
+> `<<<6df69ad5-…>>> on her balcony, resting both hands on the railing, looking out over the city.
+> Both hands clearly visible in frame.`
+
+Job `df02d679-710e-426b-a358-56b9dcfd668c`. Judge it on the two rules: **ring-free, and hands that
+match her face.** If both hold on a prompt that never mentions them, the Element is doing the work
+and Chi prompts can go back to describing the shot rather than re-litigating her anatomy.
+
+**Use `6df69ad5` for every future Chi generation.** The old `ba68b031` still exists and still has no
+description — do not reach for it out of habit.
