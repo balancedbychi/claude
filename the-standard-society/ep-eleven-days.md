@@ -100,7 +100,17 @@ ChiChi hangs up. Sits in the silence one full beat. Then stands, and walks towar
 - **One wine glass.** ChiChi is alone; a second glass on the table implies company that isn't there. Pin the count explicitly in every prompt — "a single glass" is not strong enough phrasing for the model.
 - **Shot construction:** every clip must show BOTH women, intercut between the two apartments. seedance only binds a saved voice element to a character it can see — an off-camera speaker gets an invented voice. This is why the phone side came out wrong on the first pass.
 - **Pacing:** no gap over a quarter second between lines, and cut to the other apartment ON the first syllable of the new line, never before it.
-- **New sets required:** Nia's apartment (warm, layered, slightly chaotic) and ChiChi's apartment (bright modern luxury, immaculate, quiet). Neither exists as a reference element yet.
+- **Sets:** Nia's bedroom is locked as element `Nia-Bedroom-Night`. ChiChi's living room is described in prompt text only — see the rule below about why it must stay that way for this episode.
+- **ChiChi's coffee table:** one low RECTANGULAR marble table, thick pale white-and-grey veined top, solid marble base, directly in front of the sofa. Never round, oval, glass, wood or metal; never a second table or side table in frame.
+
+### Hard-won rules (added after Shots 1–4)
+
+- **ONE VARIABLE PER TAKE.** When a note comes in, change that one thing and nothing else. Bundling a second "improvement" into a fix is what broke Shot 2 — a relight request also got a new room element, which changed the couch and destabilised both wardrobes. If a second change seems needed, propose it first; never ship it inside a fix.
+- **Never introduce a new reference element mid-episode.** An element created BEFORE any footage defines the set. An element created AFTER footage exists, from a fresh text description, is not a lock — it is a second, competing set. Nia's bedroom element worked because it came first. ChiChi's living-room element (`77870e42`) did not, and must not be used in this episode.
+- **Never reword anything that produced an approved result.** The wardrobe text that reads as "maroon tights" on screen says `chocolate-brown leggings` in the prompt. Keep the words that worked, not words describing what you see.
+- **Every visual detail must be pinned explicitly or it drifts.** Confirmed drifters: exterior light level, couch side, phone colour, coffee table shape, wardrobe between cuts. Each needed its own absolute clause with the wrong options named and negated. Anything merely implied gets re-rolled every take.
+- **EPISODE 2 ONWARD: ask the user for visual references BEFORE building any new scene.** Do not invent set design mid-build. Every set detail written from scratch becomes another thing that can drift, and the fix costs a full re-render.
+- **The assistant cannot see the renders.** All visual continuity notes come from the user. When locking a detail that already exists on screen, write the tightest possible description and ask the user to correct it once, rather than assuming.
 
 ---
 
