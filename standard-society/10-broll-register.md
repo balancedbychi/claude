@@ -73,11 +73,11 @@ Eight Element-locked stills, 9:16 at 1536×2752, **2 credits each, 16 total.**
 | 3 | Parked car, looking out | `c25d5fd3-ae25-455d-8828-4135f576d4e9` | Nia | still + push |
 | 4 | Hands writing in the notebook | `cd638ba2-f2d5-4f26-b160-f18192a04d8d` | Nia | **animate** |
 | 5 | Mirror, mid-routine | `9d253e64-bd56-45b7-aace-e872791a47a5` | Nia | **animate** |
-| 6 | Balcony, three-quarter, looking out | `82de95af-e121-4049-b3c8-162ac4136ef8` | Chi | still + push |
-| 7 | Wind lifting her hair, turning to lens | `5e0225b4-4e3c-4dc8-9c45-9943da204680` | Chi | **animate** |
+| 6 | Balcony, three-quarter, looking out | `17a75b5d-5088-4709-9de8-709c14b56c80` | Chi | still + push |
+| 7 | Wind lifting her hair, turning to lens | `f3f82999-b7f1-4c98-848d-01965f6ce5b9` | Chi | **animate** |
 | ~~8~~ | ~~Hands on the balcony railing~~ | `1415ee23-…` | Chi | **cut — bad concept** |
 | 8a | Chi wide, from behind, sky above | `51eabcdd-91df-4646-beb6-215f32fa98cf` | Chi | still + push |
-| 8b | Chi seated with coffee, at ease | `733fdcf8-5ce7-4abc-b3f4-708d400494cb` | Chi | still + push |
+| 8b | Chi seated with coffee, at ease | `4d6b34ec-9cc9-4218-8632-e1135dadb02e` | Chi | still + push |
 
 ## Model notes
 
@@ -133,3 +133,30 @@ Replaced with two shots that do Chi's actual job — **she is the one on solid g
 **Lesson for the shot list: a detail shot has to carry an idea.** If the only answer to "what does
 this frame say" is "hands," cut it and shoot the person instead. It cost 2 credits to learn, because
 stills come first.
+
+
+## Chi's hands — the second standing rule
+
+Her hands were rendering visibly older than her face: raised veins, visible tendons, crepey skin,
+bony knuckles. **This is the most common way an image model silently ages a character**, and it had
+gone into every Chi frame in batch 2.
+
+Shots 6, 7 and 8b were re-rolled with an explicit hands block. **6 credits.** The IDs in the table
+above are the corrected versions; the originals are superseded.
+
+The block now lives in the character bible and in the Chi prompt scaffold, and goes into **every**
+prompt where her hands are visible:
+
+> HANDS: smooth and youthful, matching the apparent age of her face exactly — even skin tone, soft
+> full backs of the hands, plump smooth fingers, taut skin over the knuckles, natural short nails,
+> five fingers per hand with correct anatomy. NO prominent or raised veins, NO visible tendons, NO
+> crepey wrinkled or papery skin, NO age spots, NO bony knobbly knuckles, NO thin translucent skin.
+
+**The phrasing matters.** It asks for hands *matching the apparent age of her face*, not simply
+"young hands." The defect is the **mismatch**, not her age — she is an adult woman and should read
+as one. Asking for young hands alone risks grafting a twenty-year-old's hands onto her, which looks
+equally wrong and is harder to spot.
+
+Chi now carries two hard hand rules, both of which the model will break unprompted on every single
+generation: **ring-free**, and **age-matched**. Neither is in her Element, because `Chi2` has a null
+description. Until that is fixed, both blocks must be typed into every prompt she appears in.

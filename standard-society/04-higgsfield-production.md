@@ -265,6 +265,10 @@ angry. Slight handheld micro-motion, crisp hard cuts.
 
 Both hands entirely ring-free in every frame. She is unmarried: no wedding band,
 engagement ring, rings, bracelets or hand jewellery. Stud earrings only, no necklace.
+HANDS: smooth and youthful, matching the apparent age of her face exactly - even skin tone,
+soft full backs of the hands, plump smooth fingers, taut skin over the knuckles, natural
+short nails. NO prominent or raised veins, NO visible tendons, NO crepey wrinkled or papery
+skin, NO age spots, NO bony knobbly knuckles, NO thin translucent skin.
 Realistic fingers, anatomy, skin texture and fabric physics; consistent identity across
 cuts. No captions, subtitles, on-screen text, watermark, music, extra people, or
 background changes.

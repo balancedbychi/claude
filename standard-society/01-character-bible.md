@@ -28,8 +28,21 @@ Critically: **Chi never judges Nia, and Nia never gets fixed.** Nia keeps strugg
 
 **Hard continuity rules**
 - **Both hands entirely ring-free in every frame.** She is unmarried. No bands, no bracelets, no hand jewellery. Studs only.
+- **Her hands must look as young as her face.** Image models routinely render hands a decade older than the face they belong to — raised veins, visible tendons, crepey skin, bony knuckles. It is the most common way Chi silently ages. Every prompt with her hands in frame carries the block below.
 - No necklace. (Nia wears the choker; that's her marker.)
 - Hair colour/style only changes on explicit request. Face, age, complexion, dental identity, head-to-body scale never change.
+
+**The hands block — paste into every Chi prompt where hands are visible**
+
+> HANDS: smooth and youthful, matching the apparent age of her face exactly — even skin tone, soft
+> full backs of the hands, plump smooth fingers, taut skin over the knuckles, natural short nails,
+> five fingers per hand with correct anatomy. NO prominent or raised veins, NO visible tendons, NO
+> crepey wrinkled or papery skin, NO age spots, NO bony knobbly knuckles, NO thin translucent skin.
+> Both hands entirely ring-free, no bracelets, no necklace.
+
+Note the framing: *matching the apparent age of her face* rather than simply "young." She is an
+adult woman and should read as one — the fault is the **mismatch**, not her age. Asking for young
+hands on their own risks grafting a twenty-year-old's hands onto her, which looks just as wrong.
 
 **Home set** — bright high-rise balcony, softly blurred city skyline, natural daylight from camera-right. Established wardrobe: deep navy cropped wrap blouse, matte crinkled fabric, deep V, short dolman sleeves, centre-front knot with tie tails, asymmetric off-one-shoulder drape.
 
