@@ -1,4 +1,4 @@
-# THE STANDARD SOCIETY — production rules
+# EXCLUSIVE — the series · production rules
 
 This repo builds an AI-generated dramatic series. Read this file before writing a
 prompt, generating anything, or spending a credit.
@@ -93,6 +93,12 @@ highest-leverage rule in this file.
   travel with it; rules stored in your head do not.
 - **Mark superseded elements explicitly** so a later session cannot pick up a
   stale one. Old elements are never deleted, only retired in the registry.
+- **The saved element descriptions still say "The Standard Society". Leave them.**
+  The series was renamed to EXCLUSIVE after Episode 1 was shot. Every locked
+  element — both rooms, both characters, both voices — carries the old name in
+  its description text, and that text is part of what produced the approved
+  footage. Renaming it is rewording an approved result, which section 5 forbids.
+  The name on screen comes from the title card and the thumbnail, not the element.
 
 ---
 
@@ -346,7 +352,7 @@ nothing. Shortening the clip does, because the slack disappears.
 
 ## 8. REPO CONVENTIONS
 
-- One markdown file per episode in `the-standard-society/`, carrying the script,
+- One markdown file per episode in `exclusive/`, carrying the script,
   the element registry with IDs, the continuity spec, and the delivered shot list
   with job IDs.
 - Update the episode file in the same session the footage is approved. Element IDs

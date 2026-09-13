@@ -1,4 +1,4 @@
-# THE STANDARD SOCIETY
+# EXCLUSIVE — the series
 ## Episode: "Eleven Days"
 
 **Runtime:** 77 seconds · 6 shots, 12–14s each
@@ -243,3 +243,32 @@ ChiChi's read on him is the spine of it.
 Before building any new scene, **ask the user for visual references first.** Get
 a plate approved as a still, lock it as an element, then shoot against it. Two
 credits for an image beats thirty for a video that has to be redone.
+
+## SERIES NAME
+
+The series is **EXCLUSIVE** (full title *Exclusive the Series*). Named after
+Episode 1 was delivered. "The Standard Society" was the working title and
+survives only inside the saved Higgsfield element descriptions, where it must
+stay — see the element rules in CLAUDE.md section 2.
+
+## YOUTUBE THUMBNAIL — Episode 1
+
+Built from approved Episode 1 footage rather than generated, so the faces are
+exactly the locked characters and it cost nothing. Frames were chosen by
+sharpness scoring over the face region (blinks and motion blur score low), the
+crops centred by column detail energy, and the type composited with real fonts
+instead of asking a model for lettering.
+
+| Variant | Layout | URL |
+|---|---|---|
+| A | Split screen, EXCLUSIVE across the lower third | `e78e1057-f4eb-4d51-a349-a6fd9daef1af.jpg` |
+| B | Split screen, EXCLUSIVE at top, episode tag bar at the bottom | `8969cfac-59dd-4e4b-8652-fe5519d4f212.jpg` |
+| C | Chi dominant right, Nia inset left, title stacked lower left | `e9f4145f-a733-43d9-8eb1-770fddef8312.jpg` |
+
+All 1280x720. Source frames: Nia from Shot 6 (`36e7dec7`) on "TEN!", Chi from
+Shot 5 (`3b1cd290`) during her held silent beat, where her mouth is closed and
+the read is the one the episode turns on.
+
+**Thumbnail text is never generated.** Compose it over a clean plate with real
+type. The model garbles lettering, and composited text is free to change — which
+means a title revision never costs a re-render.
