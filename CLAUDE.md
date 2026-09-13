@@ -212,20 +212,55 @@ Leave the reference in anyway. It was present in every approved take, so it is
 part of the recipe. Removing it changes the inputs, and changed inputs are how
 this voice gets lost.
 
-### Known fragility — flag this to the user if it ever matters
+### The durable capture — DONE, 13 Sep 2026
 
-Because the voice is synthesized rather than stored, **a model update could change
-it and there is no way to restore it.** The durable fix is to capture it as a real
-voice element:
+Because the voice is synthesized rather than stored, a model update could have
+changed it with no way to restore it. It has now been captured as a real voice
+element:
 
-1. Generate one short clip where Chi speaks alone, using the exact two blocks
-   above, so the audio is clean single-speaker.
-2. Clone that audio into a new voice element with `create_voice`.
-3. From then on Chi has a real, portable voice that also works in TTS and other
-   models, and no longer depends on seedance re-synthesizing her.
+| | |
+|---|---|
+| **`ChiChi-Canon-Voice-v1`** | `de50f37f-82fa-4a70-bdca-52355b2f4ca2` |
 
-This has not been done yet. Propose it before starting a new season, or the first
-time the voice sounds different.
+Cloned from a 14-second solo-Chi clip (job `572d535a-7689-4315-98e9-09e005c506a8`),
+trimmed to 12.4s of clean single-speaker audio, mono 32kHz. Cost 75 credits all
+in — 35 for the clip, 40 for the clone. `create_voice_from_confirmed_audio` has
+no `get_cost`, so the clone half cannot be preflighted; quote it as unknown.
+
+**What it is for.** TTS, any non-seedance model, and as the restore point if the
+synthesized voice ever drifts. Chi is portable now.
+
+**What it does NOT change.** seedance still binds only ONE voice element per
+generation and Nia's still wins. Every seedance shot Chi speaks in still uses the
+two pinned blocks above, unchanged, with `180fdb9a` still in the text. Do not
+swap `de50f37f` into a seedance prompt expecting it to be honoured — it will not
+be, and swapping it changes the recipe.
+
+**It was verified before cloning, not assumed.** Measured against approved Shot 6.
+Long-term-average-spectrum cosine: **0.9819** against canon Chi, 0.8942 against
+element `180fdb9a`, 0.8280 against Nia. Canon Chi scores only 0.8621 against
+`180fdb9a` — which confirms the two really are different voices, and that the
+measurement can tell them apart. Pitch: canon Chi 146.8Hz, capture 160.0Hz,
+element 181.8Hz. The capture sits on canon's range (its p25 is 148.1Hz, canon's
+median is 146.8Hz); the gap is delivery, not identity — Shot 6 is Chi at her
+flattest. The same delivery effect shows in Nia, whose element reads 183.9Hz but
+who measures 248.1Hz shouting "TEN!" in the same shot.
+
+**One thing to know about how the capture was shot.** The prompt gave Nia a short
+opening line so that her element would absorb the binding exactly as in the
+approved takes. The model never rendered her line — Chi starts at 1.72s and the
+clip is Chi alone. Her voice still came out canon, with Nia's element attached to
+the generation but unspoken. So the binding appears to be set by the attached
+elements, not by who actually speaks. Useful, but a single data point; keep Nia
+attached and on camera when capturing Chi again.
+
+### If the capture ever has to be redone
+
+1. Reproduce the approved binding conditions: both women on camera, BOTH voice
+   elements attached, the two pinned blocks byte-identical.
+2. Give Chi one continuous run of dialogue and Nia a single short opener.
+3. Verify before cloning. Do not trust it by ear alone and do not skip this —
+   see "Verifying audio you cannot hear" in section 7.
 
 ### Nia's voice is different
 
@@ -279,7 +314,28 @@ nothing. Shortening the clip does, because the slack disappears.
 - **Claude cannot see the renders.** All visual feedback comes from the user.
   Ask for a frame rather than guessing — one screenshot corrected three details
   that had survived multiple text-only passes.
+- **Verifying audio you cannot hear.** Visuals need the user, but audio and timing
+  do not. `sandbox_exec` is a Higgsfield cloud box with ffmpeg, ffprobe, sox and
+  faster-whisper, and it can reach the CDN that this environment's proxy blocks.
+  Use it before spending on anything downstream of a render:
+    - **Transcribe with timestamps** to check the model actually said the scripted
+      lines, and where the gaps fell. This is how the dead air in a clip gets
+      measured instead of argued about — and how it was caught that Nia's opening
+      line in the capture clip never rendered at all.
+    - **Fingerprint a voice** when the question is "is this the right voice." Pull
+      f0 median and quartiles on voiced frames, plus a long-term-average-spectrum
+      cosine against a known-good sample from approved footage. Always include a
+      control pair you know differs (canon Chi vs element `180fdb9a` scores 0.8621)
+      so the numbers have a scale. Same voice lands ~0.98.
+    - **Get reference samples free** from `list_voices` — every voice element
+      carries a `preview_url`. No TTS spend needed to hear what an element is.
+  Measure first, then confirm with the user. It does not replace their ear; it
+  stops a wrong assumption reaching a paid step.
 - **Preflight every cost** with `get_cost` before generating. State the number.
+  Not everything has one — `create_voice_from_confirmed_audio` does not, and the
+  clone came in at 40 credits against a 20–25 estimate for the whole job. When a
+  step cannot be preflighted, say so and quote it as unknown instead of folding a
+  guess into a firm number.
 - **Report the credit balance** after each batch so the user can see the burn.
 - **Never silently swap models, resolution or aspect ratio.** Mid-episode changes
   to any of these make the footage un-cuttable with what already exists.

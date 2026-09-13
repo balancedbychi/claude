@@ -138,14 +138,33 @@ scratch when an element exists for it.
 
 ### Voices
 
-| Element | ID |
-|---|---|
-| `Nia-voice-v2-clear` | `12315c68-37de-41fe-8766-76ac07bcaf70` | Honoured. This is Nia's real voice. |
-| `ChiChi-the-Influencer-Voice` | `180fdb9a-7c0b-469e-be49-3f76692a3968` | NOT honoured — stays in the prompt as part of Chi's pinned recipe. See CLAUDE.md §5a. |
+| Element | ID | Notes |
+|---|---|---|
+| `Nia-voice-v2-clear` | `12315c68-37de-41fe-8766-76ac07bcaf70` | Honoured by seedance. This is Nia's real voice. |
+| `ChiChi-the-Influencer-Voice` | `180fdb9a-7c0b-469e-be49-3f76692a3968` | NOT honoured, and NOT the voice you hear. Stays in every prompt as part of Chi's pinned recipe. See CLAUDE.md §5a. |
+| `ChiChi-Canon-Voice-v1` | `de50f37f-82fa-4a70-bdca-52355b2f4ca2` | **The real capture of Chi's canon voice.** For TTS and non-seedance models. Do NOT put this in a seedance prompt. |
 
-Chi's voice as heard in this episode is synthesized, not cloned, and is now canon
-for the series. It is pinned by keeping her two prompt blocks byte-identical.
-Never reword them.
+Chi's voice as heard in this episode is synthesized by seedance, not cloned, and
+is canon for the series. Inside seedance it is pinned only by keeping her two
+prompt blocks byte-identical — never reword them.
+
+It has since been captured as a portable element, `ChiChi-Canon-Voice-v1`
+(`de50f37f-82fa-4a70-bdca-52355b2f4ca2`), cloned from a dedicated 14-second
+solo-Chi clip and verified against Shot 6 before cloning (LTAS 0.9819 vs canon,
+0.8942 vs element `180fdb9a`). That element is the insurance policy and the route
+into other models. It changes nothing about how this episode's shots are built:
+seedance binds one voice element per generation, Nia's wins, and Chi stays
+synthesized from the recipe.
+
+### Voice capture — not part of the cut
+
+| Purpose | Length | Job ID |
+|---|---|---|
+| Chi canon voice capture (not episode footage) | 14s | `572d535a-7689-4315-98e9-09e005c506a8` |
+
+Built on the same two sets and both character elements, at seedance_2_5 / 480p /
+16:9 / high bitrate, so the recipe matched the approved takes exactly. Nia's
+scripted opening line did not render; Chi speaks alone from 1.72s to 13.68s.
 
 ### Superseded — do NOT use
 
