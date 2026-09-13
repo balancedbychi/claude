@@ -1,22 +1,34 @@
-# B-Roll Register
+## Status — v2 (bright modern luxury)
 
-Object shot library — batch 1. Generated `seedream_v5_pro`, 9:16, 2k (1536×2720), **3 credits each,
-30 total.** No characters in any frame, so nothing can drift and none of these needed the voice.
+Batch 1 v1 was re-rolled entirely: the prompts read as kitchen-sink realism, not the brand. See
+"Why v1 failed" below. **v2 job IDs are the live assets.**
 
-## Status
-
-| # | Shot | Job ID | Use | Next |
+| # | Shot | Job ID (v2) | Use | Next |
 |---|---|---|---|---|
-| 1 | Notebook, biro resting mid-line | `e19e522d-8c1f-4fc9-a201-99d9861a3551` | FS-2 | **animate** |
-| 2 | Page torn out, folded | `b5bc68f7-5c77-421e-82e9-74c46170dc51` | FS-8 | **animate** |
-| 3 | Tea gone cold on a windowsill | `52e6d321-def5-4159-86b4-0e2e071c31c3` | FS-3 | **animate** |
-| 4 | Cream curtains in a draught | `c53f5273-fb04-4f60-9fc1-afbe8b4d6a76` | atmosphere | **animate** |
-| 5 | Plate pushed forward | `f5fc9d0f-22b7-46fc-99d2-06da4a257a38` | TH-7 "The Soup" | **animate** |
-| 6 | Two columns, right one short | `01c716c1-17ae-491c-9b86-0bef5163d8c2` | FS-6, TH-6 | still + push |
-| 7 | Phone face-down on a duvet | `50610412-8e85-44a9-bc3e-d172c590424f` | FS-4 | still + push |
-| 8 | Phone screen, 11:40, dark room | `788ecf94-325a-42be-8a19-8bc6b5ca662f` | FS-1, TH-1 | still + push |
-| 9 | Empty chair, morning | `5ba84b72-28b7-41c4-b33b-c98355ed207b` | FS-10 | still + push |
-| 10 | Door ajar, morning light | `20e7d752-bd9b-4d88-9b6c-f8c7d79d6129` | FS-7 | still + push |
+| 1 | Notebook, matte black pen mid-line, marble counter | `f5ebe0af-3a77-4da3-91f9-1a65f7a6bd1d` | FS-2 | **animate** |
+| 2 | Page torn out, folded, micro-cement | `6912a3c8-d875-4cd0-8259-adf2e750527a` | FS-8 | **animate** |
+| 3 | Tea gone cold, marble sill, skyline beyond | `19973c06-e874-4c6b-a906-122a8c6a636d` | FS-3 | **animate** |
+| 4 | Sheer linen curtains, draught, sunlight | `fd64ec9a-c8aa-4e85-95c0-db224144b98b` | atmosphere | **animate** |
+| 5 | Plate pushed forward, upscale daytime restaurant | `f331b817-a494-4cb3-9c5b-159cabdf6afd` | TH-7 "The Soup" | **animate** |
+| 6 | Two columns, right one short, marble | `857da113-c39e-4bca-bbf1-59f0d59b5a0c` | FS-6, TH-6 | still + push |
+| 7 | Phone face-down, white linen, morning | `a62c7689-eb68-470d-a6f2-e712114fd777` | FS-4 | still + push |
+| 8 | Phone screen 11:40, city skyline at night | `d2da3934-95dc-43f3-80c2-820565150d36` | FS-1, TH-1 | still + push |
+| 9 | Sculptural chair, marble table, morning | `2816bfb2-7cf8-457f-b8e9-8bd448ac9646` | FS-10 | still + push |
+| 10 | Door ajar, pale ash floor, morning light | `a08e8e72-6b60-494a-bec4-a6a3aab998eb` | FS-7 | still + push |
+
+## Why v1 failed — worth not repeating
+
+The compositions were right; the vocabulary was wrong. Every one of these words pulled the frame
+toward kitchen-sink realism: *battered, cheap biro, pale oak, aged brass, worn wooden floor, cold
+grey, bare branches, quiet domestic realism, phone photograph* — and worst of all, **"one warm lamp,
+the rest falling into darkness."**
+
+Light did most of the damage. The same objects in the same arrangement read as a magazine spread
+under "abundant soft diffused daylight, soft shadows only" and as a period drama under one lamp in
+the dark. Art direction is now locked in `07-asset-system.md` §2b.
+
+**Cost of the lesson: 30 credits.** Cheap, because stills are 3 each. Had this been caught after
+animating, it would have been 210.
 
 ## The split
 

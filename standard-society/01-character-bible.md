@@ -59,7 +59,7 @@ Critically: **Chi never judges Nia, and Nia never gets fixed.** Nia keeps strugg
 
 **Identity lock** — deep warm brown skin, waist-length jet-black water-wave curls, diamond studs, thin gold choker, early/mid-20s. Titanic-era wardrobe: camel longline wool coat over cream cable-knit sweater, taupe crossbody sling bag. **Present-day wardrobe: same palette** (camel, cream, taupe, gold) so she reads as one person across eras.
 
-**Signature prop — the yellow notebook.** Battered yellow spiral notebook. It is the single most important object in this brand. It's where she writes down what she notices. It is the visual metaphor for *keeping your own receipts*, and it is the thing that makes a scroll-stopper out of a static frame. It appears in most posts and on the grid.
+**Signature prop — the yellow notebook.** In present-day content it is a **modern matte yellow spiral notebook** — well used, never battered. (The Titanic footage shows it battered and frost-stiffened, which is correct for a shipwreck and wrong for her kitchen counter. *Battered* reads grubby and dates the frame; *modern matte yellow* keeps the identity and the class signal.) It is the single most important object in this brand. It's where she writes down what she notices. It is the visual metaphor for *keeping your own receipts*, and it is the thing that makes a scroll-stopper out of a static frame. It appears in most posts and on the grid.
 
 **Voice & delivery** — warm low British-accented young female. Dry, deadpan, wry. Lands jokes with a beat before the last line. Self-aware but never self-hating. Handheld smartphone selfie-vlog framing, real locations (car at night, kitchen, walking home, bed).
 
