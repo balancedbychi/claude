@@ -1,8 +1,9 @@
 # THE STANDARD SOCIETY
 ## Episode: "Eleven Days"
 
-**Runtime:** 90 seconds · 6 shots × 15s
-**Format:** Intercut phone call — Nia's apartment / ChiChi's apartment, evening
+**Runtime:** 77 seconds · 6 shots, 12–14s each
+**Format:** Intercut phone call — Nia's apartment / ChiChi's apartment, early evening at sunset
+**Status:** All six shots delivered
 **Logline:** Nia has known a man for eleven days and has already accepted an invitation to his house party. She needs ChiChi in the room. ChiChi has already taken her shoes off.
 
 ---
@@ -20,7 +21,7 @@
 
 ---
 
-### SHOT 1 — NIA'S APARTMENT (0:00–0:15)
+### SHOT 1 — NIA'S BEDROOM → CHICHI'S LIVING ROOM (12s)
 
 Warm lamps. Two dresses thrown across the bed. Nia paces barefoot, phone wedged against her shoulder, fighting an earring into place.
 
@@ -32,7 +33,7 @@ Warm lamps. Two dresses thrown across the bed. Nia paces barefoot, phone wedged 
 
 ---
 
-### SHOT 2 — CHICHI'S APARTMENT (0:15–0:30)
+### SHOT 2 — CHICHI'S LIVING ROOM → NIA'S BEDROOM (12s)
 
 Reveal her side. ChiChi folded into the corner of her sofa, feet tucked under her, one glass of red, one candle lit. The apartment is beautiful and very quiet.
 
@@ -44,7 +45,7 @@ Reveal her side. ChiChi folded into the corner of her sofa, feet tucked under he
 
 ---
 
-### SHOT 3 — NIA'S APARTMENT (0:30–0:45)
+### SHOT 3 — NIA'S BEDROOM → CHICHI'S LIVING ROOM (13s)
 
 Caught. Nia drops onto the edge of the bed, grinning, already losing the argument she's winning.
 
@@ -54,7 +55,7 @@ Caught. Nia drops onto the edge of the bed, grinning, already losing the argumen
 
 ---
 
-### SHOT 4 — CHICHI'S APARTMENT (0:45–1:00)
+### SHOT 4 — CHICHI'S LIVING ROOM → NIA'S BEDROOM (13s)
 
 ChiChi sets the glass down on the table. Completely deadpan.
 
@@ -67,7 +68,7 @@ ChiChi sets the glass down on the table. Completely deadpan.
 
 ---
 
-### SHOT 5 — THE TURN (1:00–1:15)
+### SHOT 5 — THE TURN (13s)
 
 ChiChi closes her eyes. A beat. She looks around the apartment — one glass, one candle, nobody. The ask lands somewhere it wasn't aimed.
 
@@ -77,7 +78,7 @@ ChiChi looks at the clock. Holds. The quiet of her own apartment sits on her che
 
 ---
 
-### SHOT 6 — BUTTON (1:15–1:30)
+### SHOT 6 — BUTTON (14s)
 
 > **CHICHI:** ...What time.
 > **NIA** *(phone, shrieking)*: TEN!
@@ -131,8 +132,8 @@ scratch when an element exists for it.
 
 | Element | ID | Use |
 |---|---|---|
-| `Nia-Bedroom-Night` | `b6a4c5be-82cb-4328-aa15-d260bc70243e` | Nia's bedroom, Shots 1/3/5 |
-| `ChiChi-Living-Room-Night` | `77870e42-dff9-454b-b394-40ac0b07c1fe` | ChiChi's living room, Shots 2/4/6 |
+| `Nia-Bedroom-Sunset` | `29de5608-70b2-4f65-b530-f508dabbbd46` | **In use.** Nia's bedroom at sunset — built from an approved plate |
+| `ChiChi-Living-Room` | `e032db53-f468-4c24-b667-400c9cd0a0bf` | **In use.** ChiChi's living room at sunset — built from an approved plate |
 | `Sucré-Coffee-Shop` | `59b95bad-f65a-4e6a-9381-32f5d9ad6638` | Existing series location, other episodes |
 
 ### Voices
@@ -144,14 +145,78 @@ scratch when an element exists for it.
 
 ### Superseded — do NOT use
 
+`Nia-Bedroom-Night` (`b6a4c5be…`, night lighting — replaced by the sunset set),
+`ChiChi-Living-Room-Night` (`77870e42…`, never matched the footage),
 `ChiChi-Series-Look` (`bc1bd310…`, describes dark hair — not the approved look),
 `Chi-Standard-Society` (`6df69ad5…`),
 `ChiChi-Main-Character`, `ChiChi-the-Influencer-—-Primary-Reference`, `Chi2`, `Chi`.
 All describe the retired honey-blonde blowout and will pull her hair back toward
 blonde. `ChiChi-Series-Look` replaces all of them.
 
-### Approved reference
+### Time of day — LOCKED
 
-Shot 1 v4 is the approved template for the episode — intercut construction,
-pacing, staging and both locked rooms:
-`9849b24f-91a3-4a3f-abd7-3dcd2ddc2acb`
+Early evening with the sun visibly setting. Low sun just above the skyline, pale
+gold and soft rose near the horizon deepening to gentle blue above, warm light
+raking across both rooms. Still light, clearly evening. Never midday, never
+night, never blue dusk after sunset. Both apartments look out on the same sky at
+the same moment.
+
+### Wardrobe wording — the turtleneck trap
+
+Nia's top is a **sleeveless halter** whose neckline sits at the base of her
+throat around the collarbone, leaving her neck bare with the gold choker on
+skin above the fabric.
+
+NEVER write "mock" in her wardrobe line. The phrase `high mock-halter neckline`
+shipped in every prompt from Shot 1 onward — *mock neck* is the term for a
+turtleneck collar, so it was asking for the wrong garment the whole time. Shots
+1, 2, 4, 5 and 6 ignored it; Shot 3 obeyed it and had to be rebuilt. Name
+turtleneck, mock neck, mock turtleneck, funnel neck, roll neck and high collar
+as forbidden.
+
+### ChiChi's posture — LOCKED
+
+She sits at the RIGHT-HAND end of the sectional, screen right, with BOTH legs
+folded up onto the seat beside her, knees angled LEFT toward the long empty run
+of sofa, feet tucked in. Cross-legged and one-leg-down are both wrong.
+
+**If she changes position at all, the movement plays ON CAMERA as one continuous
+visible action.** A different pose revealed by a cut is a continuity break. The
+one intentional change in the episode is Shot 6, where she unfolds her legs,
+stands and walks out — shown in full, never cut around.
+
+### Pacing — what actually worked
+
+Text instructions alone never fixed the dead air. **Shortening the container
+did.** Five lines is roughly ten seconds of speech; giving it a 15-second clip
+left five seconds of slack the model spent on reaction beats. At 12–13s the gaps
+have nowhere to live.
+
+Density that works: about 2.1 words per second of clip. Two shots break the rule
+deliberately — Shot 5 is one line then held silence, and Shot 6 runs the dialogue
+tight then stops talking so the stand-up can play at its own speed.
+
+---
+
+## DELIVERED — Episode 1
+
+| Shot | Length | Job ID |
+|---|---|---|
+| 1 | 12s | `d717ba03-df9b-441d-a3fd-53b5023900f0` |
+| 2 | 12s | `deb171b1-5054-4484-bc0c-e0e072bdbf0b` |
+| 3 | 13s | `8296e7b0-6281-4b65-8bc6-9ba62ac85518` |
+| 4 | 13s | `84c85d5f-ab4c-43cd-abea-06bc6332d0f5` |
+| 5 | 13s | `3b1cd290-1ae5-40d3-a080-58c25d0f2620` |
+| 6 | 14s | `36e7dec7-a018-44df-a83a-44f8df7be2d6` |
+
+Total 77 seconds. All six built on `Nia-Bedroom-Sunset` and `ChiChi-Living-Room`,
+seedance_2_5, 480p, 16:9.
+
+## NEXT EPISODE
+
+Episode 2 is the party. Nia and ChiChi arrive at Dorian's; we meet him, and
+ChiChi's read on him is the spine of it.
+
+Before building any new scene, **ask the user for visual references first.** Get
+a plate approved as a still, lock it as an element, then shoot against it. Two
+credits for an image beats thirty for a video that has to be redone.
