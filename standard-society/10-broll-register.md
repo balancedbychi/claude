@@ -59,3 +59,52 @@ the viewer projecting her own list onto it, and it sidesteps text rendering enti
 
 Stills are 3 credits. Generate three variants of anything borderline and keep the best; it is still
 cheaper than one second of video.
+
+---
+
+# Batch 2 — Character b-roll
+
+Eight Element-locked stills, 9:16 at 1536×2752, **2 credits each, 16 total.**
+
+| # | Shot | Job ID | Character | Next |
+|---|---|---|---|---|
+| 1 | Thumb hovering over send | `00149cc6-f09a-479a-a897-4dce374f821d` | Nia | **animate** |
+| 2 | Walking away, modern street | `76bb2de8-f45a-4da8-95a8-fb65b3948f14` | Nia | **animate** |
+| 3 | Parked car, looking out | `c25d5fd3-ae25-455d-8828-4135f576d4e9` | Nia | still + push |
+| 4 | Hands writing in the notebook | `cd638ba2-f2d5-4f26-b160-f18192a04d8d` | Nia | **animate** |
+| 5 | Mirror, mid-routine | `9d253e64-bd56-45b7-aace-e872791a47a5` | Nia | **animate** |
+| 6 | Balcony, three-quarter, looking out | `82de95af-e121-4049-b3c8-162ac4136ef8` | Chi | still + push |
+| 7 | Wind lifting her hair, turning to lens | `5e0225b4-4e3c-4dc8-9c45-9943da204680` | Chi | **animate** |
+| 8 | Hands on the balcony railing | `1415ee23-5627-4bf5-8531-9a5eb3a567d6` | Chi | still + push |
+
+## Model notes
+
+**Elements only work on certain models.** `seedream_v5_pro` — used for all the object b-roll — is
+**not** on the Element-compatible list. Using it with a `<<<uuid>>>` placeholder would likely have
+produced a generic person and burned the batch. Element-compatible and cheaper: `nano_banana_pro`
+at 2 credits, `seedream_v4_5` at 1, against 3 for v5_pro.
+
+**You may not get the model you ask for.** Submitted as `nano_banana_pro`; every job came back
+running **`nano_banana_2`**. Both are Element-compatible so identity still locked, but check the
+`model` field on returned jobs rather than assuming.
+
+## Two identity risks in this batch
+
+**Chi's Element carries no description.** `Chi2` (`ba68b031`) has `description: null`, so nothing in
+the Element itself preserves her face, hair, proportions or wardrobe — every bit of that came from
+prompt text. Her full identity lock therefore has to be written into **every single prompt**: warm
+brown complexion, almond eyes, full brows, cheek beauty mark, honey-blonde shoulder-length blowout
+with darker roots, stud earrings, full-figured proportions, navy wrap blouse, ring-free hands, no
+necklace. Nia's Element does carry a description and needs less prompt scaffolding.
+
+**Shot 8 is the ring test.** Close on Chi's hands is the single highest-risk frame in the whole
+library for the ring rule, which her own prior prompts fought repeatedly. Check it at full size.
+
+## Stale Element description
+
+Nia's Element still reads *"Signature prop: a battered yellow spiral notebook."* The present-day
+direction is a **modern matte yellow** notebook. Prompt text overrides it, so output is correct,
+but the Element itself is now out of step with the bible. There is no update action on the Elements
+tool — only list, get and create — so correcting it means creating a replacement Element and
+re-pointing future prompts. Low priority while prompts carry the override; worth doing before the
+library grows.
