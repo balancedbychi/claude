@@ -120,6 +120,21 @@ and the only conversion copy in the funnel. Every sale passes through one of the
 
 ---
 
+## OWN — getting out of your own way
+
+> The habit you're about to be hard on yourself for? You learned it somewhere it was useful.
+> Deciding you were too much, keeping the bar low, rehearsing instead of asking — those kept you
+> safe once. They're just expensive now.
+>
+> So don't try to fix all of it. Pick the one sentence you've been rehearsing and say it this week.
+> Badly, if you have to. Out loud, to the person it's about.
+>
+> That's the whole assignment.
+>
+> What's the sentence? Reply and tell me — I read these.
+
+---
+
 ## BOAT — the hero Reel
 
 > The six lines, and what they actually mean:

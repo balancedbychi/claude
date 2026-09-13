@@ -15,7 +15,9 @@ Current offer: the **Let It Go Interactive Guide**, $17.
 | [`03-scripts.md`](03-scripts.md) | 22 scripts — 1 hero, 7 two-handers, 7 Nia solos, 7 Chi solos — plus a 30-hook bank and the writing template |
 | [`04-higgsfield-production.md`](04-higgsfield-production.md) | Prompt scaffolds, model routing, batch plan, consistency traps, costs |
 | [`05-guardrails.md`](05-guardrails.md) | Offer compliance, voice rules, comment-section policy |
-| [`06-dm-templates.md`](06-dm-templates.md) | The seven auto-DM templates — one per comment keyword, and the only conversion copy in the funnel |
+| [`06-dm-templates.md`](06-dm-templates.md) | The auto-DM templates — one per comment keyword, and the only conversion copy in the funnel |
+| [`07-asset-system.md`](07-asset-system.md) | Format mix, carousel anatomy, the b-roll library, and how the 22 scripts re-cut |
+| [`08-scripts-own-way.md`](08-scripts-own-way.md) | Pillar 8 — raising your standards and getting out of your own way, written across all three formats |
 
 ## Before producing anything
 

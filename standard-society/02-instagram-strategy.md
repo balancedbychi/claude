@@ -35,17 +35,20 @@ The practical test before anything ships: **"Who does she send this to, and what
 
 Seven themes from the brief, mapped to formats and shares of the calendar.
 
-| # | Pillar | Viewer's live thought | Lead character | Format | Share |
-|---|---|---|---|---|---|
-| 1 | The urge to reach out | "Should I text him?" | Two-hander | Reel | 20% |
-| 2 | Mixed signals | "He's so confusing." | Chi | Reel + carousel | 15% |
-| 3 | Missing him anyway | "Why do I miss someone who hurt me?" | Nia | Reel | 15% |
-| 4 | Asking without apologising | "Am I asking for too much?" | Two-hander | Reel | 15% |
-| 5 | Holding the boundary | "He came back." | Two-hander | Reel + Story | 15% |
-| 6 | Actions over words | "But he says he loves me." | Chi | Carousel | 10% |
-| 7 | Everyday standards | "Is this even a big deal?" | Nia | Reel | 10% |
+| # | Pillar | Viewer's live thought | Lead | Format | Keyword | Share |
+|---|---|---|---|---|---|---|
+| 1 | The urge to reach out | "Should I text him?" | Two-hander | Carousel | `DRAFT` | 15% |
+| 2 | Mixed signals | "He's so confusing." | Chi | Talking video | `TWICE` | 15% |
+| 3 | Missing him anyway | "Why do I miss someone who hurt me?" | Nia | 5s clips | `TUESDAY` | 15% |
+| 4 | Asking without apologising | "Am I asking for too much?" | Two-hander | Carousel | `FLOOR` | 12% |
+| 5 | Holding the boundary | "He came back." | Two-hander | Carousel + Story | `DIFFERENT` | 13% |
+| 6 | Actions over words | "But he says he loves me." | Chi | Carousel | `LIST` | 10% |
+| 7 | Everyday standards | "Is this even a big deal?" | Nia | 5s clips | `SOUP` | 10% |
+| 8 | **Getting out of your own way** | "Why do I keep doing this to myself?" | Both | Carousel + clips | `OWN` | 10% |
 
-Pillar 7 is the bridge to the future membership. It's the smallest slice now and grows as launch approaches.
+Pillars 7 and 8 are the bridge to the future membership: 1–6 answer *"what do I do right now?"*, while these two answer *"how do I keep choosing this?"* They're the smallest slices today and grow as launch approaches.
+
+**Pillar 8 is the one to write carefully.** It's the only pillar where the obstacle is her rather than him, which puts it one bad sentence away from blaming her for staying. The governing rule is in `08-scripts-own-way.md`: *you got in your own way because at some point, getting out of it wasn't safe.* Any script that can't sit beside that sentence is cut.
 
 ---
 
@@ -63,7 +66,7 @@ REEL (reach)
 
 **Comment keywords** — one per pillar, so the automation routes cleanly and you can read intent from the keyword alone:
 
-`DRAFT` (urge to text) · `TWICE` (mixed signals) · `TUESDAY` (missing him) · `FLOOR` (asking) · `DIFFERENT` (he came back) · `LIST` (actions vs words) · `SOUP` (everyday standards)
+`DRAFT` (urge to text) · `TWICE` (mixed signals) · `TUESDAY` (missing him) · `FLOOR` (asking) · `DIFFERENT` (he came back) · `LIST` (actions vs words) · `SOUP` (everyday standards) · `OWN` (your own way) · `BOAT` (the hero)
 
 **There is no lead magnet — the DM is the free thing.** No download, no landing page, no asset to build. The auto-DM opens with the actual help: the three questions, the two-column exercise, the one-sentence ask. She gets something usable in the first four lines, before any mention of a price.
 
@@ -77,18 +80,20 @@ This is better than a freebie, not a compromise. A PDF asks her to leave Instagr
 
 ## 5. Cadence
 
-**Recommended (sustainable, and what I'd actually run):**
+Stills and b-roll lead; talking video is a weekly accent. Full rationale and production routing in `07-asset-system.md`.
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|---|---|---|---|---|---|---|
-| **Reel** | Two-hander | Nia solo | Chi solo | Two-hander | Nia solo | Chi solo | Two-hander |
-| **Carousel** | — | ✓ | — | ✓ | — | ✓ | — |
+| **Post** | Carousel | 5s clip | Talking video | Carousel | 5s clip | 5s clip | Carousel |
+| **Second** | — | — | — | — | 5s clip | — | Talking video ¹ |
 | **Stories** | 3–5 frames daily |||||||
 | **Broadcast** | — | — | — | ✓ | — | — | — |
 
-**Launch sprint (weeks 1–2, and around any offer push):** add a second Reel at 7–8pm, always a Nia solo — the short, funny, forwardable ones. They're cheap to produce and they carry the reach.
+¹ *Only in weeks with something to push. Otherwise one talking video a week is plenty.*
 
-I'd push back gently on running 2×/day *permanently*. On Instagram, two posts compete with each other for the same audience's attention within the same 24 hours, and the second one usually eats the first. One strong Reel a day plus committed Stories beats two rushed Reels almost every time. Save the double-post for when you have something to sell.
+**Nine posts a week:** 3 carousels, 4–5 five-second clips, 1–2 talking videos.
+
+Two posts on the same day compete for the same audience inside 24 hours, and the second usually eats the first — so the doubles sit on Friday and Sunday, away from the carousels that need the reach. Keep the second post a five-second clip: cheap, forwardable, and no loss if it underperforms.
 
 **Best posting windows for this audience:** 7–9am (the commute scroll) and 9–11pm (the checking-his-story hour). The 9–11pm slot is genuinely important — that's when the urge to text peaks, which is exactly the moment *Let It Go* is built for.
 

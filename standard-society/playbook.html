@@ -171,6 +171,41 @@ td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:now
 .scrfoot .cta b{color:var(--tx);font-weight:500}
 .kwtag{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--nia);background:var(--nia-wash);border:1px solid color-mix(in srgb,var(--nia) 30%,transparent);padding:3px 9px;border-radius:4px;white-space:nowrap}
 
+/* ---------- formats ---------- */
+.mix{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:26px}
+.mixcard{border:1px solid var(--line);border-radius:10px;background:var(--surf);padding:18px;display:flex;flex-direction:column;gap:7px}
+.mixcard .qty{font-family:var(--mono);font-size:23px;color:var(--nia);font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.mixcard h4{font-size:16.5px}
+.mixcard .len{font-family:var(--mono);font-size:10.5px;color:var(--mut);letter-spacing:.05em}
+.mixcard p{font-size:13px;color:var(--tx2)}
+.mixcard.lead{border-color:color-mix(in srgb,var(--nia) 40%,transparent)}
+.gains{display:flex;flex-direction:column;gap:12px;margin-top:26px;max-width:70ch}
+.gain{display:flex;gap:13px;align-items:flex-start}
+.gain .gn{flex:0 0 21px;height:21px;border-radius:50%;background:var(--nia-wash);border:1px solid color-mix(in srgb,var(--nia) 35%,transparent);color:var(--nia);font-family:var(--mono);font-size:10px;font-weight:700;display:grid;place-items:center;margin-top:2px}
+.gain p{font-size:14.5px;color:var(--tx2)}
+.gain b{color:var(--tx)}
+.brollcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:24px}
+.brollcol h4{font-size:15px;margin-bottom:3px}
+.brollcol .sub{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin-bottom:9px;display:block}
+.brollcol ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:0}
+.brollcol li{font-size:13.5px;color:var(--tx2);padding:7px 0;border-top:1px solid var(--line-soft)}
+
+/* ---------- carousel strips ---------- */
+.slides{display:flex;gap:9px;overflow-x:auto;padding:4px 0 12px;scroll-snap-type:x proximity}
+.slide{flex:0 0 158px;min-height:172px;border-radius:8px;border:1px solid var(--line);padding:12px;display:flex;flex-direction:column;gap:7px;scroll-snap-align:start;background:var(--surf2)}
+.slide.n{background:var(--nia-wash);border-color:color-mix(in srgb,var(--nia) 28%,transparent)}
+.slide.c{background:var(--chi-wash);border-color:color-mix(in srgb,var(--chi) 28%,transparent)}
+.slide .sn{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;color:var(--mut);font-weight:700}
+.slide .sv{font-size:10.5px;color:var(--mut);font-style:italic;line-height:1.35}
+.slide .st{font-family:var(--disp);font-size:13.5px;line-height:1.33;color:var(--tx);margin-top:auto}
+.slide .st em{font-style:normal;opacity:.62;display:block;font-size:12px;margin-top:3px}
+.cliprow{display:grid;grid-template-columns:58px 1fr 1.05fr;gap:14px;padding:11px 0;border-top:1px solid var(--line-soft);align-items:baseline}
+.cliprow:first-of-type{border-top:none}
+.cliprow .cid{font-family:var(--mono);font-size:10.5px;font-weight:700;color:var(--mut);letter-spacing:.05em}
+.cliprow .cshot{font-size:13px;color:var(--tx2);font-style:italic}
+.cliprow .ctext{font-family:var(--disp);font-size:15px;color:var(--tx);line-height:1.35}
+@media(max-width:640px){.cliprow{grid-template-columns:52px 1fr;gap:6px 12px}.cliprow .ctext{grid-column:2}}
+
 /* ---------- hooks ---------- */
 .hooks{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:26px}
 @media(max-width:760px){.hooks{grid-template-columns:1fr}}
@@ -220,6 +255,7 @@ section[id]{scroll-margin-top:56px}
     <a href="#cast">Cast</a>
     <a href="#strategy">Strategy</a>
     <a href="#funnel">Funnel</a>
+    <a href="#formats">Formats</a>
     <a href="#scripts">Scripts</a>
     <a href="#hooks">Hooks</a>
     <a href="#production">Production</a>
@@ -245,7 +281,7 @@ section[id]{scroll-margin-top:56px}
       <div class="fact"><dt>Production</dt><dd>Higgsfield · Munch Studio</dd></div>
     </dl>
   </div>
-  <div class="note"><b>Positioning.</b> The Standard Society is the audience-facing brand — it holds the community and sells Let It Go. Munch Studio is the production engine: a credit layer and a proof-of-tool track, never the main feed. Every caption, DM and Story frame here is written for the woman deciding whether to text him at 11:40pm. Creators are served quietly in §06, and no post is ever written for both at once.</div>
+  <div class="note"><b>Positioning.</b> The Standard Society is the audience-facing brand — it holds the community and sells Let It Go. Munch Studio is the production engine: a credit layer and a proof-of-tool track, never the main feed. Every caption, DM and Story frame here is written for the woman deciding whether to text him at 11:40pm. Creators are a secondary audience, served only by that credit layer — no post is ever written for both at once.</div>
 </header>
 
 <section id="cast">
@@ -305,28 +341,31 @@ section[id]{scroll-margin-top:56px}
   <div class="tw"><table>
     <thead><tr><th>Pillar</th><th>Her live thought</th><th>Lead</th><th>Format</th><th>Keyword</th><th>Share</th></tr></thead>
     <tbody>
-      <tr><td class="k">The urge to reach out</td><td>"Should I text him?"</td><td><span class="who b">two-hander</span></td><td>Reel</td><td><span class="kw">DRAFT</span></td><td class="num">20%</td></tr>
-      <tr><td class="k">Mixed signals</td><td>"He's so confusing."</td><td><span class="who c">Chi</span></td><td>Reel + carousel</td><td><span class="kw">TWICE</span></td><td class="num">15%</td></tr>
-      <tr><td class="k">Missing him anyway</td><td>"Why do I miss someone who hurt me?"</td><td><span class="who n">Nia</span></td><td>Reel</td><td><span class="kw">TUESDAY</span></td><td class="num">15%</td></tr>
-      <tr><td class="k">Asking without apologising</td><td>"Am I asking for too much?"</td><td><span class="who b">two-hander</span></td><td>Reel</td><td><span class="kw">FLOOR</span></td><td class="num">15%</td></tr>
-      <tr><td class="k">Holding the boundary</td><td>"He came back."</td><td><span class="who b">two-hander</span></td><td>Reel + Story</td><td><span class="kw">DIFFERENT</span></td><td class="num">15%</td></tr>
+      <tr><td class="k">The urge to reach out</td><td>"Should I text him?"</td><td><span class="who b">two-hander</span></td><td>Carousel</td><td><span class="kw">DRAFT</span></td><td class="num">15%</td></tr>
+      <tr><td class="k">Mixed signals</td><td>"He's so confusing."</td><td><span class="who c">Chi</span></td><td>Talking video</td><td><span class="kw">TWICE</span></td><td class="num">15%</td></tr>
+      <tr><td class="k">Missing him anyway</td><td>"Why do I miss someone who hurt me?"</td><td><span class="who n">Nia</span></td><td>5s clips</td><td><span class="kw">TUESDAY</span></td><td class="num">15%</td></tr>
+      <tr><td class="k">Asking without apologising</td><td>"Am I asking for too much?"</td><td><span class="who b">two-hander</span></td><td>Carousel</td><td><span class="kw">FLOOR</span></td><td class="num">12%</td></tr>
+      <tr><td class="k">Holding the boundary</td><td>"He came back."</td><td><span class="who b">two-hander</span></td><td>Carousel + Story</td><td><span class="kw">DIFFERENT</span></td><td class="num">13%</td></tr>
       <tr><td class="k">Actions over words</td><td>"But he says he loves me."</td><td><span class="who c">Chi</span></td><td>Carousel</td><td><span class="kw">LIST</span></td><td class="num">10%</td></tr>
-      <tr><td class="k">Everyday standards</td><td>"Is this even a big deal?"</td><td><span class="who n">Nia</span></td><td>Reel</td><td><span class="kw">SOUP</span></td><td class="num">10%</td></tr>
+      <tr><td class="k">Everyday standards</td><td>"Is this even a big deal?"</td><td><span class="who n">Nia</span></td><td>5s clips</td><td><span class="kw">SOUP</span></td><td class="num">10%</td></tr>
+      <tr><td class="k">Getting out of your own way</td><td>"Why do I keep doing this to myself?"</td><td><span class="who b">both</span></td><td>Carousel + clips</td><td><span class="kw">OWN</span></td><td class="num">10%</td></tr>
     </tbody>
   </table></div>
-  <p class="lede" style="margin-top:16px">One keyword per pillar so the automation routes cleanly and you can read intent from the keyword alone. Everyday standards is the smallest slice now — it's the bridge to the future membership, and it grows as launch approaches.</p>
+  <p class="lede" style="margin-top:16px">One keyword per pillar so the automation routes cleanly and you can read intent from the keyword alone. Pillars 7 and 8 are the bridge to the future membership — 1–6 answer <em>"what do I do right now?"</em>, these two answer <em>"how do I keep choosing this?"</em> They're the smallest slices today and grow as launch approaches.</p>
+  <div class="note" style="border-left-color:var(--nia-mark)"><b>Pillar 8 is the one to write carefully.</b> It's the only pillar where the obstacle is her rather than him, which puts it one bad sentence away from blaming her for staying. The governing rule: <em>you got in your own way because at some point, getting out of it wasn't safe.</em> Any script that can't sit beside that sentence is cut.</div>
 
   <div class="shead" style="margin-top:44px"><span class="snum">02b</span><h2>Cadence</h2></div>
   <div class="tw"><table>
     <thead><tr><th></th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead>
     <tbody>
-      <tr><td class="k">Reel</td><td><span class="who b">2-hand</span></td><td><span class="who n">Nia</span></td><td><span class="who c">Chi</span></td><td><span class="who b">2-hand</span></td><td><span class="who n">Nia</span></td><td><span class="who c">Chi</span></td><td><span class="who b">2-hand</span></td></tr>
-      <tr><td class="k">Carousel</td><td>—</td><td>✓</td><td>—</td><td>✓</td><td>—</td><td>✓</td><td>—</td></tr>
+      <tr><td class="k">Post</td><td>Carousel</td><td>5s clip</td><td>Talking</td><td>Carousel</td><td>5s clip</td><td>5s clip</td><td>Carousel</td></tr>
+      <tr><td class="k">Second</td><td>—</td><td>—</td><td>—</td><td>—</td><td>5s clip</td><td>—</td><td>Talking ¹</td></tr>
       <tr><td class="k">Stories</td><td colspan="7">3–5 frames daily · poll, Nia moment, link</td></tr>
       <tr><td class="k">Broadcast</td><td>—</td><td>—</td><td>—</td><td>✓</td><td>—</td><td>—</td><td>—</td></tr>
     </tbody>
   </table></div>
-  <div class="note">I'd push back gently on running <b>2×/day permanently.</b> On Instagram two posts compete for the same audience inside the same 24 hours, and the second usually eats the first. One strong Reel a day plus committed Stories beats two rushed Reels almost every time — save the double-post for launch sprints and offer pushes, and make the extra one a Nia solo, since those are cheap and carry the reach.</div>
+  <p class="lede" style="margin-top:14px">¹ <em>Only in weeks with something to push. Otherwise one talking video a week is plenty.</em> <b>Nine posts a week:</b> 3 carousels, 4–5 five-second clips, 1–2 talking videos.</p>
+  <div class="note">Two posts on the same day compete for the same audience inside 24 hours, and the second usually eats the first — so the doubles sit on Friday and Sunday, away from the carousels that need the reach. Keep the second post a five-second clip: cheap, forwardable, and nothing lost if it underperforms.</div>
   <p class="lede" style="margin-top:18px"><b>Post at 7–9am and 9–11pm.</b> The late window matters more than it looks: that's when the urge to text peaks, which is exactly the moment Let It Go is built for.</p>
 </section>
 
@@ -357,8 +396,85 @@ section[id]{scroll-margin-top:56px}
   <p class="lede" style="margin-top:16px"><b>The one to watch is sends per reach, split by character.</b> My expectation: Nia out-sends Chi roughly 2:1 while Chi out-saves Nia. If that holds, Nia leads reach and Chi leads conversion — weight the calendar accordingly. If it doesn't hold, the two-hander balance is wrong and needs re-cutting.</p>
 </section>
 
+<section id="formats">
+  <div class="shead"><span class="snum">04</span><h2>Stills lead, video accents</h2></div>
+  <p class="lede">The original plan was Reels-led — a talking video most days. The mix now inverts that: carousels and five-second b-roll carry the volume, and talking video becomes a weekly accent.</p>
+
+  <div class="mix">
+    <div class="mixcard lead"><span class="qty">3</span><h4>Carousel</h4><span class="len">per week · 6–9 slides · 4:5</span><p>Saves, profile visits, and the teaching format. The highest-save shape on Instagram.</p></div>
+    <div class="mixcard lead"><span class="qty">4</span><h4>Five-second clip</h4><span class="len">per week · 5s · 9:16 · silent</span><p>Reach and sends. One shot, one line, no speech. The cheap volume.</p></div>
+    <div class="mixcard"><span class="qty">1–2</span><h4>Talking video</h4><span class="len">per week · 15–20s · 9:16</span><p>Character and trust. The face of the brand, rationed.</p></div>
+    <div class="mixcard"><span class="qty">7</span><h4>Stories</h4><span class="len">days per week · 3–5 frames</span><p>Conversion. Where the link actually lives.</p></div>
+  </div>
+
+  <p class="lede" style="margin-top:26px">This is an upgrade, not a compromise. Talking-head AI video is where every failure mode lives: identity drift, lip-sync artefacts, the voice re-rolling, the half-second of uncanny that makes someone scroll past. Rationing it to one or two a week means each gets the attention and the re-rolls it deserves — while stills and b-roll, which have almost none of those failure modes, do the heavy lifting.</p>
+
+  <div class="gains">
+    <div class="gain"><span class="gn">1</span><p><b>You can start now.</b> Stills and b-roll carry no dialogue, so they need no voice element. Nia's clone is still pending and it no longer blocks a single post.</p></div>
+    <div class="gain"><span class="gn">2</span><p><b>The script bank just tripled.</b> At one or two talking videos a week, the existing Chi and Nia solos are a two-month supply instead of a two-week one.</p></div>
+    <div class="gain"><span class="gn">3</span><p><b>Consistency stops being a gamble.</b> A still either looks like her or it doesn't, and you can see it before you commit. A twenty-second talking clip can drift halfway through.</p></div>
+  </div>
+
+  <div class="shead" style="margin-top:44px"><span class="snum">04b</span><h2>Carousel anatomy</h2></div>
+  <p class="lede">Slide one is a cover, not a slide — it's the only thing most people see, so it carries the hook and nothing else.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Slide</th><th>Does</th></tr></thead>
+    <tbody>
+      <tr><td class="num">1</td><td>The hook. One line. Character portrait or a strong object shot.</td></tr>
+      <tr><td class="num">2</td><td>Name the problem in her words. Often flat colour, no image.</td></tr>
+      <tr><td class="num">3–7</td><td>One idea per slide. Alternate image and flat-colour slides so the swipe has rhythm.</td></tr>
+      <tr><td class="num">8</td><td>The turn — the line worth screenshotting. Usually Chi.</td></tr>
+      <tr><td class="num">9</td><td>The question, and the keyword prompt.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="note"><b>The background flips when the speaker flips.</b> Nia slides on camel and cream, Chi slides on navy — so in a two-hander carousel the call-and-response is visible before a word of it is read. Nothing within 80px of an edge; Instagram crops the preview.</div>
+
+  <div class="shead" style="margin-top:44px"><span class="snum">04c</span><h2>The b-roll library</h2></div>
+  <p class="lede">Build it once, reuse every shot across many posts with different text. <b>Object shots are the workhorses</b> — no character means no identity drift, no re-rolls, cheapest generation, infinite reuse.</p>
+  <div class="brollcols">
+    <div class="brollcol"><h4>Objects &amp; rooms</h4><span class="sub">no character · reuse forever</span><ul>
+      <li>Notebook on a kitchen table, pen writing, then stopping</li>
+      <li>A page torn out and folded</li>
+      <li>Two columns down a page, one much shorter</li>
+      <li>Phone face-down on a duvet</li>
+      <li>Phone screen lighting the dark, clock at 11:40</li>
+      <li>A cup of tea going cold, steam gone</li>
+      <li>An empty chair at a kitchen table, morning</li>
+      <li>A door, morning light through the gap</li>
+      <li>A plate pushed forward an inch</li>
+    </ul></div>
+    <div class="brollcol"><h4>Nia</h4><span class="sub">warm · handheld · low light</span><ul>
+      <li>Thumb hovering over send, screen glow on her face</li>
+      <li>Walking away from camera, coat, streetlights</li>
+      <li>Parked car, dashboard glow</li>
+      <li>Writing — only hands and the page</li>
+      <li>Bathroom mirror, getting ready, not looking at the lens</li>
+    </ul></div>
+    <div class="brollcol"><h4>Chi</h4><span class="sub">cool · daylight · locked off</span><ul>
+      <li>Balcony, looking out, not speaking</li>
+      <li>Wind in her hair, turning slowly to camera</li>
+      <li>Hands on the railing, skyline soft behind</li>
+    </ul></div>
+  </div>
+  <div class="note"><b>Rules.</b> No speech, ever — these run silent under text and a trending audio. One line on screen for the full five seconds; if it needs two lines it's a carousel. Hold the shot, no cuts inside five seconds. Every fourth clip carries a keyword, the rest just give something away.</div>
+
+  <div class="shead" style="margin-top:44px"><span class="snum">04d</span><h2>Re-cutting the existing 22</h2></div>
+  <p class="lede">Nothing gets thrown away. The delivery format changes, and most scripts get <em>better</em> for it — the two-handers were always call-and-response, which is exactly what a carousel is.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Original</th><th>Becomes</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td class="k">H-1 The Ship</td><td>Stays long-form, pinned</td><td>The one exception — it's the origin story and it needs the runtime</td></tr>
+      <tr><td class="k">TH-1 … TH-7</td><td>Carousels, 7–9 slides</td><td>Nia's lines warm, Chi's navy. The format was hiding in them already.</td></tr>
+      <tr><td class="k">C-1 … C-7</td><td>Talking videos, trimmed to 18s</td><td>Already the right shape — cut one sentence from each</td></tr>
+      <tr><td class="k">N-1 … N-7</td><td>Longer four → talking video; punchlines → 5s clips</td><td>"Beautiful ship. Not enough lifeboats." is a five-second clip, not a fifteen</td></tr>
+      <tr><td class="k">The 30 hooks</td><td>5s clip text</td><td>Each hook is already one line on one shot. That <em>is</em> the format.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="lede" style="margin-top:16px">At one or two talking videos a week, C-1…C-7 plus four Nia solos is <b>roughly eight weeks of talking video</b> before you repeat. The thirty hooks plus the ten Pillar 8 clips is <b>ten weeks of five-second clips.</b></p>
+</section>
+
 <section id="scripts">
-  <div class="shead"><span class="snum">04</span><h2>The scripts</h2></div>
+  <div class="shead"><span class="snum">05</span><h2>The scripts</h2></div>
   <p class="lede">Twenty-two, across all seven pillars. Every one starts at a recognisable moment rather than a lesson, carries exactly one useful idea, and gives something away to people who never buy.</p>
   <div class="legend">
     <div><span class="swatch" style="background:var(--nia-mark)"></span> Nia — night, handheld, dry</div>
@@ -369,7 +485,7 @@ section[id]{scroll-margin-top:56px}
 </section>
 
 <section id="hooks">
-  <div class="shead"><span class="snum">05</span><h2>Hook bank</h2></div>
+  <div class="shead"><span class="snum">06</span><h2>Hook bank</h2></div>
   <p class="lede">For extending the series. One specific, recognisable moment — never a general statement. A time of day, a number, an object.</p>
   <div class="hooks">
     <div class="hookcol n"><header><div class="eyebrow">Nia — dry, first person, forwardable</div></header><ol>
@@ -410,7 +526,7 @@ section[id]{scroll-margin-top:56px}
 </section>
 
 <section id="production">
-  <div class="shead"><span class="snum">06</span><h2>Producing it in Higgsfield</h2></div>
+  <div class="shead"><span class="snum">07</span><h2>Producing it in Higgsfield</h2></div>
   <p class="lede"><b>Generate each character separately and cut them together.</b> Soul takes one <code>soul_id</code> per generation, so the two-hander is never one shot — and that isn't a limitation to work around. The split <em>is</em> the format. They're never in the same room, and the hard cut between night and day is doing the work.</p>
 
   <div class="tw"><table>
@@ -438,7 +554,7 @@ Ambient audio: <b>&lt;2–3 real sounds for the location&gt;</b>. Photorealistic
 smartphone vlog look. Vertical 9:16. No visible on-screen text,
 captions, watermark or music.</pre>
 
-  <div class="shead" style="margin-top:44px"><span class="snum">06b</span><h2>Consistency traps</h2></div>
+  <div class="shead" style="margin-top:44px"><span class="snum">07b</span><h2>Consistency traps</h2></div>
   <div class="tw"><table>
     <thead><tr><th>Trap</th><th>What happens</th></tr></thead>
     <tbody>
@@ -454,7 +570,7 @@ captions, watermark or music.</pre>
 </section>
 
 <section id="guardrails">
-  <div class="shead"><span class="snum">07</span><h2>Guardrails</h2></div>
+  <div class="shead"><span class="snum">08</span><h2>Guardrails</h2></div>
   <p class="lede">This audience is vulnerable and the offer makes claims easy to overstate. Check every script against this before it ships.</p>
   <div class="rails">
     <div class="rail">
@@ -489,7 +605,7 @@ captions, watermark or music.</pre>
 </section>
 
 <section id="next" style="border-bottom:none">
-  <div class="shead"><span class="snum">08</span><h2>Before you generate anything</h2></div>
+  <div class="shead"><span class="snum">09</span><h2>Before you generate anything</h2></div>
   <div class="next">
     <div class="step"><div class="n">01</div><h4>Clone Nia's voice</h4><p>Her Element is done. The voice has to come back out of the Titanic footage — nothing else reproduces it, and every clip re-rolls until it exists.</p></div>
     <div class="step"><div class="n">02</div><h4>Load the eight DMs</h4><p>One per comment keyword. With no lead magnet, these are both the free thing and the only conversion copy you have.</p></div>
@@ -660,14 +776,93 @@ captions, watermark or music.</pre>
         {d:'Balcony. The warmest one.'},
         {s:'c', t:['Raising your standards doesn’t mean going cold. It doesn’t mean games, or pretending you don’t care.','You can care about someone all the way and still say "not like this."','Those aren’t opposites. That’s the whole skill.','You’re not trying to stop loving people.','You’re trying to stop abandoning yourself while you do it.']}
       ], cta:'That last line’s yours if you need it. Save this one.', kw:'SOUP'}
-    ]}
+    ]},
+    {pillar:'Pillar 8', title:'Raising your standards & getting out of your own way', sub:'"Why do I keep doing this to myself?"',
+     note:'<b>The enemy moves.</b> Pillars 1–7 are about him. This one is about the thing you do to yourself — which puts it one bad sentence from blaming her for staying. The governing rule: <em>you got in your own way because at some point, getting out of it wasn’t safe.</em> Any script that can’t sit beside that sentence is cut.',
+     carousels:[
+      {id:'CR-1', name:'Waiting on you', meta:'9 slides · anchor post', cap:'Slide 6 is the one that got me. 🤍', kw:'OWN', slides:[
+        {n:1, w:'c', v:'Chi on the balcony, looking out', t:'You’re not waiting on him anymore. <em>You’re waiting on you.</em>'},
+        {n:2, w:'c', v:'Flat navy', t:'Here’s what getting in your own way actually looks like.'},
+        {n:3, w:'', v:'Notebook, pen stopped mid-word', t:'Rehearsing the conversation for three weeks instead of having it.'},
+        {n:4, w:'', v:'Phone, half-typed message', t:'Explaining your need until it sounds like an apology.'},
+        {n:5, w:'n', v:'Flat camel', t:'Deciding you’re "too much" before anyone else gets the chance.'},
+        {n:6, w:'', v:'Bar of light low on a wall', t:'Keeping the bar low so you’re never disappointed. <em>(You’re still disappointed.)</em>'},
+        {n:7, w:'', v:'Tea going cold', t:'Calling it "being chill." It isn’t chill. It’s just quiet.'},
+        {n:8, w:'c', v:'Chi, direct to camera', t:'You already know your standard. You’re just scared to be the person who has one.'},
+        {n:9, w:'c', v:'Flat navy', t:'What’s one you’re ready to stop talking yourself out of?'}
+      ]},
+      {id:'CR-2', name:'I said no on his behalf', meta:'8 slides · two-hander · background flips with the speaker', cap:'Ask. Badly, if you have to. Just ask.', kw:'OWN', slides:[
+        {n:1, w:'n', v:'Nia in the car, phone dark in her lap', t:'I didn’t ask for what I wanted.'},
+        {n:2, w:'n', v:'Flat camel', t:'Because I’d already decided he’d say no.'},
+        {n:3, w:'n', v:'Notebook, one line written', t:'So technically he never said no. I did. On his behalf. In advance.'},
+        {n:4, w:'c', v:'Flat navy', t:'That’s not protecting yourself.'},
+        {n:5, w:'c', v:'Chi, direct', t:'That’s rejecting yourself first, so it stings less.'},
+        {n:6, w:'c', v:'Flat navy', t:'And it works. It does sting less. <em>It also means you never find out.</em>'},
+        {n:7, w:'n', v:'Nia, half-smile', t:'Find out what?'},
+        {n:8, w:'c', v:'Split — warm left, cool right', t:'Whether he’d have said yes. <em>And who you’d be if you’d asked.</em>'}
+      ]},
+      {id:'CR-3', name:'Things that are not standards', meta:'7 slides · Nia · the funny one, built to be sent', cap:'Number four for me and I’m not proud. 😐', kw:'OWN', slides:[
+        {n:1, w:'n', v:'Nia, deadpan, notebook up', t:'Things I called "my standards" that were actually just fear.'},
+        {n:2, w:'n', v:'Flat camel', t:'"I’m just very independent." <em>I was scared to need anything.</em>'},
+        {n:3, w:'n', v:'Flat camel', t:'"I don’t like labels." <em>I didn’t want to hear the answer.</em>'},
+        {n:4, w:'n', v:'Flat camel', t:'"I’m low maintenance." <em>I was cheap to disappoint.</em>'},
+        {n:5, w:'n', v:'Flat camel', t:'"I don’t do drama." <em>I don’t do conversations.</em>'},
+        {n:6, w:'n', v:'Nia, writing', t:'A standard is something you’ll act on. Everything else is a personality I borrowed.'},
+        {n:7, w:'', v:'Flat', t:'Which one was yours? I’ll go first — number four.'}
+      ]}
+     ],
+     clips:[
+      {id:'FS-1', shot:'Thumb hovering over send, screen glow', t:'You already know.'},
+      {id:'FS-2', shot:'Pen writing, then stopping mid-word', t:'Rehearsing it isn’t the same as saying it.'},
+      {id:'FS-3', shot:'Tea going cold, steam gone', t:'Waiting to feel ready is just waiting.'},
+      {id:'FS-4', shot:'Phone face-down on a duvet', t:'"Chill" and "scared" look identical from the outside.'},
+      {id:'FS-5', shot:'Chi on the balcony, not speaking, wind in her hair', t:'You can be the problem and still not be the villain.'},
+      {id:'FS-6', shot:'Two columns on a page, one much shorter', t:'The bar isn’t too high. You keep lowering it.'},
+      {id:'FS-7', shot:'A door, morning light through the gap', t:'Nobody is coming to give you permission.'},
+      {id:'FS-8', shot:'Notebook page torn out, folded', t:'You’re allowed to change the rule you made at nineteen.'},
+      {id:'FS-9', shot:'Nia walking away from camera, streetlights', t:'Getting out of your own way is quieter than you think.'},
+      {id:'FS-10', shot:'Empty chair at a kitchen table, morning', t:'Nothing has to be over for you to stop waiting.'}
+     ],
+     scripts:[
+      {id:'TV-1', name:'Waiting to not care', meta:'18s · Chi · talking video', body:[
+        {d:'Balcony. Direct, warm, unhurried.'},
+        {s:'c', t:['You keep saying you’ll set the boundary when you stop caring so much.','That’s backwards. You set it because you care.','If you wait until it doesn’t hurt, you’ll be waiting a very long time — and you’ll spend all of it being someone you don’t like very much.','Do it while it’s still hard. That’s the only version there is.']}
+      ], cta:'Comment if you’ve been waiting to not care.', kw:'OWN'},
+      {id:'TV-2', name:'Eleven days', meta:'17s · Nia · talking video', body:[
+        {d:'Kitchen, morning. Dry, building to the beat.'},
+        {s:'n', t:['I rehearsed a conversation in the shower for eleven days.','Eleven. I had counter-arguments ready for things he was never going to say.','Then I actually had it. It took four minutes. He said "yeah, okay."']},
+        {d:'Beat. Straight to lens.'},
+        {s:'n', t:['Eleven days. Four minutes.']}
+      ], cta:'What are you rehearsing instead of saying?', kw:'OWN'},
+      {id:'TV-3', name:'Not a personality', meta:'19s · Chi · reserve', body:[
+        {d:'Balcony. Hold this one back until CR-3 performs.'},
+        {s:'c', t:['Raising your standards isn’t a personality you announce. It’s not a caption, or a hard launch, or going cold for a month to prove a point.','It’s one sentence, said out loud, to somebody who might say no.','That’s it. That’s the whole thing. It’s much smaller and much scarier than the version in your head.']}
+      ], cta:'Comment with the sentence you haven’t said yet.', kw:'OWN'}
+     ]}
   ];
 
   function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
   var html = '';
   P.forEach(function(g){
-    html += '<div class="pillar"><div class="eyebrow">'+esc(g.pillar)+'</div><h3>'+esc(g.title)+'</h3><p class="psub">'+esc(g.sub)+'</p><div class="scripts">';
-    g.scripts.forEach(function(s){
+    html += '<div class="pillar"><div class="eyebrow">'+esc(g.pillar)+'</div><h3>'+esc(g.title)+'</h3><p class="psub">'+esc(g.sub)+'</p>';
+    if(g.note){ html += '<div class="note">'+g.note+'</div>'; }
+    html += '<div class="scripts">';
+    (g.carousels||[]).forEach(function(c){
+      html += '<article class="scr"><div class="scrhead"><span class="scrid">'+esc(c.id)+'</span><h4>'+esc(c.name)+'</h4><span class="meta">'+esc(c.meta)+'</span></div>';
+      html += '<div class="scrbody"><div class="slides">';
+      c.slides.forEach(function(sl){
+        html += '<div class="slide '+(sl.w||'')+'"><span class="sn">'+sl.n+'</span><span class="sv">'+esc(sl.v)+'</span><span class="st">'+sl.t+'</span></div>';
+      });
+      html += '</div></div><div class="scrfoot"><span class="cta"><b>Caption</b> · '+esc(c.cap)+'</span><span class="kwtag">'+esc(c.kw)+'</span></div></article>';
+    });
+    if((g.clips||[]).length){
+      html += '<article class="scr"><div class="scrhead"><span class="scrid">FS-1–10</span><h4>Five-second clips</h4><span class="meta">5s · 9:16 · silent · one line</span></div><div class="scrbody">';
+      g.clips.forEach(function(c){
+        html += '<div class="cliprow"><span class="cid">'+esc(c.id)+'</span><span class="cshot">'+esc(c.shot)+'</span><span class="ctext">'+esc(c.t)+'</span></div>';
+      });
+      html += '</div><div class="scrfoot"><span class="cta">One shot, one line, no speech — so these need no voice element and nothing can drift.</span><span class="kwtag">OWN</span></div></article>';
+    }
+    (g.scripts||[]).forEach(function(s){
       html += '<article class="scr'+(s.hero?' hero':'')+'">';
       html += '<div class="scrhead"><span class="scrid">'+esc(s.id)+'</span><h4>'+esc(s.name)+'</h4><span class="meta">'+esc(s.meta)+'</span></div>';
       html += '<div class="scrbody">';
