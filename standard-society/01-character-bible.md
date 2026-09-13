@@ -71,6 +71,40 @@ Critically: **Chi never judges Nia, and Nia never gets fixed.** Nia keeps strugg
 
 **What Nia never does** — get fixed in one video, become a mouthpiece for the advice, apologise for feeling it, get mocked by the edit.
 
+### Making her sound 2026, not 1912
+
+Her voice clone carries the delivery of its source, and its source is her playing a period
+passenger. Some of that register is baked in. **The script is the strongest correction available,
+and it's free.**
+
+**Write like this**
+
+- **Fragments.** Sentences that aren't sentences. "Four minutes. Four."
+- **Open on a discourse marker** — "Right —", "Okay so", "Anyway", "Listen". It signals mid-conversation, not address-to-camera.
+- **Ask yourself questions and answer them.** "Did I text him? No. Did I check if he was online? Twice."
+- **Trail off.** "Did I watch his story? …Obviously."
+- **Understate the punchline.** Never explain it. "Not enough lifeboats."
+- **Self-interrupt.** "The second list is shorter. Much shorter. Embarrassingly—"
+- **Plain numbers, said flat.** "Eleven days. Four minutes."
+- **End on a short beat**, not a resolved cadence. "Day one. Again."
+
+**Never write**
+
+- Complete, balanced, three-part sentences — that's announcer cadence and it ages her instantly
+- Formal connectives: however, therefore, indeed, rather, quite
+- Setup → development → conclusion. She lands sideways, not squarely.
+- Explaining why the joke is funny
+- Anything she'd have to project to deliver. She is talking, not performing.
+
+**Delivery setting: `speech_rate: 25`.** Tested. Default settings render her at 129 wpm, which is
+period/declamatory; +25 puts her at 171 wpm, squarely modern casual. This single dial does more for
+"sounds 2026" than any EQ. (`expression_intensity` is ignored by the API — don't plan around it.)
+
+**If the script is right and she still reads dated,** the fix is a new clone from modern source:
+generate a present-day Nia clip with contemporary delivery direction, restore it, and clone from
+that. Roughly 150–175 credits. Do it only after the script and the delivery dials have been tried,
+because those cost about two credits to test.
+
 ---
 
 ## The Titanic canon (your unfair advantage)

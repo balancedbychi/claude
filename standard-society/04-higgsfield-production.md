@@ -171,6 +171,30 @@ render cannot measure. It is the right asset to keep; just don't expect it to so
 before the voice was deleted and HTTP 403 afterwards, from the same CDN that still serves v2 fine.
 Before deleting any voice element, download anything generated with it that you still need.
 
+### Delivery — tested values for sounding 2026
+
+Her clone carries period delivery from its source. **Pace is the correction, and it works.**
+Four renders of the same 33-word line through `Nia-voice-v2-clear`:
+
+| `speech_rate` | Duration | WPM | Register |
+|---|---|---|---|
+| 0 (default) | 15.38s | 129 | period / declamatory |
+| +15 | 14.60s | 136 | period / declamatory |
+| +15 (repeat) | 15.83s | 125 | period / declamatory |
+| **+25** | **11.59s** | **171** | **modern casual** ✅ |
+
+Modern casual British speech runs 150–190 wpm; declamatory sits 120–140. **Default settings put
+her at 129 — genuinely period.** `speech_rate: 25` lands her at 171, right in the pocket. Use it as
+the standing default for Nia; drop to +20 on longer scripts so the jokes still have room.
+
+**`expression_intensity` is ignored.** All four jobs were submitted with 5, 4, 3 and 8 — the API
+echoed `expression_intensity: 5` on every one. It is not a working dial through this path, so don't
+plan around it. `speech_rate` is the lever you have.
+
+**Budget ~±8% run-to-run variance.** Two renders at identical settings came back 125 and 136 wpm.
+For a talking video where timing carries a joke, generate the audio twice and keep the better take
+— it's about 2 credits.
+
 ### Two rules for any future clone
 
 **Never clone from raw Seedance audio.** It is 32 kHz, air-starved, and carries whatever ambience
