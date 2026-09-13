@@ -1,34 +1,36 @@
-## Status — v2 (bright modern luxury)
+## Animated clips — batch 1 complete
 
-Batch 1 v1 was re-rolled entirely: the prompts read as kitchen-sink realism, not the brand. See
-"Why v1 failed" below. **v2 job IDs are the live assets.**
+Five 4-second 1080×1920 silent clips, image-to-video from the approved stills via `seedance_2_0`.
+**36 credits each, 180 total.**
 
-| # | Shot | Job ID (v2) | Use | Next |
-|---|---|---|---|---|
-| 1 | Notebook, matte black pen mid-line, marble counter | `f5ebe0af-3a77-4da3-91f9-1a65f7a6bd1d` | FS-2 | **animate** |
-| 2 | Page torn out, folded, micro-cement | `6912a3c8-d875-4cd0-8259-adf2e750527a` | FS-8 | **animate** |
-| 3 | Tea gone cold, marble sill, skyline beyond | `19973c06-e874-4c6b-a906-122a8c6a636d` | FS-3 | **animate** |
-| 4 | Sheer linen curtains, draught, sunlight | `fd64ec9a-c8aa-4e85-95c0-db224144b98b` | atmosphere | **animate** |
-| 5 | Plate pushed forward, upscale daytime restaurant | `f331b817-a494-4cb3-9c5b-159cabdf6afd` | TH-7 "The Soup" | **animate** |
-| 6 | Two columns, right one short, marble | `857da113-c39e-4bca-bbf1-59f0d59b5a0c` | FS-6, TH-6 | still + push |
-| 7 | Phone face-down, white linen, morning | `a62c7689-eb68-470d-a6f2-e712114fd777` | FS-4 | still + push |
-| 8 | Phone screen 11:40, city skyline at night | `d2da3934-95dc-43f3-80c2-820565150d36` | FS-1, TH-1 | still + push |
-| 9 | Sculptural chair, marble table, morning | `2816bfb2-7cf8-457f-b8e9-8bd448ac9646` | FS-10 | still + push |
-| 10 | Door ajar, pale ash floor, morning light | `a08e8e72-6b60-494a-bec4-a6a3aab998eb` | FS-7 | still + push |
+| # | Clip | Video job ID | Motion |
+|---|---|---|---|
+| 1 | Notebook | `80542832-4108-46c3-a7b9-799b7c056514` | draught lifts the page corner, dust in the light |
+| 2 | Torn page | `f6cefc79-c095-4d27-875e-3a25d942895e` | shadow edge creeps as a cloud passes |
+| 3 | Cold tea | `94ad4e3d-1def-4535-aa4d-8c22b08d34ee` | faint ripple crosses the surface and settles |
+| 4 | Curtains | `977a3729-5ecc-4ef5-8718-7e9f9df54589` | linen breathes in and falls back |
+| 5 | Plate | `607c9e15-c75b-4941-acce-8eb1a4949c20` | a hand pushes the plate forward and withdraws |
 
-## Why v1 failed — worth not repeating
+**Batch 1 total: 210 credits** — 30 stills + 180 animation. Against 810 for the naive all-video
+approach, and 240 counting the v1 stills that were re-rolled.
 
-The compositions were right; the vocabulary was wrong. Every one of these words pulled the frame
-toward kitchen-sink realism: *battered, cheap biro, pale oak, aged brass, worn wooden floor, cold
-grey, bare branches, quiet domestic realism, phone photograph* — and worst of all, **"one warm lamp,
-the rest falling into darkness."**
+### Direction notes that mattered
 
-Light did most of the damage. The same objects in the same arrangement read as a magazine spread
-under "abundant soft diffused daylight, soft shadows only" and as a period drama under one lamp in
-the dark. Art direction is now locked in `07-asset-system.md` §2b.
+**Micro-motion, not motion.** Every prompt specifies a locked camera and one small movement.
+Large AI movement is what reads as generated; a page corner lifting and settling reads as a film
+crew left a camera running. "No camera shake" and "no camera movement" go in every prompt — the
+model will otherwise invent a drift that makes the shot feel cheap.
 
-**Cost of the lesson: 30 credits.** Cheap, because stills are 3 each. Had this been caught after
-animating, it would have been 210.
+**No hands on object b-roll, with one exception.** Hands are the main artifact risk after faces.
+Only #5 has one, because the whole meaning of that shot is the plate going back — ambience alone
+would have said nothing. It is specified as deep warm brown skin, short neutral nails, no rings, so
+it is consistent with Nia's world without needing her Element. **Check this clip's hand closely.**
+Any other shot needing hands belongs in the character b-roll batch, under her Element.
+
+**Watch for a preset hijack.** Submitting #5 initially returned `submission_failed` with a preset
+recommendation ("IN THE DARK") instead of a job — wrong for a bright restaurant. Pass
+`declined_preset_id` with the offered id and resubmit. It costs nothing but will silently stall a
+batch item if unnoticed: **always check `submitted_count` against what you sent.**
 
 ## The split
 
