@@ -66,58 +66,85 @@ require re-rolling the video. Until then, every Nia clip is a fresh roll of the 
 
 ---
 
-## 1b. If her voice sounds muffled
+## 1b. The muffle — diagnosed and fixed
 
-It will, at first. Work the ladder — **cheapest test first**, because a re-clone costs 40 credits
-and the two likeliest causes cost about two.
+The first clone came back muffled. It was measured, not guessed, and there were three causes.
 
-### Step 1 — sample rate · ~2 credits
+### What the source actually is
 
-Your own history has both: older Chi audio jobs ran at `sample_rate: 24000`, the two most recent
-at `44100`. **24 kHz is telephone bandwidth.** It rolls off everything above ~11 kHz, which strips
-exactly the sibilance and air that make a voice sound present. It doesn't sound quiet — it sounds
-*muffled*, like she's talking through a door.
+The Titanic audio is **32 kHz AAC**. Measured against the 300–1700 Hz body band:
 
-Generate one line with:
+| Band | Source | Clear speech should be |
+|---|---|---|
+| Presence (2.5–5.5 kHz) | **−11.8 dB** | ≈ −7 dB |
+| Air (8 kHz+) | **−20.9 dB** | ≈ −16 dB |
 
+Air sitting 21 dB under the body **is** the muffle. There is also no silence anywhere at −34 dB,
+so the gull-and-engine bed runs continuously underneath every word.
+
+### The four clips are not all the same voice
+
+Fundamental frequency, measured by autocorrelation:
+
+| Clip | f0 | Verdict |
+|---|---|---|
+| Dawn recap | **183.9 Hz** | reference |
+| Grand staircase | **181.8 Hz** | same voice (1% apart) |
+| Bow at dusk | 191.2 Hz | 4% high — borderline |
+| Lifeboat deck | **207.8 Hz** | **~2 semitones up — a different roll** |
+
+Seedance rolls the voice per generation. Training a clone across all four blends two-plus
+different women, which is itself a cause of thickness. **Only the dawn recap is usable.**
+
+The staircase clip was tried and rejected: it carries **4.7 dB more low-mid energy** than the dawn
+clip — the string quartet's cello register, sitting exactly where her voice lives. High-passing at
+130, 150 and even 170 Hz (her own fundamental) only recovered 2 dB, so it cannot be separated
+without damaging her. Twelve seconds of clean, internally consistent material beats twenty-four
+where half is contaminated.
+
+### The restoration chain
+
+Run in the Higgsfield sandbox (`sandbox_exec` has ffmpeg, sox, python3 and internet access, and
+reaches the CDN that this session's network policy blocks).
+
+```bash
+ffmpeg -i nia.mp4 -vn -ac 1 -ar 48000 -c:a pcm_s16le raw.wav
+sox raw.wav -n trim 3.2 0.4 noiseprof nia.prof      # quietest window = 3.2s
+
+sox raw.wav out.wav \
+    highpass 85 \                      # engine rumble, safely below her 184 Hz fundamental
+    noisered nia.prof 0.12 \           # light — heavy denoise DULLS, making the muffle worse
+    equalizer 3400 0.7q 8.5 \          # presence: intelligibility and consonants
+    equalizer 5500 1.2q 3 \            # bite
+    treble 3.5 9000 \                  # air
+    gain -n -1.5
+
+sox out.wav final.wav rate -v 44100
+ffmpeg -i final.wav -codec:a libmp3lame -b:a 320k -ar 44100 -ac 1 clean.mp3
 ```
-sample_rate: 44100
-format:      wav
-```
 
-If that fixes it, you're done, and it was never the clone.
+### Result
 
-### Step 2 — presence · ~2 credits
+| | Source | Restored | Target |
+|---|---|---|---|
+| Presence | −11.8 dB | **−7.2 dB** | −7.0 |
+| Air | −20.9 dB | **−16.3 dB** | −15.5 |
+| Rumble | −11.8 dB | **−16.5 dB** | lower |
+| Warmth | −1.2 dB | −2.4 dB | unchanged |
+| **f0** | **183.9 Hz** | **183.8 Hz** | unchanged |
+| **f0 range (p10–p90)** | **167–210 Hz** | **166–210 Hz** | unchanged |
 
-Still dull? Nudge `loudness_rate` up 10–15. Leave `pitch_rate` alone — raising pitch to chase
-brightness will cost you her identity, and low-and-warm is the whole point of her.
+Pitch and pitch range are identical, and warmth moved 1.2 dB. **The tone is the same voice —
+only the missing top was restored.** That is the whole requirement: add what was absent, touch
+nothing that carries identity.
 
-### Step 3 — the clone itself · 40 credits
+### Two rules for any future clone
 
-If a 44.1 kHz render is still muffled, the problem is baked in: the source had gulls and a low
-engine thrum under her, and **a clone trained on a noise bed learns the noise bed as part of the
-voice.** The engine thrum in particular sits right under the low end of her register, which is
-precisely where "muffled" lives.
+**Never clone from raw Seedance audio.** It is 32 kHz, air-starved, and carries whatever ambience
+the prompt asked for. Always restore first.
 
-Don't switch source clips — the dawn recap was the cleanest of the four. The staircase has a
-string quartet, the bow has wind (broadband, the worst possible case), the lifeboat deck has
-hissing steam. All are worse.
-
-Instead, **denoise the audio you already extracted, then re-clone from the cleaned file:**
-
-- *Adobe Podcast — Enhance Speech* is free, browser-based, and built for exactly this
-- Audacity's Noise Reduction works if you sample the gull-and-engine bed as the noise profile
-- iZotope RX if you have it
-
-This keeps the Titanic voice identity and removes only the bed underneath it. Re-clone as
-`Nia's-voice-v2`, keep the original until you've A/B'd them, and only then delete the old one.
-
-### Step 4 — last resort
-
-If a denoised clone still isn't right, generate a fresh clean-room Nia clip — quiet interior,
-prompt ending *"no ambient audio, no music, no background noise"* — and clone from that. You lose
-the exact Titanic roll, but you gain a clean locked voice, and locked-and-clear beats
-identical-and-muddy on a character who has to talk every week.
+**Always check f0 across clips before combining them.** Two clips more than ~2% apart in
+fundamental are different voices, and blending them is why a clone comes back thick.
 
 ---
 
