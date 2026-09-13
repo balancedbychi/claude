@@ -107,10 +107,14 @@ talking scripts already run 17–19s; trimming one sentence puts them at 15.
 
 **2. Generate b-roll at 4 seconds.** 36 instead of 45, across every clip you ever make.
 
-**3. Test `generate_audio: false` on one silent clip.** *Unverified* — every generation in your
-history ran with audio on, so there's no data point for it. Native audio generation may or may not
-be priced in. Run one 4-second object clip with it off, check the transaction, and if it's cheaper
-you get it on every b-roll clip from then on. One clip, 36 credits, to find out.
+**3. ~~`generate_audio: false`~~ — tested, no saving.** Preflighted both ways on an identical
+4-second 1080p clip: **36 credits with audio on, 36 with it off.** Native audio is not priced
+separately, so silence is a creative choice rather than a cost lever. Still set it `false` for
+b-roll — you don't want generated room tone under a trending audio — just don't expect a discount.
+
+**A fourth thing, free:** preflight with `get_cost: true` before any batch. It returns the exact
+charge without submitting, which is how the above was settled for nothing. Do it before every
+video batch.
 
 ---
 
