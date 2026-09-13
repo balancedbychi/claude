@@ -100,3 +100,46 @@ ChiChi hangs up. Sits in the silence one full beat. Then stands, and walks towar
 - **Shot construction:** every clip must show BOTH women, intercut between the two apartments. seedance only binds a saved voice element to a character it can see — an off-camera speaker gets an invented voice. This is why the phone side came out wrong on the first pass.
 - **Pacing:** no gap over a quarter second between lines, and cut to the other apartment ON the first syllable of the new line, never before it.
 - **New sets required:** Nia's apartment (warm, layered, slightly chaotic) and ChiChi's apartment (bright modern luxury, immaculate, quiet). Neither exists as a reference element yet.
+
+---
+
+## ELEMENT REGISTRY — locked
+
+Every shot must reference these by ID. Do not describe a character or room from
+scratch when an element exists for it.
+
+### Characters
+
+| Element | ID | Use |
+|---|---|---|
+| `Nia-Eleven-Days-Look` | `4237ef4c-0f12-425b-8789-1b702e738f0f` | Nia in this episode's olive halter + army-green trousers |
+| `Nia` | `bcd528d3-9756-4190-ba80-4aaae881f2b2` | Nia's canonical face, for episodes with different wardrobe |
+| `ChiChi-Series-Look` | `bc1bd310-582b-4694-abde-1fb72f0de1f8` | ChiChi — current locked series look |
+
+### Environments
+
+| Element | ID | Use |
+|---|---|---|
+| `Nia-Bedroom-Night` | `b6a4c5be-82cb-4328-aa15-d260bc70243e` | Nia's bedroom, Shots 1/3/5 |
+| `ChiChi-Living-Room-Night` | `77870e42-dff9-454b-b394-40ac0b07c1fe` | ChiChi's living room, Shots 2/4/6 |
+| `Sucré-Coffee-Shop` | `59b95bad-f65a-4e6a-9381-32f5d9ad6638` | Existing series location, other episodes |
+
+### Voices
+
+| Element | ID |
+|---|---|
+| `Nia-voice-v2-clear` | `12315c68-37de-41fe-8766-76ac07bcaf70` |
+| `ChiChi-the-Influencer-Voice` | `180fdb9a-7c0b-469e-be49-3f76692a3968` |
+
+### Superseded — do NOT use
+
+`ChiChi-the-Influencer` (`8a8e8eeb…`), `Chi-Standard-Society` (`6df69ad5…`),
+`ChiChi-Main-Character`, `ChiChi-the-Influencer-—-Primary-Reference`, `Chi2`, `Chi`.
+All describe the retired honey-blonde blowout and will pull her hair back toward
+blonde. `ChiChi-Series-Look` replaces all of them.
+
+### Approved reference
+
+Shot 1 v4 is the approved template for the episode — intercut construction,
+pacing, staging and both locked rooms:
+`9849b24f-91a3-4a3f-abd7-3dcd2ddc2acb`
