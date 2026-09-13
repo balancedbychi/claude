@@ -12,8 +12,11 @@
 **NIA — 30.** Deep warm brown skin, waist-length jet-black water-wave curls, diamond studs, thin gold choker. Warm, low, British-accented, dry and deadpan — but fast and bright when she wants something.
 *Wardrobe this episode:* olive ribbed halter crop top (high mock-halter neck, sleeveless, cropped at the natural waist) with matching army-green wide-leg pleated trousers. Barefoot.
 
-**CHICHI — 40.** Warm brown complexion, almond dark eyes, full brows, cheek beauty mark, honey-blonde shoulder-length layered blowout with darker roots, stud earrings, full-figured. Warm, smooth, mid-to-low General American. Calm authority, dry as a bone.
-*Wardrobe this episode:* deep olive-bronze heavy ribbed knit floor-length column maxi, long sleeves, asymmetric neckline — high on one shoulder, dropped off the other — with a diagonal draped rib panel sweeping across the torso to a folded tab at the hip.
+**CHICHI — 40.** Warm brown complexion, almond dark eyes, full brows, cheek beauty mark, stud earrings, full-figured. Warm, smooth, mid-to-low General American. Calm authority, dry as a bone.
+
+*SERIES LOOK — locked, applies to every episode from here:* rich dark brown, almost black, shoulder-length layered blowout — soft volume, bouncy outward-curled ends, deep side part, falling just below the shoulders. Not blonde. Oversized heather-oatmeal crewneck sweatshirt in heavyweight fleece, dropped shoulders, long loose sleeves, PILATES across the chest in navy collegiate block letters outlined in white; fitted chocolate-brown leggings. Barefoot. Stud earrings only, no necklace.
+
+*Note:* hair may vary between episodes — the rest of this look is the constant. This supersedes the honey-blonde blowout and the olive-bronze maxi dress; those are retired for ChiChi.
 
 ---
 
@@ -91,5 +94,9 @@ ChiChi hangs up. Sits in the silence one full beat. Then stands, and walks towar
 
 - **Voices:** Nia → `Nia-voice-v2-clear` · ChiChi → `ChiChi-the-Influencer-Voice` (both saved voice elements)
 - **Characters:** `Nia` + `ChiChi-the-Influencer` reference elements — the exact pairing that produced the approved Sucré footage
-- **Continuity:** ChiChi's honey-blonde blowout stays shoulder-length with outward-curled ends — never a bob. Both women ring-free and bracelet-free; stud earrings only. Hands smooth and youthful, matching the age of each face.
+- **Continuity:** ChiChi's hair is dark brown/near-black, shoulder-length with outward-curled ends — never a bob, never blonde. Both women ring-free and bracelet-free; stud earrings only. Hands smooth and youthful, matching the age of each face.
+- **ChiChi is always on speakerphone.** No handset at her ear, nothing in her hands, no phone visible anywhere in her scenes. She talks toward the room.
+- **One wine glass.** ChiChi is alone; a second glass on the table implies company that isn't there. Pin the count explicitly in every prompt — "a single glass" is not strong enough phrasing for the model.
+- **Shot construction:** every clip must show BOTH women, intercut between the two apartments. seedance only binds a saved voice element to a character it can see — an off-camera speaker gets an invented voice. This is why the phone side came out wrong on the first pass.
+- **Pacing:** no gap over a quarter second between lines, and cut to the other apartment ON the first syllable of the new line, never before it.
 - **New sets required:** Nia's apartment (warm, layered, slightly chaotic) and ChiChi's apartment (bright modern luxury, immaculate, quiet). Neither exists as a reference element yet.
