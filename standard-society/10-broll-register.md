@@ -160,3 +160,37 @@ equally wrong and is harder to spot.
 Chi now carries two hard hand rules, both of which the model will break unprompted on every single
 generation: **ring-free**, and **age-matched**. Neither is in her Element, because `Chi2` has a null
 description. Until that is fixed, both blocks must be typed into every prompt she appears in.
+
+## Batch 2 animation
+
+Five 4-second 1080×1920 silent clips from the approved character stills. **36 credits each.**
+
+| # | Clip | Video job ID | Motion |
+|---|---|---|---|
+| 1 | Thumb over send | `6ac7a79a-ccbb-4518-9c06-d751fb858285` | thumb drifts closer, trembles, withdraws — she never sends it |
+| 2 | Walking away | `e7c64b62-36d2-40f1-87cf-f01ddc6dab04` | steady stride, curls and coat hem swaying, no look back |
+| 4 | Hands writing | `e290c76b-0a92-4c10-8758-093bf917a9b6` | writes a few words, slows, stops mid-line |
+| 5 | Mirror | `9fc26e3d-e8bc-4553-803e-bcf6ae234fcc` | holds her own gaze, breathes out, looks down |
+| 7 | Chi turning to lens | `6e96cd49-b70c-444b-a58e-370cedb1dd61` | wind lifts her hair, she completes the turn and settles |
+
+### The mirror shot was blocked as NSFW
+
+The original mirror still was set in a **bathroom**. The still generated fine; the **video model's
+safety filter is stricter** and returned `status: "nsfw"` — a false positive on a fully-dressed
+woman at a bathroom mirror, but a hard block all the same.
+
+**The fix was the setting, not the prompt wording.** The beat is "looking at her own reflection,"
+which never needed a bathroom. Re-shot at a full-length mirror in the entrance hall, fully dressed
+in coat and sweater, adjusting her collar as if about to leave — which is a **better** beat anyway:
+the pause before you go out, rather than a generic getting-ready shot.
+
+**Rule: keep characters out of bathrooms and bedrooms in any shot destined for video.** Stills may
+pass where video will not, so a still clearing the filter is no guarantee. Mirrors, getting ready
+and any "morning routine" beat should be staged in a hall, dressing area or living space.
+
+### Preset hijack, again
+
+The replacement mirror clip was also intercepted by the **"IN THE DARK"** preset — the same one that
+caught the restaurant shot. It appears to trigger on prompts containing reflective or low-key
+language. `declined_preset_id` clears it. Two hijacks in two video batches: **treat this as routine
+and always check `submitted_count`.**
