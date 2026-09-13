@@ -75,7 +75,9 @@ Eight Element-locked stills, 9:16 at 1536×2752, **2 credits each, 16 total.**
 | 5 | Mirror, mid-routine | `9d253e64-bd56-45b7-aace-e872791a47a5` | Nia | **animate** |
 | 6 | Balcony, three-quarter, looking out | `82de95af-e121-4049-b3c8-162ac4136ef8` | Chi | still + push |
 | 7 | Wind lifting her hair, turning to lens | `5e0225b4-4e3c-4dc8-9c45-9943da204680` | Chi | **animate** |
-| 8 | Hands on the balcony railing | `1415ee23-5627-4bf5-8531-9a5eb3a567d6` | Chi | still + push |
+| ~~8~~ | ~~Hands on the balcony railing~~ | `1415ee23-…` | Chi | **cut — bad concept** |
+| 8a | Chi wide, from behind, sky above | `51eabcdd-91df-4646-beb6-215f32fa98cf` | Chi | still + push |
+| 8b | Chi seated with coffee, at ease | `733fdcf8-5ce7-4abc-b3f4-708d400494cb` | Chi | still + push |
 
 ## Model notes
 
@@ -108,3 +110,26 @@ but the Element itself is now out of step with the bible. There is no update act
 tool — only list, get and create — so correcting it means creating a replacement Element and
 re-pointing future prompts. Low priority while prompts carry the override; worth doing before the
 library grows.
+
+
+## Shot 8 — cut, and why
+
+The original shot 8 was close on Chi's hands resting on the balcony railing. It was rejected, and
+it deserved to be. **The concept was weak before the render ever happened.**
+
+- **Disembodied hands are stock-photo filler.** They read as a detail shot from a property listing.
+- **It said nothing.** The line it served is *"You can be the problem and still not be the villain"*
+  — a statement about self-awareness. Hands on a railing carries none of that.
+- **It maximised the one risk that matters.** Chi's ring-free rule is the failure her own earlier
+  prompts fought hardest; a tight two-hand close-up is the worst possible frame to bet it on.
+
+Replaced with two shots that do Chi's actual job — **she is the one on solid ground**:
+
+- **8a — wide, from behind, small in frame under a lot of bright sky.** Composure through
+  composition. Doubles as a carousel cover with room for a headline in the negative space.
+- **8b — seated with a coffee, at ease, looking away.** Hands present but occupied and in context,
+  which is far less uncanny than hands alone, and it shows her settled rather than posed.
+
+**Lesson for the shot list: a detail shot has to carry an idea.** If the only answer to "what does
+this frame say" is "hands," cut it and shoot the person instead. It cost 2 credits to learn, because
+stills come first.
