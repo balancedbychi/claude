@@ -66,6 +66,61 @@ require re-rolling the video. Until then, every Nia clip is a fresh roll of the 
 
 ---
 
+## 1b. If her voice sounds muffled
+
+It will, at first. Work the ladder — **cheapest test first**, because a re-clone costs 40 credits
+and the two likeliest causes cost about two.
+
+### Step 1 — sample rate · ~2 credits
+
+Your own history has both: older Chi audio jobs ran at `sample_rate: 24000`, the two most recent
+at `44100`. **24 kHz is telephone bandwidth.** It rolls off everything above ~11 kHz, which strips
+exactly the sibilance and air that make a voice sound present. It doesn't sound quiet — it sounds
+*muffled*, like she's talking through a door.
+
+Generate one line with:
+
+```
+sample_rate: 44100
+format:      wav
+```
+
+If that fixes it, you're done, and it was never the clone.
+
+### Step 2 — presence · ~2 credits
+
+Still dull? Nudge `loudness_rate` up 10–15. Leave `pitch_rate` alone — raising pitch to chase
+brightness will cost you her identity, and low-and-warm is the whole point of her.
+
+### Step 3 — the clone itself · 40 credits
+
+If a 44.1 kHz render is still muffled, the problem is baked in: the source had gulls and a low
+engine thrum under her, and **a clone trained on a noise bed learns the noise bed as part of the
+voice.** The engine thrum in particular sits right under the low end of her register, which is
+precisely where "muffled" lives.
+
+Don't switch source clips — the dawn recap was the cleanest of the four. The staircase has a
+string quartet, the bow has wind (broadband, the worst possible case), the lifeboat deck has
+hissing steam. All are worse.
+
+Instead, **denoise the audio you already extracted, then re-clone from the cleaned file:**
+
+- *Adobe Podcast — Enhance Speech* is free, browser-based, and built for exactly this
+- Audacity's Noise Reduction works if you sample the gull-and-engine bed as the noise profile
+- iZotope RX if you have it
+
+This keeps the Titanic voice identity and removes only the bed underneath it. Re-clone as
+`Nia's-voice-v2`, keep the original until you've A/B'd them, and only then delete the old one.
+
+### Step 4 — last resort
+
+If a denoised clone still isn't right, generate a fresh clean-room Nia clip — quiet interior,
+prompt ending *"no ambient audio, no music, no background noise"* — and clone from that. You lose
+the exact Titanic roll, but you gain a clean locked voice, and locked-and-clear beats
+identical-and-muddy on a character who has to talk every week.
+
+---
+
 ## 2. Asset register
 
 
@@ -77,7 +132,7 @@ require re-rolling the video. Until then, every Nia clip is a fresh roll of the 
 | Chi — Alt voice | voice element | `180fdb9a-7c0b-469e-be49-3f76692a3968` |
 | Nia — Reference | image_job | `362ecc5e-b110-4855-9334-5717c4082e08` |
 | Nia — Element | character | `bcd528d3-9756-4190-ba80-4aaae881f2b2` ✅ |
-| Nia — Voice | — | ⚠️ clone from Titanic audio — §1 |
+| Nia — Voice | voice element | `dd584c39-32f1-49b5-a526-5e30651364be` ✅ |
 | Titanic footage | 4 × `seedance_2_0` | `0ebb7644…` `66d2b6e1…` `d8600d66…` `8ebe04a8…` |
 
 ---

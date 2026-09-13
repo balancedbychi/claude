@@ -18,15 +18,18 @@ Current offer: the **Let It Go Interactive Guide**, $17.
 | [`06-dm-templates.md`](06-dm-templates.md) | The auto-DM templates — one per comment keyword, and the only conversion copy in the funnel |
 | [`07-asset-system.md`](07-asset-system.md) | Format mix, carousel anatomy, the b-roll library, and how the 22 scripts re-cut |
 | [`08-scripts-own-way.md`](08-scripts-own-way.md) | Pillar 8 — raising your standards and getting out of your own way, written across all three formats |
+| [`09-costs.md`](09-costs.md) | Verified credit rates, the b-roll build budget, weekly run-rate and runway |
 
 ## Before producing anything
 
 Nia's **Element is created** — `bcd528d3-9756-4190-ba80-4aaae881f2b2`.
 
-Her **voice is not**, and it is not a normal missing asset. The Titanic clips passed no audio
-and no voice element: Seedance 2.0 generated that voice natively from the text description in
-the prompt. It exists nowhere except baked into those four MP4 audio tracks. To keep it, it has
-to be cloned back out of the footage — see `04-higgsfield-production.md` §1.
+Her **voice is cloned** — `dd584c39-32f1-49b5-a526-5e30651364be`. It had to be, because the
+Titanic clips passed no audio and no voice element: Seedance 2.0 synthesised that voice from the
+text description in the prompt, so it existed nowhere except baked into four MP4 audio tracks.
+
+If it sounds muffled, work the ladder in `04-higgsfield-production.md` §1b before re-cloning —
+sample rate and loudness cost about two credits to test; a re-clone costs forty.
 
 ## Positioning
 
