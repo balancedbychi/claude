@@ -161,6 +161,7 @@ byte-identical between shots — only the scene beats change.
 - **Every voice element appears in every prompt.** If a character's voice element
   is missing, the model invents a voice for her. This shipped unnoticed for three
   shots in Episode 1.
+- **Chi's voice is PINNED. See section 5a. Do not reword her voice line, ever.**
 - **Every speaking character must be visible in the clip.** The model only binds a
   saved voice to a face it can see. An off-camera speaker gets a fabricated voice,
   no matter what the prompt says.
@@ -168,6 +169,69 @@ byte-identical between shots — only the scene beats change.
   at the same moment; do not change the light between cuts." Left unstated, each
   location invents its own hour.
 - **Cut continuity**: a shot opens on whoever did not close the previous one.
+
+---
+
+## 5a. CHI'S VOICE — PINNED, DO NOT CHANGE
+
+Chi's voice is **canon for the whole series**. It is not her cloned voice element.
+It is a voice the video model synthesizes, which the user heard, accepted, and
+locked in Episode 1.
+
+That means it exists only as a **recipe**, not as a saved asset. It survives only
+as long as the inputs that produce it stay byte-identical.
+
+### The two lines that produce it
+
+Paste both into every prompt Chi speaks in, character-for-character. Do not
+rewrite, tighten, reorder, or "improve" either one.
+
+```
+<<<8a8e8eeb-d41e-4d91-b245-fa0caa8801b6>>> is CHICHI, forty years old. Preserve
+her exact adult facial identity, warm brown complexion, almond dark eyes, full
+brows, cheek beauty mark and realistic full-figured proportions. Her hair is her
+established honey-blonde shoulder-length layered blowout with darker roots,
+falling just below her shoulders with soft volume and outward-curled ends —
+never a bob, lob or cropped cut.
+```
+
+```
+ChiChi's English dialogue uses <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>>, her
+saved warm, smooth, mid-to-low General American voice with calm authority and dry
+humour — never a substitute voice, never a British accent, never swapped with
+Nia's.
+```
+
+### Why the element reference stays in, even though it is not what you hear
+
+`180fdb9a` is her cloned voice element. The model does **not** honour it — it
+binds only one voice element per generation, and Nia's wins. The voice you hear
+is synthesized from the surrounding description instead.
+
+Leave the reference in anyway. It was present in every approved take, so it is
+part of the recipe. Removing it changes the inputs, and changed inputs are how
+this voice gets lost.
+
+### Known fragility — flag this to the user if it ever matters
+
+Because the voice is synthesized rather than stored, **a model update could change
+it and there is no way to restore it.** The durable fix is to capture it as a real
+voice element:
+
+1. Generate one short clip where Chi speaks alone, using the exact two blocks
+   above, so the audio is clean single-speaker.
+2. Clone that audio into a new voice element with `create_voice`.
+3. From then on Chi has a real, portable voice that also works in TTS and other
+   models, and no longer depends on seedance re-synthesizing her.
+
+This has not been done yet. Propose it before starting a new season, or the first
+time the voice sounds different.
+
+### Nia's voice is different
+
+Nia's cloned element `12315c68-37de-41fe-8766-76ac07bcaf70` **is** honoured and
+does produce her real voice. Hers is a genuine asset; Chi's is a recipe. Do not
+treat them the same way.
 
 ---
 

@@ -140,8 +140,12 @@ scratch when an element exists for it.
 
 | Element | ID |
 |---|---|
-| `Nia-voice-v2-clear` | `12315c68-37de-41fe-8766-76ac07bcaf70` |
-| `ChiChi-the-Influencer-Voice` | `180fdb9a-7c0b-469e-be49-3f76692a3968` |
+| `Nia-voice-v2-clear` | `12315c68-37de-41fe-8766-76ac07bcaf70` | Honoured. This is Nia's real voice. |
+| `ChiChi-the-Influencer-Voice` | `180fdb9a-7c0b-469e-be49-3f76692a3968` | NOT honoured — stays in the prompt as part of Chi's pinned recipe. See CLAUDE.md §5a. |
+
+Chi's voice as heard in this episode is synthesized, not cloned, and is now canon
+for the series. It is pinned by keeping her two prompt blocks byte-identical.
+Never reword them.
 
 ### Superseded — do NOT use
 
