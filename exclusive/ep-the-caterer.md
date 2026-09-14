@@ -570,6 +570,27 @@ description alone.
 
 ---
 
+## THE SEAM MAP — HOW EACH CLIP JOINS THE NEXT
+
+Written after the user noted the episode plays as disconnected fragments:
+ChiChi is pulled through a door at the end of 01 and is mid-floor at the start of
+02, with no arrival in between. See CLAUDE.md section 4a.
+
+| Seam | Clip N leaves | Clip N+1 must inherit |
+|---|---|---|
+| **01 → 02** | Nia has ChiChi by the wrist, pulling her IN through the door of 10B. Hold on the empty hallway. | Open JUST INSIDE the front door — Nia's hand still on ChiChi's wrist or just released, ChiChi taking the room in for the first time, jacket on, gold clutch in hand. **Dorian crosses to them near the entrance, not mid-floor.** ⚠️ Not how take `6c221e39` was shot. |
+| **02 → 03** | On Nia's face, thrilled, after Dorian's laugh. | Opens on KEL (not ChiChi — 02 closed on Nia). **ChiChi ENTERS the kitchen on camera**, clutch still in hand, having peeled off from that conversation. Do not find her already standing at the island. |
+| **03 → 04** | The slow cooker, lid off, steam under the pendant. | **ChiChi's paper plate has jollof on it.** The script already gives her a plate on the stairs — make the food explicit. It is the invisible stitch that makes the night read as one evening, and it costs nothing. |
+| **04 → 05** | ChiChi three steps up the staircase, alone above the room, paper plate in one hand, taking a drink. | The terrace is **the far side of the glass she was just looking through** — the geography rule already says 04 and 05 are two sides of one window. She still has the drink; the plate is set down. Let them come THROUGH that door rather than be found outside. |
+| **05 → 06** | Hold on Nia, silent, caught, nothing to say. | Opens on CHICHI (05 closed on Nia). ⚠️ **DECIDE BEFORE SHOOTING 05:** Nia is barefoot with her heels in one hand in 06. `Nia-Caterer-Look` says "heels, carried in her hand by the final scene" but the change is never shown. **She should already be barefoot on the terrace in 05** — she kicked them off hours ago, which also characterises her. Working this out at 06 is too late; 05 will be shot. |
+| **06 → 07** | ChiChi walks away down the corridor getting smaller. Nia closes the door. Empty lobby. The audio drops. | Already sound. She walked toward the lifts, which sit at the near end of the same corridor, so finding her at the nearest bay is consistent. **The audio drop carries straight through** — 07 inherits the silence rather than starting a new one. |
+
+**Props to track across the whole night:** ChiChi's gold metallic clutch (every
+clip), Dorian's whiskey tumbler (02, 04), ChiChi's paper plate (03 → 04), her
+drink (04 → 05), Nia's heels (05 → 06), ChiChi's phone (07 only).
+
+---
+
 ## SHOOTING ORDER AND WHAT BLOCKS WHAT
 
 | Clip | Speakers | Blocked by |

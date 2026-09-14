@@ -281,6 +281,55 @@ byte-identical between shots — only the scene beats change.
 
 ---
 
+## 4a. THE SEAM BETWEEN CLIPS — CLIPS ARE CUT TOGETHER, SO WRITE THE JOINS
+
+Every other rule in this file governs consistency INSIDE a clip. None of them
+governs what happens at the cut, and that is a real hole: each clip gets built as
+a self-contained unit and the joins are left to chance. The result reads as a
+series of disconnected fragments rather than one night. In Episode 2 the user put
+it plainly — ChiChi is pulled through a door at the end of Clip 1 and is standing
+in the middle of the floor at the start of Clip 2, with no arrival in between.
+
+**The last frame of clip N is the opening condition of clip N+1.** Before writing
+any prompt, write down two things:
+
+1. **EXIT STATE** — where every character physically is when the previous clip
+   ends, which way they face, what is in each hand, and what just happened to
+   them.
+2. **ENTRY STATE** — what this clip inherits from that, stated in the prompt as
+   fact, not left to the model.
+
+### The rules that follow from it
+
+- **Show the arrival, do not find them arranged.** If a character moved between
+  clips, let them ENTER THE FRAME rather than open already positioned. Opening on
+  people pre-arranged in a new spot is the single thing that makes cuts feel
+  abrupt.
+- **Inherit position, not just place.** "Int. loft" is not an entry state. "Just
+  inside the front door, Nia's hand still on ChiChi's wrist from the pull" is.
+- **Props are the cheapest continuity there is, and the most convincing.** A plate
+  of food carried out of the kitchen scene into the next one does more to make an
+  episode read as one evening than any line of dialogue. Track every prop across
+  the seam: the clutch, the glass, the plate, the phone.
+- **Decide state changes BEFORE the clip that needs them.** Nia is barefoot with
+  her heels in her hand in Episode 2 Clip 6. That has to already be true in Clip 5,
+  or the change has to play on camera somewhere. Working it out at Clip 6 is too
+  late — Clip 5 will already be shot.
+- **Section 4's cut-continuity rule extends across clips**: a clip opens on
+  whoever did NOT close the previous one. Clip 2 ends on Nia's face, so Clip 3
+  opens on Kel, not ChiChi.
+- **Elapsed time is either legible or absent.** If time passed, something must show
+  it — a drink further down, a room thinned out. If no time passed, the join has to
+  be continuous. An unsignalled jump reads as an error rather than an ellipsis.
+- **Screen direction carries.** Exit frame right, enter the next shot from frame
+  left. Reversing it makes two adjacent shots read as two different nights.
+
+**Write the seam map for the whole episode before shooting any of it**, and keep
+it in the episode file next to the script. It costs nothing and it is the
+difference between seven clips and an episode.
+
+---
+
 ## 5a. CHI'S VOICE — PINNED, DO NOT CHANGE
 
 Chi's voice is **canon for the whole series**. It is not her cloned voice element.
