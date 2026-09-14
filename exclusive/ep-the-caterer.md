@@ -27,7 +27,7 @@ Nothing is waiting on a reference.
 | Element | ID | Note |
 |---|---|---|
 | `Dorian-Series-Look` | `51c0cbaa-2fbe-4918-bb91-a29307caca09` | **Use this one.** All-black camp-collar set, silver chain and cross, whiskey tumbler. **He is 6'2" — a clear 4–5 inches taller than ChiChi**, looks slightly down at her, and that difference must hold in every frame they share. |
-| `Kel-The-Cousin` | `3ad69411-e32c-44bd-b797-a93ec0d4b52c` | Fifties, Dorian's older cousin. One scene. |
+| `Kel-The-Cousin` | `3ad69411-e32c-44bd-b797-a93ec0d4b52c` | Fifties, Dorian's older cousin. One scene. **Voice target: 106.7Hz, warmth 38** — from the supplied "Bobby" sample. Prose recipe, no element. |
 | `ChiChi-Caterer-Look` | `d039b74e-fe7b-4a8f-b402-759ad6388da0` | **WARDROBE ONLY** — cropped and faceless by design. Face comes from `ChiChi-the-Influencer`. |
 | `Nia-Caterer-Look` | `83bf1dae-a954-4037-b68b-ad91718cffff` | **WARDROBE ONLY** — same rule. Face comes from `Nia`. |
 
@@ -548,14 +548,36 @@ everything else that is right in this take. **The user's call, not an agent's.**
 
 ---
 
+## THE TWO MEN SOUND ALIKE — WRITE KEL AGAINST DORIAN
+
+| | true f0 | warmth |
+|---|---|---|
+| Dorian (Lamin) | 101.3 Hz | **73** |
+| Kel (Bobby) | 106.7 Hz | **38** |
+
+**5.4Hz apart. Pitch cannot separate them.** Timbre can, and does: Dorian round,
+warm and chesty; Kel brighter, drier, thinner. Both samples read the same script
+through the same chain, so that difference is identity and not delivery.
+
+They never share a scene, so this is not about confusion inside a clip — it is
+about the audience registering two different men across the episode. **Never
+describe Kel as "deep"**; that word belongs to Dorian and using it twice collapses
+them. Write Kel as drier and flatter, with the contrast named outright.
+
+Both men are prose recipes with no voice element. The route is proven: Dorian
+rendered at 100.0/100.6/100.6Hz against a 101.3Hz reference in Clip 2, from
+description alone.
+
+---
+
 ## SHOOTING ORDER AND WHAT BLOCKS WHAT
 
 | Clip | Speakers | Blocked by |
 |---|---|---|
 | 01 | ChiChi, Nia | nothing — **ready now** |
-| 02 | Dorian, ChiChi | Dorian's voice |
-| 03 | ChiChi, Kel | Kel's voice |
-| 04 | Dorian, Nia | Dorian's voice |
+| 02 | Dorian, ChiChi | ✅ **shot** — `6c221e39` |
+| 03 | ChiChi, Kel | nothing — **ready now**, prose recipe |
+| 04 | Dorian, Nia | nothing — **ready now**, prose recipe |
 | 05 | ChiChi, Nia | nothing — **ready now** |
 | 06 | ChiChi, Nia | nothing — **ready now** |
 | 07 | none | nothing — **ready now** |

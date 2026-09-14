@@ -406,6 +406,30 @@ showed two clusters — 46% of frames at 101.6Hz and 54% at 197.5Hz, a ratio of
 above ~1.4x means the reading is unsafe: histogram it and take the lower mode.**
 For scale, a clean reading looks like Brooks at 98.2Hz with a 1.25x spread.
 
+### Kel's reference, and why the two men need timbre to separate them
+
+Kel's supplied sample (ElevenLabs "Bobby — Black American Male Voice", 26.5s,
+mono 44.1kHz) reads **106.7Hz true fundamental, warmth 38**. Dorian's reads
+**101.3Hz, warmth 73**.
+
+**The two men are 5.4Hz apart — pitch will not tell them apart.** What separates
+them is timbre and the gap is wide: Dorian is round, warm and chesty; Kel is
+brighter, drier and thinner. Both reference samples happen to read the SAME
+SCRIPT through the same chain, so that warmth difference is the voice itself and
+not delivery — the cleanest voice comparison available in this project.
+
+**So write Kel against Dorian, not just against the women.** Describing Kel as
+"deep" would collapse him onto Dorian, who is already deep. Name the contrast
+explicitly: less bass body, more edge, no velvet, never as warm or resonant as
+Dorian, the two must not sound like the same person. They never share a scene —
+Kel is Clip 3 with ChiChi, Dorian is Clips 2 and 4 — so the risk is not confusion
+within a clip but the audience failing to register two different men across the
+episode.
+
+**A useful trick when comparing two reference voices:** get both samples reading
+the same text. Content and delivery then cancel out and the difference that
+remains is identity.
+
 ### `voice_change` — the post-production route around the binding limit
 
 `voice_change` replaces the spoken voice in a finished video while keeping the
