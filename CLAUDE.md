@@ -659,6 +659,25 @@ treat them the same way.
   it was requesting the wrong garment the entire time. One shot obeyed it and had
   to be rebuilt. Reread wardrobe lines for words that mean something else in
   garment terminology.
+- **When the USER'S OWN WORDS for a garment are ambiguous, do not translate them
+  into jargon — keep their words and make the image authoritative.** Episode 3's
+  reference came described as an "oversized neck sweater halter top", which pulls
+  two ways: a halter bares the shoulders and fastens behind the neck, a sweater neck
+  implies a collar at the throat. The tempting move is to work out which garment it
+  really is and write that. **That is exactly how Episode 1 lost a shot** — an agent
+  wrote `high mock-halter neckline` and was requesting a turtleneck the whole time.
+  The element instead used the user's phrase verbatim, said REPRODUCE EXACTLY AS
+  SHOWN IN THIS REFERENCE IMAGE, and forbade the neckline changing IN EITHER
+  DIRECTION — never raised, never lowered, never swapped. **Jargon that is never
+  written cannot be wrong.** Write conditional rules the same way, so they hold
+  whichever the garment turns out to be: Nia's choker is worn only if the reference
+  leaves her throat bare, and is never added on top of fabric.
+- **The image is the lock, so do not re-describe what it already shows.** A
+  reference image carries colour, fabric, cut, collar and proportion. Restating
+  those in the element description creates a SECOND, weaker specification that can
+  disagree with the picture, and when they disagree there is no way to tell which
+  one a bad take obeyed. Spend the description on what an image CANNOT carry: the
+  rules, the quantities, the negations, the things that must never change.
 - **Never reword anything that produced an approved result.** The text that reads
   as "maroon tights" on screen says `chocolate-brown leggings` in the prompt. Keep
   the words that worked, not the words that describe what you see.

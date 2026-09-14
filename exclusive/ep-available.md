@@ -103,81 +103,55 @@ Nia's**, and both go down and neither is ever refilled.
 
 ### NEEDED — three references, all from the user
 
-**References supplied by the user, 14 Sep 2026. These media IDs are written down
-here before the elements exist, because until an element is created the ID lives
-only in a chat transcript — which is the loss this whole file is about.**
+### LOCKED — created 14 Sep 2026 from the user's three references
 
-| Element to create | Source media ID | State |
-|---|---|---|
-| `ChiChi-Available-Look` | `7460c052-381f-4479-9b5c-139794de9728` | uploaded, **element not yet created** |
-| `Nia-Available-Look` | `82791094-37de-4e29-9e89-1f4e404804d5` | uploaded, **element not yet created** |
-| `Sucre-Coffee-Cups` | `c1a1abc2-a371-4958-ae5e-a94bc9102423` | uploaded, **element not yet created** |
+| Element | ID | Source media | Supplies |
+|---|---|---|---|
+| `ChiChi-Available-Look` | `e48b0e88-c9ef-4248-aba8-ffd8a65386c0` | `7460c052-381f-4479-9b5c-139794de9728` | **WARDROBE ONLY** — fashion leather jacket top, fashion wide-leg jeans, brown heeled boots, brown Louis Vuitton bag |
+| `Nia-Available-Look` | `3108ef3f-8bd5-4b60-b3b9-d356cb7f9b68` | `82791094-37de-4e29-9e89-1f4e404804d5` | **WARDROBE ONLY** — tan oversized neck sweater halter top, wide-leg fashion jeans, oversized bag, black open-toe heels |
+| `Sucre-Coffee-Cups` | `d1b9280f-0d37-447d-9ac7-9fc2a9befbc5` | `c1a1abc2-a371-4958-ae5e-a94bc9102423` | **PROP** — the plastic Sucré cup. Exactly two, identical |
 
-All three are WARDROBE/PROP ONLY on the Episode 2 pattern: cropped and faceless by
+Both wardrobe elements follow the Episode 2 pattern exactly: cropped and faceless by
 design, never a source of face, hair, complexion, age, body or identity. Faces come
-from `Nia` and `ChiChi-the-Influencer`, which stay authoritative.
+from `Nia` `bcd528d3` and `ChiChi-the-Influencer` `8a8e8eeb`, which stay
+authoritative.
 
-⚠️ **The elements are NOT created yet and that is deliberate.** The media CDN is
-blocked from this environment — verified this session rather than assumed,
-`connect_rejected` on all three hosts — so the images cannot be looked at, and **an
-element description is write-once**: the MCP surface has `list`, `get` and `create`
-and no update. A wrong description can only be "fixed" by creating a second element,
-which is the competing-element failure that produced the duplicate Dorian. So the
-garment specs come from the user first, and the elements get created once.
+### THE IMAGE IS THE LOCK — which is why these descriptions do not list colours
 
-### The supplied specs, and the three gaps in them
+Section 2 is unambiguous: **lock from approved stills, never from prose.** The
+reference image already carries colour, fabric, cut, collar, neckline, drape and
+proportion. Re-describing those in words would only create a SECOND, weaker
+specification that can disagree with the picture — and when prose and image
+disagree, there is no way to tell which one a bad take obeyed.
 
-The user's descriptions, 14 Sep 2026:
+So each description names the garments **in the user's own words**, says
+**REPRODUCE EXACTLY AS SHOWN IN THIS REFERENCE IMAGE**, and then spends its whole
+length on the things an image cannot carry:
 
-1. **ChiChi** — fashion leather jacket top, fashion wide-leg jeans, brown heeled
-   boots, brown Louis Vuitton bag.
-2. **Nia** — tan oversized neck sweater halter top, wide-leg fashion jeans,
-   oversized bag, black open-toe heels.
-3. **The cup** — plastic Sucré coffee cup.
+| | what the description adds that the picture cannot |
+|---|---|
+| ChiChi | the gold watch as her only permitted wrist jewellery; the NO-RING rule named object by object, including nothing on the fourth finger of her left hand; nails deep red carried forward from Episode 2; garments tailored to her real full-figured proportions; the handbag logo never rendered as legible type |
+| Nia | the neckline never raised, lowered or swapped between clips; the choker rule — worn only if the reference leaves her throat bare, and NEVER added on top of fabric; both hands ring- and bracelet-free with correct five-finger anatomy |
+| Cups | exactly TWO, identical, one per woman, with every wrong alternative named; the levels only ever go DOWN and are never refilled; ChiChi's starts lower because she arrived first; the Sucré printing never rendered as legible type |
 
-⚠️ **"oversized neck sweater halter top" IS THE MOCK-NECK TRAPDOOR AGAIN.** Section
-5 exists because `high mock-halter neckline` shipped in every Episode 1 prompt and
-was requesting a turtleneck the whole time — one shot obeyed it and had to be
-rebuilt. "Neck sweater" and "halter" pull in opposite directions in garment terms: a
-halter leaves the shoulders and upper back bare and fastens behind the neck, while
-a sweater neck implies a knitted collar at the throat. The likely garment is a
-**halter-neck knit with an oversized cowl or funnel collar** — a real style — but
-this must be confirmed by the user and never guessed.
+Each also carries the framing note: this is a seated two-shot at a small round café
+table for the entire runtime, so boots, heels and both bags sit below frame. They
+are pinned for completeness and for any shot that widens, not because they will read.
 
-⚠️ **And it collides with Nia's standing neckline rule.** Her locked identity carries
-a thin gold choker, and Episode 1 and Episode 2 both pin "throat and upper chest
-completely bare, the choker on bare skin ABOVE the fabric". An oversized knit collar
-at the throat contradicts that. Either the choker is covered and must be declared
-covered, or the collar sits clear of it. Left unstated it will half-render.
+### THE MOCK-NECK TRAPDOOR, AND HOW IT WAS ACTUALLY DISARMED
 
-⚠️ **The cup decides every drinking beat in the episode.** Lid and straw, or open?
-ChiChi drinks on the number in Clip 1 and sets the cup down before her verdict in
-Clip 4 — her one deliberate movement in twenty-seven seconds — and those are
-different physical actions with a straw than without. A clear plastic cup is a gift
-for continuity, because the level is visible on camera and the level is this
-episode's clock.
+"Oversized neck sweater halter top" is ambiguous in garment terminology — a halter
+bares the shoulders and fastens behind the neck, a sweater neck implies a knit
+collar at the throat. **Episode 1 lost a shot to exactly this shape of problem**,
+where `high mock-halter neckline` shipped in every prompt and was quietly requesting
+a turtleneck the whole time.
 
-**Missing colours:** ChiChi's jacket colour and both denim washes. Needed in the
-element and in every prompt.
-
-**Two things to accept rather than fight.** The handbag's branding and the Sucré
-printing on the cup will NOT render as legible type — generated lettering garbles,
-which is why this production never generates a title into artwork. Both are
-specified as pattern, shape and hardware only, with no legible logo asked for. And
-**the boots and both bags sit below frame** for the whole episode: it is a seated
-two-shot at a small round café table. They are pinned for completeness and for any
-shot that widens, not because they will read.
-
-**Nails:** ChiChi's deep red at natural length carries forward from Episode 2 unless
-the user says otherwise. Nine days pass between the episodes, so a change is
-plausible but not required, and section 3 wants nails pinned rather than left to
-re-roll.
-
-**The cups get their own element and their own ID in this table.** They are in every
-frame of all six clips, they are the episode's only prop, and they are its clock.
-Episode 2 lost its hallway element by describing it in prose and never writing the
-ID down; a prop that appears in 126 consecutive seconds is not a smaller version of
-that mistake.
+**The fix was NOT to work out which garment it is.** It was to stop translating. The
+element uses the user's phrase verbatim, points at the image for the garment, and
+forbids the neckline changing **in either direction** — never raised, never lowered,
+never swapped. Episode 1's failure came from an agent writing jargon; jargon that is
+never written cannot be wrong. The choker rule is written the same way: conditional
+on what the reference shows, so it cannot half-render either way.
 
 ### Voices — nothing needed, and that is the point
 
@@ -551,15 +525,13 @@ and the reason is that the locked two-shot is also the attribution fix.
 
 ## STILL OPEN
 
-1. **The three garment/prop specs**, so the elements can be created — one line each,
-   from the user. See the registry note above for why this cannot be skipped.
-2. **A 2-credit plate of the empty window table**, shot from the intended two-shot
+1. **A 2-credit plate of the empty window table**, shot from the intended two-shot
    angle, before 135 credits of Clip 1. The set is locked but the SET-UP is not, and
    section 4b says the set-up is what an audience recognises a place by. Recommended.
 
-**Settled:** script approved by the user. **Resolution locked at 1080p — 1,134
-credits for the episode, 638 of headroom.** Café population is two or three patrons.
-All three references uploaded, media IDs recorded above.
+**Settled:** script approved. **Resolution locked at 1080p — 1,134 credits for the
+episode, 638 of headroom.** Café population two or three patrons. **All three
+elements created and their IDs recorded above. Nothing is waiting on a reference.**
 
 ---
 
