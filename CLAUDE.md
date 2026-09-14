@@ -67,6 +67,15 @@ cost a full re-render.**
 1. **Ask for visual references first.** For any new character, set, or wardrobe,
    ask the user for reference images before writing a prompt. Never invent set
    design mid-build.
+   **Collect them with `media_upload_widget` and nothing else.** An image dropped
+   into the Claude chat CANNOT become a Higgsfield element — it is not reachable,
+   it cannot be turned into a reference, and asking for one wastes the user's
+   time. Episode 2 lost hours to exactly this: references were supplied in chat,
+   none of it was usable, and the whole exchange had to be repeated. The widget is
+   the only upload surface that works. Never inspect `/mnt/user-data/uploads`,
+   never run shell to hunt for files, and never ask for a chat attachment.
+   **Ask whether the user is ready first, then open the widget, then say exactly
+   what to drop and how many.** See the `new-episode` skill for the full order.
 2. **Generate a plate.** Turn the reference into a single still at the correct
    time of day. ~2 credits.
 3. **Get the plate approved.** The user looks at it and says yes or corrects it.
