@@ -826,6 +826,64 @@ description alone.
 
 ---
 
+## CLIP 7 — THE PLAN, PRICED AND NOT YET SHOT
+
+**18 seconds · 162 credits.** The only clip in the episode with no dialogue.
+
+**The risk changes shape when nothing is said.** Every other clip's main hazard
+was attribution — which mouth gets which line. Here there are no lines, so that
+risk is zero and a different one takes over: **the model invents something to
+fill the silence.** A word, a person in the lift, a chime, a score. The prompt is
+therefore mostly negation, and the negations are absolute rather than relative.
+
+**The phone screen is the whole clip and gets the strongest negation in it.** The
+point of the shot is that there is nothing on it, and a message on a phone is
+about as strong a prior as this model has. Pinned: the screen is **LIT** — a dark
+phone reads as switched off rather than as empty, which destroys the beat — and
+shows only a lock screen and the time, with every wrong answer named by type:
+no message, bubble, chat preview, name, contact photo, missed call, red or
+numbered badge, banner, alert, email, app-icon dot, voicemail, typing indicator,
+incoming call, ring, buzz or notification sound. She is not dialling, texting,
+scrolling or holding it to her ear. She looks, there is nothing, she puts it away.
+
+**Voice elements: Chi's pinned blocks stay, Nia's are omitted.** Section 4 says
+every voice element appears in every prompt, but that rule exists because a
+missing element made the model invent a voice in clips that HAD dialogue. Nia is
+not in this shot at all and attaching her element risks her appearing in it.
+Chi's two pinned blocks stay byte-identical and are followed by the exact Clip 4
+line — *"CHICHI SPEAKS NO LINES IN THIS CLIP AND MAKES NO SOUND AT ALL"* — which
+is precedent rather than a guess: that pattern produced Clip 4, the cleanest
+result in the episode, with exactly the scripted words and nothing invented.
+
+**The one deliberate tension in the prompt.** The script says play it wide and let
+her be small, *"the one shot that should not be a close-up"*, and the prompt holds
+that hard — a whole figure head to foot, far enough away that her expression is
+only just readable. But this is **the only moment in the episode where nobody is
+watching her**; everywhere else she is composed in front of someone. So she gets
+one thing: when she looks at the empty screen, ONE VERY SMALL THING passes across
+her face and goes — a stillness, a slow blink, something she would not have let
+show in front of Nia, under a second, not indulged. At that framing it may barely
+read, and **that is the intended trade**: it should be the kind of thing caught on
+a second watch. Bringing the camera in to guarantee it would break the shot the
+script asks for.
+
+**The set note that had to be read carefully.** `Dorian-Lift-Lobby-Night` carries
+the instruction *"supplies the lift doors only, framed close. It must never be
+established as a room in its own right"* — but that constraint was written for
+CLIP 1, to stop the two-space geography error. Clip 7 is scripted wide and deep
+and the geography table already allows it: *"07 — the same corridor, waiting at
+the lift doors."* The prompt states it as the lift end of the SAME corridor she
+just walked down, receding into shadow behind her, never a separate lobby.
+
+**Seam from Clip 6 — already sound and improved by how 6 landed.** Clip 6 ends ON
+the door slam with no empty-corridor beat after it. Clip 7 opens on exactly that
+empty corridor, inheriting the silence rather than starting a new one, which is
+what the seam map asked for. **Optional 07B** (Nia alone on the terrace, phone in
+hand, not calling anyone — the Episode 3 hook) is **5s / 45 credits**; 4s is the
+model minimum but 5 gives the beat room. Decide after 07 is seen.
+
+---
+
 ## CLIP 6 — DELIVERED, AND THE FIRST CLIP WHERE THE AUDIO BEHAVED
 
 | | |
@@ -953,7 +1011,7 @@ drink (04 → 05), Nia's heels (05 → 06), ChiChi's phone (07 only).
 | 04 | Dorian, Nia | ✅ **shot** — `f1636ebf` |
 | 05 | ChiChi, Nia | ✅ **shot** — `9850c5fc`, 26s, 234 |
 | 06 | ChiChi, Nia | ✅ **shot** — `6a9e4851`, 24s, 216 |
-| 07 | none | nothing — **ready now** |
+| 07 | none | **prompt written, priced at 162 — awaiting the user** |
 
 Four of seven are shot. Clip 5 is written and priced; 6 and 7 are unblocked.
 
