@@ -187,6 +187,16 @@ and they do more work than any line.
 - **Nia is kinetic.** She paces, sits down hard, fixes an earring, pushes her hair
   back, gestures with the hand not holding the phone. Her body is always trying to
   win the argument her words are losing.
+- **Stillness is not rigidity.** "ChiChi is still — she does not pace, fidget,
+  step back or gesture" shipped in a prompt and produced a woman who did not
+  turn to face a man walking up to greet her, which reads as a mannequin, not as
+  authority. Her stillness means she does not fidget, pace or gesture to win an
+  argument; it never means she skips ordinary social behaviour. **Write the
+  natural movement in explicitly** — turning and angling the body toward whoever
+  is approaching or speaking — then have her SETTLE and hold. Section 3's "when
+  Chi finally moves, it means something" covers exactly this: one deliberate
+  turn, not restlessness. The same applies to Nia, who turns a little more
+  eagerly because she is pleased to see him.
 - **Assign each character two or three signature gestures and reuse them.**
   Repetition across episodes is what makes a generated character read as a person.
 - **Hands must have a job.** Specify what each hand is doing in every beat. Idle
@@ -478,6 +488,15 @@ nothing. Shortening the clip does, because the slack disappears.
       definitely-same control 0.878, bands that nearly overlap. Roughly 110
       credits went on chasing a number. Use the measure to raise the question,
       then ASK FOR THE USER'S EYES before spending on another take.
+    - **Scene detection gives false negatives on cuts; frame-differencing does
+      not.** Episode 2 Clip 2 had an unmistakable hard cut that
+      `select='gt(scene,0.12)'` reported as zero cuts, while per-frame absolute
+      difference put it at **19.7x the mean**, eight times larger than anything
+      else in the clip. Always run the frame-difference pass: sample at 8fps and
+      160x90, take the mean absolute difference between consecutive frames, and
+      look for ONE isolated spike. A real cut stands far above its neighbours; a
+      smooth cluster of moderately high values is just fast motion. Never
+      conclude "no cut" from the scene filter alone.
     - **Verify the ATTRIBUTION, not just the words.** A transcript proves the
       lines were spoken. It does not prove who spoke them. A clip shipped with
       ChiChi delivering Nia's line and the verification passed it, because the

@@ -77,6 +77,14 @@ failure section 2 warns about.
   bracelet-free rule, and the only wrist jewellery allowed.
 - **Clothes adapt to her body, never the reverse.** Every garment tailored
   realistically to ChiChi's real full-figured proportions.
+- **Everyone at the party is Black.** Every background guest in every clip of
+  this episode is a Black man or a Black woman, with no exceptions in any frame.
+- **The leads acknowledge each other physically.** When someone approaches or
+  speaks, the others turn and angle their bodies toward them, the way people
+  actually do at a party. ChiChi's locked stillness means she does not fidget,
+  pace or gesture — it does NOT mean she stands frozen while a man walks up to
+  greet her. Write the turn in, then have her settle and hold. Nia turns a beat
+  more eagerly than ChiChi does.
 - **Kel does not know he is the punchline** and never finds out.
 - **Dorian passes every test except one.** He is not a villain and must never be
   played as one — the episode depends on that.
