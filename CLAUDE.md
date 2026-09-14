@@ -558,6 +558,19 @@ treat them the same way.
   finger, and specifically NOTHING on the fourth finger of her left hand — that
   finger is bare skin.**" Same pattern for anything the model expects to see and
   the scene forbids.
+- **Spell unusual words phonetically, and negate the wrong readings.** "Jollof"
+  came back mispronounced because the prompt only ever spelled it. Write the
+  sound: *"pronounced 'JO-loft' said quickly, stress on the first syllable, the
+  final T completely SILENT so it ends on a soft f — never 'jaw-left', never
+  'joll-OFF' with the stress on the second syllable, never with an audible T."*
+  Same for any character name, place or dish the model has no strong prior for.
+- **Skin needs its own block, and cover both failure modes.** "ChiChi's skin
+  looks unclear" can mean soft and out of focus OR blotchy and uneven, and an
+  agent who cannot see the render does not know which. Write against both at
+  once: clear, even, luminous, sharply in focus, natural visible pore texture,
+  and then negate blotchy, mottled, patchy, waxy, plastic, muddy, grainy,
+  over-smoothed into a flat mask, and soft or out of focus. Guessing one and
+  missing costs a whole take.
 - **Mechanisms need their geometry pinned, not just their name.** A door was asked
   for and a door arrived — hinged on the left, knob on the right, and opening from
   the left with the knob still on the right. The model draws the parts; it does not
@@ -637,6 +650,16 @@ nothing. Shortening the clip does, because the slack disappears.
       look for ONE isolated spike. A real cut stands far above its neighbours; a
       smooth cluster of moderately high values is just fast motion. Never
       conclude "no cut" from the scene filter alone.
+    - **A transcript CANNOT verify pronunciation.** Whisper maps sound to
+      SPELLING, so it writes the dictionary word for anything in the
+      neighbourhood — a near-miss and a correct reading produce identical text.
+      Episode 2 Clip 3 was reported as pronouncing "jollof" correctly on that
+      basis and the user's ear said otherwise. Two transcriptions disagreeing
+      (the small model heard "jaw-left", the medium heard "Jollof") means the
+      word is UNUSUAL, not that the larger model is right. **Any word outside
+      everyday English — a dish, a name, a place — needs its pronunciation
+      spelled phonetically in the prompt and then checked by the user, never by
+      a transcript.**
     - **Verify the ATTRIBUTION, not just the words.** A transcript proves the
       lines were spoken. It does not prove who spoke them. A clip shipped with
       ChiChi delivering Nia's line and the verification passed it, because the
