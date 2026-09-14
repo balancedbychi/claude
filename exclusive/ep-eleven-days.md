@@ -272,3 +272,25 @@ the read is the one the episode turns on.
 **Thumbnail text is never generated.** Compose it over a clean plate with real
 type. The model garbles lettering, and composited text is free to change — which
 means a title revision never costs a re-render.
+
+## CHANNEL AVATAR
+
+Nia on the phone, Chi rolling her eyes. Square 1:1, `nano_banana_pro` at 2k,
+flat terracotta backdrop, no lettering — an avatar renders as small as 48px and
+any text turns to mush.
+
+| Variant | Job ID |
+|---|---|
+| 1 | `3a1d0202-d249-4c53-8f77-d9afbc483a44` |
+| 2 | `e03c6ae6-0421-40ce-aebe-29fdd2d8a347` |
+| 3 | `36d24f1a-86a7-4857-a129-e0239c4e815e` |
+| 4 | `632a6726-5d47-4d96-83c0-55754c287af7` |
+
+**The first attempt was thrown away and it is worth knowing why.** It passed the
+character elements as `<<<tags>>>` only, with no `image_references`. The elements
+attached to the job and the faces still came out wrong — not Nia at all. See
+"Generating a still from the character elements" in CLAUDE.md section 2. Cost of
+that lesson: 8 credits.
+
+Chi's PILATES lettering is deliberately dropped here. At avatar size it garbles,
+and the sweatshirt still reads as hers by cut and colour.

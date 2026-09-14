@@ -100,6 +100,28 @@ highest-leverage rule in this file.
   footage. Renaming it is rewording an approved result, which section 5 forbids.
   The name on screen comes from the title card and the thumbnail, not the element.
 
+### Generating a still from the character elements
+
+**The `<<<element-id>>>` tag alone does NOT give an image model the face.** On
+`nano_banana_pro` the tag registers the element on the job — it shows up in
+`reference_elements` — while `input_images` stays empty and the model builds the
+face from your prose instead. The result looks like a stranger. This is the same
+shape of trap as Chi's voice: attached to the job, not honoured by the model.
+
+Pass the element's own source image as well, every time:
+
+```
+medias: [{value: "<the element's media id>", role: "image_references"}]
+```
+
+Then name them in the prompt in the order you passed them — "the FIRST reference
+image is NIA, the SECOND is CHICHI" — and add the tie-breaker: *if a detail of my
+description disagrees with a reference image, the reference image wins.*
+
+Current plate media IDs: Nia `362ecc5e-b110-4855-9334-5717c4082e08`,
+ChiChi `ea89bdd0-6e35-4223-8b78-1a0f439b7289`. Both are readable off the element
+via `show_reference_elements`, or off any job that used them.
+
 ---
 
 ## 3. THE CONTINUITY LEDGER
@@ -342,6 +364,12 @@ nothing. Shortening the clip does, because the slack disappears.
   clone came in at 40 credits against a 20–25 estimate for the whole job. When a
   step cannot be preflighted, say so and quote it as unknown instead of folding a
   guess into a firm number.
+- **`get_cost` quotes ONE generation, not the batch.** It returns the same number
+  whether you ask for `count: 1` or `count: 4`, and then bills you per image —
+  four Nano Banana variants preflighted at "2 credits" cost 8, as eight separate
+  2-credit lines in `transactions`. Multiply the quote by `count` before you say
+  a number out loud, and check `transactions` afterwards rather than trusting the
+  preflight.
 - **Report the credit balance** after each batch so the user can see the burn.
 - **Never silently swap models, resolution or aspect ratio.** Mid-episode changes
   to any of these make the footage un-cuttable with what already exists.
