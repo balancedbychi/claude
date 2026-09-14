@@ -826,6 +826,42 @@ description alone.
 
 ---
 
+## THE EYELINE NOTE — CLIP 5 TALKED PAST ITSELF
+
+**The user's note after Clip 5: the two of them never looked at each other.**
+ChiChi played the whole scene facing out at the city while Nia spoke to her.
+
+**The cause was in the prompt, not the model.** The attribution-safety framing
+block — imported from Clip 1 take 5, where it genuinely fixed a misattributed
+line — contains *"neither woman is turned away from us."* That points both faces
+at the LENS. And the prompt specified ChiChi's BODY angle ("angling her body
+toward her") while never once saying where her EYES go. Two women, both aimed at
+camera, neither told to look at the other.
+
+**Both things are satisfiable at once and the answer is ordinary coverage.**
+Stage them in THREE-QUARTER, turned INWARD toward each other — both faces stay
+readable for attribution, and they are visibly talking to one another. Never
+parallel to the lens. Clip 6 carries this and every later prompt must.
+
+**Eyeline is now written beat by beat, like dialogue.** Who looks at whom on each
+line, and where it changes. Clip 6's arc: ChiChi lifts her eyes off the watch on
+Nia's first word and holds her gaze through the entire exchange; Nia's eyes are
+the restless ones, breaking away and coming back as she loses; and the single
+deliberate break is ChiChi walking away without looking back — which only reads
+as a choice because everything before it was eye to eye.
+
+**And the wider pattern, which is now three for three.** Every time a prompt has
+told ChiChi what NOT to do, the negation was obeyed and the human behaviour
+underneath went unwritten: Clip 2's woman who would not turn to greet Dorian,
+Clip 4's nearly blank face at the biggest moment, Clip 5's dead eyeline. **She is
+understated, not inert.** She looks people in the eye, she can be amused — Clip 6
+gives her the smallest breath of a laugh on "I ate." — and there is affection in
+her face. The ban is on COMMENTARY (smirk, eye-roll, knowing look), never on
+expression. A prompt that says what she does not do must say what she does in the
+same breath.
+
+---
+
 ## THE SEAM MAP — HOW EACH CLIP JOINS THE NEXT
 
 Written after the user noted the episode plays as disconnected fragments:

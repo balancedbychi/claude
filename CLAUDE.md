@@ -208,6 +208,35 @@ and they do more work than any line.
   available for a still character is an INTERRUPTED MOVEMENT** — ChiChi's drink
   stopping halfway to her mouth reads louder than any expression, precisely
   because she is normally still.
+- **EYELINE IS ITS OWN LOCK, AND "both faces visible" will destroy it if you let
+  it.** Episode 2 Clip 5 shipped with the two of them talking without ever
+  looking at each other — Chi delivered the whole scene facing out at the city.
+  The cause was a prompt line, not the model: the attribution-safety framing
+  block says *"neither woman is turned away from us"*, which points both faces at
+  the LENS, and the prompt described Chi's body angle while never once stating
+  where her eyes go. **Both goals are satisfiable at the same time and the answer
+  is ordinary film coverage** — stage them in THREE-QUARTER, turned INWARD toward
+  each other, both faces still readable by the camera. Never stage two people in
+  conversation parallel to the lens.
+  - **Write the eyeline beat by beat, the same as the dialogue.** Who is looking
+    at whom on each line, and when that changes. Unstated eyelines default to
+    front and the scene dies.
+  - **Not-looking is a real choice and it must be EARNED.** The user's note:
+    there are times a character intentionally does not look, and that is right —
+    but it only reads as meaning when the rest of the scene had eye contact. Nia
+    refusing to answer while staring at the city lands *because* they were face
+    to face a second earlier. A scene where nobody ever looks up has no such
+    beat available.
+- **Stillness has now been over-applied THREE times, and always the same way:
+  the negation got obeyed and the human behaviour underneath it was never
+  written in.** Clip 2 gave a woman who would not turn to greet a man. Clip 4
+  was nearly a blank face at the episode's biggest moment. Clip 5 gave a
+  conversation with no eye contact. **Chi is UNDERSTATED, not inert.** She looks
+  people in the eye, she holds a gaze, she can be amused — a small breath of a
+  laugh, a warmth around the eyes — and she uses her hands when she means
+  something. What she does not do is fidget, pace, or gesture to win an
+  argument. Whenever a prompt says what she does NOT do, it must in the same
+  breath say what she DOES.
 - **Assign each character two or three signature gestures and reuse them.**
   Repetition across episodes is what makes a generated character read as a person.
 - **Hands must have a job.** Specify what each hand is doing in every beat. Idle
