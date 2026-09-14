@@ -223,6 +223,35 @@ These are series-wide, not per-episode, and belong in every prompt she appears i
   on. A wedding ring on ChiChi contradicts the show. Her gold watch remains the
   single permitted exception to her jewellery rule.
 
+### The appearance rule — treat it like a real actor on a real shoot
+
+**A character's appearance does not change between clips unless the change is
+shown, or the evidence of it is visible.** Hair, wardrobe, makeup, jewellery,
+footwear, nails — anything an audience can see. Write every clip as if the same
+actor walked from one set-up to the next without visiting a trailer.
+
+ChiChi's hair swept one way and then switched sides between takes, which reads as
+a different person rather than a different shot. That is the failure this rule
+exists to stop.
+
+- **Inside continuous action, nothing changes at all.** Two clips minutes apart
+  in the same evening share an identical hair sweep, identical wardrobe, identical
+  everything. There is no ellipsis to hide a change in.
+- **Across a real gap in time, a change is allowed — if a person would plausibly
+  make it.** Heels come off at a long party. A jacket comes off. A collar loosens.
+  These are fine because they are motivated by the evening itself.
+- **When the change happens off-screen, the EVIDENCE of it must be on-screen.**
+  Nia does not simply appear barefoot; she carries her heels in her hand. The prop
+  is the explanation, and it does the work a shown transition would have done.
+- **Changes are ONE-DIRECTIONAL and never revert.** Once the heels are off they
+  stay off. Once the jacket is off it stays off. A detail that oscillates between
+  clips is the clearest possible signal that the footage was generated rather than
+  filmed.
+- **Anything not motivated by the evening simply cannot change.** Hair does not
+  restyle itself, makeup does not redo itself, a garment does not become a
+  different garment. If a clip needs one of those, the change plays on camera or
+  it does not happen.
+
 ### The movement rule
 
 **If a character changes position, the change plays ON CAMERA as one continuous
