@@ -938,6 +938,16 @@ nothing. Shortening the clip does, because the slack disappears.
   `seedance_2_5` accepts **4 to 30 seconds**. A container you cannot size is a
   container you cannot use, and section 6's whole pacing method depends on sizing
   it. Call `models_explore` with `action: get` before locking an episode spec.
+- **A submitted generation can come back as a PRESET RECOMMENDATION instead of a
+  job, and the recommendation can be badly wrong.** Episode 3 Clip 1 was submitted
+  and the server answered with the preset **"IN THE DARK"** — for a bright
+  mid-morning coffee shop. Nothing was charged and no job existed. Two things
+  follow. **Check whether a job id actually came back before reporting a clip as
+  shooting**, because a recommendation looks like a normal response. And **decline
+  it and retry literally** (`declined_preset_id`) rather than accepting: a preset
+  carries its own look and would override the locked set, the locked grade and the
+  staging that fixes attribution. A preset is never the right answer for a clip
+  built on approved elements.
 - **Never silently swap models, resolution or aspect ratio.** Mid-episode changes
   to any of these make the footage un-cuttable with what already exists.
 - **Pick the resolution before the first clip of an episode, not after.** "Blurry"
