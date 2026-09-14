@@ -4,7 +4,7 @@
 **Status: PROPOSED — nothing locked, nothing spent.** Script revised to the user's
 brief on 14 Sep 2026. References not yet supplied.
 
-**Runtime:** 126 seconds · 6 clips
+**Runtime:** 102 seconds · 6 clips
 **Format:** One set, one table, one continuous conversation. Daytime.
 **Logline:** Twenty-one days in, Nia comes to Sucré to tell Chi that she and Dorian
 are going strong. Chi asks whether he is still dating other people. Nia has asked
@@ -448,7 +448,7 @@ against both at once. Do not trim either half.
 
 ## THE SCRIPT
 
-Six clips, 126 seconds, one continuous conversation at one table. Daytime.
+Six clips, 102 seconds, one continuous conversation at one table. Daytime.
 Panavision Millennium XL2, Primo lenses, eye-level at seated height.
 
 ### Clip 01 — "Going strong" · 50mm · f/2.2 · no cuts · 15s
@@ -480,7 +480,7 @@ shot from frame one, so the two-shot is the subject from frame one.
 **The slid cup is the warmth the rest of the episode spends.** Chi asks a hard
 question ninety seconds from now; she is allowed to, because she ordered first.
 
-### Clip 02 — "Are you exclusive?" · 50mm · f/2.2 · no cuts · 20s
+### Clip 02 — "Are you exclusive?" · 50mm · f/2.2 · no cuts · 16s
 
 > CHICHI: "Is he still dating other people?"
 > NIA: "What kind of question is that?"
@@ -500,7 +500,7 @@ dangerous pair in the episode.** Section 7: lines under about a second are too s
 for the discriminator to separate, and adjacent short lines are where attribution
 slips. Name both wrong answers in the prompt.
 
-### Clip 03 — "That's fair" · 50mm · f/2.2 · no cuts · 22s
+### Clip 03 — "That's fair" · 50mm · f/2.2 · no cuts · 17s
 
 **The admission, and the reason the episode exists.**
 
@@ -525,7 +525,7 @@ winces; Nia does not.
 **Nia recites his three lines flat**, the way you repeat something you have gone
 over on your own many times. No impression, no male voice, no mimicry.
 
-### Clip 04 — "Available" · 50mm · f/2.2 · no cuts · 27s · ENDS ON A HOLD
+### Clip 04 — "Available" · 50mm · f/2.2 · no cuts · 20s · ENDS ON A HOLD
 
 > NIA: "Just say it."
 > CHICHI: "You don't want me to."
@@ -556,7 +556,7 @@ two women is the Episode 2 Clip 1 shape. The staging is Clip 5's because that is
 what resolved it. **Do not add a cut here to "help"** — that was tried three times
 and never once worked.
 
-### Clip 05 — "By now" · 50mm · f/2.2 · no cuts · 25s
+### Clip 05 — "By now" · 50mm · f/2.2 · no cuts · 19s
 
 > NIA: "When did you last get it wrong?"
 > CHICHI: "What?"
@@ -585,7 +585,7 @@ allowed to say it — and the retreat becomes necessary rather than polite. It a
 makes **"No. You're right."** enormous, because what Chi is agreeing with is the
 word "alone".
 
-### Clip 06 — "He's going to come" · 50mm · f/2.2 · slow push · 17s
+### Clip 06 — "He's going to come" · 50mm · f/2.2 · slow push · 15s
 
 > NIA: "He's going to come."
 > *(Chi says nothing.)*
@@ -636,25 +636,41 @@ reading has to come from the delivery.
 
 ## SIZING — CLIP BY CLIP
 
-Section 6, revised: `words / 3.4` for speech, PLUS the wordless action actually
-wanted, PLUS about 0.45s per line boundary. The 2.1 w/s figure is the sanity check
-on the total, not the input. This is the arithmetic proven on Episode 2 Clip 6 —
-41 words sized to 24s, dialogue ending at 13.16s against a 12.0s prediction.
+**Section 6's planning figure is 3.42 w/s and it is WRONG FOR THIS EPISODE.** Clip 1
+measured **4.80 words per second** of actual articulation — 40% faster — and the
+surplus came back as silence: 58% of the clip. Line boundaries measured **0.28s**
+too, not the 0.45s section 6 assumes, because the prompt asks for quarter-second
+replies and gets them.
 
-| Clip | Words | Speech | Boundaries | Wordless | Total | Density |
-|---|---|---|---|---|---|---|
-| 01 | 27 | 7.9s | 2.3s | 5.5s | **15s** | 1.8 w/s |
-| 02 | 48 | 14.1s | 2.7s | 3.5s | **20s** | 2.4 w/s |
-| 03 | 47 | 13.8s | 2.3s | 5.5s | **22s** | 2.1 w/s |
-| 04 | 67 | 19.7s | 3.2s | 4.0s | **27s** | 2.5 w/s |
-| 05 | 59 | 17.4s | 2.7s | 5.0s | **25s** | 2.4 w/s |
-| 06 | 23 | 6.8s | 1.4s | 9.0s | **17s** | 1.4 w/s |
-| | **271** | | | | **126s** | **2.15 w/s** |
+Clips 2–6 are re-sized on the measured figures: `words / 4.8` for speech, PLUS
+**0.28s** per line boundary, PLUS the wordless action actually wanted.
 
-**The total lands exactly on section 6's 2.1 sanity check.** Clip 04 at 27s is
-inside seedance_2_5's real 4–30s range, confirmed from `models_explore` rather than
-assumed. Clip 06 is a declared-silence clip on the Episode 2 Clip 4 model — 7 words
-held nearly 8 seconds there without the model filling a frame of it.
+| Clip | Words | Speech | Bnds | Wordless | Total | Density | Silence |
+|---|---|---|---|---|---|---|---|
+| 01 | 27 | 5.6s | 1.4s | 5.5s | **15s** shot | 1.80 | 58% measured |
+| 02 | 48 | 10.0s | 1.7s | 4.0s | **16s** | 3.00 | 36% |
+| 03 | 47 | 9.8s | 1.4s | 5.5s | **17s** | 2.76 | 41% |
+| 04 | 67 | 14.0s | 2.0s | 4.5s | **20s** | 3.35 | 32% |
+| 05 | 59 | 12.3s | 1.7s | 5.0s | **19s** | 3.11 | 35% |
+| 06 | 23 | 4.8s | 0.8s | 9.0s | **15s** | 1.53 | 66% |
+| | **271** | | | | **102s** | **2.66** | |
+
+**Clip 1 at the measured rate would have been 13 seconds, not 15.** That two-second
+over-provision is exactly the 58% silence, and it is the whole argument for
+re-sizing the rest before shooting them.
+
+**Density is no longer checked against 2.1.** That figure was calibrated when the
+assumed speech rate was 3.42; scaled to the measured 4.80 it becomes **~2.9**, and
+the honest check is the silence column — how much of the clip is intentionally
+wordless. Clip 6 is 66% silent on purpose because it is the button.
+
+**The container is the control, not the wording.** Clip 1's declared two-second beat
+came back at 4.26s, so the model expands a declared silence beyond what is asked.
+A tighter container is what stops it: at 16 seconds with 10 seconds of speech there
+is simply no room for a four-second overrun. Section 6 has always said this.
+
+**Re-confirm the 4.80 figure on Clip 2 before trusting it on 3–6. One clip is one
+data point.**
 
 **Word balance:** Nia 194, Chi 77.
 
@@ -668,7 +684,7 @@ held nearly 8 seconds there without the model filling a frame of it.
 | Resolution | **1080p — LOCKED 14 Sep 2026** |
 | Aspect | 16:9 |
 | Bitrate | high |
-| Clip length | per clip, 17–27s |
+| Clip length | per clip, 15–20s |
 
 Resolution is picked once, before the first clip, and held for the whole episode.
 It is the only free moment. Section 7: **"make it higher resolution" means upscale,
@@ -682,21 +698,24 @@ and came back with ChiChi's jacket missing, for 135 credits.
 `get_cost` on `seedance_2_5` at 16s and 27s confirms the rate is linear:
 **1080p 9.0 credits/s · 720p 6.5 · 480p 2.5.**
 
-| Clip | Length | 480p | 720p | 1080p |
-|---|---|---|---|---|
-| 01 | 15s | 37.5 | 97.5 | 135 |
-| 02 | 20s | 50 | 130 | 180 |
-| 03 | 22s | 55 | 143 | 198 |
-| 04 | 27s | 67.5 | 175.5 | 243 |
-| 05 | 25s | 62.5 | 162.5 | 225 |
-| 06 | 17s | 42.5 | 110.5 | 153 |
-| **Total** | **126s** | **315** | **819** | **1,134** |
+| Clip | Length | 1080p | status |
+|---|---|---|---|
+| 01 | 15s | **135** | ✅ SHOT — `faeb10ca`, billed 135 |
+| 02 | 16s | 144 | written, priced, not shot |
+| 03 | 17s | 153 | |
+| 04 | 20s | 180 | |
+| 05 | 19s | 171 | |
+| 06 | 15s | 135 | |
+| **Total** | **102s** | **918** | **783 remaining** |
 
-**Balance: 1,771.59 credits.**
+**The re-size saves 216 credits** against the old 1,134 plan, and it buys headroom
+rather than pixels: 1,634.59 − 783 = **851.59 left after the whole episode**, about
+**five average re-takes** instead of three.
 
-At 1080p the episode leaves **638 credits of headroom — about 3.4 average
-re-takes.** Episode 2 spent seven takes on Clip 1 alone. That is the number to look
-at before choosing the tier, and it is why the tier is the user's decision.
+**Balance after Clip 1: 1,634.59 credits.**
+
+Episode 2 spent seven takes on Clip 1 alone, so headroom is the number that matters
+and the re-size is what bought it.
 
 **The obvious-looking plan is forbidden.** Shooting cheap at 480p and re-running the
 approved prompt at 1080p is not a resolution change — it is a new take that re-rolls
