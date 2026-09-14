@@ -271,6 +271,36 @@ the left with the knob still on the right.
 
 ---
 
+## CLIP 1 — THE LINE THAT WENT TO THE WRONG MOUTH
+
+ChiChi delivered Nia's line **"You said midnight."** It is Nia's line and the
+reply to it — ChiChi's "I still say midnight" — only works if a different woman
+says each one.
+
+**It is in BOTH takes, not just the 1080p one.** Measured per line, the pattern is
+identical in the 480p take (`545524d2`) and the 1080p take (`3dbf92d0`): line 3
+sits closer to the ChiChi lines than to the Nia line in both. The resolution
+change did not cause this. It was there the first time and the verification pass
+missed it, because pitch was averaged per *scripted* speaker instead of per line.
+
+**Why this shot is prone to it.** Four lines, one cut, and a doorway two-shot in
+which the prompt puts Nia **lit from behind**. A backlit face is the hardest thing
+for the model to bind a line to, and lines 3 and 4 both end on the word
+"midnight" — adjacent lines sharing a word is exactly where attribution slips.
+
+**The fix, one variable:** every line tagged with its own speaker, the other
+woman's mouth explicitly closed through it, and the wrong answer named outright.
+Nia's backlight is NOT being changed in the same take — if per-line tagging does
+not hold it, relighting her face is the next single variable to try.
+
+| Take | Res | Cost | Outcome |
+|---|---|---|---|
+| first | 480p | 37.5 | knocked on a lift — no hallway set |
+| `545524d2` | 480p | 37.5 | characters right, door hinge wrong, **line 3 misattributed** |
+| `3dbf92d0` | 1080p | 135 | door pinned, resolution up, **line 3 still misattributed** |
+
+---
+
 ## SHOOTING ORDER AND WHAT BLOCKS WHAT
 
 | Clip | Speakers | Blocked by |

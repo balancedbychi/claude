@@ -220,6 +220,13 @@ byte-identical between shots — only the scene beats change.
 - **Every speaking character must be visible in the clip.** The model only binds a
   saved voice to a face it can see. An off-camera speaker gets a fabricated voice,
   no matter what the prompt says.
+- **Tag every line with its speaker AND close the other mouth.** A speaker list at
+  the top of the dialogue is not enough — the model will hand a line to the wrong
+  woman, and a backlit or partly turned face makes it likelier. Write each line as
+  its own instruction naming who speaks, and state that the other woman's mouth
+  stays completely closed and still through it. Then name the specific wrong
+  answer, as section 5 requires: "NEVER give ChiChi the line *You said midnight* —
+  it is Nia's." Adjacent lines that share a word are where this breaks.
 - **Time of day is stated as a shared fact**: "both women look out on the same sky
   at the same moment; do not change the light between cuts." Left unstated, each
   location invents its own hour.
@@ -392,6 +399,20 @@ nothing. Shortening the clip does, because the slack disappears.
       so the numbers have a scale. Same voice lands ~0.98.
     - **Get reference samples free** from `list_voices` — every voice element
       carries a `preview_url`. No TTS spend needed to hear what an element is.
+    - **Verify the ATTRIBUTION, not just the words.** A transcript proves the
+      lines were spoken. It does not prove who spoke them. A clip shipped with
+      ChiChi delivering Nia's line and the verification passed it, because the
+      pitch was bucketed by who was *scripted* to speak — which makes a swap
+      invisible by construction. **Measure every line separately, then cluster
+      the lines and see which speaker each one lands on.** Never average lines
+      together on the assumption the script was obeyed.
+    - **Within one clip, LTAS is valid; across clips it is not.** The room is the
+      dominant term in a spectral signature, so comparing a line to a sample from
+      another set is unreliable. Comparing the four lines of a single clip to each
+      other is clean — identical acoustics, identical encode. Use a same-speaker
+      pair from inside the clip as the control (two ChiChi lines score ~0.93) and
+      a known cross-speaker pair as the floor (~0.82). **Lines under about a
+      second are too short to trust** — they score low against everything.
   Measure first, then confirm with the user. It does not replace their ear; it
   stops a wrong assumption reaching a paid step.
 - **Preflight every cost** with `get_cost` before generating. State the number.
