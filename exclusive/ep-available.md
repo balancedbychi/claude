@@ -192,8 +192,63 @@ in — ChiChi's a third down on the screen-RIGHT side, Nia's full and untouched 
 screen-LEFT side — so it also tests the cup element, the two-cup count and the
 starting levels for the episode's clock.
 
-**What to look for:** does the angle give room for two faces? Are there exactly two
-cups? Are the levels right way round? Is the daylight right? Is any lettering legible?
+### APPROVED BY THE USER — the set-up is locked
+
+| check | verdict |
+|---|---|
+| Room for two faces at this angle | ✅ yes |
+| Exactly two cups, no third, no spare | ✅ correct |
+| Levels the right way round — lower screen-RIGHT, full screen-LEFT | ✅ yes |
+| Daytime, daylight key | ✅ yes |
+| Any legible lettering | ❌ **the letters ARE legible** |
+
+**Four of five. The framing is approved and locked for all six clips**, and the plate
+is not re-shot for the lettering — a plate is a reference document, not footage, and
+the lettering is not part of what the plate exists to prove.
+
+### THE LETTERING FAILED, AND THE PROMPT CAUSED IT
+
+The prompt carried *"NO LEGIBLE LETTERING ANYWHERE"* and the text came back legible.
+Look at why. The same prompt also said **"the Sucré printing on the cups"**, the cup
+element's description says **"the plastic Sucré coffee cup"** and **"the Sucré
+printing on the cup is NEVER rendered as legible lettering"**, and the set element's
+description says **"preserve the exterior SUCRÉ sign"**. The word was handed to the
+model five or six times over, attached to a surface, alongside a soft instruction not
+to render it clearly.
+
+**You cannot negate a specific string by quoting it — quoting it is what supplies
+it.** Section 5's "a generic negation loses to a strong prior" applies, except here
+the prior was created by the prompt's own text. The fix is not a harder negation. It
+is to describe the surface as BLANK and never name the word at all.
+
+### DECIDED: THE CUPS ARE UNMARKED IN THE VIDEO
+
+Taking this call rather than spending another round on it, because it is cheap,
+reversible and it removes a continuity liability with no upside.
+
+**Why unmarked.** Nobody in the audience needs to read the cup. But the same cup is
+on screen for all 126 seconds across **six separate generations**, and text that has
+to match itself across six seedance renders will not — a cup reading SUCRÉ in Clip 1
+and SUGRE in Clip 4 is exactly the "clearest possible signal that the footage was
+generated rather than filmed" that the appearance rule exists to prevent. And what
+the image model did here says nothing about what seedance will do; that is section
+4b's own point, one level down.
+
+**What goes in every Episode 3 clip prompt**, with the brand word absent entirely:
+
+```
+THE CUPS CARRY NO TEXT. The surface of each cup, its lid and its straw are
+COMPLETELY BLANK — no words, no letters, no numerals, no logo, no printed brand
+mark, no sticker, no label, no handwriting, no order name. Plain clear plastic
+only. There is no writing anywhere in this frame.
+```
+
+The cup element is not changed — it is write-once and its picture is still the lock
+for shape, material and proportion. The prompt simply never names the word, and the
+element is referenced by UUID, which carries no text for the model to render.
+
+**If the branding is wanted on screen after all**, say so and it goes back in — but
+then it needs checking on every single clip, and a mismatch means a re-take.
 
 ### Two things worth recording about this generation
 
@@ -606,7 +661,7 @@ approved frame of Clip 1.**
 | **Fixed objects** | a small ROUND marble pedestal table beside the large black-grid street window; clear acrylic chairs; cream banquette along the mural wall; curved service counter with espresso machine deeper inside; black-framed glass entrance door |
 | **Relative position** | the window is at the end of the seating row; the counter is deeper inside and behind the camera line; the banquette runs along the wall opposite the window |
 | **Screen direction** | **Nia sits screen LEFT, Chi sits screen RIGHT**, across the round table, both turned three-quarter INWARD toward each other. Fixed for the episode. |
-| **The set-up** | 50mm, eye-level at **seated** height, f/2.2, the window behind and to one side so daylight is the key. To be confirmed from the approved Clip 1 frame. |
+| **The set-up** | 50mm, eye-level at **seated** height, f/2.2, across the round marble pedestal table, the window behind and to one side so daylight is the key. **APPROVED from plate `6ebb546a`** — the user confirmed the angle leaves room for two faces. Section 4b still applies: the plate approves the intention, the first approved clip establishes what the room IS, so re-confirm against Clip 1's frame and never re-angle after that. |
 | **Light** | strong natural window daylight plus warm globe sconces and pendants. Daytime, flat and bright. Never night, never sunset, never the warm practical night key of Episode 2. |
 | **Population** | **two or three patrons, never more**, seated, deep, soft, at the frame edges. Never crossing behind the leads' heads, never looking at the lens, never one intelligible word. |
 

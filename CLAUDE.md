@@ -708,6 +708,24 @@ treat them the same way.
   finger, and specifically NOTHING on the fourth finger of her left hand — that
   finger is bare skin.**" Same pattern for anything the model expects to see and
   the scene forbids.
+- **You cannot negate a specific string by QUOTING it — quoting it is what supplies
+  it.** The Episode 3 set-up plate asked for "NO LEGIBLE LETTERING ANYWHERE" and the
+  lettering came back perfectly legible. The prompt had also said "the Sucré
+  printing on the cups", the cup element's description says "the plastic Sucré
+  coffee cup" and "the Sucré printing... NEVER rendered as legible lettering", and
+  the set element's description says "preserve the exterior SUCRÉ sign". The word was
+  handed to the model five or six times, attached to a surface, next to a soft
+  instruction not to render it clearly. **Naming the text is what put the text
+  there.** The fix is never a harder negation — it is to describe the surface as
+  BLANK and never write the word at all: "the surface is COMPLETELY BLANK — no words,
+  no letters, no numerals, no logo, no printed brand mark, no sticker, no label."
+  Reference the element by UUID, which carries no renderable text. This is the same
+  shape as "never generate the title into the art" in section 2, and it generalises:
+  **for anything you do NOT want rendered, describe its absence, never its
+  identity.** Contrast this with the ring and the wedding band, where naming the
+  object is exactly right — the difference is that a ring is a SHAPE the model
+  supplies from its own prior, while text is a STRING the model can only get from
+  your prompt.
 - **Spell unusual words phonetically, and negate the wrong readings.** "Jollof"
   came back mispronounced because the prompt only ever spelled it. Write the
   sound: *"pronounced 'JO-loft' said quickly, stress on the first syllable, the
