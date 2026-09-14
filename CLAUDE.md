@@ -341,6 +341,14 @@ treat them the same way.
 - **Quantities are absolute or they drift.** "A single glass" is not strong enough.
   "Exactly ONE glass exists, never two, never a spare or empty glass on any
   surface in any shot" is.
+- **Mechanisms need their geometry pinned, not just their name.** A door was asked
+  for and a door arrived — hinged on the left, knob on the right, and opening from
+  the left with the knob still on the right. The model draws the parts; it does not
+  reason about how they work together. Name which edge each part lives on, which
+  edge it pivots on, and where the gap appears: "hinges on the LEFT edge, handle on
+  the RIGHT edge, never the same side — it opens inward pivoting on the left, so the
+  gap opens on the right." The same applies to anything with a working part —
+  drawers, lids, latches, windows, a phone cord.
 
 ---
 
@@ -400,6 +408,17 @@ nothing. Shortening the clip does, because the slack disappears.
 - **Report the credit balance** after each batch so the user can see the burn.
 - **Never silently swap models, resolution or aspect ratio.** Mid-episode changes
   to any of these make the footage un-cuttable with what already exists.
+- **Pick the resolution before the first clip of an episode, not after.** "Blurry"
+  is usually not a prompt problem — 480p looks fine in a chat preview and soft on
+  a television, and no amount of sharpness wording fixes the pixel count. Quote
+  all three tiers per clip and per episode up front and let the user choose, then
+  hold it for the whole episode. Seedance on a 15s clip: **480p 37.5**, **720p
+  97.5**, **1080p 135** credits. The only free moment to change it is while the
+  episode's one existing clip is already being replaced.
+- **Ask for sharpness in the prompt too, but expect little from it.** An IMAGE
+  QUALITY block — "maximum sharpness and clarity throughout, crisp focus on faces
+  and fabric, no softness, haze or smearing, not a soft upscale" — is worth its
+  zero cost. The resolution tier is what actually moves it.
 - **Tell the user when a change invalidates existing shots.** Changing the time of
   day means everything already shot must be rebuilt. Say so before spending.
 

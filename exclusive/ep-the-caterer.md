@@ -229,6 +229,48 @@ generating, not after.
 
 ---
 
+## TECHNICAL SPEC — LOCKED FOR THE EPISODE
+
+| | |
+|---|---|
+| Model | `seedance_2_5` |
+| Resolution | **1080p** |
+| Aspect | 16:9 |
+| Clip length | 15s |
+| Bitrate | high |
+| Cost | **135 credits per clip**, ~945 for seven |
+
+**Why 1080p, and why it was safe to decide it here.** Clip 1 shot at 480p and
+the user's note was "the images look blurry". That is the tier, not the prompt.
+Episode 2 was one clip old and that clip was already being replaced for the
+hallway fix, so raising the resolution cost nothing in re-renders — the only
+moment in an episode when section 7's no-mid-episode-swap rule has a free
+window. **Episode 1 stays 480p and is not affected**; the two episodes are never
+cut together.
+
+Every Episode 2 prompt also carries an **IMAGE QUALITY** block asking for
+maximum sharpness, crisp focus on faces and fabric, no haze or smearing, and
+explicitly not a soft upscale. It costs nothing. The tier is what does the work.
+
+---
+
+## THE DOOR TO 10B — ITS HARDWARE
+
+The door appears in Clips 1 and 6 and has to behave the same way both times.
+The first hallway take drew it hinged left, knob right, and then opened it from
+the left with the knob still on the right.
+
+**Pinned, in both prompts, byte-identical:**
+
+- Hinges on the **LEFT** edge as we look at it.
+- Handle, lock and knob on the **RIGHT** edge.
+- They are **never on the same side** — that is physically impossible.
+- It opens **inward**, pivoting on the left hinged edge, so the gap opens on the
+  **right**.
+- Nia holds the handle at the right-hand edge when she opens it.
+
+---
+
 ## SHOOTING ORDER AND WHAT BLOCKS WHAT
 
 | Clip | Speakers | Blocked by |
