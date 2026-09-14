@@ -74,8 +74,15 @@ cost a full re-render.**
    none of it was usable, and the whole exchange had to be repeated. The widget is
    the only upload surface that works. Never inspect `/mnt/user-data/uploads`,
    never run shell to hunt for files, and never ask for a chat attachment.
-   **Ask whether the user is ready first, then open the widget, then say exactly
-   what to drop and how many.** See the `new-episode` skill for the full order.
+   **Ask whether the user is ready first, then open the widget ONE REFERENCE AT A
+   TIME** — `max_files: 1`, labelled with the exact asset it is for, and asked for
+   by name ("drop the image of ChiChi's outfit"), waiting for each before asking
+   for the next. A batch comes back as a list of media IDs with **nothing tying
+   each ID to the thing it depicts**, so the assignment becomes a guess. Guessing
+   wrong builds a wardrobe element from the wrong image, and **element
+   descriptions are write-once** — the only "fix" is a second element, which is
+   the competing-element failure that produced the duplicate Dorian. The user
+   asked for this explicitly in Episode 3. See the `new-episode` skill.
 2. **Generate a plate.** Turn the reference into a single still at the correct
    time of day. ~2 credits.
 3. **Get the plate approved.** The user looks at it and says yes or corrects it.

@@ -103,11 +103,27 @@ Nia's**, and both go down and neither is ever refilled.
 
 ### NEEDED — three references, all from the user
 
-| Element | State | Note |
+**References supplied by the user, 14 Sep 2026. These media IDs are written down
+here before the elements exist, because until an element is created the ID lives
+only in a chat transcript — which is the loss this whole file is about.**
+
+| Element to create | Source media ID | State |
 |---|---|---|
-| `ChiChi-Available-Look` | ⚠️ needs a reference | Daytime. WARDROBE ONLY, cropped and faceless, same rule as Episode 2 |
-| `Nia-Available-Look` | ⚠️ needs a reference | Daytime. WARDROBE ONLY, cropped and faceless, same rule as Episode 2 |
-| `Sucre-Coffee-Cups` | ⚠️ needs a reference | The cups both women drink from. **Two identical cups**, because Chi ordered both |
+| `ChiChi-Available-Look` | `7460c052-381f-4479-9b5c-139794de9728` | uploaded, **element not yet created** |
+| `Nia-Available-Look` | `82791094-37de-4e29-9e89-1f4e404804d5` | uploaded, **element not yet created** |
+| `Sucre-Coffee-Cups` | `c1a1abc2-a371-4958-ae5e-a94bc9102423` | uploaded, **element not yet created** |
+
+All three are WARDROBE/PROP ONLY on the Episode 2 pattern: cropped and faceless by
+design, never a source of face, hair, complexion, age, body or identity. Faces come
+from `Nia` and `ChiChi-the-Influencer`, which stay authoritative.
+
+⚠️ **The elements are NOT created yet and that is deliberate.** The media CDN is
+blocked from this environment — verified this session rather than assumed,
+`connect_rejected` on all three hosts — so the images cannot be looked at, and **an
+element description is write-once**: the MCP surface has `list`, `get` and `create`
+and no update. A wrong description can only be "fixed" by creating a second element,
+which is the competing-element failure that produced the duplicate Dorian. So the
+garment specs come from the user first, and the elements get created once.
 
 **The cups get their own element and their own ID in this table.** They are in every
 frame of all six clips, they are the episode's only prop, and they are its clock.
@@ -398,7 +414,7 @@ held nearly 8 seconds there without the model filling a frame of it.
 | | |
 |---|---|
 | Model | `seedance_2_5` |
-| Resolution | **user's call — see the cost table** |
+| Resolution | **1080p — LOCKED 14 Sep 2026** |
 | Aspect | 16:9 |
 | Bitrate | high |
 | Clip length | per clip, 17–27s |
@@ -487,13 +503,15 @@ and the reason is that the locked two-shot is also the attribution fix.
 
 ## STILL OPEN
 
-1. **Resolution tier** — 315 / 819 / 1,134 credits against a 1,771 balance.
+1. **The three garment/prop specs**, so the elements can be created — one line each,
+   from the user. See the registry note above for why this cannot be skipped.
 2. **A 2-credit plate of the empty window table**, shot from the intended two-shot
    angle, before 135 credits of Clip 1. The set is locked but the SET-UP is not, and
    section 4b says the set-up is what an audience recognises a place by. Recommended.
 
-**Settled:** café population is two or three patrons. Outfits and cups are coming
-from the user.
+**Settled:** script approved by the user. **Resolution locked at 1080p — 1,134
+credits for the episode, 638 of headroom.** Café population is two or three patrons.
+All three references uploaded, media IDs recorded above.
 
 ---
 

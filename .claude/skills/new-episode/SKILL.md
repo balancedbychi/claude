@@ -51,8 +51,17 @@ End the brief with a direct question: **"Ready to upload?"** Wait for the answer
 
 ## 4. On yes — open the upload widget, as the ONLY tool in that turn
 
-Call `media_upload_widget`. In the same message, list exactly what to drop, numbered
-to match the manifest, so the user knows what they are dropping and how many.
+Call `media_upload_widget` **once per reference, with `max_files: 1`**, and name the
+one thing you want in that message: *"Drop the image of ChiChi's outfit."* Wait for
+it, confirm the media ID back, then ask for the next by name. Never open one widget
+for the whole manifest.
+
+**Why one at a time.** A batch returns a list of media IDs and nothing says which ID
+is which image. Assigning them is then a guess, a wrong guess builds a wardrobe
+element from the wrong reference, and **an element description is write-once** — the
+only way to "correct" one is to create a second element, which is exactly the
+competing-element failure that produced the duplicate Dorian. The user asked for
+this directly in Episode 3: *"we're not going to go down this rabbit hole again."*
 
 **Never do any of these:**
 - ask the user to paste or attach images in the chat — **they will not work**
@@ -63,7 +72,14 @@ to match the manifest, so the user knows what they are dropping and how many.
 
 ## 5. Turn every upload into an element immediately
 
-`show_reference_elements` with `action: create`. Write the **whole spec into the
+**Get the spec from the user BEFORE creating anything — you cannot see the image and
+the description is write-once.** The CDN the uploads live on is blocked from this
+environment (verified in Episode 3: `connect_rejected` on all three hosts), so there
+is no way to look at what was just dropped. Ask for one line per reference — garment,
+colour, fabric, neckline, sleeves — and build the element around it. A thin
+description is survivable; a wrong one is permanent.
+
+Then `show_reference_elements` with `action: create`. Write the **whole spec into the
 description** — including the rules that travel with it (CLAUDE.md 2). Then write
 every ID into the episode file's registry table **in the same turn**: an element is
 not locked until its ID is in that table, and Episode 2 lost its hallway element
