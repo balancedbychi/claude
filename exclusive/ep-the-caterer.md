@@ -199,6 +199,36 @@ her hand, not calling anyone. No dialogue.
 
 ---
 
+## SET GAP FOUND IN THE SHOOT — THE HALLWAY
+
+**`Dorian-Lift-Lobby-Night` contains no apartment door.** It is a corridor of
+bronze lift bays and nothing else. The script asks ChiChi to stop at "the door
+past the last bay" and knock — so the first take had her knocking on a lift.
+Unusable, 37.5 credits.
+
+The user supplied a hallway reference in the same batch as the apartment images;
+it was never made into an element. A separate `Dorian-Hallway-Night` set is
+required, carrying the door to 10B.
+
+**What it changes:**
+
+| Clip | Was | Now |
+|---|---|---|
+| 01 | lobby throughout | lift bay → **hallway** for the walk, hold, knock and doorway |
+| 06 | lobby throughout | **hallway** for the goodbye at the door, then lobby for her walk away |
+| 07 | lobby | unchanged — she is waiting for the lift, no door needed |
+
+The lobby still earns its place: she crosses it on arrival and again on the way
+out, and Clip 7 lives there entirely. The two sets are adjacent and must read as
+one continuous floor — same marble, same sconces, same night key.
+
+**Check that a set actually contains the thing the action needs.** A locked plate
+proves what a room looks like, not that it holds the door, window or furniture
+the script asks an actor to use. Read the blocking against the set spec before
+generating, not after.
+
+---
+
 ## SHOOTING ORDER AND WHAT BLOCKS WHAT
 
 | Clip | Speakers | Blocked by |
