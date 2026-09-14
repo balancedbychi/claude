@@ -384,7 +384,7 @@ against both at once. Do not trim either half.
   last action, and the episode ends with her hope intact.
 - **Word balance is restored.** Episode 2 Clip 5 inverted section 1's rule as a
   declared exception, with a warning that a second inversion would be drift. Across
-  this episode: **Nia 193 words, Chi 77.**
+  this episode: **Nia 194 words, Chi 77.**
 
 ---
 
@@ -405,10 +405,12 @@ sits down hard.
 > NIA: "You're doing the face."
 > CHICHI: "This is my face."
 > *(Chi slides the second cup across to her. No line.)*
-> NIA: "We're good. We're actually good. Twenty-one days and we're still good."
+> NIA: "Dorian and I are doing good. Twenty-one days and we're still good."
 > CHICHI: "Mm."
 
-*Chi drinks on the number — a completed, unhurried movement, the exact inverse of
+*Nia names him in the episode's first minute, so the whole subject of the episode is
+on the table before Chi has said anything of substance. Chi drinks on the number — a
+completed, unhurried movement, the exact inverse of
 the interrupted one in Episode 2 Clip 4. It means: I am not going to fight you about
 this. She says nothing about the number and the audience does the arithmetic.*
 
@@ -583,20 +585,20 @@ on the total, not the input. This is the arithmetic proven on Episode 2 Clip 6 �
 
 | Clip | Words | Speech | Boundaries | Wordless | Total | Density |
 |---|---|---|---|---|---|---|
-| 01 | 26 | 7.6s | 2.3s | 5.5s | **15s** | 1.7 w/s |
+| 01 | 27 | 7.9s | 2.3s | 5.5s | **15s** | 1.8 w/s |
 | 02 | 48 | 14.1s | 2.7s | 3.5s | **20s** | 2.4 w/s |
 | 03 | 47 | 13.8s | 2.3s | 5.5s | **22s** | 2.1 w/s |
 | 04 | 67 | 19.7s | 3.2s | 4.0s | **27s** | 2.5 w/s |
 | 05 | 59 | 17.4s | 2.7s | 5.0s | **25s** | 2.4 w/s |
 | 06 | 23 | 6.8s | 1.4s | 9.0s | **17s** | 1.4 w/s |
-| | **270** | | | | **126s** | **2.14 w/s** |
+| | **271** | | | | **126s** | **2.15 w/s** |
 
 **The total lands exactly on section 6's 2.1 sanity check.** Clip 04 at 27s is
 inside seedance_2_5's real 4–30s range, confirmed from `models_explore` rather than
 assumed. Clip 06 is a declared-silence clip on the Episode 2 Clip 4 model — 7 words
 held nearly 8 seconds there without the model filling a frame of it.
 
-**Word balance:** Nia 193, Chi 77.
+**Word balance:** Nia 194, Chi 77.
 
 ---
 
