@@ -26,7 +26,7 @@ Nothing is waiting on a reference.
 
 | Element | ID | Note |
 |---|---|---|
-| `Dorian-Series-Look` | `51c0cbaa-2fbe-4918-bb91-a29307caca09` | **Use this one.** All-black camp-collar set, silver chain and cross, whiskey tumbler. |
+| `Dorian-Series-Look` | `51c0cbaa-2fbe-4918-bb91-a29307caca09` | **Use this one.** All-black camp-collar set, silver chain and cross, whiskey tumbler. **He is 6'2" — a clear 4–5 inches taller than ChiChi**, looks slightly down at her, and that difference must hold in every frame they share. |
 | `Kel-The-Cousin` | `3ad69411-e32c-44bd-b797-a93ec0d4b52c` | Fifties, Dorian's older cousin. One scene. |
 | `ChiChi-Caterer-Look` | `d039b74e-fe7b-4a8f-b402-759ad6388da0` | **WARDROBE ONLY** — cropped and faceless by design. Face comes from `ChiChi-the-Influencer`. |
 | `Nia-Caterer-Look` | `83bf1dae-a954-4037-b68b-ad91718cffff` | **WARDROBE ONLY** — same rule. Face comes from `Nia`. |
@@ -52,7 +52,19 @@ failure section 2 warns about.
   seen from inside — Clips 4 and 5 sit on opposite sides of one piece of glass.
 - **Crowd rule: never more than SIX guests in any frame.** Kept to the frame
   edges or in deep soft focus, never crossing in front of the leads, never
-  looking at the lens, mouths closed unless the clip says otherwise.
+  looking at the lens. **The guests DO talk to each other** — mouths moving,
+  gesturing, reacting, like a real party — but **not one word is ever
+  intelligible**: a soft indistinct murmur under the scene, never a recognisable
+  word, never loud enough to compete with the leads.
+- **Party music plays, and it is SOURCE music, not score.** It comes from
+  speakers in the room, sits low and warm underneath the dialogue, and never
+  masks or rises over a line. This is a deliberate exception to the standing
+  "no music, no score" negation in section 4 — the negation still forbids a
+  soundtrack laid over the scene, and still forbids a DJ, a dance floor,
+  strobes and club lighting. **Watch the mix**: music under dialogue is the most
+  common way a generated clip loses its lines. Measure the speech-band level
+  during the lines against the level between them before asking the user to
+  listen.
 - **Night key, everywhere.** Warm practicals only. Never daylight, never sunset,
   never a pink or lilac sky, never blue-dominant, never coloured LED, strobes,
   club lighting, a DJ or a dance floor.
