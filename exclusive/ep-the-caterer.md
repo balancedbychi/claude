@@ -329,6 +329,7 @@ not hold it, relighting her face is the next single variable to try.
 | `3dbf92d0` | 1080p | 135 | door pinned, resolution up, **line 3 still misattributed** |
 | `88e888cf` | 480p | 37.5 | per-line tagging — **line 3 STILL misattributed** |
 | `b45c8a9f` | 480p | 37.5 | one-corridor geography — **line 3 STILL misattributed** |
+| `e2cad416` | 480p | 37.5 | both faces framed + both lit, no cuts — **line 3 STILL misattributed** |
 
 ---
 
@@ -355,11 +356,46 @@ settled back onto ChiChi and the line goes with it.
 binds a voice only to a face it can see. The sharper version: it binds the line to
 the face it is LOOKING AT. Naming the speaker in text cannot beat the framing.
 
-**Therefore the fix is structural, not textual** — the camera has to be on Nia
-when Nia speaks. That means a real shot-reverse across the doorway exchange, which
-changes Clip 1's locked "one cut" spec and is the user's call to make.
+**Therefore the fix is structural, not textual.** Take 5 then tried the cheapest
+structural option — both faces in frame at the same size, Nia lit from the front
+instead of backlit, no cuts at all — and line 3 went to ChiChi again.
 
-Spent on Clip 1 so far: **285 credits across five takes.**
+### FIVE TAKES, THREE STRATEGIES, ONE UNCHANGING RESULT
+
+| strategy | take | result |
+|---|---|---|
+| per-line speaker tags + mouth-closed negations | `88e888cf` | L3 → ChiChi |
+| one-corridor geography | `b45c8a9f` | L3 → ChiChi |
+| both faces framed and lit, no cuts | `e2cad416` | L3 → ChiChi |
+
+Line 1 goes to Nia every time. Lines 2, 3 and 4 go to ChiChi every time.
+
+### THE LIKELIEST REMAINING CAUSE: THE CLIP IS ABOUT CHICHI
+
+**Nine of the fifteen seconds are ChiChi alone.** The lift, the walk, the hold, the
+knock — the camera follows her and only her for the first nine seconds, which
+establishes her as the subject of the shot. Nia appears at second nine and gets
+one line before the shot's subject logic reverts. Staging the last four seconds
+differently does not undo nine seconds of establishing.
+
+**And the container is wrong by this repo's own rule.** Section 6 sets ~2.1 words
+per second. Four lines is about 14 words, which wants a **7-second** clip. Instead
+14 words are crammed into the last 4 seconds of a 15-second clip behind 9 seconds
+of silence. The clip is simultaneously too long and too dense.
+
+**So splitting is not a workaround, it is what section 6 prescribes:**
+
+| | length | content | 480p | 1080p |
+|---|---|---|---|---|
+| Clip 1A | ~10s | lift, walk, hold, knock — **silent, zero attribution risk** | 25 | 90 |
+| Clip 1B | ~7s | the four doorway lines, no walk-up to establish a subject | 17.5 | 63 |
+| | | **total** | **42.5** | **153** |
+
+Against 135 for one 15-second clip, splitting costs ~18 more credits at 1080p and
+removes the nine seconds that make ChiChi the subject. **Clip 1B can be proved for
+17.5 credits** — the cheapest test available, less than half a full-clip take.
+
+Spent on Clip 1 so far: **322.5 credits across six takes.**
 
 **Per-line tagging did not fix it.** Take 3 named the speaker on every line, closed
 the other woman's mouth through it, and named the wrong answer outright
