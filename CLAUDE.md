@@ -336,6 +336,14 @@ any prompt, write down two things:
   abrupt.
 - **Inherit position, not just place.** "Int. loft" is not an entry state. "Just
   inside the front door, Nia's hand still on ChiChi's wrist from the pull" is.
+- **A door seen from both sides is TWO set descriptions of ONE object, and they
+  must match.** Episode 2's apartment door is solid, in a solid wall, in the
+  hallway plate. Clip 2 then opened "just inside the front door" and the model
+  invented a GLASS door in that wall — so the same doorway ChiChi knocked on in
+  Clip 1 is a different object seconds later. Anything that appears in two clips
+  from two angles (a door, a window, a staircase, a counter) needs its material,
+  colour and surround stated in BOTH prompts, not just the one where it is the
+  subject. The locked plate only covers the side it was shot from.
 - **Props are the cheapest continuity there is, and the most convincing.** A plate
   of food carried out of the kitchen scene into the next one does more to make an
   episode read as one evening than any line of dialogue. Track every prop across

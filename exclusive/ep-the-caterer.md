@@ -523,6 +523,28 @@ and it costs nothing to ask.
 | `4f8c3597` | 1080p | 12s | 108 | everything right except pacing — 5 gaps, **2.96s dead air** |
 | `6c221e39` | 1080p | 9s | 81 | **user: "dang near perfect"** — two continuity flaws below |
 
+| `138b2a2f` | 1080p | 9s | 81 | door-entrance re-shoot — **abandoned**, see below |
+
+**Take 3 (`138b2a2f`) — the entrance re-shoot, abandoned.** Attribution stayed
+clean (Dorian 106.7 / 114.3 / 111.9 Hz, ChiChi 0% and 6% below 150Hz) and the cut
+landed at 8.00s. But two things went wrong:
+
+- **The door came back as GLASS**, in a wall that is solid in the hallway plate.
+  The same doorway ChiChi knocked on in Clip 1 became a different object seconds
+  later. See the new rule in CLAUDE.md section 4a — a door seen from both sides is
+  two descriptions of one object and both prompts must carry its material.
+- **Pacing regressed to 2.28s of dead air** from take 2's 1.48s. Cause is
+  mechanical: opening at the door removed the two-second crossing beat, so
+  dialogue started at 1.10s instead of 1.82s, and section 6's rule bit — the model
+  spent the extra 0.7s of runway on gaps rather than performance. The container
+  needed to shrink to 8s to match the shorter opening; it stayed at 9s.
+
+**The user stopped the rework here to stop spending.** The right staging was
+identified — ChiChi and Nia should WALK IN and then meet Dorian, rather than
+standing at the door — but it is not worth further credits. **Which take ships is
+still undecided**; both end identically on Nia's face, so the seam into Clip 3 is
+unaffected either way.
+
 **Take 2 measured:**
 
 | check | result |
