@@ -826,6 +826,66 @@ description alone.
 
 ---
 
+## CLIP 6 — DELIVERED, AND THE FIRST CLIP WHERE THE AUDIO BEHAVED
+
+| | |
+|---|---|
+| **Job** | `6a9e4851-01c5-45d9-b3cd-81d60edeef14` |
+| Res / length / cost | 1080p · 24s · **216 credits** |
+| Speakers | Nia, ChiChi |
+
+| check | result |
+|---|---|
+| Words | **exactly 41** — nothing invented, nothing dropped |
+| Dialogue ends | **13.16s** against a predicted ~14s |
+| Wordless tail | **10.89s** — the ending, as written |
+| Cuts | **exactly 2**, at 13.38s and 18.00s, both **19.4x / 19.9x mean** |
+| The walk away | **4.62s** between the two cuts, against "a full four seconds" |
+| Nothing spoken after "Midnight." | confirmed |
+
+**THE CONTAINER MATH FROM CLIP 5 WORKED.** Sized at `41 words / 3.42 w/s = 12.0s`
+plus 9.5s of wanted wordless action plus 2.4s of line gaps = 24s. Dialogue
+actually ended at 13.16s and the tail ran 10.89s. Clip 5 was 47% silent on the
+old 2.1 w/s arithmetic; this one spends its silence where the script asks for it.
+**Section 6's revised sizing is now proven on a real clip, not just measured on a
+failed one.**
+
+**The music did NOT swell — first time in three clips.** The tail drops to
+**-39 to -42 dBFS** through 21-23.5s, quieter than the walk away at -34. Worth
+recording HOW that was nearly misreported: a first pass averaged 21.5-24.0s as a
+single window, caught the door slam inside it, and printed "+8.02 dB, SWELLED."
+**A window that spans a quiet passage and a transient reports neither.** The
+per-100ms profile plus a spectral centroid settled it: the loud event starts at
+23.6s, peaks at 23.8s, lasts ~0.4s, and reads **708 Hz centroid against 1569 Hz
+for the quiet tail** — low and short is a door closing, high and sustained would
+have been music. **Always profile a tail per-100ms before calling a swell.**
+
+**What changed versus Clips 4 and 5 is probably the diegetic logic, not the
+wording.** Here the music has a physical reason to stop — a door shuts on it —
+rather than being asked to stay quiet under an emotional hold. Section 6's
+"fix it in post" still stands for holds with no such reason.
+
+**The clip ends ON the door closing, with no empty-corridor beat after it.** The
+slam runs 23.6-24.05s and the clip stops there. That loses Clip 6's scripted
+final second of empty hallway — but it does not lose the beat, because **Clip 7
+opens on exactly that: the same corridor, wide and static.** Cutting on the slam
+into a silent Clip 7 is arguably the cleanest version of the 06 -> 07 seam the
+map asks for. **Not worth 216 credits to reshoot.**
+
+**Two things need the user's eyes and ears:**
+- **"Chi—" transcribed as "Gee."** Section 7 says a transcript cannot verify
+  pronunciation — but this is the informative direction. When Whisper writes the
+  dictionary word it proves nothing; when it writes a DIFFERENT word, the nearest
+  match to the sound was not the intended one. "Gee" suggests a voiced onset
+  rather than the "ch" affricate. Flagged, not concluded.
+- **5.6 seconds of Nia watching** between the second cut and the door closing.
+  Faithful to "watches the whole way", possibly long.
+- **The interruption did not happen.** ChiChi's "I ate." starts 0.08s after Nia
+  finishes rather than overlapping her. A clean fast handoff, not a cut-in. The
+  model has not honoured an overlap request in this episode yet.
+
+---
+
 ## THE EYELINE NOTE — CLIP 5 TALKED PAST ITSELF
 
 **The user's note after Clip 5: the two of them never looked at each other.**
@@ -892,7 +952,7 @@ drink (04 → 05), Nia's heels (05 → 06), ChiChi's phone (07 only).
 | 03 | ChiChi, Kel | ✅ **shot** — `8a2543d2` |
 | 04 | Dorian, Nia | ✅ **shot** — `f1636ebf` |
 | 05 | ChiChi, Nia | ✅ **shot** — `9850c5fc`, 26s, 234 |
-| 06 | ChiChi, Nia | nothing — **ready now** |
+| 06 | ChiChi, Nia | ✅ **shot** — `6a9e4851`, 24s, 216 |
 | 07 | none | nothing — **ready now** |
 
 Four of seven are shot. Clip 5 is written and priced; 6 and 7 are unblocked.
