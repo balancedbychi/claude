@@ -171,10 +171,33 @@ gestures to her without thinking about it at all.
 Cut to ChiChi on the stairs, alone above the room, holding a paper plate. She has
 heard it. She does not react. She files it away and takes a drink. Hold on her.
 
-***This clip is the episode.*** Two failure modes to prompt hard against: Nia's
-smile COLLAPSING — it must hold then correct by about five percent, nothing more
-— and ChiChi REACTING. No smirk, no eye-roll, no glance to camera. The audience
-does the work.
+***This clip is the episode.***
+
+**REVISED — ChiChi DOES react.** The original note said to prompt hard against her
+reacting at all. That was wrong in the same way "ChiChi is still, she does not
+gesture" was wrong in Clip 2: it produced a mannequin. Five seconds of a
+completely blank face at the most important moment of the episode is not
+authority, it is absence.
+
+**The distinction that matters is REACTING versus COMMENTING.** Section 3 already
+gives her the vocabulary — one eyebrow, a slow blink, setting a glass down. Those
+are reactions. A smirk or an eye-roll is a comment: it tells the audience what to
+think, and that is what kills the moment.
+
+**Her reaction, locked:** she is LIFTING HER DRINK when Dorian says it. **The
+drink stops**, halfway to her mouth, and holds there. One slow blink. Then, after
+a beat, she finishes the sip anyway and lowers the glass.
+
+It works because she is normally still, so an interrupted movement reads louder
+than any expression could. She heard it, it landed, and she decided not to make
+it a thing. Section 3's own line covers it — *when Chi finally moves, it means
+something* — except here it is when she stops.
+
+**Still forbidden:** smirk, eye-roll, raised eyebrow as commentary, knowing look,
+glance at camera, pity, sadness, satisfaction, head shake, sigh.
+
+**Nia's smile is the other failure mode and is UNCHANGED:** it must HOLD and
+correct by about five percent, never collapse.
 
 ### Clip 05 — "Twelve" · 50mm · f/2.0 · slow push · ENDS IN SILENCE
 **Ext. roof terrace — night.** The two of them alone, party a warm blur through
