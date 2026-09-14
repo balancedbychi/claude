@@ -461,6 +461,17 @@ nothing. Shortening the clip does, because the slack disappears.
   leather jacket missing, despite the prompt saying "the jacket stays ON for the
   whole clip". **Once a take is approved, never generate from that prompt again.**
   Upscale the approved footage.
+- **A free 1080p is always available: upscale in the sandbox with ffmpeg.** Zero
+  credits, and it cannot re-roll anything because it resamples the frames that
+  already exist. `ffmpeg -i src.mp4 -vf "scale=1920:1080:flags=lanczos" -c:v
+  libx264 -preset slow -crf 16 -pix_fmt yuv420p -c:a copy -movflags +faststart`,
+  then `media_upload` -> PUT -> `media_confirm` to put the file in the user's
+  library. It adds no invented detail, so a paid AI upscaler may still look
+  better — but it delivers the approved footage in a true 1080p container for
+  nothing, and it is the right first answer to "make it higher resolution".
+  **Prove it afterwards**: sample both files at the same fps and size and compare
+  per-pixel. Under ~1.0/255 mean difference is resampling noise, i.e. the same
+  footage. Episode 2 Clip 1 measured 0.172 mean, 0.299 worst.
 - **Flagging a risk is not permission to take it.** The re-roll risk above was
   stated out loud and then the 135 credits were spent in the same turn without
   waiting for an answer. A warning followed immediately by the charge is not

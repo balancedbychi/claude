@@ -345,6 +345,19 @@ back without the jacket anyway, because re-running a prompt is a new take that
 re-rolls every uncontrolled detail. 135 credits, and it destroyed an approved
 result to chase pixels.
 
+### DELIVERED — 1080p, at zero credit cost
+
+| | |
+|---|---|
+| **File** | `9c546f91-46b8-41bc-bd2c-1d4d208c5f85` |
+| Source | `e2cad416` — the approved 480p take |
+| Method | ffmpeg lanczos 854x480 -> 1920x1080, x264 crf16, **audio stream copied untouched** |
+| Cost | **0 credits** |
+| Proof | 361 frames in, 361 out; 15.042s in, 15.042s out; mean per-pixel difference **0.172/255**, worst frame **0.299/255** |
+
+Same footage frame for frame. The jacket, the staging, the timing and both
+performances are the ones that were approved, because nothing was generated.
+
 **Clip 1 finishes by UPSCALING `e2cad416`, never by generating again.**
 `upscale_video` accepts the job_id directly and works on the existing frames, so
 it cannot change wardrobe, staging or performance. It has no cost preflight.
