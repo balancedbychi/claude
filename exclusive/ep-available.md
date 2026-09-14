@@ -171,6 +171,50 @@ sheet below, which every prompt pastes — which is what section 4b prescribes a
 
 ---
 
+## THE SET-UP PLATE — SHOT, 2 CREDITS, AWAITING THE USER'S EYES
+
+| | |
+|---|---|
+| **Job** | `6ebb546a-79ce-4f9f-a33b-c2b7145b5c37` |
+| Cost | **2 credits**, preflighted at 2 and billed at 2 — balance 1,771.59 → 1,769.59 |
+| Prompt | `exclusive/prompts/ep3-plate01-DELIVERED-6ebb546a.txt` |
+| Aspect / size | 16:9, 2752×1536 |
+
+**What it is for.** The Sucré element proves what the room LOOKS like; it does not
+prove the SET-UP, and section 4b says a place the audience has seen once is
+recognised by its FRAMING as much as its contents. This plate fixes the framing for
+all six clips before 135 credits of Clip 1: seated eye level, 50mm, across the round
+marble pedestal table by the black-grid window, one chair screen LEFT and one screen
+RIGHT, both empty.
+
+**It doubles as the Clip 1 opening frame minus the actors.** Both cups are dressed
+in — ChiChi's a third down on the screen-RIGHT side, Nia's full and untouched on the
+screen-LEFT side — so it also tests the cup element, the two-cup count and the
+starting levels for the episode's clock.
+
+**What to look for:** does the angle give room for two faces? Are there exactly two
+cups? Are the levels right way round? Is the daylight right? Is any lettering legible?
+
+### Two things worth recording about this generation
+
+**The model that ran is NOT the model that was asked for.** The request named
+`nano_banana_pro`; the job came back as **`nano_banana_2`**. The cost was identical
+and the plate has no faces in it, so nothing is at risk here — but **read the job's
+own `model` field rather than assuming the request was honoured**, especially before
+concluding anything about which model does or does not hold these characters.
+Section 2's finding that image models come back with strangers was recorded against
+`nano_banana_pro` by name.
+
+**There is a typo frozen into the delivered prompt.** The line reads
+*"nobody passing the window, no人 in any mirror or reflection"* — a stray CJK
+character landed inside the word. It happens to mean "person", so it was harmless
+here, and section 8 is explicit that a DELIVERED file is a record and not a draft,
+so **it stays byte-identical**. If this text is reused, copy it to a new `-PROPOSED`
+file and fix it there. Recorded because section 7 says to read the whole prompt
+before submitting, this one was read, and the typo still got through.
+
+---
+
 ## MANDATORY BLOCKS — IN ALL SIX PROMPTS, BYTE-IDENTICAL
 
 Both of these are carried forward **word for word** from
