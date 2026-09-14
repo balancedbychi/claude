@@ -171,6 +171,76 @@ sheet below, which every prompt pastes — which is what section 4b prescribes a
 
 ---
 
+## MANDATORY BLOCKS — IN ALL SIX PROMPTS, BYTE-IDENTICAL
+
+Both of these are carried forward **word for word** from
+`ep2-clip04-DELIVERED-f1636ebf.txt`, the cleanest technical result of Episode 2.
+Section 5 forbids rewording what produced an approved result, so they are copied,
+never retyped. Nothing below is optional and nothing below is abbreviated for any
+clip, including the ones where her hands are barely in frame.
+
+### 1. THE RING — byte-identical, every prompt
+
+```
+CHICHI WEARS NO RING. Both of her hands are COMPLETELY BARE OF RINGS: NO wedding
+ring, NO engagement ring, NO band of any kind on any finger of either hand, and
+specifically NOTHING ON THE FOURTH FINGER OF HER LEFT HAND — that finger is bare
+skin. Never a gold band, never a silver band, never a diamond, never a thin plain
+band, never a stacked set. NO BRACELET. Her GOLD WATCH is the single exception and
+the only jewellery on her hands or wrists. Skin smooth and youthful matching the
+apparent age of her face, correct five-finger anatomy, exactly five fingers per
+hand. NO necklace, small gold studs only.
+```
+
+**The version that failed and the version that worked are different text, and this
+is the one that worked.** The ring appeared in Episode 2 Clip 2 take `6c221e39`,
+whose prompt carried the weak generic wording — *"both women keep both hands
+entirely RING-FREE and BRACELET-FREE"*. Section 5's ruling came out of that: a
+generic negation loses to a strong prior, so name the object and name the place.
+The strong block above is what Clip 4 carried, and Clip 4 came back clean.
+
+### 2. THE SKIN — byte-identical, every prompt
+
+```
+CHICHI'S SKIN — RENDER IT CLEARLY. THIS MATTERS. Her complexion is warm brown,
+EVEN and HEALTHY, CLEAR and LUMINOUS, with natural visible pore texture and fine
+skin detail. Her face is SHARPLY IN FOCUS at all times, well lit and fully
+resolved. NEVER blotchy, NEVER mottled, NEVER patchy or uneven in tone, NEVER waxy
+or plastic, NEVER muddy, NEVER grainy or noisy, NEVER over-smoothed into a flat
+featureless mask, and NEVER soft, blurred or out of focus. Light falls evenly
+across her face — no harsh shadow cutting across her features, no colour cast, no
+green or grey tint in the skin.
+```
+
+### 3. NEW FOR EPISODE 3 — SHE DOES NOT GET AGED
+
+The user's note: *"She may be 40 but she has beautiful skin."* This is an ADDITION
+that follows the approved block, not an edit to it.
+
+```
+CHICHI IS FORTY AND HER SKIN IS ONE OF THE BEST THINGS ABOUT HER — smooth, firm,
+even-toned and glowing, with a healthy natural luminosity. DO NOT AGE HER SKIN TO
+SIGNAL HER AGE: NO wrinkles, NO fine lines, NO crow's feet, NO forehead lines, NO
+nasolabial creases, NO sagging or slackness, NO crepey or papery texture, NO age
+spots, NO dullness, NO sallowness, NO under-eye shadows or bags, NO hollowing.
+Her age reads in her composure and her stillness, NEVER in her skin.
+```
+
+**Why this is needed and why it belongs next to the ring block.** Both failures come
+from the same prior: **the prompt tells the model she is forty.** It has to — her
+age is inside Chi's pinned voice block, which cannot be reworded (section 5a). So
+every prompt states her age and must, in the same breath, negate everything the
+model associates with it. The wedding band is one of those associations. Aged skin
+is another. Naming the object beat the ring in Clip 4; naming every age marker is
+the same move applied to her face.
+
+**And it covers both meanings of "unclear".** Section 5: *"ChiChi's skin looks
+unclear" can mean soft and out of focus OR blotchy and uneven*, and an agent who
+cannot see the render does not know which. The approved block already writes
+against both at once. Do not trim either half.
+
+---
+
 ## THE RULES THIS EPISODE ADDS
 
 - **Six clips of two women alternating lines at a table is the highest

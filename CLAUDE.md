@@ -258,7 +258,7 @@ and they do more work than any line.
 - **Hands must have a job.** Specify what each hand is doing in every beat. Idle
   unspecified hands are where anatomy errors appear.
 
-### ChiChi's two permanent physical facts
+### ChiChi's three permanent physical facts
 
 These are series-wide, not per-episode, and belong in every prompt she appears in.
 
@@ -278,6 +278,21 @@ These are series-wide, not per-episode, and belong in every prompt she appears i
   wants a child and has no partner, and that is the ache the whole character sits
   on. A wedding ring on ChiChi contradicts the show. Her gold watch remains the
   single permitted exception to her jewellery rule.
+- **Her skin is CLEAR, and she does not get aged.** The user's note: *"She may be
+  40 but she has beautiful skin."* Even, smooth, luminous, firm, in focus, with
+  natural pore texture. **The model reaches for age markers for exactly the same
+  reason it reaches for a wedding band — because the prompt tells it she is
+  forty**, and it has to, since her age sits inside the pinned voice block that
+  section 5a forbids rewording. So every prompt states her age and must negate
+  what that invites, by name: no wrinkles, no fine lines, no crow's feet, no
+  forehead lines, no nasolabial creases, no sagging, no crepey or papery texture,
+  no age spots, no dullness, no sallowness, no under-eye shadows or bags, no
+  hollowing. Naming the object is what beat the ring in Episode 2 Clip 4; naming
+  every age marker is that same move applied to her face. **Her age reads in her
+  composure, never in her skin.** Keep this alongside the approved skin block,
+  which separately writes against BOTH meanings of "unclear" — blotchy and uneven
+  AND soft and out of focus — because an agent who cannot see the render does not
+  know which one it got.
 
 ### The appearance rule — treat it like a real actor on a real shoot
 
