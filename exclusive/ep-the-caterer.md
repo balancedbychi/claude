@@ -75,6 +75,15 @@ failure section 2 warns about.
   Episode 1 — state it in every prompt.
 - **ChiChi's gold watch** is a deliberate exception to her standing ring-free,
   bracelet-free rule, and the only wrist jewellery allowed.
+- **ChiChi wears NO RING, ever** — no wedding ring, no engagement ring, no band on
+  any finger, and specifically nothing on the fourth finger of her left hand. It
+  kept appearing in Episode 2 takes *despite* "ring-free" being in every prompt,
+  because a generic negation loses to a strong prior. Name the object. And it
+  matters beyond continuity: she wants a child and has no partner, so a wedding
+  ring contradicts the character.
+- **ChiChi's hair sweeps to HER RIGHT** — deep side part on the left of her head,
+  volume carrying across and falling to her right. Never a centre part, never
+  swept left, never symmetrical, never tied back.
 - **Clothes adapt to her body, never the reverse.** Every garment tailored
   realistically to ChiChi's real full-figured proportions.
 - **Everyone at the party is Black.** Every background guest in every clip of

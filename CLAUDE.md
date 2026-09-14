@@ -167,7 +167,7 @@ re-rolled on the next take.
 | | What to lock |
 |---|---|
 | **Face** | Identity, apparent age, complexion, facial geometry, dental identity, head-to-body scale, natural body proportions |
-| **Hair** | Colour, length, cut, texture, part, how the ends behave — plus the wrong cuts named and negated |
+| **Hair** | Colour, length, cut, texture, **part and which way it sweeps**, how the ends behave — plus the wrong cuts named and negated |
 | **Wardrobe** | Garment type, fabric, neckline, sleeve, crop point, colour, fit, footwear — per episode |
 | **Hands** | Rings, bracelets, nails, skin texture and apparent age of the hands, five-finger anatomy |
 | **Jewellery** | Earrings, necklace or explicitly none, where it sits relative to clothing |
@@ -201,6 +201,21 @@ and they do more work than any line.
   Repetition across episodes is what makes a generated character read as a person.
 - **Hands must have a job.** Specify what each hand is doing in every beat. Idle
   unspecified hands are where anatomy errors appear.
+
+### ChiChi's two permanent physical facts
+
+These are series-wide, not per-episode, and belong in every prompt she appears in.
+
+- **Her hair sweeps to her RIGHT.** Deep side part on the LEFT of her head, volume
+  carrying across and falling to her right side. Never a centre part, never swept
+  to her left, never symmetrical, never pulled back or tied up. The ledger asked
+  for "part" and that was never enough — **which way it sweeps** has to be stated
+  or it re-rolls each take.
+- **She wears NO RING. Ever.** Not on any finger of either hand, and specifically
+  nothing on the fourth finger of her left hand. This is not only continuity: she
+  wants a child and has no partner, and that is the ache the whole character sits
+  on. A wedding ring on ChiChi contradicts the show. Her gold watch remains the
+  single permitted exception to her jewellery rule.
 
 ### The movement rule
 
@@ -418,6 +433,15 @@ treat them the same way.
 - **Quantities are absolute or they drift.** "A single glass" is not strong enough.
   "Exactly ONE glass exists, never two, never a spare or empty glass on any
   surface in any shot" is.
+- **A generic negation loses to a strong prior. Name the object.** "Both women
+  keep both hands entirely RING-FREE and BRACELET-FREE" shipped in every Episode
+  2 prompt and ChiChi wore a wedding ring anyway — the model sees a woman of
+  forty and reaches for a band. Generic category words ("ring-free", "no
+  jewellery") do not survive a prior that strong. Name the exact thing and the
+  exact place: "**NO wedding ring, NO engagement ring, NO band of any kind on any
+  finger, and specifically NOTHING on the fourth finger of her left hand — that
+  finger is bare skin.**" Same pattern for anything the model expects to see and
+  the scene forbids.
 - **Mechanisms need their geometry pinned, not just their name.** A door was asked
   for and a door arrived — hinged on the left, knob on the right, and opening from
   the left with the knob still on the right. The model draws the parts; it does not
