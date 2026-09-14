@@ -206,11 +206,17 @@ and they do more work than any line.
 
 These are series-wide, not per-episode, and belong in every prompt she appears in.
 
-- **Her hair sweeps to her RIGHT.** Deep side part on the LEFT of her head, volume
-  carrying across and falling to her right side. Never a centre part, never swept
-  to her left, never symmetrical, never pulled back or tied up. The ledger asked
-  for "part" and that was never enough — **which way it sweeps** has to be stated
-  or it re-rolls each take.
+- **Her hair sweeps to HER OWN RIGHT — her body is the reference, not the frame.**
+  Deep side part on the LEFT side of her head, volume carrying across and falling
+  down HER RIGHT side. **When she faces the camera her hair therefore falls toward
+  SCREEN LEFT**, because a person's right is the viewer's left. That mirror is
+  exactly what went wrong: takes came back with the sweep on screen-right, which
+  is her left, which is backwards. Name it both ways in the prompt — "to her own
+  right, which reads as screen left when she faces us" — so the model cannot
+  resolve it the wrong way. Never a centre part, never swept to her left, never
+  symmetrical, never pulled back or tied up. The ledger asked for "part" and that
+  was never enough: **which way it sweeps, and relative to what**, has to be
+  stated or it re-rolls every take.
 - **She wears NO RING. Ever.** Not on any finger of either hand, and specifically
   nothing on the fourth finger of her left hand. This is not only continuity: she
   wants a child and has no partner, and that is the ache the whole character sits

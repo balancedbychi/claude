@@ -81,9 +81,11 @@ failure section 2 warns about.
   because a generic negation loses to a strong prior. Name the object. And it
   matters beyond continuity: she wants a child and has no partner, so a wedding
   ring contradicts the character.
-- **ChiChi's hair sweeps to HER RIGHT** — deep side part on the left of her head,
-  volume carrying across and falling to her right. Never a centre part, never
-  swept left, never symmetrical, never tied back.
+- **ChiChi's hair sweeps to HER OWN RIGHT** — deep side part on the LEFT of her
+  head, volume carrying across and falling down her right side. Her body is the
+  reference, not the frame: **facing camera, that reads as screen LEFT.** Earlier
+  takes put the sweep on screen-right, which is her left, which is backwards.
+  Never a centre part, never swept to her left, never symmetrical, never tied back.
 - **Clothes adapt to her body, never the reverse.** Every garment tailored
   realistically to ChiChi's real full-figured proportions.
 - **Everyone at the party is Black.** Every background guest in every clip of
@@ -511,6 +513,38 @@ walk, at 1.94x ambience. The earlier takes had clean silence to 9.3s.
 4.** The model settles on one face after the first exchange. That points at what
 the camera is doing, not at the wording — which is the next thing to establish,
 and it costs nothing to ask.
+
+---
+
+## CLIP 2 — TAKE HISTORY
+
+| Take | Res | Len | Cost | Outcome |
+|---|---|---|---|---|
+| `4f8c3597` | 1080p | 12s | 108 | everything right except pacing — 5 gaps, **2.96s dead air** |
+| `6c221e39` | 1080p | 9s | 81 | **user: "dang near perfect"** — two continuity flaws below |
+
+**Take 2 measured:**
+
+| check | result |
+|---|---|
+| Dorian's three lines | **100.0 / 100.6 / 100.6 Hz** against the 102Hz Lamin target |
+| ChiChi's two lines | 0% and 2% of frames below 150Hz — no male content at all |
+| Cut to Nia | t=7.38s, 10.3x mean frame difference, one isolated spike |
+| Music under dialogue | 15.3 dB |
+| Gaps | 0.32 / 0.34 / 0.26 / 0.36 / 0.20 — **1.48s**, halved from take 1 |
+
+**Section 6's container rule proved out exactly**: a 25% shorter clip removed 50%
+of the dead air. Wording changed nothing across two earlier attempts; length did.
+
+**The prose voice recipe worked.** Dorian hit a supplied reference sample within
+2Hz across three separate lines, with no voice element, no clone, and nothing
+deleted to make room. Confirms section 5a's expectation that the men need
+recipes rather than clones.
+
+**Two known flaws in take 2, both now fixed in the prompt, neither yet re-shot:**
+ChiChi wore a wedding ring, and her hair swept the wrong way (screen-right
+instead of her own right). Re-shooting costs 81 and draws a new seed, which risks
+everything else that is right in this take. **The user's call, not an agent's.**
 
 ---
 
