@@ -4,7 +4,7 @@
 **Status: PROPOSED — nothing locked, nothing spent.** Script revised to the user's
 brief on 14 Sep 2026. References not yet supplied.
 
-**Runtime:** 124 seconds · 6 clips
+**Runtime:** 126 seconds · 6 clips
 **Format:** One set, one table, one continuous conversation. Daytime.
 **Logline:** Twenty-one days in, Nia comes to Sucré to tell Chi that she and Dorian
 are going strong. Chi asks whether he is still dating other people. Nia has asked
@@ -112,7 +112,7 @@ Nia's**, and both go down and neither is ever refilled.
 **The cups get their own element and their own ID in this table.** They are in every
 frame of all six clips, they are the episode's only prop, and they are its clock.
 Episode 2 lost its hallway element by describing it in prose and never writing the
-ID down; a prop that appears in 124 consecutive seconds is not a smaller version of
+ID down; a prop that appears in 126 consecutive seconds is not a smaller version of
 that mistake.
 
 ### Voices — nothing needed, and that is the point
@@ -177,13 +177,13 @@ sheet below, which every prompt pastes — which is what section 4b prescribes a
   last action, and the episode ends with her hope intact.
 - **Word balance is restored.** Episode 2 Clip 5 inverted section 1's rule as a
   declared exception, with a warning that a second inversion would be drift. Across
-  this episode: **Nia 183 words, Chi 77.**
+  this episode: **Nia 193 words, Chi 77.**
 
 ---
 
 ## THE SCRIPT
 
-Six clips, 124 seconds, one continuous conversation at one table. Daytime.
+Six clips, 126 seconds, one continuous conversation at one table. Daytime.
 Panavision Millennium XL2, Primo lenses, eye-level at seated height.
 
 ### Clip 01 — "Going strong" · 50mm · f/2.2 · no cuts · 15s
@@ -295,7 +295,7 @@ and never once worked.
 > CHICHI: "What?"
 > NIA: "About a man. When did you last get it wrong about a man?"
 > *(Chi says nothing. Declared silence, hers.)*
-> NIA: "Because I'd rather get it wrong. I'd rather get it wrong twice a year than sit in a beautiful flat being right."
+> NIA: "Because I'd rather get it wrong. I'd rather get it wrong twice a year than sit in a beautiful flat alone being right."
 > *(beat — that went further than Nia meant it to)*
 > NIA: "...Chi—"
 > CHICHI: "No. You're right."
@@ -311,21 +311,37 @@ right" is Episode 1's empty sectional, named out loud.*
 and factual — never wistful, never tearful, never a confession, no wet eyes. She
 says it the way she says everything else and then it is over.
 
-### Clip 06 — "He will" · 50mm · f/2.2 · slow push · 15s
+**"Alone" is the word that makes the scene work.** Without it the line is pointed
+but survivable and Nia's "...Chi—" is decoration. With it she has named the thing
+Chi is least direct about — section 1's ache, said out loud by the one person
+allowed to say it — and the retreat becomes necessary rather than polite. It also
+makes **"No. You're right."** enormous, because what Chi is agreeing with is the
+word "alone".
 
-> NIA: "He'll get there."
+### Clip 06 — "He's going to come" · 50mm · f/2.2 · slow push · 17s
+
+> NIA: "He's going to come."
 > *(Chi says nothing.)*
-> NIA: "He will, Chi. I know him."
+> NIA: "He will come, Chi. I know that you're just waiting for the right guy."
+> *(Chi does not answer that either. The beat sits.)*
 > *(The phone buzzes, face-up on the marble. Both of them see it. Nia turns it face-down without looking at it.)*
 > CHICHI: "You can look."
 > NIA: "I know."
 > *(Beat. She doesn't. Beat. **Then she looks.** Cut to black.)*
 
-*Her hope is stated plainly and the show does not punish her for it — that is the
-whole of section 1's "never moralise". Then the reflex undercuts it and nobody
-comments. **"I know him"**, said thirty seconds after reciting three separate
-occasions on which he told her exactly what he is, is the episode's last piece of
-writing and it needs no help at all.*
+*Nia's hope is stated plainly and the show does not punish her for it — that is the
+whole of section 1's "never moralise". Then she hands Chi the SAME hope back.
+"You're just waiting for the right guy" is the exact optimism Chi has spent the
+entire episode refusing to grant Nia, offered now as kindness — the engine of the
+series running backwards for four seconds. It is also a repair: Nia said "alone" in
+Clip 5, watched it land, and this is her softening it without apologising twice.*
+
+***Chi has no answer to it, and that is the point.*** *She cannot correct it without
+being cruel to someone who is trying to be kind to her, and she has just said out
+loud that she no longer believes it. So she says nothing — and then she says "You
+can look," which is not a change of subject. **It is what she says INSTEAD of
+answering.** Chi ducking a question is new, it belongs to this episode, and it is
+the first time in three of them that she has not had a reply.*
 
 *Section 1: end one beat earlier than feels comfortable. We never find out what the
 message says and we never see Chi react to Nia looking.*
@@ -335,10 +351,19 @@ think, which is the comment-versus-reaction line in section 3 one level up. The 
 leaves the two-shot only AFTER the last word is spoken, exactly as Episode 2 Clip 5
 did it — there is no attribution risk in a passage with no dialogue in it.
 
-⚠️ **"I know him." and "I know." are an echo, and it is deliberate.** Same ruling as
-Episode 2's repeated "eleven days": the repetition is the writing, not a flaw, and
-neither line gets reworded. What goes in the prompt is protection for **which mouth
-the model picks**, not a change to the words.
+⚠️ **"come" lands twice and "I know" lands twice. Both are deliberate.** Same ruling
+as Episode 2's repeated "eleven days": the repetition is the writing, not a flaw,
+and no line gets reworded. Both "come" lines are Nia's, so that pair carries no
+cross-speaker risk — but **"I know that you're just waiting for the right guy" (NIA)
+and "I know." (NIA) sit either side of "You can look." (CHI)**, and short lines
+across a speaker change are exactly where attribution slipped in Episode 2 Clip 1.
+Name the wrong answers in the prompt: never give ChiChi either "I know" line.
+
+**"He's going to come" means come AROUND, not arrive**, and the prompt carries that
+as a delivery note rather than a rewording. Nia is not expecting him to walk into
+Sucré. It reads correctly in context and the echo in "He will come, Chi" makes it
+her phrase rather than a slip — but the words alone are slightly open, so the
+reading has to come from the delivery.
 
 ---
 
@@ -355,16 +380,16 @@ on the total, not the input. This is the arithmetic proven on Episode 2 Clip 6 �
 | 02 | 48 | 14.1s | 2.7s | 3.5s | **20s** | 2.4 w/s |
 | 03 | 47 | 13.8s | 2.3s | 5.5s | **22s** | 2.1 w/s |
 | 04 | 67 | 19.7s | 3.2s | 4.0s | **27s** | 2.5 w/s |
-| 05 | 58 | 17.1s | 2.7s | 5.0s | **25s** | 2.3 w/s |
-| 06 | 14 | 4.1s | 1.4s | 9.5s | **15s** | 0.9 w/s |
-| | **260** | | | | **124s** | **2.10 w/s** |
+| 05 | 59 | 17.4s | 2.7s | 5.0s | **25s** | 2.4 w/s |
+| 06 | 23 | 6.8s | 1.4s | 9.0s | **17s** | 1.4 w/s |
+| | **270** | | | | **126s** | **2.14 w/s** |
 
 **The total lands exactly on section 6's 2.1 sanity check.** Clip 04 at 27s is
 inside seedance_2_5's real 4–30s range, confirmed from `models_explore` rather than
 assumed. Clip 06 is a declared-silence clip on the Episode 2 Clip 4 model — 7 words
 held nearly 8 seconds there without the model filling a frame of it.
 
-**Word balance:** Nia 183, Chi 77.
+**Word balance:** Nia 193, Chi 77.
 
 ---
 
@@ -376,7 +401,7 @@ held nearly 8 seconds there without the model filling a frame of it.
 | Resolution | **user's call — see the cost table** |
 | Aspect | 16:9 |
 | Bitrate | high |
-| Clip length | per clip, 15–27s |
+| Clip length | per clip, 17–27s |
 
 Resolution is picked once, before the first clip, and held for the whole episode.
 It is the only free moment. Section 7: **"make it higher resolution" means upscale,
@@ -397,12 +422,12 @@ and came back with ChiChi's jacket missing, for 135 credits.
 | 03 | 22s | 55 | 143 | 198 |
 | 04 | 27s | 67.5 | 175.5 | 243 |
 | 05 | 25s | 62.5 | 162.5 | 225 |
-| 06 | 15s | 37.5 | 97.5 | 135 |
-| **Total** | **124s** | **310** | **806** | **1,116** |
+| 06 | 17s | 42.5 | 110.5 | 153 |
+| **Total** | **126s** | **315** | **819** | **1,134** |
 
 **Balance: 1,771.59 credits.**
 
-At 1080p the episode leaves **656 credits of headroom — about 3.5 average
+At 1080p the episode leaves **638 credits of headroom — about 3.4 average
 re-takes.** Episode 2 spent seven takes on Clip 1 alone. That is the number to look
 at before choosing the tier, and it is why the tier is the user's decision.
 
@@ -447,7 +472,7 @@ here it is absent, so every join must be continuous and nothing may change.
 | 02 → 03 | Held on the unanswered question "Are you exclusive?" | Identical two-shot, both cups one step lower |
 | 03 → 04 | On Nia, after "I said that's fair" | Same, cups lower |
 | 04 → 05 | Held on Chi after "To who?", her cup ON the table where she set it | **The cup stays where she set it — she does not pick it up again** |
-| 05 → 06 | Chi has just said the most honest thing she has said | Nothing has moved. The buzz is the only event. |
+| 05 → 06 | Chi has just said the most honest thing she has said, cup still where she set it in Clip 4 | Nothing has moved and nothing does. Nia answers Clip 5 with two lines, Chi answers neither, and the buzz is the only physical event in the clip. |
 
 **Props to track:** two identical cups, going down and never refilled, Chi's
 starting lower; Nia's phone, face-up from the first frame and face-down from Clip 6;
@@ -462,7 +487,7 @@ and the reason is that the locked two-shot is also the attribution fix.
 
 ## STILL OPEN
 
-1. **Resolution tier** — 310 / 806 / 1,116 credits against a 1,771 balance.
+1. **Resolution tier** — 315 / 819 / 1,134 credits against a 1,771 balance.
 2. **A 2-credit plate of the empty window table**, shot from the intended two-shot
    angle, before 135 credits of Clip 1. The set is locked but the SET-UP is not, and
    section 4b says the set-up is what an audience recognises a place by. Recommended.
