@@ -452,6 +452,20 @@ nothing. Shortening the clip does, because the slack disappears.
   a number out loud, and check `transactions` afterwards rather than trusting the
   preflight.
 - **Report the credit balance** after each batch so the user can see the burn.
+- **"Make it higher resolution" means UPSCALE, never re-generate.** `upscale_video`
+  exists (providers `topaz` and `bytedance`; it takes a completed job_id directly
+  and has NO cost preflight, so quote it as unknown). Re-running an approved
+  prompt at a higher resolution is not a resolution change — it is a **brand new
+  take that re-rolls everything**, wardrobe included. An approved 480p clip was
+  re-shot byte-identical at 1080p for 135 credits and came back with ChiChi's
+  leather jacket missing, despite the prompt saying "the jacket stays ON for the
+  whole clip". **Once a take is approved, never generate from that prompt again.**
+  Upscale the approved footage.
+- **Flagging a risk is not permission to take it.** The re-roll risk above was
+  stated out loud and then the 135 credits were spent in the same turn without
+  waiting for an answer. A warning followed immediately by the charge is not
+  consent. When a step is both irreversible in cost and risky to an approved
+  result, say so and STOP until the user answers.
 - **Never silently swap models, resolution or aspect ratio.** Mid-episode changes
   to any of these make the footage un-cuttable with what already exists.
 - **Pick the resolution before the first clip of an episode, not after.** "Blurry"

@@ -330,22 +330,24 @@ not hold it, relighting her face is the next single variable to try.
 | `88e888cf` | 480p | 37.5 | per-line tagging — **line 3 STILL misattributed** |
 | `b45c8a9f` | 480p | 37.5 | one-corridor geography — **line 3 STILL misattributed** |
 | `e2cad416` | 480p | 37.5 | both faces framed + both lit, no cuts — **APPROVED BY THE USER** |
-| `5f5f9462` | 1080p | 135 | same prompt byte-identical at 1080p — **DELIVERED** |
+| `5f5f9462` | 1080p | 135 | re-generated at 1080p — **REJECTED, ChiChi's jacket missing** |
 
-### CLIP 1 — DELIVERED
+### CLIP 1 — THE APPROVED TAKE IS THE 480p ONE
 
 | | |
 |---|---|
-| **Job** | `5f5f9462-15e7-4046-8da5-b60be5aa1370` |
-| Encode | 1920x1080 HEVC, 15.3 Mbps, 24fps, 15.05s |
-| Cuts | **zero** — one continuous take, as approved |
-| Silence before the knock | held to **9.60s**, clean, no speech-shaped sound |
-| Dialogue | all four lines, correct order, **no gap over 0.20s** |
-| Cost | 135 |
+| **APPROVED SOURCE** | **`e2cad416-4ecb-4655-84e3-37adfa18fb64`** — 480p |
+| Rejected | `5f5f9462` — 1080p re-generation, **ChiChi's jacket missing** |
 
-Approved at 480p as `e2cad416`, then re-shot **byte-identical** at 1080p. Section 5
-forbids rewording anything that produced an approved result, so resolution was the
-only parameter changed.
+**The 1080p re-generation was a mistake in kind, not in wording.** The prompt was
+byte-identical and still said "The jacket stays ON for the whole clip." It came
+back without the jacket anyway, because re-running a prompt is a new take that
+re-rolls every uncontrolled detail. 135 credits, and it destroyed an approved
+result to chase pixels.
+
+**Clip 1 finishes by UPSCALING `e2cad416`, never by generating again.**
+`upscale_video` accepts the job_id directly and works on the existing frames, so
+it cannot change wardrobe, staging or performance. It has no cost preflight.
 
 **Total spent on Clip 1: 457.5 credits across seven takes.** The expensive part was
 not the render, it was four takes spent chasing a measurement that could not
