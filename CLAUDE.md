@@ -340,6 +340,50 @@ attached and on camera when capturing Chi again.
 3. Verify before cloning. Do not trust it by ear alone and do not skip this —
    see "Verifying audio you cannot hear" in section 7.
 
+### The voice-element slot limit — you cannot just clone another character
+
+The account caps voice elements and it is **already full** with three:
+`Nia-voice-v2-clear` `12315c68`, `ChiChi-the-Influencer-Voice` `180fdb9a`, and
+`ChiChi-Canon-Voice-v1` `de50f37f`. `create_voice_from_confirmed_audio` refuses
+with "Voice limit reached — delete a voice to add a new one" and charges nothing.
+There is no delete-voice tool in the MCP surface; it has to be done in the
+Higgsfield web UI, and it is the user's call, never an agent's.
+
+**None of the three is safely disposable.** Nia's is honoured and produces her
+real voice. `180fdb9a` is never honoured but must stay, because every approved
+take had `<<<180fdb9a>>>` in the text and removing the element leaves that tag
+pointing at nothing. `de50f37f` is the only one absent from prompts, but it cost
+75 credits and is Chi's restore point.
+
+**Before considering a deletion, ask whether the new element would even be used.**
+seedance binds ONE voice element per generation. `180fdb9a` is attached in every
+prompt and has never once been honoured — that is the whole reason Chi's voice is
+a prose recipe. A newly cloned male element opposite her, with Nia's element also
+attached, will almost certainly be ignored the same way. **The men are far more
+likely to need the prose-recipe treatment than a clone.**
+
+**A reference sample is still worth having without cloning it.** Measure it and
+write the prompt toward those numbers, then measure what comes back. Dorian's
+supplied sample (ElevenLabs "Lamin", 23.0s, mono 44.1kHz) reads **~102Hz true
+fundamental, warmth 73, General American, deep and unhurried** — that is the
+target to hit and the yardstick to check against.
+
+**Beware the octave error when quoting a male pitch.** A naive autocorrelation put
+that same sample at 170Hz median with a 1.95x quartile spread. The histogram
+showed two clusters — 46% of frames at 101.6Hz and 54% at 197.5Hz, a ratio of
+**1.94**. That is octave doubling, not a vocal range. **A quartile spread much
+above ~1.4x means the reading is unsafe: histogram it and take the lower mode.**
+For scale, a clean reading looks like Brooks at 98.2Hz with a 1.25x spread.
+
+### `voice_change` — the post-production route around the binding limit
+
+`voice_change` replaces the spoken voice in a finished video while keeping the
+original timing and visuals, taking a completed job_id and a voice_id of either
+type. It is the one tool that sidesteps the one-element-per-generation limit
+entirely, because it runs AFTER the render. Untested here, and it appears to
+revoice the whole clip rather than one speaker — so expect it to suit
+single-speaker shots rather than a two-hander.
+
 ### Nia's voice is different
 
 Nia's cloned element `12315c68-37de-41fe-8766-76ac07bcaf70` **is** honoured and
