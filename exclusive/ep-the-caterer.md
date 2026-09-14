@@ -298,6 +298,37 @@ not hold it, relighting her face is the next single variable to try.
 | first | 480p | 37.5 | knocked on a lift — no hallway set |
 | `545524d2` | 480p | 37.5 | characters right, door hinge wrong, **line 3 misattributed** |
 | `3dbf92d0` | 1080p | 135 | door pinned, resolution up, **line 3 still misattributed** |
+| `88e888cf` | 480p | 37.5 | per-line tagging — **line 3 STILL misattributed** |
+
+**Per-line tagging did not fix it.** Take 3 named the speaker on every line, closed
+the other woman's mouth through it, and named the wrong answer outright
+("NEVER give ChiChi the line *You said midnight*"). Line 3 still went to ChiChi.
+Prompt-level attribution is not the lever.
+
+The measurement in take 3 is the cleanest of the three, because the two voices
+separated further apart than in either earlier take:
+
+| line | scripted | f0 median |
+|---|---|---|
+| L1 "You came" | NIA | 239.0 Hz |
+| L2 "I said I would" | CHICHI | 153.1 Hz |
+| **L3 "You said midnight"** | **NIA** | **190.5 Hz** |
+| L4 "I still say midnight" | CHICHI | 169.3 Hz |
+
+L3 sits with the ChiChi lines, not with Nia's, and the within-clip cluster agrees
+(L3 vs L1 0.605; L3 vs L2/L4 0.713/0.779; same-speaker control 0.938).
+
+**Good news buried in the same take:** ChiChi read **153.1 / 169.3 Hz** against
+canon's 160.0 — the closest to canon she has measured in this episode. The 1080p
+take had her at 193.9 / 222.2. The pinned recipe is working.
+
+**One regression:** a stray speech-shaped sound at **2.52s**, inside the silent
+walk, at 1.94x ambience. The earlier takes had clean silence to 9.3s.
+
+**The pattern across all three takes: Nia gets line 1, then ChiChi takes 2, 3 and
+4.** The model settles on one face after the first exchange. That points at what
+the camera is doing, not at the wording — which is the next thing to establish,
+and it costs nothing to ask.
 
 ---
 
