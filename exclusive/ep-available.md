@@ -125,6 +125,54 @@ and no update. A wrong description can only be "fixed" by creating a second elem
 which is the competing-element failure that produced the duplicate Dorian. So the
 garment specs come from the user first, and the elements get created once.
 
+### The supplied specs, and the three gaps in them
+
+The user's descriptions, 14 Sep 2026:
+
+1. **ChiChi** — fashion leather jacket top, fashion wide-leg jeans, brown heeled
+   boots, brown Louis Vuitton bag.
+2. **Nia** — tan oversized neck sweater halter top, wide-leg fashion jeans,
+   oversized bag, black open-toe heels.
+3. **The cup** — plastic Sucré coffee cup.
+
+⚠️ **"oversized neck sweater halter top" IS THE MOCK-NECK TRAPDOOR AGAIN.** Section
+5 exists because `high mock-halter neckline` shipped in every Episode 1 prompt and
+was requesting a turtleneck the whole time — one shot obeyed it and had to be
+rebuilt. "Neck sweater" and "halter" pull in opposite directions in garment terms: a
+halter leaves the shoulders and upper back bare and fastens behind the neck, while
+a sweater neck implies a knitted collar at the throat. The likely garment is a
+**halter-neck knit with an oversized cowl or funnel collar** — a real style — but
+this must be confirmed by the user and never guessed.
+
+⚠️ **And it collides with Nia's standing neckline rule.** Her locked identity carries
+a thin gold choker, and Episode 1 and Episode 2 both pin "throat and upper chest
+completely bare, the choker on bare skin ABOVE the fabric". An oversized knit collar
+at the throat contradicts that. Either the choker is covered and must be declared
+covered, or the collar sits clear of it. Left unstated it will half-render.
+
+⚠️ **The cup decides every drinking beat in the episode.** Lid and straw, or open?
+ChiChi drinks on the number in Clip 1 and sets the cup down before her verdict in
+Clip 4 — her one deliberate movement in twenty-seven seconds — and those are
+different physical actions with a straw than without. A clear plastic cup is a gift
+for continuity, because the level is visible on camera and the level is this
+episode's clock.
+
+**Missing colours:** ChiChi's jacket colour and both denim washes. Needed in the
+element and in every prompt.
+
+**Two things to accept rather than fight.** The handbag's branding and the Sucré
+printing on the cup will NOT render as legible type — generated lettering garbles,
+which is why this production never generates a title into artwork. Both are
+specified as pattern, shape and hardware only, with no legible logo asked for. And
+**the boots and both bags sit below frame** for the whole episode: it is a seated
+two-shot at a small round café table. They are pinned for completeness and for any
+shot that widens, not because they will read.
+
+**Nails:** ChiChi's deep red at natural length carries forward from Episode 2 unless
+the user says otherwise. Nine days pass between the episodes, so a change is
+plausible but not required, and section 3 wants nails pinned rather than left to
+re-roll.
+
 **The cups get their own element and their own ID in this table.** They are in every
 frame of all six clips, they are the episode's only prop, and they are its clock.
 Episode 2 lost its hallway element by describing it in prose and never writing the
