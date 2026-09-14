@@ -210,22 +210,51 @@ The user supplied a hallway reference in the same batch as the apartment images;
 it was never made into an element. A separate `Dorian-Hallway-Night` set is
 required, carrying the door to 10B.
 
+**WARNING — the first version of this fix was ALSO wrong, and the wrong version
+shot three takes.** It treated the lobby and the hallway as two spaces with a walk
+between them: ChiChi steps out of the lift into a lobby, crosses it, and moves
+into a separate hallway. The user's verdict: *"she's in the elevator lobby and
+walking out into the hallways which MAKES NO SENSE."* Nobody asked for two rooms.
+The user said "10 is the hallway" and a two-set journey was invented on top of it.
+
+**THE GEOGRAPHY, AS THE USER ACTUALLY DESCRIBES IT:**
+
+> She is coming out of the elevator. She is walking down the hall. She knocks on
+> the door. Nia opens the door from the side where the handle is, and that's where
+> the dialogue begins.
+
+**The lift opens DIRECTLY ONTO the hallway. It is ONE place.** You step out of the
+lift and you are already in the hall — one step, nothing in between. There is no
+lobby, no anteroom, no landing, no corridor of multiple lift bays, and no journey
+from one space into another. Frame the opening TIGHT on a single pair of bronze
+lift doors so no wide lobby ever establishes.
+
+`Dorian-Lift-Lobby-Night` supplies the lift doors only, framed close. It must
+never be established as a room in its own right in Clip 1.
+
+**Continuity from the previous clips: the gold metallic clutch is in ChiChi's hand
+from the very first frame** — when the lift doors open, through the walk, and at
+the apartment door. The user flagged its absence specifically.
+
 **What it changes:**
 
-| Clip | Was | Now |
-|---|---|---|
-| 01 | lobby throughout | lift bay → **hallway** for the walk, hold, knock and doorway |
-| 06 | lobby throughout | **hallway** for the goodbye at the door, then lobby for her walk away |
-| 07 | lobby | unchanged — she is waiting for the lift, no door needed |
-
-The lobby still earns its place: she crosses it on arrival and again on the way
-out, and Clip 7 lives there entirely. The two sets are adjacent and must read as
-one continuous floor — same marble, same sconces, same night key.
+| Clip | Geography |
+|---|---|
+| 01 | ONE corridor. Lift doors open → she is in the hallway → walk → knock → doorway |
+| 06 | the same hallway for the goodbye at the door, then the same corridor as she leaves |
+| 07 | the same corridor, waiting at the lift doors — no apartment door needed |
 
 **Check that a set actually contains the thing the action needs.** A locked plate
 proves what a room looks like, not that it holds the door, window or furniture
 the script asks an actor to use. Read the blocking against the set spec before
 generating, not after.
+
+**And do not invent structure the user never asked for.** The two-set walk was not
+in any note, any reference or any script line — it was added while "fixing" the
+missing door, and then written into this file as if it were canon, where it
+survived three takes and the user's own correction. When a reference arrives, use
+it for what it shows. Adding geography around it is set design, and section 2
+forbids inventing that mid-build.
 
 ---
 

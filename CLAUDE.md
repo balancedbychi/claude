@@ -84,6 +84,13 @@ highest-leverage rule in this file.
 - **Lock sets from approved stills, never from prose.** Every recurring drift in
   Episode 1 — sofa length, coffee table legs, lamp shade, sky colour — traced back
   to a room described in words instead of pinned to an image.
+- **Use the reference for what it shows; do not build geography around it.** A
+  hallway reference arrived with the note "10 is the hallway". What got built was a
+  lift lobby AND a hallway with a walk between them — a second space, a journey and
+  a transition, none of it asked for. It read as nonsense on screen, it was written
+  into the episode file as canon, and it survived three takes before the user
+  said so. Inventing the space *between* two references is still inventing set
+  design. If the action needs somewhere the references do not show, ask.
 - **Never introduce a new element mid-episode.** An element created *before* any
   footage defines the set. An element created *after* footage exists, from a fresh
   description, is not a lock — it is a second, competing set. This replaced a
