@@ -210,15 +210,24 @@ the glass. Almost imperceptible push across the whole clip.
 > NIA: "Fine."
 > CHICHI: "What did he call you?"
 > *(Nia turns to the city. She does not answer that.)*
-> NIA: "It's eleven days, Chi."
+> NIA: "It's only been eleven days, Chi."
 > CHICHI: "Twelve."
 > *(Nia's head comes round slowly.)*
-> CHICHI: "I'm not counting to win. I'm counting because you stopped."
+> CHICHI: "I'm not counting to win. I'm counting because you're giving eleven days way too much meaning."
 
 Hold on Nia, silent, caught. She has nothing. The clip ends on her.
 *The mirror of Episode 1's wordless beat — there the silence was ChiChi's, here
 it is Nia's. "Twelve" lands almost gently; ChiChi has been counting since the
 call and is not proud of it. Do not let the model add a Nia reply.*
+
+**Revised by the user before shooting.** Nia's "only been" is her defending the
+gap rather than reporting it — she is arguing, which is her tell. And ChiChi's
+closing line moved from an admission about herself ("because you stopped") to a
+diagnosis of Nia ("you're giving eleven days way too much meaning"), which is
+harder and more useful: it names what Nia is doing rather than what ChiChi feels.
+**She quotes Nia's "eleven" back at her having just corrected it to twelve** —
+that is deliberate, not a slip, and the prompt directs a light stress on the word
+so it reads as a quotation.
 
 ### Clip 06 — "Midnight" · 40mm · f/2.0 · two cuts
 **Int. entry — night.** ChiChi at the door, turning her wrist to look at the gold
@@ -673,13 +682,28 @@ linear at **9 credits/second** at 1080p and 2.5/second at 480p, confirmed by
 |---|---|---|
 | 20s | 50 | 180 |
 | 23s | 57.5 | 207 |
-| **24s** | 60 | **216** |
+| 24s | 60 | 216 |
+| **26s** | 65 | **234** |
 
-**Why 24 seconds.** 38 words of dialogue and four declared silences totalling
-8.5s. The first six lines are an overlapping run and land faster than section 6's
-2.1 words/second; the rest sit on it. That is ~15.5s of speech plus 8.5s of
-silence. 24s is deliberately a shade tight — section 6 is unambiguous that a
+**Why 26 seconds.** 46 words of dialogue and four declared silences totalling
+6.7s. The first six lines are an overlapping run and land faster than section 6's
+2.1 words/second; the rest sit on it. That is ~20.5s of speech plus 6.7s of
+silence = 27.2s honest, taken to 26s because section 6 is unambiguous that a
 loose container is the worse failure, and Clip 4 proved declared silence holds.
+
+**The revision made the clip longer, not shorter, and that is worth saying out
+loud.** The two new lines add 8 words (+3.8s); trimming all four silences saves
+1.8s. Net **+2s**. Shortening the silence did not pay for the dialogue.
+
+**Tightening the container is the wrong tool for ONE line here, so the prompt
+sizes that line directly.** ChiChi's closing line is now 16 words — the longest
+line in the episode and the payload of the clip. A globally tight container would
+rush exactly the line that must not be rushed. So the prompt does both: the
+overall container stays tight AND the final line is given an explicit budget of
+**about seven and a half seconds, named in the prompt, with "do not rush it"**.
+Section 6's container rule applied at line level instead of clip level. Untested
+at this granularity; if it fails, the failure mode to look for is the six-line
+opening run slowing down to absorb the slack.
 
 **Staging is Clip 1 take 5's, because that is what fixed attribution.** Nine
 alternating lines in a single continuous framing is the exact shape that cost
@@ -697,7 +721,17 @@ in a passage with no dialogue in it.
 |---|---|
 | "I don't have anything to say." / "You have a whole paragraph." | adjacent, both contain **have** |
 | "I have a question." / "Fine." | adjacent, again **have** |
-| **"It's eleven days, Chi." / "Twelve."** | **the episode turns on this one.** "Twelve." landing in Nia's mouth destroys the clip |
+| **"It's only been eleven days, Chi." / "Twelve."** | **the episode turns on this one.** "Twelve." landing in Nia's mouth destroys the clip |
+| **"It's only been eleven days, Chi." / "...you're giving eleven days way too much meaning."** | **new, created by the revision.** Nia and ChiChi now both say the phrase **eleven days**, separated only by the word "Twelve." Same shape as the `have` pairs and higher stakes. Named explicitly in the prompt |
+
+**The word balance inverted further and it is a deliberate exception.** Section 1
+says ChiChi always gets fewer words than Nia, because her power is economy. This
+clip is **Nia 14, ChiChi 32**. It was already inverted before the revision (12 /
+26) and the revision widened it. That is defensible here and only here: the scene
+is Nia asking ChiChi to speak, so ChiChi speaking is the event. The economy rule
+is still honoured where it counts — **ChiChi ends the argument with one word,
+"Twelve."** If the balance inverts again in Clip 6 or 7, it is drift, not a
+choice.
 
 "Chi" is spelled phonetically in the prompt — *"CHEE", rhyming with "see"* —
 with "kai", "chai", "chy" and "shy" negated, per section 5.
@@ -785,7 +819,7 @@ drink (04 → 05), Nia's heels (05 → 06), ChiChi's phone (07 only).
 | 02 | Dorian, ChiChi | ✅ **shot** — `6c221e39` |
 | 03 | ChiChi, Kel | ✅ **shot** — `8a2543d2` |
 | 04 | Dorian, Nia | ✅ **shot** — `f1636ebf` |
-| 05 | ChiChi, Nia | **prompt written, priced at 216 — awaiting the user** |
+| 05 | ChiChi, Nia | **prompt written, priced at 234 — awaiting the user** |
 | 06 | ChiChi, Nia | nothing — **ready now** |
 | 07 | none | nothing — **ready now** |
 
