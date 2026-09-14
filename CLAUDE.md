@@ -197,6 +197,17 @@ and they do more work than any line.
   Chi finally moves, it means something" covers exactly this: one deliberate
   turn, not restlessness. The same applies to Nia, who turns a little more
   eagerly because she is pleased to see him.
+- **Reacting is not commenting — and "no reaction" is the same trap as "no
+  movement".** Episode 2 Clip 4 was first written to prompt hard against ChiChi
+  reacting at all, which would have given five seconds of a blank face at the
+  most important moment in the episode. That is the mannequin failure again, one
+  level up. **A reaction in her own register is required; a comment is
+  forbidden.** Reactions: a stopped movement, a slow blink, a glass set down, a
+  held look. Comments: a smirk, an eye-roll, a knowing glance at camera — these
+  tell the audience what to think and kill the moment. **The strongest reaction
+  available for a still character is an INTERRUPTED MOVEMENT** — ChiChi's drink
+  stopping halfway to her mouth reads louder than any expression, precisely
+  because she is normally still.
 - **Assign each character two or three signature gestures and reuse them.**
   Repetition across episodes is what makes a generated character read as a person.
 - **Hands must have a job.** Specify what each hand is doing in every beat. Idle
