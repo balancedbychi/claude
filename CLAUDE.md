@@ -100,27 +100,23 @@ highest-leverage rule in this file.
   footage. Renaming it is rewording an approved result, which section 5 forbids.
   The name on screen comes from the title card and the thumbnail, not the element.
 
-### Generating a still from the character elements
+### Stills of the characters — USE SEEDANCE, NOT AN IMAGE MODEL
 
-**The `<<<element-id>>>` tag alone does NOT give an image model the face.** On
-`nano_banana_pro` the tag registers the element on the job — it shows up in
-`reference_elements` — while `input_images` stays empty and the model builds the
-face from your prose instead. The result looks like a stranger. This is the same
-shape of trap as Chi's voice: attached to the job, not honoured by the model.
+**`seedance_2_5` is the only thing that reliably holds these two faces.** Need a
+still of Nia or Chi — thumbnail, avatar, banner, poster, anything — generate a
+short seedance clip with the usual `<<<element-id>>>` tags and pull a frame.
+Cheaper still: pull the frame from footage you already have.
 
-Pass the element's own source image as well, every time:
+**Do not reach for `nano_banana_pro` or another image model for these characters.**
+It was tried twice and both rounds came back as strangers. Passing the element's
+plate as `medias: [{value, role: "image_references"}]` does NOT fix it — that was
+tried too. The elements are correct and seedance proves it; the image model
+simply does not preserve the identity. 32 credits went on discovering this.
 
-```
-medias: [{value: "<the element's media id>", role: "image_references"}]
-```
-
-Then name them in the prompt in the order you passed them — "the FIRST reference
-image is NIA, the SECOND is CHICHI" — and add the tie-breaker: *if a detail of my
-description disagrees with a reference image, the reference image wins.*
-
-Current plate media IDs: Nia `362ecc5e-b110-4855-9334-5717c4082e08`,
-ChiChi `ea89bdd0-6e35-4223-8b78-1a0f439b7289`. Both are readable off the element
-via `show_reference_elements`, or off any job that used them.
+The characters are settled. `Nia` `bcd528d3-9756-4190-ba80-4aaae881f2b2` and
+`ChiChi-the-Influencer` `8a8e8eeb-d41e-4d91-b245-fa0caa8801b6` are correct — the
+user has confirmed it. There are seven other Chi/Nia plates in the workspace;
+ignore them, do not audit them, do not propose switching.
 
 ### Channel art — the sizes that actually matter
 
