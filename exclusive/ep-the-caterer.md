@@ -826,7 +826,32 @@ description alone.
 
 ---
 
-## CLIP 7 — THE PLAN, PRICED AND NOT YET SHOT
+## THE EPISODE ENDS AT CLIP 6 — CLIP 7 WAS CUT
+
+**The user's call, and it is right.** Clip 7 was written and priced at 162 credits
+and never shot: ChiChi alone at the lift, checking a phone with nothing on it,
+riding down. *"It's just a lot of emotional discourse that's not needed."*
+
+**The door closing on Nia IS the ending.** Clip 6 already lands it — Nia staying,
+ChiChi leaving at midnight exactly as she said she would, and the audio dropping
+to nothing as the door shuts. Clip 7 would have spent eighteen seconds explaining
+a feeling the audience already had, and section 1 is explicit: **end scenes one
+beat earlier than feels comfortable**, never moralise, let the audience supply the
+wince. A shot that exists to make sure a feeling landed is a shot that does not
+trust the one before it.
+
+**Optional 07B (Nia alone with a phone) is cut with it.** It would have made the
+last image of the episode a matched pair of women alone with phones — a rhyme
+neat enough to feel authored, which is the same problem one level up.
+
+The prompt stays in `exclusive/prompts/ep2-clip07-PROPOSED.txt`. It is not
+abandoned work, it is a shot that a later episode might want.
+
+**EPISODE 2 IS SIX CLIPS.**
+
+---
+
+## CLIP 7 — WRITTEN, PRICED, NOT SHOT (kept for reference)
 
 **18 seconds · 162 credits.** The only clip in the episode with no dialogue.
 
@@ -1011,7 +1036,7 @@ drink (04 → 05), Nia's heels (05 → 06), ChiChi's phone (07 only).
 | 04 | Dorian, Nia | ✅ **shot** — `f1636ebf` |
 | 05 | ChiChi, Nia | ✅ **shot** — `9850c5fc`, 26s, 234 |
 | 06 | ChiChi, Nia | ✅ **shot** — `6a9e4851`, 24s, 216 |
-| 07 | none | **prompt written, priced at 162 — awaiting the user** |
+| 07 | none | ❌ **CUT** — the episode ends at Clip 6 |
 
 Four of seven are shot. Clip 5 is written and priced; 6 and 7 are unblocked.
 

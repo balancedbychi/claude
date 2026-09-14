@@ -407,6 +407,66 @@ difference between seven clips and an episode.
 
 ---
 
+## 4b. A PLACE DOES NOT CHANGE BETWEEN VISITS — HOW WE START IS HOW WE END
+
+**The user's note at the end of Episode 2, and it is the most important note in
+this file.** ChiChi comes out of the lift, there is a BRICK wall, she turns to
+SCREEN RIGHT toward the door marked 10B, and Nia opens it. That is the
+established geography of the whole episode. When Nia sends her off at the end, we
+should be standing in **that same place, looking at it the same way**. And when
+Dorian crossed the room in Clip 2, the wall that is solid in the hallway plate
+came back as GLASS.
+
+**The element plate proves what a room LOOKS like. The first take proves what the
+room IS.** A plate is one angle of one corner. Everything an audience learns about
+a space — which side the door is on, what the wall is made of, what is behind the
+camera, which way you turn to get anywhere — is established by the first clip shot
+there, and every later clip owes that establishment.
+
+### Write a LOCATION FACT SHEET the first time a space is shot
+
+Keep it in the episode file and paste it into every prompt that returns there. It
+costs nothing and it lists only what an audience can see.
+
+| | |
+|---|---|
+| **Surfaces** | what every wall, floor and ceiling is MADE OF — brick, plaster, glass, timber — named by material |
+| **Fixed objects** | the door, window, lift, counter: where each sits and what it is made of |
+| **Relative position** | what is LEFT of what, what is RIGHT of what, what is opposite, what is behind camera |
+| **Screen direction** | which way a character turns to reach each thing, stated as screen left/right AND as her own left/right |
+| **The set-up** | the lens, height and angle the space was first shot from |
+
+### The rules
+
+- **A surface has a material and the material never changes.** Brick stays brick.
+  A solid wall stays solid. Glass exists only where glass was established. **"Wall"
+  is not a specification** — Episode 2 asked for a wall and got a glass one,
+  because an unnamed surface gets filled with whatever the composition wants.
+- **Returning to a location means returning to the SAME SET-UP**, not the same
+  room from a fresh angle. Same lens, same height, same side of the space. A place
+  the audience has seen once is recognised by its FRAMING as much as its contents,
+  so a new angle on a known room reads as a new room.
+- **HOW WE START IS HOW WE END.** When a character arrives somewhere at the start
+  and leaves from it at the end, those two shots are a MATCHED PAIR. Build them as
+  one decision and write them at the same time, before either is shot — not as two
+  separate clips that happen to share a set.
+- **A left/right fact is meaningless without the thing it is relative to.** This
+  cost a take on ChiChi's hair (her right, not the frame's) and nearly cost one on
+  the door: the Episode 2 slugline said "Int. entry", and shot from inside the
+  apartment every part of that door mirrors — hinges pinned LEFT become RIGHT, the
+  handle swaps with them, and the doorway she knocked on becomes a different
+  object. **State every left/right TWICE — relative to the frame AND relative to
+  the body or the room — then state which side the camera is on.**
+- **Check the slugline against the geography before writing a word.** "Int. entry"
+  and "Int. hallway" are the same doorway from opposite sides and produce mirrored
+  prompts. **The scene heading is not authority; the location fact sheet is.**
+- **Do not invent the space between two references.** Section 2 says it and it
+  belongs here too. A lift and a door in one corridor is ONE place. A lobby, a
+  transition and a second hallway built between them is set design nobody asked
+  for, and it survived three takes before the user caught it.
+
+---
+
 ## 5a. CHI'S VOICE — PINNED, DO NOT CHANGE
 
 Chi's voice is **canon for the whole series**. It is not her cloned voice element.
@@ -659,6 +719,19 @@ nothing. Shortening the clip does, because the slack disappears.
   A hold has no dialogue in it, so the tail can be ducked with ffmpeg in the
   sandbox for **zero credits** without touching a frame of approved picture.
   Budget for that rather than for another take.
+- **A per-line time budget BACKFIRES — the container rule works on the clip, not
+  on a line inside it.** Episode 2 Clip 5's closing line was the payload of the
+  clip, so the prompt gave it an explicit budget: "about seven and a half seconds,
+  do not rush it." It came back at 5.76s including a 1.5s internal pause — roughly
+  4.3s of actual words, 3.8 w/s, **the fastest delivery in the clip.** The model
+  rushed the one line that was protected and banked the time as silence elsewhere.
+  Size the CLIP and let the lines fall where they fall.
+- **The model does not render an overlapping interruption.** Asked for explicitly
+  in Episode 2 Clip 6 — one line beginning before the other finishes, with the
+  overlap described and the reason given — and what came back was a clean handoff
+  with a **0.08s gap.** Perfectly good, but not an overlap. Section 1 wants these
+  two women interrupting each other; expect to get fast adjacency instead and
+  write lines that still work that way.
 - **Silence must be declared.** A held wordless beat is legitimate — it carried the
   turn in Episode 1 — but the prompt has to say "this clip is the exception, the
   silence is the point, do not fill it." Otherwise it gets filled.
@@ -723,6 +796,22 @@ nothing. Shortening the clip does, because the slack disappears.
       invisible by construction. **Measure every line separately, then cluster
       the lines and see which speaker each one lands on.** Never average lines
       together on the assumption the script was obeyed.
+    - **A measurement window that spans a quiet passage AND a transient reports
+      neither.** Episode 2 Clip 6's tail was nearly written up as a third music
+      swell: averaging 21.5-24.0s as one window caught the door slam inside it and
+      printed "+8.02 dB, SWELLED." It had not swelled — the tail sat at -39 to -42
+      dBFS, quieter than the walk that preceded it, and the loud thing was the
+      door. **Profile a tail per-100ms before calling anything a swell, then take
+      the spectral centroid of the loud event**: the slam read 708 Hz over ~0.4s
+      against 1569 Hz for the quiet tail. **Low and short is an object. Higher and
+      sustained is music.**
+    - **Whisper writing a DIFFERENT word is informative, even though writing the
+      RIGHT word proves nothing.** The rule above says a transcript cannot confirm
+      a pronunciation — "jollof" came back spelled correctly and was still wrong.
+      But the reverse case carries real signal: Episode 2 Clip 6 scripted "Chi"
+      (CHEE) and the transcript says **"Gee."** When the nearest match to the sound
+      is not the intended word at all, something is off. It still needs the user's
+      ear to settle; it is a reason to ask, not a verdict.
     - **Within one clip, LTAS is valid; across clips it is not.** The room is the
       dominant term in a spectral signature, so comparing a line to a sample from
       another set is unreliable. Comparing the four lines of a single clip to each
@@ -769,6 +858,18 @@ nothing. Shortening the clip does, because the slack disappears.
   waiting for an answer. A warning followed immediately by the charge is not
   consent. When a step is both irreversible in cost and risky to an approved
   result, say so and STOP until the user answers.
+- **Read the WHOLE prompt start to finish before submitting it.** Prompts here
+  are rewritten in place across many edits and contradictions survive. A final
+  read of Episode 2 Clip 5 caught two stale "three seconds" left over from a
+  silence trim, in the framing block and the music block, while the timing block
+  said two and a half — **three different durations for the same beat in one
+  prompt.** Free to catch, 234 credits to discover afterwards. Grep the prompt for
+  every number and every negation you changed.
+- **Check the model's own constraints instead of inheriting an assumption.**
+  Episode 2's spec said "15s clips" for four clips because nobody asked the model.
+  `seedance_2_5` accepts **4 to 30 seconds**. A container you cannot size is a
+  container you cannot use, and section 6's whole pacing method depends on sizing
+  it. Call `models_explore` with `action: get` before locking an episode spec.
 - **Never silently swap models, resolution or aspect ratio.** Mid-episode changes
   to any of these make the footage un-cuttable with what already exists.
 - **Pick the resolution before the first clip of an episode, not after.** "Blurry"
@@ -794,4 +895,15 @@ nothing. Shortening the clip does, because the slack disappears.
   with job IDs.
 - Update the episode file in the same session the footage is approved. Element IDs
   living only in a chat transcript are lost.
+- **An element is not locked until its ID is in the episode's registry table.**
+  Episode 2's hallway element — the one set in the episode that HAS the apartment
+  door — was described in the file as "required" and its ID was never written
+  down. It had to be recovered from the workspace two clips later. Prose saying an
+  element exists is not a record of it; the table is.
+- **Every prompt is saved to `exclusive/prompts/` as a file.** Section 5 says never
+  reword what produced an approved result, and that is unenforceable if the words
+  only ever existed in a chat transcript. Name them
+  `ep<N>-clip<NN>-DELIVERED-<job-prefix>` once shot, `-PROPOSED` before, and
+  `-ABANDONED-<job-prefix>` when rejected. **A DELIVERED file is a record, not a
+  draft** — to change a shot, copy it to a new PROPOSED file and edit that.
 - Commit after each locked decision, not in one batch at the end.
