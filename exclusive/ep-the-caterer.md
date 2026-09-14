@@ -319,9 +319,9 @@ forbids inventing that mid-build.
 | Model | `seedance_2_5` |
 | Resolution | **1080p** |
 | Aspect | 16:9 |
-| Clip length | 15s |
+| Clip length | **per clip, 4-30s** — see below |
 | Bitrate | high |
-| Cost | **135 credits per clip**, ~945 for seven |
+| Cost | **9 credits per second** at 1080p (2.5/s at 480p) |
 
 **Why 1080p, and why it was safe to decide it here.** Clip 1 shot at 480p and
 the user's note was "the images look blurry". That is the tier, not the prompt.
@@ -330,6 +330,15 @@ hallway fix, so raising the resolution cost nothing in re-renders — the only
 moment in an episode when section 7's no-mid-episode-swap rule has a free
 window. **Episode 1 stays 480p and is not affected**; the two episodes are never
 cut together.
+
+**The 15-second cap was an assumption, not a limit.** `seedance_2_5` accepts
+**4 to 30 seconds**. This file said 15s for four clips before anyone checked the
+model's own constraints, and it cost nothing only because no clip had yet needed
+longer. Clip 5 does. **Length is now chosen per clip from the word count** —
+section 6's container rule is the whole point, and a container you cannot size is
+a container you cannot use. Clips already shot ran 9s, 12s and 15s; that variation
+is fine and always was. Model, aspect ratio, resolution and bitrate stay locked
+for the episode. Duration is not one of the things section 7 forbids changing.
 
 Every Episode 2 prompt also carries an **IMAGE QUALITY** block asking for
 maximum sharpness, crisp focus on faces and fabric, no haze or smearing, and
@@ -593,6 +602,138 @@ everything else that is right in this take. **The user's call, not an agent's.**
 
 ---
 
+## CLIP 3 — DELIVERED
+
+| | |
+|---|---|
+| **Job** | `8a2543d2-9e5f-4b78-9c9e-46092875edcd` |
+| Res / length / cost | 1080p · 15s · **135 credits** |
+| Speakers | ChiChi, Kel |
+
+The expanded version, shot after the user asked for **more dialogue in every
+scene from here on**. Kel's prose voice recipe was written explicitly AGAINST
+Dorian's — less bass body, more edge, no velvet — because the two men measure
+5.4 Hz apart and only timbre separates them.
+
+**Open:** whether "jollof" reads correctly. The transcript cannot settle it —
+see CLAUDE.md section 7. The prompt spells it *"JO-loft"* with a silent final T
+after the user's correction. **This needs the user's ear, not a measurement.**
+
+---
+
+## CLIP 4 — DELIVERED, AND THE CLEANEST TECHNICAL RESULT OF THE EPISODE
+
+| | |
+|---|---|
+| **Job** | `f1636ebf-1d83-4208-9378-ec301f5672ec` |
+| Res / length / cost | 1080p · 12s · **108 credits** |
+| Speakers | Dorian (one line), Nia (one word), ChiChi silent |
+
+| check | result |
+|---|---|
+| Words spoken | **exactly 7** — nothing invented, nothing added |
+| Cut 1 | t=0.88s, **27x mean** frame difference |
+| Cut 2 | t=5.00s, **27x mean** — two textbook isolated spikes |
+| Held beat after Dorian's line | 1.14s, silent, as written |
+| Final hold on ChiChi | **7.05 seconds**, no dialogue |
+| Dorian's line | 115.9 Hz, 78% of frames below 150 Hz |
+| Nia's word | 0% below 150 Hz — no male content, no bleed |
+
+**What this clip proves.** Section 6's "silence must be declared" works: a 12s
+container with 7 words held nearly 8 seconds of intentional silence without the
+model filling a frame of it. It is the counter-example to every dead-air problem
+in Clips 1-3, and it is the reason a long, mostly-silent Clip 5 is buildable.
+
+**It also proves the reaction rule.** ChiChi's glass stopping halfway to her
+mouth and then completing the sip — the INTERRUPTED MOVEMENT of CLAUDE.md
+section 3 — is the whole reaction, with no expression change at all.
+
+**The one failure: the music swelled +3.4 dB under the final hold**, despite an
+explicit "it NEVER SWELLS during the final five-second hold". A generic negation
+lost to a strong prior again, exactly as section 5 warns. **Clip 5 carries a much
+harder version**: the silences are named as the QUIETEST moments in the clip, the
+sound is told to DROP rather than rise, every instrument that could enter is
+named and forbidden, and the music is pinned at 20 dB below the voices.
+
+**Still open for the user's eyes:** whether Nia's smile held and corrected by
+five percent rather than collapsing, and whether ChiChi's stopped glass reads.
+
+---
+
+## CLIP 5 — THE PLAN, PRICED AND NOT YET SHOT
+
+**This is the first clip in the production longer than 15 seconds.**
+`seedance_2_5` accepts **4-30 seconds**, not the 15 this episode had assumed.
+That cap was never checked; it is checked now. Nothing else about the technical
+spec changes — same model, same 16:9, same 1080p, same high bitrate. Cost is
+linear at **9 credits/second** at 1080p and 2.5/second at 480p, confirmed by
+`get_cost` at three durations.
+
+| length | 480p | 1080p |
+|---|---|---|
+| 20s | 50 | 180 |
+| 23s | 57.5 | 207 |
+| **24s** | 60 | **216** |
+
+**Why 24 seconds.** 38 words of dialogue and four declared silences totalling
+8.5s. The first six lines are an overlapping run and land faster than section 6's
+2.1 words/second; the rest sit on it. That is ~15.5s of speech plus 8.5s of
+silence. 24s is deliberately a shade tight — section 6 is unambiguous that a
+loose container is the worse failure, and Clip 4 proved declared silence holds.
+
+**Staging is Clip 1 take 5's, because that is what fixed attribution.** Nine
+alternating lines in a single continuous framing is the exact shape that cost
+five takes on Clip 1. What resolved it was **both faces in frame at the same
+size, both lit evenly from the front, and no cuts** — not per-line tags, which
+had already failed twice. Clip 5 reproduces that staging exactly: one unbroken
+take, zero cuts, a locked two-shot with Nia on the LEFT and ChiChi on the RIGHT
+for every word, and the push only leaves the two-shot AFTER the last word is
+spoken, to arrive on Nia alone for the silent hold. There is no attribution risk
+in a passage with no dialogue in it.
+
+**The dangerous line pairs, all named in the prompt with their wrong answers:**
+
+| pair | why it is dangerous |
+|---|---|
+| "I don't have anything to say." / "You have a whole paragraph." | adjacent, both contain **have** |
+| "I have a question." / "Fine." | adjacent, again **have** |
+| **"It's eleven days, Chi." / "Twelve."** | **the episode turns on this one.** "Twelve." landing in Nia's mouth destroys the clip |
+
+"Chi" is spelled phonetically in the prompt — *"CHEE", rhyming with "see"* —
+with "kai", "chai", "chy" and "shy" negated, per section 5.
+
+**The seam from Clip 4 (04 -> 05), resolved.** Clip 4 closed on ChiChi, so
+section 4a requires Clip 5 to open on **Nia** — but the seam map also requires an
+arrival through the terrace door rather than finding them arranged outside. Both
+are satisfied at once: **open on Nia already at the rail, and have ChiChi come
+through the sliding glass door to join her.** It is also the better story. Nia
+walked out of that room after being called "my friend"; ChiChi followed her. Her
+first line, "Say it.", is said without turning round, because she knows exactly
+who just came outside.
+
+**The terrace door is the loft's window wall from the other side** — section 4a's
+two-descriptions-of-one-object rule, and the thing that produced a glass door in
+a solid wall on Clip 2. It is pinned as a **full-height sliding glass panel in a
+slim dark metal frame, running to the LEFT as seen from the terrace.** Sliding,
+deliberately: a slider has no hinge, no pivot and no knob, so there is no
+mechanism geometry left for the model to get wrong.
+
+**Nia goes barefoot here**, as the seam map decided — heels off, **on the terrace
+floor beside her bare feet and clearly in frame**, which is the on-screen evidence
+section 3 requires. One-directional: they never go back on.
+
+**Props across the seam.** ChiChi carries her drink out; the paper plate is left
+inside and named as gone. Exactly one glass exists. **She sets that glass down on
+the rail before her last line** — Chi is still, so her one deliberate movement in
+24 seconds is the loudest thing she does, and it lands right before the most
+honest sentence she says all episode.
+
+**Sound gets a free continuity beat:** the party rises as the glass slides open
+and muffles again as it closes. That is the audible version of showing the
+arrival, and it costs nothing.
+
+---
+
 ## THE TWO MEN SOUND ALIKE — WRITE KEL AGAINST DORIAN
 
 | | true f0 | warmth |
@@ -642,13 +783,13 @@ drink (04 → 05), Nia's heels (05 → 06), ChiChi's phone (07 only).
 |---|---|---|
 | 01 | ChiChi, Nia | nothing — **ready now** |
 | 02 | Dorian, ChiChi | ✅ **shot** — `6c221e39` |
-| 03 | ChiChi, Kel | nothing — **ready now**, prose recipe |
-| 04 | Dorian, Nia | nothing — **ready now**, prose recipe |
-| 05 | ChiChi, Nia | nothing — **ready now** |
+| 03 | ChiChi, Kel | ✅ **shot** — `8a2543d2` |
+| 04 | Dorian, Nia | ✅ **shot** — `f1636ebf` |
+| 05 | ChiChi, Nia | **prompt written, priced at 216 — awaiting the user** |
 | 06 | ChiChi, Nia | nothing — **ready now** |
 | 07 | none | nothing — **ready now** |
 
-Four of seven can shoot immediately. Only the two men need casting.
+Four of seven are shot. Clip 5 is written and priced; 6 and 7 are unblocked.
 
 **The one-voice-element constraint still applies.** seedance binds ONE voice
 element per generation. In Episode 1 Nia's won and Chi was synthesized from her
