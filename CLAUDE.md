@@ -415,6 +415,15 @@ nothing. Shortening the clip does, because the slack disappears.
       so the numbers have a scale. Same voice lands ~0.98.
     - **Get reference samples free** from `list_voices` — every voice element
       carries a `preview_url`. No TTS spend needed to hear what an element is.
+    - **Audio measurement flags a suspicion; the user's eyes settle it.** Whose
+      mouth moves is a VISUAL fact and cannot be read off a spectrum. The per-line
+      cluster test correctly flagged a misattributed line in Episode 2 Clip 1 —
+      and then kept flagging it for three more takes after a staging change had
+      plausibly already fixed it, because on one-second lines it cannot tell the
+      two speakers apart: the definitely-different control scored 0.621 and the
+      definitely-same control 0.878, bands that nearly overlap. Roughly 110
+      credits went on chasing a number. Use the measure to raise the question,
+      then ASK FOR THE USER'S EYES before spending on another take.
     - **Verify the ATTRIBUTION, not just the words.** A transcript proves the
       lines were spoken. It does not prove who spoke them. A clip shipped with
       ChiChi delivering Nia's line and the verification passed it, because the

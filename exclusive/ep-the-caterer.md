@@ -329,7 +329,8 @@ not hold it, relighting her face is the next single variable to try.
 | `3dbf92d0` | 1080p | 135 | door pinned, resolution up, **line 3 still misattributed** |
 | `88e888cf` | 480p | 37.5 | per-line tagging — **line 3 STILL misattributed** |
 | `b45c8a9f` | 480p | 37.5 | one-corridor geography — **line 3 STILL misattributed** |
-| `e2cad416` | 480p | 37.5 | both faces framed + both lit, no cuts — **line 3 STILL misattributed** |
+| `e2cad416` | 480p | 37.5 | both faces framed + both lit, no cuts — **APPROVED BY THE USER** |
+| `5f5f9462` | 1080p | 135 | same prompt byte-identical at 1080p — the delivery take |
 
 ---
 
@@ -370,7 +371,28 @@ instead of backlit, no cuts at all — and line 3 went to ChiChi again.
 
 Line 1 goes to Nia every time. Lines 2, 3 and 4 go to ChiChi every time.
 
-### THE LIKELIEST REMAINING CAUSE: THE CLIP IS ABOUT CHICHI
+### HOW IT ACTUALLY RESOLVED — THE USER APPROVED TAKE 5
+
+**The user watched take 5 and said it is right.** "This clip as 1 take is finally
+perfect." So the staging fix — both faces in frame at the same size, Nia lit from
+the front rather than backlit, no cuts anywhere — is what landed it, and the
+attribution reads correctly on screen.
+
+**The measurement said otherwise and the measurement was wrong.** The per-line
+cluster test kept putting line 3 with ChiChi. It should not have been trusted at
+these line lengths: in take 5 the control pair that is definitely two different
+speakers scored **0.621** while the pair that is definitely the same speaker
+scored **0.878**, and line 3 fell at 0.795–0.851 — inside a band where the two
+controls nearly overlap. **On lines of about one second the discriminator cannot
+separate the speakers**, exactly as section 7 warns. It was useful for catching
+that something was wrong in the first place; it was not fit to certify a fix.
+
+**The rule that follows: audio measurement flags a suspicion, the user's eyes
+settle it.** Lip-sync attribution is a visual fact. Whose mouth moves cannot be
+read off a spectrum, and three takes were spent chasing a number after the thing
+had plausibly already been fixed.
+
+### THE HYPOTHESIS THAT WAS FORMING WHEN THE USER SETTLED IT
 
 **Nine of the fifteen seconds are ChiChi alone.** The lift, the walk, the hold, the
 knock — the camera follows her and only her for the first nine seconds, which
