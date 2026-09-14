@@ -122,6 +122,37 @@ Current plate media IDs: Nia `362ecc5e-b110-4855-9334-5717c4082e08`,
 ChiChi `ea89bdd0-6e35-4223-8b78-1a0f439b7289`. Both are readable off the element
 via `show_reference_elements`, or off any job that used them.
 
+### Channel art — the sizes that actually matter
+
+YouTube art is judged at three sizes at once and the file size is not the design
+size. Build to the smallest, bleed to the largest.
+
+| Asset | File | What you must design inside |
+|---|---|---|
+| Banner | 2560x1440 | **1546x423 centred** — all every phone shows |
+| Avatar | 800x800 square | a **circle**, legible down to 48px |
+| Thumbnail | 1280x720 | legible at ~246x138 in a feed |
+
+**The banner trap, learned the expensive way.** Sizing the art to exactly 1546
+wide and centring it keeps everything phone-safe and leaves dead flanks either
+side on desktop, which shows the full 2560. Sizing the art to the full 2560
+fills desktop and throws the characters out of the phone crop. Neither is right.
+
+What works, at no generation cost: generate the art on a FLAT backdrop, then pad
+that backdrop horizontally before scaling to 2560. Flat colour pads invisibly, so
+the image reaches both edges while the subjects move inward. Pick the pad factor
+from the art itself — locate each face by column detail energy over the upper
+~55% of the frame, then solve for the smallest pad that puts both faces inside
+1546x423.
+
+**Aim for faces inside the safe box, not whole bodies.** Requiring every pixel of
+hair and elbow to survive the phone crop pushes everyone back to the middle and
+recreates the dead-flank problem. Let bodies bleed off; protect faces and title.
+
+**Never generate the title into the art.** Leave the middle third empty and set
+type over it afterwards. Generated lettering garbles, and composited type is free
+to resize and recolour — a title change then never costs a re-render.
+
 ---
 
 ## 3. THE CONTINUITY LEDGER

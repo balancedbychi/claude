@@ -294,3 +294,28 @@ that lesson: 8 credits.
 
 Chi's PILATES lettering is deliberately dropped here. At avatar size it garbles,
 and the sweatshirt still reads as hers by cut and colour.
+
+## CHANNEL BANNER
+
+Nia left on a yellow corded landline, twirling the cord, laughing. Chi right,
+front on, glasses, mauve button-up with the top two undone, arms folded, smiling.
+EXCLUSIVE / THE SERIES set in type between them. Flat warm-charcoal backdrop.
+
+Generated 21:9 with the middle third deliberately empty, then composed onto
+2560x1440. See "Channel art" in CLAUDE.md section 2 for the safe-area maths.
+
+| Variant | Job ID |
+|---|---|
+| 1 | `b92374fc-6a30-4839-82b0-ecfaabf8a7e4` |
+| 2 | `a700989a-68ce-47c0-9130-032df1b8056d` |
+| 3 | `a7021e5e-ff2e-479a-be79-001a077d824c` |
+| 4 | `0f504139-30bb-48c1-b3eb-4301ca72232c` |
+
+Chi's glasses and mauve button-up are NEW wardrobe, not in the locked registry,
+and Nia's yellow corded phone is a new prop. Both came from the user by
+description rather than by reference image. If either recurs, get a reference and
+lock it before it drifts.
+
+Cost: 8 credits for the four variants. The composition was rebuilt three times at
+zero credits, which is the whole argument for keeping type and layout out of the
+generated image.
