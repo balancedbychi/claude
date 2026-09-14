@@ -599,6 +599,14 @@ treat them the same way.
 nothing. Shortening the clip does, because the slack disappears.
 
 - Target density: **~2.1 words of dialogue per second of clip.**
+- **That 2.1 is a CLIP figure, not a speaking rate, and confusing the two
+  over-provisions every container.** Measured on Episode 2 Clip 5: 46 words in
+  **13.44s of actual articulation = 3.42 words/second.** The model talks 63%
+  faster than the planning figure and then spends everything left over on
+  silence — that clip came back 47% silent. **Size a clip as
+  `words / 3.4` for speech, PLUS the wordless action you actually want, PLUS
+  about 0.45s per line boundary.** Use 2.1 only as the sanity check on the
+  finished total.
 - 5 lines ≈ 25 words ≈ a 12-second clip. At 15s the model spends the surplus on
   reaction beats and the scene drags.
 - Replies land within 0.2s. Two lines per scene should start a fraction early and
@@ -614,6 +622,14 @@ nothing. Shortening the clip does, because the slack disappears.
   music playing), keep the shape and name the new thing as faint and underneath,
   rather than writing a fresh paragraph. Also negate **intelligible lyrics** —
   sung words compete with dialogue exactly as spoken ones do.
+- **The music swell under a final hold does NOT respond to negation — fix it in
+  post.** Two clips, two failures, and escalating the wording made it worse:
+  Episode 2 Clip 4 swelled **+3.4 dB** under its hold against a plain negation,
+  and Clip 5 swelled **+7.78 dB** against a much harder one that named every
+  instrument, pinned the music 20 dB under the voices and told the sound to drop.
+  A hold has no dialogue in it, so the tail can be ducked with ffmpeg in the
+  sandbox for **zero credits** without touching a frame of approved picture.
+  Budget for that rather than for another take.
 - **Silence must be declared.** A held wordless beat is legitimate — it carried the
   turn in Episode 1 — but the prompt has to say "this clip is the exception, the
   silence is the point, do not fill it." Otherwise it gets filled.

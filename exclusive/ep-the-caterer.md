@@ -21,6 +21,20 @@ Nothing is waiting on a reference.
 | `Dorian-Loft-Window-Night` | `0707edcb-9dbb-46d2-931c-0c865fac7941` | The window end of the SAME room. Clip 4 — Dorian introduces Nia to the group. |
 | `Dorian-Kitchen-Night` | `de2063f2-acee-4300-9669-b1f17bff850f` | Clip 3 — Kel and the slow cooker. |
 | `Dorian-Roof-Terrace-Night` | `dc0d5423-d0ba-4028-b78a-a3cbb449c3ce` | Clip 5 — ChiChi and Nia alone outside. |
+| `Dorian-Hallway-Night` | `6acd0d74-4da4-4aa4-bad6-4505bf5f26b2` | **The set that has the door to 10B.** Clips 1 and 6. Verified against the workspace, not remembered. |
+
+**`Dorian-Hallway-Night` was missing from this table until Clip 6 needed it.** The
+section below says the element "is required" and then never records that it was
+made — so its ID existed only in a chat transcript, which is the exact loss this
+file's closing section is about. It was recovered by querying the workspace. **An
+element is not locked until its ID is in this table.**
+
+**One thing in that element's own description is stale and must NOT be edited.**
+It says ChiChi "crosses from the lift bay into this hallway" — the two-space
+language the user rejected. The correct geography is below: one corridor, the
+lift opens directly onto it. The wording stays because it was present when Clip 1
+take 5 was approved and section 5 forbids rewording an approved input. **Follow
+the geography section, not the element text.**
 
 ### Characters
 
@@ -230,9 +244,18 @@ that is deliberate, not a slip, and the prompt directs a light stress on the wor
 so it reads as a quotation.
 
 ### Clip 06 — "Midnight" · 40mm · f/2.0 · two cuts
-**Int. entry — night.** ChiChi at the door, turning her wrist to look at the gold
-watch — the only time she checks it on camera. Nia behind her, barefoot, heels in
-one hand.
+**Int. hallway outside 10B — night**, shot from the HALLWAY side, the same side
+as Clip 1. ChiChi in the doorway turning her wrist to look at the gold watch —
+the only time she checks it on camera. Nia in the lit doorway behind her,
+barefoot, heels in one hand.
+
+⚠️ **The slugline used to read "Int. entry", and that would have broken the door.**
+Shot from inside the apartment, every part of the door mirrors: the hinges pinned
+to the LEFT edge in Clip 1 appear on the RIGHT, and the handle swaps with them.
+The pinned hardware block below is written from the hallway side and is only
+valid from the hallway side. **Clip 6 shoots from the hallway**, which the
+geography table already said and the slugline contradicted. Same trap as ChiChi's
+hair sweep: a left/right fact is meaningless without the thing it is relative to.
 
 > NIA: "Stay."
 > CHICHI: "You asked me to be in the room. I was in the room."
