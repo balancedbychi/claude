@@ -669,7 +669,7 @@ five percent rather than collapsing, and whether ChiChi's stopped glass reads.
 
 ---
 
-## CLIP 5 — THE PLAN, PRICED AND NOT YET SHOT
+## CLIP 5 — SHOT AS `9850c5fc`, 26s / 1080p / 234 credits
 
 **This is the first clip in the production longer than 15 seconds.**
 `seedance_2_5` accepts **4-30 seconds**, not the 15 this episode had assumed.
@@ -722,7 +722,20 @@ in a passage with no dialogue in it.
 | "I don't have anything to say." / "You have a whole paragraph." | adjacent, both contain **have** |
 | "I have a question." / "Fine." | adjacent, again **have** |
 | **"It's only been eleven days, Chi." / "Twelve."** | **the episode turns on this one.** "Twelve." landing in Nia's mouth destroys the clip |
-| **"It's only been eleven days, Chi." / "...you're giving eleven days way too much meaning."** | **new, created by the revision.** Nia and ChiChi now both say the phrase **eleven days**, separated only by the word "Twelve." Same shape as the `have` pairs and higher stakes. Named explicitly in the prompt |
+| **"It's only been eleven days, Chi." / "...you're giving eleven days way too much meaning."** | an attribution risk only, **not a writing problem** — see the ruling below. Named in the prompt |
+
+**RULED BY THE USER: the repeated "eleven days" is the conversation, not a flaw.**
+This was first written up here as a hazard. That framing was wrong and the user
+corrected it: two people circling the same number is what an argument between
+them actually sounds like, and ChiChi picking up Nia's "eleven" is the callback
+that makes the line land. **Do not reword either line to remove the repetition,
+in this clip or in any later pass.** Section 5 already forbids rewording what
+works; this is the user's explicit ruling on top of it.
+
+What stays in the prompt is a different thing and should not be confused with the
+script note: an instruction about **which mouth the model picks**, not about which
+words are written. It costs nothing, it protects "Twelve.", and it has no effect
+on the dialogue.
 
 **The word balance inverted further and it is a deliberate exception.** Section 1
 says ChiChi always gets fewer words than Nia, because her power is economy. This
@@ -819,7 +832,7 @@ drink (04 → 05), Nia's heels (05 → 06), ChiChi's phone (07 only).
 | 02 | Dorian, ChiChi | ✅ **shot** — `6c221e39` |
 | 03 | ChiChi, Kel | ✅ **shot** — `8a2543d2` |
 | 04 | Dorian, Nia | ✅ **shot** — `f1636ebf` |
-| 05 | ChiChi, Nia | **prompt written, priced at 234 — awaiting the user** |
+| 05 | ChiChi, Nia | ✅ **shot** — `9850c5fc`, 26s, 234 |
 | 06 | ChiChi, Nia | nothing — **ready now** |
 | 07 | none | nothing — **ready now** |
 
