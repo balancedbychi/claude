@@ -224,6 +224,15 @@ byte-identical between shots — only the scene beats change.
   is missing, the model invents a voice for her. This shipped unnoticed for three
   shots in Episode 1.
 - **Chi's voice is PINNED. See section 5a. Do not reword her voice line, ever.**
+- **A line goes to the face the camera is ON.** Sharper than the rule above, and it
+  outranks anything the text says. In a single continuous framing the model hands
+  every line to the face it is holding, whoever the prompt names. Clip 1 of Episode
+  2 lost the same line to the wrong woman in four takes across three prompt
+  strategies, and scene detection then showed the clip had **no cut in it at all** —
+  the camera never went to the other woman, so the line never could either. If two
+  people alternate lines, the shot must cut to each speaker. Verify the cuts landed
+  (`select='gt(scene,0.12)'` plus a frame-difference pass); asking for a cut does
+  not mean you got one.
 - **Every speaking character must be visible in the clip.** The model only binds a
   saved voice to a face it can see. An off-camera speaker gets a fabricated voice,
   no matter what the prompt says.

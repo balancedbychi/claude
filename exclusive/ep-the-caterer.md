@@ -328,6 +328,38 @@ not hold it, relighting her face is the next single variable to try.
 | `545524d2` | 480p | 37.5 | characters right, door hinge wrong, **line 3 misattributed** |
 | `3dbf92d0` | 1080p | 135 | door pinned, resolution up, **line 3 still misattributed** |
 | `88e888cf` | 480p | 37.5 | per-line tagging — **line 3 STILL misattributed** |
+| `b45c8a9f` | 480p | 37.5 | one-corridor geography — **line 3 STILL misattributed** |
+
+---
+
+### ROOT CAUSE FOUND: THE CLIP HAS NO CUT IN IT
+
+Take 4 fixed the geography (no set jump, silence clean to 9.38s, gaps under 0.2s)
+and line 3 went to ChiChi anyway. Four takes, three different prompt strategies,
+the identical failure. So the prompt was never the lever.
+
+**Scene detection finds ZERO cuts** in take 4, at threshold 0.35 and again at
+0.12. Frame-difference analysis agrees: the largest differences are a smooth
+cluster at 2.1–3.7s — the lift doors opening and her stepping out, continuous
+motion — and there is no isolated spike anywhere near the door opening at 9.3s.
+The prompt asks for "EXACTLY ONE CUT… when the apartment door opens" and the
+model delivers a single unbroken 15-second take instead.
+
+**That explains the pattern.** With one continuous framing, the camera never
+changes who it is looking at. ChiChi is the tracked subject for the whole walk,
+so the model binds dialogue to the face it is holding. Nia wins line 1 only
+because she is newly revealed and salient in that instant; by line 3 the shot has
+settled back onto ChiChi and the line goes with it.
+
+**A line goes to the face the camera is on.** Section 4 already says the model
+binds a voice only to a face it can see. The sharper version: it binds the line to
+the face it is LOOKING AT. Naming the speaker in text cannot beat the framing.
+
+**Therefore the fix is structural, not textual** — the camera has to be on Nia
+when Nia speaks. That means a real shot-reverse across the doorway exchange, which
+changes Clip 1's locked "one cut" spec and is the user's call to make.
+
+Spent on Clip 1 so far: **285 credits across five takes.**
 
 **Per-line tagging did not fix it.** Take 3 named the speaker on every line, closed
 the other woman's mouth through it, and named the wrong answer outright
