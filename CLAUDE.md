@@ -430,6 +430,16 @@ nothing. Shortening the clip does, because the slack disappears.
 - Replies land within 0.2s. Two lines per scene should start a fraction early and
   overlap.
 - Cuts fall **on the first syllable** of the incoming line, never before it.
+- **The ambience formula that worked in Episode 1** — reuse the sentence shape,
+  swap only what sits inside it. Every approved Episode 1 shot carried:
+  *"Underneath, quiet apartment ambience only: faint city traffic, the brush of
+  bare feet on the floor, fabric movement, the small click of an earring. No
+  music."* The load-bearing words are **Underneath**, **quiet**, **only** and
+  **faint** — they put the ambience behind the dialogue instead of beside it.
+  When a scene needs something Episode 1 forbade (Episode 2's party has source
+  music playing), keep the shape and name the new thing as faint and underneath,
+  rather than writing a fresh paragraph. Also negate **intelligible lyrics** —
+  sung words compete with dialogue exactly as spoken ones do.
 - **Silence must be declared.** A held wordless beat is legitimate — it carried the
   turn in Episode 1 — but the prompt has to say "this clip is the exception, the
   silence is the point, do not fill it." Otherwise it gets filled.
