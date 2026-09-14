@@ -270,6 +270,64 @@ before submitting, this one was read, and the typo still got through.
 
 ---
 
+## CLIP 1 — SHOT AS `faeb10ca`, AWAITING THE USER'S EYES
+
+| | |
+|---|---|
+| **Job** | `faeb10ca-0670-4bf8-8e42-5f930db32bdf` |
+| Spec | seedance_2_5 · 1080p · 16:9 · high · 15s — **1920×1080, 24fps, 361 frames, 15.05s confirmed** |
+| Cost | **135 credits**, preflighted at 135 and billed at 135 — balance 1,769.59 → 1,634.59 |
+| Prompt | `exclusive/prompts/ep3-clip01-DELIVERED-faeb10ca.txt` |
+
+### What measured CLEAN
+
+| check | result |
+|---|---|
+| Words spoken | **exactly the 27 scripted, nothing invented, nothing added** |
+| Cuts | **ZERO** — max frame difference 5.2× mean and it is a smooth cluster at 0.12–0.75s, which is Nia arriving and sitting. No isolated spike anywhere. The one-unbroken-take instruction was honoured |
+| "Mm." rendered | **yes** — 11.60–12.10s at −22.9 dBFS, 17–21 dB above everything around it, centroid 780 Hz (a low closed-mouth hum) |
+| Music | **none** — the tail sits at −38.7 to −44.3 dBFS, the SAME band as the mid-clip silence (−37.6 to −43.7), and the centroids wander 900–1700 Hz rather than staying high and sustained. Not a swell; it is ambience at its normal floor |
+| Line gaps | 0.28 / 0.20 / 0.36 / 0.26s — all tight |
+
+### ATTRIBUTION — the dangerous pair looks CORRECT
+
+| line | scripted | f0 median | IQR |
+|---|---|---|---|
+| L1 "Don't say anything yet." | NIA | **182.9 Hz** | 170.7–195.1 |
+| L2 "I haven't." | CHI | **146.8 Hz** | 131.1–160.0 |
+| L3 "You're doing the face." | NIA | **176.8 Hz** | 168.9–189.4 |
+| L4 "This is my face." | CHI | **158.4 Hz** | 139.1–173.0 |
+| L5 "Dorian... still good." | NIA | **181.8 Hz** | 173.9–195.1 |
+
+**Nia's three lines cluster at 176.8–182.9 Hz. ChiChi's two sit at 146.8 and 158.4 Hz. No overlap between the groups.** L2 lands on **146.8 Hz, which is canon Chi's exact figure** from section 5a — the pinned recipe is working.
+
+**But section 7's warning applies and must not be ignored.** L1–L4 are 0.98s, 0.48s, 0.64s and 0.76s — all at or under the one-second floor where the discriminator cannot separate these two speakers. The LTAS agrees with the pitch on L2 (0.54–0.62 against every Nia line) but is ambiguous on L4, which scores 0.79 against its own speaker and 0.83–0.87 against Nia's lines. **Pitch says the face/face pair landed correctly; the spectral test cannot certify it at this line length. That is a reason to ask for the user's eyes, not a verdict** — Episode 2 spent roughly 110 credits chasing exactly this number.
+
+### THE ONE REAL FINDING: THE CONTAINER IS LOOSE, AND THE 3.4 FIGURE IS TOO SLOW
+
+| | |
+|---|---|
+| Dialogue runs | 1.10s → 11.62s |
+| Head before the first word | 1.10s (asked ~2s) |
+| **Middle wordless beat** | 4.80 → 9.06 = **4.26s** (asked for ~2s) |
+| Tail after the last word | 3.43s, of which "Mm." is ~0.5s (asked ~1.5s) |
+| **Total silence** | **8.8s of 15.05s = 58%** |
+
+**The articulation rate is the cause and it is the most useful number this clip produced.** Actual speech occupies **5.42 seconds** across the five lines for 26 lexical words — **4.80 words per second.** Section 6's planning figure is **3.42 w/s**, measured on Episode 2 Clip 5. This register — short, fast, overlapping lines between two women who know each other — runs **40% faster than that**, and every second of the difference gets banked as silence.
+
+Per line: 4.1, 6.3, 5.3 and 4.7 w/s. Consistently far above 3.4.
+
+**Consequence for Clips 2–6: they are all currently over-provisioned.** Sized at `words / 3.4`, each will come back with the same excess. Re-size at the measured rate before shooting Clip 2, and confirm the figure on that clip before applying it to the rest. One clip is one data point.
+
+### OPEN FOR THE USER'S EYES
+
+1. **Does the face/face pair land on the right mouths?** The pitch says yes; the measurement cannot certify it at these line lengths.
+2. **Does 58% silence play, or drag?** The 4.26s cup-slide beat is double what was asked. Episode 2 Clip 4 held nearly 8 seconds of silence and was the best clip in that episode, so long is not automatically wrong.
+3. **"Dorian" transcribed as "Doran."** Section 7's informative direction: when Whisper writes the RIGHT word it proves nothing, but when it writes a DIFFERENT one, something may be off. This suggests two syllables rather than three. Flagged, not concluded — it needs an ear.
+4. **The visual list**: no wedding ring, skin clear and not aged, hair sweeping to her own right, exactly two cups with no writing, the neckline, the phone face-up, and whether they actually look at each other.
+
+---
+
 ## MANDATORY BLOCKS — IN ALL SIX PROMPTS, BYTE-IDENTICAL
 
 Both of these are carried forward **word for word** from
