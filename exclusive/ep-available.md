@@ -1513,6 +1513,41 @@ of it. Full recipe in CLAUDE.md §5a.
 **Awaiting the user's ear.** If this is Chi, the same 2-credit pass fixes Clip 6 and
 every future clip, and ChiChi's voice stops being a re-roll.
 
+### ⚠️ THE PICTURE IS SOFT, AND IT HAS BEEN SLIDING SINCE CLIP 3
+
+The user, on the revoiced Clip 5: *"Why does the picture look blurry in this re-edited
+clip?"* **The re-edit is not the cause** — the video stream MD5 is identical to
+`85d64987` (`5f2ee4ae1f08fd72855a9b4bf173eed8`), `-c:v copy` held and the upload did
+not transcode. The softness was already in the 135-credit re-shoot.
+
+**The cause is the start_image chain.** Each clip is seeded with a JPEG cut from the
+previous clip's output, so every generation inherits every loss before it:
+
+| Clip | seeded by | seed sharpness | Mbps | clip sharpness |
+|---|---|---|---|---|
+| 1 `faeb10ca` ✅ | none — t2v | — | 12.74 | 37.0 |
+| 2 `fc416b16` ✅ | none — t2v | — | 11.08 | **47.5** |
+| 3 `1d04f4bd` ✅ | `117a3e50.jpg` (216 KB) | 45 | 9.11 | 36.0 |
+| 4 `dd63298f` ✅ | `97a2ff8e.jpg` (188 KB) | 31 | 8.76 | 29.0 |
+| 5v2 `85d64987` ❌ | `7efc5cd5.jpg` (168 KB) | 23 | 7.69 | **24.1** |
+
+Sharpness = variance of Laplacian, 10 frames per clip, normalised to 1920x1080 gray.
+Bands do not overlap: Clip 2 measures 42–52 across its frames, Clip 5 measures 23–25.
+**Clip 5 has half the fine detail of Clip 2.**
+
+**The falling bitrate is a SYMPTOM here, not a cause** — fewer bits are spent because
+there is less detail to encode. `bitrate_mode: high` was working. Clip 5 v1's 1.55 Mbps
+was a genuinely separate fault (the `quality` parameter) and is 5x below even this
+drift.
+
+**Where the loss happens:** the re-generation, not the JPEG. Clip 2 renders 47.5, its
+seed JPEG reads 45 (−5%), Clip 3 then renders 36 (−20% against its own seed). PNG seeds
+would recover about a fifth of it; not chaining recovers the rest.
+
+**Decision needed from the user — nothing spent.** Options and costs are in the chat;
+the episode's Clips 3–6 are 57s total, which is TWO seedance generations rather than
+four chained ones, and merging them removes the chain entirely. See CLAUDE.md §4a.
+
 ### `mode: "omni_reference"` — a wrong conclusion, corrected in the same turn
 
 Before this submission an agent diffed the params against approved Clip 4, saw that

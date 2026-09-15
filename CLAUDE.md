@@ -562,6 +562,52 @@ any prompt, write down two things:
   nothing. **This is section 2's oldest rule — lock from an approved still,
   never from prose — applied to the SEAM instead of the set**, and it was the one
   place nobody had applied it.
+- **⚠️ THE START_IMAGE CHAIN DEGRADES THE PICTURE, GENERATION BY GENERATION, AND IT
+  COMPOUNDS. MEASURED ON EPISODE 3, 15 Sep 2026.** Seeding clip N+1 with a still cut
+  from clip N's output means every clip inherits the losses of every clip before it.
+  Sharpness is variance-of-Laplacian on 10 frames, normalised to 1920x1080 gray:
+
+  | Clip | seeded by | seed sharpness | clip Mbps | clip sharpness |
+  |---|---|---|---|---|
+  | 1 `faeb10ca` ✅ | none — t2v | — | 12.74 | 37.0 |
+  | 2 `fc416b16` ✅ | none — t2v | — | 11.08 | **47.5** |
+  | 3 `1d04f4bd` ✅ | JPEG of Clip 2's last frame | 45 | 9.11 | 36.0 |
+  | 4 `dd63298f` ✅ | JPEG of Clip 3's last frame | 31 | 8.76 | 29.0 |
+  | 5v2 `85d64987` ❌ | JPEG of Clip 4's last frame | 23 | 7.69 | **24.1** |
+
+  **Clip 5 has HALF the fine detail of Clip 2**, and the user asked "why does the
+  picture look blurry" only at Clip 5 — three clips after the slide began. The two
+  clips in the middle were approved while it was happening. **Nobody will catch this
+  by eye until it is already several generations deep, so MEASURE IT after every
+  seeded clip.**
+
+  **Two corrections to the bitrate story in §5a and §7 follow from this.** The fall
+  from 11.08 to 7.69 Mbps across Clips 2→5 is **a SYMPTOM, not a cause**: the encoder
+  spends fewer bits because there is less detail left to encode. `bitrate_mode: high`
+  was working the whole time. Clip 5 v1's collapse to **1.55 Mbps** was a genuinely
+  different event — that one was the `quality` parameter, and 7.3x is a different
+  order of magnitude from this drift. **Do not read a modest bitrate fall as a
+  parameter fault; check the sharpness first.**
+
+  Where the loss actually happens: the RENDER is the bigger term, not the JPEG.
+  Clip 2 renders at 47.5 and its seed JPEG reads 45 (−5%), then Clip 3 renders at 36
+  (−20% against its own seed). **The JPEG costs about a fifth of the loss and the
+  re-generation costs the rest**, so a lossless seed helps but does not fix it.
+
+  What to do, in order:
+  1. **DO NOT CHAIN. This is the real fix and §4a already argued for it on a
+     different ground.** `seedance_2_5` runs to 30 seconds and bills linearly, so
+     merging clips costs nothing extra AND removes a link from the chain. Episode 3's
+     Clips 3–6 are 12+15+15+15 = 57s — two generations instead of four, and the chain
+     goes from four links to one.
+  2. **When you must seed, seed as PNG, never JPEG.** `ffmpeg -sseof -0.15 -i clipN.mp4
+     -frames:v 1 frame.png`. The JPEGs used in Episode 3 were ffmpeg's default mjpeg
+     quality — 167–216 KB at 1080p — and that is a lossy step taken for free.
+  3. **Seed from the SHARPEST available source, not the most recent one.** A still from
+     Clip 2 is 47.5; a still from Clip 4 is 23. If the action allows it, reach back.
+  4. **Measure every seeded clip against the first clip of the episode** and say the
+     number out loud, the same as a credit cost.
+
 - **Better still, do not create the seam. One generation holds continuity for
   free.** `seedance_2_5` runs to **30 seconds** and bills linearly per second, so
   two 14s clips and one 28s clip cost exactly the same. Every seam is an
