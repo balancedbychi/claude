@@ -8,6 +8,68 @@ had to be re-rendered.
 
 ---
 
+# 🔒 THE LOCK CARD — READ THIS BEFORE EVERY SINGLE GENERATION
+
+**Three episodes have now lost credits to voice and quality faults. Every one of them
+was a value in this card being wrong. Check the card, not your memory.**
+
+## The two voices — this is the whole answer
+
+| Character | Voice element | UUID |
+|---|---|---|
+| **NIA** | `Nia-voice-v2-clear` | `12315c68-37de-41fe-8766-76ac07bcaf70` |
+| **CHICHI** | `ChiChi-Canon-Voice-v1` | `de50f37f-82fa-4a70-bdca-52355b2f4ca2` |
+
+**BOTH tags go in EVERY prompt where that woman speaks. Both. Every time.**
+There are exactly two voice elements in the account and these are them. Nothing else
+is a voice for these characters. `180fdb9a` is DELETED — if you see it anywhere but a
+historical record, it is stale.
+
+**Do not re-engineer which one "binds".** It was tested and it failed — 36 credits,
+job `a91ed33b`. Attaching ChiChi's alone made her WORSE (183.9 Hz against her correct
+160 Hz). Both attached, always. That configuration produced four approved clips.
+
+## The parameters that are not optional
+
+```
+bitrate_mode : "high"        ← PASS IT EXPLICITLY, EVERY TIME
+quality      : DO NOT PASS   ← passing it silently drops bitrate_mode to "standard"
+resolution   : "1080p"
+aspect_ratio : "16:9"
+model        : "seedance_2_5"
+```
+
+**`bitrate_mode` dropping to `standard` is what broke Episode 3 Clip 5.** Video quality
+fell 7.3x, and because ChiChi's voice is built BY the render, a degraded render gave a
+degraded voice — for both women. Nothing visible flagged it: `resolution` still read
+`1080p` and the cost was identical.
+
+## MANDATORY PRE-SUBMISSION CHECK — run it, do not skip it
+
+Before every `generate_video`, check all six and say the result out loud:
+
+1. `bitrate_mode: "high"` is in the params — **explicitly**
+2. no `quality` field is in the params
+3. Nia's `12315c68` tag is in the prompt (if she speaks)
+4. ChiChi's `de50f37f` tag is in the prompt (if she speaks)
+5. `180fdb9a` appears NOWHERE in the prompt
+6. ChiChi's block order is character → skin → age → hair → VOICE → wardrobe → ring
+
+**Then diff against the last approved clip.** Pull its `params` with `job_display` and
+compare field by field. **A parameter you do not send is one the server picks for
+you, and it does not pick the same thing twice.**
+
+A `.claude/hooks/` guard enforces items 1–5 mechanically. If it blocks a submission,
+it is right and the params are wrong — fix them, never bypass it.
+
+## When a render comes back wrong
+
+**Check the parameters BEFORE theorising about the model.** Episode 3 lost hours to an
+elaborate voice-binding theory when the actual cause was one wrong parameter. Pull the
+job payload, diff it against the last approved clip, and look at `bitrate_mode` first.
+
+---
+
 ## 1. THE SHOW
 
 A drama with satire in it — not a comedy. It sits on the relationship problems
@@ -685,12 +747,8 @@ the banner at the top of this section). **Because her voice is a render product,
 parameter that degrades the render degrades her voice — resolution, bitrate, duration,
 anything.** That is the real exposure, and it is much more actionable than the binding.
 
-**But the deletion of `180fdb9a` has made the binding experiment CLEAN.** It used to be
-useless: dropping Nia's tag would have handed the slot to the 219 Hz stranger. Now
-there are only two voice elements, so **removing Nia's voice tag leaves `de50f37f` — the
-voice the user has approved — as the only voice attached, and it would take the slot.**
-That is the first time this lever has been worth pulling. It still costs a test, it
-still trades Nia's stability for Chi's, and it is still never done without asking.
+**The binding lever was then tested and it FAILED — see below.** Do not revisit it.
+Both voice elements stay attached in every prompt.
 
 ### `180fdb9a` WAS NOT CHICHI — measured 15 Sep 2026, 2 credits, and it is why it was deleted
 
@@ -908,9 +966,12 @@ voice isn't British and that's not Chi's voice."* Both fixes had failed:
   her British accent and no revoice could put it back — confirmed by building a
   version with her ORIGINAL render audio untouched, where she is still not British.
   **An accent fault is a RENDER fault. Only a re-shoot fixes it.**
-- **`ChiChi-Canon-Voice-v1` `de50f37f` does NOT reproduce canon Chi.** Revoicing her
-  lines with it moved the pitch to 161.3 Hz, within 4 Hz of approved Clip 2 — and
-  the user still said it is not her voice. **Pitch matching is not identity.**
+- **A REVOICE built on `de50f37f` did not reproduce canon Chi.** Revoicing her lines
+  with it moved the pitch to 161.3 Hz, within 4 Hz of approved Clip 2 — and the user
+  still said it is not her voice. **Pitch matching is not identity.** Read this as a
+  fact about `voice_change`, NOT about the element: a revoice inherits the original
+  render's articulation, so a correct voice laid over a bad performance still sounds
+  wrong. The user later approved `de50f37f` by ear and adopted it as ChiChi's voice.
 
 **So the 0.9819 LTAS cosine in "It was verified before cloning" is NOT proof the
 clone is usable.** That measurement, and the pitch figures beside it, passed an
@@ -998,15 +1059,24 @@ Before the fix the two women were 17.9 Hz apart and **inverted** — ChiChi read
 higher than Nia, which is backwards for her. After, they are 24.7 Hz apart with
 ChiChi correctly the lower voice.
 
-**This is what `ChiChi-Canon-Voice-v1` `de50f37f` was cloned for.** Section 5a called
-it "the restore point if the synthesized voice ever drifts" and this is that case.
-It is still never put into a seedance prompt — it is a POST-PRODUCTION asset.
+**SUPERSEDED.** The last line of this paragraph used to read "it is still never put
+into a seedance prompt — it is a POST-PRODUCTION asset." That is now FALSE.
+`180fdb9a` was deleted on 15 Sep 2026 and `de50f37f` is ChiChi's tag in every prompt.
+See the Lock Card at the top of this file.
 
-### Nia's voice is different
+### How the two voices actually reach the screen — and why it changes nothing you DO
 
-Nia's cloned element `12315c68-37de-41fe-8766-76ac07bcaf70` **is** honoured and
-does produce her real voice. Hers is a genuine asset; Chi's is a recipe. Do not
-treat them the same way.
+Nia's `12315c68` is the element the model loads. ChiChi's `de50f37f` is attached but
+the model builds her voice from the prose around the tag instead. **That is a fact
+about the mechanism, not an instruction.** Both tags go in every prompt regardless —
+see the Lock Card. The difference is only in where the exposure lies:
+
+- **Nia's voice** is re-performed by the render but anchored to a real asset.
+- **ChiChi's voice** is entirely a render product, so **anything that degrades the
+  render degrades her** — bitrate above all.
+
+Neither is "safe" and neither needs re-engineering. Hold the parameters and the block
+order constant and both come back right; that is what the four approved clips prove.
 
 ---
 
