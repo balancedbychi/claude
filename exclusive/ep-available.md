@@ -922,7 +922,45 @@ model gives for free.
 
 ---
 
-## CLIP 3 — DELIVERED as `1e9fc185` ✅
+## CLIP 3 — APPROVED as `1d04f4bd` ✅
+
+| | |
+|---|---|
+| **Job** | `1d04f4bd-f292-43ba-b3c3-cd5934150b94` |
+| Spec | 1080p · 16:9 · high · 12s · 1920x1080, 24fps |
+| Prompt | `exclusive/prompts/ep3-clip03-DELIVERED-1d04f4bd.txt` — 16,555 chars |
+| Opened from | `117a3e50`, Clip 2's last frame, as start_image |
+| Cost | 108 credits |
+| Approved | by the user, 15 Sep 2026 |
+
+**This is the take that got both the script AND the voices right**, and it is the
+shape every later clip copies: **approved Clip 2's block order exactly, with the
+dialogue block lifted to the very top.** Sixteen blocks byte-identical to Clip 2,
+ChiChi's order character → skin → age → hair → VOICE → wardrobe → ring untouched,
+script at 1.9% into the prompt instead of 70%.
+
+⚠️ **The submission timed out without returning a job id.** The charge landed
+(transactions showed one −108 at 05:19:30) and the balance arithmetic confirmed a
+single charge, so it was NOT resubmitted. The id had to be recovered from
+`show_generations`, which lags by an hour or more. **On a transport timeout, check
+`transactions` and `balance` before doing anything else — never resubmit.**
+
+### The two takes it replaced
+
+| Job | Cost | What went wrong |
+|---|---|---|
+| `5dc24260` | 108 | prompt 19,875 chars — 3 of 6 lines invented |
+| `01486fee` | 108 | prompt 20,611 chars — **whole scene invented** |
+| `1e9fc185` | 108 | prompt cut to 8,775 — script perfect, **both voices broken** |
+
+The third is the instructive one: shortening the prompt fixed the dialogue and
+destroyed the voice recipe, because section 5a's recipe is the blocks SURROUNDING
+ChiChi's voice line, not the pinned text alone. Four credits of `voice_change` then
+failed to repair it — see section 5a.
+
+---
+
+## CLIP 3 — superseded record, `1e9fc185`
 
 | | |
 |---|---|
@@ -1085,12 +1123,13 @@ and came back with ChiChi's jacket missing, for 135 credits.
 |---|---|---|---|
 | 01 | 15s | **135** | ✅ SHOT — `faeb10ca` |
 | 02 | 16s | **144** | ✅ SHOT — `fc416b16` |
-| **03** | **12s** | **108** | ✅ SHOT — `1e9fc185` |
-| 04 | 16s | 144 | not shot |
+| **03** | **12s** | **108** | ✅ **APPROVED** — `1d04f4bd` |
+| **04** | **23s** | **207** | shooting — `dd63298f` |
 | 05 | 15s | 135 | not shot |
 | 06 | 9s | 81 | not shot |
-| **Total** | **83s** | **747** | **360 remaining** |
-| *rejected takes* | | *216 spent* | `5dc24260` and `01486fee`, both invented dialogue |
+| **Total delivered** | **81s** | **729** | |
+| *rejected takes* | | *324 spent* | `5dc24260`, `01486fee`, `1e9fc185` |
+| *voice_change attempts* | | *4 spent* | did not fix the voices |
 
 **The three re-sizes save 387 credits** against the original 1,134 plan, and they
 buy headroom rather than pixels. After Clips 1 and 2, **1,490.59 − 468 = 1,022.59
