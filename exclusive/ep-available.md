@@ -4,7 +4,7 @@
 **Status: PROPOSED — nothing locked, nothing spent.** Script revised to the user's
 brief on 14 Sep 2026. References not yet supplied.
 
-**Runtime:** 102 seconds · 6 clips
+**Runtime:** 94 seconds · 6 clips
 **Format:** One set, one table, one continuous conversation. Daytime.
 **Logline:** Twenty-one days in, Nia comes to Sucré to tell Chi that she and Dorian
 are going strong. Chi asks whether he is still dating other people. Nia has asked
@@ -83,8 +83,10 @@ down and Chi slides it across without a word. **It makes Chi warm before she is
 direct** — she is not prosecuting Nia, she is feeding her — and section 1's
 "comforting but direct" needs that or Clip 2 reads as an interrogation.
 
-It also sets the episode's clock. Chi arrived first, so **her cup starts lower than
-Nia's**, and both go down and neither is ever refilled.
+⚠️ **The cup LEVELS that were planned around this are superseded** — see "What the
+first frame of Clip 2 changed". Chi ordering ahead is still why the second cup is
+already on the table, and that beat is shot and stays. But the differential level
+never rendered, and the level is now a fixed constant rather than a clock.
 
 ---
 
@@ -100,8 +102,6 @@ Nia's**, and both go down and neither is ever refilled.
 | `Nia-voice-v2-clear` | `12315c68-37de-41fe-8766-76ac07bcaf70` | Honoured by seedance |
 | `ChiChi-the-Influencer-Voice` | `180fdb9a-7c0b-469e-be49-3f76692a3968` | Never honoured; stays in every prompt as part of Chi's pinned recipe |
 | `ChiChi-Canon-Voice-v1` | `de50f37f-82fa-4a70-bdca-52355b2f4ca2` | Restore point only. **Never in a seedance prompt.** |
-
-### NEEDED — three references, all from the user
 
 ### LOCKED — created 14 Sep 2026 from the user's three references
 
@@ -132,7 +132,7 @@ length on the things an image cannot carry:
 |---|---|
 | ChiChi | the gold watch as her only permitted wrist jewellery; the NO-RING rule named object by object, including nothing on the fourth finger of her left hand; nails deep red carried forward from Episode 2; garments tailored to her real full-figured proportions; the handbag logo never rendered as legible type |
 | Nia | the neckline never raised, lowered or swapped between clips; the choker rule — worn only if the reference leaves her throat bare, and NEVER added on top of fabric; both hands ring- and bracelet-free with correct five-finger anatomy |
-| Cups | exactly TWO, identical, one per woman, with every wrong alternative named; the levels only ever go DOWN and are never refilled; ChiChi's starts lower because she arrived first; the Sucré printing never rendered as legible type |
+| Cups | exactly TWO, identical, one per woman, with every wrong alternative named. ⚠️ Two clauses in this element are SUPERSEDED BY THE FOOTAGE and cannot be edited out because the description is write-once: the falling-level clock (the level is now fixed) and the never-legible branding (it renders, and the element itself is the source of the word) |
 
 Each also carries the framing note: this is a seated two-shot at a small round café
 table for the entire runtime, so boots, heels and both bags sit below frame. They
@@ -400,6 +400,78 @@ So "Nia." clusters with ChiChi's closing question more tightly than two known Ch
 
 ---
 
+## WHAT THE FIRST FRAME OF CLIP 2 CHANGED
+
+The user supplied a frame. Three things in it override decisions made blind.
+
+### 1. BOTH CUPS ARE A LITTLE UNDER HALF FULL, AND THE LEVEL IS NOW FIXED
+
+The prompt asked for ChiChi's cup just under halfway and **Nia's completely full**.
+What rendered is **both cups at the same level, a little under half** — the
+differential never appeared. The user: *"be sure to maintain that volume in clip 3."*
+
+**So the level is a CONSTANT, not a clock.** Both cups sit a little under half full
+in every remaining clip, at the same level as each other, never dropping and never
+rising. **Nobody drinks again for the rest of the episode.** Nia's first-drink beat
+in Clip 3 is cut and replaced with her hands closing around the cup where it stands
+— same time-buying action, no change to the level.
+
+**The cups-are-the-clock conceit is DEAD and must not be reintroduced.** It was
+written before any footage existed. A fixed level across six generations is far more
+reliable continuity than a falling one, because there is nothing left to drift — and
+the episode already has a real clock in the phone going face-down.
+
+### 2. THE BRANDING RENDERS, AND NO PROMPT CAN STOP IT
+
+The prompt carried section 5's fix in full — surface described as COMPLETELY BLANK,
+every wrong answer named, the word never written anywhere. **It rendered legibly
+anyway, on both cups.**
+
+**Because the word does not come from the prompt. It comes from the ELEMENT.**
+`Sucre-Coffee-Cups` says "the plastic Sucré coffee cup" and "the Sucré printing on
+the cup" in its own description, which is injected with the element — and that
+description is **write-once**.
+
+**Section 5's rule needs its limit stated: describing an absence only works when the
+prompt is the ONLY source of the string.** When an element supplies it, the element
+wins, and the choice is to accept it or rebuild the element.
+
+**Accepted, and pinned for consistency instead.** It reads correctly and legibly,
+which was the actual fear, and it is their own shop. Every remaining prompt asks for
+*the same small printed mark, in the same place, identical on both cups*, so the
+residual risk is drift between clips rather than the mark existing. **Check it every
+clip.**
+
+### 3. WHAT LOOKS RIGHT
+
+Nia screen LEFT, ChiChi screen RIGHT, three-quarter, turned inward, both faces
+readable and plainly looking at each other — the staging holds. Two background
+customers, seated and soft. Phone face-up on the marble between them. Bright
+daylight. Round marble pedestal table.
+
+**And the conditional choker rule worked exactly as written.** Nia's top is a halter
+with a large cowl collar at the throat, so her throat is covered — **no choker is
+visible and none was added on top of the fabric.** It was written not knowing which
+garment it was and it held either way, which is what section 5's
+keep-the-user's-words entry exists for.
+
+### TWO THINGS THAT NEED THE USER'S RULING
+
+Both are stated rules that appear broken in the frame, flagged from one compressed
+still rather than concluded:
+
+- **Nia appears to be wearing a RING.** Every prompt says both her hands are
+  entirely ring-free.
+- **ChiChi appears to be wearing a NECKLACE.** Every prompt says NO necklace, small
+  gold studs only.
+
+If either is real it is a re-take question for Clip 2, and the wording needs
+strengthening for the rest. ChiChi's ring negation is already at full strength but
+**Nia's is a single generic clause** — exactly the weak form section 5 says loses to
+a strong prior.
+
+---
+
 ## MANDATORY BLOCKS — IN ALL SIX PROMPTS, BYTE-IDENTICAL
 
 Both of these are carried forward **word for word** from
@@ -520,7 +592,7 @@ against both at once. Do not trim either half.
 
 ## THE SCRIPT
 
-Six clips, 102 seconds, one continuous conversation at one table. Daytime.
+Six clips, 94 seconds, one continuous conversation at one table. Daytime.
 Panavision Millennium XL2, Primo lenses, eye-level at seated height.
 
 ### Clip 01 — "Going strong" · 50mm · f/2.2 · no cuts · 15s
@@ -572,7 +644,7 @@ dangerous pair in the episode.** Section 7: lines under about a second are too s
 for the discriminator to separate, and adjacent short lines are where attribution
 slips. Name both wrong answers in the prompt.
 
-### Clip 03 — "That's fair" · 50mm · f/2.2 · no cuts · 17s
+### Clip 03 — "That's fair" · 50mm · f/2.2 · no cuts · 14s
 
 **The admission, and the reason the episode exists.**
 
@@ -597,7 +669,7 @@ winces; Nia does not.
 **Nia recites his three lines flat**, the way you repeat something you have gone
 over on your own many times. No impression, no male voice, no mimicry.
 
-### Clip 04 — "Available" · 50mm · f/2.2 · no cuts · 20s · ENDS ON A HOLD
+### Clip 04 — "Available" · 50mm · f/2.2 · no cuts · 19s · ENDS ON A HOLD
 
 > NIA: "Just say it."
 > CHICHI: "You don't want me to."
@@ -628,7 +700,7 @@ two women is the Episode 2 Clip 1 shape. The staging is Clip 5's because that is
 what resolved it. **Do not add a cut here to "help"** — that was tried three times
 and never once worked.
 
-### Clip 05 — "By now" · 50mm · f/2.2 · no cuts · 19s
+### Clip 05 — "By now" · 50mm · f/2.2 · no cuts · 17s
 
 > NIA: "When did you last get it wrong?"
 > CHICHI: "What?"
@@ -657,7 +729,7 @@ allowed to say it — and the retreat becomes necessary rather than polite. It a
 makes **"No. You're right."** enormous, because what Chi is agreeing with is the
 word "alone".
 
-### Clip 06 — "He's going to come" · 50mm · f/2.2 · slow push · 15s
+### Clip 06 — "He's going to come" · 50mm · f/2.2 · slow push · 13s
 
 > NIA: "He's going to come."
 > *(Chi says nothing.)*
@@ -717,15 +789,26 @@ replies and gets them.
 Clips 2–6 are re-sized on the measured figures: `words / 4.8` for speech, PLUS
 **0.28s** per line boundary, PLUS the wordless action actually wanted.
 
-| Clip | Words | Speech | Bnds | Wordless | Total | Density | Silence |
-|---|---|---|---|---|---|---|---|
-| 01 | 27 | 5.6s | 1.4s | 5.5s | **15s** shot | 1.80 | 58% measured |
-| 02 | 48 | 10.0s | 1.7s | 4.0s | **16s** | 3.00 | 36% |
-| 03 | 47 | 9.8s | 1.4s | 5.5s | **17s** | 2.76 | 41% |
-| 04 | 67 | 14.0s | 2.0s | 4.5s | **20s** | 3.35 | 32% |
-| 05 | 59 | 12.3s | 1.7s | 5.0s | **19s** | 3.11 | 35% |
-| 06 | 23 | 4.8s | 0.8s | 9.0s | **15s** | 1.53 | 66% |
-| | **271** | | | | **102s** | **2.66** | |
+| Clip | Words | Speech | Bnds | Wordless | Total | Silence |
+|---|---|---|---|---|---|---|
+| 01 | 27 | 5.6s | 1.4s | 5.5s | **15s** shot | 58% measured |
+| 02 | 48 | 10.0s | 1.7s | 4.0s | **16s** shot | 46% measured |
+| 03 | 47 | 9.8s | 1.4s | **3.2s** | **14s** | 33% |
+| 04 | 67 | 14.0s | 2.0s | **3.0s** | **19s** | 26% |
+| 05 | 59 | 12.3s | 1.7s | **3.2s** | **17s** | 29% |
+| 06 | 23 | 4.8s | 0.8s | **7.0s** | **13s** | 60% |
+| | **271** | | | | **94s** | |
+
+**THE USER'S NOTE AFTER SEEING CLIP 2: SHORTEN ALL THE PAUSES.** Every declared
+wordless beat in Clips 3–6 is cut, most roughly in half, and the containers come
+down with them: 17/20/19/15 becomes **14/19/17/13**. Clip 6 keeps the most silence
+because it is the button and 60% of it is the point.
+
+**This is the third correction to section 6's arithmetic from this episode and the
+only one that came from eyes rather than measurement.** The first two were numbers
+— 4.80 w/s then 5.57, and boundaries at 0.28s not 0.45s. This one is judgement, and
+the numbers could not have produced it: 46% silence measured as an improvement on
+58% and still played long.
 
 **Clip 1 at the measured rate would have been 13 seconds, not 15.** That two-second
 over-provision is exactly the 58% silence, and it is the whole argument for
@@ -756,7 +839,7 @@ data point.**
 | Resolution | **1080p — LOCKED 14 Sep 2026** |
 | Aspect | 16:9 |
 | Bitrate | high |
-| Clip length | per clip, 15–20s |
+| Clip length | per clip, 13–19s |
 
 Resolution is picked once, before the first clip, and held for the whole episode.
 It is the only free moment. Section 7: **"make it higher resolution" means upscale,
@@ -772,17 +855,17 @@ and came back with ChiChi's jacket missing, for 135 credits.
 
 | Clip | Length | 1080p | status |
 |---|---|---|---|
-| 01 | 15s | **135** | ✅ SHOT — `faeb10ca`, billed 135 |
-| 02 | 16s | 144 | written, priced, not shot |
-| 03 | 17s | 153 | |
-| 04 | 20s | 180 | |
-| 05 | 19s | 171 | |
-| 06 | 15s | 135 | |
-| **Total** | **102s** | **918** | **783 remaining** |
+| 01 | 15s | **135** | ✅ SHOT — `faeb10ca` |
+| 02 | 16s | **144** | ✅ SHOT — `fc416b16` |
+| 03 | 14s | 126 | written, priced, not shot |
+| 04 | 19s | 171 | |
+| 05 | 17s | 153 | |
+| 06 | 13s | 117 | |
+| **Total** | **94s** | **846** | **567 remaining** |
 
 **The re-size saves 216 credits** against the old 1,134 plan, and it buys headroom
-rather than pixels: 1,634.59 − 783 = **851.59 left after the whole episode**, about
-**five average re-takes** instead of three.
+rather than pixels. After Clips 1 and 2, **1,490.59 − 567 = 923.59 left once the
+episode is finished** — roughly **six and a half average re-takes** of headroom.
 
 **Balance after Clip 1: 1,634.59 credits.**
 
