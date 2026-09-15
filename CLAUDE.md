@@ -713,14 +713,52 @@ episode.
 the same text. Content and delivery then cancel out and the difference that
 remains is identity.
 
-### `voice_change` — the post-production route around the binding limit
+### `voice_change` — TESTED, 2 CREDITS, AND IT WORKS ON A TWO-HANDER
 
 `voice_change` replaces the spoken voice in a finished video while keeping the
 original timing and visuals, taking a completed job_id and a voice_id of either
-type. It is the one tool that sidesteps the one-element-per-generation limit
-entirely, because it runs AFTER the render. Untested here, and it appears to
-revoice the whole clip rather than one speaker — so expect it to suit
-single-speaker shots rather than a two-hander.
+type. It runs AFTER the render, so it sidesteps the one-element-per-generation
+limit entirely.
+
+**It costs 2 CREDITS.** There is no `get_cost` on it, so it cannot be preflighted —
+but the figure is now measured, from `transactions`, twice. Against **108 credits to
+re-shoot a 12s clip at 1080p, that is 54x cheaper**, and unlike a re-shoot it cannot
+re-roll the picture. Episode 3 Clip 3 had correct dialogue and staging with wrong
+voices, and re-generating would have thrown away everything that was right — the
+same mistake as the Episode 2 jacket.
+
+**WHEN ONLY THE VOICES ARE WRONG, NEVER RE-SHOOT. REVOICE.** The user asked "why is
+it 108 credits, I want to use the same clip" and was completely right.
+
+**It applies ONE voice to the WHOLE clip** — there is no per-speaker parameter, only
+`video_id`, `voice_id`, `voice_type`. That does not rule out a two-hander; it just
+means two passes and a splice:
+
+1. `voice_change` with speaker A's element → whole clip in A's voice. 2 credits.
+2. `voice_change` with speaker B's element → whole clip in B's voice. 2 credits.
+3. In the sandbox, for **zero credits**, take each speaker's lines from her own
+   render and crossfade them together, then mux onto the original video track.
+   Put the splice boundaries INSIDE the silent gaps between lines, with a ~40ms
+   equal-power crossfade at each edge, and the joins are inaudible.
+
+**Timing survives.** The two revoiced renders came back at 12.042s against the
+original 12.050s — 8ms, so the original line timestamps still locate the splice
+points. Verify anyway before cutting.
+
+**Measured result on Episode 3 Clip 3:**
+
+| | Before | After revoice | Target (approved Clip 2) |
+|---|---|---|---|
+| ChiChi | 188.1 Hz | **161.3 Hz** | 165.2 Hz |
+| Nia | 170.2 Hz | **186.0 Hz** | 207.8 Hz / element reads 183.9 |
+
+Before the fix the two women were 17.9 Hz apart and **inverted** — ChiChi reading
+higher than Nia, which is backwards for her. After, they are 24.7 Hz apart with
+ChiChi correctly the lower voice.
+
+**This is what `ChiChi-Canon-Voice-v1` `de50f37f` was cloned for.** Section 5a called
+it "the restore point if the synthesized voice ever drifts" and this is that case.
+It is still never put into a seedance prompt — it is a POST-PRODUCTION asset.
 
 ### Nia's voice is different
 
@@ -1019,6 +1057,19 @@ nothing. Shortening the clip does, because the slack disappears.
   **Escalating the wording is what caused this.** Every fix across three passes added
   text, and each addition pushed the script further down. When adherence drops, DELETE
   rather than add.
+- **THE DIALOGUE FIX AND THE VOICE RECIPE PULL AGAINST EACH OTHER. Satisfy both by
+  moving the script UP, never by deleting the blocks around ChiChi's voice line.**
+  Shortening Episode 3 Clip 3's prompt from 20,611 to 8,775 chars got every word of
+  the script back — and broke both voices, because section 5a's recipe is not the two
+  pinned blocks alone, it is **the blocks that surround them**. The cut moved her
+  voice line four positions earlier and deleted both wardrobe blocks that sit either
+  side of it in the approved takes. The pinned text was still byte-identical; the
+  neighbourhood was not.
+  The working shape is **approved Clip 2's block order exactly, with the dialogue
+  block lifted to the very top** — script at 1.9% in rather than 70%, everything else
+  untouched, ~16,500 chars. That keeps the one change that fixed the words and
+  restores the one thing that carried the voices. **ChiChi's order is
+  character → skin → age → hair → VOICE → wardrobe → ring, and it does not move.**
 - **Read the WHOLE prompt start to finish before submitting it.** Prompts here
   are rewritten in place across many edits and contradictions survive. A final
   read of Episode 2 Clip 5 caught two stale "three seconds" left over from a
