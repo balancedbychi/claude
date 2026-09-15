@@ -1548,6 +1548,75 @@ would recover about a fifth of it; not chaining recovers the rest.
 the episode's Clips 3–6 are 57s total, which is TWO seedance generations rather than
 four chained ones, and merging them removes the chain entirely. See CLAUDE.md §4a.
 
+## CLIP 5 v4 — `f1434309` — WINDOW CHANGED TO A REAL EXTERIOR
+
+The user supplied a frame from `fba2cfc5` and ruled: *"The update worked. Re-batch clip 5
+with the background change. Outside window there are trees, a man and a woman, a bench.
+Not a reflection of the coffee shop."*
+
+| | |
+|---|---|
+| **Job** | `f1434309-3fd8-438a-9e10-450bead2bce5` |
+| Prompt | `exclusive/prompts/ep3-clip05-v4-DELIVERED-f1434309.txt` (19,940 chars) |
+| Cost | **135 credits.** Balance 9,304.46 → 9,169.46 |
+
+### The window change is measurable
+
+Green-excess = mean(G − (R+B)/2) over the window band, four frames:
+
+| | window band | room (lower third) |
+|---|---|---|
+| `fba2cfc5` | **−1.68** | −2.15 |
+| **`f1434309`** | **+19.42** | −3.16 |
+
+Strong foliage green in the window and none in the room. **This is a good cheap test for
+"is the glass showing outdoors or mirroring the set"** — a reflection of this café reads
+pink and warm, an exterior with trees reads green, and the two are ~21 points apart.
+
+### Sharpness went up again
+
+| | Mbps | sharpness |
+|---|---|---|
+| approved Clip 2 | 11.08 | 47.5 |
+| `fba2cfc5` t2v | 9.39 | 50.3 |
+| **`f1434309` t2v** | **10.95** | **57.6 (53–61)** |
+
+Sharpest in the series. t2v is confirmed twice now.
+
+### ⚠️ ONE LINE DID NOT RENDER — and the cause is almost certainly length
+
+**Nia's line 5, "...Chi—", is absent.** 6 of 7 lines, 58 of 59 words. Proven from the
+audio, not the transcript alone: 10.7–11.3s sits at **−45.1 dBFS, 22.1 dB below her
+speech level** — room tone, no word.
+
+| prompt | chars | line 5 "...Chi—" |
+|---|---|---|
+| v3 `fba2cfc5` | 19,554 | rendered (whisper heard "Chi Chi") |
+| **v4 `f1434309`** | **19,940** | **absent** |
+
+**+386 characters and the shortest line in the clip dropped.** That is §7's length effect
+at a much finer grain than the earlier evidence, which only ever showed whole runs of
+dialogue lost from a prompt's BOTTOM. Here the dialogue block is at 1.6% depth and the
+line still went. **The takeaway: a one-word line is the first thing a long prompt drops,
+and 19,554 is a safer ceiling than 19,940 for this shot.** If the line is wanted back,
+cut ~400 characters — do not re-roll blindly.
+
+### Voices — ChiChi's best raw render yet, no revoice applied
+
+| | Nia | ChiChi | apart |
+|---|---|---|---|
+| approved Clip 2 | 205.1 Hz | **158.4 Hz** | 46.7 |
+| `fba2cfc5` | 171.1 Hz | 146.8 Hz | 24.3 |
+| **`f1434309`** | 175.8 Hz | **156.9 Hz** | 18.9 |
+
+**ChiChi lands 1.5 Hz from approved with NO revoice** — the closest she has ever measured
+in a raw render. **No `voice_change` was applied, deliberately**: a revoice would move her
+off a number she has already hit. Nia still reads ~29 Hz below her approved take.
+
+Also verified: single unbroken take (frame-diff max 2.68× mean), 15.05s, HEVC 1920×1080.
+
+---
+
 ## CLIP 5 RE-SHOT AS t2v — `fba2cfc5` — THE PICTURE IS FIXED
 
 The user: *"you were charging me for 1080p and I'm not getting 1080p... I can barely
