@@ -663,7 +663,16 @@ dangerous pair in the episode.** Section 7: lines under about a second are too s
 for the discriminator to separate, and adjacent short lines are where attribution
 slips. Name both wrong answers in the prompt.
 
-### Clip 03 — "That's fair" · 50mm · f/2.2 · no cuts · 12s
+### Clips 03+04 — SHOT AS ONE 28s TAKE · 50mm · f/2.2 · no cuts · opens from Clip 2's last frame
+
+**The user chose the merge and the start_image, 15 Sep 2026.** These two are no
+longer separate generations: one 28-second take, 117 words, 17 lines, beginning
+from `117a3e50` — the real last frame of Clip 2. Same 252 credits as the two clips
+apart, with the seam between them removed entirely. **Cup level, seating, rings and
+wardrobe fit are no longer written as numbers or descriptions at all** — the prompt
+points at the frame and says the frame wins.
+
+#### The Clip 3 half — "That's fair"
 
 **The admission, and the reason the episode exists.**
 
@@ -688,7 +697,7 @@ winces; Nia does not.
 **Nia recites his three lines flat**, the way you repeat something you have gone
 over on your own many times. No impression, no male voice, no mimicry.
 
-### Clip 04 — "Available" · 50mm · f/2.2 · no cuts · 16s · ENDS ON A HOLD
+#### The Clip 4 half — "Available" · ENDS ON THE HOLD THAT ENDS THE TAKE
 
 > NIA: "Just say it."
 > CHICHI: "You don't want me to."
@@ -710,11 +719,11 @@ read land as observation rather than opinion.** She is not guessing at him. She 
 repeating back what Nia just told her.
 
 **Chi sets her cup down before the verdict** — she is still, so her one deliberate
-movement in twenty-seven seconds is the loudest thing she does, and it lands right
+movement in twenty-eight seconds is the loudest thing she does, and it lands right
 before the most useful sentence she says. Same mechanic as the glass on the rail in
 Episode 2 Clip 5. **The cup stays where she set it for the rest of the episode.**
 
-⚠️ **Longest clip at 27s and the most dangerous.** Eight lines alternating between
+⚠️ **Now the back half of the merged 28s take, and the most dangerous stretch in the episode.** Eight lines alternating between
 two women is the Episode 2 Clip 1 shape. The staging is Clip 5's because that is
 what resolved it. **Do not add a cut here to "help"** — that was tried three times
 and never once worked.
@@ -986,15 +995,15 @@ and came back with ChiChi's jacket missing, for 135 credits.
 `get_cost` on `seedance_2_5` at 16s and 27s confirms the rate is linear:
 **1080p 9.0 credits/s · 720p 6.5 · 480p 2.5.**
 
-| Clip | Length | 1080p | status |
+| Take | Length | 1080p | status |
 |---|---|---|---|
 | 01 | 15s | **135** | ✅ SHOT — `faeb10ca` |
 | 02 | 16s | **144** | ✅ SHOT — `fc416b16` |
-| 03 | 12s | 108 | written, priced, not shot |
-| 04 | 16s | 144 | |
-| 05 | 15s | 135 | |
-| 06 | 9s | 81 | |
-| **Total** | **83s** | **747** | **468 remaining** |
+| ~~03 alone~~ | ~~12s~~ | ~~108~~ | ❌ SHOT AND REJECTED — `5dc24260`, spent |
+| **03+04 merged** | **28s** | **252** | written, priced, not shot |
+| **05+06 merged** | **24s** | **216** | |
+| **Total delivered** | **83s** | **747** | **468 remaining** |
+| *plus the rejected take* | | *108 spent* | |
 
 **The three re-sizes save 387 credits** against the original 1,134 plan, and they
 buy headroom rather than pixels. After Clips 1 and 2, **1,490.59 − 468 = 1,022.59
