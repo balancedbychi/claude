@@ -130,8 +130,8 @@ length on the things an image cannot carry:
 
 | | what the description adds that the picture cannot |
 |---|---|
-| ChiChi | the gold watch as her only permitted wrist jewellery; the NO-RING rule named object by object, including nothing on the fourth finger of her left hand; nails deep red carried forward from Episode 2; garments tailored to her real full-figured proportions; the handbag logo never rendered as legible type |
-| Nia | the neckline never raised, lowered or swapped between clips; the choker rule — worn only if the reference leaves her throat bare, and NEVER added on top of fabric; both hands ring- and bracelet-free with correct five-finger anatomy |
+| ChiChi | the gold watch as her only permitted wrist jewellery; the NO-RING rule named object by object, including nothing on the fourth finger of her left hand; nails deep red carried forward from Episode 2; garments tailored to her real full-figured proportions; the handbag logo never rendered as legible type. ⚠️ Its *"NO necklace, small gold studs only"* clause is SUPERSEDED — she wears a necklace from Clip 2 on, by the user's ruling, and every prompt from Clip 3 overrides that one sentence. **The NO-RING rule is untouched by that and still absolute.** |
+| Nia | the neckline never raised, lowered or swapped between clips; the choker rule — worn only if the reference leaves her throat bare, and NEVER added on top of fabric; both hands ring- and bracelet-free with correct five-finger anatomy. ⚠️ The ring-free half is SUPERSEDED — she wears a gold ring from Clip 2 on, by the user's ruling, and every prompt from Clip 3 overrides it and pins the ring to the same hand and finger |
 | Cups | exactly TWO, identical, one per woman, with every wrong alternative named. ⚠️ Two clauses in this element are SUPERSEDED BY THE FOOTAGE and cannot be edited out because the description is write-once: the falling-level clock (the level is now fixed) and the never-legible branding (it renders, and the element itself is the source of the word) |
 
 Each also carries the framing note: this is a seated two-shot at a small round café
@@ -455,20 +455,39 @@ visible and none was added on top of the fabric.** It was written not knowing wh
 garment it was and it held either way, which is what section 5's
 keep-the-user's-words entry exists for.
 
-### TWO THINGS THAT NEED THE USER'S RULING
+### TWO BROKEN RULES, AND THE USER RULED THEM IN — RESOLVED
 
-Both are stated rules that appear broken in the frame, flagged from one compressed
-still rather than concluded:
+Both were flagged from the frame as stated rules that appeared broken:
 
-- **Nia appears to be wearing a RING.** Every prompt says both her hands are
-  entirely ring-free.
-- **ChiChi appears to be wearing a NECKLACE.** Every prompt says NO necklace, small
-  gold studs only.
+- **Nia is wearing a RING.** Every prompt says both her hands are entirely
+  ring-free.
+- **ChiChi is wearing a NECKLACE.** Every prompt says NO necklace, small gold studs
+  only.
 
-If either is real it is a re-take question for Clip 2, and the wording needs
-strengthening for the rest. ChiChi's ring negation is already at full strength but
-**Nia's is a single generic clause** — exactly the weak form section 5 says loses to
-a strong prior.
+**The user's ruling: *"It's ok that nia is wearing a ring and Chi a necklace. Their
+style can change from day to day."*** No re-take. Both stay, and the standing
+jewellery lines are reclassified as per-episode STYLE rather than permanent facts —
+written up in CLAUDE.md section 3 under "Jewellery is STYLE, except the ring".
+
+**What that does NOT touch is ChiChi's ring.** The ruling names a necklace on Chi
+and a ring on Nia. ChiChi's hands stay bare, because that rule is not styling — it
+is the ache the character sits on, and CLAUDE.md says a wedding ring on her
+contradicts the show. A style note is not permission to move it.
+
+**What it costs: three write-once element clauses are now contradicted by approved
+footage**, and none can be edited out. They have to be overridden in the prompt,
+every prompt, from Clip 3 on:
+
+| Clause, and where it lives | What the footage says | How Clip 3+ handles it |
+|---|---|---|
+| ChiChi block: *"NO necklace, small gold studs only"* | she wears a fine gold chain | ⚠️ override clause after the block, correcting **that sentence only** and restating that the no-ring rule is NOT relaxed |
+| Nia block: *"Both of Nia's hands are entirely ring-free and bracelet-free"* | she wears a gold ring | ⚠️ override clause after the block, pinning the ring to the same hand and finger |
+| `Sucre-Coffee-Cups` element: the falling-level clock and the never-legible branding | level is fixed; the branding renders | already recorded above under the cups |
+
+**And the override is a LOCK, not a permission.** Style changing between episodes
+changes nothing within one: whatever each woman has on in Clip 2 she has on in
+Clips 3–6, same piece, same hand, same finger. The appearance rule binds the
+jewellery exactly as it binds the hair.
 
 ---
 

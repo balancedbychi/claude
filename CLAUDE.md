@@ -116,6 +116,18 @@ highest-leverage rule in this file.
   travel with it; rules stored in your head do not.
 - **Mark superseded elements explicitly** so a later session cannot pick up a
   stale one. Old elements are never deleted, only retired in the registry.
+- **An element description is WRITE-ONCE, so put only DURABLE facts in it and leave
+  anything a take might revise to the prompt.** Episode 3 has three clauses inside
+  live elements that the footage overruled and that cannot be edited out: the cup
+  level (written as a falling clock, rendered as a fixed level), the cup branding
+  (written as never legible, renders legibly — and the element is itself the source
+  of the word), and the jewellery rules (written as absolute, relaxed by the user).
+  None of them can be corrected in place; each has to be **overridden in every
+  prompt and recorded as superseded in the episode file.** The lesson going forward
+  is about what belongs in a description at all: identity, materials, quantities and
+  the rules that never move. **A level, a look or a styling choice is a take
+  decision, and putting it in a write-once description guarantees a contradiction
+  the first time the user changes their mind.**
 - **The saved element descriptions still say "The Standard Society". Leave them.**
   The series was renamed to EXCLUSIVE after Episode 1 was shot. Every locked
   element — both rooms, both characters, both voices — carries the old name in
@@ -276,8 +288,9 @@ These are series-wide, not per-episode, and belong in every prompt she appears i
 - **She wears NO RING. Ever.** Not on any finger of either hand, and specifically
   nothing on the fourth finger of her left hand. This is not only continuity: she
   wants a child and has no partner, and that is the ache the whole character sits
-  on. A wedding ring on ChiChi contradicts the show. Her gold watch remains the
-  single permitted exception to her jewellery rule.
+  on. A wedding ring on ChiChi contradicts the show.
+  **This one is a CHARACTER FACT and it does not relax.** Distinguish it from the
+  rest of her jewellery, which is style and does relax — see below.
 - **Her skin is CLEAR, and she does not get aged.** The user's note: *"She may be
   40 but she has beautiful skin."* Even, smooth, luminous, firm, in focus, with
   natural pore texture. **The model reaches for age markers for exactly the same
@@ -293,6 +306,29 @@ These are series-wide, not per-episode, and belong in every prompt she appears i
   which separately writes against BOTH meanings of "unclear" — blotchy and uneven
   AND soft and out of focus — because an agent who cannot see the render does not
   know which one it got.
+
+### Jewellery is STYLE, except the ring — the user's ruling, Episode 3
+
+**"Their style can change from day to day."** The user's words, ruling on a frame
+where Nia wore a ring and ChiChi wore a necklace against prompts that forbade both.
+So the standing jewellery lines are **per-episode style, not permanent facts**:
+
+- **Nia's hands are not permanently ring-free.** She may wear rings, and does in
+  Episode 3.
+- **ChiChi's "NO necklace, small gold studs only" is not permanent.** She wears a
+  necklace in Episode 3.
+- **ChiChi's gold watch** stays her established wrist piece.
+
+**The one thing that does NOT move is ChiChi's ring**, because it is not style — it
+is the ache the character sits on. **Never read a style ruling as relaxing it.** If
+the user approves a ring on ChiChi, that is a change to the character and it should
+be confirmed as one, not inferred from a note about jewellery.
+
+**And style changing BETWEEN episodes changes nothing WITHIN one.** The appearance
+rule below still binds: inside one continuous conversation nothing changes at all,
+so whatever jewellery lands in the first shot clip is identical in every later clip
+of that episode. A ring that appears, vanishes or moves fingers mid-scene is the
+same failure as hair switching sides.
 
 ### The appearance rule — treat it like a real actor on a real shoot
 
