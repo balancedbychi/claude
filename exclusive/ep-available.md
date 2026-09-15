@@ -1472,6 +1472,47 @@ in the same room.
 
 ### Awaiting the user's decision — nothing spent
 
+### ✅ CLIP 5 FIXED BY REVOICE — `16a6563f`, 2 credits, media `5c106558`
+
+The user's ruling, after the re-shoot was rejected: *"The voice for Chi is literally
+ChiChi Canon voice V1. It is literally the voice we need. I don't need to delete the
+other voice. We need to just use ChiChi Canon voice V1."* **`de50f37f` is Chi's voice,
+settled, and the deleted element is closed.**
+
+**The swap was never the real problem — attaching Chi's element has NEVER played it.**
+seedance binds one voice element per generation and Nia's `12315c68` sorts first, so
+in every clip of three episodes ChiChi's tag has been attached and ignored, and her
+voice re-improvised by the renderer. That is why she drifts and Nia does not. No
+choice of Chi element could have fixed it and the 135-credit re-shoot was the wrong
+tool.
+
+`voice_change` runs after the render, so the binding limit does not apply.
+
+| | ChiChi median f0 | vs approved Clip 2 |
+|---|---|---|
+| approved Clip 2 `fc416b16` | **158.4 Hz** | — |
+| re-shoot `85d64987`, rejected | 146.8 Hz | 11.6 Hz low |
+| **revoiced with `de50f37f`** | **158.4 Hz** | **exact** |
+
+| | |
+|---|---|
+| **Revoice job** | `16a6563f-ba33-4667-8ca8-a24d602ed939` |
+| **Delivered media** | `5c106558-36f9-4c1c-96f1-548f1a3d3a6b` |
+| Source | `85d64987` — picture untouched, `-c:v copy` |
+| Cost | **2 credits.** No `get_cost` on `voice_change`; figure measured from `transactions` |
+| Duration | 15.042s vs 15.050s original — 8ms, all 7 lines intact |
+
+**Only ChiChi was revoiced. Nia's original render audio and the room are untouched** —
+she was right in this take, so she was left alone. One variable.
+
+Splice: revoiced regions **1.43→2.15** and **11.27→14.85**, 30ms equal-power
+crossfades, Chi's speech level-matched at **+4.65 dB** (x1.708), last region stopped
+before the tail so the original ambience carries the final hold. Zero credits for all
+of it. Full recipe in CLAUDE.md §5a.
+
+**Awaiting the user's ear.** If this is Chi, the same 2-credit pass fixes Clip 6 and
+every future clip, and ChiChi's voice stops being a re-roll.
+
 ### `mode: "omni_reference"` — a wrong conclusion, corrected in the same turn
 
 Before this submission an agent diffed the params against approved Clip 4, saw that

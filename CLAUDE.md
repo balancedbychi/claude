@@ -13,57 +13,36 @@ had to be re-rendered.
 **Three episodes have now lost credits to voice and quality faults. Every one of them
 was a value in this card being wrong. Check the card, not your memory.**
 
-## ⛔ CHICHI'S VOICE ELEMENT IS UNRESOLVED — 15 Sep 2026. DO NOT SHOOT HER UNTIL THE USER RULES.
-
-**Every ChiChi the user has ever approved was rendered with `180fdb9a` ATTACHED.
-Every ChiChi rendered with `de50f37f` has been REJECTED. Four for four against
-zero for two.** Confirmed from the stored `reference_elements` of every delivered
-job, not from a theory:
-
-| Clip | ChiChi element attached | `bitrate_mode` | ChiChi verdict |
-|---|---|---|---|
-| 1 `faeb10ca` | `180fdb9a` | high | ✅ approved |
-| 2 `fc416b16` | `180fdb9a` | high | ✅ approved |
-| 3 `1d04f4bd` | `180fdb9a` | high | ✅ approved |
-| 4 `dd63298f` | `180fdb9a` | high | ✅ approved |
-| 5 `f8a62247` | `180fdb9a` | **standard** | ❌ both voices wrong |
-| 5 v2 `85d64987` | **`de50f37f`** | high | ❌ **ChiChi wrong** |
-| test `a91ed33b` | **`de50f37f` alone** | high | ❌ worst Chi ever measured |
-
-**`180fdb9a` is deleted, so the approved configuration currently cannot be
-reproduced.** Only `de50f37f` and Nia's `12315c68` exist — confirmed via
-`list_voices`, one slot free. Whether the delete is reversible in the Higgsfield
-web UI is the user's to check and nobody has.
+## The two voices — SETTLED BY THE USER, 15 Sep 2026
 
 | Character | Voice element | UUID |
 |---|---|---|
 | **NIA** | `Nia-voice-v2-clear` | `12315c68-37de-41fe-8766-76ac07bcaf70` |
-| **CHICHI — settled** | *(none)* | `180fdb9a` deleted · `de50f37f` rejected ×2 |
+| **CHICHI** | `ChiChi-Canon-Voice-v1` | `de50f37f-82fa-4a70-bdca-52355b2f4ca2` |
 
-**Nia's tag goes in every prompt she speaks in. ChiChi's is an open question and a
-135-credit one; put it to the user before you shoot her, every time, until this
-card says otherwise.**
+The user's words: *"The voice for Chi is literally ChiChi Canon voice V1. It is
+literally the voice we need."* That is the ruling. `180fdb9a` is deleted, it is not
+coming back, and **it is not an agent's business to relitigate either fact.**
 
-### THE MISTAKE THAT CAUSED THIS — do not repeat its SHAPE
+## ⚠️ ATTACHING CHI'S VOICE ELEMENT HAS NEVER ONCE PLAYED IT. THE REVOICE IS WHAT USES IT.
 
-`180fdb9a` was measured in isolation via TTS at **219.2 Hz**, 59 Hz above approved
-ChiChi, and on that measurement an agent said it "was not her voice" and recommended
-deleting it. The user did. **The measurement was right about what the element sounds
-like ON ITS OWN and wrong about what it DOES in a render** — it was never played
-back, it was part of the input pool, and that pool produced a 160 Hz ChiChi four
-times running. Swapping it for `de50f37f` moved BOTH women down: ChiChi 160.0 → 148.1
-and Nia 205.1 → 178.8. **An attached voice element is not inert just because it does
-not "bind".**
+**This is the single most important mechanical fact in this file and three episodes
+were built without it being understood.**
 
-**So: never measure a component in isolation and draw a conclusion about the render.
-And never recommend deleting an asset that is present in an approved result** — the
-approved configuration is the only thing this series has that works, and it is not
-recoverable once a piece of it is gone.
+`seedance_2_5` binds **exactly ONE** voice element per generation and takes the
+lowest-sorting UUID. `12315c68` sorts before `de50f37f`, so **Nia's element is loaded
+and ChiChi's is ignored — in every clip of every episode.** Her voice has been
+re-improvised by the renderer on every single take. That is the whole reason Nia's
+voice is stable and ChiChi's drifts, and no amount of prompt wording changes it.
 
-**Do not re-engineer which one "binds".** It was tested and it failed — 36 credits,
-job `a91ed33b`. Attaching ChiChi's `de50f37f` alone made her WORSE (183.9 Hz against
-her correct 160 Hz). Both voice elements attached, Nia's binding, is the shape of
-every approved clip.
+**So swapping WHICH Chi element sits in the prompt cannot fix her voice, because
+neither one is ever used.** That swap was tried anyway and cost the Clip 5 re-shoot
+`85d64987`, 135 credits — see §5a.
+
+**`voice_change` runs AFTER the render, so the one-element limit does not apply. It is
+the only way to put a saved voice on ChiChi.** 2 credits, 67x cheaper than a re-shoot,
+and it cannot re-roll a single frame of approved picture. **When ChiChi's voice is
+wrong, REVOICE — never re-shoot.** The recipe, with measured results, is in §5a.
 
 ## The parameters that are not optional
 
@@ -87,10 +66,12 @@ Before every `generate_video`, check all six and say the result out loud:
 1. `bitrate_mode: "high"` is in the params — **explicitly**
 2. no `quality` field is in the params
 3. Nia's `12315c68` tag is in the prompt (if she speaks)
-4. **exactly ONE** ChiChi voice tag is in the prompt (if she speaks), and it is the
-   one the USER last ruled on — never both, never neither, never your own pick
-5. that ruling is recorded in the episode file, with the job it produced
+4. ChiChi's `de50f37f` tag is in the prompt (if she speaks)
+5. `180fdb9a` appears NOWHERE in the prompt — it is deleted and points at nothing
 6. ChiChi's block order is character → skin → age → hair → VOICE → wardrobe → ring
+
+**And if the clip is being shot to fix CHICHI'S VOICE, stop — it is the wrong tool.
+Revoice the footage you have. See the banner above.**
 
 **Then diff against the last approved clip.** Pull its `params` with `job_display` and
 compare field by field. **A parameter you do not send is one the server picks for
@@ -1080,6 +1061,50 @@ anything on it.
 **The one thing that has ever produced both correct voices is a seedance render with
 the approved block order.** Clip 2 is the proof. When voices are wrong, re-shoot on
 Clip 2's structure — see section 7's rule on the dialogue/voice tension.
+
+### ✅ THE REVOICE THAT WORKED — Ep3 Clip 5, 2 credits, job `16a6563f`
+
+**This is the procedure. It is cheap, it is repeatable, and it is the only thing that
+has ever put ChiChi's saved element onto ChiChi.**
+
+The user rejected the 135-credit re-shoot `85d64987` for Chi's voice and then ruled:
+*"The voice for Chi is literally ChiChi Canon voice V1."* One `voice_change` pass
+delivered exactly that:
+
+| | median f0 | vs approved Clip 2 |
+|---|---|---|
+| **ChiChi — approved Clip 2 `fc416b16`** | **158.4 Hz** | — |
+| ChiChi — re-shoot `85d64987`, rejected | 146.8 Hz | 11.6 Hz low |
+| **ChiChi — revoiced with `de50f37f`** | **158.4 Hz** | **exact** |
+
+**Timing survives**: 15.042s against the original 15.050s, 8ms, so the original line
+timestamps still locate every splice point. All seven lines intact in the transcript.
+
+#### The recipe
+
+1. **Revoice ONE speaker only if only one is wrong.** Nia was right in this take, so
+   she was left completely untouched — one variable, per §7. `voice_change` with
+   `video_id` = the completed job, `voice_id` = `de50f37f`, `voice_type` = `"element"`.
+2. **Transcribe the ORIGINAL with word timestamps** and list the wrong speaker's
+   segments. Chi's in Clip 5: 1.72–1.96, 11.30–11.48, 11.86–12.26, 13.10–14.76.
+3. **Put every splice boundary inside a silent gap**, and merge adjacent segments of
+   the same speaker into ONE region rather than splicing each line. Clip 5 became two
+   regions: 1.43→2.15 and 11.27→14.85.
+4. **STOP THE LAST REGION BEFORE THE TAIL.** The revoice strips the room, so ending at
+   14.85 rather than 15.05 lets the ORIGINAL's ambience carry the final hold. A
+   revoiced tail sounds dead.
+5. **Level-match on the revoiced speaker's own speech, not on the whole file.** Measure
+   RMS over her segments in both and apply the ratio to the revoice before splicing.
+   Clip 5 needed **+4.65 dB** (x1.708). §5a's "6.3 dB down" is a ballpark — measure it.
+6. **30ms equal-power crossfade at each edge**, then mux onto the original video with
+   `-c:v copy`. Zero credits, and not one frame of picture is touched.
+
+**A 60ms gap is spliceable.** Nia's "…Chi—" ends at 11.24 and Chi's "No." starts at
+11.30; the boundary went at 11.27 with a 30ms fade and holds.
+
+**`media_upload` -> PUT -> `media_confirm` puts the result in the user's library** so
+she can play it. Chain the `curl -X PUT` into the SAME `sandbox_exec` call that builds
+the file — the sandbox is discarded seconds after the command exits.
 
 ### The two-pass splice mechanic — kept, because it works even though the fix did not
 
