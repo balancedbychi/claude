@@ -1135,6 +1135,107 @@ is a dropped soft /n/. Both need the user's ear, neither is a verdict.
 
 ---
 
+## CLIP 6 — DELIVERED as `8551d8a1`, awaiting the user's eyes · THE EPISODE IS SHOT
+
+| | |
+|---|---|
+| **Job** | `8551d8a1-0295-4232-bd40-f1cb45616ff0` |
+| Spec | 1080p · 16:9 · 9s · 1920x1080, 24fps |
+| Prompt | `exclusive/prompts/ep3-clip06-DELIVERED-8551d8a1.txt` — 18,984 chars |
+| Opened from | `e3ed20a0`, Clip 5's last frame, as start_image |
+| Cost | 81 credits, preflighted |
+
+**A preset recommendation ("DROWN IN MUSIC") intercepted the first submission** — on a
+clip whose audio block forbids music outright. Nothing charged, no job. Declined with
+`declined_preset_id` and retried literally. **Fifth confirmed case this episode**, and
+the recommendation has now been wrong about the material every single time.
+
+**All four lines came back word for word.** Fourth consecutive clip at the Clip 2 block
+order with the dialogue lifted to the top.
+
+| Check | Result |
+|---|---|
+| Dialogue | ✅ all 4 lines verbatim, 23 words |
+| Cuts | ✅ single continuous take (3.13x mean, threshold 8x) |
+| Opening | ✅ first word at 0.00s |
+| Wordless | ✅ 3.57s of 9.05s = 39.4%, under the 4s ceiling |
+| Tail | no music swell — sits 20 dB under the dialogue, centroid flat at 890–1180 Hz |
+
+### The silences — one over, and the best handoff of the series
+
+| Declared silence | Asked | Got |
+|---|---|---|
+| top | ≤0.10s | **0.00s** ✅ |
+| after line 1 | ≤0.60s | **0.98s** ⚠️ over by 0.38 |
+| after line 2 — the buzz beat | ≤1.60s | **1.34s** ✅ |
+| line 3 → line 4 | ≤0.10s | **0.00s** ✅ |
+| end hold | ≤1.50s | **1.25s** ✅ |
+
+**The 0.00s handoff between "You can look." and "I know." is the fastest in three
+episodes.** Episode 2 Clip 6 measured 0.08s and section 6 called that proven-achievable
+rather than aspirational. A true zero-gap reply is now on record, and the wording that
+produced it was "NIA SPEAKS IMMEDIATELY, within a tenth of a second" placed in the
+scene beat rather than in the timing block alone.
+
+### THE PUSH STARTS EARLY — THE ONE THING TO CHECK
+
+Per-second mean frame difference climbs monotonically and the ramp begins before the
+dialogue ends:
+
+| second | 0–1 | 1–2 | 2–3 | 3–4 | 4–5 | 5–6 | **6–7** | **7–8** | **8–9** |
+|---|---|---|---|---|---|---|---|---|---|
+| mean diff | 1.20 | 0.90 | 1.44 | 1.84 | 2.80 | 3.67 | **8.47** | **11.52** | **13.59** |
+
+The prompt said the camera holds the locked two-shot through all four lines and begins
+the push ONLY AFTER the last word, which ends at 7.80s. The floor is already 8.47 at
+6–7s, where ChiChi says line 3 and Nia answers. Some of 4–6s is real subject motion —
+the buzz and Nia turning the phone — but a 4.7x jump over comparable dialogue at 2–4s
+reads as camera movement, not performance.
+
+**So lines 3 and 4 may have been delivered while the camera was already moving off the
+two-shot**, which is exactly the framing the attribution block exists to protect.
+Section 7: whose face the camera is on is a VISUAL fact and cannot be read off a
+number. **This needs the user's eyes and nothing is spent chasing it.**
+
+### ChiChi's voice — this clip cannot answer the question
+
+| line | speaker | median f0 | duration |
+|---|---|---|---|
+| L1 "He's going to come." | NIA | 174.9 Hz | 1.14s |
+| L2 "He will come, Chi…" | NIA | 185.0 Hz | 2.86s |
+| **L3 "You can look."** | **CHICHI** | **183.9 Hz** | **0.90s** |
+| L4 "I know." | NIA | 225.4 Hz | 0.58s |
+
+ChiChi's only line is three words and 0.90s long, which is **below the length at which
+this measurement can separate these two speakers at all** — section 7's floor is about
+a second. She measures identically to Nia's L2, and that is as consistent with the
+measure failing as with the voice being wrong. Clip 5's flagged line landed on the same
+183.9 Hz and was also sub-second.
+
+**The pattern across the episode is that ChiChi's SHORT lines read high and her LONG
+lines read low** — 158.4 Hz on a 1.84s line in Clip 5, 165.8 on 0.98s, 183.9 on 0.90s
+and on Clip 5's 0.78s. That is what emphasis does to a short line, and it is also what
+an unstable synthesized voice would do. The measurement cannot tell them apart.
+
+### The buzz
+
+Low-frequency energy sits at −33 to −36 dBFS across **5.18–5.58s** with a spectral
+centroid of **731–902 Hz**, inside the beat where the phone was scripted to buzz.
+Section 7's rule — *low and short is an object, higher and sustained is music* — puts
+that between Episode 2's door slam (708 Hz over 0.4s) and its quiet tail (1569 Hz). It
+is consistent with the buzz landing where it was asked for, and it still needs the ear.
+
+### What the user should check
+
+1. **When does the camera start moving?** It should hold the two-shot through "You can
+   look." and "I know."
+2. **ChiChi's three words** — whether they are her voice.
+3. **The phone.** Face-up at the start, turned face-down without Nia looking at it, and
+   the screen never legible.
+4. **The last shot** — Nia's eyes dropping to the phone, and the clip ending there.
+
+---
+
 ## SIZING — CLIP BY CLIP
 
 **Section 6's planning figure is 3.42 w/s and it is WRONG FOR THIS EPISODE.** Clip 1
@@ -1253,9 +1354,9 @@ and came back with ChiChi's jacket missing, for 135 credits.
 | 02 | 16s | **144** | ✅ SHOT — `fc416b16` |
 | **03** | **12s** | **108** | ✅ **APPROVED** — `1d04f4bd` |
 | **04** | **23s** | **207** | ✅ **APPROVED** — `dd63298f` |
-| **05** | **15s** | **135** | ✅ SHOT — `f8a62247` |
-| 06 | 9s | 81 | not shot |
-| **Total delivered** | **96s** | **864** | |
+| **05** | **15s** | **135** | ⚠️ SHOT — `f8a62247`, ChiChi's voice rejected |
+| **06** | **9s** | **81** | ✅ SHOT — `8551d8a1` |
+| **Total delivered** | **105s** | **945** | |
 | *rejected takes* | | *324 spent* | `5dc24260`, `01486fee`, `1e9fc185` |
 | *voice_change attempts* | | *4 spent* | did not fix the voices |
 

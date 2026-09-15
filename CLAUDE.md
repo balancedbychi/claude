@@ -604,6 +604,46 @@ Leave the reference in anyway. It was present in every approved take, so it is
 part of the recipe. Removing it changes the inputs, and changed inputs are how
 this voice gets lost.
 
+### WHY Nia's wins — the elements are sorted by UUID, and hers sorts first
+
+Confirmed on the returned payload of four separate jobs (Ep3 clips 2, 3, 4 and 5).
+The server returns `reference_elements` in **strict UUID-ascending order, identical
+every time, regardless of where the tags sit in the prompt text**:
+
+```
+12315c68  voice  Nia-voice-v2-clear            <- first
+180fdb9a  voice  ChiChi-the-Influencer-Voice
+3108ef3f  character  Nia-Available-Look
+...
+```
+
+`12315c68` sorts before `180fdb9a`, so Nia's voice element is the first voice in the
+list and it is the one that binds. **That is the whole reason Nia's voice is right in
+every clip and ChiChi's is not.** Nia's voice is a real asset the model loads.
+ChiChi's is re-synthesized from prose on every single generation, so it re-rolls
+exactly like an unpinned visual detail re-rolls. Prompt discipline narrows the range —
+that is what the Clip 2 block order buys — but it cannot pin her, **because there is
+nothing being pinned.** Expect drift on ChiChi for as long as Nia's element is
+attached, and do not keep re-shooting in the hope that better wording fixes it.
+
+`ChiChi-Canon-Voice-v1` `de50f37f` sorts LAST, so swapping it in changes nothing.
+
+**The one untested lever: remove Nia's voice tag so ChiChi's element is the only voice
+attached.** ChiChi would then become the loaded, stable one and Nia the recipe. It has
+never been tried and it trades one problem for the other, so it is only worth it in a
+clip ChiChi carries. **Settle it on a 4-second test — seedance's minimum, 36 credits at
+1080p — not on a real clip, and never without asking.** Section 7: flagging a risk is
+not permission to take it.
+
+**Measurement cannot referee this.** LTAS across Ep3 clips 2–5, same room and same
+encode throughout, put a definitely-different-speaker pair at **0.9664** and ChiChi in
+Clip 5 against ChiChi in approved Clip 2 at **0.9406** — the bands overlap in the wrong
+direction, because the room dominates the signature. And f0 does not separate them on
+short lines: ChiChi reads **158.4 Hz on a 1.84s line, 183.9 Hz on a 0.90s one**, the
+latter identical to Nia in the same clip. **ChiChi's short lines always read high**,
+which is what emphasis does and also what an unstable voice does. Below about a second
+there is no test. The user's ear is the only instrument.
+
 ### The durable capture — DONE, 13 Sep 2026
 
 Because the voice is synthesized rather than stored, a model update could have
