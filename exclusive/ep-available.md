@@ -1289,6 +1289,48 @@ separation, not either voice's absolute pitch, is what a bad take measures as.
 
 ---
 
+## THE CAUSE OF THE CLIP 5 VOICE FAILURE — A SILENT PARAMETER CHANGE, NOT THE ELEMENTS
+
+The user: *"This has not been an issue before until now. Rectify the issue."* She was
+right, and the element-binding investigation was chasing the wrong variable.
+
+| Clip | job | `bitrate_mode` | `quality` passed | verdict |
+|---|---|---|---|---|
+| 1 | `faeb10ca` | **high** | unset | approved |
+| 2 | `fc416b16` | **high** | unset | approved |
+| 3 | `1d04f4bd` | **high** | unset | approved |
+| 4 | `dd63298f` | **high** | unset | approved |
+| **5** | **`f8a62247`** | **standard** | **`"1080p"`** | **both voices wrong** |
+| **6** | **`8551d8a1`** | **standard** | **`"1080p"`** | unjudged |
+
+**Perfect correlation, and it is an agent's error.** Clips 5 and 6 were submitted with
+`quality: "1080p"` in the params; the four approved clips passed no `quality` at all.
+That displaced the default and dropped `bitrate_mode` to `standard`. Measured video
+bitrate: **Clip 2 at 11.35 Mbps against Clip 5 at 1.55 Mbps — 7.3x.**
+
+**Audio encode was NOT the difference** — both are AAC 32 kHz stereo at 251 vs 245
+kbps. The degradation is in the render itself, and ChiChi's voice is synthesized BY
+the render, so a worse render is a worse voice. Nia's is re-performed by the render
+too, which is why both women were wrong in the same clip and the two of them measured
+35% closer together than in approved Clip 2.
+
+**Nothing visible flagged it.** `resolution` still read `1080p`, `get_cost` returned the
+same 135 credits, and the job came back normal. It shows only in `params.bitrate_mode`
+and in the file size.
+
+### The fix
+
+Re-shoot Clip 5 with the parameter set that produced the four approved clips —
+`bitrate_mode: "high"` passed explicitly, no `quality` field — carrying Chi's new
+element `de50f37f` because `180fdb9a` no longer exists. **Neither change is
+discretionary: one restores the approved baseline, the other is forced by a deleted
+element.**
+
+Clip 6 was shot on the same bad setting and should be re-judged, or re-shot, once
+Clip 5 is confirmed.
+
+---
+
 ## SIZING — CLIP BY CLIP
 
 **Section 6's planning figure is 3.42 w/s and it is WRONG FOR THIS EPISODE.** Clip 1

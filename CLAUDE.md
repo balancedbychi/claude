@@ -566,6 +566,36 @@ costs nothing and it lists only what an audience can see.
 
 ## 5a. CHI'S VOICE — PINNED, DO NOT CHANGE
 
+> ### ⚠️ READ THIS FIRST — THE EPISODE 3 VOICE FAILURE WAS A SILENT PARAMETER CHANGE
+>
+> **`bitrate_mode` went from `high` to `standard` between Clip 4 and Clip 5, and that
+> is the ONLY input that changed.** Every clip the user approved was `high`. The one
+> clip where she said *"both voices are wrong"* was `standard`.
+>
+> | Clip | `bitrate_mode` | `quality` passed | verdict |
+> |---|---|---|---|
+> | 1 `faeb10ca` | **high** | unset | approved |
+> | 2 `fc416b16` | **high** | unset | approved |
+> | 3 `1d04f4bd` | **high** | unset | approved |
+> | 4 `dd63298f` | **high** | unset | approved |
+> | 5 `f8a62247` | **standard** | `"1080p"` | **both voices wrong** |
+> | 6 `8551d8a1` | **standard** | `"1080p"` | unjudged |
+>
+> **An agent caused it** by passing `quality: "1080p"` in the `generate_video` params
+> where the four approved clips passed no `quality` at all. That displaced the server
+> default and dropped `bitrate_mode` to `standard` — video bitrate fell from
+> **11.35 Mbps to 1.55 Mbps, 7.3x.** Nobody noticed, because `resolution` still read
+> `1080p` in both and the cost was identical.
+>
+> **THE VOICES ARE NOT A SEPARATE PROBLEM FROM THE PICTURE.** Chi's voice is
+> synthesized by the render (see below). Degrade the render and you degrade the voice
+> it synthesizes. The user's own words: *"This has not been an issue before until now."*
+> She was right and the elaborate element-binding theory below was chasing the wrong
+> thing.
+>
+> **ALWAYS PASS `bitrate_mode: "high"` EXPLICITLY.** Never rely on the default, and
+> never pass `quality` alongside `resolution` — the four approved clips did not.
+
 Chi's voice is **canon for the whole series**. It is not her cloned voice element.
 It is a voice the video model synthesizes, which the user heard, accepted, and
 locked in Episode 1.
@@ -645,11 +675,15 @@ e48b0e88  character  ChiChi-Available-Look
 `12315c68` sorts before `de50f37f`, so Nia's voice element is still the first voice in
 the list and still the one that binds. **That is the whole reason Nia's voice is right
 in every clip and ChiChi's is not.** Nia's voice is a real asset the model loads.
-ChiChi's is re-synthesized from prose on every single generation, so it re-rolls
-exactly like an unpinned visual detail re-rolls. Prompt discipline narrows the range —
-that is what the Clip 2 block order buys — but it cannot pin her, **because there is
-nothing being pinned.** Expect drift on ChiChi for as long as Nia's element is
-attached, and do not keep re-shooting in the hope that better wording fixes it.
+ChiChi's is re-synthesized from prose on every single generation.
+
+**But do NOT read that as "ChiChi always drifts" — she does not.** The prose recipe
+produced a voice the user approved in FOUR consecutive clips. It is reproducible when
+the inputs are held constant; the Clip 2 block order is what holds them. What broke
+Episode 3 was not the recipe failing, it was an input changing (`bitrate_mode`, see
+the banner at the top of this section). **Because her voice is a render product, ANY
+parameter that degrades the render degrades her voice — resolution, bitrate, duration,
+anything.** That is the real exposure, and it is much more actionable than the binding.
 
 **But the deletion of `180fdb9a` has made the binding experiment CLEAN.** It used to be
 useless: dropping Nia's tag would have handed the slot to the 219 Hz stranger. Now
@@ -1280,8 +1314,23 @@ nothing. Shortening the clip does, because the slack disappears.
   carries its own look and would override the locked set, the locked grade and the
   staging that fixes attribution. A preset is never the right answer for a clip
   built on approved elements.
-- **Never silently swap models, resolution or aspect ratio.** Mid-episode changes
-  to any of these make the footage un-cuttable with what already exists.
+- **NEVER SILENTLY SWAP ANY GENERATION PARAMETER — AND DIFF THE WHOLE SET AGAINST THE
+  LAST APPROVED CLIP BEFORE EVERY SUBMISSION.** Models, resolution and aspect ratio
+  were the named three; **`bitrate_mode` was not, and it is what broke Episode 3.**
+  It silently fell from `high` to `standard` between Clip 4 and Clip 5 because an agent
+  started passing `quality: "1080p"` where the approved clips passed no `quality` at
+  all. Video bitrate dropped **7.3x, 11.35 Mbps to 1.55**, the user said both voices
+  were wrong, and roughly two hours went into an element-binding theory that was
+  chasing the wrong variable.
+  **Nothing visible flagged it**: `resolution` still read `1080p`, the cost was
+  identical, `get_cost` matched, and the returned job looked normal. The only place it
+  showed was `params.bitrate_mode` in the job payload and the file size.
+  So: **pull the last approved clip's `params` with `job_display`, diff it field by
+  field against what you are about to send, and pass every value explicitly rather
+  than trusting a default.** A parameter you do not send is a parameter the server
+  chooses for you, and it will not choose the same thing twice.
+  **And when a render regresses in a way the prompt cannot explain, check the
+  parameters BEFORE theorising about the model.**
 - **Pick the resolution before the first clip of an episode, not after.** "Blurry"
   is usually not a prompt problem — 480p looks fine in a chat preview and soft on
   a television, and no amount of sharpness wording fixes the pixel count. Quote
