@@ -1007,7 +1007,7 @@ Measurement cannot settle any of these:
 
 ---
 
-## CLIP 4 — DELIVERED as `dd63298f`, awaiting the user's eyes
+## CLIP 4 — APPROVED as `dd63298f` ✅
 
 | | |
 |---|---|
@@ -1052,6 +1052,86 @@ forbidding the ones you do not.**
 Both gaps sit either side of the same line. If the user wants them tightened, the
 container is the lever: 23s → 21s removes 2s of exactly this slack, and the
 dialogue is proven at this prompt shape now.
+
+---
+
+## CLIP 5 — DELIVERED as `f8a62247`, awaiting the user's eyes
+
+| | |
+|---|---|
+| **Job** | `f8a62247-34c9-408d-8af9-e94680abbfa8` |
+| Spec | 1080p · 16:9 · 15s · 1920x1080, 24fps, 32kHz |
+| Prompt | `exclusive/prompts/ep3-clip05-DELIVERED-f8a62247.txt` — 18,687 chars |
+| Opened from | `7efc5cd5`, Clip 4's last frame, as start_image |
+| Cost | 135 credits |
+
+**A preset recommendation ("IN THE DARK") intercepted the first submission.** Nothing
+was charged and no job existed. Declined with `declined_preset_id` and retried
+literally — section 7's rule, now on its fourth confirmed case this episode.
+
+**All seven lines came back word for word**, in order, nothing invented. This is the
+third consecutive clip at the Clip 2 block order with the dialogue lifted to the top.
+
+| Check | Result |
+|---|---|
+| Dialogue | ✅ all 7 lines verbatim, 59 words |
+| Cuts | ✅ single continuous take (3.02x mean, threshold 8x) |
+| Opening | ✅ first word at 0.00s — no top pad at all |
+| Tail | ✅ −21.3 → −33.4 → −43.4 → −50.8 dBFS, monotonically falling. No music swell |
+| Pitch gap | **~32 Hz**, ChiChi correctly the lower voice (Clip 2 was 42.6, Clip 4 was 35.5) |
+
+### THE SILENCES — four of five inside their caps, and this is the tightest clip of the episode
+
+| Declared silence | Asked | Got |
+|---|---|---|
+| top | ≤0.17s | **0.00s** ✅ |
+| after line 3 — ChiChi's non-answer | ≤1.25s | **1.00s** ✅ |
+| after line 4 — Nia hears herself | ≤0.40s | **0.56s** ⚠️ over by 0.16 |
+| after line 6 | ≤0.60s | **0.54s** ✅ |
+| end hold | ≤1.00s | **0.29s** ✅ under, but thin |
+
+Named gaps total **2.69s of 15.07s — 18%.** Clip 1 was 58% silent, Clip 4 was 26%.
+**Naming every silence AND writing "no other silence exists anywhere in this clip"
+is what closed it**, and it is the fix for the undeclared 1.28s beat Clip 4 invented:
+section 6's "declaring only the beats you want is not the same as forbidding the ones
+you do not" now has its counter-proof.
+
+One undeclared 0.30s gap appears inside line 3, between "About a man." and "When did
+you last…". That is a sentence break within one line, not an invented beat.
+
+### THE ONE THING TO WATCH — line 6
+
+| line | speaker | median f0 | duration |
+|---|---|---|---|
+| L1 "When did you last get it wrong?" | NIA | 200.0 Hz | 1.28s |
+| L2 "What?" | CHICHI | 165.8 Hz | 0.98s |
+| L3 "About a man…" | NIA | 183.9 Hz | 2.74s |
+| L4 "Because I'd rather get it wrong…" | NIA | 197.5 Hz | 4.70s |
+| L5 "…Chi—" | NIA | 238.8 Hz | 0.36s — too short to trust |
+| **L6 "No. You're right."** | **CHICHI** | **183.9 Hz** | **0.78s — too short to trust** |
+| L7 "I'd like to have gotten it wrong…" | CHICHI | 158.4 Hz | 1.84s |
+
+L7 at 158.4 and L2 at 165.8 are unambiguously ChiChi. **L6 lands on Nia's L3 value**,
+which is a flag and not a verdict: section 7 says lines under about a second cannot
+separate these two speakers, and "No. You're right." is a short emphatic line where
+pitch rises anyway. **Whose mouth moves is a visual fact — the user's eyes settle it,
+and nothing gets spent chasing the number.** Section 7's own note: roughly 110 credits
+went on exactly that mistake in Episode 2.
+
+**Whisper heard "Cheek" for "…Chi—" and "Oh" for "No."** Section 7 says a transcript
+writing a DIFFERENT word is informative. "Cheek" is consistent with the interrupted
+word being rendered as a hard stop, which is what the prompt asked for. "Oh" for "No"
+is a dropped soft /n/. Both need the user's ear, neither is a verdict.
+
+### What the user should check
+
+1. **Line 6 — whose mouth moves on "No. You're right."**
+2. **ChiChi's one look away** in the silence after line 3 — down and to the side, the
+   only broken eye contact in the episode.
+3. **The 0.29s tail.** The last line is the most exposed thing Chi has said and it may
+   want more air after it. Ducking or extending a tail is free in the sandbox.
+4. **The cup levels and the rings** against Clip 4's last frame.
+5. **Nia's accent** on lines 1, 3 and 4.
 
 ---
 
@@ -1172,10 +1252,10 @@ and came back with ChiChi's jacket missing, for 135 credits.
 | 01 | 15s | **135** | ✅ SHOT — `faeb10ca` |
 | 02 | 16s | **144** | ✅ SHOT — `fc416b16` |
 | **03** | **12s** | **108** | ✅ **APPROVED** — `1d04f4bd` |
-| **04** | **23s** | **207** | ✅ SHOT — `dd63298f` |
-| 05 | 15s | 135 | not shot |
+| **04** | **23s** | **207** | ✅ **APPROVED** — `dd63298f` |
+| **05** | **15s** | **135** | ✅ SHOT — `f8a62247` |
 | 06 | 9s | 81 | not shot |
-| **Total delivered** | **81s** | **729** | |
+| **Total delivered** | **96s** | **864** | |
 | *rejected takes* | | *324 spent* | `5dc24260`, `01486fee`, `1e9fc185` |
 | *voice_change attempts* | | *4 spent* | did not fix the voices |
 
