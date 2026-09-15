@@ -713,7 +713,59 @@ episode.
 the same text. Content and delivery then cancel out and the difference that
 remains is identity.
 
-### `voice_change` — TESTED, 2 CREDITS, AND IT WORKS ON A TWO-HANDER
+### `voice_change` — TESTED, 2 CREDITS, AND IT CANNOT FIX A VOICE. READ THIS FIRST.
+
+**Episode 3 Clip 3 proved it does NOT solve "the voices are wrong", and the user's
+ear overruled every measurement that said it had.** Two passes were run, spliced and
+level-matched; the numbers all landed on target; the user listened and said *"her
+voice isn't British and that's not Chi's voice."* Both fixes had failed:
+
+- **It swaps TIMBRE, not PRONUNCIATION.** Accent lives in how the render articulated
+  the words, and a revoice rides on top of that articulation. Nia rendered without
+  her British accent and no revoice could put it back — confirmed by building a
+  version with her ORIGINAL render audio untouched, where she is still not British.
+  **An accent fault is a RENDER fault. Only a re-shoot fixes it.**
+- **`ChiChi-Canon-Voice-v1` `de50f37f` does NOT reproduce canon Chi.** Revoicing her
+  lines with it moved the pitch to 161.3 Hz, within 4 Hz of approved Clip 2 — and
+  the user still said it is not her voice. **Pitch matching is not identity.**
+
+**So the 0.9819 LTAS cosine in "It was verified before cloning" is NOT proof the
+clone is usable.** That measurement, and the pitch figures beside it, passed an
+asset the user rejects by ear. Section 7 already says measurement raises the
+question and the user settles it; this is that rule costing 75 credits for the clone
+plus four for the failed revoice. **Treat `de50f37f` as unproven, not as a restore
+point, until the user has approved something made from it.**
+
+**What voice_change is still good for:** nothing yet demonstrated on this series.
+Keep it in mind for a single-speaker shot where the voice is merely the wrong
+person rather than the wrong performance, and verify with the user before building
+anything on it.
+
+**The one thing that has ever produced both correct voices is a seedance render with
+the approved block order.** Clip 2 is the proof. When voices are wrong, re-shoot on
+Clip 2's structure — see section 7's rule on the dialogue/voice tension.
+
+### The two-pass splice mechanic — kept, because it works even though the fix did not
+
+`voice_change` takes `video_id`, `voice_id`, `voice_type` and applies ONE voice to
+the WHOLE clip; there is no per-speaker parameter. For a two-hander:
+
+1. `voice_change` with speaker A's element → whole clip in A's voice. 2 credits.
+2. `voice_change` with speaker B's element → whole clip in B's voice. 2 credits.
+3. In the sandbox, for zero credits, take each speaker's lines from her own render
+   and crossfade them together, then mux onto the original video track. Put the
+   boundaries INSIDE the silent gaps, ~40ms equal-power crossfade at each edge.
+
+**Timing survives** — 12.042s against the original 12.050s.
+
+**It also strips the room.** The revoiced audio came back 6.3 dB down on BOTH speech
+and ambience, and the decay after each line fell from 12.4 dB above the floor to
+8.9 dB, so the voices stop dead instead of ringing. That is what "superimposed"
+sounds like. Restoring the level is exact and free; **restoring the decay
+synthetically was attempted and failed** — several reverb lengths and wet levels
+all smeared the dialogue before reaching the original's 12.4 dB.
+
+### `voice_change` — the original note, superseded above
 
 `voice_change` replaces the spoken voice in a finished video while keeping the
 original timing and visuals, taking a completed job_id and a voice_id of either
