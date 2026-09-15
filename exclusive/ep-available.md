@@ -227,7 +227,7 @@ Taking this call rather than spending another round on it, because it is cheap,
 reversible and it removes a continuity liability with no upside.
 
 **Why unmarked.** Nobody in the audience needs to read the cup. But the same cup is
-on screen for all 89 seconds across **six separate generations**, and text that has
+on screen for all 83 seconds across **six separate generations**, and text that has
 to match itself across six seedance renders will not — a cup reading SUCRÉ in Clip 1
 and SUGRE in Clip 4 is exactly the "clearest possible signal that the footage was
 generated rather than filmed" that the appearance rule exists to prevent. And what
@@ -663,7 +663,7 @@ dangerous pair in the episode.** Section 7: lines under about a second are too s
 for the discriminator to separate, and adjacent short lines are where attribution
 slips. Name both wrong answers in the prompt.
 
-### Clip 03 — "That's fair" · 50mm · f/2.2 · no cuts · 13s
+### Clip 03 — "That's fair" · 50mm · f/2.2 · no cuts · 12s
 
 **The admission, and the reason the episode exists.**
 
@@ -688,7 +688,7 @@ winces; Nia does not.
 **Nia recites his three lines flat**, the way you repeat something you have gone
 over on your own many times. No impression, no male voice, no mimicry.
 
-### Clip 04 — "Available" · 50mm · f/2.2 · no cuts · 18s · ENDS ON A HOLD
+### Clip 04 — "Available" · 50mm · f/2.2 · no cuts · 16s · ENDS ON A HOLD
 
 > NIA: "Just say it."
 > CHICHI: "You don't want me to."
@@ -719,7 +719,7 @@ two women is the Episode 2 Clip 1 shape. The staging is Clip 5's because that is
 what resolved it. **Do not add a cut here to "help"** — that was tried three times
 and never once worked.
 
-### Clip 05 — "By now" · 50mm · f/2.2 · no cuts · 16s
+### Clip 05 — "By now" · 50mm · f/2.2 · no cuts · 15s
 
 > NIA: "When did you last get it wrong?"
 > CHICHI: "What?"
@@ -748,7 +748,7 @@ allowed to say it — and the retreat becomes necessary rather than polite. It a
 makes **"No. You're right."** enormous, because what Chi is agreeing with is the
 word "alone".
 
-### Clip 06 — "He's going to come" · 50mm · f/2.2 · slow push · 11s
+### Clip 06 — "He's going to come" · 50mm · f/2.2 · slow push · 9s
 
 > NIA: "He's going to come."
 > *(Chi says nothing.)*
@@ -812,37 +812,53 @@ Clips 2–6 are re-sized on the measured figures: `words / 4.8` for speech, PLUS
 |---|---|---|---|---|---|---|
 | 01 | 27 | 5.6s | 1.4s | 5.5s | **15s** shot | 58% measured |
 | 02 | 48 | 10.0s | 1.7s | 4.0s | **16s** shot | 46% measured |
-| 03 | 47 | 9.8s | 0.7s | **2.2s** | **13s** | 25% |
-| 04 | 67 | 14.0s | 1.4s | **1.7s** | **18s** | 22% |
-| 05 | 59 | 12.3s | 1.2s | **1.8s** | **16s** | 23% |
-| 06 | 23 | 4.8s | 0.6s | **5.0s** | **11s** | 56% |
-| | **271** | | | | **89s** | |
+| 03 | 47 | 9.8s | 0.4s | **1.5s** | **12s** | 18% |
+| 04 | 67 | 14.0s | 0.9s | **1.1s** | **16s** | 13% |
+| 05 | 59 | 12.3s | 0.8s | **1.2s** | **15s** | 18% |
+| 06 | 23 | 4.8s | 0.4s | **3.8s** | **9s** | 47% |
+| | **271** | | | | **83s** | |
 
-**THE USER'S NOTE AFTER CLIP 2 WAS *SHORTEN ALL THE PAUSES*, AND THEN, ON THE
-RE-SIZED CLIP 3, *REDUCE THE PAUSES* AGAIN.** Two passes, so the sizes here are the
-second cut, not the first:
+**THE PAUSE NOTE CAME THREE TIMES.** *Shorten all the pauses* after Clip 2,
+*reduce the pauses* on the re-sized Clip 3, then *shorten the pauses more*. Three
+passes, so these are the third cut:
 
-| | after pass 1 | after pass 2 |
-|---|---|---|
-| Clip 3 | 14s, 3.2s wordless | **13s, 2.2s** |
-| Clip 4 | 19s, 3.0s wordless | **18s, 1.7s** |
-| Clip 5 | 17s, 3.2s wordless | **16s, 1.8s** |
-| Clip 6 | 13s, 7.0s wordless | **11s, 5.0s** |
+| | original | pass 1 | pass 2 | pass 3 |
+|---|---|---|---|---|
+| Clip 3 | 17s | 14s, 3.2s wordless | 13s, 2.2s | **12s, 1.5s** |
+| Clip 4 | 20s | 19s, 3.0s | 18s, 1.7s | **16s, 1.1s** |
+| Clip 5 | 19s | 17s, 3.2s | 16s, 1.8s | **15s, 1.2s** |
+| Clip 6 | 15s | 13s, 7.0s | 11s, 5.0s | **9s, 3.8s** |
 
-Declared wordless time is down **43%** across the four, on top of pass 1. The
-containers fall with it — 17/20/19/15 became 14/19/17/13 and is now
-**13/18/16/11** — because section 6 is explicit that the container is the control
-and the beat wording is not.
+The episode is **83s against the original 106s**, and declared wordless time across
+the four unshot clips has gone **17.4s → 7.6s**.
 
-**Clip 6 still keeps the most silence by far, because it is the button.** It comes
-down from 60% to 56% and no further; cutting a button to match a conversation
-would be applying the note where it does not belong.
+**Clip 3 is now at the floor for its script.** At the measured 4.8 w/s its 47 words
+need 9.79s of articulation; with 1.5s of declared beats and 0.4s of boundaries the
+content is **11.7s inside a 12s container**. There is nothing left to take out. A
+shorter container from here does not remove silence — it removes the closing hold,
+which is ChiChi's entire reaction, or it clips a line. **The next cut after this one
+has to come out of WORDS, and that is a script decision, not a sizing one.**
 
-**Pass 2 also tightened the BOUNDARIES, which pass 1 left alone.** Replies were
-asked for at a quarter-second and measured 0.28s; they are now asked for at **a
-fifth of a second**, and every declared beat is written as a MAXIMUM rather than an
-"about" — *come in under each one, never over it.* The beat wording is the weak
-lever and it is free; the container is doing the real work.
+**Clip 6 comes down too, 56% → 47% silent.** Two passes protected it as the button;
+the third does not, because a third identical note is not asking for another
+exception. Its wordless time is still by far the largest in the episode and the
+held beat survives — it is 3.8s rather than 7.0s.
+
+**What each pass actually changed, because only one of the three levers matters.**
+Pass 1 cut the containers. Pass 2 cut the containers again and tightened boundaries
+from a quarter-second to a fifth. Pass 3 cut the containers again, took replies to
+**a tenth of a second** (Episode 2 Clip 6 measured a 0.08s handoff, so this is
+proven achievable, not aspirational), and tied the closing hold to the blink itself
+so its length is self-enforcing rather than declared. **Section 6 is right that the
+container is the only real control** — the beat wording is free, so it is worth
+writing well, but three passes of it would have done nothing on their own.
+
+**One framing trap avoided in pass 3.** The density statement was first written as
+*"at least ten of these twelve seconds have someone speaking in them"* — a FLOOR on
+speech, which the model can satisfy by slowing down. That is section 6's per-line
+budget backfiring in a new shape. It is now a CEILING on silence: *"no more than two
+of these twelve seconds are silent."* Same fact; erring against it now means less
+silence rather than slower delivery.
 
 **This is the third correction to section 6's arithmetic from this episode and the
 only one that came from eyes rather than measurement.** The first two were numbers
@@ -879,7 +895,7 @@ data point.**
 | Resolution | **1080p — LOCKED 14 Sep 2026** |
 | Aspect | 16:9 |
 | Bitrate | high |
-| Clip length | per clip, 11–18s |
+| Clip length | per clip, 9–16s |
 
 Resolution is picked once, before the first clip, and held for the whole episode.
 It is the only free moment. Section 7: **"make it higher resolution" means upscale,
@@ -897,19 +913,20 @@ and came back with ChiChi's jacket missing, for 135 credits.
 |---|---|---|---|
 | 01 | 15s | **135** | ✅ SHOT — `faeb10ca` |
 | 02 | 16s | **144** | ✅ SHOT — `fc416b16` |
-| 03 | 13s | 117 | written, priced, not shot |
-| 04 | 18s | 162 | |
-| 05 | 16s | 144 | |
-| 06 | 11s | 99 | |
-| **Total** | **89s** | **801** | **522 remaining** |
+| 03 | 12s | 108 | written, priced, not shot |
+| 04 | 16s | 144 | |
+| 05 | 15s | 135 | |
+| 06 | 9s | 81 | |
+| **Total** | **83s** | **747** | **468 remaining** |
 
-**The two re-sizes save 333 credits** against the original 1,134 plan, and they buy
-headroom rather than pixels. After Clips 1 and 2, **1,490.59 − 522 = 968.59 left
-once the episode is finished** — roughly **seven average re-takes** of headroom.
+**The three re-sizes save 387 credits** against the original 1,134 plan, and they
+buy headroom rather than pixels. After Clips 1 and 2, **1,490.59 − 468 = 1,022.59
+left once the episode is finished** — comfortably **seven or eight average re-takes**
+of headroom.
 
 **Shortening for pace pays twice.** The note was about how the episode plays, not
 about money, but seedance bills by the second: every second cut from a container is
-9 credits back at 1080p, and pass 2 alone returned 45.
+9 credits back at 1080p. Pass 2 returned 45 and pass 3 returned 54.
 
 **Balance after Clip 1: 1,634.59 credits.**
 
