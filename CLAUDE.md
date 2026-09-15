@@ -13,21 +13,57 @@ had to be re-rendered.
 **Three episodes have now lost credits to voice and quality faults. Every one of them
 was a value in this card being wrong. Check the card, not your memory.**
 
-## The two voices — this is the whole answer
+## ⛔ CHICHI'S VOICE ELEMENT IS UNRESOLVED — 15 Sep 2026. DO NOT SHOOT HER UNTIL THE USER RULES.
+
+**Every ChiChi the user has ever approved was rendered with `180fdb9a` ATTACHED.
+Every ChiChi rendered with `de50f37f` has been REJECTED. Four for four against
+zero for two.** Confirmed from the stored `reference_elements` of every delivered
+job, not from a theory:
+
+| Clip | ChiChi element attached | `bitrate_mode` | ChiChi verdict |
+|---|---|---|---|
+| 1 `faeb10ca` | `180fdb9a` | high | ✅ approved |
+| 2 `fc416b16` | `180fdb9a` | high | ✅ approved |
+| 3 `1d04f4bd` | `180fdb9a` | high | ✅ approved |
+| 4 `dd63298f` | `180fdb9a` | high | ✅ approved |
+| 5 `f8a62247` | `180fdb9a` | **standard** | ❌ both voices wrong |
+| 5 v2 `85d64987` | **`de50f37f`** | high | ❌ **ChiChi wrong** |
+| test `a91ed33b` | **`de50f37f` alone** | high | ❌ worst Chi ever measured |
+
+**`180fdb9a` is deleted, so the approved configuration currently cannot be
+reproduced.** Only `de50f37f` and Nia's `12315c68` exist — confirmed via
+`list_voices`, one slot free. Whether the delete is reversible in the Higgsfield
+web UI is the user's to check and nobody has.
 
 | Character | Voice element | UUID |
 |---|---|---|
 | **NIA** | `Nia-voice-v2-clear` | `12315c68-37de-41fe-8766-76ac07bcaf70` |
-| **CHICHI** | `ChiChi-Canon-Voice-v1` | `de50f37f-82fa-4a70-bdca-52355b2f4ca2` |
+| **CHICHI — settled** | *(none)* | `180fdb9a` deleted · `de50f37f` rejected ×2 |
 
-**BOTH tags go in EVERY prompt where that woman speaks. Both. Every time.**
-There are exactly two voice elements in the account and these are them. Nothing else
-is a voice for these characters. `180fdb9a` is DELETED — if you see it anywhere but a
-historical record, it is stale.
+**Nia's tag goes in every prompt she speaks in. ChiChi's is an open question and a
+135-credit one; put it to the user before you shoot her, every time, until this
+card says otherwise.**
+
+### THE MISTAKE THAT CAUSED THIS — do not repeat its SHAPE
+
+`180fdb9a` was measured in isolation via TTS at **219.2 Hz**, 59 Hz above approved
+ChiChi, and on that measurement an agent said it "was not her voice" and recommended
+deleting it. The user did. **The measurement was right about what the element sounds
+like ON ITS OWN and wrong about what it DOES in a render** — it was never played
+back, it was part of the input pool, and that pool produced a 160 Hz ChiChi four
+times running. Swapping it for `de50f37f` moved BOTH women down: ChiChi 160.0 → 148.1
+and Nia 205.1 → 178.8. **An attached voice element is not inert just because it does
+not "bind".**
+
+**So: never measure a component in isolation and draw a conclusion about the render.
+And never recommend deleting an asset that is present in an approved result** — the
+approved configuration is the only thing this series has that works, and it is not
+recoverable once a piece of it is gone.
 
 **Do not re-engineer which one "binds".** It was tested and it failed — 36 credits,
-job `a91ed33b`. Attaching ChiChi's alone made her WORSE (183.9 Hz against her correct
-160 Hz). Both attached, always. That configuration produced four approved clips.
+job `a91ed33b`. Attaching ChiChi's `de50f37f` alone made her WORSE (183.9 Hz against
+her correct 160 Hz). Both voice elements attached, Nia's binding, is the shape of
+every approved clip.
 
 ## The parameters that are not optional
 
@@ -51,8 +87,9 @@ Before every `generate_video`, check all six and say the result out loud:
 1. `bitrate_mode: "high"` is in the params — **explicitly**
 2. no `quality` field is in the params
 3. Nia's `12315c68` tag is in the prompt (if she speaks)
-4. ChiChi's `de50f37f` tag is in the prompt (if she speaks)
-5. `180fdb9a` appears NOWHERE in the prompt
+4. **exactly ONE** ChiChi voice tag is in the prompt (if she speaks), and it is the
+   one the USER last ruled on — never both, never neither, never your own pick
+5. that ruling is recorded in the episode file, with the job it produced
 6. ChiChi's block order is character → skin → age → hair → VOICE → wardrobe → ring
 
 **Then diff against the last approved clip.** Pull its `params` with `job_display` and
@@ -700,19 +737,39 @@ humour — never a substitute voice, never a British accent, never swapped with
 Nia's.
 ```
 
-### THE VOICE ID CHANGED — 15 Sep 2026, the user's decision
+### THE VOICE ID CHANGED — 15 Sep 2026 — AND THE CHANGE BROKE HER. SEE THE LOCK CARD.
 
-**`ChiChi-Canon-Voice-v1` `de50f37f` is Chi's voice element now, always.** The user
-heard it, approved it, and **deleted `ChiChi-the-Influencer-Voice` `180fdb9a` from the
-account.** Confirmed gone via `list_voices`: only `de50f37f` and Nia's `12315c68`
-remain.
+**`ChiChi-Canon-Voice-v1` `de50f37f` was adopted as Chi's voice element on the
+strength of a 1-credit TTS render the user approved, and `ChiChi-the-Influencer-Voice`
+`180fdb9a` was deleted from the account.** Confirmed gone via `list_voices`: only
+`de50f37f` and Nia's `12315c68` remain, one slot free.
 
-**This is the one reword of a pinned block this file permits, and only because the old
-text can no longer work.** `<<<180fdb9a-7c0b-469e-be49-3f76692a3968>>>` now points at
-nothing. Section 5 still forbids rewording what produced an approved result, and that
-holds for every other word here: **exactly ONE variable changed — the UUID.** Every
-other character of both pinned blocks is untouched, and so is their position in the
-block order (character → skin → age → hair → VOICE → wardrobe → ring).
+> **⛔ THE SWAP IS THE CAUSE OF THE CLIP 5 RE-SHOOT FAILURE, `85d64987`, 135 credits.**
+> An agent — this one — told the user the swap was "exactly ONE variable" and therefore
+> safe. **That variable was the only difference between the re-shoot and every clip
+> whose Chi the user approved**, and the re-shoot's Chi was rejected. A field-by-field
+> audit of all seven delivered prompts shows everything else matched approved Clips 3
+> and 4: same opener, same block order, ChiChi's voice line at the same 38% depth, no
+> camera block, `bitrate_mode: high`, same length band, same element list otherwise.
+>
+> **A voice element attached to a render is NOT inert just because a different element
+> "binds".** Swapping `180fdb9a` for `de50f37f` moved BOTH women down — Chi 160.0 →
+> 148.1 Hz, Nia 205.1 → 178.8 Hz, gap 45.1 → 30.6 Hz. The pool colours the render.
+>
+> **Approving an element by TTS does NOT approve it for a render.** The user approved
+> what `de50f37f` sounds like when it is PLAYED BACK on its own. In a seedance
+> two-hander it is never played back — it is an input, and as an input it produces a
+> different Chi. Those are two different questions and this file conflated them, which
+> is the same conflation §5a already records for `voice_change`.
+
+**The reword itself was still the one this file permits** — exactly one variable, the
+UUID, every other character of both pinned blocks untouched and in the same position
+in the block order (character → skin → age → hair → VOICE → wardrobe → ring). **The
+lesson is not about the wording. It is that "one variable" is not a synonym for
+"safe" when that variable is present in every approved result.** Section 7's
+"one variable per take" tells you how to CHANGE something; it never said the change
+was free. Flag a swap away from an approved input as the risk it is, and let the
+user decide before the render, not after.
 
 **Every DELIVERED prompt in `exclusive/prompts/` still carries the dead
 `<<<180fdb9a>>>` tag. Leave them.** Section 8: a DELIVERED file is a record of what was
@@ -782,13 +839,18 @@ honoured it; if it ever bound, it would be a disaster. `de50f37f` lands within 7
 approved Chi.
 
 **The user deleted it on the strength of this measurement, and adopted `de50f37f` as
-Chi's voice.** Both facts are settled and neither is an agent's to revisit.
+Chi's voice.** ⛔ **THAT RECOMMENDATION WAS WRONG AND IT COST THE CLIP 5 RE-SHOOT.**
+The numbers above are accurate — `180fdb9a` really does sound like a 219 Hz stranger
+when you play it back. But it was never played back in a render, and the four clips
+whose Chi the user approved all had it attached. **What an element sounds like alone
+tells you nothing about what it contributes as an input.** See the Lock Card.
 
-**The method is the part worth keeping.** Two TTS renders of the SAME words, one per
-element, 1 credit each, measured against a known-good line from approved footage. That
-is how you find out what a saved element actually is — before it costs a render, and
-before anyone builds a recipe on top of it. `180fdb9a` had been in every prompt of
-three episodes and nobody had ever listened to it on its own.
+**The method is worth keeping for ONE question only: what does this element sound like
+on its own?** Two TTS renders of the same words, 1 credit each, against a known-good
+line from approved footage. **It does NOT answer "should this element be in the
+prompt", and it must never be used to justify removing one.** `180fdb9a` had been in
+every prompt of three episodes and nobody had ever listened to it on its own — and it
+turned out that not sounding like her was not a reason to take it out.
 
 ### The separation is the signature, not either voice's pitch
 
@@ -869,8 +931,10 @@ synthesized voice ever drifts. Chi is portable now.
 
 **SUPERSEDED 15 Sep 2026.** This paragraph used to call `de50f37f` a post-production
 asset that must never go into a seedance prompt. `180fdb9a` has been deleted, so
-`de50f37f` IS the tag in every new prompt now. **The mechanism survives, the
-instruction does not:** seedance still binds ONE voice element per generation and
+`de50f37f` became the tag in the one new prompt that was shot after the swap, and
+**that clip's Chi was rejected — see the Lock Card. Which Chi element goes in a
+prompt is now an open question for the user, not a settled fact.** **The mechanism
+survives, the instruction does not:** seedance still binds ONE voice element per generation and
 Nia's `12315c68` still sorts first, so Chi's tag still will not be honoured in a
 two-hander and her voice still comes from the prose around it. Putting `de50f37f` in
 the prompt is no longer a change to the recipe — it is the only Chi element that
@@ -915,7 +979,9 @@ delete-voice tool in the MCP surface; it has to be done in the Higgsfield web UI
 it is the user's call, never an agent's — as it was here.
 
 **Neither remaining element is disposable.** Nia's is honoured and produces her real
-voice. `de50f37f` is Chi, approved by ear, and is now the tag in every new prompt.
+voice. `de50f37f` was approved by ear as a TTS PLAYBACK; as a render input it has
+produced a Chi the user rejected twice. Neither element is disposable and neither is
+currently proven — see the Lock Card.
 
 **Before cloning into the free slot, ask whether the new element would even be used.**
 seedance binds ONE voice element per generation and the lowest-sorting one wins.
@@ -993,9 +1059,14 @@ asset the user rejected by ear at the time. Section 7 already says measurement r
 the question and the user settles it; this is that rule costing 75 credits for the
 clone plus four for the failed revoice.
 
-**RESOLVED 15 Sep 2026: `de50f37f` is approved and is now Chi's element.** The
-condition this section set — "unproven until the user has approved something made from
-it" — was met by a 1-credit TTS render the user listened to and adopted. **Read the
+**⛔ NOT RESOLVED — REOPENED 15 Sep 2026 after the Clip 5 re-shoot.** This section
+once read "RESOLVED: `de50f37f` is approved and is now Chi's element", on the grounds
+that the condition it set — "unproven until the user has approved something made from
+it" — was met by a 1-credit TTS render the user listened to and adopted. **That was
+too weak a test and the section's own condition was the right one.** A TTS playback is
+not "something made from it" in the sense that matters: the only artefact that counts
+is a SEEDANCE RENDER with the element attached, and the two that exist (`85d64987`
+and `a91ed33b`) were both rejected. **Read the
 failure above narrowly: what failed was `voice_change`, riding on a bad render's
 articulation, NOT the element.** A voice can be right and a revoice built on it still
 be wrong, because the revoice inherits the original's pronunciation. Those are two

@@ -14,8 +14,13 @@ import re
 import sys
 
 NIA_VOICE = "12315c68-37de-41fe-8766-76ac07bcaf70"
-CHI_VOICE = "de50f37f-82fa-4a70-bdca-52355b2f4ca2"
-DEAD_VOICE = "180fdb9a"  # deleted from the account 15 Sep 2026
+# ChiChi has TWO possible voice elements and which one is correct is the user's
+# call, not this hook's. 180fdb9a was attached to all four approved clips and was
+# then deleted from the account; de50f37f replaced it and its Chi has been
+# rejected twice. The guard's job is to make sure exactly ONE is present, never
+# both and never neither. See THE LOCK CARD in CLAUDE.md.
+CHI_VOICE_CANON = "de50f37f-82fa-4a70-bdca-52355b2f4ca2"  # ChiChi-Canon-Voice-v1
+CHI_VOICE_APPROVED = "180fdb9a-7c0b-469e-be49-3f76692a3968"  # in all 4 approved clips
 
 
 def fail(reason):
@@ -70,20 +75,26 @@ def main():
 
     prompt = params.get("prompt") or ""
 
-    if DEAD_VOICE in prompt:
+    has_canon = CHI_VOICE_CANON in prompt
+    has_approved = CHI_VOICE_APPROVED in prompt
+
+    if has_canon and has_approved:
         problems.append(
-            "  - the prompt contains voice element 180fdb9a, which was DELETED from "
-            "the account. That tag points at nothing. ChiChi's voice is %s."
-            % CHI_VOICE
+            "  - BOTH of ChiChi's voice elements are in the prompt (%s and %s). "
+            "Exactly one goes in. Two Chi voice elements is a configuration that has "
+            "never been shot and is not the approved recipe."
+            % (CHI_VOICE_APPROVED, CHI_VOICE_CANON)
         )
 
     # Only require a voice tag for a character who actually speaks. The dialogue
     # block tags every line as `CHICHI: "..."` / `NIA: "..."`.
-    if re.search(r'CHICHI:\s*["“]', prompt) and CHI_VOICE not in prompt:
+    if re.search(r'CHICHI:\s*["“]', prompt) and not (has_canon or has_approved):
         problems.append(
-            "  - ChiChi speaks in this clip but her voice element %s is not in the "
-            "prompt. Both women's voice tags go in every prompt they speak in."
-            % CHI_VOICE
+            "  - ChiChi speaks in this clip but neither of her voice elements is in "
+            "the prompt. Exactly one of %s (attached to all four approved clips, now "
+            "deleted from the account) or %s (ChiChi-Canon-Voice-v1, rejected twice) "
+            "must be present, and WHICH ONE IS THE USER'S CALL — see THE LOCK CARD."
+            % (CHI_VOICE_APPROVED, CHI_VOICE_CANON)
         )
 
     if re.search(r'NIA:\s*["“]', prompt) and NIA_VOICE not in prompt:

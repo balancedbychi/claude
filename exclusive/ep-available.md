@@ -1400,6 +1400,78 @@ p90 231.2) and Nia came down 26 Hz from approved Clip 2. Do not report this as f
 If the user still hears it as wrong, **the bitrate was a real fault but not the only
 one**, and the next step is her ear on what specifically is wrong — not another take.
 
+### ⛔ REJECTED BY THE USER — "The voice is still fucking wrong for Chi"
+
+Then: *"I literally provided you the clip of what she sounded like."* She had attached
+approved Clip 2 `fc416b16` as the reference for Chi's correct voice and it was never
+used as one.
+
+**THE CAUSE IS THE VOICE-ELEMENT SWAP, and it was called "exactly one variable" and
+"safe" by the agent that made it.** An audit of the stored `reference_elements` of
+every delivered job settles it:
+
+| Clip | ChiChi element attached | `bitrate_mode` | ChiChi verdict |
+|---|---|---|---|
+| 1 `faeb10ca` | `180fdb9a` | high | ✅ approved |
+| 2 `fc416b16` | `180fdb9a` | high | ✅ approved |
+| 3 `1d04f4bd` | `180fdb9a` | high | ✅ approved |
+| 4 `dd63298f` | `180fdb9a` | high | ✅ approved |
+| 5 `f8a62247` | `180fdb9a` | **standard** | ❌ both voices wrong |
+| **5 v2 `85d64987`** | **`de50f37f`** | high | ❌ **ChiChi wrong** |
+| test `a91ed33b` | **`de50f37f` alone** | high | ❌ 183.9 Hz, worst ever |
+
+**Four for four with `180fdb9a`. Zero for two with `de50f37f`.**
+
+**Nothing else differs.** A field-by-field audit of all seven delivered prompt files:
+
+| prompt | Chi element | CAMERA block | length | Chi voice line at |
+|---|---|---|---|---|
+| clip01 ✅ | `180fdb9a` | yes | 14,846 | 38% |
+| clip02 ✅ | `180fdb9a` | yes | 16,743 | 37% |
+| clip03 ✅ | `180fdb9a` | no | 16,633 | 41% |
+| clip04 ✅ | `180fdb9a` | no | 19,055 | 37% |
+| clip05 ❌ | `180fdb9a` | no | 18,687 | 38% |
+| **clip05 v2 ❌** | **`de50f37f`** | no | 18,687 | 38% |
+| clip06 ? | `180fdb9a` | no | 19,078 | 39% |
+
+The re-shoot matches approved Clips 3 and 4 on opener, block order, voice-line depth,
+length band, camera block, `bitrate_mode` and every other element. **The prompt
+structure theory is dead. The element is the only live variable.**
+
+And the pitch moved the way an element swap would move it, on BOTH women:
+
+| | Nia | ChiChi | apart |
+|---|---|---|---|
+| approved Clip 2 (`180fdb9a`) | 205.1 Hz | 160.0 Hz | **45.1 Hz** |
+| re-shoot (`de50f37f`) | 178.8 Hz | 148.1 Hz | 30.6 Hz |
+
+**An attached voice element is not inert just because a different element "binds".**
+CLAUDE.md §5a said Chi's tag was never honoured and therefore harmless to change. That
+inference was drawn from UUID sort order and never tested by changing it. It has now
+been tested, at 135 credits.
+
+### The measurement that caused the delete was right about the element and wrong about the render
+
+`180fdb9a` measured 219.2 Hz via TTS, 59 Hz above approved ChiChi, and on that basis an
+agent said it "was not her voice" and the user deleted it. **It really does sound like a
+stranger when played back — and it was never played back.** It was an input, and as an
+input it produced a 160 Hz ChiChi four times running.
+
+**`180fdb9a` is deleted and the approved configuration currently cannot be reproduced.**
+`list_voices` confirms only `de50f37f` and Nia's `12315c68` remain, one slot free.
+Whether the delete is reversible in the Higgsfield web UI is unchecked and is the
+user's to check.
+
+### Chi's audio in approved Clip 2, measured for a possible re-clone
+
+Word-timestamped transcript of `fc416b16`: Chi has four lines — 0.40–1.74, 3.22–4.00,
+~10.94–11.4 and 12.36–13.08. **About 3.3 seconds of clean solo Chi. Far short of the
+~12s a clone needs**, so Clip 2 alone cannot be the source. Chi's lines concatenated
+across approved Clips 1–4 would be enough, and all four are 1080p `bitrate_mode: high`
+in the same room.
+
+### Awaiting the user's decision — nothing spent
+
 ### `mode: "omni_reference"` — a wrong conclusion, corrected in the same turn
 
 Before this submission an agent diffed the params against approved Clip 4, saw that
