@@ -1236,6 +1236,59 @@ is consistent with the buzz landing where it was asked for, and it still needs t
 
 ---
 
+## THE VOICE ELEMENT CHANGED — 15 Sep 2026, AFTER THE EPISODE WAS SHOT
+
+The user rejected both voices in Clip 5, then ruled on the cause:
+
+> **"ChiChi-canon-voice-1 should always be used for Chi. It's saved. I deleted the
+> ChiChi the influencer voice."**
+
+| | |
+|---|---|
+| **Chi's voice element, from now on** | `ChiChi-Canon-Voice-v1` `de50f37f-82fa-4a70-bdca-52355b2f4ca2` |
+| **Deleted from the account** | `ChiChi-the-Influencer-Voice` `180fdb9a-7c0b-469e-be49-3f76692a3968` |
+
+**What triggered it.** Both Chi elements were run through `seed_audio` TTS on the same
+29 words of her own dialogue, 1 credit each:
+
+| | median f0 | p25 | p75 |
+|---|---|---|---|
+| `de50f37f` ChiChi-Canon-v1 | **166.7 Hz** | 148.1 | 186.0 |
+| `180fdb9a` ChiChi-the-Influencer | **219.2 Hz** | 181.8 | 242.4 |
+| target — ChiChi in APPROVED Clip 2 | **160.0 Hz** | 146.8 | 170.2 |
+
+`180fdb9a` read **59 Hz above** approved ChiChi — higher even than Nia at 205.1. It was
+in every prompt of three episodes and was never her voice.
+
+### WHAT THIS MEANS FOR THIS EPISODE'S PROMPT FILES — LEAVE THEM ALONE
+
+**All six DELIVERED prompts in `exclusive/prompts/` carry `<<<180fdb9a>>>`, which now
+points at nothing.** Section 8 is explicit that a DELIVERED file is a record and not a
+draft. They document the exact conditions that produced the footage, dead pointer
+included, and rewriting them would destroy the only record of what was actually sent.
+**Only new prompts use `de50f37f`.**
+
+### WHAT IT DOES NOT FIX
+
+`12315c68` (Nia) still sorts below `de50f37f`, so Nia's element still takes the single
+binding slot and **Chi's voice is still synthesized from the prose around her tag.**
+The tag now points at the right voice rather than a stranger, but nothing about the
+binding has changed. Expect the same drift until the binding experiment is run.
+
+**What the deletion DID change is that the experiment is now clean.** With only two
+voice elements left, removing Nia's voice tag leaves `de50f37f` — the approved voice —
+as the only voice attached, so it would take the slot. Before the deletion that lever
+was useless, because dropping Nia's tag would have handed Chi's lines to the 219 Hz
+element.
+
+### CLIP 5 IS STILL UNRESOLVED
+
+Both voices were rejected by ear. Measured against approved Clip 2, the two women are
+**29.5 Hz apart in Clip 5 against 45.1 Hz in Clip 2** — 35% closer together. The
+separation, not either voice's absolute pitch, is what a bad take measures as.
+
+---
+
 ## SIZING — CLIP BY CLIP
 
 **Section 6's planning figure is 3.42 w/s and it is WRONG FOR THIS EPISODE.** Clip 1

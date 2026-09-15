@@ -588,21 +588,42 @@ never a bob, lob or cropped cut.
 ```
 
 ```
-ChiChi's English dialogue uses <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>>, her
+ChiChi's English dialogue uses <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>, her
 saved warm, smooth, mid-to-low General American voice with calm authority and dry
 humour — never a substitute voice, never a British accent, never swapped with
 Nia's.
 ```
 
-### Why the element reference stays in, even though it is not what you hear
+### THE VOICE ID CHANGED — 15 Sep 2026, the user's decision
 
-`180fdb9a` is her cloned voice element. The model does **not** honour it — it
-binds only one voice element per generation, and Nia's wins. The voice you hear
-is synthesized from the surrounding description instead.
+**`ChiChi-Canon-Voice-v1` `de50f37f` is Chi's voice element now, always.** The user
+heard it, approved it, and **deleted `ChiChi-the-Influencer-Voice` `180fdb9a` from the
+account.** Confirmed gone via `list_voices`: only `de50f37f` and Nia's `12315c68`
+remain.
 
-Leave the reference in anyway. It was present in every approved take, so it is
-part of the recipe. Removing it changes the inputs, and changed inputs are how
-this voice gets lost.
+**This is the one reword of a pinned block this file permits, and only because the old
+text can no longer work.** `<<<180fdb9a-7c0b-469e-be49-3f76692a3968>>>` now points at
+nothing. Section 5 still forbids rewording what produced an approved result, and that
+holds for every other word here: **exactly ONE variable changed — the UUID.** Every
+other character of both pinned blocks is untouched, and so is their position in the
+block order (character → skin → age → hair → VOICE → wardrobe → ring).
+
+**Every DELIVERED prompt in `exclusive/prompts/` still carries the dead
+`<<<180fdb9a>>>` tag. Leave them.** Section 8: a DELIVERED file is a record of what was
+shot, not a draft. They document the conditions that produced the footage, dead pointer
+and all. Only new prompts carry `de50f37f`.
+
+### Why the reference stays in, even though it is still not what you hear
+
+The model binds only ONE voice element per generation and Nia's still wins — see the
+sort below — so Chi's voice is STILL synthesized from the prose around the tag rather
+than loaded from it. The tag stays because it was present in every approved take and is
+part of the recipe.
+
+**What changed is what the tag points AT.** It used to point at a 219 Hz stranger; it
+now points at a voice measured within 7 Hz of approved Chi. If the binding ever does
+land on her element — deliberately or by accident — it now lands on the right voice
+instead of a disaster.
 
 ### WHY Nia's wins — the elements are sorted by UUID, and hers sorts first
 
@@ -611,24 +632,33 @@ The server returns `reference_elements` in **strict UUID-ascending order, identi
 every time, regardless of where the tags sit in the prompt text**:
 
 ```
-12315c68  voice  Nia-voice-v2-clear            <- first
-180fdb9a  voice  ChiChi-the-Influencer-Voice
+12315c68  voice      Nia-voice-v2-clear        <- first, and still first
 3108ef3f  character  Nia-Available-Look
-...
+59b95bad  environment  Sucré-Coffee-Shop
+8a8e8eeb  character  ChiChi-the-Influencer
+bcd528d3  character  Nia
+d1b9280f  prop       Sucre-Coffee-Cups
+de50f37f  voice      ChiChi-Canon-Voice-v1     <- Chi's voice, sorts after Nia's
+e48b0e88  character  ChiChi-Available-Look
 ```
 
-`12315c68` sorts before `180fdb9a`, so Nia's voice element is the first voice in the
-list and it is the one that binds. **That is the whole reason Nia's voice is right in
-every clip and ChiChi's is not.** Nia's voice is a real asset the model loads.
+`12315c68` sorts before `de50f37f`, so Nia's voice element is still the first voice in
+the list and still the one that binds. **That is the whole reason Nia's voice is right
+in every clip and ChiChi's is not.** Nia's voice is a real asset the model loads.
 ChiChi's is re-synthesized from prose on every single generation, so it re-rolls
 exactly like an unpinned visual detail re-rolls. Prompt discipline narrows the range —
 that is what the Clip 2 block order buys — but it cannot pin her, **because there is
 nothing being pinned.** Expect drift on ChiChi for as long as Nia's element is
 attached, and do not keep re-shooting in the hope that better wording fixes it.
 
-`ChiChi-Canon-Voice-v1` `de50f37f` sorts LAST, so swapping it in changes nothing.
+**But the deletion of `180fdb9a` has made the binding experiment CLEAN.** It used to be
+useless: dropping Nia's tag would have handed the slot to the 219 Hz stranger. Now
+there are only two voice elements, so **removing Nia's voice tag leaves `de50f37f` — the
+voice the user has approved — as the only voice attached, and it would take the slot.**
+That is the first time this lever has been worth pulling. It still costs a test, it
+still trades Nia's stability for Chi's, and it is still never done without asking.
 
-### `180fdb9a` IS NOT CHICHI — measured 15 Sep 2026, 2 credits
+### `180fdb9a` WAS NOT CHICHI — measured 15 Sep 2026, 2 credits, and it is why it was deleted
 
 The element pasted into every prompt she has ever spoken in was finally listened to.
 Both Chi elements were run through `seed_audio` TTS on the SAME 29 words of her own
@@ -645,17 +675,14 @@ not her voice and it never was. It is only harmless because seedance has never o
 honoured it; if it ever bound, it would be a disaster. `de50f37f` lands within 7 Hz of
 approved Chi.
 
-**This changes the deletion calculus in "the voice-element slot limit" above.** That
-section says `180fdb9a` "must stay, because every approved take had `<<<180fdb9a>>>` in
-the text." That is still true — the tag is part of the recipe and removing the element
-leaves it pointing at nothing — but it is now known to be a placeholder, not an asset.
-It is the one of the three with no independent value.
+**The user deleted it on the strength of this measurement, and adopted `de50f37f` as
+Chi's voice.** Both facts are settled and neither is an agent's to revisit.
 
-**And it defeats the simple version of the binding experiment.** The sort is
-`12315c68` < `180fdb9a` < `de50f37f`, so dropping only Nia's tag hands the slot to
-`180fdb9a` — the 219 Hz voice — not to the canon capture. **To bind `de50f37f` you would
-have to attach it ALONE, with both other voice tags removed.** That is a much larger
-change to the recipe than "remove one tag" and it has to be tested, never assumed.
+**The method is the part worth keeping.** Two TTS renders of the SAME words, one per
+element, 1 credit each, measured against a known-good line from approved footage. That
+is how you find out what a saved element actually is — before it costs a render, and
+before anyone builds a recipe on top of it. `180fdb9a` had been in every prompt of
+three episodes and nobody had ever listened to it on its own.
 
 ### The separation is the signature, not either voice's pitch
 
@@ -712,11 +739,14 @@ no `get_cost`, so the clone half cannot be preflighted; quote it as unknown.
 **What it is for.** TTS, any non-seedance model, and as the restore point if the
 synthesized voice ever drifts. Chi is portable now.
 
-**What it does NOT change.** seedance still binds only ONE voice element per
-generation and Nia's still wins. Every seedance shot Chi speaks in still uses the
-two pinned blocks above, unchanged, with `180fdb9a` still in the text. Do not
-swap `de50f37f` into a seedance prompt expecting it to be honoured — it will not
-be, and swapping it changes the recipe.
+**SUPERSEDED 15 Sep 2026.** This paragraph used to call `de50f37f` a post-production
+asset that must never go into a seedance prompt. `180fdb9a` has been deleted, so
+`de50f37f` IS the tag in every new prompt now. **The mechanism survives, the
+instruction does not:** seedance still binds ONE voice element per generation and
+Nia's `12315c68` still sorts first, so Chi's tag still will not be honoured in a
+two-hander and her voice still comes from the prose around it. Putting `de50f37f` in
+the prompt is no longer a change to the recipe — it is the only Chi element that
+exists.
 
 **It was verified before cloning, not assumed.** Measured against approved Shot 6.
 Long-term-average-spectrum cosine: **0.9819** against canon Chi, 0.8942 against
@@ -746,25 +776,32 @@ attached and on camera when capturing Chi again.
 
 ### The voice-element slot limit — you cannot just clone another character
 
-The account caps voice elements and it is **already full** with three:
-`Nia-voice-v2-clear` `12315c68`, `ChiChi-the-Influencer-Voice` `180fdb9a`, and
-`ChiChi-Canon-Voice-v1` `de50f37f`. `create_voice_from_confirmed_audio` refuses
-with "Voice limit reached — delete a voice to add a new one" and charges nothing.
-There is no delete-voice tool in the MCP surface; it has to be done in the
-Higgsfield web UI, and it is the user's call, never an agent's.
+The account caps voice elements at three. **As of 15 Sep 2026 TWO are used and ONE
+SLOT IS FREE:** `Nia-voice-v2-clear` `12315c68` and `ChiChi-Canon-Voice-v1`
+`de50f37f`. The user deleted `ChiChi-the-Influencer-Voice` `180fdb9a` after it
+measured 59 Hz off Chi.
 
-**None of the three is safely disposable.** Nia's is honoured and produces her
-real voice. `180fdb9a` is never honoured but must stay, because every approved
-take had `<<<180fdb9a>>>` in the text and removing the element leaves that tag
-pointing at nothing. `de50f37f` is the only one absent from prompts, but it cost
-75 credits and is Chi's restore point.
+When the cap IS full, `create_voice_from_confirmed_audio` refuses with "Voice limit
+reached — delete a voice to add a new one" and charges nothing. There is no
+delete-voice tool in the MCP surface; it has to be done in the Higgsfield web UI, and
+it is the user's call, never an agent's — as it was here.
 
-**Before considering a deletion, ask whether the new element would even be used.**
-seedance binds ONE voice element per generation. `180fdb9a` is attached in every
-prompt and has never once been honoured — that is the whole reason Chi's voice is
-a prose recipe. A newly cloned male element opposite her, with Nia's element also
-attached, will almost certainly be ignored the same way. **The men are far more
-likely to need the prose-recipe treatment than a clone.**
+**Neither remaining element is disposable.** Nia's is honoured and produces her real
+voice. `de50f37f` is Chi, approved by ear, and is now the tag in every new prompt.
+
+**Before cloning into the free slot, ask whether the new element would even be used.**
+seedance binds ONE voice element per generation and the lowest-sorting one wins.
+Chi's tag has been attached in every prompt of three episodes and has never once been
+honoured — that is the whole reason her voice is a prose recipe. A newly cloned male
+element, with Nia's `12315c68` also attached, will almost certainly be ignored the
+same way unless its UUID happens to sort below hers. **The men are far more likely to
+need the prose-recipe treatment than a clone**, and a clone that is never honoured is
+worth having only as a measurement target, not as a voice.
+
+**And measure any new element on its own before building on it** — two 1-credit TTS
+renders of the same words is all it takes. Three episodes of prompts were built around
+a Chi element nobody had ever listened to in isolation, and it turned out not to be
+her.
 
 **A reference sample is still worth having without cloning it.** Measure it and
 write the prompt toward those numbers, then measure what comes back. Dorian's
@@ -821,10 +858,17 @@ voice isn't British and that's not Chi's voice."* Both fixes had failed:
 
 **So the 0.9819 LTAS cosine in "It was verified before cloning" is NOT proof the
 clone is usable.** That measurement, and the pitch figures beside it, passed an
-asset the user rejects by ear. Section 7 already says measurement raises the
-question and the user settles it; this is that rule costing 75 credits for the clone
-plus four for the failed revoice. **Treat `de50f37f` as unproven, not as a restore
-point, until the user has approved something made from it.**
+asset the user rejected by ear at the time. Section 7 already says measurement raises
+the question and the user settles it; this is that rule costing 75 credits for the
+clone plus four for the failed revoice.
+
+**RESOLVED 15 Sep 2026: `de50f37f` is approved and is now Chi's element.** The
+condition this section set — "unproven until the user has approved something made from
+it" — was met by a 1-credit TTS render the user listened to and adopted. **Read the
+failure above narrowly: what failed was `voice_change`, riding on a bad render's
+articulation, NOT the element.** A voice can be right and a revoice built on it still
+be wrong, because the revoice inherits the original's pronunciation. Those are two
+different questions and this section conflated them.
 
 **What voice_change is still good for:** nothing yet demonstrated on this series.
 Keep it in mind for a single-speaker shot where the voice is merely the wrong
@@ -1071,8 +1115,10 @@ nothing. Shortening the clip does, because the slack disappears.
     - **Fingerprint a voice** when the question is "is this the right voice." Pull
       f0 median and quartiles on voiced frames, plus a long-term-average-spectrum
       cosine against a known-good sample from approved footage. Always include a
-      control pair you know differs (canon Chi vs element `180fdb9a` scores 0.8621)
-      so the numbers have a scale. Same voice lands ~0.98.
+      control pair you know differs so the numbers have a scale; same voice lands
+      ~0.98. **The old control — canon Chi vs element `180fdb9a` at 0.8621 — can no
+      longer be reproduced, because that element was deleted.** Use a cross-speaker
+      pair from inside one clip instead (~0.82), which section 7 prefers anyway.
     - **Get reference samples free** from `list_voices` — every voice element
       carries a `preview_url`. No TTS spend needed to hear what an element is.
     - **Audio measurement flags a suspicion; the user's eyes settle it.** Whose
