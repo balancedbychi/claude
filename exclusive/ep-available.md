@@ -663,14 +663,32 @@ dangerous pair in the episode.** Section 7: lines under about a second are too s
 for the discriminator to separate, and adjacent short lines are where attribution
 slips. Name both wrong answers in the prompt.
 
-### Clips 03+04 — SHOT AS ONE 28s TAKE · 50mm · f/2.2 · no cuts · opens from Clip 2's last frame
+### TAKES A AND B — 50mm · f/2.2 · no cuts · each opens from the previous take's real last frame
 
-**The user chose the merge and the start_image, 15 Sep 2026.** These two are no
-longer separate generations: one 28-second take, 117 words, 17 lines, beginning
-from `117a3e50` — the real last frame of Clip 2. Same 252 credits as the two clips
-apart, with the seam between them removed entirely. **Cup level, seating, rings and
-wardrobe fit are no longer written as numbers or descriptions at all** — the prompt
-points at the frame and says the frame wins.
+**The merge was the plan and the rewrite broke it.** The user chose one 28s take on
+15 Sep. The same day they rewrote the closing exchange, taking those three lines from
+22 words to 53 and the whole thing from 117 words to **152**. At the fastest rate ever
+measured here that needs **31.8s of screen time**, and `seedance_2_5` stops at 30.
+**There is no container that holds it**, so it is two takes again — but chained by
+start_image, which was the actual fix all along.
+
+| | Lines | Words | Length | Credits | Opens from |
+|---|---|---|---|---|---|
+| **A — the admission** | 8 | 47 | 12s | 108 | `117a3e50`, Clip 2's last frame |
+| **B — the confrontation** | 9 | 105 | 25s | 225 | **Take A's last frame — must be shot first** |
+| | **17** | **152** | **37s** | **333** | |
+
+**B cannot be submitted until A exists**, because its start_image is A's final frame.
+That is the whole point: the seam is a picture, not a paragraph.
+
+**Cup level, seating, rings and wardrobe fit are not written as numbers or
+descriptions anywhere in either prompt** — both point at the frame and say the frame
+wins. Neither names a screen side for either woman; the frame decides that too.
+
+| | |
+|---|---|
+| Take A prompt | `exclusive/prompts/ep3-takeA-PROPOSED.txt` |
+| Take B prompt | `exclusive/prompts/ep3-takeB-PROPOSED.txt` |
 
 #### The Clip 3 half — "That's fair"
 
@@ -705,14 +723,35 @@ over on your own many times. No impression, no male voice, no mimicry.
 > CHICHI: "You want me to say it so you can decide I'm wrong."
 > NIA: "Chi."
 > *(beat — Chi sets her cup down. One deliberate movement.)*
-> CHICHI: "He's not lying to you. He's told you three times. He's available."
-> NIA: "That's not— being available isn't a bad thing."
-> CHICHI: "To who?"
+> CHICHI: "Well, he's being honest and upfront with you. He's told you three times that he's still single and available. And I think you should have the same mindset."
+> NIA: "That's not being avail— available and figuring it out isn't a bad thing. We're both single."
+> CHICHI: "You are? Because you sure are acting like you're only available to him."
 
 ***This clip is the episode.*** *It turns on one word meaning two things. Nia hears
 "available" as single; Chi means still shopping. Neither of them explains it and the
-prompt must not have anyone explain it. "To who?" ends the exchange in two words and
-the clip holds on it — no reply, no reaction shot, no music swell.*
+prompt must not have anyone explain it.*
+
+**The user rewrote this exchange on 15 Sep 2026 and it is stronger.** The old close
+was Chi's two-word "To who?" It is now **"You are? Because you sure are acting like
+you're only available to him."** — which answers Nia's new "We're both single"
+directly and turns it back on her. Three things follow:
+
+- **"available" now lands as the LAST WORD OF THE EPISODE'S LAST LINE.** The earlier
+  draft buried it mid-sentence in "still single and available"; the rewrite puts the
+  title word in the final position, where it does the most work.
+- **Chi stops observing and starts calling Nia out.** "I think you should have the
+  same mindset" is advice, which she had not given before, and section 1 warns
+  against her becoming a lecture. It survives because the last line catches Nia in
+  the gap between what she says and what she does, rather than telling her what to
+  think.
+- **The button is no longer two words, but it still ends on one beat.** "You are?"
+  does the short-button work at the FRONT of the line and the rest is the turn of the
+  knife. The take still holds on it — no reply, no reaction shot, no music swell.
+
+⚠️ **"available" is now in ALL THREE of the last lines, alternating speaker**, which
+is the highest attribution risk in the episode — the exact Episode 2 "midnight"
+shape, one level worse. Take B carries a dedicated block naming all three wrong
+answers.
 
 **"He's told you three times" is a callback to Clip 3 and it is what makes Chi's
 read land as observation rather than opinion.** She is not guessing at him. She is
@@ -1000,9 +1039,10 @@ and came back with ChiChi's jacket missing, for 135 credits.
 | 01 | 15s | **135** | ✅ SHOT — `faeb10ca` |
 | 02 | 16s | **144** | ✅ SHOT — `fc416b16` |
 | ~~03 alone~~ | ~~12s~~ | ~~108~~ | ❌ SHOT AND REJECTED — `5dc24260`, spent |
-| **03+04 merged** | **28s** | **252** | written, priced, not shot |
+| **A — the admission** | **12s** | **108** | written, priced, not shot |
+| **B — the confrontation** | **25s** | **225** | written, priced — needs A's last frame first |
 | **05+06 merged** | **24s** | **216** | |
-| **Total delivered** | **83s** | **747** | **468 remaining** |
+| **Total delivered** | **92s** | **828** | **549 remaining** |
 | *plus the rejected take* | | *108 spent* | |
 
 **The three re-sizes save 387 credits** against the original 1,134 plan, and they
