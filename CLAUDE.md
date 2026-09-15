@@ -628,6 +628,56 @@ attached, and do not keep re-shooting in the hope that better wording fixes it.
 
 `ChiChi-Canon-Voice-v1` `de50f37f` sorts LAST, so swapping it in changes nothing.
 
+### `180fdb9a` IS NOT CHICHI — measured 15 Sep 2026, 2 credits
+
+The element pasted into every prompt she has ever spoken in was finally listened to.
+Both Chi elements were run through `seed_audio` TTS on the SAME 29 words of her own
+dialogue — 1 credit each, and `generate_audio` DOES have `get_cost`:
+
+| | median f0 | p25 | p75 |
+|---|---|---|---|
+| **`de50f37f` ChiChi-Canon-v1** | **166.7 Hz** | 148.1 | 186.0 |
+| **`180fdb9a` ChiChi-the-Influencer-Voice** | **219.2 Hz** | 181.8 | 242.4 |
+| **target — ChiChi in APPROVED Clip 2** | **160.0 Hz** | 146.8 | 170.2 |
+
+**`180fdb9a` reads 59 Hz above approved ChiChi — higher even than Nia (205.1).** It is
+not her voice and it never was. It is only harmless because seedance has never once
+honoured it; if it ever bound, it would be a disaster. `de50f37f` lands within 7 Hz of
+approved Chi.
+
+**This changes the deletion calculus in "the voice-element slot limit" above.** That
+section says `180fdb9a` "must stay, because every approved take had `<<<180fdb9a>>>` in
+the text." That is still true — the tag is part of the recipe and removing the element
+leaves it pointing at nothing — but it is now known to be a placeholder, not an asset.
+It is the one of the three with no independent value.
+
+**And it defeats the simple version of the binding experiment.** The sort is
+`12315c68` < `180fdb9a` < `de50f37f`, so dropping only Nia's tag hands the slot to
+`180fdb9a` — the 219 Hz voice — not to the canon capture. **To bind `de50f37f` you would
+have to attach it ALONE, with both other voice tags removed.** That is a much larger
+change to the recipe than "remove one tag" and it has to be tested, never assumed.
+
+### The separation is the signature, not either voice's pitch
+
+Approved Clip 2 vs rejected Clip 5, same method, pooled frames per speaker:
+
+| | Nia | ChiChi | apart |
+|---|---|---|---|
+| **Clip 2 — approved** | 205.1 Hz | 160.0 Hz | **45.1 Hz** |
+| **Clip 5 — both rejected by ear** | 192.8 Hz | 163.3 Hz | **29.5 Hz** |
+
+ChiChi's MEDIAN barely moved (3.3 Hz) and the user still says it is wrong, so median
+pitch is useless on its own. What moved is the SHAPE: her p90 went 179.8 → 213.1 while
+Nia's median fell 12 Hz. **The two women are 35% closer together in the rejected take.**
+Convergence, not absolute pitch, is what "both voices are wrong" measures as. Check the
+gap against Clip 2's 45 Hz, not either voice against a target.
+
+**Nia is not simply played back either — correcting an earlier claim in this file.**
+Approved Clip 2's Nia measures 205.1 Hz against her element's 183.9. The take the user
+APPROVED is 21 Hz further from her element than the take she rejected (192.8). Her
+element binds, but the render re-performs it, so "her element is loaded" does not mean
+"her voice is safe." Both women's voices are render products; only the degree differs.
+
 **The one untested lever: remove Nia's voice tag so ChiChi's element is the only voice
 attached.** ChiChi would then become the loaded, stable one and Nia the recipe. It has
 never been tried and it trades one problem for the other, so it is only worth it in a
