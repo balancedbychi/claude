@@ -594,18 +594,47 @@ any prompt, write down two things:
   (−20% against its own seed). **The JPEG costs about a fifth of the loss and the
   re-generation costs the rest**, so a lossless seed helps but does not fix it.
 
+  **✅ PROVEN FIX, 15 Sep 2026: DROPPING THE START_IMAGE RESTORES THE PICTURE COMPLETELY.**
+  Episode 3 Clip 5 was re-shot as pure t2v, job `fba2cfc5`, 135 credits — same prompt,
+  same elements, same `bitrate_mode: high`, the ONLY change being that no `start_image`
+  was passed and the entry state was written into the prose instead.
+
+  | | Mbps | sharpness |
+  |---|---|---|
+  | approved Clip 2 (t2v) | 11.08 | 47.5 |
+  | Clip 5 seeded from a JPEG | 7.69 | **24.1** |
+  | **Clip 5 re-shot as t2v** | 9.39 | **49.5** |
+
+  **49.5 is the sharpest clip in the episode — above Clip 2 — and slightly more than
+  DOUBLE the seeded version.** The bands do not overlap (48–52 against 23–25). That is
+  the whole hypothesis confirmed in one generation: the chain was the entire cause, and
+  there is no residual "1080p that is not 1080p" once it is broken.
+
+  **What it costs, and it is the real trade.** The start_image was silently carrying
+  continuity the prose never stated. Episode 3's delivered prompts all say Nia is
+  "ring-free" and ChiChi wears "NO necklace" — and the approved footage has a ring and
+  a necklace, because the seed frame was overruling the text. Going t2v makes the PROSE
+  the only authority, so **anything the seed was carrying has to be written in or it
+  disappears**: seating and which chair, who sits screen left, cup levels, jewellery,
+  props on the table. Audit the last approved frame's contents against the prompt before
+  dropping the seed, and expect to add ~1,000 characters of entry state.
+
   What to do, in order:
-  1. **DO NOT CHAIN. This is the real fix and §4a already argued for it on a
+  1. **SHOOT IT t2v — no `start_image` at all — whenever the shot can carry its own
+     entry state in prose.** Proven above. A locked two-shot of seated people is the
+     easy case: nobody moves, so there is almost nothing for a seed to carry that a
+     paragraph cannot.
+  2. **DO NOT CHAIN. This is the real fix and §4a already argued for it on a
      different ground.** `seedance_2_5` runs to 30 seconds and bills linearly, so
      merging clips costs nothing extra AND removes a link from the chain. Episode 3's
      Clips 3–6 are 12+15+15+15 = 57s — two generations instead of four, and the chain
      goes from four links to one.
-  2. **When you must seed, seed as PNG, never JPEG.** `ffmpeg -sseof -0.15 -i clipN.mp4
+  3. **When you must seed, seed as PNG, never JPEG.** `ffmpeg -sseof -0.15 -i clipN.mp4
      -frames:v 1 frame.png`. The JPEGs used in Episode 3 were ffmpeg's default mjpeg
      quality — 167–216 KB at 1080p — and that is a lossy step taken for free.
-  3. **Seed from the SHARPEST available source, not the most recent one.** A still from
+  4. **Seed from the SHARPEST available source, not the most recent one.** A still from
      Clip 2 is 47.5; a still from Clip 4 is 23. If the action allows it, reach back.
-  4. **Measure every seeded clip against the first clip of the episode** and say the
+  5. **Measure every seeded clip against the first clip of the episode** and say the
      number out loud, the same as a credit cost.
 
 - **Better still, do not create the seam. One generation holds continuity for

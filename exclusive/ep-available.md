@@ -1548,6 +1548,73 @@ would recover about a fifth of it; not chaining recovers the rest.
 the episode's Clips 3–6 are 57s total, which is TWO seedance generations rather than
 four chained ones, and merging them removes the chain entirely. See CLAUDE.md §4a.
 
+## CLIP 5 RE-SHOT AS t2v — `fba2cfc5` — THE PICTURE IS FIXED
+
+The user: *"you were charging me for 1080p and I'm not getting 1080p... I can barely
+see the character's face at this point... Redo this clip."* Correct on every count.
+
+| | |
+|---|---|
+| **Job** | `fba2cfc5-5b6c-4a05-a897-e1df59b8e981` |
+| Prompt | `exclusive/prompts/ep3-clip05-v3-DELIVERED-fba2cfc5.txt` (19,554 chars) |
+| **Revoice** | `b2b74f98-9c08-4bde-837c-e916ec92bb6f` — ChiChi, `de50f37f` |
+| **Delivered media** | `f84c3d9d-dcde-4509-a7cc-ada128ae88f5` |
+| Cost | **135 + 2 = 137 credits.** Balance 9,441.46 → 9,304.46 |
+
+**The one change that mattered: NO `start_image`.** Shot as pure text-to-video, exactly
+like approved Clips 1 and 2, with the entry state written into the prose instead.
+
+| | Mbps | sharpness (Laplacian var) |
+|---|---|---|
+| approved Clip 2 (t2v) | 11.08 | 47.5 (43–52) |
+| Clip 5 seeded from a JPEG ❌ | 7.69 | **24.1 (23–25)** |
+| **Clip 5 re-shot t2v** | 9.39 | **49.5 (48–52)** |
+
+**Sharpest clip in the episode, above Clip 2, and slightly more than double the rejected
+version.** Bands do not overlap. The seed chain was the entire cause.
+
+Also verified: all seven lines present and in order, single unbroken take (frame-diff
+max 2.72x mean — no cut), 15.05s, HEVC 1920x1080.
+
+### What going t2v cost, and what had to be written in
+
+The start frame was silently carrying continuity the prose never stated. Every delivered
+Ep3 prompt says Nia is "ring-free" and ChiChi wears "NO necklace" — and the approved
+footage has both, because the seed was overruling the text. With no seed the prose is the
+only authority, so this prompt adds explicit override clauses for Nia's gold band and
+ChiChi's fine gold chain (ChiChi's NO-RING rule untouched and restated), plus stated
+seating, screen positions, cup levels and the phone.
+
+**One detail could not be verified and is a known risk**: which hand and finger Nia's ring
+sits on was never recorded and the CDN is unreachable from the agent environment, so the
+prompt pins "exactly ONE slim plain GOLD BAND, on one finger of one hand only" without
+naming the finger. **Record it from this clip's footage.**
+
+### The voices need the user's ear
+
+| | Nia | ChiChi | apart |
+|---|---|---|---|
+| approved Clip 2 | 205.1 Hz | 158.4 Hz | **46.7 Hz** |
+| new t2v clip, as rendered | 171.1 Hz | 146.8 Hz | 24.3 Hz |
+| **after ChiChi revoice** | 171.1 Hz | **149.5 Hz** | 21.6 Hz |
+
+**The revoice moved ChiChi only 2.7 Hz this time, against 11.6 Hz on `85d64987`.** A
+revoice inherits the underlying render's articulation, so its effect is not a constant —
+do not quote the earlier "exact match" as a reproducible number.
+
+Nia reads 34 Hz below her approved take. Some of that is register — her lines here are
+written quiet and her Clip 2 lines are fast and defensive — so the cross-clip separation
+benchmark is not clean here. **§5a is explicit that below this level the user's ear is the
+only instrument.** Both versions were delivered; her verdict decides.
+
+### Still open
+
+**Clip 6 `8551d8a1` is unfixed**: `bitrate_mode: standard`, voices never judged, and it
+was seeded from Clip 5's last frame so it carries the worst of the chain. It needs the
+same t2v treatment.
+
+---
+
 ### `mode: "omni_reference"` — a wrong conclusion, corrected in the same turn
 
 Before this submission an agent diffed the params against approved Clip 4, saw that
