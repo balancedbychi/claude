@@ -992,6 +992,33 @@ nothing. Shortening the clip does, because the slack disappears.
   waiting for an answer. A warning followed immediately by the charge is not
   consent. When a step is both irreversible in cost and risky to an approved
   result, say so and STOP until the user answers.
+- **A LONG PROMPT LOSES THE DIALOGUE. PUT THE SCRIPT AT THE TOP AND KEEP THE WHOLE
+  THING SHORT.** This is the most expensive lesson in Episode 3 and the evidence is
+  a clean monotonic line:
+
+  | Prompt | Length | Lines spoken as scripted |
+  |---|---|---|
+  | Ep3 Clip 1 ✅ | 14,846 | all |
+  | Ep3 Clip 2 ✅ | 16,743 | all |
+  | Ep3 Clip 3 v1 ❌ | 19,875 | 3 of 6 |
+  | Ep3 Take A ❌ | 20,611 | **0 of 8 — a whole new scene invented** |
+  | Ep3 Clip 3 v3 ✅ | **8,775** | **all 47 words, verbatim** |
+
+  The failing takes obeyed everything at the TOP of the prompt perfectly — pacing,
+  framing, cut count, hold length all landed to spec — and improvised everything at
+  the bottom. **The dialogue was sitting about 70% of the way down.** The model is
+  not refusing to follow a script; it is losing it.
+
+  The fix is structural, not a harder negation. **Lead with the numbered lines and
+  their speaker tags, before any set, camera, wardrobe or continuity block**, and cut
+  the prompt to roughly half. Everything the start_image and the elements already
+  carry — seating, cup level, jewellery, wardrobe fit, framing — is one sentence
+  pointing at the frame, not a paragraph. Attribution warnings compress to a line
+  each without losing force.
+
+  **Escalating the wording is what caused this.** Every fix across three passes added
+  text, and each addition pushed the script further down. When adherence drops, DELETE
+  rather than add.
 - **Read the WHOLE prompt start to finish before submitting it.** Prompts here
   are rewritten in place across many edits and contradictions survive. A final
   read of Episode 2 Clip 5 caught two stale "three seconds" left over from a

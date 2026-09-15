@@ -922,6 +922,53 @@ model gives for free.
 
 ---
 
+## CLIP 3 — DELIVERED as `1e9fc185` ✅
+
+| | |
+|---|---|
+| **Job** | `1e9fc185-4595-4f69-8b4e-017030ebc3f7` |
+| Spec | 1080p · 16:9 · high · 12s · 1920x1080, 24fps |
+| Prompt | `exclusive/prompts/ep3-clip03-DELIVERED-1e9fc185.txt` — **8,775 chars** |
+| Opened from | `117a3e50`, Clip 2's real last frame, as start_image |
+| Cost | 108 credits |
+
+**All six lines came back word for word.** 47 words, in order, nothing invented,
+nothing dropped. Verified by transcript.
+
+| Check | Result |
+|---|---|
+| Dialogue | ✅ all 47 words verbatim |
+| Cuts | ✅ single continuous take (2.3x mean, threshold 8x) |
+| Opening | ✅ first word at 0.00s |
+| Tail | ✅ −33.9 → −41.0 → −46.7 dBFS, falling. **No music swell** — the first clip in the episode where the tail drops instead of rising |
+| Seam to Clip 2 | 23.28/255 against Clip 2's last frame |
+
+### WHAT ACTUALLY FIXED IT
+
+Two takes were lost to invented dialogue before this one. The cause was **prompt
+length**, and the evidence is monotonic — see the table now in CLAUDE.md section 7.
+Cutting 20,611 chars to 8,775 and **moving the script from 70% of the way down to the
+very first line** fixed it outright. Nothing else changed: same set, same elements,
+same start_image, same 12s container, same 1080p.
+
+**Everything the failing takes got right was at the top of the prompt** — pacing,
+framing, cut count. Everything they invented was at the bottom. The model was losing
+the script, not refusing it.
+
+### STILL NEEDS THE USER'S EYES
+
+Measurement cannot settle any of these:
+
+1. **Do the words land on the right mouths?** The transcript proves they were spoken,
+   never who spoke them. Lines 5 and 6 share SAY/SAID and are the known risk.
+2. **The seam from Clip 2** — the user confirmed on the previous take that the
+   start_image put the characters in the right positions, which is why it was kept.
+3. **ChiChi's skin, her hair sweep, no ring**, and whether Nia's rings match Clip 2.
+4. **The cup levels** — should match Clip 2's last frame exactly.
+5. **Chi's single slow blink** on the last line, and whether they look at each other.
+
+---
+
 ## SIZING — CLIP BY CLIP
 
 **Section 6's planning figure is 3.42 w/s and it is WRONG FOR THIS EPISODE.** Clip 1
@@ -1038,12 +1085,12 @@ and came back with ChiChi's jacket missing, for 135 credits.
 |---|---|---|---|
 | 01 | 15s | **135** | ✅ SHOT — `faeb10ca` |
 | 02 | 16s | **144** | ✅ SHOT — `fc416b16` |
-| ~~03 alone~~ | ~~12s~~ | ~~108~~ | ❌ SHOT AND REJECTED — `5dc24260`, spent |
-| **A — the admission** | **12s** | **108** | written, priced, not shot |
-| **B — the confrontation** | **25s** | **225** | written, priced — needs A's last frame first |
-| **05+06 merged** | **24s** | **216** | |
-| **Total delivered** | **92s** | **828** | **549 remaining** |
-| *plus the rejected take* | | *108 spent* | |
+| **03** | **12s** | **108** | ✅ SHOT — `1e9fc185` |
+| 04 | 16s | 144 | not shot |
+| 05 | 15s | 135 | not shot |
+| 06 | 9s | 81 | not shot |
+| **Total** | **83s** | **747** | **360 remaining** |
+| *rejected takes* | | *216 spent* | `5dc24260` and `01486fee`, both invented dialogue |
 
 **The three re-sizes save 387 credits** against the original 1,134 plan, and they
 buy headroom rather than pixels. After Clips 1 and 2, **1,490.59 − 468 = 1,022.59
