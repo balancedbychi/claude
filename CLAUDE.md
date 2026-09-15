@@ -739,12 +739,34 @@ APPROVED is 21 Hz further from her element than the take she rejected (192.8). H
 element binds, but the render re-performs it, so "her element is loaded" does not mean
 "her voice is safe." Both women's voices are render products; only the degree differs.
 
-**The one untested lever: remove Nia's voice tag so ChiChi's element is the only voice
-attached.** ChiChi would then become the loaded, stable one and Nia the recipe. It has
-never been tried and it trades one problem for the other, so it is only worth it in a
-clip ChiChi carries. **Settle it on a 4-second test — seedance's minimum, 36 credits at
-1080p — not on a real clip, and never without asking.** Section 7: flagging a risk is
-not permission to take it.
+### THE BINDING LEVER WAS TESTED AND IT FAILED — 36 credits, job `a91ed33b`
+
+**Do not try this again.** A 4-second clip was shot with ChiChi's `de50f37f` as the
+ONLY voice element attached — Nia's `12315c68` tag removed entirely. Confirmed in the
+returned payload: the `reference_elements` list contains no Nia voice. `bitrate_mode`
+was `high`, so the render was not degraded.
+
+| | ChiChi's median f0 |
+|---|---|
+| APPROVED Clip 2 (both voices attached, Nia's binds) | **160.0 Hz** |
+| rejected Clip 5 (same config, bitrate broken) | 163.3 Hz |
+| **this test — Chi's saved voice attached ALONE** | **183.9 Hz** |
+
+**183.9 Hz is the highest ChiChi has ever measured in a render** — 24 Hz above the
+approved take and sitting in Nia's own band. p25 173.0, p75 214.8, p90 225.4: the whole
+distribution shifted up, not just the median. Attaching her saved voice by itself gave
+a WORSE Chi than leaving it unbound.
+
+**One honest caveat:** the test also removed Nia's voice SENTENCE from her character
+block, so the prompt neighbourhood changed too and this is not a perfectly isolated
+variable. The result is so far off, in the wrong direction, that refining it is not
+worth another 36 credits.
+
+**The conclusion that matters: the configuration that works is the one already in the
+approved clips** — BOTH voice elements attached, Nia's binding, ChiChi synthesized from
+the prose around her tag. That produced a 160 Hz Chi four times running. Do not
+re-engineer the voice binding. **When ChiChi sounds wrong, look at the render
+parameters, not the elements** — see the banner at the top of this section.
 
 **Measurement cannot referee this.** LTAS across Ep3 clips 2–5, same room and same
 encode throughout, put a definitely-different-speaker pair at **0.9664** and ChiChi in

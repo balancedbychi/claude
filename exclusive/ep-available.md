@@ -1331,6 +1331,44 @@ Clip 5 is confirmed.
 
 ---
 
+## VOICE TEST — `a91ed33b`, 36 credits, NEGATIVE RESULT
+
+The user chose to test cheaply before committing 135 to a Clip 5 re-shoot. **4 seconds,
+ChiChi's saved voice `de50f37f` as the ONLY voice element attached, Nia's `12315c68`
+removed, `bitrate_mode: "high"`.** One line from approved Clip 2 so there is a direct
+memory to compare against: *"Is he still dating other people?"*
+
+**Two findings, one good and one decisive.**
+
+**1. The bitrate fix works.** Video bitrate came back at **8.40 Mbps** against Clip 5's
+1.55 and approved Clip 2's 11.35. Passing `bitrate_mode: "high"` explicitly restores the
+render quality that was lost.
+
+**2. Forcing ChiChi's saved voice FAILS.**
+
+| | ChiChi's median f0 |
+|---|---|
+| APPROVED Clip 2 | **160.0 Hz** |
+| rejected Clip 5 | 163.3 Hz |
+| **this test — her saved voice alone** | **183.9 Hz** |
+
+183.9 Hz is **the highest ChiChi has ever measured**, 24 Hz above the approved take and
+inside Nia's own range. The whole distribution shifted up: p25 173.0, p75 214.8,
+p90 225.4. Attaching her saved voice by itself made her worse than leaving it unbound.
+
+Caveat: the test also dropped Nia's voice sentence from her character block, so the
+prompt neighbourhood changed as well. Not a perfectly isolated variable — but the
+result is far enough in the wrong direction that refining it is not worth another 36.
+
+### So Clip 5 gets re-shot in the APPROVED configuration
+
+Both voice elements attached, Nia's binding, ChiChi synthesized from the prose — the
+arrangement that produced a 160 Hz Chi in four consecutive approved clips — with
+`bitrate_mode: "high"` restored and `de50f37f` in place of the deleted `180fdb9a`.
+**135 credits.**
+
+---
+
 ## SIZING — CLIP BY CLIP
 
 **Section 6's planning figure is 3.42 w/s and it is WRONG FOR THIS EPISODE.** Clip 1
