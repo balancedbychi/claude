@@ -1007,6 +1007,54 @@ Measurement cannot settle any of these:
 
 ---
 
+## CLIP 4 — DELIVERED as `dd63298f`, awaiting the user's eyes
+
+| | |
+|---|---|
+| **Job** | `dd63298f-caf1-4033-af6e-40acbffc859b` |
+| Spec | 1080p · 16:9 · high · 23s · 1920x1080, 24fps |
+| Prompt | `exclusive/prompts/ep3-clip04-DELIVERED-dd63298f.txt` — 18,945 chars |
+| Opened from | `97a2ff8e`, Clip 3's last frame, as start_image |
+| Cost | 207 credits |
+
+**All eight lines came back word for word**, in order, nothing invented.
+
+| Check | Result |
+|---|---|
+| Dialogue | ✅ all 8 lines verbatim |
+| Cuts | ✅ single continuous take (2.8x mean, threshold 8x) |
+| Opening | ✅ first word at 0.00s |
+| Tail | ✅ −23.4 → −36.8 → −39.8 dBFS, falling. No music swell |
+| **ChiChi** | **152.8 Hz** — below Clip 2's 165.2, correctly the lower voice |
+| **Nia** | **188.2 Hz** — below Clip 2's 207.8 |
+| Gap between them | **35.5 Hz** against Clip 2's 42.6. The broken take was 17.9 and inverted |
+
+**"Chi" transcribed as "Chee."** Episode 2 scripted the same word without a
+pronunciation note and the transcript read "Gee." Spelling the sound — *CHEE, one
+syllable rhyming with SEE* — is what fixed it, and section 5's phonetic rule now has
+a second confirmed case.
+
+### WHAT IS NOT RIGHT, AND IT IS THE PACING
+
+Articulation measured **6.02 w/s**, the fastest of the episode. The clip is
+**26% silent** and two gaps are far over what the prompt declared:
+
+| Gap | Asked | Got |
+|---|---|---|
+| after "Chi." (ChiChi's cup-set) | at most 0.5s | **1.52s** |
+| before "Chi." | not declared at all | **1.28s** |
+
+That undeclared 1.28s is the more interesting one — section 6 says an undeclared
+silence gets filled, and here the model invented a beat before Nia's one-word line
+where the prompt named none. **Declaring only the beats you want is not the same as
+forbidding the ones you do not.**
+
+Both gaps sit either side of the same line. If the user wants them tightened, the
+container is the lever: 23s → 21s removes 2s of exactly this slack, and the
+dialogue is proven at this prompt shape now.
+
+---
+
 ## SIZING — CLIP BY CLIP
 
 **Section 6's planning figure is 3.42 w/s and it is WRONG FOR THIS EPISODE.** Clip 1
@@ -1124,7 +1172,7 @@ and came back with ChiChi's jacket missing, for 135 credits.
 | 01 | 15s | **135** | ✅ SHOT — `faeb10ca` |
 | 02 | 16s | **144** | ✅ SHOT — `fc416b16` |
 | **03** | **12s** | **108** | ✅ **APPROVED** — `1d04f4bd` |
-| **04** | **23s** | **207** | shooting — `dd63298f` |
+| **04** | **23s** | **207** | ✅ SHOT — `dd63298f` |
 | 05 | 15s | 135 | not shot |
 | 06 | 9s | 81 | not shot |
 | **Total delivered** | **81s** | **729** | |
