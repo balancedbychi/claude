@@ -1369,6 +1369,51 @@ arrangement that produced a 160 Hz Chi in four consecutive approved clips — wi
 
 ---
 
+## CLIP 5 RE-SHOT as `85d64987` — 135 credits, awaiting the user's ear
+
+| | |
+|---|---|
+| **Job** | `85d64987-a535-4815-aa68-3ae68edb03c5` |
+| Prompt | `exclusive/prompts/ep3-clip05-v2-DELIVERED-85d64987.txt` |
+| Changed from the rejected take | **`bitrate_mode: "high"` passed explicitly, no `quality` field**, and ChiChi's voice UUID swapped `180fdb9a` → `de50f37f` because the old element was deleted. **The prompt diff is ONE line** — everything else byte-identical to the rejected take. |
+| Cost | 135 credits, preflighted. Balance 9,578.46 → 9,443.46, one charge |
+
+### The render fault is fixed
+
+| | rejected `f8a62247` | **re-shoot `85d64987`** | approved Clip 2 |
+|---|---|---|---|
+| video bitrate | 1.55 Mbps | **7.95 Mbps** | 11.35 Mbps |
+| dialogue | all 7 | ✅ **all 7 verbatim** | — |
+| cuts | none | ✅ none (2.67x mean) | — |
+
+### The voices are NOT confirmed fixed — the user's ear decides
+
+| | Nia | ChiChi | apart |
+|---|---|---|---|
+| approved Clip 2 | 205.1 Hz | 160.0 Hz | **45.1 Hz** |
+| rejected Clip 5 | 192.8 Hz | 163.3 Hz | 29.5 Hz |
+| **re-shoot** | **178.8 Hz** | **148.1 Hz** | **30.6 Hz** |
+
+**On separation this sits with the REJECTED take, not the approved one.** ChiChi's median
+dropped to 148.1 Hz, which is the right direction, but her spread is wide (p25 133.3,
+p90 231.2) and Nia came down 26 Hz from approved Clip 2. Do not report this as fixed.
+If the user still hears it as wrong, **the bitrate was a real fault but not the only
+one**, and the next step is her ear on what specifically is wrong — not another take.
+
+### `mode: "omni_reference"` — a wrong conclusion, corrected in the same turn
+
+Before this submission an agent diffed the params against approved Clip 4, saw that
+Clips 3 and 4 echo `medias: [{role: "start_image"}]` with no `mode` key while Clips 5
+and 6 echo `reference_images[]` with `mode` set, and concluded that passing `mode` had
+silently demoted the start frame — a "second regression". A rule and a hook check were
+written against it. **The backend then refused the submission outright with a 422:**
+*"mode 't2v' does not accept reference media; start_image and end_image are only
+allowed for mode 'omni_reference'."* Nothing was charged. Both the rule and the hook
+check were reverted — the hook as written would have blocked every future seam clip.
+**`bitrate_mode` remains the one confirmed difference.**
+
+---
+
 ## SIZING — CLIP BY CLIP
 
 **Section 6's planning figure is 3.42 w/s and it is WRONG FOR THIS EPISODE.** Clip 1
@@ -1487,7 +1532,8 @@ and came back with ChiChi's jacket missing, for 135 credits.
 | 02 | 16s | **144** | ✅ SHOT — `fc416b16` |
 | **03** | **12s** | **108** | ✅ **APPROVED** — `1d04f4bd` |
 | **04** | **23s** | **207** | ✅ **APPROVED** — `dd63298f` |
-| **05** | **15s** | **135** | ⚠️ SHOT — `f8a62247`, ChiChi's voice rejected |
+| ~~05~~ | 15s | ~~135~~ | ❌ REJECTED — `f8a62247`, bitrate_mode standard |
+| **05 v2** | **15s** | **135** | ⏳ SHOT — `85d64987`, awaiting the user's ear |
 | **06** | **9s** | **81** | ✅ SHOT — `8551d8a1` |
 | **Total delivered** | **105s** | **945** | |
 | *rejected takes* | | *324 spent* | `5dc24260`, `01486fee`, `1e9fc185` |

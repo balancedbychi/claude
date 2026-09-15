@@ -527,7 +527,21 @@ any prompt, write down two things:
   `media_upload` -> PUT -> `media_confirm`, and pass it as
   `medias: [{value, role: "start_image"}]` with `mode: "omni_reference"`. Seating,
   cup level, jewellery, wardrobe fit, hair and posture stop being paragraphs and
-  become pixels. **This is section 2's oldest rule — lock from an approved still,
+  become pixels.
+
+  **`mode: "omni_reference"` IS MANDATORY WITH A START IMAGE — the backend enforces
+  it.** Dropping it returns a 422: *"mode 't2v' does not accept reference media;
+  start_image and end_image are only allowed for mode 'omni_reference'."* Nothing is
+  charged, but do not try it. An agent briefly concluded the opposite from the stored
+  job payloads — approved Clips 3 and 4 echo `medias: [{role: "start_image"}]` with no
+  `mode` key, while Clips 5 and 6 echo `reference_images[]` with `mode` set — and
+  wrote a rule and a hook check against passing it. **That reading was wrong**: the
+  API refuses the shape it called "approved", so the echo difference is a storage or
+  display change, not something a caller controls. **`bitrate_mode` remains the ONE
+  confirmed parameter difference between the approved clips and the rejected ones.**
+  The lesson: a difference visible in two stored payloads is a hypothesis, not a
+  cause — the cheapest test is to submit and read the validation error, which costs
+  nothing. **This is section 2's oldest rule — lock from an approved still,
   never from prose — applied to the SEAM instead of the set**, and it was the one
   place nobody had applied it.
 - **Better still, do not create the seam. One generation holds continuity for
