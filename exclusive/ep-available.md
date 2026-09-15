@@ -797,6 +797,83 @@ reading has to come from the delivery.
 
 ---
 
+## CLIP 3 — SHOT AS `5dc24260`, REJECTED. 108 CREDITS. READ THIS BEFORE SHOOTING ANYTHING ELSE.
+
+**The user's verdict: "This is the worst clip out of all of them."** Six separate
+faults in one take, and they are not six accidents — they are one method failing.
+
+| What broke | What the prompt said | What came back |
+|---|---|---|
+| **Seating** | "each on a clear acrylic chair" | Nia on a BENCH, ChiChi on the clear chair |
+| **Cup level** | "a little under half full, identical in the last frame to the first" | back to FULL |
+| **Rings** | "the same gold ring, on the same hand and the same finger" | changing across the clip |
+| **ChiChi's trousers** | wardrobe element, "tailored realistically to her real proportions" | protruding, reading as ill-fitting |
+| **Dialogue** | 47 scripted words | 3 lines correct, then **three sentences, a question and the payload line all INVENTED** |
+| **Pauses** | 1.5s declared wordless | 38% silent — a 1.20s gap where 0.33s was asked |
+
+What DID hold: 1920×1080 24fps 12.05s, one continuous take confirmed by
+frame-difference (2.9x mean, far below the 8x cut threshold), first word at 0.00s
+and an 0.85s tail against the 0.80s asked.
+
+### THE ROOT CAUSE, AND IT IS NOT BAD LUCK
+
+**Every clip is an independent generation, and the model has never seen the
+previous clip.** Four of the six faults above are continuity written as PROSE:
+"the same ring", "identical to the last frame", "each on a clear acrylic chair".
+Those sentences describe a picture the model cannot look at. It fills the gap from
+its own priors every time, and it will keep doing that however hard the wording
+gets — three passes of escalating language is exactly what produced this take.
+
+This is section 2's oldest rule pointing at a place nobody applied it: **lock from
+an approved still, never from prose.** The repo already does that for SETS. It has
+never done it for the SEAM, even though section 4a says in as many words that the
+last frame of clip N is the opening condition of clip N+1.
+
+**Two specific mistakes of mine, on top of the method.**
+1. The cup level was written as "a little under half full" from the user's earlier
+   note about how Clip 2 looked. **Clip 2 actually ENDS with the cups nearly
+   empty.** The entry state should have been read off Clip 2's final frame, not
+   recalled from a sentence about it.
+2. "Each on a clear acrylic chair" appears once and no bench, banquette or built-in
+   seat is ever negated. Section 5 is explicit that a plain statement loses to a
+   strong prior — the set has seating the model wanted to use, and nothing named it
+   as wrong.
+
+### THE FIX — FEED THE LAST FRAME IN AS THE FIRST FRAME
+
+`seedance_2_5` accepts a `start_image` media role. Clip 2's final frame is now
+captured and in the user's library:
+
+| | |
+|---|---|
+| **`ep3-clip02-lastframe.jpg`** | `117a3e50-31ac-46f0-bb05-87769913dc69` |
+| seam comparison (Clip 2 last / Clip 3 first, stacked) | `540837a9-598e-4de6-ad45-7b9dc9f51aa0` |
+
+Used as the opening frame, seating, cup level, rings, wardrobe fit, hair and
+posture stop being paragraphs the model can reinterpret and become pixels it starts
+from. **Untested in this project — quote it as a hypothesis until one clip proves
+it**, and note that the `<<<element>>>` tags have never been combined with a
+start_image here, so that pairing is part of what the test establishes.
+
+### AND THE STRUCTURAL ANSWER — STOP SHOOTING SEPARATE CLIPS
+
+The user: *"creating these separate clips is costing more work."* Correct, and the
+maths says they cost nothing extra to merge. `seedance_2_5` runs to **30 seconds**
+and billing is linear per second.
+
+| | as four clips | as two generations |
+|---|---|---|
+| Clips 3+4 | 12s + 16s | **one 28s take** |
+| Clips 5+6 | 15s + 9s | **one 24s take** |
+| Cost | 108+144+135+81 = **468** | 252+216 = **468** |
+| Seams that can fail | 3 | **1** |
+
+**Identical credits, two thirds of the seams removed.** Continuity inside a single
+generation is not something the prompt has to argue for — it is the one thing the
+model gives for free.
+
+---
+
 ## SIZING — CLIP BY CLIP
 
 **Section 6's planning figure is 3.42 w/s and it is WRONG FOR THIS EPISODE.** Clip 1

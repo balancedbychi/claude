@@ -451,6 +451,36 @@ any prompt, write down two things:
   from two angles (a door, a window, a staircase, a counter) needs its material,
   colour and surround stated in BOTH prompts, not just the one where it is the
   subject. The locked plate only covers the side it was shot from.
+- **FEED THE LAST FRAME IN AS THE FIRST FRAME. Prose cannot carry a seam.** This is
+  the rule Episode 3 Clip 3 was spent proving. That prompt said "each on a clear
+  acrylic chair", "the same gold ring on the same hand and the same finger" and
+  "identical in the last frame to the first" — and got a woman on a BENCH, rings
+  that changed mid-shot and cups refilled to the top. **Every one of those
+  sentences describes a picture the model has never seen.** It has no access to the
+  previous clip; it fills the gap from its own priors, and it will keep doing that
+  however hard the wording gets. Three passes of escalating language produced that
+  take.
+  `seedance_2_5` accepts a **`start_image`** media role. Pull the final frame of
+  clip N with `ffmpeg -sseof -0.15 -i clipN.mp4 -frames:v 1`, put it through
+  `media_upload` -> PUT -> `media_confirm`, and pass it as
+  `medias: [{value, role: "start_image"}]` with `mode: "omni_reference"`. Seating,
+  cup level, jewellery, wardrobe fit, hair and posture stop being paragraphs and
+  become pixels. **This is section 2's oldest rule — lock from an approved still,
+  never from prose — applied to the SEAM instead of the set**, and it was the one
+  place nobody had applied it.
+- **Better still, do not create the seam. One generation holds continuity for
+  free.** `seedance_2_5` runs to **30 seconds** and bills linearly per second, so
+  two 14s clips and one 28s clip cost exactly the same. Every seam is an
+  independent re-roll of seating, wardrobe, props and jewellery; a seam that does
+  not exist cannot fail. **Before splitting a scene into clips, ask what the split
+  is buying** — if the answer is only "that is how the episode was planned", merge
+  them. The user's note in Episode 3: *"creating these separate clips is costing
+  more work."*
+- **Read the entry state off the ACTUAL LAST FRAME, never off a memory of it.**
+  Episode 3 Clip 3 locked the cups at "a little under half full" because that
+  matched an earlier note about how Clip 2 looked. Clip 2 in fact ENDS with them
+  nearly empty. A sentence about a clip is not the clip; extract the frame and
+  look at what is in it, or pass it in as the start_image and stop describing it.
 - **Props are the cheapest continuity there is, and the most convincing.** A plate
   of food carried out of the kitchen scene into the next one does more to make an
   episode read as one evening than any line of dialogue. Track every prop across
