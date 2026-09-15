@@ -328,6 +328,78 @@ Per line: 4.1, 6.3, 5.3 and 4.7 w/s. Consistently far above 3.4.
 
 ---
 
+## CLIP 2 — SHOT AS `fc416b16`, AWAITING THE USER'S EYES
+
+| | |
+|---|---|
+| **Job** | `fc416b16-0f98-492d-aaf8-6a612e7037a5` |
+| Spec | 1080p · 16:9 · high · 16s — **1920×1080, 24fps, 385 frames, 16.05s confirmed** |
+| Cost | **144 credits**, preflighted and billed at 144 — balance 1,634.59 → 1,490.59 |
+| Prompt | `exclusive/prompts/ep3-clip02-DELIVERED-fc416b16.txt` |
+
+### Clean
+
+| check | result |
+|---|---|
+| Words | **exactly the 48 scripted** — nothing invented, nothing dropped |
+| Cuts | **ZERO**, and cleaner than Clip 1: max frame difference only **3.6× mean**, evenly spread, no spike anywhere |
+| Music | tail runs −44.3 → −39.6 dBFS with a steady ~960 Hz centroid, ending level with the mid-clip ambience floor of −40.6. Reads as ambience recovering after ducking, not a swell — but the rise is **+4.7 dB** and bigger than Clip 1's, so it wants the user's ears. If it IS a swell, section 6's fix is free: duck the tail with ffmpeg, zero credits, no frame touched |
+| The clip ends on the question | dialogue stops at **13.08s** and nothing is spoken across the remaining **2.97s**. Nia does not answer |
+
+### DANGEROUS PAIR ONE — CONFIRMED CORRECT
+
+| line | scripted | f0 |
+|---|---|---|
+| "What kind of question is that?" | NIA | **177.8 Hz** |
+| "The kind with an answer." | CHI | **150.9 Hz** |
+
+**27 Hz apart, each sitting squarely in its speaker's Clip 1 band** (Nia 177–183, Chi 147–158). The shared word KIND did not move the line. Naming both wrong answers worked.
+
+Chi's other lines corroborate: "Is he still dating other people?" also reads **150.9 Hz**, identical to "The kind with an answer.", and the two score **0.913** against each other — a clean same-speaker pair.
+
+### DANGEROUS PAIR TWO — CANNOT BE CERTIFIED, AND THE EVIDENCE POINTS CORRECT
+
+"Nia." is **0.32s**. "What." is **0.28s**. Section 7's floor is about a second; these are a third of one, so **the discriminator cannot separate these two speakers and no amount of re-measuring will change that.** Episode 2 spent roughly 110 credits learning exactly this.
+
+**What raised the question:** Whisper transcribed the two words as **"Nia, what?"** — one clause, one intonation, as though one mouth said both. That is the informative direction of section 7's rule, so it had to be checked rather than waved off.
+
+**What the measurement actually says, and it points the other way:**
+
+| comparison | score | meaning |
+|---|---|---|
+| "Nia." vs "Are you exclusive?" (both CHI) | **0.961** | higher than the same-speaker control |
+| same-speaker control, L1 vs L3 (both CHI) | 0.913 | |
+| **"Nia." vs "What."** | **0.779** | **below the same-speaker control — reads as two different speakers** |
+| cross-speaker floor, L1 (CHI) vs L4 (NIA) | 0.517 | |
+
+So "Nia." clusters with ChiChi's closing question more tightly than two known ChiChi lines cluster with each other, and it does NOT cluster with "What." **Whisper's comma was punctuation, not a speaker.** But this is a suspicion resolved, not a fact established — **only the user's eyes can settle whose mouth moves.**
+
+**One number worth flagging honestly:** ChiChi's closing question reads **170.2 Hz** against her 150.9 Hz earlier in the same clip. The likely cause is innocent — it is a question, and a rising terminal intonation lifts the median on a 0.72s line — and the 0.961 spectral match to her own "Nia." supports that. But it is a 19 Hz move within one clip and it is recorded rather than smoothed over.
+
+### THE RE-SIZE WORKED, AND THE RATE IS NOT A CONSTANT
+
+| | Clip 1 | Clip 2 |
+|---|---|---|
+| Container | 15s | 16s |
+| Articulation | 4.80 w/s | **5.57 w/s** |
+| **Silence** | **58%** | **46%** |
+| Declared beat overrun | +2.26s on a 2s beat | +0.90s on a 1s beat |
+| Tail vs asked | 3.43s vs 1.5s | **2.97s vs 2.5s** |
+
+**Silence dropped twelve points and the tail landed almost exactly where it was asked to.** Sizing on the measured rate is working.
+
+**But 5.57 is not 4.80, so the rate tracks the writing rather than being a property of the model.** Clip 2 carries Nia's long defensive run, which is scripted to be fast, and it came out fast. **Do not re-size Clips 3–6 to 5.57.** The honest range is **4.8–5.6**, chosen by register: use the lower end for clips built on short exchanges and held beats, the upper end where a character is deliberately running away with a sentence. The declared beats still overrun in both clips, so the container remains the control, exactly as section 6 says.
+
+### OPEN FOR THE USER'S EYES
+
+1. **"Nia." / "What." — two mouths or one?** The measurement says two and cannot prove it.
+2. **The seam from Clip 1** — does it read as the same conversation seconds later? Same posture, same wardrobe, ChiChi's cup lower, Nia's still full.
+3. **Does Nia's eyeline break land?** Her eyes should leave ChiChi through the whole defensive run and come back on "Nia."
+4. **The tail** — does anything rise under the held question?
+5. **The standing list:** no wedding ring · skin clear and not aged · hair to her own right · two cups, no writing, levels correct · the neckline · phone still face-up.
+
+---
+
 ## MANDATORY BLOCKS — IN ALL SIX PROMPTS, BYTE-IDENTICAL
 
 Both of these are carried forward **word for word** from
