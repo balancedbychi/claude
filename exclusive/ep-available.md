@@ -1548,6 +1548,68 @@ would recover about a fifth of it; not chaining recovers the rest.
 the episode's Clips 3–6 are 57s total, which is TWO seedance generations rather than
 four chained ones, and merging them removes the chain entirely. See CLAUDE.md §4a.
 
+## CLIP 6 REBUILT AS t2v — `2c7841b3` then `2bcece5b`
+
+Clip 6 was the last one still on the broken chain: `bitrate_mode: standard`, seeded from
+Clip 5's blurry last frame, carrying the dead `180fdb9a` tag, voices never judged.
+Rebuilt from Clip 5 v4's structure with Clip 6's own scene swapped in.
+
+| | v2 `2c7841b3` | **v3 `2bcece5b`** |
+|---|---|---|
+| Prompt | 19,482 chars | **19,546 chars** |
+| Exterior | generic "leafy green trees" | **described from the user's own frame** |
+| Bitrate | 10.30 Mbps | **12.02 Mbps** |
+| Sharpness | 38.9 | **66.7 (62–78)** |
+| Window green-excess | +5.14 | **+9.78** |
+| Lines | 4 of 4 | **4 of 4** |
+| Cost | 81 credits | 81 credits |
+
+**`2bcece5b` is the sharpest, highest-bitrate clip in the series** — 66.7 against approved
+Clip 2's 47.5, and 12.02 Mbps against its 11.08. Single unbroken take, 9.05s.
+
+### Describing the exterior from the frame nearly doubled the foliage
+
+The generic "LEAFY GREEN TREES along the pavement, a PUBLIC BENCH" gave +5.14. Replacing
+it with what the approved frame actually shows — *a green park across a quiet road, large
+mature trees with grey Spanish moss, open lawn, a dark green slatted park bench, a man in
+a cap and a blue jacket on the left and a woman in a pale top on the right* — gave
+**+9.78**. Still short of Clip 5 v4's +19.42, so the window is present but lighter.
+**A specific exterior holds roughly twice as well as a generic one.**
+
+### The frame also corrected a wardrobe detail
+
+The user's frame shows ChiChi in a **BOLD GOLD LINK CHAIN**, chunky and substantial, with
+the gold watch clearly on her wrist. The override clause written for Clip 5 v4 said "a
+FINE GOLD CHAIN, delicate and simple" — wrong, and it would have drifted. Corrected in
+v3. **The lesson: once a frame is approved, audit the prompt's prose against it; prose
+written blind will not match footage the user has actually seen.**
+
+### Length discipline held the two-word line
+
+v3 came in at 19,546 — **8 chars under the 19,554 where every line rendered**, and
+deliberately so: Clip 6's last line is "I know.", two words, and Clip 5 v4 proved at
+19,940 that a short line is the first thing a long prompt drops. All four lines landed
+in both takes.
+
+### Voices — ChiChi is NOT measurable here
+
+| | Nia | ChiChi |
+|---|---|---|
+| approved Clip 2 | 205.1 Hz | 158.4 Hz |
+| Clip 5 v4 | 175.8 Hz | 156.9 Hz |
+| `2c7841b3` | 177.8 Hz | 153.8 Hz |
+| **`2bcece5b`** | **186.0 Hz** | **262.3 Hz on 16 frames — DISCARD** |
+
+**That 262.3 Hz is not a finding, it is a non-measurement.** ChiChi's only line is "You
+can look." — about 0.75s, 16 voiced frames, and whisper merged it with Nia's "I know."
+so the segment boundary is a guess. §5a is explicit that below about a second there is no
+test and that ChiChi's short lines always read high. **Do not re-shoot on this number.**
+Her voice in this clip needs the user's ear and nothing else.
+
+Nia at 186.0 is her closest to the approved take since Clip 2.
+
+---
+
 ## CLIP 5 v4 — `f1434309` — WINDOW CHANGED TO A REAL EXTERIOR
 
 The user supplied a frame from `fba2cfc5` and ruled: *"The update worked. Re-batch clip 5
