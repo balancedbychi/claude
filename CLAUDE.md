@@ -1822,6 +1822,38 @@ nothing. Shortening the clip does, because the slack disappears.
   **Escalating the wording is what caused this.** Every fix across three passes added
   text, and each addition pushed the script further down. When adherence drops, DELETE
   rather than add.
+- **⛔ ROOM ANCHORING FAILED — 72 credits, job `c52c4a30`, and it made BOTH the
+  picture and the voices worse.** The N1 8s test swapped the two women, so the
+  next take named the room at every cut ("CUT TO CHICHI — WE ARE NOW IN HER LIVING
+  ROOM…") plus a rule binding identity to location. ~700 characters added, every
+  parameter identical, same elements, same 8s.
+
+  | | `fc39a8ab` | `c52c4a30` with anchoring |
+  |---|---|---|
+  | L1 Nia's line | 227.0 Hz ✅ | **188.2 Hz** ✅ |
+  | L2 Chi's line | 161.6 Hz ✅ | **173.9 Hz** ✅ |
+  | L3 Nia's line | 173.9 Hz ❌ Chi's band | **170.2 Hz** ❌ still Chi's band |
+  | L4 Chi's line | 207.8 Hz ❌ Nia's band | **213.3 Hz** ❌ still Nia's band |
+  | voice spread | 65 Hz | **43 Hz** |
+  | sharp pair of shots | 46.7 / 45.9 | **33.5 / 30.5** |
+  | soft pair of shots | 16.7 / 18.5 | **14.0 / 15.4** |
+
+  **The swap did not move** — L3 and L4 are inverted in both takes, within a few Hz.
+  Meanwhile the two voices converged from a 65 Hz spread to 43, which is §5a's
+  signature of "both voices are wrong", and every shot lost sharpness, the good pair
+  worst.
+
+  **This is section 7's own most expensive lesson repeating: when adherence drops,
+  DELETE rather than add.** Episode 3 learned it on the dialogue; this learns it on
+  identity. The clip still spoke all twenty words verbatim, so it is not the
+  dialogue-loss failure — it is the more general one. **Adding text to beat a
+  behaviour degrades the render even when the text is obeyed**, and the ring and the
+  music swell already said the same thing on two other axes. Three failures, one
+  shape. **Stop trying to out-write the model.**
+
+  **The anchoring was reverted out of C1.** Whatever fixes the swap, it is not more
+  words — look at staging, at cut count, or at splitting the intercut into
+  single-woman clips that cannot swap because only one woman is in them.
 - **THE DIALOGUE FIX AND THE VOICE RECIPE PULL AGAINST EACH OTHER. Satisfy both by
   moving the script UP, never by deleting the blocks around ChiChi's voice line.**
   Shortening Episode 3 Clip 3's prompt from 20,611 to 8,775 chars got every word of
