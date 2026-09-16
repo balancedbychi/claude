@@ -804,6 +804,57 @@ arrival, and it costs nothing.
 
 ---
 
+## THE TWO MEN — CAPTURED FROM THE FOOTAGE, FREE
+
+Both men exist only as prose recipes (CLAUDE.md 5a — the voice-element slots are
+full and none is disposable). But their actual rendered voices were already in
+paid footage, so they were **extracted rather than generated: zero credits.**
+
+| | media_id | source | length |
+|---|---|---|---|
+| **Dorian voice reference** | `071f7cad-54e5-495a-a372-ff440d2db268` | Clip 2 `6c221e39` (3 lines) + Clip 4 `f1636ebf` (1 line) | 4.94s |
+| **Kel voice reference** | `676a7033-fda5-4d03-a923-00118a98de70` | Clip 3 `8a2543d2` (5 lines) | 5.06s |
+
+Male-only segments, cut at the transcript boundaries, concatenated, loudness
+normalised to -18 LUFS, mono 32kHz MP3. **No female speech in either file** —
+every extracted segment measured below 150Hz and every excluded one above 170Hz.
+
+### What they measure, and the one result that matters
+
+| | f0 median | warmth | target f0 | target warmth |
+|---|---|---|---|---|
+| Dorian, as rendered | **109.2 Hz** | **45.0** | 101.3 Hz | 73 |
+| Kel, as rendered | **110.0 Hz** | **25.5** | 106.7 Hz | 38 |
+
+**Pitch did not separate them and was never going to — the rendered gap is 0.8 Hz**,
+narrower even than the 5.4 Hz gap between the reference samples.
+
+**Timbre did separate them, and that is the whole result. Warmth 45.0 against
+25.5 is a 1.77x ratio, against a 1.92x ratio in the reference samples.** Writing
+Kel explicitly AGAINST Dorian — less bass body, more edge, no velvet, never as
+warm or resonant — carried about 92% of the intended contrast through a prose
+recipe with no voice element attached. Section 5a's expectation that the men need
+recipes rather than clones is now confirmed by measurement, not just by argument.
+
+**Both spreads are safe** (Dorian 1.38x, Kel 1.26x), so neither reading is an
+octave artefact. **Note the short-sample trap**: Dorian from Clip 2 alone reads
+106.3 Hz but at a **1.57x spread — above section 5a's 1.4x safety line**, so that
+number is not trustworthy. Adding the Clip 4 line lengthened the sample and pulled
+the spread down into the safe band. **A longer sample across two rooms measured
+better than a short one from a single room.**
+
+**What is NOT valid here:** the LTAS cosine between the two files (0.9506). Dorian
+is from the loft, Kel from the kitchen, and section 7 is explicit that room is the
+dominant term across clips. Pitch and warmth survive a room change; a spectral
+cosine does not.
+
+**One incidental finding.** Transcribing Clip 3 for the extraction rendered
+"jollof" as **"J-Luff"** — a different word again from the earlier medium-model
+"Jollof". Independent support for the user's ear: the pronunciation in `8a2543d2`
+is wrong, and it stays on the open list.
+
+---
+
 ## THE TWO MEN SOUND ALIKE — WRITE KEL AGAINST DORIAN
 
 | | true f0 | warmth |
