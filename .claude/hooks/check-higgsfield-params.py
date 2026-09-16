@@ -21,6 +21,7 @@ NIA_VOICE = "12315c68-37de-41fe-8766-76ac07bcaf70"
 # See THE LOCK CARD in CLAUDE.md.
 CHI_VOICE = "de50f37f-82fa-4a70-bdca-52355b2f4ca2"  # ChiChi-Canon-Voice-v1
 DEAD_VOICE = "180fdb9a"  # deleted from the account 15 Sep 2026
+CHI_FACE = "8a8e8eeb-d41e-4d91-b245-fa0caa8801b6"  # ChiChi-the-Influencer
 
 
 def fail(reason):
@@ -97,6 +98,41 @@ def main():
             "prompt. Both women's voice tags go in every prompt they speak in."
             % NIA_VOICE
         )
+
+    # --- CHI'S RING -------------------------------------------------------
+    # The ring has beaten the strongest negation this project has, twice, in
+    # prompts that carried section 5's named-object wording in full. It is not
+    # in any reference image — the user confirmed that on 16 Sep 2026 — so it is
+    # a model prior and MORE WORDS WILL NOT REMOVE IT. See CLAUDE.md section 3.
+    #
+    # What has not failed is keeping the finger off camera. This check does not
+    # ask for another negation; it requires the prompt to say, in some form,
+    # that her left hand is concealed or out of frame. Text that instructs the
+    # CAMERA is obeyed far more reliably than text that forbids an object.
+    chi_present = CHI_FACE in prompt or re.search(r"\bCHICHI\b", prompt)
+    if chi_present:
+        hand_handled = re.search(
+            r"(left hand[^.]{0,120}(out of frame|not visible|concealed|hidden|"
+            r"below frame|off camera|obscured))"
+            r"|((out of frame|not visible|concealed|hidden|below frame|"
+            r"off camera|obscured)[^.]{0,120}left hand)"
+            r"|(fourth finger[^.]{0,120}(out of frame|not visible|concealed|"
+            r"hidden|below frame|off camera|obscured))",
+            prompt, re.I)
+        if not hand_handled:
+            problems.append(
+                "  - ChiChi is in this clip and the prompt does not keep her LEFT "
+                "HAND concealed or out of frame. The ring prior has beaten the "
+                "strongest negation in CLAUDE.md twice (Episode 2, and the N1 test "
+                "c9976b46) in prompts that already said NO wedding ring, NO band of "
+                "any kind, nothing on the fourth finger. It is not in any reference "
+                "image. Adding more negation words is not a fix.\n"
+                "    Write an instruction to the CAMERA instead, e.g.: \"ChiChi's "
+                "LEFT HAND stays out of frame for the entire clip\" or \"her left "
+                "hand rests under the clutch so the fourth finger is concealed\".\n"
+                "    If a shot genuinely needs that hand visible, the post fix is "
+                "hf_mult_replace_object (Genjutsu), which runs after the render."
+            )
 
     if problems:
         fail(
