@@ -1,0 +1,113 @@
+#!/usr/bin/env python3
+"""
+PreToolUse guard for EXCLUSIVE.
+
+Blocks a Higgsfield generate_video submission whose parameters would repeat a
+failure this series has already paid for. See THE LOCK CARD at the top of
+CLAUDE.md.
+
+Exit 0 = allow. Prints a deny decision as JSON when a check fails.
+Preflights (get_cost: true) are free and are never blocked.
+"""
+import json
+import re
+import sys
+
+NIA_VOICE = "12315c68-37de-41fe-8766-76ac07bcaf70"
+# Settled by the user, 15 Sep 2026: "The voice for Chi is literally ChiChi Canon
+# voice V1." 180fdb9a is deleted and is not coming back. Note that seedance never
+# actually PLAYS Chi's element — Nia's UUID sorts first and wins the single
+# binding — so a wrong-sounding Chi is fixed by voice_change, not by a re-shoot.
+# See THE LOCK CARD in CLAUDE.md.
+CHI_VOICE = "de50f37f-82fa-4a70-bdca-52355b2f4ca2"  # ChiChi-Canon-Voice-v1
+DEAD_VOICE = "180fdb9a"  # deleted from the account 15 Sep 2026
+
+
+def fail(reason):
+    print(json.dumps({
+        "hookSpecificOutput": {
+            "hookEventName": "PreToolUse",
+            "permissionDecision": "deny",
+            "permissionDecisionReason": reason,
+        }
+    }))
+    sys.exit(0)
+
+
+def main():
+    try:
+        payload = json.load(sys.stdin)
+    except Exception:
+        sys.exit(0)  # never block on a parse problem
+
+    if payload.get("tool_name") != "mcp__Higgsfield__generate_video":
+        sys.exit(0)
+
+    params = (payload.get("tool_input") or {}).get("params")
+    if isinstance(params, str):
+        try:
+            params = json.loads(params)
+        except Exception:
+            sys.exit(0)
+    if not isinstance(params, dict):
+        sys.exit(0)
+
+    # A cost preflight charges nothing. Let it through.
+    if params.get("get_cost"):
+        sys.exit(0)
+
+    problems = []
+
+    if params.get("bitrate_mode") != "high":
+        problems.append(
+            '  - bitrate_mode is %r, must be "high". Passing it explicitly is what '
+            "keeps render quality at the level of the four approved clips. Leaving it "
+            "out drops it to \"standard\" and the video bitrate falls ~7x."
+            % (params.get("bitrate_mode"),)
+        )
+
+    if "quality" in params:
+        problems.append(
+            "  - `quality` is present and must be REMOVED. The four approved clips "
+            "passed no quality field; passing it displaces the default and silently "
+            "drops bitrate_mode to \"standard\". This is what broke Episode 3 Clip 5."
+        )
+
+    prompt = params.get("prompt") or ""
+
+    if DEAD_VOICE in prompt:
+        problems.append(
+            "  - the prompt contains voice element 180fdb9a, which was DELETED from "
+            "the account. That tag points at nothing. ChiChi's voice is %s."
+            % CHI_VOICE
+        )
+
+    # Only require a voice tag for a character who actually speaks. The dialogue
+    # block tags every line as `CHICHI: "..."` / `NIA: "..."`.
+    if re.search(r'CHICHI:\s*["“]', prompt) and CHI_VOICE not in prompt:
+        problems.append(
+            "  - ChiChi speaks in this clip but her voice element %s is not in the "
+            "prompt. Both women's voice tags go in every prompt they speak in."
+            % CHI_VOICE
+        )
+
+    if re.search(r'NIA:\s*["“]', prompt) and NIA_VOICE not in prompt:
+        problems.append(
+            "  - Nia speaks in this clip but her voice element %s is not in the "
+            "prompt. Both women's voice tags go in every prompt they speak in."
+            % NIA_VOICE
+        )
+
+    if problems:
+        fail(
+            "BLOCKED by the EXCLUSIVE parameter guard — this submission would repeat "
+            "a paid-for mistake.\n\n" + "\n".join(problems) +
+            "\n\nFix the params and resubmit. See THE LOCK CARD at the top of "
+            "CLAUDE.md. Do not bypass this guard."
+        )
+
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()

@@ -8,6 +8,99 @@ had to be re-rendered.
 
 ---
 
+# 🔒 THE LOCK CARD — READ THIS BEFORE EVERY SINGLE GENERATION
+
+**Three episodes have now lost credits to voice and quality faults. Every one of them
+was a value in this card being wrong. Check the card, not your memory.**
+
+## The two voices — SETTLED BY THE USER, 15 Sep 2026
+
+| Character | Voice element | UUID |
+|---|---|---|
+| **NIA** | `Nia-voice-v2-clear` | `12315c68-37de-41fe-8766-76ac07bcaf70` |
+| **CHICHI** | `ChiChi-Canon-Voice-v1` | `de50f37f-82fa-4a70-bdca-52355b2f4ca2` |
+
+The user's words: *"The voice for Chi is literally ChiChi Canon voice V1. It is
+literally the voice we need."* That is the ruling. `180fdb9a` is deleted, it is not
+coming back, and **it is not an agent's business to relitigate either fact.**
+
+> **⚠️ A THIRD ELEMENT NOW EXISTS AND THIS CARD DOES NOT COVER IT.** `list_voices`
+> on 16 Sep 2026 returns **`Nia-Canon-Voice-v2` `b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c`**
+> alongside the two above. It is in no document. **It also sorts BEFORE both** —
+> `b3d2fc9b` < `12315c68` < `de50f37f` — so by the binding rule below, attaching it
+> would make IT the one loaded element, displacing Nia's `12315c68`. Do not put it in
+> a prompt until the user says what it is for. Flagged, not ruled on.
+
+> **And a note on how this card got re-opened.** On 16 Sep an agent — this one —
+> asked the user whether to delete `180fdb9a`, not knowing it was already gone, and
+> wrote a section arguing to retain it. That is exactly the relitigating this card
+> forbids, and it happened because the agent was on a stale branch and trusted the
+> repo over `list_voices`. **Check the account, not the file, for what exists.**
+
+## ⚠️ ATTACHING CHI'S VOICE ELEMENT HAS NEVER ONCE PLAYED IT. THE REVOICE IS WHAT USES IT.
+
+**This is the single most important mechanical fact in this file and three episodes
+were built without it being understood.**
+
+`seedance_2_5` binds **exactly ONE** voice element per generation and takes the
+lowest-sorting UUID. `12315c68` sorts before `de50f37f`, so **Nia's element is loaded
+and ChiChi's is ignored — in every clip of every episode.** Her voice has been
+re-improvised by the renderer on every single take. That is the whole reason Nia's
+voice is stable and ChiChi's drifts, and no amount of prompt wording changes it.
+
+**So swapping WHICH Chi element sits in the prompt cannot fix her voice, because
+neither one is ever used.** That swap was tried anyway and cost the Clip 5 re-shoot
+`85d64987`, 135 credits — see §5a.
+
+**`voice_change` runs AFTER the render, so the one-element limit does not apply. It is
+the only way to put a saved voice on ChiChi.** 2 credits, 67x cheaper than a re-shoot,
+and it cannot re-roll a single frame of approved picture. **When ChiChi's voice is
+wrong, REVOICE — never re-shoot.** The recipe, with measured results, is in §5a.
+
+## The parameters that are not optional
+
+```
+bitrate_mode : "high"        ← PASS IT EXPLICITLY, EVERY TIME
+quality      : DO NOT PASS   ← passing it silently drops bitrate_mode to "standard"
+resolution   : "1080p"
+aspect_ratio : "16:9"
+model        : "seedance_2_5"
+```
+
+**`bitrate_mode` dropping to `standard` is what broke Episode 3 Clip 5.** Video quality
+fell 7.3x, and because ChiChi's voice is built BY the render, a degraded render gave a
+degraded voice — for both women. Nothing visible flagged it: `resolution` still read
+`1080p` and the cost was identical.
+
+## MANDATORY PRE-SUBMISSION CHECK — run it, do not skip it
+
+Before every `generate_video`, check all six and say the result out loud:
+
+1. `bitrate_mode: "high"` is in the params — **explicitly**
+2. no `quality` field is in the params
+3. Nia's `12315c68` tag is in the prompt (if she speaks)
+4. ChiChi's `de50f37f` tag is in the prompt (if she speaks)
+5. `180fdb9a` appears NOWHERE in the prompt — it is deleted and points at nothing
+6. ChiChi's block order is character → skin → age → hair → VOICE → wardrobe → ring
+
+**And if the clip is being shot to fix CHICHI'S VOICE, stop — it is the wrong tool.
+Revoice the footage you have. See the banner above.**
+
+**Then diff against the last approved clip.** Pull its `params` with `job_display` and
+compare field by field. **A parameter you do not send is one the server picks for
+you, and it does not pick the same thing twice.**
+
+A `.claude/hooks/` guard enforces items 1–5 mechanically. If it blocks a submission,
+it is right and the params are wrong — fix them, never bypass it.
+
+## When a render comes back wrong
+
+**Check the parameters BEFORE theorising about the model.** Episode 3 lost hours to an
+elaborate voice-binding theory when the actual cause was one wrong parameter. Pull the
+job payload, diff it against the last approved clip, and look at `bitrate_mode` first.
+
+---
+
 ## 1. THE SHOW
 
 A drama with satire in it — not a comedy. It sits on the relationship problems
@@ -74,8 +167,15 @@ cost a full re-render.**
    none of it was usable, and the whole exchange had to be repeated. The widget is
    the only upload surface that works. Never inspect `/mnt/user-data/uploads`,
    never run shell to hunt for files, and never ask for a chat attachment.
-   **Ask whether the user is ready first, then open the widget, then say exactly
-   what to drop and how many.** See the `new-episode` skill for the full order.
+   **Ask whether the user is ready first, then open the widget ONE REFERENCE AT A
+   TIME** — `max_files: 1`, labelled with the exact asset it is for, and asked for
+   by name ("drop the image of ChiChi's outfit"), waiting for each before asking
+   for the next. A batch comes back as a list of media IDs with **nothing tying
+   each ID to the thing it depicts**, so the assignment becomes a guess. Guessing
+   wrong builds a wardrobe element from the wrong image, and **element
+   descriptions are write-once** — the only "fix" is a second element, which is
+   the competing-element failure that produced the duplicate Dorian. The user
+   asked for this explicitly in Episode 3. See the `new-episode` skill.
 2. **Generate a plate.** Turn the reference into a single still at the correct
    time of day. ~2 credits.
 3. **Get the plate approved.** The user looks at it and says yes or corrects it.
@@ -109,6 +209,18 @@ highest-leverage rule in this file.
   travel with it; rules stored in your head do not.
 - **Mark superseded elements explicitly** so a later session cannot pick up a
   stale one. Old elements are never deleted, only retired in the registry.
+- **An element description is WRITE-ONCE, so put only DURABLE facts in it and leave
+  anything a take might revise to the prompt.** Episode 3 has three clauses inside
+  live elements that the footage overruled and that cannot be edited out: the cup
+  level (written as a falling clock, rendered as a fixed level), the cup branding
+  (written as never legible, renders legibly — and the element is itself the source
+  of the word), and the jewellery rules (written as absolute, relaxed by the user).
+  None of them can be corrected in place; each has to be **overridden in every
+  prompt and recorded as superseded in the episode file.** The lesson going forward
+  is about what belongs in a description at all: identity, materials, quantities and
+  the rules that never move. **A level, a look or a styling choice is a take
+  decision, and putting it in a write-once description guarantees a contradiction
+  the first time the user changes their mind.**
 - **The saved element descriptions still say "The Standard Society". Leave them.**
   The series was renamed to EXCLUSIVE after Episode 1 was shot. Every locked
   element — both rooms, both characters, both voices — carries the old name in
@@ -361,7 +473,7 @@ and they do more work than any line.
 - **Hands must have a job.** Specify what each hand is doing in every beat. Idle
   unspecified hands are where anatomy errors appear.
 
-### ChiChi's two permanent physical facts
+### ChiChi's three permanent physical facts
 
 These are series-wide, not per-episode, and belong in every prompt she appears in.
 
@@ -379,8 +491,47 @@ These are series-wide, not per-episode, and belong in every prompt she appears i
 - **She wears NO RING. Ever.** Not on any finger of either hand, and specifically
   nothing on the fourth finger of her left hand. This is not only continuity: she
   wants a child and has no partner, and that is the ache the whole character sits
-  on. A wedding ring on ChiChi contradicts the show. Her gold watch remains the
-  single permitted exception to her jewellery rule.
+  on. A wedding ring on ChiChi contradicts the show.
+  **This one is a CHARACTER FACT and it does not relax.** Distinguish it from the
+  rest of her jewellery, which is style and does relax — see below.
+- **Her skin is CLEAR, and she does not get aged.** The user's note: *"She may be
+  40 but she has beautiful skin."* Even, smooth, luminous, firm, in focus, with
+  natural pore texture. **The model reaches for age markers for exactly the same
+  reason it reaches for a wedding band — because the prompt tells it she is
+  forty**, and it has to, since her age sits inside the pinned voice block that
+  section 5a forbids rewording. So every prompt states her age and must negate
+  what that invites, by name: no wrinkles, no fine lines, no crow's feet, no
+  forehead lines, no nasolabial creases, no sagging, no crepey or papery texture,
+  no age spots, no dullness, no sallowness, no under-eye shadows or bags, no
+  hollowing. Naming the object is what beat the ring in Episode 2 Clip 4; naming
+  every age marker is that same move applied to her face. **Her age reads in her
+  composure, never in her skin.** Keep this alongside the approved skin block,
+  which separately writes against BOTH meanings of "unclear" — blotchy and uneven
+  AND soft and out of focus — because an agent who cannot see the render does not
+  know which one it got.
+
+### Jewellery is STYLE, except the ring — the user's ruling, Episode 3
+
+**"Their style can change from day to day."** The user's words, ruling on a frame
+where Nia wore a ring and ChiChi wore a necklace against prompts that forbade both.
+So the standing jewellery lines are **per-episode style, not permanent facts**:
+
+- **Nia's hands are not permanently ring-free.** She may wear rings, and does in
+  Episode 3.
+- **ChiChi's "NO necklace, small gold studs only" is not permanent.** She wears a
+  necklace in Episode 3.
+- **ChiChi's gold watch** stays her established wrist piece.
+
+**The one thing that does NOT move is ChiChi's ring**, because it is not style — it
+is the ache the character sits on. **Never read a style ruling as relaxing it.** If
+the user approves a ring on ChiChi, that is a change to the character and it should
+be confirmed as one, not inferred from a note about jewellery.
+
+**And style changing BETWEEN episodes changes nothing WITHIN one.** The appearance
+rule below still binds: inside one continuous conversation nothing changes at all,
+so whatever jewellery lands in the first shot clip is identical in every later clip
+of that episode. A ring that appears, vanishes or moves fingers mid-scene is the
+same failure as hair switching sides.
 
 ### The appearance rule — treat it like a real actor on a real shoot
 
@@ -503,6 +654,125 @@ any prompt, write down two things:
   from two angles (a door, a window, a staircase, a counter) needs its material,
   colour and surround stated in BOTH prompts, not just the one where it is the
   subject. The locked plate only covers the side it was shot from.
+- **FEED THE LAST FRAME IN AS THE FIRST FRAME. Prose cannot carry a seam.** This is
+  the rule Episode 3 Clip 3 was spent proving. That prompt said "each on a clear
+  acrylic chair", "the same gold ring on the same hand and the same finger" and
+  "identical in the last frame to the first" — and got a woman on a BENCH, rings
+  that changed mid-shot and cups refilled to the top. **Every one of those
+  sentences describes a picture the model has never seen.** It has no access to the
+  previous clip; it fills the gap from its own priors, and it will keep doing that
+  however hard the wording gets. Three passes of escalating language produced that
+  take.
+  `seedance_2_5` accepts a **`start_image`** media role. Pull the final frame of
+  clip N with `ffmpeg -sseof -0.15 -i clipN.mp4 -frames:v 1`, put it through
+  `media_upload` -> PUT -> `media_confirm`, and pass it as
+  `medias: [{value, role: "start_image"}]` with `mode: "omni_reference"`. Seating,
+  cup level, jewellery, wardrobe fit, hair and posture stop being paragraphs and
+  become pixels.
+
+  **`mode: "omni_reference"` IS MANDATORY WITH A START IMAGE — the backend enforces
+  it.** Dropping it returns a 422: *"mode 't2v' does not accept reference media;
+  start_image and end_image are only allowed for mode 'omni_reference'."* Nothing is
+  charged, but do not try it. An agent briefly concluded the opposite from the stored
+  job payloads — approved Clips 3 and 4 echo `medias: [{role: "start_image"}]` with no
+  `mode` key, while Clips 5 and 6 echo `reference_images[]` with `mode` set — and
+  wrote a rule and a hook check against passing it. **That reading was wrong**: the
+  API refuses the shape it called "approved", so the echo difference is a storage or
+  display change, not something a caller controls. **`bitrate_mode` remains the ONE
+  confirmed parameter difference between the approved clips and the rejected ones.**
+  The lesson: a difference visible in two stored payloads is a hypothesis, not a
+  cause — the cheapest test is to submit and read the validation error, which costs
+  nothing. **This is section 2's oldest rule — lock from an approved still,
+  never from prose — applied to the SEAM instead of the set**, and it was the one
+  place nobody had applied it.
+- **⚠️ THE START_IMAGE CHAIN DEGRADES THE PICTURE, GENERATION BY GENERATION, AND IT
+  COMPOUNDS. MEASURED ON EPISODE 3, 15 Sep 2026.** Seeding clip N+1 with a still cut
+  from clip N's output means every clip inherits the losses of every clip before it.
+  Sharpness is variance-of-Laplacian on 10 frames, normalised to 1920x1080 gray:
+
+  | Clip | seeded by | seed sharpness | clip Mbps | clip sharpness |
+  |---|---|---|---|---|
+  | 1 `faeb10ca` ✅ | none — t2v | — | 12.74 | 37.0 |
+  | 2 `fc416b16` ✅ | none — t2v | — | 11.08 | **47.5** |
+  | 3 `1d04f4bd` ✅ | JPEG of Clip 2's last frame | 45 | 9.11 | 36.0 |
+  | 4 `dd63298f` ✅ | JPEG of Clip 3's last frame | 31 | 8.76 | 29.0 |
+  | 5v2 `85d64987` ❌ | JPEG of Clip 4's last frame | 23 | 7.69 | **24.1** |
+
+  **Clip 5 has HALF the fine detail of Clip 2**, and the user asked "why does the
+  picture look blurry" only at Clip 5 — three clips after the slide began. The two
+  clips in the middle were approved while it was happening. **Nobody will catch this
+  by eye until it is already several generations deep, so MEASURE IT after every
+  seeded clip.**
+
+  **Two corrections to the bitrate story in §5a and §7 follow from this.** The fall
+  from 11.08 to 7.69 Mbps across Clips 2→5 is **a SYMPTOM, not a cause**: the encoder
+  spends fewer bits because there is less detail left to encode. `bitrate_mode: high`
+  was working the whole time. Clip 5 v1's collapse to **1.55 Mbps** was a genuinely
+  different event — that one was the `quality` parameter, and 7.3x is a different
+  order of magnitude from this drift. **Do not read a modest bitrate fall as a
+  parameter fault; check the sharpness first.**
+
+  Where the loss actually happens: the RENDER is the bigger term, not the JPEG.
+  Clip 2 renders at 47.5 and its seed JPEG reads 45 (−5%), then Clip 3 renders at 36
+  (−20% against its own seed). **The JPEG costs about a fifth of the loss and the
+  re-generation costs the rest**, so a lossless seed helps but does not fix it.
+
+  **✅ PROVEN FIX, 15 Sep 2026: DROPPING THE START_IMAGE RESTORES THE PICTURE COMPLETELY.**
+  Episode 3 Clip 5 was re-shot as pure t2v, job `fba2cfc5`, 135 credits — same prompt,
+  same elements, same `bitrate_mode: high`, the ONLY change being that no `start_image`
+  was passed and the entry state was written into the prose instead.
+
+  | | Mbps | sharpness |
+  |---|---|---|
+  | approved Clip 2 (t2v) | 11.08 | 47.5 |
+  | Clip 5 seeded from a JPEG | 7.69 | **24.1** |
+  | **Clip 5 re-shot as t2v** | 9.39 | **49.5** |
+
+  **49.5 is the sharpest clip in the episode — above Clip 2 — and slightly more than
+  DOUBLE the seeded version.** The bands do not overlap (48–52 against 23–25). That is
+  the whole hypothesis confirmed in one generation: the chain was the entire cause, and
+  there is no residual "1080p that is not 1080p" once it is broken.
+
+  **What it costs, and it is the real trade.** The start_image was silently carrying
+  continuity the prose never stated. Episode 3's delivered prompts all say Nia is
+  "ring-free" and ChiChi wears "NO necklace" — and the approved footage has a ring and
+  a necklace, because the seed frame was overruling the text. Going t2v makes the PROSE
+  the only authority, so **anything the seed was carrying has to be written in or it
+  disappears**: seating and which chair, who sits screen left, cup levels, jewellery,
+  props on the table. Audit the last approved frame's contents against the prompt before
+  dropping the seed, and expect to add ~1,000 characters of entry state.
+
+  What to do, in order:
+  1. **SHOOT IT t2v — no `start_image` at all — whenever the shot can carry its own
+     entry state in prose.** Proven above. A locked two-shot of seated people is the
+     easy case: nobody moves, so there is almost nothing for a seed to carry that a
+     paragraph cannot.
+  2. **DO NOT CHAIN. This is the real fix and §4a already argued for it on a
+     different ground.** `seedance_2_5` runs to 30 seconds and bills linearly, so
+     merging clips costs nothing extra AND removes a link from the chain. Episode 3's
+     Clips 3–6 are 12+15+15+15 = 57s — two generations instead of four, and the chain
+     goes from four links to one.
+  3. **When you must seed, seed as PNG, never JPEG.** `ffmpeg -sseof -0.15 -i clipN.mp4
+     -frames:v 1 frame.png`. The JPEGs used in Episode 3 were ffmpeg's default mjpeg
+     quality — 167–216 KB at 1080p — and that is a lossy step taken for free.
+  4. **Seed from the SHARPEST available source, not the most recent one.** A still from
+     Clip 2 is 47.5; a still from Clip 4 is 23. If the action allows it, reach back.
+  5. **Measure every seeded clip against the first clip of the episode** and say the
+     number out loud, the same as a credit cost.
+
+- **Better still, do not create the seam. One generation holds continuity for
+  free.** `seedance_2_5` runs to **30 seconds** and bills linearly per second, so
+  two 14s clips and one 28s clip cost exactly the same. Every seam is an
+  independent re-roll of seating, wardrobe, props and jewellery; a seam that does
+  not exist cannot fail. **Before splitting a scene into clips, ask what the split
+  is buying** — if the answer is only "that is how the episode was planned", merge
+  them. The user's note in Episode 3: *"creating these separate clips is costing
+  more work."*
+- **Read the entry state off the ACTUAL LAST FRAME, never off a memory of it.**
+  Episode 3 Clip 3 locked the cups at "a little under half full" because that
+  matched an earlier note about how Clip 2 looked. Clip 2 in fact ENDS with them
+  nearly empty. A sentence about a clip is not the clip; extract the frame and
+  look at what is in it, or pass it in as the start_image and stop describing it.
 - **Props are the cheapest continuity there is, and the most convincing.** A plate
   of food carried out of the kitchen scene into the next one does more to make an
   episode read as one evening than any line of dialogue. Track every prop across
@@ -588,6 +858,36 @@ costs nothing and it lists only what an audience can see.
 
 ## 5a. CHI'S VOICE — PINNED, DO NOT CHANGE
 
+> ### ⚠️ READ THIS FIRST — THE EPISODE 3 VOICE FAILURE WAS A SILENT PARAMETER CHANGE
+>
+> **`bitrate_mode` went from `high` to `standard` between Clip 4 and Clip 5, and that
+> is the ONLY input that changed.** Every clip the user approved was `high`. The one
+> clip where she said *"both voices are wrong"* was `standard`.
+>
+> | Clip | `bitrate_mode` | `quality` passed | verdict |
+> |---|---|---|---|
+> | 1 `faeb10ca` | **high** | unset | approved |
+> | 2 `fc416b16` | **high** | unset | approved |
+> | 3 `1d04f4bd` | **high** | unset | approved |
+> | 4 `dd63298f` | **high** | unset | approved |
+> | 5 `f8a62247` | **standard** | `"1080p"` | **both voices wrong** |
+> | 6 `8551d8a1` | **standard** | `"1080p"` | unjudged |
+>
+> **An agent caused it** by passing `quality: "1080p"` in the `generate_video` params
+> where the four approved clips passed no `quality` at all. That displaced the server
+> default and dropped `bitrate_mode` to `standard` — video bitrate fell from
+> **11.35 Mbps to 1.55 Mbps, 7.3x.** Nobody noticed, because `resolution` still read
+> `1080p` in both and the cost was identical.
+>
+> **THE VOICES ARE NOT A SEPARATE PROBLEM FROM THE PICTURE.** Chi's voice is
+> synthesized by the render (see below). Degrade the render and you degrade the voice
+> it synthesizes. The user's own words: *"This has not been an issue before until now."*
+> She was right and the elaborate element-binding theory below was chasing the wrong
+> thing.
+>
+> **ALWAYS PASS `bitrate_mode: "high"` EXPLICITLY.** Never rely on the default, and
+> never pass `quality` alongside `resolution` — the four approved clips did not.
+
 Chi's voice is **canon for the whole series**. It is not her cloned voice element.
 It is a voice the video model synthesizes, which the user heard, accepted, and
 locked in Episode 1.
@@ -616,32 +916,179 @@ humour — never a substitute voice, never a British accent, never swapped with
 Nia's.
 ```
 
-> **THE ELEMENT ID IN THAT BLOCK CHANGED ON 16 SEP 2026, BY THE USER'S RULING.**
-> It was `180fdb9a` for Episodes 1 and 2 and is **`de50f37f`** — the canon capture
-> — from here. Everything else in the block is byte-identical and still must not
-> be reworded. The rest of this section has been corrected to match; where it now
-> reads differently from a memory of it, the ruling is why.
+### THE VOICE ID CHANGED — 15 Sep 2026 — AND THE CHANGE BROKE HER. SEE THE LOCK CARD.
 
-### Which element goes in the block, and the history behind it
+**`ChiChi-Canon-Voice-v1` `de50f37f` was adopted as Chi's voice element on the
+strength of a 1-credit TTS render the user approved, and `ChiChi-the-Influencer-Voice`
+`180fdb9a` was deleted from the account.** Confirmed gone via `list_voices`: only
+`de50f37f` and Nia's `12315c68` remain, one slot free.
 
-**Use `de50f37f` — `ChiChi-Canon-Voice-v1`, the durable capture described below.**
+> **⛔ THE SWAP IS THE CAUSE OF THE CLIP 5 RE-SHOOT FAILURE, `85d64987`, 135 credits.**
+> An agent — this one — told the user the swap was "exactly ONE variable" and therefore
+> safe. **That variable was the only difference between the re-shoot and every clip
+> whose Chi the user approved**, and the re-shoot's Chi was rejected. A field-by-field
+> audit of all seven delivered prompts shows everything else matched approved Clips 3
+> and 4: same opener, same block order, ChiChi's voice line at the same 38% depth, no
+> camera block, `bitrate_mode: high`, same length band, same element list otherwise.
+>
+> **A voice element attached to a render is NOT inert just because a different element
+> "binds".** Swapping `180fdb9a` for `de50f37f` moved BOTH women down — Chi 160.0 →
+> 148.1 Hz, Nia 205.1 → 178.8 Hz, gap 45.1 → 30.6 Hz. The pool colours the render.
+>
+> **Approving an element by TTS does NOT approve it for a render.** The user approved
+> what `de50f37f` sounds like when it is PLAYED BACK on its own. In a seedance
+> two-hander it is never played back — it is an input, and as an input it produces a
+> different Chi. Those are two different questions and this file conflated them, which
+> is the same conflation §5a already records for `voice_change`.
 
-**The history, because it explains the rest of this section.** For Episodes 1 and
-2 the block carried `180fdb9a`, her original cloned element. The model does not
-honour that one — seedance binds only ONE voice element per generation and Nia's
-wins — so the voice heard on that footage was synthesized from the surrounding
-prose instead. The reference was kept in anyway on the reasoning that it had been
-present in every approved take and was therefore part of the recipe.
+**The reword itself was still the one this file permits** — exactly one variable, the
+UUID, every other character of both pinned blocks untouched and in the same position
+in the block order (character → skin → age → hair → VOICE → wardrobe → ring). **The
+lesson is not about the wording. It is that "one variable" is not a synonym for
+"safe" when that variable is present in every approved result.** Section 7's
+"one variable per take" tells you how to CHANGE something; it never said the change
+was free. Flag a swap away from an approved input as the risk it is, and let the
+user decide before the render, not after.
 
-**That is superseded. The user has ruled that `de50f37f` is the tag from here.**
+**Every DELIVERED prompt in `exclusive/prompts/` still carries the dead
+`<<<180fdb9a>>>` tag. Leave them.** Section 8: a DELIVERED file is a record of what was
+shot, not a draft. They document the conditions that produced the footage, dead pointer
+and all. Only new prompts carry `de50f37f`.
 
-**What does NOT change: the prose around it.** Whatever the model does or does not
-bind, the description is what has been carrying this voice, so the surrounding
-words stay byte-identical. The ID moved; nothing else may.
+### Why the reference stays in, even though it is still not what you hear
 
-**Episodes 1 and 2 were shot with `180fdb9a` and that is a fact of the record.**
-The delivered prompt files in `exclusive/prompts/` still contain it and **must not
-be edited** — section 8 says a delivered file is a record, not a draft.
+The model binds only ONE voice element per generation and Nia's still wins — see the
+sort below — so Chi's voice is STILL synthesized from the prose around the tag rather
+than loaded from it. The tag stays because it was present in every approved take and is
+part of the recipe.
+
+**What changed is what the tag points AT.** It used to point at a 219 Hz stranger; it
+now points at a voice measured within 7 Hz of approved Chi. If the binding ever does
+land on her element — deliberately or by accident — it now lands on the right voice
+instead of a disaster.
+
+### WHY Nia's wins — the elements are sorted by UUID, and hers sorts first
+
+Confirmed on the returned payload of four separate jobs (Ep3 clips 2, 3, 4 and 5).
+The server returns `reference_elements` in **strict UUID-ascending order, identical
+every time, regardless of where the tags sit in the prompt text**:
+
+```
+12315c68  voice      Nia-voice-v2-clear        <- first, and still first
+3108ef3f  character  Nia-Available-Look
+59b95bad  environment  Sucré-Coffee-Shop
+8a8e8eeb  character  ChiChi-the-Influencer
+bcd528d3  character  Nia
+d1b9280f  prop       Sucre-Coffee-Cups
+de50f37f  voice      ChiChi-Canon-Voice-v1     <- Chi's voice, sorts after Nia's
+e48b0e88  character  ChiChi-Available-Look
+```
+
+`12315c68` sorts before `de50f37f`, so Nia's voice element is still the first voice in
+the list and still the one that binds. **That is the whole reason Nia's voice is right
+in every clip and ChiChi's is not.** Nia's voice is a real asset the model loads.
+ChiChi's is re-synthesized from prose on every single generation.
+
+**But do NOT read that as "ChiChi always drifts" — she does not.** The prose recipe
+produced a voice the user approved in FOUR consecutive clips. It is reproducible when
+the inputs are held constant; the Clip 2 block order is what holds them. What broke
+Episode 3 was not the recipe failing, it was an input changing (`bitrate_mode`, see
+the banner at the top of this section). **Because her voice is a render product, ANY
+parameter that degrades the render degrades her voice — resolution, bitrate, duration,
+anything.** That is the real exposure, and it is much more actionable than the binding.
+
+**The binding lever was then tested and it FAILED — see below.** Do not revisit it.
+Both voice elements stay attached in every prompt.
+
+### `180fdb9a` WAS NOT CHICHI — measured 15 Sep 2026, 2 credits, and it is why it was deleted
+
+The element pasted into every prompt she has ever spoken in was finally listened to.
+Both Chi elements were run through `seed_audio` TTS on the SAME 29 words of her own
+dialogue — 1 credit each, and `generate_audio` DOES have `get_cost`:
+
+| | median f0 | p25 | p75 |
+|---|---|---|---|
+| **`de50f37f` ChiChi-Canon-v1** | **166.7 Hz** | 148.1 | 186.0 |
+| **`180fdb9a` ChiChi-the-Influencer-Voice** | **219.2 Hz** | 181.8 | 242.4 |
+| **target — ChiChi in APPROVED Clip 2** | **160.0 Hz** | 146.8 | 170.2 |
+
+**`180fdb9a` reads 59 Hz above approved ChiChi — higher even than Nia (205.1).** It is
+not her voice and it never was. It is only harmless because seedance has never once
+honoured it; if it ever bound, it would be a disaster. `de50f37f` lands within 7 Hz of
+approved Chi.
+
+**The user deleted it on the strength of this measurement, and adopted `de50f37f` as
+Chi's voice.** ⛔ **THAT RECOMMENDATION WAS WRONG AND IT COST THE CLIP 5 RE-SHOOT.**
+The numbers above are accurate — `180fdb9a` really does sound like a 219 Hz stranger
+when you play it back. But it was never played back in a render, and the four clips
+whose Chi the user approved all had it attached. **What an element sounds like alone
+tells you nothing about what it contributes as an input.** See the Lock Card.
+
+**The method is worth keeping for ONE question only: what does this element sound like
+on its own?** Two TTS renders of the same words, 1 credit each, against a known-good
+line from approved footage. **It does NOT answer "should this element be in the
+prompt", and it must never be used to justify removing one.** `180fdb9a` had been in
+every prompt of three episodes and nobody had ever listened to it on its own — and it
+turned out that not sounding like her was not a reason to take it out.
+
+### The separation is the signature, not either voice's pitch
+
+Approved Clip 2 vs rejected Clip 5, same method, pooled frames per speaker:
+
+| | Nia | ChiChi | apart |
+|---|---|---|---|
+| **Clip 2 — approved** | 205.1 Hz | 160.0 Hz | **45.1 Hz** |
+| **Clip 5 — both rejected by ear** | 192.8 Hz | 163.3 Hz | **29.5 Hz** |
+
+ChiChi's MEDIAN barely moved (3.3 Hz) and the user still says it is wrong, so median
+pitch is useless on its own. What moved is the SHAPE: her p90 went 179.8 → 213.1 while
+Nia's median fell 12 Hz. **The two women are 35% closer together in the rejected take.**
+Convergence, not absolute pitch, is what "both voices are wrong" measures as. Check the
+gap against Clip 2's 45 Hz, not either voice against a target.
+
+**Nia is not simply played back either — correcting an earlier claim in this file.**
+Approved Clip 2's Nia measures 205.1 Hz against her element's 183.9. The take the user
+APPROVED is 21 Hz further from her element than the take she rejected (192.8). Her
+element binds, but the render re-performs it, so "her element is loaded" does not mean
+"her voice is safe." Both women's voices are render products; only the degree differs.
+
+### THE BINDING LEVER WAS TESTED AND IT FAILED — 36 credits, job `a91ed33b`
+
+**Do not try this again.** A 4-second clip was shot with ChiChi's `de50f37f` as the
+ONLY voice element attached — Nia's `12315c68` tag removed entirely. Confirmed in the
+returned payload: the `reference_elements` list contains no Nia voice. `bitrate_mode`
+was `high`, so the render was not degraded.
+
+| | ChiChi's median f0 |
+|---|---|
+| APPROVED Clip 2 (both voices attached, Nia's binds) | **160.0 Hz** |
+| rejected Clip 5 (same config, bitrate broken) | 163.3 Hz |
+| **this test — Chi's saved voice attached ALONE** | **183.9 Hz** |
+
+**183.9 Hz is the highest ChiChi has ever measured in a render** — 24 Hz above the
+approved take and sitting in Nia's own band. p25 173.0, p75 214.8, p90 225.4: the whole
+distribution shifted up, not just the median. Attaching her saved voice by itself gave
+a WORSE Chi than leaving it unbound.
+
+**One honest caveat:** the test also removed Nia's voice SENTENCE from her character
+block, so the prompt neighbourhood changed too and this is not a perfectly isolated
+variable. The result is so far off, in the wrong direction, that refining it is not
+worth another 36 credits.
+
+**The conclusion that matters: the configuration that works is the one already in the
+approved clips** — BOTH voice elements attached, Nia's binding, ChiChi synthesized from
+the prose around her tag. That produced a 160 Hz Chi four times running. Do not
+re-engineer the voice binding. **When ChiChi sounds wrong, look at the render
+parameters, not the elements** — see the banner at the top of this section.
+
+**Measurement cannot referee this.** LTAS across Ep3 clips 2–5, same room and same
+encode throughout, put a definitely-different-speaker pair at **0.9664** and ChiChi in
+Clip 5 against ChiChi in approved Clip 2 at **0.9406** — the bands overlap in the wrong
+direction, because the room dominates the signature. And f0 does not separate them on
+short lines: ChiChi reads **158.4 Hz on a 1.84s line, 183.9 Hz on a 0.90s one**, the
+latter identical to Nia in the same clip. **ChiChi's short lines always read high**,
+which is what emphasis does and also what an unstable voice does. Below about a second
+there is no test. The user's ear is the only instrument.
 
 ### The durable capture — DONE, 13 Sep 2026
 
@@ -662,13 +1109,16 @@ no `get_cost`, so the clone half cannot be preflighted; quote it as unknown.
 pinned prompt block**. Beyond that: TTS, any non-seedance model, and the restore
 point if the synthesized voice ever drifts. Chi is portable now.
 
-**It is now the tag in the pinned block**, by the user's ruling of 16 Sep 2026.
-Note what that does and does not promise: seedance still binds only ONE voice
-element per generation, so with Nia's element also attached there is no
-expectation that `de50f37f` is honoured in a two-hander. **The prose recipe is
-still what carries the voice.** What the ruling changes is which ID the tag points
-at — and it now points at the element that actually holds her canon voice, which
-is the safer place for it to point.
+**SUPERSEDED 15 Sep 2026.** This paragraph used to call `de50f37f` a post-production
+asset that must never go into a seedance prompt. `180fdb9a` has been deleted, so
+`de50f37f` became the tag in the one new prompt that was shot after the swap, and
+**that clip's Chi was rejected — see the Lock Card. Which Chi element goes in a
+prompt is now an open question for the user, not a settled fact.** **The mechanism
+survives, the instruction does not:** seedance still binds ONE voice element per generation and
+Nia's `12315c68` still sorts first, so Chi's tag still will not be honoured in a
+two-hander and her voice still comes from the prose around it. Putting `de50f37f` in
+the prompt is no longer a change to the recipe — it is the only Chi element that
+exists.
 
 **It was verified before cloning, not assumed.** Measured against approved Shot 6.
 Long-term-average-spectrum cosine: **0.9819** against canon Chi, 0.8942 against
@@ -698,52 +1148,34 @@ attached and on camera when capturing Chi again.
 
 ### The voice-element slot limit — you cannot just clone another character
 
-The account caps voice elements and it is **already full** with three:
-`Nia-voice-v2-clear` `12315c68`, `ChiChi-the-Influencer-Voice` `180fdb9a`, and
-`ChiChi-Canon-Voice-v1` `de50f37f`. `create_voice_from_confirmed_audio` refuses
-with "Voice limit reached — delete a voice to add a new one" and charges nothing.
-There is no delete-voice tool in the MCP surface; it has to be done in the
-Higgsfield web UI, and it is the user's call, never an agent's.
+The account caps voice elements at three. **As of 15 Sep 2026 TWO are used and ONE
+SLOT IS FREE:** `Nia-voice-v2-clear` `12315c68` and `ChiChi-Canon-Voice-v1`
+`de50f37f`. The user deleted `ChiChi-the-Influencer-Voice` `180fdb9a` after it
+measured 59 Hz off Chi.
 
-**The ruling of 16 Sep 2026 changed which one is disposable.** Nia's `12315c68`
-is honoured and produces her real voice — untouchable. `de50f37f` is now the tag
-in every new Chi prompt AND her restore point — untouchable twice over.
+When the cap IS full, `create_voice_from_confirmed_audio` refuses with "Voice limit
+reached — delete a voice to add a new one" and charges nothing. There is no
+delete-voice tool in the MCP surface; it has to be done in the Higgsfield web UI, and
+it is the user's call, never an agent's — as it was here.
 
-**`180fdb9a` is now the one absent from new prompts**, which is the position
-`de50f37f` used to hold. It is never honoured by seedance and nothing written
-from here points at it. **What it still does is anchor the Episode 1 and 2
-prompt records**, where `<<<180fdb9a>>>` appears in delivered text; deleting the
-element leaves those tags pointing at nothing, though the footage they produced
-already exists and is unaffected.
+**Neither remaining element is disposable.** Nia's is honoured and produces her real
+voice. `de50f37f` was approved by ear as a TTS PLAYBACK; as a render input it has
+produced a Chi the user rejected twice. Neither element is disposable and neither is
+currently proven — see the Lock Card.
 
-**Deleting `180fdb9a` was considered on 16 Sep 2026 and the user ruled: KEEP IT.**
-It is **RETIRED, not deleted** — section 2's standing convention, that old
-elements are never deleted but only retired in the registry, and this is the case
-it was written for. Do not propose removing it again. Three reasons it earns its
-slot:
+**Before cloning into the free slot, ask whether the new element would even be used.**
+seedance binds ONE voice element per generation and the lowest-sorting one wins.
+Chi's tag has been attached in every prompt of three episodes and has never once been
+honoured — that is the whole reason her voice is a prose recipe. A newly cloned male
+element, with Nia's `12315c68` also attached, will almost certainly be ignored the
+same way unless its UUID happens to sort below hers. **The men are far more likely to
+need the prose-recipe treatment than a clone**, and a clone that is never honoured is
+worth having only as a measurement target, not as a voice.
 
-- **The slot would probably buy nothing.** A newly cloned male element, with
-  Nia's also attached, will almost certainly be ignored exactly as this one always
-  was — so the slot gets spent and a prose recipe is still needed.
-- **It anchors three delivered prompt records.** `<<<180fdb9a>>>` appears in the
-  Episode 2 Clip 4, 5 and 6 files, which are the evidence of what produced
-  approved footage. The footage is unaffected either way; the tags would not be.
-- **It is an input to the voice-recovery procedure above**, which reproduces the
-  Episode 1 and 2 binding conditions exactly. Remove the element and that
-  procedure has a hole in it.
-
-**The confusion that prompted the question was documentation, not the element**,
-and it was in Episode 1's file — three lines phrased as standing orders, one of
-which forbade the very tag the ruling mandates. Those are corrected. **Fixing
-words is free; deleting a 75-credit asset to solve a wording problem is not.**
-
-**Before considering a deletion, ask whether the new element would even be used.**
-seedance binds ONE voice element per generation. `180fdb9a` was attached in every
-Episode 1 and 2 prompt and was never once honoured — that is the whole reason
-Chi's voice is a prose recipe, and there is no reason to expect a new element to
-fare differently. A newly cloned male element opposite her, with Nia's element also
-attached, will almost certainly be ignored the same way. **The men are far more
-likely to need the prose-recipe treatment than a clone.**
+**And measure any new element on its own before building on it** — two 1-credit TTS
+renders of the same words is all it takes. Three episodes of prompts were built around
+a Chi element nobody had ever listened to in isolation, and it turned out not to be
+her.
 
 **A reference sample is still worth having without cloning it.** Measure it and
 write the prompt toward those numbers, then measure what comes back. Dorian's
@@ -782,20 +1214,178 @@ episode.
 the same text. Content and delivery then cancel out and the difference that
 remains is identity.
 
-### `voice_change` — the post-production route around the binding limit
+### `voice_change` — TESTED, 2 CREDITS, AND IT CANNOT FIX A VOICE. READ THIS FIRST.
+
+**Episode 3 Clip 3 proved it does NOT solve "the voices are wrong", and the user's
+ear overruled every measurement that said it had.** Two passes were run, spliced and
+level-matched; the numbers all landed on target; the user listened and said *"her
+voice isn't British and that's not Chi's voice."* Both fixes had failed:
+
+- **It swaps TIMBRE, not PRONUNCIATION.** Accent lives in how the render articulated
+  the words, and a revoice rides on top of that articulation. Nia rendered without
+  her British accent and no revoice could put it back — confirmed by building a
+  version with her ORIGINAL render audio untouched, where she is still not British.
+  **An accent fault is a RENDER fault. Only a re-shoot fixes it.**
+- **A REVOICE built on `de50f37f` did not reproduce canon Chi.** Revoicing her lines
+  with it moved the pitch to 161.3 Hz, within 4 Hz of approved Clip 2 — and the user
+  still said it is not her voice. **Pitch matching is not identity.** Read this as a
+  fact about `voice_change`, NOT about the element: a revoice inherits the original
+  render's articulation, so a correct voice laid over a bad performance still sounds
+  wrong. The user later approved `de50f37f` by ear and adopted it as ChiChi's voice.
+
+**So the 0.9819 LTAS cosine in "It was verified before cloning" is NOT proof the
+clone is usable.** That measurement, and the pitch figures beside it, passed an
+asset the user rejected by ear at the time. Section 7 already says measurement raises
+the question and the user settles it; this is that rule costing 75 credits for the
+clone plus four for the failed revoice.
+
+**⛔ NOT RESOLVED — REOPENED 15 Sep 2026 after the Clip 5 re-shoot.** This section
+once read "RESOLVED: `de50f37f` is approved and is now Chi's element", on the grounds
+that the condition it set — "unproven until the user has approved something made from
+it" — was met by a 1-credit TTS render the user listened to and adopted. **That was
+too weak a test and the section's own condition was the right one.** A TTS playback is
+not "something made from it" in the sense that matters: the only artefact that counts
+is a SEEDANCE RENDER with the element attached, and the two that exist (`85d64987`
+and `a91ed33b`) were both rejected. **Read the
+failure above narrowly: what failed was `voice_change`, riding on a bad render's
+articulation, NOT the element.** A voice can be right and a revoice built on it still
+be wrong, because the revoice inherits the original's pronunciation. Those are two
+different questions and this section conflated them.
+
+**What voice_change is still good for:** nothing yet demonstrated on this series.
+Keep it in mind for a single-speaker shot where the voice is merely the wrong
+person rather than the wrong performance, and verify with the user before building
+anything on it.
+
+**The one thing that has ever produced both correct voices is a seedance render with
+the approved block order.** Clip 2 is the proof. When voices are wrong, re-shoot on
+Clip 2's structure — see section 7's rule on the dialogue/voice tension.
+
+### ✅ THE REVOICE THAT WORKED — Ep3 Clip 5, 2 credits, job `16a6563f`
+
+**This is the procedure. It is cheap, it is repeatable, and it is the only thing that
+has ever put ChiChi's saved element onto ChiChi.**
+
+The user rejected the 135-credit re-shoot `85d64987` for Chi's voice and then ruled:
+*"The voice for Chi is literally ChiChi Canon voice V1."* One `voice_change` pass
+delivered exactly that:
+
+| | median f0 | vs approved Clip 2 |
+|---|---|---|
+| **ChiChi — approved Clip 2 `fc416b16`** | **158.4 Hz** | — |
+| ChiChi — re-shoot `85d64987`, rejected | 146.8 Hz | 11.6 Hz low |
+| **ChiChi — revoiced with `de50f37f`** | **158.4 Hz** | **exact** |
+
+**Timing survives**: 15.042s against the original 15.050s, 8ms, so the original line
+timestamps still locate every splice point. All seven lines intact in the transcript.
+
+#### The recipe
+
+1. **Revoice ONE speaker only if only one is wrong.** Nia was right in this take, so
+   she was left completely untouched — one variable, per §7. `voice_change` with
+   `video_id` = the completed job, `voice_id` = `de50f37f`, `voice_type` = `"element"`.
+2. **Transcribe the ORIGINAL with word timestamps** and list the wrong speaker's
+   segments. Chi's in Clip 5: 1.72–1.96, 11.30–11.48, 11.86–12.26, 13.10–14.76.
+3. **Put every splice boundary inside a silent gap**, and merge adjacent segments of
+   the same speaker into ONE region rather than splicing each line. Clip 5 became two
+   regions: 1.43→2.15 and 11.27→14.85.
+4. **STOP THE LAST REGION BEFORE THE TAIL.** The revoice strips the room, so ending at
+   14.85 rather than 15.05 lets the ORIGINAL's ambience carry the final hold. A
+   revoiced tail sounds dead.
+5. **Level-match on the revoiced speaker's own speech, not on the whole file.** Measure
+   RMS over her segments in both and apply the ratio to the revoice before splicing.
+   Clip 5 needed **+4.65 dB** (x1.708). §5a's "6.3 dB down" is a ballpark — measure it.
+6. **30ms equal-power crossfade at each edge**, then mux onto the original video with
+   `-c:v copy`. Zero credits, and not one frame of picture is touched.
+
+**A 60ms gap is spliceable.** Nia's "…Chi—" ends at 11.24 and Chi's "No." starts at
+11.30; the boundary went at 11.27 with a 30ms fade and holds.
+
+**`media_upload` -> PUT -> `media_confirm` puts the result in the user's library** so
+she can play it. Chain the `curl -X PUT` into the SAME `sandbox_exec` call that builds
+the file — the sandbox is discarded seconds after the command exits.
+
+### The two-pass splice mechanic — kept, because it works even though the fix did not
+
+`voice_change` takes `video_id`, `voice_id`, `voice_type` and applies ONE voice to
+the WHOLE clip; there is no per-speaker parameter. For a two-hander:
+
+1. `voice_change` with speaker A's element → whole clip in A's voice. 2 credits.
+2. `voice_change` with speaker B's element → whole clip in B's voice. 2 credits.
+3. In the sandbox, for zero credits, take each speaker's lines from her own render
+   and crossfade them together, then mux onto the original video track. Put the
+   boundaries INSIDE the silent gaps, ~40ms equal-power crossfade at each edge.
+
+**Timing survives** — 12.042s against the original 12.050s.
+
+**It also strips the room.** The revoiced audio came back 6.3 dB down on BOTH speech
+and ambience, and the decay after each line fell from 12.4 dB above the floor to
+8.9 dB, so the voices stop dead instead of ringing. That is what "superimposed"
+sounds like. Restoring the level is exact and free; **restoring the decay
+synthetically was attempted and failed** — several reverb lengths and wet levels
+all smeared the dialogue before reaching the original's 12.4 dB.
+
+### `voice_change` — the original note, superseded above
 
 `voice_change` replaces the spoken voice in a finished video while keeping the
 original timing and visuals, taking a completed job_id and a voice_id of either
-type. It is the one tool that sidesteps the one-element-per-generation limit
-entirely, because it runs AFTER the render. Untested here, and it appears to
-revoice the whole clip rather than one speaker — so expect it to suit
-single-speaker shots rather than a two-hander.
+type. It runs AFTER the render, so it sidesteps the one-element-per-generation
+limit entirely.
 
-### Nia's voice is different
+**It costs 2 CREDITS.** There is no `get_cost` on it, so it cannot be preflighted —
+but the figure is now measured, from `transactions`, twice. Against **108 credits to
+re-shoot a 12s clip at 1080p, that is 54x cheaper**, and unlike a re-shoot it cannot
+re-roll the picture. Episode 3 Clip 3 had correct dialogue and staging with wrong
+voices, and re-generating would have thrown away everything that was right — the
+same mistake as the Episode 2 jacket.
 
-Nia's cloned element `12315c68-37de-41fe-8766-76ac07bcaf70` **is** honoured and
-does produce her real voice. Hers is a genuine asset; Chi's is a recipe. Do not
-treat them the same way.
+**WHEN ONLY THE VOICES ARE WRONG, NEVER RE-SHOOT. REVOICE.** The user asked "why is
+it 108 credits, I want to use the same clip" and was completely right.
+
+**It applies ONE voice to the WHOLE clip** — there is no per-speaker parameter, only
+`video_id`, `voice_id`, `voice_type`. That does not rule out a two-hander; it just
+means two passes and a splice:
+
+1. `voice_change` with speaker A's element → whole clip in A's voice. 2 credits.
+2. `voice_change` with speaker B's element → whole clip in B's voice. 2 credits.
+3. In the sandbox, for **zero credits**, take each speaker's lines from her own
+   render and crossfade them together, then mux onto the original video track.
+   Put the splice boundaries INSIDE the silent gaps between lines, with a ~40ms
+   equal-power crossfade at each edge, and the joins are inaudible.
+
+**Timing survives.** The two revoiced renders came back at 12.042s against the
+original 12.050s — 8ms, so the original line timestamps still locate the splice
+points. Verify anyway before cutting.
+
+**Measured result on Episode 3 Clip 3:**
+
+| | Before | After revoice | Target (approved Clip 2) |
+|---|---|---|---|
+| ChiChi | 188.1 Hz | **161.3 Hz** | 165.2 Hz |
+| Nia | 170.2 Hz | **186.0 Hz** | 207.8 Hz / element reads 183.9 |
+
+Before the fix the two women were 17.9 Hz apart and **inverted** — ChiChi reading
+higher than Nia, which is backwards for her. After, they are 24.7 Hz apart with
+ChiChi correctly the lower voice.
+
+**SUPERSEDED.** The last line of this paragraph used to read "it is still never put
+into a seedance prompt — it is a POST-PRODUCTION asset." That is now FALSE.
+`180fdb9a` was deleted on 15 Sep 2026 and `de50f37f` is ChiChi's tag in every prompt.
+See the Lock Card at the top of this file.
+
+### How the two voices actually reach the screen — and why it changes nothing you DO
+
+Nia's `12315c68` is the element the model loads. ChiChi's `de50f37f` is attached but
+the model builds her voice from the prose around the tag instead. **That is a fact
+about the mechanism, not an instruction.** Both tags go in every prompt regardless —
+see the Lock Card. The difference is only in where the exposure lies:
+
+- **Nia's voice** is re-performed by the render but anchored to a real asset.
+- **ChiChi's voice** is entirely a render product, so **anything that degrades the
+  render degrades her** — bitrate above all.
+
+Neither is "safe" and neither needs re-engineering. Hold the parameters and the block
+order constant and both come back right; that is what the four approved clips prove.
 
 ---
 
@@ -809,6 +1399,25 @@ treat them the same way.
   it was requesting the wrong garment the entire time. One shot obeyed it and had
   to be rebuilt. Reread wardrobe lines for words that mean something else in
   garment terminology.
+- **When the USER'S OWN WORDS for a garment are ambiguous, do not translate them
+  into jargon — keep their words and make the image authoritative.** Episode 3's
+  reference came described as an "oversized neck sweater halter top", which pulls
+  two ways: a halter bares the shoulders and fastens behind the neck, a sweater neck
+  implies a collar at the throat. The tempting move is to work out which garment it
+  really is and write that. **That is exactly how Episode 1 lost a shot** — an agent
+  wrote `high mock-halter neckline` and was requesting a turtleneck the whole time.
+  The element instead used the user's phrase verbatim, said REPRODUCE EXACTLY AS
+  SHOWN IN THIS REFERENCE IMAGE, and forbade the neckline changing IN EITHER
+  DIRECTION — never raised, never lowered, never swapped. **Jargon that is never
+  written cannot be wrong.** Write conditional rules the same way, so they hold
+  whichever the garment turns out to be: Nia's choker is worn only if the reference
+  leaves her throat bare, and is never added on top of fabric.
+- **The image is the lock, so do not re-describe what it already shows.** A
+  reference image carries colour, fabric, cut, collar and proportion. Restating
+  those in the element description creates a SECOND, weaker specification that can
+  disagree with the picture, and when they disagree there is no way to tell which
+  one a bad take obeyed. Spend the description on what an image CANNOT carry: the
+  rules, the quantities, the negations, the things that must never change.
 - **Never reword anything that produced an approved result.** The text that reads
   as "maroon tights" on screen says `chocolate-brown leggings` in the prompt. Keep
   the words that worked, not the words that describe what you see.
@@ -824,6 +1433,24 @@ treat them the same way.
   finger, and specifically NOTHING on the fourth finger of her left hand — that
   finger is bare skin.**" Same pattern for anything the model expects to see and
   the scene forbids.
+- **You cannot negate a specific string by QUOTING it — quoting it is what supplies
+  it.** The Episode 3 set-up plate asked for "NO LEGIBLE LETTERING ANYWHERE" and the
+  lettering came back perfectly legible. The prompt had also said "the Sucré
+  printing on the cups", the cup element's description says "the plastic Sucré
+  coffee cup" and "the Sucré printing... NEVER rendered as legible lettering", and
+  the set element's description says "preserve the exterior SUCRÉ sign". The word was
+  handed to the model five or six times, attached to a surface, next to a soft
+  instruction not to render it clearly. **Naming the text is what put the text
+  there.** The fix is never a harder negation — it is to describe the surface as
+  BLANK and never write the word at all: "the surface is COMPLETELY BLANK — no words,
+  no letters, no numerals, no logo, no printed brand mark, no sticker, no label."
+  Reference the element by UUID, which carries no renderable text. This is the same
+  shape as "never generate the title into the art" in section 2, and it generalises:
+  **for anything you do NOT want rendered, describe its absence, never its
+  identity.** Contrast this with the ring and the wedding band, where naming the
+  object is exactly right — the difference is that a ring is a SHAPE the model
+  supplies from its own prior, while text is a STRING the model can only get from
+  your prompt.
 - **Spell unusual words phonetically, and negate the wrong readings.** "Jollof"
   came back mispronounced because the prompt only ever spelled it. Write the
   sound: *"pronounced 'JO-loft' said quickly, stress on the first syllable, the
@@ -923,8 +1550,10 @@ nothing. Shortening the clip does, because the slack disappears.
     - **Fingerprint a voice** when the question is "is this the right voice." Pull
       f0 median and quartiles on voiced frames, plus a long-term-average-spectrum
       cosine against a known-good sample from approved footage. Always include a
-      control pair you know differs (canon Chi vs element `180fdb9a` scores 0.8621)
-      so the numbers have a scale. Same voice lands ~0.98.
+      control pair you know differs so the numbers have a scale; same voice lands
+      ~0.98. **The old control — canon Chi vs element `180fdb9a` at 0.8621 — can no
+      longer be reproduced, because that element was deleted.** Use a cross-speaker
+      pair from inside one clip instead (~0.82), which section 7 prefers anyway.
     - **Get reference samples free** from `list_voices` — every voice element
       carries a `preview_url`. No TTS spend needed to hear what an element is.
     - **Audio measurement flags a suspicion; the user's eyes settle it.** Whose
@@ -1029,6 +1658,46 @@ nothing. Shortening the clip does, because the slack disappears.
   waiting for an answer. A warning followed immediately by the charge is not
   consent. When a step is both irreversible in cost and risky to an approved
   result, say so and STOP until the user answers.
+- **A LONG PROMPT LOSES THE DIALOGUE. PUT THE SCRIPT AT THE TOP AND KEEP THE WHOLE
+  THING SHORT.** This is the most expensive lesson in Episode 3 and the evidence is
+  a clean monotonic line:
+
+  | Prompt | Length | Lines spoken as scripted |
+  |---|---|---|
+  | Ep3 Clip 1 ✅ | 14,846 | all |
+  | Ep3 Clip 2 ✅ | 16,743 | all |
+  | Ep3 Clip 3 v1 ❌ | 19,875 | 3 of 6 |
+  | Ep3 Take A ❌ | 20,611 | **0 of 8 — a whole new scene invented** |
+  | Ep3 Clip 3 v3 ✅ | **8,775** | **all 47 words, verbatim** |
+
+  The failing takes obeyed everything at the TOP of the prompt perfectly — pacing,
+  framing, cut count, hold length all landed to spec — and improvised everything at
+  the bottom. **The dialogue was sitting about 70% of the way down.** The model is
+  not refusing to follow a script; it is losing it.
+
+  The fix is structural, not a harder negation. **Lead with the numbered lines and
+  their speaker tags, before any set, camera, wardrobe or continuity block**, and cut
+  the prompt to roughly half. Everything the start_image and the elements already
+  carry — seating, cup level, jewellery, wardrobe fit, framing — is one sentence
+  pointing at the frame, not a paragraph. Attribution warnings compress to a line
+  each without losing force.
+
+  **Escalating the wording is what caused this.** Every fix across three passes added
+  text, and each addition pushed the script further down. When adherence drops, DELETE
+  rather than add.
+- **THE DIALOGUE FIX AND THE VOICE RECIPE PULL AGAINST EACH OTHER. Satisfy both by
+  moving the script UP, never by deleting the blocks around ChiChi's voice line.**
+  Shortening Episode 3 Clip 3's prompt from 20,611 to 8,775 chars got every word of
+  the script back — and broke both voices, because section 5a's recipe is not the two
+  pinned blocks alone, it is **the blocks that surround them**. The cut moved her
+  voice line four positions earlier and deleted both wardrobe blocks that sit either
+  side of it in the approved takes. The pinned text was still byte-identical; the
+  neighbourhood was not.
+  The working shape is **approved Clip 2's block order exactly, with the dialogue
+  block lifted to the very top** — script at 1.9% in rather than 70%, everything else
+  untouched, ~16,500 chars. That keeps the one change that fixed the words and
+  restores the one thing that carried the voices. **ChiChi's order is
+  character → skin → age → hair → VOICE → wardrobe → ring, and it does not move.**
 - **Read the WHOLE prompt start to finish before submitting it.** Prompts here
   are rewritten in place across many edits and contradictions survive. A final
   read of Episode 2 Clip 5 caught two stale "three seconds" left over from a
@@ -1041,8 +1710,33 @@ nothing. Shortening the clip does, because the slack disappears.
   `seedance_2_5` accepts **4 to 30 seconds**. A container you cannot size is a
   container you cannot use, and section 6's whole pacing method depends on sizing
   it. Call `models_explore` with `action: get` before locking an episode spec.
-- **Never silently swap models, resolution or aspect ratio.** Mid-episode changes
-  to any of these make the footage un-cuttable with what already exists.
+- **A submitted generation can come back as a PRESET RECOMMENDATION instead of a
+  job, and the recommendation can be badly wrong.** Episode 3 Clip 1 was submitted
+  and the server answered with the preset **"IN THE DARK"** — for a bright
+  mid-morning coffee shop. Nothing was charged and no job existed. Two things
+  follow. **Check whether a job id actually came back before reporting a clip as
+  shooting**, because a recommendation looks like a normal response. And **decline
+  it and retry literally** (`declined_preset_id`) rather than accepting: a preset
+  carries its own look and would override the locked set, the locked grade and the
+  staging that fixes attribution. A preset is never the right answer for a clip
+  built on approved elements.
+- **NEVER SILENTLY SWAP ANY GENERATION PARAMETER — AND DIFF THE WHOLE SET AGAINST THE
+  LAST APPROVED CLIP BEFORE EVERY SUBMISSION.** Models, resolution and aspect ratio
+  were the named three; **`bitrate_mode` was not, and it is what broke Episode 3.**
+  It silently fell from `high` to `standard` between Clip 4 and Clip 5 because an agent
+  started passing `quality: "1080p"` where the approved clips passed no `quality` at
+  all. Video bitrate dropped **7.3x, 11.35 Mbps to 1.55**, the user said both voices
+  were wrong, and roughly two hours went into an element-binding theory that was
+  chasing the wrong variable.
+  **Nothing visible flagged it**: `resolution` still read `1080p`, the cost was
+  identical, `get_cost` matched, and the returned job looked normal. The only place it
+  showed was `params.bitrate_mode` in the job payload and the file size.
+  So: **pull the last approved clip's `params` with `job_display`, diff it field by
+  field against what you are about to send, and pass every value explicitly rather
+  than trusting a default.** A parameter you do not send is a parameter the server
+  chooses for you, and it will not choose the same thing twice.
+  **And when a render regresses in a way the prompt cannot explain, check the
+  parameters BEFORE theorising about the model.**
 - **Pick the resolution before the first clip of an episode, not after.** "Blurry"
   is usually not a prompt problem — 480p looks fine in a chat preview and soft on
   a television, and no amount of sharpness wording fixes the pixel count. Quote
