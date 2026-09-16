@@ -716,10 +716,26 @@ prompt records**, where `<<<180fdb9a>>>` appears in delivered text; deleting the
 element leaves those tags pointing at nothing, though the footage they produced
 already exists and is unaffected.
 
-**So if a slot is ever needed — for one of the men, most likely — `180fdb9a` is
-the candidate.** That is still the user's call in the Higgsfield web UI, never an
-agent's, and the question below applies first: ask whether a new element would
-even be honoured before spending a slot on it.
+**Deleting `180fdb9a` was considered on 16 Sep 2026 and the user ruled: KEEP IT.**
+It is **RETIRED, not deleted** — section 2's standing convention, that old
+elements are never deleted but only retired in the registry, and this is the case
+it was written for. Do not propose removing it again. Three reasons it earns its
+slot:
+
+- **The slot would probably buy nothing.** A newly cloned male element, with
+  Nia's also attached, will almost certainly be ignored exactly as this one always
+  was — so the slot gets spent and a prose recipe is still needed.
+- **It anchors three delivered prompt records.** `<<<180fdb9a>>>` appears in the
+  Episode 2 Clip 4, 5 and 6 files, which are the evidence of what produced
+  approved footage. The footage is unaffected either way; the tags would not be.
+- **It is an input to the voice-recovery procedure above**, which reproduces the
+  Episode 1 and 2 binding conditions exactly. Remove the element and that
+  procedure has a hole in it.
+
+**The confusion that prompted the question was documentation, not the element**,
+and it was in Episode 1's file — three lines phrased as standing orders, one of
+which forbade the very tag the ruling mandates. Those are corrected. **Fixing
+words is free; deleting a 75-credit asset to solve a wording problem is not.**
 
 **Before considering a deletion, ask whether the new element would even be used.**
 seedance binds ONE voice element per generation. `180fdb9a` was attached in every
