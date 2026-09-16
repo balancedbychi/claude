@@ -1514,13 +1514,17 @@ everything above.** Nia's saved voice was fed in as an AUDIO REFERENCE — the m
 declares an `audio_references` media role that three episodes had never used —
 on the exact prompt that produced the clip the user called best.
 
-**Her British accent appeared in the clip. On CHICHI.**
+**IT WORKED ON NIA — the user: "Nia has her correct voice." AND IT BLED ONTO CHICHI,
+who kept her own voice but picked up Nia's British accent with it.**
 
-So the audio reference is not ignored and is not filed as a picture. It is USED, and
-it lands on whoever the render decides. **A voice input colours the whole generation;
-it is not bound to a person.** That is the same behaviour §5a records for voice
-elements — one voice per generation, no per-character control — and it now extends to
-audio references too.
+So the audio reference is not ignored and is not filed as a picture. **It fixes the
+voice it is given — and it colours everyone else in the generation too.** A voice
+input is not bound to a person; it applies to the whole render. That is the same
+behaviour §5a records for voice elements — one voice per generation, no per-character
+control — and it now extends to audio references, except that unlike the element
+binding, **the audio reference demonstrably produces the right voice.** That is the
+first thing in this project that has reliably put a specific voice on a specific
+woman.
 
 **This explains the whole Episode 1 Clip 1 failure without any of the theories that
 were tried.** Not duration: the user has a 24-second clip that is fine. Not the
@@ -1531,8 +1535,10 @@ worked with two shots; C1 had five Nia shots and nine cuts and it wandered.
 ### THE METHOD THAT FOLLOWS: ONE WOMAN PER GENERATION
 
 **Shoot each side of a conversation as its own render, with only that woman's voice
-attached, then cut them together.** A generation with one woman in it has no one else
-for the voice to land on.
+attached as an audio reference, then cut them together.** The bleed stops being a
+problem the moment there is no one else in the generation to bleed onto: Nia's render
+gets Nia's voice and she is the only person in it; ChiChi's render gets ChiChi's and
+the same. **Each woman gets her correct voice and nothing contaminates the other.**
 
 **It costs exactly the same.** Seedance bills ~9 credits/second at 1080p, so an 18s
 two-hander is 162 and Nia's 9s + ChiChi's 9s is 81 + 81 = 162. **Splitting by
