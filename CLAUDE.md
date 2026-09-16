@@ -391,13 +391,14 @@ dialogue block at the very top.
 
 ## 3. THE CONTINUITY LEDGER
 
-Every recurring character needs all nine of these locked, in the element
+Every recurring character needs all ten of these locked, in the element
 description and repeated in every prompt. Anything not pinned explicitly will be
 re-rolled on the next take.
 
 | | What to lock |
 |---|---|
-| **Face** | Identity, apparent age, complexion, facial geometry, dental identity, head-to-body scale, natural body proportions |
+| **Face** | Identity, apparent age, complexion, facial geometry, dental identity, head-to-body scale |
+| **Figure** | Waist and bust stated SPECIFICALLY, per character, plus the wrong builds negated — **never "natural body proportions"**, which is a generic that re-rolls every take |
 | **Hair** | Colour, length, cut, texture, **part and which way it sweeps**, how the ends behave — plus the wrong cuts named and negated |
 | **Wardrobe** | Garment type, fabric, neckline, sleeve, crop point, colour, fit, footwear — per episode |
 | **Hands** | Rings, bracelets, nails, skin texture and apparent age of the hands, five-finger anatomy |
@@ -550,6 +551,36 @@ These are series-wide, not per-episode, and belong in every prompt she appears i
   which separately writes against BOTH meanings of "unclear" — blotchy and uneven
   AND soft and out of focus — because an agent who cannot see the render does not
   know which one it got.
+
+### Nia's figure — ruled by the user, 16 Sep 2026, off the N1 8-second test
+
+**"Nia is a bit more slimmer at the waist with a slightly fuller chest."** The
+user's words, on test `c9976b46`. Her figure is now a permanent physical fact and
+goes in every prompt she appears in: **slim and narrow at the waist, with a
+slightly fuller chest above it**, in natural proportion on a healthy, toned
+thirty-year-old frame. Negate both directions by name — never thick, straight or
+undefined through the middle, never boxy, never a wide waist, never heavy-set,
+never full-figured; and never gaunt, skeletal, flat-chested or cartoonishly
+proportioned.
+
+**The two women must never converge.** ChiChi is full-figured, Nia is slim-waisted,
+and a prompt that describes one and not the other lets the model average them. Say
+in Nia's block that she is NOT built like ChiChi.
+
+**Why this re-rolled for three episodes: she never had a figure spec and ChiChi
+did.** ChiChi's element carries "realistic full-figured proportions" and every
+prompt of hers carries "the clothing adapts to her body, her body never shrinks to
+fit the clothing." Nia's element carries **"natural body proportions"** — which is
+section 5's generic negation failure wearing a positive coat. *Natural* is not a
+specification; it is whatever the model already believes, so it re-rolls every
+take. **Element descriptions are write-once, so `bcd528d3` cannot be corrected —
+the figure spec lives in the PROMPT, in her identity block alongside her tag, and
+in the episode file.** Mirror ChiChi's wording, including the clothing sentence:
+the garment adapts to the figure, never the figure to the garment.
+
+**The white dress element `91da557d` is confirmed correct** in the same note —
+"the white dress read right" — so the wardrobe wording is approved and, per
+section 5, is not to be reworded.
 
 ### Jewellery is STYLE, except the ring — the user's ruling, Episode 3
 

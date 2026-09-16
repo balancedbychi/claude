@@ -287,7 +287,26 @@ and C6** — the prologue flagged its absence specifically.
 - **Nia's white dress is a locked wardrobe element**, clean in C1, C2, C4, C5 until
   the pour, stained from the pour and identical in C6. Neckline never raised,
   lowered or swapped. Choker only if the reference leaves the throat bare, never
-  on top of fabric. Gold ring, same hand, same finger.
+  on top of fabric. **ONE slim plain GOLD BAND on the RING FINGER OF HER RIGHT
+  HAND** — her left hand bare — the same ring, the same hand and the same finger
+  in every clip. (§3 ruled Nia's hands are not permanently ring-free; this file
+  said "gold ring" without saying where, so C1 fixes it for the episode. Right
+  hand, not left: a band on her left fourth finger reads as married, which she
+  is not.)
+  **CONFIRMED CORRECT on the 8s test `c9976b46`** — the user's note: *"The white
+  dress read right."* Per section 5 the wardrobe wording is not to be reworded.
+- **Nia's figure goes in every prompt — SLIM AND NARROW AT THE WAIST, WITH A
+  SLIGHTLY FULLER CHEST above it**, on a healthy toned thirty-year-old frame.
+  The user's ruling off the same test: *"Nia is a bit more slimmer at the waist
+  with a slightly fuller chest."* Negate both directions by name, and say she is
+  NOT built like ChiChi so the two figures cannot average. Her element `bcd528d3`
+  says only "natural body proportions" and is **write-once**, so this lives in
+  the prompt, alongside her tag. See CLAUDE.md §3.
+- **Chi's LEFT HAND stays out of frame** in every clip she is in, framed out, not
+  negated. The ring prior beat the strongest negation in the file twice, including
+  on this episode's own 8s test. The `.claude/hooks/` guard now blocks a
+  submission without a framing instruction. A shot that genuinely needs that hand
+  visible goes to `hf_mult_replace_object` after the render, not to more words.
 - **Chi wears NO RING, ever** — named object by object, nothing on the fourth finger
   of her left hand. Gold watch only. Nails deep red. **Hair sweeps to HER OWN
   RIGHT** — deep side part on the LEFT of her head, falling down her right side,
@@ -354,8 +373,8 @@ action, never the container alone.
 | `Nia` · `ChiChi-the-Influencer` · `Dorian-Series-Look` · `Kel-The-Cousin` | ✅ LOCKED |
 | Voices — `12315c68` + `de50f37f` in every prompt, Kel's prose recipe | ✅ LOCKED |
 | **Simone — face + wardrobe** | ⚠️ USER UPLOADS |
-| **Nia's white dress** | ⚠️ USER UPLOADS |
-| **Chi's look** | ⚠️ USER UPLOADS |
+| **Nia's white dress** `91da557d` | ✅ LOCKED — read right on the 8s test `c9976b46` |
+| **Chi's look** `f2c3a3c5` | ✅ LOCKED — shot on the 8s test |
 | **Simone's voice** | ⚠️ PROSE RECIPE + reference audio sample |
 
 ## ELEMENT REGISTRY — this episode
