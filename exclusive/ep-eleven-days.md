@@ -95,7 +95,7 @@ ChiChi hangs up. Sits in the silence one full beat. Then stands, and walks towar
 
 - **Voices:** Nia → `Nia-voice-v2-clear` · ChiChi → `ChiChi-the-Influencer-Voice` (both saved voice elements)
 - **Characters:** `Nia` + `ChiChi-the-Influencer` reference elements — the exact pairing that produced the approved Sucré footage
-- **EVERY PROMPT MUST CARRY BOTH VOICE ELEMENTS.** Nia `12315c68-37de-41fe-8766-76ac07bcaf70` AND ChiChi `180fdb9a-7c0b-469e-be49-3f76692a3968`. If a character's voice element is missing from the prompt, the model invents a voice for her and the take is wasted. This was dropped in v3 and not caught until Shot 2.
+- **EVERY PROMPT MUST CARRY BOTH VOICE ELEMENTS.** Nia `12315c68-37de-41fe-8766-76ac07bcaf70` AND ChiChi — **which was `180fdb9a` when THIS episode was shot, and is `de50f37f` for anything built from 16 Sep 2026 onward (user's ruling, CLAUDE.md 5a). The rule is that both tags are present; the ID above is the historical one.** If a character's voice element is missing from the prompt, the model invents a voice for her and the take is wasted. This was dropped in v3 and not caught until Shot 2.
 - **Continuity:** ChiChi's hair is her established honey-blonde shoulder-length layered blowout with darker roots, as rendered in the approved Shot 1 v4. Do not force it dark. Both women ring-free and bracelet-free; stud earrings only. Hands smooth and youthful, matching the age of each face.
 - **BOTH women hold mobile phones to their ears, visible in frame, in every shot.** It is a phone call and the phones must read on screen. No speakerphone, no earbuds, no hands-free.
 - **One wine glass.** ChiChi is alone; a second glass on the table implies company that isn't there. Pin the count explicitly in every prompt — "a single glass" is not strong enough phrasing for the model.
@@ -141,8 +141,8 @@ scratch when an element exists for it.
 | Element | ID | Notes |
 |---|---|---|
 | `Nia-voice-v2-clear` | `12315c68-37de-41fe-8766-76ac07bcaf70` | Honoured by seedance. This is Nia's real voice. |
-| `ChiChi-the-Influencer-Voice` | `180fdb9a-7c0b-469e-be49-3f76692a3968` | NOT honoured, and NOT the voice you hear. Stays in every prompt as part of Chi's pinned recipe. See CLAUDE.md §5a. |
-| `ChiChi-Canon-Voice-v1` | `de50f37f-82fa-4a70-bdca-52355b2f4ca2` | **The real capture of Chi's canon voice.** For TTS and non-seedance models. Do NOT put this in a seedance prompt. |
+| `ChiChi-the-Influencer-Voice` | `180fdb9a-7c0b-469e-be49-3f76692a3968` | NOT honoured, and NOT the voice you hear. **The tag used in THIS episode's prompts. Superseded 16 Sep 2026** — new work uses `de50f37f`. See CLAUDE.md §5a. |
+| `ChiChi-Canon-Voice-v1` | `de50f37f-82fa-4a70-bdca-52355b2f4ca2` | **The real capture of Chi's canon voice, and THE TAG TO USE from 16 Sep 2026 (user's ruling).** ⚠️ This row previously read "Do NOT put this in a seedance prompt" — that is reversed and no longer applies. |
 
 Chi's voice as heard in this episode is synthesized by seedance, not cloned, and
 is canon for the series. Inside seedance it is pinned only by keeping her two
@@ -151,8 +151,9 @@ prompt blocks byte-identical — never reword them.
 It has since been captured as a portable element, `ChiChi-Canon-Voice-v1`
 (`de50f37f-82fa-4a70-bdca-52355b2f4ca2`), cloned from a dedicated 14-second
 solo-Chi clip and verified against Shot 6 before cloning (LTAS 0.9819 vs canon,
-0.8942 vs element `180fdb9a`). That element is the insurance policy and the route
-into other models. It changes nothing about how this episode's shots are built:
+0.8942 vs element `180fdb9a`). That element is the insurance policy, the route
+into other models, and — **since the user's ruling of 16 Sep 2026 — the tag in
+her pinned prompt block for all new work.** It changes nothing about how this episode's shots are built:
 seedance binds one voice element per generation, Nia's wins, and Chi stays
 synthesized from the recipe.
 

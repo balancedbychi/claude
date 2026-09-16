@@ -53,7 +53,8 @@ the geography section, not the element text.**
 
 Faces and voices carry over unchanged from Episode 1: `Nia` `bcd528d3…`,
 `ChiChi-the-Influencer` `8a8e8eeb…`, `Nia-voice-v2-clear` `12315c68…`, and Chi's
-pinned two-block voice recipe with `180fdb9a…` still in the text.
+pinned two-block voice recipe — with `180fdb9a…` in the text for THIS episode's
+prompts, and `de50f37f…` for anything built from 16 Sep 2026 onward.
 
 ### Retired
 
