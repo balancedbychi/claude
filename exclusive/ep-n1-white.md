@@ -385,6 +385,19 @@ action, never the container alone.
 | **Chi's look** `f2c3a3c5` | ✅ LOCKED — shot on the 8s test |
 | **Simone's voice** | ⚠️ PROSE RECIPE + reference audio sample |
 
+## DELIVERED
+
+| Clip | Job | Credits | Measured |
+|---|---|---|---|
+| **C1 "Bold"** | `2a5a6765-7f51-493a-8816-5961f95e3936` | 162 | 18.05s · 1920x1080 · 9.66 Mbps · **9/9 cuts** · **41/41 words verbatim in order** · sharpness alternates 15–16 / 23–26 by room, clip mean 20.3 |
+
+Prompt: `exclusive/prompts/n1-clip01-DELIVERED-2a5a6765.txt`. Awaiting the user's eyes.
+
+**The alternation is the structural proof the intercut held.** Ten shots, sharpness
+going 16.1 / 24.9 / 16.6 / 23.0 / 16.2 / 24.7 / 16.3 / 25.9 / 15.2 / 23.9 — a clean
+odd/even split, so the camera really did alternate between the two rooms on every cut
+rather than drifting. **The numbers are quoted as a tripwire, not a verdict** (§7).
+
 ## TESTS SHOT
 
 | Job | What it was for | Result |
