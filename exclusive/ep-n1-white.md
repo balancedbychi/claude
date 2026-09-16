@@ -295,16 +295,16 @@ and C6** — the prologue flagged its absence specifically.
   is not.)
   **CONFIRMED CORRECT on the 8s test `c9976b46`** — the user's note: *"The white
   dress read right."* Per section 5 the wardrobe wording is not to be reworded.
-- **Nia's figure goes in every prompt — she is an HOURGLASS. SLIM AND NARROW AT
-  THE WAIST, a SLIGHTLY FULLER CHEST above it, WIDE FULL HIPS below it**, on a
-  healthy toned thirty-year-old frame. The user's ruling off the same test:
-  *"Nia is a bit more slimmer at the waist with a slightly fuller chest"* and
-  *"Nia does have wider hips."* Negate both directions by name — but **never
-  "full-figured"**, which is a whole-body word and cuts the hips while aiming at
-  the waist. State the ChiChi contrast as a contrast: ChiChi is full-figured all
-  through, Nia is an hourglass. Her element `bcd528d3` says only "natural body
-  proportions" and is **write-once**, so this lives in the prompt, alongside her
-  tag. See CLAUDE.md §3.
+- **BOTH WOMEN ARE HOURGLASSES — the difference is SCALE, never SHAPE**, and each
+  one's figure goes in every prompt she is in. **NIA:** slim narrow waist, slightly
+  fuller chest, wide full hips, healthy and toned at thirty. **CHICHI:** full-figured
+  AND an hourglass — fuller than Nia at bust, waist and hips alike. The user's three
+  rulings off the 8s test: *"Nia is a bit more slimmer at the waist with a slightly
+  fuller chest"*, *"Nia does have wider hips"*, *"ChiChi is full figured but hourglass
+  too."* Never negate **"full-figured"** on Nia — it is a whole-body word and it is
+  ChiChi's own, so it cuts the hips and the other character at once. Both elements
+  are **write-once**, so this lives in the prompts: Nia's beside her tag, ChiChi's
+  AFTER her ring block so §5a's seven pinned blocks keep their order. See CLAUDE.md §3.
 - **Chi's LEFT HAND stays out of frame** in every clip she is in, framed out, not
   negated. The ring prior beat the strongest negation in the file twice, including
   on this episode's own 8s test. The `.claude/hooks/` guard now blocks a

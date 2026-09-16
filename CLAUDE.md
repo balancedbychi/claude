@@ -398,7 +398,7 @@ re-rolled on the next take.
 | | What to lock |
 |---|---|
 | **Face** | Identity, apparent age, complexion, facial geometry, dental identity, head-to-body scale |
-| **Figure** | Waist and bust stated SPECIFICALLY, per character, plus the wrong builds negated — **never "natural body proportions"**, which is a generic that re-rolls every take |
+| **Figure** | Bust, waist AND hips stated SPECIFICALLY, per character, plus the wrong builds negated — **never "natural body proportions"**, which is a generic that re-rolls every take. Both women are hourglasses; only the fullness differs |
 | **Hair** | Colour, length, cut, texture, **part and which way it sweeps**, how the ends behave — plus the wrong cuts named and negated |
 | **Wardrobe** | Garment type, fabric, neckline, sleeve, crop point, colour, fit, footwear — per episode |
 | **Hands** | Rings, bracelets, nails, skin texture and apparent age of the hands, five-finger anatomy |
@@ -552,42 +552,63 @@ These are series-wide, not per-episode, and belong in every prompt she appears i
   AND soft and out of focus — because an agent who cannot see the render does not
   know which one it got.
 
-### Nia's figure — ruled by the user, 16 Sep 2026, off the N1 8-second test
+### THE TWO FIGURES — BOTH HOURGLASSES — ruled by the user, 16 Sep 2026
 
-**"Nia is a bit more slimmer at the waist with a slightly fuller chest."** Then,
-on the same day: **"Nia does have wider hips."** The user's words, on test
-`c9976b46`. **Nia is an HOURGLASS**, and that is now a permanent physical fact in
-every prompt she appears in: **slim and narrow at the waist, a slightly fuller
-chest above it, and WIDE full hips below it** — the waist noticeably narrower than
-both, the curve in and back out being the shape itself, all in natural proportion
-on a healthy, toned thirty-year-old woman.
+Three notes in one day, off the N1 8-second test `c9976b46`:
 
-**Negate BOTH directions, and mind which words cut against which.** Never straight
-up and down, never thick or undefined through the middle, never boxy, never a wide
-or heavy waist — and equally never narrow, flat, straight or boyish through the
-hips. Never gaunt, skeletal, flat-chested or cartoonish.
+> **"Nia is a bit more slimmer at the waist with a slightly fuller chest."**
+> **"Nia does have wider hips."**
+> **"ChiChi is full figured but hourglass too."**
 
-**⚠️ "never full-figured" is NOT a safe negation for Nia and was removed.** It was
-in the first draft of this block, reaching for the waist — and *full-figured* is a
-whole-body term, so it pulls against the hips in the same breath as asking for
-them. **A negation aimed at one part of a body lands on all of it.** The contrast
-with ChiChi has to be stated as a contrast, not as a negation: **ChiChi is
-full-figured all through, Nia is an hourglass.**
+**Both women are hourglasses. The difference between them is SCALE, never SHAPE.**
+Each has a full bust, a waist that clearly comes in and wide full hips; ChiChi is
+simply fuller than Nia at every point. Write the same shape for both and change
+only the fullness.
+
+| | |
+|---|---|
+| **NIA** | slim narrow waist · slightly fuller chest · wide full hips · healthy and toned at thirty |
+| **CHICHI** | full-figured AND an hourglass · fuller than Nia at bust, waist and hips alike |
+
+**Negate BOTH directions, and for both women.** Never straight up and down, never
+boxy or rectangular through the middle, never a thick or undefined waist, never
+apple-shaped, never all one width from shoulder to hip — and equally never narrow,
+flat, straight or boyish through the hips. For Nia also: never gaunt, skeletal,
+flat-chested or cartoonish.
+
+**⚠️ "never full-figured" is NOT a safe negation and was removed from Nia's block.**
+It was in the first draft, reaching for her waist — and it is wrong twice over.
+*Full-figured* is a WHOLE-BODY term, so it pulls against the hips in the same breath
+as asking for them; and it is **ChiChi's own word**, so negating it on one woman
+attacks the other's spec. **A negation aimed at one part of a body lands on all of
+it, and a negation aimed at one character can land on the other.** State the
+contrast as a contrast: *both are hourglasses, ChiChi is the fuller of the two.*
+
+**"Full-figured" and "hourglass" are not alternatives** — that was the error in the
+first version of this section, which set them against each other. ChiChi is both.
+Reading full-figured as "straight through the middle" is exactly the render fault
+this block exists to stop.
 
 **The two women must never converge.** A prompt that describes one figure and not
-the other lets the model average them. Say in Nia's block that she is NOT built
-like ChiChi.
+the other lets the model average them — and now that they share a shape, the only
+thing keeping them apart is that each one's fullness is written down. Nia is never
+rendered at ChiChi's fullness.
 
-**Why this re-rolled for three episodes: she never had a figure spec and ChiChi
-did.** ChiChi's element carries "realistic full-figured proportions" and every
-prompt of hers carries "the clothing adapts to her body, her body never shrinks to
-fit the clothing." Nia's element carries **"natural body proportions"** — which is
-section 5's generic negation failure wearing a positive coat. *Natural* is not a
-specification; it is whatever the model already believes, so it re-rolls every
-take. **Element descriptions are write-once, so `bcd528d3` cannot be corrected —
-the figure spec lives in the PROMPT, in her identity block alongside her tag, and
-in the episode file.** Mirror ChiChi's wording, including the clothing sentence:
-the garment adapts to the figure, never the figure to the garment.
+**Why this re-rolled for three episodes: Nia never had a figure spec and ChiChi
+half had one.** ChiChi's element carries "realistic full-figured proportions" —
+scale but not shape — and every prompt of hers carries "the clothing adapts to her
+body, her body never shrinks to fit the clothing." Nia's element carries
+**"natural body proportions"**, which is section 5's generic negation failure
+wearing a positive coat. *Natural* is not a specification; it is whatever the model
+already believes, so it re-rolls every take.
+
+**Element descriptions are write-once, so neither `bcd528d3` nor `8a8e8eeb` can be
+corrected — the figure spec lives in the PROMPT and in the episode file.** Nia's
+sits in her identity block alongside her tag. **ChiChi's goes AFTER her ring block**,
+so that section 5a's pinned order — character → skin → age → hair → VOICE →
+wardrobe → ring — keeps every one of its seven blocks in place and untouched.
+Mirror ChiChi's clothing sentence for both: the garment adapts to the figure, never
+the figure to the garment.
 
 **The white dress element `91da557d` is confirmed correct** in the same note —
 "the white dress read right" — so the wardrobe wording is approved and, per
