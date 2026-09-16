@@ -1507,6 +1507,64 @@ order constant and both come back right; that is what the four approved clips pr
 
 ---
 
+### 🔑 A VOICE INPUT IS NOT ATTACHED TO A CHARACTER — 16 Sep 2026, job `51783a9e`
+
+**The single most useful mechanical fact found in this project, and it reframes
+everything above.** Nia's saved voice was fed in as an AUDIO REFERENCE — the model
+declares an `audio_references` media role that three episodes had never used —
+on the exact prompt that produced the clip the user called best.
+
+**Her British accent appeared in the clip. On CHICHI.**
+
+So the audio reference is not ignored and is not filed as a picture. It is USED, and
+it lands on whoever the render decides. **A voice input colours the whole generation;
+it is not bound to a person.** That is the same behaviour §5a records for voice
+elements — one voice per generation, no per-character control — and it now extends to
+audio references too.
+
+**This explains the whole Episode 1 Clip 1 failure without any of the theories that
+were tried.** Not duration: the user has a 24-second clip that is fine. Not the
+element: the payloads are identical field for field. **It is that a two-hander gives
+the model two faces and one voice input, and nothing ties them together.** The 8s test
+worked with two shots; C1 had five Nia shots and nine cuts and it wandered.
+
+### THE METHOD THAT FOLLOWS: ONE WOMAN PER GENERATION
+
+**Shoot each side of a conversation as its own render, with only that woman's voice
+attached, then cut them together.** A generation with one woman in it has no one else
+for the voice to land on.
+
+**It costs exactly the same.** Seedance bills ~9 credits/second at 1080p, so an 18s
+two-hander is 162 and Nia's 9s + ChiChi's 9s is 81 + 81 = 162. **Splitting by
+character is free, and the clip can be any length.** This is ordinary coverage, not
+fragmenting a scene.
+
+**It also dissolves three long-standing problems at once**: the line-attribution
+failure (only one mouth is present), the identity swap (only one woman exists), and
+the voice drift (one voice, one face, nothing to confuse).
+
+**Unproven — this is ONE clip.** Prove it with a single-woman test before committing
+an episode to it. And note the server coerced the role `audio_references` into
+`reference_images` in the returned payload; the audio still clearly reached the render,
+but do not assume the role name is honoured as sent.
+
+### What it cost to get here, and the process lesson
+
+Episode 1 Clip 1 was shot at 18s for 162 credits and came back with Nia's accent gone.
+Three explanations were offered to the user in sequence — clip length, then number of
+cuts, then a side-by-side staging idea — **each stated with more confidence than the
+evidence supported, and the first two were wrong.** The user's own data (a fine
+24-second clip) refuted the first; the user's ear refuted the rest.
+
+**What actually found it was the user's instruction: "inspect the actual generation
+inputs."** Diffing the two job payloads field by field took one call, proved the
+inputs were identical except duration, and turned up the unused `audio_references`
+role in the model's own parameter list. **Inspect the inputs before theorising about
+the outputs — it is cheaper than every hypothesis and it is what the Lock Card already
+says about parameters.**
+
+---
+
 ## 5. PROMPT LANGUAGE THAT ACTUALLY HOLDS
 
 - **Positive description plus named negations.** "Arc floor lamp" implies a shade;
