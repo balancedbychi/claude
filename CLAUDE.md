@@ -257,6 +257,28 @@ limit existed. **Appearance blocks are the easiest place to bloat: when somethin
 must be added, DELETE something else rather than growing past it.** Put the
 dialogue block at the very top.
 
+### BEFORE YOU SUBMIT — run this list and say each result out loud
+
+| # | check | why |
+|---|---|---|
+| 1 | `bitrate_mode: "high"` **is in the params** | explicitly; never rely on the default |
+| 2 | **no `quality` field is present** | it displaces the default and drops the bitrate silently |
+| 3 | **no `start_image`** | unless the shot genuinely cannot carry its entry state in prose |
+| 4 | **both voice tags present for whoever speaks** | Nia `12315c68` · ChiChi — ⚠️ **see the conflict below** |
+| 5 | **ChiChi's block order intact** | character → skin → age → hair → VOICE → wardrobe → jewellery |
+| 6 | **prompt is at or under 19,554 characters** | dialogue block at the very top |
+| 7 | **prose checked against the last approved frame** | wardrobe, jewellery, cup levels, props on the table |
+| 8 | **whole prompt read start to finish** | grep every number and every negation you changed |
+
+> ⚠️ **ITEM 4 IS UNRESOLVED AND MUST NOT BE GUESSED.** The source checklist names
+> ChiChi's voice tag as **`de50f37f`**. Section 5a says the opposite in terms:
+> every approved take carries **`180fdb9a`**, and *"Do not swap `de50f37f` into a
+> seedance prompt expecting it to be honoured — it will not be, and swapping it
+> changes the recipe."* Chi's voice is a recipe rather than a stored asset, so
+> changed inputs are exactly how it gets lost, and there is no way back if it
+> does. **Until the user rules on it, use `180fdb9a` — the value that produced
+> every approved take — and raise the conflict rather than resolving it.**
+
 ---
 
 ## 3. THE CONTINUITY LEDGER
