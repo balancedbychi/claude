@@ -554,18 +554,29 @@ These are series-wide, not per-episode, and belong in every prompt she appears i
 
 ### Nia's figure — ruled by the user, 16 Sep 2026, off the N1 8-second test
 
-**"Nia is a bit more slimmer at the waist with a slightly fuller chest."** The
-user's words, on test `c9976b46`. Her figure is now a permanent physical fact and
-goes in every prompt she appears in: **slim and narrow at the waist, with a
-slightly fuller chest above it**, in natural proportion on a healthy, toned
-thirty-year-old frame. Negate both directions by name — never thick, straight or
-undefined through the middle, never boxy, never a wide waist, never heavy-set,
-never full-figured; and never gaunt, skeletal, flat-chested or cartoonishly
-proportioned.
+**"Nia is a bit more slimmer at the waist with a slightly fuller chest."** Then,
+on the same day: **"Nia does have wider hips."** The user's words, on test
+`c9976b46`. **Nia is an HOURGLASS**, and that is now a permanent physical fact in
+every prompt she appears in: **slim and narrow at the waist, a slightly fuller
+chest above it, and WIDE full hips below it** — the waist noticeably narrower than
+both, the curve in and back out being the shape itself, all in natural proportion
+on a healthy, toned thirty-year-old woman.
 
-**The two women must never converge.** ChiChi is full-figured, Nia is slim-waisted,
-and a prompt that describes one and not the other lets the model average them. Say
-in Nia's block that she is NOT built like ChiChi.
+**Negate BOTH directions, and mind which words cut against which.** Never straight
+up and down, never thick or undefined through the middle, never boxy, never a wide
+or heavy waist — and equally never narrow, flat, straight or boyish through the
+hips. Never gaunt, skeletal, flat-chested or cartoonish.
+
+**⚠️ "never full-figured" is NOT a safe negation for Nia and was removed.** It was
+in the first draft of this block, reaching for the waist — and *full-figured* is a
+whole-body term, so it pulls against the hips in the same breath as asking for
+them. **A negation aimed at one part of a body lands on all of it.** The contrast
+with ChiChi has to be stated as a contrast, not as a negation: **ChiChi is
+full-figured all through, Nia is an hourglass.**
+
+**The two women must never converge.** A prompt that describes one figure and not
+the other lets the model average them. Say in Nia's block that she is NOT built
+like ChiChi.
 
 **Why this re-rolled for three episodes: she never had a figure spec and ChiChi
 did.** ChiChi's element carries "realistic full-figured proportions" and every

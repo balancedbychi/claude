@@ -295,13 +295,16 @@ and C6** — the prologue flagged its absence specifically.
   is not.)
   **CONFIRMED CORRECT on the 8s test `c9976b46`** — the user's note: *"The white
   dress read right."* Per section 5 the wardrobe wording is not to be reworded.
-- **Nia's figure goes in every prompt — SLIM AND NARROW AT THE WAIST, WITH A
-  SLIGHTLY FULLER CHEST above it**, on a healthy toned thirty-year-old frame.
-  The user's ruling off the same test: *"Nia is a bit more slimmer at the waist
-  with a slightly fuller chest."* Negate both directions by name, and say she is
-  NOT built like ChiChi so the two figures cannot average. Her element `bcd528d3`
-  says only "natural body proportions" and is **write-once**, so this lives in
-  the prompt, alongside her tag. See CLAUDE.md §3.
+- **Nia's figure goes in every prompt — she is an HOURGLASS. SLIM AND NARROW AT
+  THE WAIST, a SLIGHTLY FULLER CHEST above it, WIDE FULL HIPS below it**, on a
+  healthy toned thirty-year-old frame. The user's ruling off the same test:
+  *"Nia is a bit more slimmer at the waist with a slightly fuller chest"* and
+  *"Nia does have wider hips."* Negate both directions by name — but **never
+  "full-figured"**, which is a whole-body word and cuts the hips while aiming at
+  the waist. State the ChiChi contrast as a contrast: ChiChi is full-figured all
+  through, Nia is an hourglass. Her element `bcd528d3` says only "natural body
+  proportions" and is **write-once**, so this lives in the prompt, alongside her
+  tag. See CLAUDE.md §3.
 - **Chi's LEFT HAND stays out of frame** in every clip she is in, framed out, not
   negated. The ring prior beat the strongest negation in the file twice, including
   on this episode's own 8s test. The `.claude/hooks/` guard now blocks a
