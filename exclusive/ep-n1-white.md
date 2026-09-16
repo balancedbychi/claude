@@ -361,6 +361,62 @@ action, never the container alone.
 ## ELEMENT REGISTRY — this episode
 *(IDs written here the turn they exist; an element is not locked until it is in this table)*
 
+**Filled in 16 Sep 2026 by querying the workspace.** The table was empty while every
+element in it already existed — the same loss section 8 describes, and the reason a
+session asked whether `ChiChi-Living-Room` was locked when it had been locked for
+days. **Nothing here needs creating. This episode is not blocked on assets.**
+
+### Sets — all locked, all approved
+
+| Element | ID | Clips |
+|---|---|---|
+| `Nia-Bedroom-Sunset` | `29de5608-70b2-4f65-b530-f508dabbbd46` | C1 — Nia's side, sunset |
+| `ChiChi-Living-Room` | `e032db53-f468-4c24-b667-400c9cd0a0bf` | C1 — Chi's side, **sunset, the right one** |
+| `Dorian-Loft-Window-Night` | `0707edcb-9dbb-46d2-931c-0c865fac7941` | C2, C5 |
+| `Dorian-Kitchen-Night` | `de2063f2-acee-4300-9669-b1f17bff850f` | C3 |
+| `Dorian-Hallway-Night` | `6acd0d74-4da4-4aa4-bad6-4505bf5f26b2` | C4 (from inside), C6 |
+| `Dorian-Lift-Lobby-Night` | `8c54db0d-e65b-4514-9947-7cdccbe2e0c3` | C6 — lift doors, framed close, same corridor |
+
+### Characters and wardrobe
+
 | Element | ID | Supplies |
 |---|---|---|
-| | | |
+| `Nia` | `bcd528d3-9756-4190-ba80-4aaae881f2b2` | face, identity |
+| `ChiChi-the-Influencer` | `8a8e8eeb-d41e-4d91-b245-fa0caa8801b6` | face, identity |
+| `Dorian-Series-Look` | `51c0cbaa-2fbe-4918-bb91-a29307caca09` | C2 |
+| `Kel-The-Cousin` | `3ad69411-e32c-44bd-b797-a93ec0d4b52c` | C3, C6 |
+| `Simone-Series-Look` | `59989697-7111-457c-9116-d83c4ae9eb3e` | C4, C5 — ⚠️ **description is EMPTY**, section 2 requires the spec in the element |
+| `Nia-White-Dress-Ep1` | `91da557d-8353-4d90-90c5-72333ff5c713` | clean C1, C2, C4, C5; stained C6 |
+| `ChiChi-Ep1-Look` | `f2c3a3c5-3269-420e-a07d-69723410a094` | C1, C3, C5, C6 |
+| `Simone-Party-Look-v2` | `12a23175-ff6c-44dd-ab98-b21d1ee9609e` | C4, C5 |
+
+**Voices, per the Lock Card:** Nia `12315c68-37de-41fe-8766-76ac07bcaf70`,
+ChiChi `de50f37f-82fa-4a70-bdca-52355b2f4ca2`. A third element,
+`Nia-Canon-Voice-v2` `b3d2fc9b`, exists and sorts before both — **do not attach it.**
+
+### ⚠️ RETIRED — present in the workspace, never use in this episode
+
+| Element | ID | Why |
+|---|---|---|
+| `Simone-Party-Look` | `4ac1be87-69c4-4165-9cd2-6e5874fb1606` | duplicate of `-v2`, four minutes older, byte-identical description |
+| `Dorian` | `5deb4ada-665f-4894-8d16-2a9f34c0248f` | duplicate of `Dorian-Series-Look` |
+| `ChiChi-Living-Room-Night` | `77870e42-dff9-454b-b394-40ac0b07c1fe` | the NIGHT version. **C1 is sunset** — taking this one silently changes the hour |
+
+---
+
+## ⚠️ ONE THING THE ELEMENTS DISAGREE ABOUT: CHI'S HAIR COLOUR
+
+**Unresolved, and it affects every clip Chi is in.**
+
+`ChiChi-Series-Look` `bc1bd310` says: *"THIS IS HER CURRENT LOCKED SERIES LOOK and
+supersedes the older honey-blonde ChiChi elements... rich dark brown, almost black...
+NOT blonde, NOT honey-blonde."*
+
+**But CLAUDE.md §5a's pinned block — the one that must be pasted byte-identical and
+never reworded — says "honey-blonde shoulder-length layered blowout with darker
+roots."** That block is what Episode 2 shipped with.
+
+So the series look says dark brown and the pinned recipe says honey-blonde, and both
+claim authority. **This must be settled by the user before C1**, because §3's
+appearance rule makes hair colour the single most visible continuity fact and §5
+forbids rewording the pinned block on an agent's own judgement.
