@@ -6,22 +6,10 @@
 
 ---
 
-## READ THIS FIRST — THIS IS NOT `ep-eleven-days.md`
+## SCOPE
 
-There are two things called "Episode 1" and confusing them wastes a session.
-
-| | `ep-eleven-days.md` | **this file** |
-|---|---|---|
-| what it is | an earlier, delivered piece — intercut phone call | **the Episode 1 being made now** |
-| Nia wears | olive halter crop top + army-green trousers | **a WHITE DRESS** |
-| cast | Nia, ChiChi | Nia, ChiChi, **Simone** |
-| resolution | 480p | not yet decided — decide before Clip 1 |
-| footage | 6 shots delivered | **none** |
-
-`ep-eleven-days.md` stays as the record of what it is. **It is not this episode
-and must not be read as the plan for it.**
-
----
+**This is the current episode. The earlier pieces in this folder are not part of
+it** and should not be read as its plan, its cast, its look or its resolution.
 
 ## HOW THIS FILE CAME TO EXIST
 
@@ -95,5 +83,5 @@ there is a door, an arrival, and a coat-off state that never reverts.
    section 2, steps 1 to 5.
 4. **Resolution is not decided.** Section 7: pick it before Clip 1; it is the only
    free moment.
-5. **Was the Appearance Lock's Episode 3 the café episode below, or this?** The
-   user supplied that reference "for production appearance."
+5. **The Appearance Lock reference is production notes** — the look standard this
+   episode is built to. It is merged into CLAUDE.md 2b.
