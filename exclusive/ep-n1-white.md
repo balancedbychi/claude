@@ -304,6 +304,12 @@ and C6** — the prologue flagged its absence specifically.
   ChiChi's own, so it cuts the hips and the other character at once. Both elements
   are **write-once**, so this lives in the prompts: Nia's beside her tag, ChiChi's
   AFTER her ring block so §5a's seven pinned blocks keep their order. See CLAUDE.md §3.
+- **⚠️ FRAMING COVERS C1–C4 ONLY. C5 AND C6 NEED HER HAND IN SHOT** — "Chi's hand
+  on her arm" in both, and her clutch in the other hand at the C5→C6 seam. The
+  out-of-frame mitigation is unavailable there, so those two clips are where the
+  ring prior is exposed. The post fix is `hf_mult_replace_object` (Genjutsu) at
+  **81 credits for an ~8s source**, untested; C5 is 25s and C6 is 10s, so price
+  them once the clips exist. Decide before C5 is shot, not after.
 - **Chi's LEFT HAND stays out of frame** in every clip she is in, framed out, not
   negated. The ring prior beat the strongest negation in the file twice, including
   on this episode's own 8s test. The `.claude/hooks/` guard now blocks a

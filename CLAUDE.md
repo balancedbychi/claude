@@ -531,7 +531,21 @@ These are series-wide, not per-episode, and belong in every prompt she appears i
   >
   > **Until it is diagnosed, the cheap mitigation is framing:** give her left hand a
   > job that conceals the fourth finger, or keep that hand out of frame. Section 3
-  > already says hands must have a job — this is that rule paying for itself. This is not only continuity: she
+  > already says hands must have a job — this is that rule paying for itself.
+  >
+  > **AND THE RING CAN BE ERASED AFTER THE FACT — `hf_mult_replace_object`
+  > (Genjutsu), 81 CREDITS, preflighted 16 Sep 2026.** It routes through
+  > `generate_video` and runs on a FINISHED clip, so like `voice_change` it cannot
+  > re-roll picture, wardrobe, faces or voices — the thing that makes a re-shoot
+  > so expensive. Two mechanics worth knowing before you call it: `get_cost`
+  > **requires a source clip** (`medias: [{value: <job_id>, role: "video"}]`) and
+  > returns 422 without one, and the role auto-coerces to `video_references`.
+  > **It priced an 8s and an 18s request identically at 81**, so it bills off the
+  > SOURCE clip's own length, not the `duration` parameter — 81 is the figure for
+  > an ~8s source and a longer clip cannot be preflighted until it exists.
+  > **Untested on this series.** Framing costs nothing and should be used wherever
+  > the staging allows it; keep the 81 for a shot that genuinely needs her hand in
+  > frame. This is not only continuity: she
   wants a child and has no partner, and that is the ache the whole character sits
   on. A wedding ring on ChiChi contradicts the show.
   **This one is a CHARACTER FACT and it does not relax.** Distinguish it from the
