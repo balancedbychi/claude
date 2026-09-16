@@ -392,15 +392,15 @@ action, never the container alone.
 | `c9976b46` 8s, 72cr | first element test | white dress ✅ · ring on Chi ❌ · figure ❌ · sharpness 32.5, uneven |
 | `fc39a8ab` 8s, 72cr | the figure blocks + wider framing | 8.05s · 1920x1080 · 10.2 Mbps · 20/20 words verbatim · 3/3 cuts at 1.75 / 2.75 / 5.25s |
 
-| `c52c4a30` 8s, 72cr | room anchoring at every cut | ❌ **FAILED** — swap unchanged, voices converged 65→43 Hz, every shot softer. Reverted out of C1. See CLAUDE.md §7 |
+| `c52c4a30` 8s, 72cr | room anchoring at every cut | ✅ **THE BEST CLIP** — the user's ruling. Anchoring is IN C1. See CLAUDE.md §7 |
 
-**`c52c4a30` — what it settles.** The identity swap is NOT a prompt-wording problem.
-Naming the room at every cut, with a rule binding each woman to one location, changed
-nothing about which woman the camera held and cost quality everywhere else. The next
-idea has to be structural, not verbal: **shoot each woman as her own single-woman clip
-and cut them together**, so there is no second identity in the generation to swap with.
-Two 4s clips cost the same as one 8s, and a clip with one woman in it cannot mis-assign
-her.
+**`c52c4a30` — and the lesson that came with it.** Every measurement said this clip
+was worse than `fc39a8ab`: all four shots less sharp, the two voices converged from a
+65 Hz spread to 43, pitch still reading two lines as swapped. It was written up as a
+failure and the anchoring was reverted out of C1. **The user watched it and called it
+the best clip of the episode.** Restored. The standing rule now: **a measurement may
+flag, it may never revert** — and sharpness is a tripwire for a sudden fall inside one
+room, never a score that ranks two clips.
 
 **`fc39a8ab` — the sharpness split, and it is the open question for this episode.**
 Measured per shot rather than per clip:
