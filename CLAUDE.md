@@ -505,7 +505,32 @@ These are series-wide, not per-episode, and belong in every prompt she appears i
   was never enough: **which way it sweeps, and relative to what**, has to be
   stated or it re-rolls every take.
 - **She wears NO RING. Ever.** Not on any finger of either hand, and specifically
-  nothing on the fourth finger of her left hand. This is not only continuity: she
+  nothing on the fourth finger of her left hand.
+
+  > ### ⛔ THE RING HAS NOW BEATEN THE STRONGEST NEGATION IN THIS FILE. STOP ESCALATING WORDS.
+  >
+  > **Episode 2 and the N1 8-second test `c9976b46` both put a wedding ring on her
+  > while carrying section 5's named-object wording in full** — "NO wedding ring, NO
+  > engagement ring, NO band of any kind on any finger of either hand, and
+  > specifically NOTHING ON THE FOURTH FINGER OF HER LEFT HAND — that finger is bare
+  > skin," plus every material named and negated. **That is the maximum this file has.
+  > It failed.** Writing it harder is not a plan; this is the music-swell lesson in
+  > section 6 repeating on a different axis.
+  >
+  > **The remaining hypothesis is that the ring is IN A REFERENCE IMAGE, and an image
+  > beats text every time.** Element descriptions are not the variable — `ChiChi-
+  > Caterer-Look` carries "NO rings" and Episode 2 still produced one, while
+  > `ChiChi-Ep1-Look` `f2c3a3c5` carries no jewellery rule at all and produced one
+  > too. Same outcome with and without the rule, which points away from the text.
+  >
+  > **Check the plates before writing another prompt.** The two that supply her hands:
+  > `ChiChi-the-Influencer` `8a8e8eeb` (face/identity) and whichever wardrobe element
+  > the episode uses. If either shows a hand wearing a ring, **no wording will ever
+  > remove it** and the fix is a corrected plate, not a stronger sentence.
+  >
+  > **Until it is diagnosed, the cheap mitigation is framing:** give her left hand a
+  > job that conceals the fourth finger, or keep that hand out of frame. Section 3
+  > already says hands must have a job — this is that rule paying for itself. This is not only continuity: she
   wants a child and has no partner, and that is the ache the whole character sits
   on. A wedding ring on ChiChi contradicts the show.
   **This one is a CHARACTER FACT and it does not relax.** Distinguish it from the
