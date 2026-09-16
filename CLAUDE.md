@@ -1507,67 +1507,80 @@ order constant and both come back right; that is what the four approved clips pr
 
 ---
 
-### 🔑 A VOICE INPUT IS NOT ATTACHED TO A CHARACTER — 16 Sep 2026, job `51783a9e`
+### 🧪 AUDIO REFERENCES — ONE RESULT, NOT A WORKFLOW. 16 Sep 2026, job `51783a9e`
 
-**The single most useful mechanical fact found in this project, and it reframes
-everything above.** Nia's saved voice was fed in as an AUDIO REFERENCE — the model
-declares an `audio_references` media role that three episodes had never used —
-on the exact prompt that produced the clip the user called best.
+**`seedance_2_5` declares an `audio_references` media role that three episodes had
+never used.** Nia's saved voice was fed in as audio, on the exact prompt that produced
+the clip the user called best.
 
-**IT WORKED ON NIA — the user: "Nia has her correct voice." AND IT BLED ONTO CHICHI,
-who kept her own voice but picked up Nia's British accent with it.**
+**What happened, stated no wider than the evidence:** the user reported *"Nia has her
+correct voice"* and *"Chi's voice is the same but British"* — Nia came out right, and
+ChiChi kept her own voice while picking up Nia's accent. **One clip. One pair of
+outcomes.**
 
-So the audio reference is not ignored and is not filed as a picture. **It fixes the
-voice it is given — and it colours everyone else in the generation too.** A voice
-input is not bound to a person; it applies to the whole render. That is the same
-behaviour §5a records for voice elements — one voice per generation, no per-character
-control — and it now extends to audio references, except that unlike the element
-binding, **the audio reference demonstrably produces the right voice.** That is the
-first thing in this project that has reliably put a specific voice on a specific
-woman.
+**What that licenses:** a hypothesis worth testing — that a voice input is not bound
+to a character, so it improves the voice it is given and bleeds onto everyone else in
+the generation, and that **separating each woman's dialogue into her own generation**
+may therefore hold both voices.
 
-**This explains the whole Episode 1 Clip 1 failure without any of the theories that
-were tried.** Not duration: the user has a 24-second clip that is fine. Not the
-element: the payloads are identical field for field. **It is that a two-hander gives
-the model two faces and one voice input, and nothing ties them together.** The 8s test
-worked with two shots; C1 had five Nia shots and nine cuts and it wandered.
+**What it does NOT establish**, and an earlier version of this section claimed all
+four:
+- ❌ not that voices will be consistent — one success is one success
+- ❌ not that clip length is unrestricted
+- ❌ not that the cost is the same — separate shots change the number of generations,
+  retries and editing steps, and none of that has been measured
+- ❌ not that it "dissolves" the attribution, identity-swap or drift failures
 
-### THE METHOD THAT FOLLOWS: ONE WOMAN PER GENERATION
+**The user's correction, and it is the standard for this section: one good Nia clip
+confirms that one clip worked. Repeated successes for BOTH women establish a usable
+workflow.** Nothing here gets promoted from hypothesis to method without that.
 
-**Shoot each side of a conversation as its own render, with only that woman's voice
-attached as an audio reference, then cut them together.** The bleed stops being a
-problem the moment there is no one else in the generation to bleed onto: Nia's render
-gets Nia's voice and she is the only person in it; ChiChi's render gets ChiChi's and
-the same. **Each woman gets her correct voice and nothing contaminates the other.**
+### THE TEST PROTOCOL — run this before rebuilding any episode
 
-**It costs exactly the same.** Seedance bills ~9 credits/second at 1080p, so an 18s
-two-hander is 162 and Nia's 9s + ChiChi's 9s is 81 + 81 = 162. **Splitting by
-character is free, and the clip can be any length.** This is ordinary coverage, not
-fragmenting a scene.
+The user's workflow, 16 Sep 2026. Do not skip to step 4.
 
-**It also dissolves three long-standing problems at once**: the line-attribution
-failure (only one mouth is present), the identity swap (only one woman exists), and
-the voice drift (one voice, one face, nothing to confuse).
+1. **Build a clean reference for each woman.** Only her voice, the intended accent,
+   natural delivery. No music, no second speaker, no room tone from a scene.
+2. **Two short tests per woman, on DIFFERENT lines.** Hold the seedance version, every
+   setting and her reference constant across all four. **Include a line where the
+   accent difference is easy to hear.**
+3. **One visible speaking character per test, with only her audio reference attached.**
+   Check four things, not one: voice identity, accent, pacing, lip-sync.
+4. **Only if both women hold across those tests**, build dialogue scenes from
+   individual shots, reaction shots and cuts between speakers.
+5. **Keep the approved audio files.** If a later visual revision changes a voice,
+   restore the approved dialogue track rather than re-rolling the voice, and use a
+   separate lip-sync step where one is needed.
 
-**Unproven — this is ONE clip.** Prove it with a single-woman test before committing
-an episode to it. And note the server coerced the role `audio_references` into
-`reference_images` in the returned payload; the audio still clearly reached the render,
-but do not assume the role name is honoured as sent.
+**For scenes where both women must speak on screen together**, the controlled approach
+is the same: create and approve each woman's dialogue separately, then assemble the
+scene around those recordings.
+
+**One mechanical note for whoever runs this:** the server coerced the role
+`audio_references` into `reference_images` in the returned payload. The audio clearly
+reached the render, but do not assume the role name is honoured as sent — check the
+payload.
 
 ### What it cost to get here, and the process lesson
 
 Episode 1 Clip 1 was shot at 18s for 162 credits and came back with Nia's accent gone.
-Three explanations were offered to the user in sequence — clip length, then number of
-cuts, then a side-by-side staging idea — **each stated with more confidence than the
-evidence supported, and the first two were wrong.** The user's own data (a fine
-24-second clip) refuted the first; the user's ear refuted the rest.
+Three explanations were offered in sequence — clip length, then number of cuts, then a
+side-by-side staging idea — **each stated with more confidence than the evidence
+supported, and the first two were wrong.** The user's own data (a fine 24-second clip)
+refuted the first; the user's ear refuted the rest. Then the audio-reference result was
+written up as a settled mechanism and a costed method **off a single clip**, and the
+user had to correct that too.
 
-**What actually found it was the user's instruction: "inspect the actual generation
-inputs."** Diffing the two job payloads field by field took one call, proved the
-inputs were identical except duration, and turned up the unused `audio_references`
-role in the model's own parameter list. **Inspect the inputs before theorising about
-the outputs — it is cheaper than every hypothesis and it is what the Lock Card already
-says about parameters.**
+**Two rules come out of it.**
+
+**Inspect the inputs before theorising about the outputs.** Diffing the two job
+payloads field by field took one call, proved the inputs were identical except
+duration, and surfaced the unused `audio_references` role. That is what found it — not
+any of the three theories.
+
+**And count the evidence before naming a finding.** One clip is an observation. A
+repeated result across both characters and different lines is a finding. **Write the
+smaller claim.**
 
 ---
 
