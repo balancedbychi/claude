@@ -404,19 +404,21 @@ ChiChi `de50f37f-82fa-4a70-bdca-52355b2f4ca2`. A third element,
 
 ---
 
-## ⚠️ ONE THING THE ELEMENTS DISAGREE ABOUT: CHI'S HAIR COLOUR
+## CHI'S HAIR IS HONEY-BLONDE — SETTLED BY THE USER, 16 SEP 2026
 
-**Unresolved, and it affects every clip Chi is in.**
+**Honey-blonde shoulder-length layered blowout with darker roots**, exactly as
+CLAUDE.md §5a's pinned block has always said. That block is what Episodes 1, 2 and
+3 shipped on and it stays byte-identical.
 
-`ChiChi-Series-Look` `bc1bd310` says: *"THIS IS HER CURRENT LOCKED SERIES LOOK and
-supersedes the older honey-blonde ChiChi elements... rich dark brown, almost black...
-NOT blonde, NOT honey-blonde."*
+**The rich-dark-brown series look is RETIRED.** `ChiChi-Series-Look` `bc1bd310`
+claims in its own description to be "her current locked series look" and to
+supersede the honey-blonde elements. **It does not and never did.** It cannot be
+edited or deleted from the workspace, so it stays there as a trap — which is why
+it is named here.
 
-**But CLAUDE.md §5a's pinned block — the one that must be pasted byte-identical and
-never reworded — says "honey-blonde shoulder-length layered blowout with darker
-roots."** That block is what Episode 2 shipped with.
+| ⛔ DO NOT USE | ID | Why it looks legitimate |
+|---|---|---|
+| `ChiChi-Series-Look` | `bc1bd310-582b-4694-abde-1fb72f0de1f8` | calls itself the current locked series look, in its own element text |
 
-So the series look says dark brown and the pinned recipe says honey-blonde, and both
-claim authority. **This must be settled by the user before C1**, because §3's
-appearance rule makes hair colour the single most visible continuity fact and §5
-forbids rewording the pinned block on an agent's own judgement.
+**Chi's face and hair come from `ChiChi-the-Influencer` `8a8e8eeb` plus the pinned
+§5a block. Nothing else.**

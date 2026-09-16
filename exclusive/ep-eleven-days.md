@@ -15,9 +15,9 @@
 
 **CHICHI — 40.** Warm brown complexion, almond dark eyes, full brows, cheek beauty mark, stud earrings, full-figured. Warm, smooth, mid-to-low General American. Calm authority, dry as a bone.
 
-*SERIES LOOK — locked, applies to every episode from here:* rich dark brown, almost black, shoulder-length layered blowout — soft volume, bouncy outward-curled ends, deep side part, falling just below the shoulders. Not blonde. Oversized heather-oatmeal crewneck sweatshirt in heavyweight fleece, dropped shoulders, long loose sleeves, PILATES across the chest in navy collegiate block letters outlined in white; fitted chocolate-brown leggings. Barefoot. Stud earrings only, no necklace.
+*SERIES LOOK — ⛔ **SUPERSEDED 16 SEP 2026, DO NOT APPLY THIS TO ANY EPISODE.** The line below described a rich-dark-brown look and claimed to apply series-wide. **The user has ruled: Chi is HONEY-BLONDE**, per CLAUDE.md §5a's pinned block. Kept only as the record of what this one episode was shot against.* *SERIES LOOK — locked, applies to every episode from here:* rich dark brown, almost black, shoulder-length layered blowout — soft volume, bouncy outward-curled ends, deep side part, falling just below the shoulders. Not blonde. Oversized heather-oatmeal crewneck sweatshirt in heavyweight fleece, dropped shoulders, long loose sleeves, PILATES across the chest in navy collegiate block letters outlined in white; fitted chocolate-brown leggings. Barefoot. Stud earrings only, no necklace.
 
-*Note:* hair may vary between episodes — the rest of this look is the constant. This supersedes the honey-blonde blowout and the olive-bronze maxi dress; those are retired for ChiChi.
+*Note:* ⛔ the sentence below claimed this look supersedes the honey-blonde blowout. **That is reversed — honey-blonde is canon.** *Note:* hair may vary between episodes — the rest of this look is the constant. This supersedes the honey-blonde blowout and the olive-bronze maxi dress; those are retired for ChiChi.
 
 ---
 
