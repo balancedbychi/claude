@@ -167,6 +167,98 @@ to resize and recolour — a title change then never costs a re-render.
 
 ---
 
+## 2b. THE APPEARANCE LOCK — WHY THEY READ AS THE SAME TWO REAL PEOPLE
+
+**Source: the user's "Appearance Lock" reference, measured on delivered Episode 3
+footage.** Those figures were not re-measured here — Episode 3 is not in this
+repo — so they are recorded with their provenance. **None of this is achieved by
+asking for "realistic."**
+
+### The render path decides most of it
+
+Sharpness measured as **variance of Laplacian over 10 frames, normalised to
+1920x1080 greyscale**:
+
+| render path | sharpness |
+|---|---|
+| **text-to-video, no start frame** | **50 – 67** |
+| seeded from the previous clip's last frame | 24 – 29 |
+
+**More than double the fine detail purely from not seeding**, on the same prompt,
+same elements, same faces. Approved Episode 2 Clip 2 benchmarks at **47.5**. Below
+about **30** an audience reads mush and faces stop holding up on a television.
+
+**A seeded chain compounds** — every generation inherits the losses of the one
+before it, and nobody catches it by eye until it is several generations deep.
+Write the entry state into PROSE (section 4a) instead of feeding the last frame.
+
+### The parameters, passed explicitly every time
+
+| parameter | value | why |
+|---|---|---|
+| `bitrate_mode` | `"high"` | pass it explicitly, never rely on the default |
+| `quality` | **DO NOT SEND IT** | it displaces the default and **silently drops the bitrate** |
+| `resolution` | `"1080p"` | no wording recovers a missing pixel count |
+| `start_image` | none | see the table above |
+
+**Measure sharpness after every clip and say the number out loud, the same as a
+credit cost.**
+
+### The block order is part of the recipe and does not move
+
+`character -> skin -> age -> hair -> VOICE -> wardrobe -> jewellery`
+
+**Identity lives in the element, never in the description.** Never write a face
+description INSTEAD of the tag — write it ALONGSIDE the tag, in that order.
+
+### Stating her age is what invites the age markers, so negate them BY NAME
+
+This is section 5's "name the exact wrong answer" applied to the thing an audience
+judges first. **NO** wrinkles · **NO** fine lines · **NO** crow's feet · **NO**
+forehead lines · **NO** nasolabial creases · **NO** sagging · **NO** crepey or
+papery texture · **NO** age spots · **NO** dullness · **NO** sallowness · **NO**
+under-eye shadows · **NO** hollowing.
+
+**Her age reads in her composure, never in her skin.**
+
+### Photograph the moment, do not describe a person
+
+Reverse-engineered from the Episode 2 drink frame. Five things, none of which is
+the word "photorealistic":
+
+1. **Movement** — she is MID-ACTION, caught, not posed. An interrupted movement is
+   the strongest beat available to a still character and to a still image alike.
+2. **Hands** — both have a job. Idle unspecified hands are where anatomy errors
+   appear.
+3. **Light** — a named DIRECTION and a FALLOFF. "Well lit" produces flat
+   television; "warm key from one side, the wall going down into shadow behind
+   her" produces a photograph.
+4. **Materials** — named one by one. Leather with sheen and creases at the elbow,
+   glitter on the clutch, amber liquid refracting through heavy glass. **A
+   material named is a material rendered.**
+5. **Depth** — shallow, and STATED. If it is not written it does not happen.
+
+### Audit the prose against approved frames
+
+**Prose written blind drifts**, and a description that disagrees with approved
+footage pulls the next take away from the look already won. The prompt said
+ChiChi wears "a FINE GOLD CHAIN, delicate and simple"; the approved footage shows
+a **BOLD CHUNKY GOLD LINK CHAIN**, and nobody caught it until a frame was
+supplied. **Every time a frame is approved, read the prompt back against it and
+correct what does not match** — wardrobe, jewellery, cup levels, props on the
+table.
+
+### There is a character ceiling and prompts here run close to it
+
+**19,554 characters is the proven ceiling. At 19,940 a two-word line stopped
+rendering altogether.** Episode 2 shipped Clip 5 at 19,079 and Clip 6 at 19,064 —
+inside the limit with under 500 characters of headroom, and with nobody aware a
+limit existed. **Appearance blocks are the easiest place to bloat: when something
+must be added, DELETE something else rather than growing past it.** Put the
+dialogue block at the very top.
+
+---
+
 ## 3. THE CONTINUITY LEDGER
 
 Every recurring character needs all nine of these locked, in the element
@@ -821,6 +913,11 @@ nothing. Shortening the clip does, because the slack disappears.
       (CHEE) and the transcript says **"Gee."** When the nearest match to the sound
       is not the intended word at all, something is off. It still needs the user's
       ear to settle; it is a reason to ask, not a verdict.
+    - **Sharpness is measurable too, and it is the one visual fact that does not
+      need the user's eyes.** Variance of Laplacian over 10 frames, normalised to
+      1920x1080 greyscale. Section 2b has the scale: **50-67 for text-to-video,
+      24-29 for a seeded clip, 47.5 on approved Episode 2 Clip 2, mush below 30.**
+      Run it on every delivered clip and quote the number.
     - **Within one clip, LTAS is valid; across clips it is not.** The room is the
       dominant term in a spectral signature, so comparing a line to a sample from
       another set is unreliable. Comparing the four lines of a single clip to each
