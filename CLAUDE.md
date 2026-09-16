@@ -1716,6 +1716,25 @@ nothing. Shortening the clip does, because the slack disappears.
       1920x1080 greyscale. Section 2b has the scale: **50-67 for text-to-video,
       24-29 for a seeded clip, 47.5 on approved Episode 2 Clip 2, mush below 30.**
       Run it on every delivered clip and quote the number.
+    - **SHARPNESS IS ROOM-DEPENDENT, SO ONE NUMBER FOR A WHOLE CLIP CAN HIDE HALF
+      OF IT. Measure PER SHOT, split on the cuts.** The N1 test `fc39a8ab` reads
+      **29.8 overall** — right on section 2b's mush threshold, and a number that
+      says nothing useful. Split on its three measured cuts it is two clean bands:
+      **Nia's two shots 16.7 and 18.5, ChiChi's two 46.7 and 45.9.** Same clip,
+      same encode, same `bitrate_mode: high`, 10.2 Mbps, one submission. Each
+      band is FLAT across its own shot (Nia 14.9–19.2), which rules out motion
+      blur — a kinetic subject gives a spread, not a line.
+      **But the rooms are not comparable, and that is the caveat.** Variance of
+      Laplacian measures scene detail, not focus alone: Nia's bedroom is linen,
+      plaster and soft light, ChiChi's is marble, glass and a city skyline. A
+      64-pixel tile analysis narrows it without settling it — Nia's MEDIAN tile
+      reads 7.3 against ChiChi's ~21, and her single SHARPEST tile 370 against
+      466–686 — so even her most detailed patch resolves less, which a bare
+      content difference does not fully explain.
+      **This is section 7's own rule about LTAS, one axis over: the room is the
+      dominant term.** Compare a shot to the SAME ROOM in another take, never to
+      a different set, and never quote a clip average across two locations.
+      Whether Nia's shots are genuinely soft is the user's eyes, not the number.
     - **Within one clip, LTAS is valid; across clips it is not.** The room is the
       dominant term in a spectral signature, so comparing a line to a sample from
       another set is unreliable. Comparing the four lines of a single clip to each

@@ -379,6 +379,31 @@ action, never the container alone.
 | **Chi's look** `f2c3a3c5` | ✅ LOCKED — shot on the 8s test |
 | **Simone's voice** | ⚠️ PROSE RECIPE + reference audio sample |
 
+## TESTS SHOT
+
+| Job | What it was for | Result |
+|---|---|---|
+| `c9976b46` 8s, 72cr | first element test | white dress ✅ · ring on Chi ❌ · figure ❌ · sharpness 32.5, uneven |
+| `fc39a8ab` 8s, 72cr | the figure blocks + wider framing | 8.05s · 1920x1080 · 10.2 Mbps · 20/20 words verbatim · 3/3 cuts at 1.75 / 2.75 / 5.25s |
+
+**`fc39a8ab` — the sharpness split, and it is the open question for this episode.**
+Measured per shot rather than per clip:
+
+| shot | who | sharpness |
+|---|---|---|
+| 1 · 0.05–1.70s | NIA — her bedroom | **16.7** (14.9–17.8) |
+| 2 · 1.80–2.70s | CHICHI — her living room | **46.7** |
+| 3 · 2.80–5.20s | NIA — her bedroom | **18.5** (17.6–19.2) |
+| 4 · 5.30–8.00s | CHICHI — her living room | **45.9** (41.8–47.9) |
+
+ChiChi sits right on approved Ep2 Clip 2 (47.5). Nia sits at roughly a third of
+that, below section 2b's mush threshold of 30. Each band is flat inside its own
+shot, so it is **not motion blur** despite Nia being the kinetic one. Tiles: her
+median 64px tile reads 7.3 against ChiChi's ~21, her sharpest 370 against 466–686.
+**Caveat: her room is linen and plaster, ChiChi's is marble and skyline, and the
+measure counts detail, not focus.** Needs the user's eyes — see CLAUDE.md §7.
+**Five of C1's ten shots are Nia, so this is worth settling before 162 credits.**
+
 ## ELEMENT REGISTRY — this episode
 *(IDs written here the turn they exist; an element is not locked until it is in this table)*
 
