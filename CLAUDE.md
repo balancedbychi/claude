@@ -264,20 +264,16 @@ dialogue block at the very top.
 | 1 | `bitrate_mode: "high"` **is in the params** | explicitly; never rely on the default |
 | 2 | **no `quality` field is present** | it displaces the default and drops the bitrate silently |
 | 3 | **no `start_image`** | unless the shot genuinely cannot carry its entry state in prose |
-| 4 | **both voice tags present for whoever speaks** | Nia `12315c68` · ChiChi — ⚠️ **see the conflict below** |
+| 4 | **both voice tags present for whoever speaks** | Nia `12315c68` · ChiChi `de50f37f` |
 | 5 | **ChiChi's block order intact** | character → skin → age → hair → VOICE → wardrobe → jewellery |
 | 6 | **prompt is at or under 19,554 characters** | dialogue block at the very top |
 | 7 | **prose checked against the last approved frame** | wardrobe, jewellery, cup levels, props on the table |
 | 8 | **whole prompt read start to finish** | grep every number and every negation you changed |
 
-> ⚠️ **ITEM 4 IS UNRESOLVED AND MUST NOT BE GUESSED.** The source checklist names
-> ChiChi's voice tag as **`de50f37f`**. Section 5a says the opposite in terms:
-> every approved take carries **`180fdb9a`**, and *"Do not swap `de50f37f` into a
-> seedance prompt expecting it to be honoured — it will not be, and swapping it
-> changes the recipe."* Chi's voice is a recipe rather than a stored asset, so
-> changed inputs are exactly how it gets lost, and there is no way back if it
-> does. **Until the user rules on it, use `180fdb9a` — the value that produced
-> every approved take — and raise the conflict rather than resolving it.**
+> **ITEM 4 WAS SETTLED BY THE USER ON 16 SEP 2026: use `de50f37f`.** It had been
+> `180fdb9a` for Episodes 1 and 2, and section 5a previously forbade the swap. The
+> ruling supersedes that; 5a now carries the reasoning and the history. **The prose
+> around the tag is unchanged and still must not be reworded.**
 
 ---
 
@@ -614,21 +610,38 @@ never a bob, lob or cropped cut.
 ```
 
 ```
-ChiChi's English dialogue uses <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>>, her
+ChiChi's English dialogue uses <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>, her
 saved warm, smooth, mid-to-low General American voice with calm authority and dry
 humour — never a substitute voice, never a British accent, never swapped with
 Nia's.
 ```
 
-### Why the element reference stays in, even though it is not what you hear
+> **THE ELEMENT ID IN THAT BLOCK CHANGED ON 16 SEP 2026, BY THE USER'S RULING.**
+> It was `180fdb9a` for Episodes 1 and 2 and is **`de50f37f`** — the canon capture
+> — from here. Everything else in the block is byte-identical and still must not
+> be reworded. The rest of this section has been corrected to match; where it now
+> reads differently from a memory of it, the ruling is why.
 
-`180fdb9a` is her cloned voice element. The model does **not** honour it — it
-binds only one voice element per generation, and Nia's wins. The voice you hear
-is synthesized from the surrounding description instead.
+### Which element goes in the block, and the history behind it
 
-Leave the reference in anyway. It was present in every approved take, so it is
-part of the recipe. Removing it changes the inputs, and changed inputs are how
-this voice gets lost.
+**Use `de50f37f` — `ChiChi-Canon-Voice-v1`, the durable capture described below.**
+
+**The history, because it explains the rest of this section.** For Episodes 1 and
+2 the block carried `180fdb9a`, her original cloned element. The model does not
+honour that one — seedance binds only ONE voice element per generation and Nia's
+wins — so the voice heard on that footage was synthesized from the surrounding
+prose instead. The reference was kept in anyway on the reasoning that it had been
+present in every approved take and was therefore part of the recipe.
+
+**That is superseded. The user has ruled that `de50f37f` is the tag from here.**
+
+**What does NOT change: the prose around it.** Whatever the model does or does not
+bind, the description is what has been carrying this voice, so the surrounding
+words stay byte-identical. The ID moved; nothing else may.
+
+**Episodes 1 and 2 were shot with `180fdb9a` and that is a fact of the record.**
+The delivered prompt files in `exclusive/prompts/` still contain it and **must not
+be edited** — section 8 says a delivered file is a record, not a draft.
 
 ### The durable capture — DONE, 13 Sep 2026
 
@@ -645,14 +658,17 @@ trimmed to 12.4s of clean single-speaker audio, mono 32kHz. Cost 75 credits all
 in — 35 for the clip, 40 for the clone. `create_voice_from_confirmed_audio` has
 no `get_cost`, so the clone half cannot be preflighted; quote it as unknown.
 
-**What it is for.** TTS, any non-seedance model, and as the restore point if the
-synthesized voice ever drifts. Chi is portable now.
+**What it is for.** Since the ruling of 16 Sep 2026 it is also **the tag in her
+pinned prompt block**. Beyond that: TTS, any non-seedance model, and the restore
+point if the synthesized voice ever drifts. Chi is portable now.
 
-**What it does NOT change.** seedance still binds only ONE voice element per
-generation and Nia's still wins. Every seedance shot Chi speaks in still uses the
-two pinned blocks above, unchanged, with `180fdb9a` still in the text. Do not
-swap `de50f37f` into a seedance prompt expecting it to be honoured — it will not
-be, and swapping it changes the recipe.
+**It is now the tag in the pinned block**, by the user's ruling of 16 Sep 2026.
+Note what that does and does not promise: seedance still binds only ONE voice
+element per generation, so with Nia's element also attached there is no
+expectation that `de50f37f` is honoured in a two-hander. **The prose recipe is
+still what carries the voice.** What the ruling changes is which ID the tag points
+at — and it now points at the element that actually holds her canon voice, which
+is the safer place for it to point.
 
 **It was verified before cloning, not assumed.** Measured against approved Shot 6.
 Long-term-average-spectrum cosine: **0.9819** against canon Chi, 0.8942 against
@@ -689,16 +705,27 @@ with "Voice limit reached — delete a voice to add a new one" and charges nothi
 There is no delete-voice tool in the MCP surface; it has to be done in the
 Higgsfield web UI, and it is the user's call, never an agent's.
 
-**None of the three is safely disposable.** Nia's is honoured and produces her
-real voice. `180fdb9a` is never honoured but must stay, because every approved
-take had `<<<180fdb9a>>>` in the text and removing the element leaves that tag
-pointing at nothing. `de50f37f` is the only one absent from prompts, but it cost
-75 credits and is Chi's restore point.
+**The ruling of 16 Sep 2026 changed which one is disposable.** Nia's `12315c68`
+is honoured and produces her real voice — untouchable. `de50f37f` is now the tag
+in every new Chi prompt AND her restore point — untouchable twice over.
+
+**`180fdb9a` is now the one absent from new prompts**, which is the position
+`de50f37f` used to hold. It is never honoured by seedance and nothing written
+from here points at it. **What it still does is anchor the Episode 1 and 2
+prompt records**, where `<<<180fdb9a>>>` appears in delivered text; deleting the
+element leaves those tags pointing at nothing, though the footage they produced
+already exists and is unaffected.
+
+**So if a slot is ever needed — for one of the men, most likely — `180fdb9a` is
+the candidate.** That is still the user's call in the Higgsfield web UI, never an
+agent's, and the question below applies first: ask whether a new element would
+even be honoured before spending a slot on it.
 
 **Before considering a deletion, ask whether the new element would even be used.**
-seedance binds ONE voice element per generation. `180fdb9a` is attached in every
-prompt and has never once been honoured — that is the whole reason Chi's voice is
-a prose recipe. A newly cloned male element opposite her, with Nia's element also
+seedance binds ONE voice element per generation. `180fdb9a` was attached in every
+Episode 1 and 2 prompt and was never once honoured — that is the whole reason
+Chi's voice is a prose recipe, and there is no reason to expect a new element to
+fare differently. A newly cloned male element opposite her, with Nia's element also
 attached, will almost certainly be ignored the same way. **The men are far more
 likely to need the prose-recipe treatment than a clone.**
 

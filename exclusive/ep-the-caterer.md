@@ -45,6 +45,12 @@ the geography section, not the element text.**
 | `ChiChi-Caterer-Look` | `d039b74e-fe7b-4a8f-b402-759ad6388da0` | **WARDROBE ONLY** — cropped and faceless by design. Face comes from `ChiChi-the-Influencer`. |
 | `Nia-Caterer-Look` | `83bf1dae-a954-4037-b68b-ad91718cffff` | **WARDROBE ONLY** — same rule. Face comes from `Nia`. |
 
+> **VOICE TAG RULING, 16 SEP 2026 — APPLIES FROM EPISODE 3 ONWARD.** ChiChi's
+> pinned prompt block now carries **`de50f37f`** (`ChiChi-Canon-Voice-v1`), not
+> `180fdb9a`. **Episode 2 was shot entirely with `180fdb9a`** and its delivered
+> prompt files in `exclusive/prompts/` still contain it — that is the record of
+> what produced this footage and must not be edited. See CLAUDE.md 5a.
+
 Faces and voices carry over unchanged from Episode 1: `Nia` `bcd528d3…`,
 `ChiChi-the-Influencer` `8a8e8eeb…`, `Nia-voice-v2-clear` `12315c68…`, and Chi's
 pinned two-block voice recipe with `180fdb9a…` still in the text.
