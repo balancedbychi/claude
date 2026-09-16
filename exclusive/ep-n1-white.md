@@ -287,12 +287,11 @@ and C6** — the prologue flagged its absence specifically.
 - **Nia's white dress is a locked wardrobe element**, clean in C1, C2, C4, C5 until
   the pour, stained from the pour and identical in C6. Neckline never raised,
   lowered or swapped. Choker only if the reference leaves the throat bare, never
-  on top of fabric. **ONE slim plain GOLD BAND on the RING FINGER OF HER RIGHT
-  HAND** — her left hand bare — the same ring, the same hand and the same finger
-  in every clip. (§3 ruled Nia's hands are not permanently ring-free; this file
-  said "gold ring" without saying where, so C1 fixes it for the episode. Right
-  hand, not left: a band on her left fourth finger reads as married, which she
-  is not.)
+  on top of fabric. **NIA WEARS NO RING IN THIS EPISODE — both hands completely
+  bare.** Ruled by the user, 16 Sep 2026: *"Remove the ring."* This supersedes
+  the earlier "gold ring, same hand, same finger" line in this file, and the
+  right-hand gold band C1 briefly carried. §3's ruling that Nia's hands are not
+  *permanently* ring-free still stands series-wide; for N1 she wears none.
   **CONFIRMED CORRECT on the 8s test `c9976b46`** — the user's note: *"The white
   dress read right."* Per section 5 the wardrobe wording is not to be reworded.
 - **BOTH WOMEN ARE HOURGLASSES — the difference is SCALE, never SHAPE**, and each
