@@ -1,267 +1,240 @@
 # EXCLUSIVE — the new order
 ## Episode 2: "The Caterer's Cousin"
 
-**Status: PROPOSED — nothing locked, nothing spent.** Read
+**Status: PROPOSED — nothing locked, nothing spent.** Revised 16 Sep 2026. Read
 `exclusive/new-order-README.md` first.
 
-**Runtime:** 1:32 · 6 clips · 92 seconds
-**Format:** One set, two people, one continuous conversation. 1am, same night as N1.
-**Logline:** The party is over. Chi came back for her coat, which is a lie. Kel is
-still doing the dishes. It is the happiest episode the series has had and it ends
-with Chi lying to the only decent man in it.
+**Runtime:** 1:44 · 5 clips · 104 seconds
+**Format:** Two phone calls bookending one evening in one room. Chi's flat.
+**Logline:** Kel cooks in Chi's kitchen. She owns a second glass. He has a daughter,
+he is fifty-three, and he is going to kiss her next time. Nia, meanwhile, has not
+left Dorian — she has added Elias.
 
 ---
 
 ## WHY THIS EPISODE EXISTS
 
-The season needs one episode where nothing bad happens, or N3 and N4 are just
-noise. **This is it, and it is not a breather — it is the episode that makes the
-betrayal cost something**, because it is the first time we see what Chi is like
-when she is not managing anyone.
+The season needs one episode where the good thing actually happens, or N3 and N4
+are just noise. **This is Chi's episode and it is the happiest thing the series has
+done.** It is also the cheapest — one locked room, two locked faces, no new speaker.
 
-It is also **the cheapest episode the series can make.** One locked set. Two
-characters, both locked. No new references if Chi wears her N1 look, which she
-should — it is 1am on the same night and she has not been home.
+### The image
 
-### What Chi actually came back for
+Since the first shot of the series, Chi's marble table has had **one glass and one
+candle**, and every prompt has pinned the count. **In C2 she goes and gets a second
+glass and sets it next to the first**, and Kel looks at it longer than he looks at
+her. Nobody says what it means. **The second glass is still on the table at the
+end of C5**, after he has gone, and she does not clear it.
 
-**She came back for Dorian. He is not here.**
+### The ache, sideways
 
-That is the buried engine of the whole episode and **not one line says it.** She
-puts Nia in a cab, she comes back up, and the person in the kitchen is the cousin.
-She cannot ask where Dorian is — asking would be the most revealing thing she could
-possibly do — so she stands in his kitchen for ninety seconds with a man she is
-beginning to actually like, not asking.
+Chi never says she wants a child. She asks him, instead, whether *he* is done. **She
+says the embarrassing thing plainly — about him.** He hears both questions. He
+answers with his age. It is not an answer and she tells him so, and the show leaves
+it there.
 
-**Play every one of her silences as that.** She is not being mysterious. She is
-being careful in a room where one wrong question ends her.
+### Nia's story keeps moving underneath
 
-### Kel, re-aimed
-
-The old rule was *"Kel does not know he is the punchline and never finds out."*
-**He still never finds out — because he never was one.** He is the sharpest read in
-the season, he gets there in about nine minutes, and when he arrives he does not
-use it. He hands her the exit instead.
-
-He is still fifties, still generous, still funny, still makes you a plate. **He is
-the moral floor of this show and the only person in it with no angle.** That is why
-the last ten seconds hurt.
+Two phone calls. In the first, Nia is coaching Chi on what to wear and admitting
+Dorian "explained" — *"Complicated is a woman with a key."* In the second, a second
+phone buzzes on Nia's bed and his name is Elias. **Chi tells her the truth; Nia
+hears it; Nia has already done it anyway.** Engine intact.
 
 ---
 
 ## THE SCRIPT
 
-Six clips, 92 seconds, one unbroken conversation in one room. 50mm throughout
-except where noted — **this episode does not move much and it should not.** Warm
-pendants over the steel island, everything else falling off into the dark. Night
-key. The dishwasher is running the entire episode and it is the only ambience.
-
-**Two holds are allowed: the beat before "Mm" in C1, and the long one in C6.**
+Five clips, 104 seconds. `ChiChi-Living-Room` for the whole evening, sunset in C1
+tipping to night by C2, warm lamps and one candle. `Nia-Bedroom-Sunset` for her
+halves of C1 and C5. 50mm throughout. **Holds: the red dress in C1, the second glass
+in C2, the door in C4, the two glasses in C5.**
 
 ---
 
-### CLIP 01 — "Twice Now" · 12s · 50mm · f/2.2 · one cut
-**Int. Dorian's kitchen — night.** `Dorian-Kitchen-Night`. 1am. The party is over
-and the room is wrecked in the specific way a kitchen is wrecked after forty
-people: glasses everywhere, foil trays, one pendant on.
+### CLIP 01 — "The Red" · 24s · 50mm · f/2.0 · intercut
+**Int. Chi's living room — sunset / Int. Nia's bedroom — sunset.**
 
-Kel at the sink with his sleeves pushed up, back to the door, dish towel over one
-shoulder. **He does not turn around.** Chi in the doorway, coat over her arm —
-which is the problem with her excuse and she has not noticed yet.
+Chi on the sofa, phone wedged at her shoulder, **two dresses on hangers held up
+side by side — one red, one black.** Nia cross-legged on her bed.
 
-> **KEL** *(not looking up)*: You forgot your coat.
-> **CHI:** I forgot my coat.
-> **KEL:** Twice now.
-> *(one beat)*
+> **NIA:** Wear the red.
+> **CHI:** I'm not wearing red.
+> **NIA:** Chi. It's a date. Wear the red.
+> **CHI:** It's dinner.
+> **NIA:** A man cooking in your flat is a proposal, Chi.
+> *(beat)*
+> **CHI:** How's Dorian.
+> **NIA:** ...He explained.
+> **CHI:** Explained what.
+> **NIA:** Simone's complicated.
+> **CHI:** Nia.
+> **NIA:** I know.
+> **CHI:** Say it back to me.
+> **NIA:** "Complicated" is a woman with a key.
+> **CHI:** Good girl.
+> **NIA:** Wear the red.
+
+Chi hangs up. Alone, she holds the red up against herself. Hold two seconds. Cut.
+
+*⚠️ **This is Nia's shot from the prologue's first episode — fighting an earring
+in, two dresses on the bed — handed to Chi.** The audience has never seen Chi get
+ready for anyone. Play the hangers straight; she is genuinely undecided and
+genuinely pretending not to be.*
+
+*"How's Dorian" is Chi changing the subject away from herself, and it lands on the
+one subject Nia does not want. **The pivot is a beat, not a line.** Nia's
+"...He explained" is the sound of a woman who knows the sentence she is about to say
+is going to get a "Nia."*
+
+*"Say it back to me" / "Complicated is a woman with a key" / "Good girl" — **the
+engine in three lines.** Chi is not lecturing. She is making Nia say the accurate
+thing out loud, which is the show's whole value, and then rewarding her for it. And
+Nia is going to stay with him anyway, and both of them know it.*
+
+*Cut to the red held up against her. **She is going to wear the red.***
+
+---
+
+### CLIP 02 — "Two Glasses" · 16s · 50mm · f/2.0 · two cuts
+**Int. Chi's living room — night.** Kel at the door with two bags of food. **Chi in
+the red.** He takes her in for exactly one beat — no line about it — and then looks
+at the room. The marble table: one glass, one candle.
+
+> **KEL:** One glass.
+> **CHI:** I own two.
+> **KEL:** Prove it.
+
+She goes. Comes back with a second glass. Sets it down next to the first. **He
+looks at the two glasses for a long time.**
+
+> **KEL:** That's the first time that's happened, isn't it.
+> **CHI** *(beat)*: Pour.
+
+*⚠️ **The second glass is the episode.** Pin the count in every clip from here:
+exactly TWO glasses, identical, side by side on the marble table, from the moment
+she sets it down until the end of C5. The `ChiChi-Living-Room` element carries the
+old one-glass rule in its write-once description — **every prompt from C2 on
+overrides it explicitly**, names the wrong count, and records the override here.*
+
+*Kel's look at the glasses is longer than his look at the dress. **That is the
+character** — he notices the thing that matters and not the thing he is supposed
+to. And "that's the first time that's happened" is him reading her flat correctly
+in about four seconds, which is what he does.*
+
+*"Pour." is Chi conceding the point by giving an instruction. She does not answer
+the question. **She never answers his questions directly in this episode and he
+always hears the answer anyway.***
+
+---
+
+### CLIP 03 — "Fifty-three" · 23s · 50mm · f/2.0 · two cuts
+**Same.** Later. The food eaten, plates on the marble table beside the two glasses.
+He is on the sofa. She is in her corner — but **her feet are not tucked under her.
+Her legs are toward him.** That is the only blocking note that matters.
+
+> **KEL:** What do you want, Chi?
+> **CHI:** Dessert.
+> **KEL:** I'm serious.
+> **CHI:** So am I.
+> **KEL:** My daughter asks me that. Every Sunday. "What do you want, Daddy."
+> *(Chi is lifting her glass. **The glass stops, halfway.**)*
+> **CHI:** You have a daughter.
+> **KEL:** Twenty-four. Atlanta. Smarter than me.
+> **CHI:** ...And you're done.
+> **KEL:** I'm fifty-three, Chi.
+> *(beat)*
+> **CHI:** That's not an answer.
+> **KEL:** It's the only honest one I've got.
+
+*⚠️ **"And you're done" is Chi's ache said out loud for the first time in the
+series, and she says it about him.** No hesitation before it and no follow-up. She
+asks it like a factual question because that is the only way she can ask it at all.
+**He hears both questions. The prompt says so in the performance note and nowhere
+in the dialogue.***
+
+*The stopped glass is the prologue's gesture — Episode 2 Clip 4, her drink stopping
+halfway at "my friend Nia" — and it means the same thing: **something landed.** She
+finishes the sip after a beat. Still forbidden: smirk, sadness, a swallow held too
+long, a hand to the mouth, any look to camera.*
+
+*"I'm fifty-three, Chi" is not a refusal. He is not saying no. **He is telling her
+the one fact that is going to matter and letting her decide what it means**, which
+is exactly what she does to Nia every week, and she recognises the technique and
+hates it.*
+
+*"It's the only honest one I've got" — remember this line. **She quotes it back in
+N4 without knowing she is doing it.***
+
+---
+
+### CLIP 04 — "Next Time" · 16s · 50mm · f/2.2 · two cuts
+**Same.** The door. He is leaving. She has walked him to it — the first time anyone
+has been walked to that door in the series.
+
+> **KEL:** I'm going to kiss you next time.
+> **CHI:** Why not this time?
+> **KEL:** Because you're still deciding.
+> **CHI:** Deciding what?
+> **KEL:** Whether fifty-three is a number or an answer.
+
+He goes. She closes the door. She walks back to the sofa. **Two glasses on the
+table. She looks at the second one. She does not clear it.** Hold three seconds.
+
+*⚠️ **No kiss.** The model will offer one on "next time" and it must be negated —
+no lean in, no hand on the face, no touch. He is standing in the doorway with both
+hands at his sides. **The restraint is the sexual tension and it is the whole
+clip.** Nia gets the line about it in C5: it is the sexiest thing a man over fifty
+has ever said.*
+
+*"Whether fifty-three is a number or an answer" — he is handing her back her own
+"that's not an answer" and telling her it is hers to decide. **Warm, no edge, no
+pressure.** He is not making her choose. He is telling her he has noticed she is.*
+
+*⚠️ **She does not clear the second glass.** Pin it: both glasses remain on the
+table, untouched, in the final frame. If it vanishes the episode has no ending.*
+
+---
+
+### CLIP 05 — "Elias" · 25s · 50mm · f/2.0 · intercut
+**Int. Nia's bedroom — night / Int. Chi's living room — night.** Later. Nia on the
+bed, phone to her ear. Chi on the sofa — **two glasses still on the table beside
+her**, the second untouched.
+
+> **NIA:** He didn't KISS you?
+> **CHI:** He said next time.
+> **NIA:** That's the sexiest thing a man over fifty has ever said.
 > **CHI:** Mm.
-> **KEL:** Mm.
+> *(A second phone lights up on Nia's bed, face up, silent. Chi hears the buzz.)*
+> **CHI:** What was that.
+> **NIA:** Nothing.
+> **CHI:** Nia.
+> **NIA:** ...His name is Elias. He's a grown man with a car and a mother he calls.
+> **CHI** *(beat)*: And Dorian?
+> **NIA:** Dorian has Simone.
+> **CHI:** Nia—
+> **NIA:** I love you, I love you, I love you—
 
-*He gives her sound back to her. **That is the entire clip** and it is the most
-efficient character introduction available: he has known her for one evening across
-two parties and he has already learned her vocabulary. He is not mocking her. He is
-answering in her language.*
+She hangs up. Chi lowers the phone. She looks at the two glasses. Cut to black.
 
-*⚠️ **"Twice now" is the only line in the episode that counts something**, and this
-show counts. It means the prologue's party and tonight. Kel is the third person
-this season to keep a tally and the only one who says it out loud without being
-embarrassed about it. Flat, amused, entirely without accusation.*
+*Chi's "Mm." on the sexiest-thing line is a happy one — the first happy "Mm" in the
+series — and Nia hears it as one. **Warm, short, almost a laugh.** Then the buzz,
+and the next "Mm"-shaped sound she makes is "What was that," which is not warm.*
 
-*He does not turn around for any of it. **He turns on "Mm."***
+*⚠️ **The second phone must be a second phone** — visibly different, face up, on the
+bedspread, lighting silently. **No screen content, no name, no push-in.** Its
+existence is the information.*
 
-*Chi almost smiles. It does not arrive. She is caught and she likes being caught,
-and both of those read on a face that barely moves.*
+*"A grown man with a car and a mother he calls" is Nia listing his qualifications
+and that is the best one she has. **Fast, bright, delighted, no shame in it** — she
+is enjoying the bit. She is running two men and she has a theory about why it is
+fine, and N3 is the theory.*
 
----
+*"I love you, I love you, I love you—" is the prologue's exit, verbatim. It is how
+she ends every call where she has lost. **Chi does not say it back**; she never
+has.*
 
-### CLIP 02 — "It's My Food" · 16s · 50mm · f/2.2 · two cuts
-**Same.** He makes her a plate without asking — the slow cooker, the same one, lid
-off, steam under the pendant. He sets it on the steel island and goes back to the
-sink. She eats standing up, coat still over her arm.
-
-> **KEL:** Sit down.
-> **CHI:** I'm not staying.
-> **KEL:** You're not sitting, either. You're just standing in my kitchen eating my
-> food.
-> **CHI:** It's not your kitchen.
-> **KEL:** It's my food.
-> *(she takes another bite. she is enjoying herself.)*
-> **CHI:** ...It's good.
-> **KEL:** I know.
-
-*⚠️ **This is the most relaxed Chi has been in seven episodes and the note is that
-she is allowed to enjoy something on camera.** Her stillness rule has always been
-about authority; here, for ninety seconds, it is just calm. She eats. She actually
-eats — real bites, a real mouthful, not a delicate prop nibble. Play it generous.*
-
-*"It's good" is her first unguarded sentence of the season and the ellipsis is real
-— she concedes it. **"I know" is not smug.** He is delighted and completely without
-vanity about it, the way a man is about the one thing he is genuinely good at.*
-
-*He never stops doing the dishes. **He is working through the whole episode** and it
-matters: he is not performing a conversation, he is doing a job and talking while
-he does it, which is why everything he says sounds like it costs him nothing.*
-
----
-
-### CLIP 03 — "The Only Part You Answered" · 16s · 50mm · f/2.0 · two cuts
-**Same.** He shuts the tap off. That is the first thing that changes in the room.
-
-> **KEL:** Can I ask you something?
-> **CHI:** You're going to.
-> **KEL:** Why do you come to a party you don't like, for a man you don't like,
-> with a woman who doesn't need you?
-> *(beat)*
-> **CHI:** She needs me.
-> **KEL:** That's the only part you answered.
-
-*The tap going off is the clip's only piece of blocking and it does the work of a
-push-in. **Sound drops, the room gets smaller, and he is suddenly not multitasking.***
-
-*⚠️ **His question is a three-part trap and he does not know it is one.** He thinks
-he is asking about Nia. He is asking, in order, about the party, about Dorian, and
-about Nia — and Chi answers only the third, because the first two have answers she
-cannot give. **She does not deflect, stall or change the subject.** She answers
-truthfully and incompletely, which is her entire technique and the first time the
-show has shown it to us in isolation.*
-
-*"That's the only part you answered" is said kindly. **No edge, no gotcha, no
-eyebrow.** He is not cornering her. He noticed, and he is letting her know he
-noticed, and that is all. That is somehow worse.*
-
-*Chi has 7 words in this clip against his 44. **The economy rule is doing real work
-here** — she is losing and her tell is the opposite of Nia's.*
-
----
-
-### CLIP 04 — "Three Years" · 15s · 50mm · f/2.0 · three cuts
-**Same.** She changes the subject, and the subject she changes it to is the tell.
-
-> **CHI:** Who's Simone.
-> **KEL** *(a beat — he clocks the pivot and lets it go)*: Ah.
-> **CHI:** Kel.
-> **KEL:** Three years. On and off. Mostly on.
-> **CHI:** Three.
-> **KEL:** He doesn't lie about it. *(beat)* He just doesn't say it.
-> **CHI:** That's the same thing.
-> **KEL:** Is it?
-
-*⚠️ **"Is it?" is the knife and neither of them knows it is in her.** Kel is
-defending his cousin. He is talking about Dorian. **He is describing Chi exactly**,
-in her own words, using the season's own motif, and it lands on her like a
-diagnosis. Two clips ago Dorian said "that's not the same sentence"; here Kel
-inverts it and fires it in the other direction without aiming.*
-
-*He is completely relaxed saying it. **No pointed look, no pause after it, no
-awareness whatsoever.** He goes back to the dishes. **The camera stays on Chi for
-one beat after he has moved on** — that beat is the clip.*
-
-*"Three." is Chi counting again. She says it the way she said "Twelve." Do not let
-it become a question; it is not "three?", it is "three." **She is putting it next to
-her own four months and comparing.***
-
-*This is also the exact moment she realises she was not the exception either. The
-show does not say so.*
-
----
-
-### CLIP 05 — "The Glasses" · 18s · 75mm · f/2.0 · two cuts
-**Same.** Longer lens, tighter, the room gone soft behind both of them.
-
-> **KEL:** You've been in this kitchen before.
-> *(Chi says nothing.)*
-> **KEL:** Long time ago. You had different hair.
-> *(she is lifting the glass. **the glass stops, halfway.**)*
-> **CHI:** A lot of women have been in this kitchen.
-> **KEL:** Sure.
-> *(beat)*
-> **KEL:** You're the only one who ever knew where the glasses were.
-
-*⚠️ **This is the best line in the season and the whole episode is built to deliver
-it.** He has not been suspicious for a second. He has been remembering, slowly, all
-night, the way you do — and it arrives while he is drying a pan.*
-
-*Earlier in the evening, unremarked and unshot, she reached into the right cupboard
-without looking. **Do not shoot that moment and do not flash back to it.** He tells
-us and we believe him instantly, because we have watched her be at home in this
-room for four clips.*
-
-*⚠️ **The interrupted glass is a direct, deliberate quotation of the prologue** —
-Episode 2 Clip 4, where her drink stopped halfway when Dorian said "my friend Nia."
-**Same gesture, same meaning, the audience recognises it.** It works because she is
-normally still, so a stopped movement reads louder than any expression. She
-finishes the sip anyway, after a beat, and sets the glass down.*
-
-***Still forbidden, exactly as before:** smirk, eye-roll, raised eyebrow as
-commentary, knowing look, glance at camera, panic, guilt, sadness, head shake,
-sigh, a hand to the mouth, a swallow held too long.*
-
-*"Sure." is him accepting her denial out loud while not believing a word of it, and
-**it is not sarcastic.** He means: you are allowed to say that.*
-
----
-
-### CLIP 06 — "Your Coat's on the Chair" · 15s · 50mm · f/2.2 · one cut
-**Same.** Wider again. Both of them in frame, eight feet apart, the island between.
-
-> **CHI:** You're mistaken.
-> **KEL:** Okay.
-> **CHI:** I'm serious, Kel.
-> **KEL:** I said okay.
-
-*(A long beat — four full seconds. He turns the tap back on and goes back to the
-dishes. **He does not look at her again.** She stands there. She has never once been
-the person standing there.)*
-
-> **KEL** *(over his shoulder, not unkind, not looking)*: Your coat's on the chair.
-
-Hold two seconds on Chi in the doorway, coat already over her arm. Cut to black.
-
-*⚠️ **This is the first time we have ever seen Chi lie on camera, and she is bad at
-it.** "You're mistaken" is stiff and formal and nothing like how she talks — it is a
-sentence she assembled. **"I'm serious, Kel" is worse**: she is using his name to
-push, which is Nia's move, not hers. **Chi loses her own voice under pressure and
-starts borrowing other people's.** That is the performance.*
-
-*⚠️ **"I said okay." is the cruellest kind thing in the series.** He is not angry.
-He is not hurt in a way he would name. He simply stops — stops asking, stops
-turning around, stops being in it — and lets her keep her lie, because he likes her
-and because it is hers to keep. **Play it completely flat and entirely without
-resentment.** The withdrawal is the whole event.*
-
-*⚠️ **The coat is the payoff of the first line of the episode and nobody underlines
-it.** She came for a coat she was already holding. He has known that since the
-doorway, he let it go for ninety seconds, and now he is handing it back to her as a
-way of ending the conversation. **"Your coat's on the chair" means go home.** It is
-also, technically, wrong — the coat is over her arm — and neither of them corrects
-it. Do not have her look at the chair. Do not have her look at her arm.*
-
-*⚠️ **The four-second beat must be declared in the prompt or it gets filled:** "this
-clip is the exception, the silence after 'I said okay' is the point, do not fill
-it, no ambience swell, no music, no third voice, neither character speaks." The
-dishwasher and the running tap carry it.*
-
-*End on Chi, not on Kel. She is the one who lost something here and she is the only
-one who knows it yet.*
+*End on the two glasses, not on Chi's face. **The audience knows what a second
+glass on that table means before she does.***
 
 ---
 
@@ -269,61 +242,49 @@ one who knows it yet.*
 
 | Seam | Exit state | Entry state |
 |---|---|---|
-| N1 C6 → N2 C1 | Nia in the ruined dress, Dorian's loft, party in progress | **same night, ~2 hours later**, kitchen, party over, room wrecked. Chi's wardrobe is IDENTICAL — she has not been home |
-| C1 → C2 | Kel turned around, towel on shoulder, Chi in the doorway | Kel at the slow cooker with a plate, Chi one step further into the room, **still holding the coat** |
-| C2 → C3 | Chi standing at the island eating, Kel back at the sink, tap running | same, **tap goes off in the first second of C3** |
-| C3 → C4 | tap off, both still, Kel facing her | same, unchanged — **no reset, no repositioning**; C3 and C4 are one continuous take split by a cut |
-| C4 → C5 | Kel back at the dishes, Chi at the island with a glass | 75mm, tighter, **same physical positions**, glass in her hand mid-lift |
-| C5 → C6 | glass set down, both still, Kel drying a pan | wider, eight feet apart, island between them |
+| N1 C6 → N2 C1 | lift doors, night | **days later**, sunset, Chi on the sofa with two hangers — hard cut |
+| C1 → C2 | Chi holding the red against herself, sunset | **night**, the door, Kel with bags, **Chi in the red**. One glass, one candle on the table |
+| C2 → C3 | two glasses on the table, Kel about to pour | **later** — plates on the table beside the two glasses, both seated, **legs toward him**. The time jump is legible: the food is eaten |
+| C3 → C4 | both seated, glass set down after the stopped sip | the door, both standing. **Show the walk to the door? No — open on them already at it**; the ellipsis is legible because the plates are gone from the table in the C4 hold |
+| C4 → C5 | Chi at the sofa, two glasses, hold | **later**, Chi seated, phone, two glasses unchanged; Nia on her bed |
 
-⚠️ **The coat is in every single frame of this episode.** Over her arm in C1, still
-over her arm in C6. It is never put down, never hung up, never set on the chair. If
-it disappears in one clip the last line means nothing.
+⚠️ **The two glasses are in every frame of C2 (from the set-down), C3, C4 and C5,
+identical, same position.** One of them is the episode. Pin the count in every
+prompt and name the wrong counts — one, three, a spare, an empty on another surface.
+
+⚠️ **The red dress is in every frame of C2–C5.** A locked wardrobe element from the
+user's reference. Tailored to her real proportions. Never a different red, never a
+different cut between clips.
 
 ---
 
 ## CONTINUITY
 
-- **Chi wears her N1 look, unchanged.** Same night, hours later, has not been home.
-  This is the cheapest option and it is also the correct one.
-- **Chi wears NO RING, ever** — named object by object, including nothing on the
-  fourth finger of her left hand. Gold watch is her only wrist jewellery. Nails
-  deep red.
-- **Chi's hair sweeps to HER OWN RIGHT** — deep side part on the LEFT of her head,
-  volume falling down her right side; facing camera, **screen LEFT**. Never centre,
-  never her left, never tied back. ⚠️ Kel's "you had different hair" refers to two
-  years ago and is **never shown** — the current hair is the locked series hair in
-  every frame.
-- **Clothes adapt to Chi's body, never the reverse** — tailored realistically to her
-  real full-figured proportions.
-- **Kel:** fifties, `Kel-The-Cousin` `3ad69411`. Sleeves pushed up, dish towel over
-  one shoulder, working the entire episode. **Voice target 106.7Hz, warmth 38** from
-  the supplied "Bobby" sample — prose recipe, no element.
-- **Two characters only.** No guests, no Dorian, no one passing through, nobody in
-  the background, no voices off. **Dorian's absence is the point of the episode and
-  a single background figure destroys it.**
-- **Night key, warm pendants only.** One pendant over the island, everything else
-  falling into dark. Never daylight, never overheads, never blue-dominant, never
-  coloured LED.
-- **The room is wrecked and stays consistently wrecked** — same glasses in the same
-  places across all six clips. A kitchen that tidies itself between cuts is the
-  classic drift here.
-- **The slow cooker is the same one from the prologue**, lid off, steam under the
-  pendant. It is the series' one running joke and it gets one silent callback.
+- **Chi in the red**, locked from the reference, C2–C5. **NO RING, ever** — nothing
+  on the fourth finger of her left hand, named object by object; it is a plot fact
+  in an episode where a man is on her sofa. Gold watch only. Nails deep red. Hair
+  swept to **her own right**, screen left facing camera. Skin clear, age markers
+  negated by name. Clothes tailored to her real full-figured proportions.
+- **Chi is relaxed in this episode and it is allowed.** She laughs once (C3, on
+  "smarter than me"). She eats. Her legs are toward him. **Stillness is authority,
+  not paralysis, and tonight she is not managing anyone.**
+- **Kel:** fifties, `Kel-The-Cousin`, prose recipe 106.7Hz / warmth 38. Sleeves up.
+  He is on the sofa, not in a chair — there is only the sofa.
+- **The marble coffee table is the locked one** — one low RECTANGULAR table, thick
+  pale white-and-grey veined top, solid marble base. Never round, glass, wood; never
+  a second table.
+- **Nia** on her bed, both clips, phone visible to her ear. Neckline rule, choker
+  rule, ring pinned to the same finger. **Two phones in C5**, one at her ear and one
+  on the bedspread.
+- **Warm lamps and one candle** in the flat, sunset in C1 tipping to night by C2.
+  Never overheads, never blue-dominant.
+- **No one else exists.** No Dorian, no Nia in the flat, no voices off.
 
 ## AMBIENCE
-
-*"Underneath, quiet kitchen ambience only: the dishwasher running, water in a steel
-sink, glass and crockery set down on steel, fabric movement. No music, no party, no
-voices from another room."*
-
-⚠️ **No music at all in this episode** — the source-music exception from the party
-episodes does not apply here and the party is over. The dishwasher is the bed. When
-the tap goes off in C3, **the room must audibly get smaller**; that drop is free and
-it is the only "push-in" the episode gets.
-
-⚠️ C6 ends on a hold. **Budget an ffmpeg duck on the tail** rather than a take — the
-swell has beaten hard negation twice.
+*"Underneath, quiet apartment ambience only: faint city traffic, the brush of bare
+feet on the floor, fabric movement, the small click of an earring, a candle. No
+music."* C5 adds the single silent buzz of a phone on fabric. ⚠️ C1, C4 and C5 end on
+holds — ffmpeg duck on each tail.
 
 ---
 
@@ -331,58 +292,52 @@ swell has beaten hard negation twice.
 
 | Clip | Words | Speech | Boundaries | Action / hold | **Total** |
 |---|---|---|---|---|---|
-| 01 | 12 | 3.5s | 4 × 0.45 = 1.8s | 6.7s — the doorway, his back turned, the turn on "Mm" | **12s** |
-| 02 | 29 | 8.5s | 6 × 0.45 = 2.7s | 4.8s — the plate made, set down, the first bite | **16s** |
-| 03 | 40 | 11.8s | 4 × 0.45 = 1.8s | 2.4s — the tap going off | **16s** |
-| 04 | 28 | 8.2s | 7 × 0.45 = 3.1s | 3.6s — the pivot beat, the beat held on Chi | **15s** |
-| 05 | 34 | 10.0s | 4 × 0.45 = 1.8s | 6.2s — the stopped glass, the sip, the beat | **18s** |
-| 06 | 14 | 4.1s | 4 × 0.45 = 1.8s | **4.0s declared silence** + 5.1s tap, dishes, hold | **15s** |
+| 01 | 54 | 15.9s | 14 × 0.45 = 6.3s | 2.1s — the red held up, hold | **24s** |
+| 02 | 16 | 4.7s | 4 × 0.45 = 1.8s | 9.2s — door, bags, fetching the glass, the look | **16s** |
+| 03 | 49 | 14.4s | 10 × 0.45 = 4.5s | 3.2s — the stopped glass, the beat | **23s** |
+| 04 | 25 | 7.4s | 4 × 0.45 = 1.8s | 6.6s — the door, the walk back, the glasses, hold | **16s** |
+| 05 | 56 | 16.5s | 11 × 0.45 = 5.0s | 3.4s — the buzz, the hangup, the glasses | **25s** |
 
-**Total: 92s · 157 words.** Raw density 1.71 w/s; against the **59 seconds that
-carry dialogue** (33s is declared wordless action) it runs **2.65 w/s.**
+**Total: 104s · 200 words.** Raw 1.95 w/s; against the ~79s that carry dialogue,
+**2.6 w/s.**
 
-**Kel 115 words, Chi 42.** He outspeaks her nearly three to one across the episode
-and **her longest single line in it is nine words.** She is not losing an argument
-anywhere in this script — she is conceding ground, clip by clip, and the ratio is
-the characterisation. Do not let a take give her an extra sentence to "balance" a
-scene.
+**Nia 80 · Kel 65 · Chi 55.** Chi's longest line is five words. Across the two calls
+Nia outspeaks her; across the date Kel does. **She never once has the most words in
+a clip.**
+
 ---
 
 ## TECHNICAL SPEC
 
 | | |
 |---|---|
-| Model | `seedance_2_5` |
-| Resolution | match N1 — **do not mix within an episode**; across episodes is fine |
-| Aspect | 16:9 |
-| Clip length | per clip, 4–30s, per the table |
-| Bitrate | high |
-| Cost | 9 cr/s at 1080p → **~828 credits clean** · 2.5 cr/s at 480p → ~230 |
-
-Every prompt carries the **IMAGE QUALITY** block. Resolution locked from Clip 1.
+| Model / aspect / bitrate | `seedance_2_5` · 16:9 · **`bitrate_mode: "high"` explicit, no `quality`** |
+| Resolution | match N1's tier or choose once here; locked for the episode |
+| Mode | **t2v, no start_image.** Entry states in prose |
+| Merge candidates | **C3 + C4** are one continuous room and one continuous evening: 39s is over the cap, so they stay split — but C2 could absorb the first two lines of C3 if a take runs short |
+| Cost | 104s × 9 = **~936 credits clean**, budget 2–3× · 480p ~260 |
 
 ---
 
-## WHAT IS NEEDED BEFORE ANY CREDIT IS SPENT
+## BEFORE ANY CREDIT IS SPENT
 
 | | State |
 |---|---|
-| `Dorian-Kitchen-Night` `de2063f2` | ✅ **LOCKED** — the only set in the episode |
-| `ChiChi-the-Influencer` `8a8e8eeb` | ✅ LOCKED |
-| `Kel-The-Cousin` `3ad69411` | ✅ LOCKED |
-| Chi's wardrobe | ✅ **whatever N1 locked** — same night, reuse it, zero cost |
-| Voices | ✅ LOCKED — no new speaker, Chi's two pinned blocks copied byte-identical, Kel's prose recipe unchanged |
-
-**Nothing is needed. This episode can be shot the moment N1's wardrobe element
-exists.** It is the only episode in the season with no upload step, and if the
-budget gets tight it is the one to shoot first to prove the season's look at the
-lowest possible risk.
+| `ChiChi-Living-Room` · `Nia-Bedroom-Sunset` | ✅ LOCKED |
+| `ChiChi-the-Influencer` · `Nia` · `Kel-The-Cousin` | ✅ LOCKED |
+| Voices — `12315c68` + `de50f37f`, Kel's prose recipe | ✅ LOCKED — **no new speaker** |
+| **Chi's red dress** | ⚠️ USER UPLOADS — the episode's image |
+| **Nia's look** | ⚠️ USER UPLOADS |
+| A second wine glass | 🔵 prop, prose only — identical to the first |
 
 ## ELEMENT REGISTRY — this episode
 
 | Element | ID | Supplies |
 |---|---|---|
-| `Dorian-Kitchen-Night` | `de2063f2-acee-4300-9669-b1f17bff850f` | the entire episode |
-| `ChiChi-the-Influencer` | `8a8e8eeb-d41e-4d91-b245-fa0caa8801b6` | Chi, face and identity |
+| `ChiChi-Living-Room` | `e032db53-f468-4c24-b667-400c9cd0a0bf` | C1–C5, Chi's side |
+| `Nia-Bedroom-Sunset` | `29de5608-70b2-4f65-b530-f508dabbbd46` | C1, C5, Nia's side |
+| `ChiChi-the-Influencer` | `8a8e8eeb-d41e-4d91-b245-fa0caa8801b6` | Chi |
+| `Nia` | `bcd528d3-9756-4190-ba80-4aaae881f2b2` | Nia |
 | `Kel-The-Cousin` | `3ad69411-e32c-44bd-b797-a93ec0d4b52c` | Kel |
-| *Chi's N1 wardrobe* | *(from `ep-n1-white.md` once locked)* | WARDROBE ONLY |
+| *Chi's red dress* | *(pending)* | WARDROBE ONLY |
+| *Nia's N2 look* | *(pending)* | WARDROBE ONLY |
