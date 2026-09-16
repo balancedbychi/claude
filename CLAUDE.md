@@ -266,6 +266,95 @@ to resize and recolour — a title change then never costs a re-render.
 
 ---
 
+## 2b. HOW THE CHARACTERS LOOK REAL — THE REPEATABLE RECIPE
+
+**Nothing here is achieved by asking for "realistic" or "photorealistic".** Those words
+cost nothing and buy nothing. Realism in this series comes from four levers, in order of
+how much they actually move the picture.
+
+### LEVER 1 — the render path. This is most of it.
+
+Measured on Episode 3, sharpness = variance of Laplacian over 10 frames normalised to
+1920x1080 gray:
+
+| how the clip was shot | sharpness |
+|---|---|
+| **text-to-video, NO `start_image`** | **50–67** |
+| seeded from a JPEG of the previous clip's last frame | **24–29** |
+
+**Same prompt, same elements, same characters — more than double the fine detail purely
+from not seeding.** Below about 30 the audience reads mush and faces stop holding up on a
+television. Above about 45 it reads as a camera. So:
+
+- **Shoot t2v.** Write the entry state in prose instead of feeding a frame. See §4a.
+- **`bitrate_mode: "high"`, explicitly, and NO `quality` field.** See the Lock Card.
+- **1080p.** No prompt wording recovers a missing pixel count.
+- **Measure it after every clip** and say the number, the same as a credit cost.
+
+### LEVER 2 — identity comes from the ELEMENT, never from description
+
+`Nia` `bcd528d3` and `ChiChi-the-Influencer` `8a8e8eeb` are what hold the faces.
+`seedance_2_5` is the ONLY model that holds them — image models return strangers, proven
+twice, 32 credits. Never write a face description *instead of* the tag; write it
+*alongside* the tag, in the pinned block order:
+
+**character → skin → age → hair → VOICE → wardrobe → jewellery/ring.** That order is part
+of the recipe and it does not move.
+
+### LEVER 3 — skin, and it is the single most visible block
+
+An audience reads a generated face as fake at the skin before anywhere else. Write
+against BOTH failure modes at once, because an agent cannot see which one it got:
+
+- **positive**: even, healthy, clear, luminous, natural visible pore texture, fine skin
+  detail, sharply in focus, fully resolved, light falling evenly across the face
+- **negate the blotchy failure**: blotchy, mottled, patchy, waxy, plastic, muddy, grainy,
+  over-smoothed into a flat featureless mask
+- **negate the soft failure**: soft, blurred, out of focus
+- **negate the age markers BY NAME**, because stating her age is what invites them:
+  wrinkles, fine lines, crow's feet, forehead lines, nasolabial creases, sagging, crepey
+  or papery texture, age spots, dullness, sallowness, under-eye shadows, hollowing
+
+**Her age reads in her composure, never in her skin.**
+
+### LEVER 4 — photograph the moment instead of describing a person
+
+What makes the Episode 2 drink frame read as film rather than a render:
+
+- **INTERRUPTED MOVEMENT.** She is mid-sip, glass at her lips — not posed, not neutral.
+  §3 already says an interrupted movement is the strongest beat available to a still
+  character; it is also the strongest thing available to a still IMAGE.
+- **BOTH HANDS HAVE A JOB.** One holds the glass, one holds the clutch. Idle unspecified
+  hands are where anatomy errors appear.
+- **LIGHT WITH A DIRECTION AND A FALLOFF.** Warm key from one side, the wall going down
+  into shadow behind her. "Well lit" produces flat television; a named direction produces
+  a photograph.
+- **MATERIALS BY NAME.** Leather with sheen and creases at the elbow, glitter on the
+  clutch, amber liquid refracting through a heavy glass. A material named is a material
+  rendered.
+- **SHALLOW DEPTH OF FIELD.** Subject sharp, background falling soft. State it.
+
+### The two rules that keep it consistent once you have it
+
+- **Generic negations lose to strong priors — name the exact wrong answer.** "Ring-free"
+  shipped in every Episode 2 prompt and ChiChi wore a wedding ring anyway. What works is
+  "NO wedding ring, NO band of any kind on any finger, and specifically NOTHING on the
+  FOURTH FINGER OF HER LEFT HAND — that finger is bare skin."
+- **⚠️ AUDIT THE PROSE AGAINST APPROVED FRAMES, because prose written blind drifts.**
+  Episode 3's override clause described ChiChi's necklace as "a FINE GOLD CHAIN, delicate
+  and simple". The approved footage shows a BOLD CHUNKY GOLD LINK CHAIN. Nobody caught it
+  until the user supplied a frame. **Every time a frame is approved, read the prompt back
+  against it and correct what does not match** — a description that disagrees with
+  approved footage will pull the next take away from the look you already won.
+
+### And keep the prompt short enough to survive
+
+**19,554 characters is the proven ceiling for these clips.** At 19,940 a two-word line
+stopped rendering. Appearance blocks are the easiest place to bloat, so when something
+must be added, delete something else rather than growing past it. See §7.
+
+---
+
 ## 3. THE CONTINUITY LEDGER
 
 Every recurring character needs all nine of these locked, in the element
