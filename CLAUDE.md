@@ -1541,6 +1541,35 @@ The user's workflow, 16 Sep 2026. Do not skip to step 4.
 
 1. **Build a clean reference for each woman.** Only her voice, the intended accent,
    natural delivery. No music, no second speaker, no room tone from a scene.
+   ### ✅ STEP 1 IS DONE — the user listened, 17 Sep 2026
+   > **"Nia sounds british"** · **"Chi sounds American"**
+
+   | | element | accent, confirmed BY EAR | matches spec? |
+   |---|---|---|---|
+   | **NIA** | `Nia-voice-v2-clear` `12315c68` | **British** | ✅ |
+   | **CHI** | `ChiChi-Canon-Voice-v1` `de50f37f` | **American** | ✅ — the pinned block asks for "mid-to-low General American" |
+
+   **These are the two references. Do not substitute either one.** The full
+   inspection — durations, usable timestamps, noise floors, what could and could
+   not be measured — is in `exclusive/voice-reference-audit.md`.
+
+   **What it eliminates, and nothing more: Nia's reference IS British.** So "the
+   reference is not British" is ruled out as the cause of the missing accent in
+   Episode 1 Clip 1 — the accent is present in the input and absent in the output,
+   which puts the loss in the RENDER PATH, not the source asset. That is an
+   elimination, not a diagnosis, and it does not promote the audio-reference
+   hypothesis. Step 2 still has to be run.
+
+   **And the bleed is now a SPEC VIOLATION, not just an oddity.** The pinned ChiChi
+   block says *"never a British accent"*, and clip `51783a9e` put one on her. With
+   both references confirmed correct, that is a known-good input breaking a written
+   character rule — which is the case for one woman per generation.
+
+   **A note on how this was settled, because it is the pattern to repeat.**
+   `list_voices` gives every element a `preview_url` for FREE. Three episodes of
+   prompts were built around voice elements nobody had ever listened to. The entire
+   accent question — unanswerable by f0, LTAS, noise floor or duration — took one
+   free tool call and the user's ear. **Listen to an element before you build on it.**
 2. **Two short tests per woman, on DIFFERENT lines.** Hold the seedance version, every
    setting and her reference constant across all four. **Include a line where the
    accent difference is easy to hear.**

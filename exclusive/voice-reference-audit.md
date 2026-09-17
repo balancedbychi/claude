@@ -124,7 +124,40 @@ It is also the weakest file of the three: 26.5 dB speech-above-floor, 48% speech
 addresses whether it sounds like Chi** — the user has already approved it by ear
 as a TTS playback and ruled *"it is literally the voice we need."*
 
-## 5. What to listen for — the part I cannot do
+## ✅ 5. THE USER LISTENED — 17 Sep 2026. BOTH REFERENCES CONFIRMED.
+
+> **"Nia sounds british — `Nia-voice-v2-clear`"**
+> **"Chi sounds American — `ChiChi-Canon-Voice-v1`"**
+
+Both recommended references are confirmed correct by ear. This settles the one
+question no measurement in this audit could reach, and it is the completion of
+**step 1** of the test protocol in §5a.
+
+| | element | accent, confirmed by the user | matches spec? |
+|---|---|---|---|
+| **NIA** | `Nia-voice-v2-clear` `12315c68` | **British** | ✅ |
+| **CHI** | `ChiChi-Canon-Voice-v1` `de50f37f` | **American** | ✅ — §5a's pinned block asks for "mid-to-low General American" |
+
+### What this ELIMINATES — stated no wider than it goes
+
+**Nia's reference carries the British accent.** So *"the reference is not British"*
+is ruled out as the cause of the missing accent in Episode 1 Clip 1. The accent is
+present in the input and absent in the output, which puts the loss in the **render
+path**, not in the source asset.
+
+That is an elimination, not a diagnosis. It does not establish what the render does
+with the accent, and it does not promote the audio-reference hypothesis — that still
+needs step 2.
+
+### And it confirms the bleed is a SPEC VIOLATION, not just an oddity
+
+§5a's pinned ChiChi block says **"never a British accent"**. The one audio-reference
+clip `51783a9e` put a British accent on her. Now that both references are confirmed
+as the accents they should be, the bleed is measurable against a known-good input on
+both sides: **a British reference in a generation containing Chi breaks her spec.**
+That is the case for one woman per generation, and it is why step 3 isolates them.
+
+## 5b. What to listen for — the part I cannot do
 
 | candidate | preview |
 |---|---|
@@ -149,5 +182,7 @@ Any trim will be a separate copy, made only after the user picks.
 ## 6. Status
 
 - ✅ Candidates inspected and measured.
-- ⏸ **Awaiting the user's ear on the two recommended references.**
-- ⛔ No paid generations until then — the 5-step protocol starts after selection.
+- ✅ **User listened, 17 Sep 2026. Nia British, Chi American. Both confirmed.**
+- ✅ **Step 1 of the §5a protocol is COMPLETE** — a clean, correct reference per woman.
+- ⏸ Step 2 (two short tests per woman, different lines) is written and costed,
+  **awaiting the user's go.** Nothing is submitted.
