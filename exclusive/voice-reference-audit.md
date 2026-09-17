@@ -353,3 +353,73 @@ locked set, same line, same params.
 | **flat / not British** | **`b3d2fc9b` really is the better Nia element.** That is a change to a settled fact and should be ruled on by the user explicitly, per the Lock Card. |
 
 Either answer is worth having, and it is the cheapest decisive test available.
+
+---
+
+## 9. C1 v2 — THE CONTROLLED RE-SHOOT, job `903a4d2b`, 162 credits, 17 Sep 2026
+
+**The user's call, and it was the better experiment:** re-run C1 itself with
+`b3d2fc9b` instead of the 5s control. Length, cut count and staging all held at
+C1's values, **one token changed**. Against C1's accent-gone result that is a true
+one-variable comparison, and it yields a usable clip if it lands.
+
+| | C1 `2a5a6765` | **C1 v2 `903a4d2b`** |
+|---|---|---|
+| voice element | `12315c68` | **`b3d2fc9b`** |
+| cuts | 9 / 9 | **9 / 9 ✅** |
+| words | 41 / 41 verbatim | **42 — see below ❌** |
+| bitrate | 9.41 Mbps | 10.05 Mbps |
+| sharpness | 15–16 / 23–26 by room | 20.0, range 13.0–29.2 (same two-room banding) |
+| duration | 18.04s | 18.04s |
+
+### ❌ NEW FAILURE MODE: STAGE DIRECTION WAS SPOKEN ALOUD
+
+The transcript reads **"Caught, warm, that was a very long mm."**
+
+The prompt line above that beat is:
+`*** HER FACE CHANGES — CAUGHT, WARM, PLEASED AND TRYING NOT TO SHOW IT. ***`
+
+**The model read `CAUGHT, WARM` as dialogue**, and ChiChi's `"...Mm."` was absorbed
+into the same segment instead of being delivered as its own line. That is the 42nd
+word and the two merged lines.
+
+**This is §5's "you cannot negate a string by quoting it" in a new place.**
+CAPITALISED STAGE DIRECTION SITTING IMMEDIATELY BEFORE A DIALOGUE LINE CAN BE READ
+AS DIALOGUE. The caps and the `***` markers do not mark it as non-spoken — they make
+it look like emphasis on a line. C1 got this right with the identical text, so it is
+a **re-roll variance, not a structural fault** — but the exposure is real and it is
+now known. **The fix is to describe the beat in lower-case prose, or move the
+direction away from the dialogue line, never to add "do not say this".**
+
+### PITCH — FLAGGED, NOT A VERDICT
+
+Measured per line, never bucketed by who was *scripted* to speak (§7):
+
+| line | dur | f0 | trust |
+|---|---|---|---|
+| "He said it, he said the word." | 1.58 | **222.2 Hz** | OK |
+| "Exclusive, out loud with his mouth." | 2.00 | **170.2 Hz** | OK |
+| "Okay, I'm happy for you." | 1.48 | **210.5 Hz** | OK |
+| "Good, because Kel asked…" | 1.96 | 175.8 Hz | OK |
+| "Caught, warm, that was a very long mm" | 2.68 | 179.8 Hz | OK |
+| the four one-word lines | 0.36–0.62 | 161–235 Hz | **TOO SHORT — ignore** |
+
+**The two Nia lines disagree with each other (222.2 vs 170.2) and ChiChi's one
+reliable line reads 210.5 Hz**, which is high for her and above one of Nia's. Under
+§5a that pattern is what "voices converged/swapped" looks like — **and under §7's
+absolute rule it FLAGS and nothing more.** Cross-clip pitch bands are unreliable,
+short lines are unreliable, and whose mouth moves is a visual fact. **The user's ear
+and eye settle it. Nothing is reverted on these numbers.**
+
+### WHAT THIS CLIP CAN AND CANNOT DECIDE
+
+It is the clean element test: if Nia is British here and was not in C1, **the element
+is the cause** and `b3d2fc9b` becomes a real candidate to replace `12315c68` — a Lock
+Card change, to be ruled on explicitly by the user, never inferred.
+
+If she is not British here, then `94afd8b5`'s British Nia came from **short + solo
+staging**, not the element, and that is the more valuable answer: it costs no Lock
+Card change and it is §5a's one-woman-per-generation hypothesis arriving by a
+different road.
+
+**Awaiting the user's ear.**
