@@ -604,3 +604,143 @@ lines whose spread is under 1.4x, which are the four marked clean above.
 Dorian's look on his first render, the height difference, whether he stops without
 touching her, whether "That's a dare" reads sincere rather than a leer, and Nia's
 accent.
+
+---
+
+## C3 DELIVERED — job `ff7fd07c`, 144 credits, 17 Sep 2026
+
+`ff7fd07c-e52c-49bf-baaa-ce1f58df149d` · 16.05s · 1920x1080 · HEVC · **11.18 Mbps** ·
+`bitrate_mode: high` · pure t2v, **no `start_image`** · prompt
+`n1-clip03-DELIVERED-ff7fd07c.txt`, 13,988 chars.
+
+### ✅ THE SCRIPT HELD — 10 OF 10 LINES, IN ORDER, NOTHING DUPLICATED
+
+29 words spoken against 26 scripted. Three additions, all natural, none changing a
+meaning: **"Is"** on line 3 (grammar), **"Oh"** on his turn (delight), and **"Mmm"**
+where the script wrote `"...It's good."` — the ellipsis realised as a sound, which is
+what it was for.
+
+**Both "There's jollof." lines landed, once each, to the right mouth** — hers from the
+doorway at 3.92s, his on the turn at 5.00s. That is the hardest attribution guard in
+the episode and it held on the first take.
+
+### ✅ THE CUT ANCHORS HELD AGAIN — TWO CUTS, BOTH ON ACTION
+
+| cut | t | frame diff | next highest neighbour | anchored to |
+|---|---|---|---|---|
+| 1 | **4.75s** | **14.93x mean** | 2.23x | he turns round |
+| 2 | **9.25s** | **15.54x mean** | 2.49x | she takes her first bite |
+
+Both are isolated spikes, six times clear of anything around them. Cut 1 falls in the
+gap between her jollof line and his; cut 2 falls inside the wordless plate beat. **The
+action-anchor rule is now proven on two consecutive clips.**
+
+Shot A 0–4.75 · Shot B 4.75–9.25 · Shot C 9.25–16.05, and she eats for 1.9s inside
+Shot C before speaking — she chews and swallows first, as written.
+
+### ✅ SHARPNESS — THE BEST IN THE EPISODE, AND t2v IS WHY
+
+Same room, same clip, same encode throughout, so this comparison is valid per §7.
+
+| shot | sharpness | range |
+|---|---|---|
+| A — Kel's back foreground, Chi small in the doorway | **26.4** | 26.1–26.8 |
+| B — he turns, the plate | **71.1** | 65.0–77.4 |
+| C — across the island, she eats | **60.3** | 53.7–66.1 |
+
+**B and C sit above §2b's 50–67 text-to-video band and well above approved Ep2 Clip 2's
+47.5.** Shot A's 26.4 is the composition, not a fault: a large out-of-focus back fills
+the foreground at f/2.2 with the subject small and deep. Its range is 0.7 wide, which
+per §7 rules out motion blur — a soft *shot*, not a soft *render*.
+
+### ✅ NO MUSIC SWELL — THE FIRST CLIP THIS EPISODE THAT NEEDS NO DUCK
+
+Tail profiled per 100ms. Level falls monotonically after her last line, −12.5 dBFS
+inside the line to −29.4 at 15.90s, centroid in the speech band throughout. Nothing
+to duck.
+
+### ⚠️ THE TAIL IS 70ms — THERE IS NO BEAT ON THE PUNCHLINE
+
+"Be right about it." ends at **15.98s** and the clip ends at **16.05s**. §1 says end one
+beat early; this ends *on the word*. Flagged for the user, not acted on.
+
+### ✅ KEL READS MALE AND CLEARLY APART FROM DORIAN — 117.6 Hz
+
+His raw pooled spread is **2.15x**, above §5a's 1.4x reliability floor, so the naive
+median of 149.5 Hz is unsafe. Histogrammed as §5a requires: **two clusters, 54.6% at
+117.6 Hz and 45.4% at 260.2 Hz, ratio 2.21 — textbook octave doubling.**
+
+**Kel's true fundamental is 117.6 Hz** against the 106.7 Hz reference target, 11 Hz
+high and in the direction the prompt asked for — brighter, drier, thinner. He is
+unambiguously male and nowhere near Dorian's band. **Writing Kel against Dorian rather
+than against the women worked.**
+
+One line, `"I know."`, read female on p25 — 0.44s long, the shortest in the clip, and
+the clip-level histogram explains it as the same doubling. Flag only.
+
+### ⚠️ CHICHI READS 178.8 Hz — THE RISK FLAGGED BEFORE SPENDING, AND IT IS A FLAG ONLY
+
+**Nia is not in this clip, so `12315c68` was not attached and `de50f37f` was the
+lowest-sorting voice element. ChiChi's own element bound for the first time in the
+series.** Her pooled spread is **1.25x — inside the reliability floor**, so unlike
+Kel's this reading is trustworthy.
+
+| | ChiChi median f0 | conditions |
+|---|---|---|
+| approved Ep3 Clip 2 `fc416b16` | 158.4 Hz | Nia's element binds, different room |
+| job `a91ed33b` — her element attached ALONE | 183.9 Hz | the binding test |
+| **C3 `ff7fd07c` — her element binds in a real scene** | **178.8 Hz** | this clip |
+
+It landed almost exactly where §5a predicted. **But two things cut against reading that
+as a failure.**
+
+**The room is different.** §7 forbids comparing across clips and rooms — Dorian's
+kitchen is not Ep3's coffee shop, and that rule exists because an agent nearly threw
+away the best clip of this episode on exactly this move.
+
+**And her own lines disagree with each other, in a way the staging explains.** Only her
+four lines with a spread under 1.4x are readable:
+
+| her line | p25 | median | staged as |
+|---|---|---|---|
+| "Nia asked." | 174.9 | 182.9 | across the room, to his back |
+| "There's jollof." | 178.8 | 181.8 | across the room, to his back |
+| "Don't do that." | 157.3 | 181.8 | close, across the island |
+| **"Be right about it."** | **142.9** | **162.4** | close, holding his eye |
+
+**Her doorway lines read ~180 and her closest line reads 162.4 — within 4 Hz of
+approved canon Chi.** That is a projection difference, and projecting across a room is
+what the scene asks her to do. The element binding may not be the story at all.
+
+**Per §7 this flags and does not revert.** Nothing is re-shot, nothing is revoiced, and
+`de50f37f` stays in the prompt. The user's ear settles it. If she says the voice is
+wrong, the fix is `voice_change` with `de50f37f`, 2 credits, not a 144-credit re-shoot.
+
+### ⚠️ "jollof" TRANSCRIBED AS "Jalef" — BOTH TIMES
+
+§7: a transcript cannot confirm a pronunciation, but writing a *different* word carries
+signal. It wrote neither "jollof" nor the wrong reading "jaw-left". **The silent final T
+worked — it ends on an f.** The first vowel reads "Ja" rather than "JO". A reason to
+ask, not a verdict.
+
+### ❌ MY ERROR, SHIPPED: THE PROMPT CALLS KEL "A MAN IN HIS THIRTIES"
+
+**He is fifties.** The continuity line in this file says so and the locked element
+`Kel-The-Cousin` says so — bald, close-cropped silver-grey beard, "a full generation
+older than Dorian, and that age gap is the point of the scene." Caught after
+submission; there is no job-cancel tool, so it shipped. The element should win on
+identity, but **whether he reads fifty is the user's eyes.** Any later Kel prompt
+states the age correctly.
+
+### PACING
+
+29 words in **8.00s of articulation = 3.63 w/s**, against §6's measured 3.42. Clip
+density 1.81 w/s against the 2.1 target, under only because of the deliberate 4.84s
+plate beat. **Line boundaries average 0.36s**, tighter than §6's 0.45 planning figure —
+no dead air anywhere the script did not ask for it.
+
+### STILL THE USER'S EYES
+
+Kel's age and whether the silver-grey beard survived "thirties"; whether ChiChi's left
+hand stayed hidden; whether she really eats rather than nibbles; whether her last line
+reads dry and warm with no smile; her voice on her own element; and "Jalef".
