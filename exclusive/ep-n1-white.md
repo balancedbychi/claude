@@ -497,3 +497,53 @@ it is named here.
 
 **Chi's face and hair come from `ChiChi-the-Influencer` `8a8e8eeb` plus the pinned
 §5a block. Nothing else.**
+
+---
+
+## C2 8s TEST — job `09f37a07`, 72 credits, 17 Sep 2026
+
+The LAST 8 seconds of C2 rather than the first, so the 72 credits buy a look at the
+expensive failures: Dorian's unproven prose voice, the attribution collision, the
+no-touch ending, the height difference.
+
+| | measured |
+|---|---|
+| container | 8.042s · 1920x1080 · 6.91 Mbps · `bitrate_mode: high` |
+| cuts | **1 of 1** at 2.38s, 29.8x mean frame difference |
+| words | **11 against 10 scripted** — see below |
+| sharpness | 28.7, range 22.0–33.7 — **new room, no prior band to compare to** (§7) |
+
+### ✅ THE ATTRIBUTION COLLISION HELD
+
+"It's a statement" and "It's a dress" are near-identical in shape and were staged in
+ONE two-shot with no cut between them — the hardest case §4 describes, since a line
+goes to the face the camera is on.
+
+| line | f0 | quartile spread | reads |
+|---|---|---|---|
+| "It's a statement." | 110.3 Hz (p25 84.9) | 2.03x — **unsafe, take the lower mode** | male |
+| **"It's a dress."** | **196.3 Hz** | **1.15x — clean** | **female** |
+| "No." | 86.5 / 79.2 Hz | — | male |
+| "That's a dare." | 136.8 Hz (p25 88.9) | 2.12x — unsafe | male |
+
+**Dorian's true fundamental sits around 85 Hz** once §5a's octave rule is applied —
+the 2.0x spreads are doubling artefacts, not range. That is deeper than the ~100 Hz
+his reference sample measures at, which for him is fine.
+
+### ❌ NEW FAILURE MODE: ANCHORING A CUT TO A SPOKEN WORD DUPLICATES THAT WORD
+
+The prompt said *"the cut lands ON THE FIRST SYLLABLE of the word 'No.'"* The word was
+rendered **TWICE** — at 2.34s and 3.34s — with **the cut at 2.38s sitting exactly
+between them.** The model spoke the anchor word on both sides of the cut.
+
+This is a PROMPT fault, not re-roll variance, and it is the same shape as §5's Sucré
+lesson: naming the string is what supplies the string, and naming it as a cut anchor
+supplies it twice.
+
+**The fix: anchor a cut to the ACTION, never to a word.** "The cut lands as he begins
+to move", not "the cut lands on the first syllable of 'No.'" §6's "cuts fall on the
+first syllable of the incoming line" is still right as a description of WHERE the cut
+should land — it must not be written into the prompt as a quoted word.
+
+**Prompt: `exclusive/prompts/n1-clip02-TEST8s-DELIVERED-09f37a07.txt`. Awaiting the
+user's eyes on Dorian's look, the height, the no-touch, the tone, and Nia's accent.**
