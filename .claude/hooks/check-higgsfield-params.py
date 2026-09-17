@@ -14,6 +14,14 @@ import re
 import sys
 
 NIA_VOICE = "12315c68-37de-41fe-8766-76ac07bcaf70"
+# Nia-Canon-Voice-v2. THE LOCK CARD held this out of every prompt "until the user
+# says what it is for". The user authorised a deliberate A/B on 17 Sep 2026: "could
+# we use the other voice saved for Nia and see what happens?" So the guard now
+# accepts EITHER Nia element. It is not interchangeable with 12315c68 — b3d2fc9b
+# sorts FIRST, so attaching it DISPLACES her established voice rather than adding
+# to it, and nobody has yet listened to it in isolation. It is permitted for a
+# test, not blessed for production.
+ALT_NIA_VOICE = "b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c"
 # Settled by the user, 15 Sep 2026: "The voice for Chi is literally ChiChi Canon
 # voice V1." 180fdb9a is deleted and is not coming back. Note that seedance never
 # actually PLAYS Chi's element — Nia's UUID sorts first and wins the single
@@ -92,11 +100,13 @@ def main():
             % CHI_VOICE
         )
 
-    if re.search(r'NIA:\s*["“]', prompt) and NIA_VOICE not in prompt:
+    if (re.search(r'NIA:\s*["“]', prompt)
+            and NIA_VOICE not in prompt and ALT_NIA_VOICE not in prompt):
         problems.append(
-            "  - Nia speaks in this clip but her voice element %s is not in the "
-            "prompt. Both women's voice tags go in every prompt they speak in."
-            % NIA_VOICE
+            "  - Nia speaks in this clip but neither of her voice elements (%s, or "
+            "the alternate %s) is in the prompt. Both women's voice tags go in "
+            "every prompt they speak in."
+            % (NIA_VOICE, ALT_NIA_VOICE)
         )
 
     # --- CHI'S RING -------------------------------------------------------
