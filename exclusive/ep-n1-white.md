@@ -775,3 +775,108 @@ no dead air anywhere the script did not ask for it.
 Kel's age and whether the silver-grey beard survived "thirties"; whether ChiChi's left
 hand stayed hidden; whether she really eats rather than nibbles; whether her last line
 reads dry and warm with no smile; her voice on her own element; and "Jalef".
+
+---
+
+## C3 v2 DELIVERED — job `b3437148`, 144 credits, 17 Sep 2026
+
+`b3437148-d641-4452-9b94-a68b3395ec5d` · 16.05s · 1920x1080 · **12.90 Mbps — the
+highest bitrate of any clip in this episode** · `bitrate_mode: high` · pure t2v ·
+prompt `n1-clip03-v2-DELIVERED-b3437148.txt`, 17,697 chars.
+
+**v1 `ff7fd07c` is now `-ABANDONED-`.** The user rejected it on four notes: Chi's face
+read cartoonish, Kel's outfit, the jollof pronunciation, and *"she picks up a fork and
+then basically pushes it into a kitchen rag."*
+
+### ✅ THE FORK FIX LANDED STRUCTURALLY — THE PLATE BUSINESS IS NOW ONE UNBROKEN SHOT
+
+**This was the important one and the cause was specific, not slop.** The locked set
+element ships a *folded paper towel* on the island beside *a stack of white paper
+plates*; the prompt added a dish towel on Kel's shoulder and called the food only
+"a plate". Three cloth-or-paper objects, two white and flat, on one steel top, and
+nothing saying which held the food. Then **cut 2 was anchored to her first bite**, so
+the action was split exactly where the object could change identity.
+
+| | v1 `ff7fd07c` | **v2 `b3437148`** |
+|---|---|---|
+| cut 1 | 4.75s (14.9x) | **4.62s (11.4x)** |
+| cut 2 | 9.25s (15.5x) — **mid-action** | **11.00s (11.6x) — after the bite** |
+| plate business | 6.32→11.16, **split by a cut** | **6.18→11.00, 4.82s in ONE shot** |
+
+Both cuts are isolated spikes with the next neighbour at 2.6x. **The serve, the fork
+and the first bite now play continuously with no cut anywhere in them**, which is §3's
+movement rule applied to props. Whether the fork lands in the food is the user's eyes.
+
+### ✅ THE SCRIPT IS CLEANER THAN v1 — EXACTLY 26 WORDS
+
+28 tokens transcribed, and **all 28 are accounted for**: 26 scripted plus one extra
+token each time "jollof" was written as two words. **v1 added three real words that
+were not in the script — "Is", "Oh" and "Mmm". v2 added none.** All ten lines, in
+order, both "There's jollof." lines once each to the right mouth.
+
+### ⚠️ "JOE" LANDED. "LOFT" IS UNRESOLVED.
+
+| take | gloss given | transcript |
+|---|---|---|
+| v1 `ff7fd07c` | "JO-loft, final T completely SILENT" | **"Jalef"** |
+| **v2 `b3437148`** | **"JOE LOFT, the T IS SOUNDED"** | **"joe lape"** |
+
+**The first syllable is fixed** — "Ja" became "joe", which is exactly what the user
+asked for. The second reads "lape" rather than "loft". §7 is explicit that a transcript
+cannot verify a pronunciation, and "lape" is not a dictionary word, so Whisper spelled
+it phonetically because nothing matched. **That is a reason to ask, not a verdict.**
+
+**My v1 gloss caused the v1 failure.** "The final T completely SILENT" was my own
+invention, not the user's, and it is what produced "lef". Her words went in verbatim
+this time.
+
+### VOICES — BOTH CONSISTENT WITH v1
+
+**Kel: 114.9 Hz true fundamental** (v1: 117.6), after histogramming out a 2.46x octave
+double exactly as §5a requires. Male, and clearly clear of Dorian. **The one line that
+read female in v1 — "I know." — now reads p25 101.0 Hz, clean male.**
+
+**ChiChi: 177.8 Hz pooled, spread 1.29x** (v1: 178.8). Her element binds again since
+Nia is not in the clip. **Attaching the new face element changed her voice by 1 Hz,
+which is what you would expect — `54b60e1c` is character-category and does not enter
+the voice-binding sort.**
+
+**And the within-clip split repeats, which is now two clips, not one:**
+
+| her line | staged as | p25 | median |
+|---|---|---|---|
+| "Nia asked." | across the room | 195.1 | 207.1 |
+| "There's jollof." | across the room | 176.8 | 178.3 |
+| "Don't do that." | close, across the island | 144.3 | 163.3 |
+| **"Be right about it."** | **close, holding his eye** | **139.7** | **152.4** |
+
+**Her closest line reads 152.4 — six Hz BELOW approved Ep3 Clip 2's 158.4.** Projecting
+across a room is what the scene asks her to do, and it moves her ~50 Hz. §7 says count
+the evidence before naming a finding: **two clips showing the same split is worth more
+than one, and it still flags rather than settles.** The user's ear decides.
+
+### SHARPNESS — DOWN 5–8% ON ALL THREE SHOTS WHILE THE BITRATE WENT UP
+
+| shot | v1 | **v2** |
+|---|---|---|
+| A — Kel's back, Chi in the doorway | 26.4 | **21.2** |
+| B — he turns, the plate, the bite | 71.1 | **65.9** |
+| C — across the island | 60.3 | **55.2** |
+| clip bitrate | 11.18 Mbps | **12.90 Mbps** |
+
+**Reported, not acted on.** Shot B is still inside §2b's 50–67 t2v band, the bitrate
+moved the OTHER way, and §7's standing rule is absolute: *a measurement may FLAG, it
+may never REVERT.* The precedent is this episode's own best clip, which measured as a
+regression on every axis. **These numbers rank nothing.**
+
+### ⚠️ THE HELD BEAT WAS ASKED FOR AND BARELY ARRIVED
+
+The prompt added a held beat of silence after her last line. The tail drops to −42 dBFS
+at 15.70s against a 16.05s clip — **about 0.35s, up from v1's 0.15s.** Better, not the
+beat that was written. No music swell; nothing to duck.
+
+### STILL THE USER'S EYES
+
+Chi's face against the new element, the fork going into the plate, Kel in the charcoal
+henley, whether he reads fifty, her left hand staying hidden, whether she really eats,
+whether her last line reads dry and warm with no smile, and **"joe lape"**.
