@@ -186,3 +186,72 @@ Any trim will be a separate copy, made only after the user picks.
 - ✅ **Step 1 of the §5a protocol is COMPLETE** — a clean, correct reference per woman.
 - ⏸ Step 2 (two short tests per woman, different lines) is written and costed,
   **awaiting the user's go.** Nothing is submitted.
+
+---
+
+## 7. THE STEP-2 TEST SET — built, costed, NOT submitted
+
+Four prompts in `exclusive/prompts/`, one visible speaking character each,
+single locked shot, **zero cuts**, 5 seconds, ~13 words:
+
+| file | speaker | line | what it tests |
+|---|---|---|---|
+| `n1-voicetest-NIA-A-PROPOSED.txt` | NIA | "He **can't answer** a text **after** eleven, but he can **ask** me to stay." | 4 BATH vowels + 2 dropped R's |
+| `n1-voicetest-NIA-B-PROPOSED.txt` | NIA | "I know **better**. I really do. I'm just not doing anything **about it**." | T-flapping (American "bedder" vs British crisp T) |
+| `n1-voicetest-CHI-A-PROPOSED.txt` | CHICHI | "He's not confused. He's **comfortable**. There's a **difference** and you already know it." | rhotic R throughout |
+| `n1-voicetest-CHI-B-PROPOSED.txt` | CHICHI | "You **asked** me the same thing **last** month. My **answer** hasn't changed." | the same BATH vowels as NIA A |
+
+**NIA A and CHI B share `ask`/`asked` and `answer` deliberately.** §5a: *"get both
+samples reading the same text — content and delivery cancel out and the difference
+that remains is identity."* The user hears the identical vowel from both women.
+
+**Every character block is byte-identical to delivered clip `2a5a6765`.** §7 records
+that shortening a prompt broke both voices because the *neighbourhood* around the
+voice line changed, not the pinned text. Only the other woman's blocks and the
+intercut machinery were removed. ChiChi keeps character → skin → age → hair → VOICE
+→ wardrobe → ring → figure, and her left hand stays out of frame.
+
+**All four pass `.claude/hooks/check-higgsfield-params.py`** — the guard already
+requires a voice tag only for whoever actually speaks, so single-woman prompts are
+clean.
+
+### Params — diffed field by field against delivered `2a5a6765`
+
+Identical on every field (`aspect_ratio` 16:9, `resolution` 1080p, `genre` auto,
+`generate_audio` true, `multi_shots` false, `speedramp` auto, `prompt_language` en,
+`model` default, `bitrate_mode` **high**, no `quality` field) except:
+
+| field | delivered C1 | these tests |
+|---|---|---|
+| `duration` | 18 | **5** |
+| `medias` | **`[]` — no audio reference** | `[{value, role: "audio_references"}]` |
+| prompt | the intercut two-hander | one woman, one line |
+
+**C1 carried no audio reference at all** — consistent with the accent being lost there.
+
+### Audio reference media, imported 17 Sep 2026 (free, no generation)
+
+| woman | element | media_id | type |
+|---|---|---|---|
+| **NIA** | `Nia-voice-v2-clear` `12315c68` | `10c50bd1-017a-4d2e-8d90-53e0391ecbb7` | audio/mpeg ✅ |
+| **CHI** | `ChiChi-Canon-Voice-v1` `de50f37f` | `701615f7-c251-4c44-a64f-33b4aa1903cf` | audio/mpeg ✅ |
+
+The server typed both as `audio`, not as images. Note §5a's caveat: the returned
+payload coerced the role `audio_references` into `reference_images` on `51783a9e` —
+check the payload, do not assume the role name survives as sent.
+
+### Cost — preflighted
+
+**45 credits per clip** (`get_cost`, 5s at 1080p). **180 credits for all four.**
+
+### ⚠️ ONE OPEN DESIGN QUESTION — ChiChi's element tags
+
+As written, each test carries **only the speaking woman's** voice element. For Nia
+that changes nothing — `12315c68` sorts first and binds in every approved clip
+anyway. **For ChiChi it reproduces the element configuration of job `a91ed33b`**,
+which §5a records as a 36-credit failure: Chi's element attached alone measured
+**183.9 Hz, the highest she has ever read in a render**, 24 Hz above approved Clip 2.
+
+That test had **no audio reference**, which is the new variable here — so this is not
+a repeat of it. But it is the same element configuration, and §5a says do not
+revisit the binding lever. Flagged for the user, not decided by an agent.
