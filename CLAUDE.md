@@ -1876,6 +1876,44 @@ smaller claim.**
   final T completely SILENT so it ends on a soft f — never 'jaw-left', never
   'joll-OFF' with the stress on the second syllable, never with an audible T."*
   Same for any character name, place or dish the model has no strong prior for.
+- **"CARTOONISH" WAS MISSING FROM EVERY NEGATION SET IN THIS FILE UNTIL 17 SEP 2026,
+  AND THE USER HAD TO SAY IT.** Her note on N1 C3: *"I want Chi's face to not be as
+  cartoonish."* The skin block below has always written against **blotchy, mottled,
+  patchy, waxy, plastic, muddy, grainy, over-smoothed and out of focus** — and every
+  one of those is a *photographic* failure. **None of them names the failure where the
+  render stops being a photograph at all.** That is a different prior and §5's own rule
+  applies: a generic negation loses, so name the exact wrong answer. Going in every
+  prompt, for every face, alongside the existing block: **NEVER cartoonish, NEVER
+  doll-like, NEVER stylised, NEVER illustrated, NEVER animated, NEVER CGI or
+  3D-rendered, NEVER a video-game face, NEVER airbrushed, NEVER beauty-filtered,
+  NEVER enlarged or widened eyes, NEVER a shrunken nose or chin, NEVER exaggerated or
+  perfectly symmetrical features. SHE IS PHOTOGRAPHED, NOT DRAWN.**
+  **The general lesson is worth more than the word.** A negation set can be long,
+  well-tested and still have a whole AXIS missing from it, because every entry on it
+  was written the last time something went wrong in the same direction. **When a new
+  fault arrives, ask which axis it sits on before adding another synonym to an
+  existing line.**
+
+- **TWO OBJECTS OF THE SAME DESCRIPTION ON ONE SURFACE, AND THE PROMPT NAMES NEITHER —
+  THAT IS HOW A FORK ENDS UP IN A RAG.** N1 C3 `ff7fd07c`: the user watched ChiChi
+  pick up a fork and push it into a kitchen cloth, which then read as a plate after the
+  cut. **Nothing in the prompt was random.** The locked SET element puts *"a wooden
+  spoon resting on a folded paper towel"* on the island beside *"a tall stack of white
+  paper plates"*; the prompt then put a DISH TOWEL on Kel's shoulder and referred to
+  the food only as **"a plate"**. Three cloth-or-paper objects, two of them white and
+  flat, on one steel top — and not one sentence saying which one held the food.
+  **Count the objects an element description puts in the scene before writing the
+  action.** A locked set is not just walls and light; its description ships PROPS, and
+  those props compete with yours. Name the one the action uses — *a WHITE PAPER PLATE
+  with the food visibly on it* — negate the rest by name, and park the set's own props
+  at the far end of the surface.
+  **And the cut is the other half of it.** That fork-and-bite action was split across
+  a cut anchored to her first bite, which is precisely where an object is free to
+  change identity. §3's movement rule — *a change revealed by a cut is a continuity
+  break* — applies to PROPS and not only to bodies. **Any single continuous piece of
+  business with an object in it belongs inside ONE shot. Anchor the cut to something
+  else, and say in the prompt that the camera does not cut during that action.**
+
 - **Skin needs its own block, and cover both failure modes.** "ChiChi's skin
   looks unclear" can mean soft and out of focus OR blotchy and uneven, and an
   agent who cannot see the render does not know which. Write against both at
