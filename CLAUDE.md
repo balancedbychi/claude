@@ -24,12 +24,33 @@ The user's words: *"The voice for Chi is literally ChiChi Canon voice V1. It is
 literally the voice we need."* That is the ruling. `180fdb9a` is deleted, it is not
 coming back, and **it is not an agent's business to relitigate either fact.**
 
-> **⚠️ A THIRD ELEMENT NOW EXISTS AND THIS CARD DOES NOT COVER IT.** `list_voices`
-> on 16 Sep 2026 returns **`Nia-Canon-Voice-v2` `b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c`**
-> alongside the two above. It is in no document. **It also sorts BEFORE both** —
-> `b3d2fc9b` < `12315c68` < `de50f37f` — so by the binding rule below, attaching it
-> would make IT the one loaded element, displacing Nia's `12315c68`. Do not put it in
-> a prompt until the user says what it is for. Flagged, not ruled on.
+> ### ⛔ THE THIRD ELEMENT WAS TESTED, 17 Sep 2026. IT IS NOT THE FIX. DO NOT REVISIT IT.
+>
+> **`Nia-Canon-Voice-v2` `b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c`** sorts BEFORE both —
+> `b3d2fc9b` < `12315c68` < `de50f37f` — so attaching it DISPLACES Nia's `12315c68`
+> and binds instead. The user authorised a test; it cost 207 credits and the answer
+> is clean.
+>
+> | clip | Nia's element | shape | British? |
+> |---|---|---|---|
+> | `2a5a6765` C1 | `12315c68` | 18s, two-hander, 9 cuts | ❌ |
+> | `903a4d2b` C1 v2 | **`b3d2fc9b`** | 18s, two-hander, 9 cuts | ❌ |
+> | `94afd8b5` | **`b3d2fc9b`** | **5s, SOLO, 0 cuts** | ✅ |
+> | `51783a9e` | `12315c68` **+ AUDIO REFERENCE** | 18s, two-hander | ✅ (bled onto Chi) |
+>
+> **Two independent one-variable comparisons, not one clip.** Swap the element with the
+> shape held → fails both ways, so **the element is not the cause**. Hold the element and
+> change the shape → the accent flips, so **length/staging is**. The user's words:
+> *"British accent missing on the longer clips."*
+>
+> **NIA'S VOICE ELEMENT REMAINS `12315c68`. The Lock Card does not change.** `b3d2fc9b`
+> is a tested dead end for the accent — like the binding lever in §5a, do not spend on it
+> again.
+>
+> **And row four is the one that matters.** An 18s two-hander DID hold her accent, with
+> `12315c68` plus an **audio reference**. So length is not an absolute barrier — the audio
+> reference is the lever, and §5a's one-woman-per-generation protocol is now supported by
+> the whole table rather than by a single clip.
 
 > **And a note on how this card got re-opened.** On 16 Sep an agent — this one —
 > asked the user whether to delete `180fdb9a`, not knowing it was already gone, and
@@ -1675,6 +1696,20 @@ smaller claim.**
   object is exactly right — the difference is that a ring is a SHAPE the model
   supplies from its own prior, while text is a STRING the model can only get from
   your prompt.
+- **CAPITALISED STAGE DIRECTION NEXT TO A DIALOGUE LINE CAN BE SPOKEN ALOUD.**
+  C1 v2 `903a4d2b` came back with the transcript *"Caught, warm, that was a very
+  long mm."* The prompt line above that beat is
+  `*** HER FACE CHANGES — CAUGHT, WARM, PLEASED AND TRYING NOT TO SHOW IT. ***`
+  — **the model read `CAUGHT, WARM` as dialogue**, and ChiChi's `"...Mm."` was
+  absorbed into the same segment instead of being delivered. 42 words against 41
+  scripted, and two lines lost.
+  **The caps and the `***` markers do not mark text as non-spoken — they make it
+  look like emphasis on a line.** This is the same shape as the Sucré lesson above:
+  putting a string in the prompt is what makes the string available to be rendered.
+  The delivered C1 got this right on byte-identical text, so it is **re-roll
+  variance rather than a structural fault** — but the exposure is real.
+  **Write beat direction in lower-case prose, or move it away from the dialogue
+  line. Never add "do not say this", which supplies the words again.**
 - **Spell unusual words phonetically, and negate the wrong readings.** "Jollof"
   came back mispronounced because the prompt only ever spelled it. Write the
   sound: *"pronounced 'JO-loft' said quickly, stress on the first syllable, the
