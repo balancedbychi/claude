@@ -255,3 +255,66 @@ which §5a records as a 36-credit failure: Chi's element attached alone measured
 That test had **no audio reference**, which is the new variable here — so this is not
 a repeat of it. But it is the same element configuration, and §5a says do not
 revisit the binding lever. Flagged for the user, not decided by an agent.
+
+---
+
+## 8. THE ALT-VOICE A/B — job `94afd8b5`, 45 credits, 17 Sep 2026
+
+**User request: *"could we use the other voice saved for Nia and see what happens?"***
+That is the ruling the Lock Card was waiting for on `Nia-Canon-Voice-v2` `b3d2fc9b`.
+
+**Exactly one variable.** Delivered clip `2a5a6765`'s NIA-A prompt with ONE character
+sequence changed — `12315c68` → `b3d2fc9b`. Verified by diff: one line, one token,
+every other block byte-identical. No audio reference attached (matching C1's
+`medias: []`), so this isolates the ELEMENT swap.
+
+| | value |
+|---|---|
+| words | **14 of 14, verbatim and in order** |
+| transcript | "He can't answer a text after 11 but he can ask me to stay" |
+| duration | 5.04s · 1920x1080 · 6.49 Mbps · `bitrate_mode: high` confirmed in payload |
+| speech | 3.66s of 5.04s (27% silent — fine for a test) |
+| f0 | **median 173.9 Hz** · p25 164.9 · p75 195.1 · p90 216.2 |
+| sharpness | **20.0**, range 18.7–20.7 — FLAT, which rules out motion blur |
+
+### ⚠️ WHAT THESE NUMBERS DO NOT TELL YOU: WHETHER SHE IS BRITISH
+
+**Accent is not measurable.** f0 is pitch, and §5a's `voice_change` finding is
+exactly this distinction — a revoice matched approved Chi to within 4 Hz and the
+user still said it was not her voice, because **pitch matching is not identity and
+it is certainly not accent.** The same holds here. The user's ear is the instrument.
+
+For context only, and **not as a verdict** — §7's standing rule is that a
+measurement may FLAG and may never REVERT:
+
+| | f0 |
+|---|---|
+| element `12315c68` (her established voice) | 183.9 Hz |
+| element `b3d2fc9b` (this one, its single reliable run) | 197.5 Hz |
+| **this render with `b3d2fc9b`** | **173.9 Hz** |
+| N1 test `fc39a8ab`, Nia's L3 | 173.9 Hz |
+| best clip `c52c4a30`, Nia's L3 | 170.2 Hz |
+
+The render lands in the same band as recent Nia renders and ~24 Hz below the element
+it was given, which is the ordinary "the render re-performs the element" effect §5a
+already records for both women. **It is not evidence about the accent.**
+
+Sharpness 20.0 against C1's Nia-bedroom band of 15–16 is the SAME ROOM, which is the
+only sharpness comparison §7 permits — but §7 also says the scale is not calibrated
+for this series and does not rank clips. Quoted, not interpreted.
+
+### Three free failures on the way in, all worth keeping
+
+1. **`params.model: "default"` is a STORAGE ECHO, not an input.** Copying it from
+   the stored payload returns `unknown model "default"`. §4a's rule again: a value
+   visible in a stored payload is a hypothesis, not a caller-controllable field.
+2. **The echo-only keys fail validation as a group** — `width`, `height`, `genre`,
+   `multi_shots`, `multi_shot_mode`, `speedramp`, `prompt_language`. **The accepted
+   set is `prompt`, `model`, `aspect_ratio`, `duration`, `resolution`,
+   `generate_audio`, `bitrate_mode`, plus `declined_preset_id`.**
+3. **The "IN THE DARK" preset gate fired again** and was declined literally.
+   `declined_preset_id` only works alongside the accepted key set — which is why
+   passing it up front failed the first time. Two round trips, nothing charged.
+
+**Prompt: `exclusive/prompts/n1-voicetest-NIA-ALTVOICE-DELIVERED-94afd8b5.txt`.
+Awaiting the user's ear.**
