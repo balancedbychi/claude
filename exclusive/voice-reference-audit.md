@@ -477,3 +477,62 @@ phonetic spelling in every prompt, exactly as "jollof" did.**
    back as a 0.22s "Hmm" 14 dB below everything else. **Non-verbal beats — a held
    sound, a laugh, a breath — belong to the RENDER, not the TTS track.** The
    audio-first workflow covers dialogue; it does not cover vocalisations.
+
+---
+
+## 11. THE 18s DIALOGUE TRACK AND THE PICTURE TEST — 17 Sep 2026
+
+**User: "re-roll the audio gain because it was very broken up… hear the audio as if it
+were playing with the actual video… see if eighteen seconds of the audio alone is
+correct."**
+
+**Gain needed NO re-generation — it is free post-processing.** Every line matched to
+the median line's speech RMS, **−26.5 dBFS**, corrections **−3.3 to +2.1 dB**. Final
+track peak **−4.5 dBFS, zero clipped samples**. The "broken up" was the −1.2 to
+−24.1 dBFS spread, and levelling is a sandbox operation, not a credit.
+
+**Lines 2, 4 and 7 were re-rolled at `speech_rate: 0`** — the three that broke at +50.
+**Line 6's held "...Mm." is taken from C1's OWN RENDER AUDIO**, 12.00–12.95s, because a
+non-verbal beat is not dialogue and TTS gave it 0.22s at 14 dB down.
+
+### ⚠️ PLACING TTS AT A RENDER'S OWN LINE TIMES CAUSES COLLISIONS. CHECK LINE-AGAINST-LINE, NOT JUST THE CLIP END.
+
+C1's ten line starts are 0, 2, 3, 7, 9, 12, 13, 14, 15, 16s. Dropping the TTS lines
+onto them put **3 of 10 on top of each other**:
+
+| # | who | C1 start | TTS len | would end | next at | |
+|---|---|---|---|---|---|---|
+| 4 | CHI | 7.00 | **4.34s** | 11.34 | 9.00 | **OVERLAPS by 2.34s** |
+| 7 | NIA | 13.00 | 1.29s | 14.29 | 14.00 | OVERLAPS by 0.29s |
+| 8 | CHI | 14.00 | 1.74s | 15.74 | 15.00 | OVERLAPS by 0.74s |
+
+**The first assembly checked only the 18.042s boundary and reported "every line fits".
+That was true and useless** — it never compared a line to the NEXT line's start, so it
+passed a track with two women talking over each other. **Always check
+`end(N) < start(N+1)`, not just `end(N) < clip_length`.**
+
+**The fix, and what it costs.** Lines were shifted EARLIER to guarantee a 0.15s gap,
+keeping C1's rhythm where it fitted. Shifts ran up to **−3.19s**. So:
+
+- **The audio-alone file is a fair test of the dialogue.** 41 words, 16.33s speech in
+  18.042s, **9% silence** — it fits the container.
+- **The muxed video is NOT a lip-sync test.** Lines land ahead of the mouths by design.
+  It is for hearing both voices against the picture, nothing more.
+
+### 🔑 MIXING RATES BREAKS TIMING. PICK ONE RATE PER CLIP.
+
+**Line 4 at rate 0 measures 1.15 words/second** against the picture's 3.42 — three
+times too slow, which is the whole 2.34s overlap on its own. §5a already records that
++50 lands on render pace and rate 0 does not. **A track that has to sync to a picture
+must be recorded at ONE rate that matches that picture**; the short lines that break at
++50 need a different fix (re-roll, or re-word) rather than a slower rate.
+
+**Files:** audio `4f2ae640-2569-4cd3-a79f-602efd8b1c60`,
+picture-with-dialogue `94613be4-f32a-4e4a-b934-685f1a3daf63`.
+
+### And a process note — the sandbox is discarded BETWEEN calls
+
+An assembly was split across two `sandbox_exec` calls and the second failed with
+`FileNotFoundError` on files the first had created. §5a already says the sandbox is
+discarded seconds after the command exits. **Download, process and upload must all sit
+in ONE call.**
