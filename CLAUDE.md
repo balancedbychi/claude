@@ -1632,6 +1632,51 @@ hundreds of credits each to discover.
 5. **If the render alters the voice, RESTORE THE APPROVED RECORDING** over the picture
    and handle lip-sync as its own step. Do not re-shoot to chase a voice.
 
+### ✅ PROVEN 17 Sep 2026 — TTS PRODUCES A BRITISH NIA. 0.5 CREDITS. job `91cb6ab8`
+
+**The first time in this project that a named accent has been produced on demand and
+approved by the user.** `seed_audio`, `voice_type: "element"`, `voice_id: 12315c68`, on
+REAL episode dialogue — C1 line 5, *"Good. Because Kel asked if you were coming."*,
+chosen because *asked* is the BATH vowel and the clearest British/American split in
+her lines. The user's verdict: **"So, it was in a British accent."**
+
+| path | element | British? |
+|---|---|---|
+| **TTS `seed_audio`** | `12315c68` | **✅** |
+| element preview, played back | `12315c68` | ✅ |
+| seedance 18s two-hander | `12315c68` | ❌ |
+| seedance 18s two-hander | `b3d2fc9b` | ❌ |
+| seedance 18s two-hander **+ audio reference** | `12315c68` | ✅ |
+
+**PLAYED, her element is British. RE-PERFORMED by a seedance two-hander, the accent
+dies.** §5a already recorded that "her element binds, but the render re-performs it" —
+this is the confirmation that **the re-performance is where the accent is lost**, not
+the element, not the prompt wording, and not the length in itself.
+
+**File: 4.80s, 24kHz stereo PCM, peak −4.2 dBFS, zero clipped samples.**
+Library media id `0b85af96-e401-4b71-be8e-d8f448b9de01`.
+
+### ⚠️ TWO THINGS THE APPROVAL DOES NOT COVER, BOTH MEASURED ON THAT FILE
+
+**1. TTS RUNS AT HALF THE PACE OF A RENDER, AND THAT RESIZES EVERY CLIP.**
+8 words in 4.78s = **1.7 words/second**, against §6's measured **3.4 w/s** in renders.
+If an approved TTS track becomes the dialogue master, the CLIP gets sized to the AUDIO
+— §6's own "fix pacing with the container" — and the container roughly doubles:
+
+| | words | at render pace 3.4 w/s | at TTS pace 1.7 w/s |
+|---|---|---|---|
+| C1's full script | 41 | ~12s speech → shot at 18s, **162 cr** | ~24s speech + boundaries ≈ **28s, ~252 cr** |
+
+**`seed_audio` has a `speech_rate` parameter, −50 to +100, default 0** — so the pace is
+adjustable rather than fixed, at 0.5 credits a test. **Settle the rate BEFORE recording
+an episode's dialogue**, because every clip length and every credit estimate downstream
+depends on it. Do not discover it after the track is approved.
+
+**2. "KEL" TRANSCRIBED AS "CAL".** §7's rule: Whisper writing the RIGHT word proves
+nothing, but writing a DIFFERENT word carries real signal. Scripted `Kel`, transcript
+`Cal`. **It needs the user's ear, not a verdict from the transcript** — but if it is
+wrong, his name needs phonetic spelling in every prompt, exactly as "jollof" did.
+
 **⚠️ AN AUDIO REFERENCE IS NOT A GUARANTEE.** The user's words: it "should not be
 treated as a guarantee that the output preserves the recording exactly." `51783a9e`
 is the proof in both directions — it fixed Nia and it bled her accent onto ChiChi.
