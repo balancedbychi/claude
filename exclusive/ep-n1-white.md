@@ -1071,3 +1071,96 @@ introduces Nia to the group in Clip 4 while ChiChi watches from the staircase"**
 door and C5 is the wine at the window end. This is the `ChiChi-Series-Look` failure on
 set elements: text that cannot be edited and will keep looking authoritative to every
 future session. **Read those sentences as history, never as staging instructions.**
+
+---
+
+## C4 DELIVERED AS TWO CLIPS — jobs `d2d25be2` + `93e87a3a`, 162 credits, 17 Sep 2026
+
+Split on the user's instruction. The break falls where the script hands it to us: line 3
+is marked *(already barefoot, already past her)*, so all the prop business lives in C4a
+and the conversation lives in C4b.
+
+| | job | dur | Mbps | words | cuts |
+|---|---|---|---|---|---|
+| **C4a "Without Knocking"** | `d2d25be2-1ed0-4c9b-b450-ee0f5d08fdaf` | 11.05s | 7.93 | **6/6** | **1 @ 18.0x** |
+| **C4b "The New One"** | `93e87a3a-1835-46f1-8309-924cc06b9fb1` | 7.05s | 11.61 | **12/12** | **2 @ 10.9x, 13.2x** |
+
+Both `bitrate_mode: high`, pure t2v, no `start_image`. Preset gate "IN THE DARK" fired
+on C4a and was declined literally; nothing charged on that attempt.
+
+### ✅ EXACT WORD COUNTS — NO ADDITIONS AT ALL
+
+**6 spoken against 6 scripted. 12 against 12.** Not one extra word, on either clip. C3 v1
+added three, C3 v2 added none, and this holds that. All five lines in order, each to the
+right mouth, and the `"the new"` collision across C4b's lines 1 and 2 held.
+
+### ✅ THE FORK LESSON APPLIED BEFORE THE FACT — AND THE SHOT IS 9.12s LONG
+
+C4a's single cut lands at **9.12s at 18.0x mean**, next neighbour 3.0x. That means the
+door, the coat to the hooks, the bag down and **both sandals placed** all play across
+**9.12 seconds in one unbroken shot**, exactly as written. C3's fork went into a rag
+because a cut split object business; here the prompt said outright that the camera does
+not cut during it, and it did not.
+
+### ✅ THE HELD BEAT FINALLY ARRIVED
+
+C4b's last line ends at 6.22s against a 7.05s clip — **0.83s of tail**, against C3 v2's
+0.35s and C3 v1's 0.07s. Asking for it in the TIMING block *and* in the scene beat is
+what got it.
+
+### ⚠️ SIMONE AND NIA MEASURE CLOSE TOGETHER — FLAG, NOT A VERDICT
+
+| | Simone | Nia | apart |
+|---|---|---|---|
+| **C4a** | 207.1 Hz | 220.7 Hz | **13.6 Hz** |
+| **C4b** | 207.8 Hz | 188.8 Hz | **19.0 Hz** |
+| *approved Ep3 C2, for scale* | *ChiChi 160.0* | *Nia 205.1* | *45.1 Hz* |
+| *rejected Ep3 C5, for scale* | *163.3* | *192.8* | *29.5 Hz* |
+
+**Both gaps sit below the figure §5a names as the signature of "both voices are
+wrong."** That is precisely the convergence Simone's recipe was written against, and it
+is the first time three women have been in this episode's cast.
+
+**But three things cut against reading it as a failure, and §7 forbids acting on it
+either way.** The comparison band comes from a different episode, room and encode, which
+§5a says is unreliable. **Simone's own lines vary by 65 Hz** — "He didn't." reads
+157.3 against 221.5 on her opener — so a pooled median is doing a lot of work. And this
+episode's own best clip measured as a regression on every axis. **A measurement may
+FLAG. It may never REVERT. The user's ear settles whether they sound like two women.**
+
+### SHARPNESS — SAME CAVEAT
+
+| shot | |
+|---|---|
+| C4a-A wide arrival | **32.5** |
+| C4a-B Nia | **13.3** |
+| C4b-A Simone | **52.0** |
+| C4b-B Nia | **29.7** |
+| C4b-C Simone + hold | **19.4** |
+
+Reported, not acted on. §7: sharpness is room-dependent and is a tripwire for a sudden
+fall inside ONE room, never a quality score across shots. **This episode's best clip
+reads 14–33 and the user likes it**, which is the band most of these sit in. C4a's
+7.93 Mbps is the lowest of the episode, but §4a says check sharpness before calling a
+bitrate fall a fault — a dim wide entry simply has less detail to encode, and
+`bitrate_mode: high` is confirmed in the returned payload.
+
+### ⚠️ WHAT NO MEASUREMENT HERE CAN ANSWER
+
+**Nia's British accent.** §7 is explicit that a transcript cannot verify pronunciation,
+and f0 cannot see an accent at all. Both of her C4 lines were anchored as approved TTS
+first (`dd15ed12`, `a62008c3`) precisely so that, if the render flattened her, §5a's
+audio-first rule applies: **restore the approved recording, never re-shoot.**
+
+### SIMONE'S VOICE WAS INVENTED FOR THIS CLIP
+
+`Simone-Series-Look` `59989697` has a **completely empty description** and her voice was
+an unwritten TODO. Her recipe was written here, against both women per §5a's
+Kel-vs-Dorian method, and **her accent was set to General American with no prior
+ruling.** Both are open to correction.
+
+### STILL THE USER'S EYES AND EARS
+
+Nia's accent · whether Simone and Nia read as two different women · Simone's face on her
+first render · whether the shoes are placed without her looking down · whether she reads
+cheerful rather than smug · and Chi at the frame edge with the plate in C4b.
