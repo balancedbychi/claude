@@ -316,5 +316,40 @@ for this series and does not rank clips. Quoted, not interpreted.
    `declined_preset_id` only works alongside the accepted key set — which is why
    passing it up front failed the first time. Two round trips, nothing charged.
 
-**Prompt: `exclusive/prompts/n1-voicetest-NIA-ALTVOICE-DELIVERED-94afd8b5.txt`.
-Awaiting the user's ear.**
+**Prompt: `exclusive/prompts/n1-voicetest-NIA-ALTVOICE-DELIVERED-94afd8b5.txt`.**
+
+### ✅ THE USER'S VERDICT, 17 Sep 2026: **"The voice is british"**
+
+**This is the first render this session in which Nia's accent is present.**
+
+### ⚠️ IT IS ONE CLIP AND THREE VARIABLES MOVED. DO NOT PROMOTE IT YET.
+
+| | C1 `2a5a6765` — accent GONE | this `94afd8b5` — accent PRESENT |
+|---|---|---|
+| voice element | `12315c68` | **`b3d2fc9b`** |
+| length / cuts | 18s, 9 cuts | **5s, 0 cuts** |
+| staging | two women, intercut | **one woman, alone** |
+
+**Any of the three could be responsible.** And there is a counter-data-point already
+in this file: `51783a9e` is an **18s TWO-HANDER** in which the user said *"Nia has her
+correct voice"* — with `12315c68` bound and an audio reference attached. So "short and
+solo" has as strong a claim on this result as the element swap does.
+
+**⛔ THE LOCK CARD DOES NOT CHANGE ON THIS.** Adopting an element off a single
+approving artefact is exactly what cost the 135-credit Clip 5 re-shoot: `de50f37f` was
+approved by ear on a 1-credit TTS render, adopted as Chi's element, and the next render
+made with it was rejected. **One clip is an observation. Nia's voice element remains
+`12315c68` until a controlled test says otherwise.**
+
+### THE CONTROL THAT SETTLES IT — 45 credits, ONE variable
+
+Re-run `n1-voicetest-NIA-ALTVOICE-DELIVERED-94afd8b5.txt` with `12315c68` back in
+place of `b3d2fc9b`. Everything else identical — same 5s, same solo staging, same
+locked set, same line, same params.
+
+| outcome | what it means |
+|---|---|
+| **still British** | the ELEMENT is not the cause. Short + solo staging is. The Lock Card is unchanged and the fix is a staging fix — which is also §5a's one-woman-per-generation hypothesis, arriving by a different road. |
+| **flat / not British** | **`b3d2fc9b` really is the better Nia element.** That is a change to a settled fact and should be ruled on by the user explicitly, per the Lock Card. |
+
+Either answer is worth having, and it is the cheapest decisive test available.
