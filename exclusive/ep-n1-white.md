@@ -880,3 +880,108 @@ beat that was written. No music swell; nothing to duck.
 Chi's face against the new element, the fork going into the plate, Kel in the charcoal
 henley, whether he reads fifty, her left hand staying hidden, whether she really eats,
 whether her last line reads dry and warm with no smile, and **"joe lape"**.
+
+---
+
+# 🗺️ DORIAN'S APARTMENT — THE LOCATION FACT SHEET
+
+**Started 17 Sep 2026 on the user's call: *"we just need to do a better job with the
+entire apartment because there's a staircase that faces the back patio... we should
+probably take the time to build out all of the plates."***
+
+§4b has asked for this sheet since Episode 2 and it has never existed. That is why the
+geography surfaces one clip at a time — three clips are shot and **nobody has ever
+written down what this apartment IS**, only what four corners of it look like.
+
+**Built by reading the five locked element descriptions against each other. Every line
+below is either sourced to an element or marked OPEN.** Nothing here is invented.
+
+## The five locked pieces
+
+| Element | ID | What it covers | Footage? |
+|---|---|---|---|
+| `Dorian-Loft-Night` | `1a162d9b-64d3-4204-9309-6acc43200f5a` | the STAIRCASE end | none this episode |
+| `Dorian-Loft-Window-Night` | `0707edcb-9dbb-46d2-931c-0c865fac7941` | the WINDOW end | **C2 ✅ approved** |
+| `Dorian-Kitchen-Night` | `de2063f2-acee-4300-9669-b1f17bff850f` | the KITCHEN end | **C3 ✅ approved** |
+| `Dorian-Roof-Terrace-Night` | `dc0d5423-d0ba-4028-b78a-a3cbb449c3ce` | the TERRACE, outside the glass | none this episode |
+| *(entry plate `039c921d`, not yet an element)* | — | the FRONT DOOR from inside | none |
+
+**`0707edcb` and `de2063f2` have approved footage, so their plates are FINAL.**
+Re-plating either is §2's competing-element failure. Whatever the map says, those two
+do not get rebuilt.
+
+## What the elements agree on — the durable shell
+
+| | |
+|---|---|
+| **Interior walls & ceiling** | raw board-marked poured concrete, exposed black pipework and track. `0707edcb` says "matching the staircase end exactly"; `de2063f2` says "continuing from the loft". **All three agree.** |
+| **Floor** | polished concrete, everywhere, all three. |
+| **Hour** | late night, ~10pm inside, ~11pm on the terrace. Warm practicals only. Never daylight, never blue-dominant, never coloured LED. |
+| **Crowd** | never more than SIX guests in frame, edges or deep soft focus, never looking at the lens. Terrace: **nobody but the leads, ever.** |
+
+## ⚠️ FOUR CONFLICTS — all found in the write-once text, none of them resolvable by an agent
+
+### 1. THE STAIRCASE AND THE TERRACE — the user's own catch, and the elements really do disagree
+
+- `1a162d9b`: the staircase rises along the **right-hand wall** to "a dark **upper
+  landing**", and "this is one end of a single room — it continues into
+  `Dorian-Loft-Window-Night` **at the far end**."
+- `dc0d5423`, standing on the terrace: "a dark **upper volume with a pitched roof and
+  its own black-framed window** rising behind."
+
+**If the upper volume seen from the terrace IS the landing at the top of the stairs,
+the staircase is on the TERRACE side.** If the staircase is at the far opposite end
+from the windows, that upper volume has to be something else entirely. **Both readings
+are available in the locked text and they cannot both be true.** → **OPEN, user decides.**
+
+### 2. THE EXTERIOR WALL IS CONCRETE FROM INSIDE AND BRICK FROM OUTSIDE
+
+- `0707edcb`, from inside: the windows are "set into **thick concrete** with deep reveals."
+- `dc0d5423`, from outside: the same windows run down "a long weathered **RED-BRICK** wall."
+
+**This is §4a's door-from-both-sides rule applied to a wall**, and it is the one conflict
+with an obvious resolution: a converted warehouse is brick outside and concrete-finished
+inside. **Proposed, needs a yes: ONE wall — exterior face weathered red brick, interior
+face board-marked poured concrete.** Written down, it stops being a contradiction.
+
+### 3. THERE ARE THREE SOFAS, OR ONE SOFA DESCRIBED THREE WAYS
+
+| element | sofa |
+|---|---|
+| `1a162d9b` staircase end | **GREEN leather** three-seat, channelled back, under the stair, one dark jacket on its arm |
+| `0707edcb` window end | **low DARK** sofa against the concrete wall "to one side" — *no side named* |
+| `de2063f2` kitchen | **BLACK leather** in the foreground right, black metal coffee table, potted aloe |
+
+§5: *quantities are absolute or they drift.* **Three sofas is a legitimate answer for a
+big loft. One sofa seen from three angles is not, because the colours disagree.**
+→ **OPEN.**
+
+### 4. GLASS — AND THIS IS THE DANGEROUS ONE
+
+The apartment has glass in at least three places and no map of where glass is and is not:
+the window wall (`0707edcb`), **a tall black-framed INTERIOR glazed screen to the right
+of the kitchen** (`de2063f2`), and the terrace side of the same window wall.
+
+**§4a records Episode 2 asking for a solid wall and getting a GLASS one.** With interior
+glazing genuinely present somewhere in this apartment, every future prompt needs to say
+which surface is glass and which is solid concrete, or the model will keep filling in
+the gap. → the fact sheet must name every surface, once it is settled.
+
+## Gaps with no plate at all
+
+- **The upper landing / top of the stairs** — named in `1a162d9b`, never shown.
+- **A wide establishing view that proves the whole geography** — nothing ties the ends
+  together, which is the root cause of all four conflicts above.
+- **The entry / front door** — plate `039c921d` generated 17 Sep, door approved by the
+  user, **not yet locked as an element** pending this sheet.
+
+## ⚠️ AND THE LOFT ELEMENTS DESCRIBE A DIFFERENT EPISODE'S CLIPS
+
+Both `1a162d9b` and `0707edcb` state in their own write-once text that **"Dorian
+introduces Nia to the group in Clip 4 while ChiChi watches from the staircase"**, and
+`dc0d5423` says **"Clip 5 and Clip 4 sit on opposite sides of one piece of glass."**
+
+**That is "The Caterer", not this episode.** Here C4 is Simone's arrival at the front
+door and C5 is the wine at the window end. This is the `ChiChi-Series-Look` failure on
+set elements: text that cannot be edited and will keep looking authoritative to every
+future session. **Read those sentences as history, never as staging instructions.**
