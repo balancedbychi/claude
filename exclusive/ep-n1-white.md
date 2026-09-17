@@ -465,6 +465,37 @@ days. **Nothing here needs creating. This episode is not blocked on assets.**
 | `Nia-White-Dress-Ep1` | `91da557d-8353-4d90-90c5-72333ff5c713` | clean C1, C2, C4, C5; stained C6 |
 | `ChiChi-Ep1-Look` | `f2c3a3c5-3269-420e-a07d-69723410a094` | C1, C3, C5, C6 |
 | `Simone-Party-Look-v2` | `12a23175-ff6c-44dd-ab98-b21d1ee9609e` | C4, C5 |
+| **`ChiChi-Face-Photoreal`** | **`54b60e1c-2c1e-4258-bc4e-219bf5d0ea13`** | **skin rendering ONLY — see below** |
+
+#### `ChiChi-Face-Photoreal` — created 17 Sep 2026 from the user's own frame
+
+The user's note on C3: *"I want Chi's face to not be as cartoonish."* She supplied a
+frame of approved footage, media `b822725a-e22d-4e66-9541-868eaa42d92c`.
+
+**It is NOT a second identity and it does not supersede `8a8e8eeb`.** It is scoped in
+its own description, so the scope travels with it:
+
+| owns | does NOT own |
+|---|---|
+| how her skin RENDERS — pore texture, freckles and beauty marks across cheeks and nose, specular highlight, flyaway hairs at the part | identity, which stays with `8a8e8eeb` |
+| the anti-cartoon negation set | hands, fingers, **rings**, jewellery, watch, nails |
+| the hair sweep rule | wardrobe, which stays with `f2c3a3c5` |
+| | body proportions, props, background, set |
+
+**⚠️ THE SOURCE FRAME HAS A RING ON HER LEFT HAND.** §2b's standing hypothesis for
+three episodes of wedding rings beating the strongest negation in the file is that
+*the ring is in a reference image, and an image beats text.* Building an unscoped
+element from this frame would have welded that in permanently, because descriptions
+are write-once. **The description therefore excludes hands and jewellery by name**,
+and says so twice. If a ring still appears with this element attached, that is the
+§2b hypothesis CONFIRMED and the fix is a cropped plate, not more wording.
+
+**Why a second character element is safe here when §2 warns against them.** The
+competing-element failure is two elements claiming the same thing. These claim
+different things and each says so in its own text — the same pattern already working
+between `8a8e8eeb` (identity) and `f2c3a3c5` (clothing only) in every delivered
+prompt. **`54b60e1c` is a character-category element, so it does not enter the
+voice-binding sort and changes nothing about which voice binds.**
 
 **Voices, per the Lock Card:** Nia `12315c68-37de-41fe-8766-76ac07bcaf70`,
 ChiChi `de50f37f-82fa-4a70-bdca-52355b2f4ca2`. A third element,
