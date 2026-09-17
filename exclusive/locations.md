@@ -28,7 +28,7 @@ is sourced to an element, to a user ruling, or marked OPEN. Nothing here is inve
 | Nia's bedroom | `Nia-Bedroom-Sunset` | `29de5608-70b2-4f65-b530-f508dabbbd46` | **sunset** | ✅ delivered ×2 |
 | Nia's bedroom | `Nia-Bedroom-Night` | `b6a4c5be-82cb-4328-aa15-d260bc70243e` | **night** | never used |
 | Chi's living room | `ChiChi-Living-Room` | `e032db53-f468-4c24-b667-400c9cd0a0bf` | **sunset** | ✅ delivered |
-| Chi's living room | *(night — being rebuilt, see below)* | — | **night** | — |
+| Chi's living room | **`ChiChi-Living-Room-Night-v2`** | **`9c43c008-b953-4dac-9ab2-9b77929580c3`** | **night** | locked 17 Sep 2026 |
 | Sucré | `Sucré-Coffee-Shop` | `59b95bad-f65a-4e6a-9381-32f5d9ad6638` | day | ✅ delivered ×12 |
 | Neighbourhood café patio | `Neighborhood-Coffee-Shop-Patio` | `7d4274db-55ea-40d8-9b51-79ab4547cb0c` | day | never used |
 
@@ -65,9 +65,19 @@ sky colour — traced back to a room described in words instead of pinned to an 
 
 **`77870e42` appears in ZERO prompts and ZERO delivered files. It has never been used
 once.** `e032db53` appears in five prompts, one delivered. So there was no competition
-to resolve — only a live landmine. **Chi's living room at night is rebuilt to match the
-APPROVED sunset stage map exactly, relit**, which is precisely the relationship Nia's
-two bedroom elements already have. `77870e42` is retired.
+to resolve — only a live landmine.
+
+### ✅ REBUILT AND LOCKED — `ChiChi-Living-Room-Night-v2` `9c43c008-b953-4dac-9ab2-9b77929580c3`
+
+Approved by the user 17 Sep 2026. **The approved sunset stage map exactly, relit for
+night** — L-shaped sectional, round marble table on the dark drum base, bamboo palm in
+the grey ribbed planter, boucle chair and pouf front LEFT, media console and TV on the
+LEFT wall, corner-wrapping windows onto a lit night skyline. Lit by one warm table lamp
+on the console plus city glow, and **the floor-lamp negation is carried verbatim from
+the approved daylight element because it does not relax at night.**
+
+**`e032db53` and `9c43c008` are a PAIR, not a supersession. Neither replaces the other.
+PICK BY HOUR.** `77870e42` is retired.
 
 **The general rule this produced: before resolving a conflict between two elements,
 COUNT THEIR USAGE.** An element with no footage behind it is not a competing authority,
