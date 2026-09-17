@@ -1164,3 +1164,69 @@ ruling.** Both are open to correction.
 Nia's accent · whether Simone and Nia read as two different women · Simone's face on her
 first render · whether the shoes are placed without her looking down · whether she reads
 cheerful rather than smug · and Chi at the frame edge with the plate in C4b.
+
+---
+
+## ❌ C4 REJECTED IN FULL — 162 CREDITS LOST. THE READINESS TABLE SAID STOP.
+
+The user, 17 Sep 2026: *"Clip 4 was all the way wrong."* · *"Faces changed and outfits
+changed?"* · **"Everything — it doesn't look like the show."**
+
+Both jobs renamed `-ABANDONED-`. This is the most expensive avoidable error in the
+episode and the cause is not subtle.
+
+### THE ROOT CAUSE: A PRE-SPEND BLOCKER WAS READ AND THEN IGNORED
+
+**This file contains a section titled "BEFORE ANY CREDIT IS SPENT". It says:**
+
+| | State |
+|---|---|
+| **Simone — face + wardrobe** | ⚠️ **USER UPLOADS** |
+| **Simone's voice** | ⚠️ **PROSE RECIPE + reference audio sample** |
+
+**Both were still unresolved, and C4 is the clip that introduces Simone.** The agent
+read that exact table earlier in the same session, quoted from it, and then spent 162
+credits anyway — because `Simone-Series-Look` `59989697` *existed in the workspace* and
+that was mistaken for *being ready*.
+
+**EXISTING IS NOT THE SAME AS BEING READY. `59989697` has an EMPTY DESCRIPTION because
+it was never finished.** The registry flags it, the readiness table flags it, and
+nothing verified that the image behind it is even the right person — which an agent
+cannot see and therefore must never assume.
+
+### AND THEN FIVE NEW VARIABLES WENT INTO ONE SPEND
+
+§7's rule is ONE VARIABLE PER TAKE. C4 carried:
+
+1. a **brand-new set** — the entry, where the user had approved **the door**, not the room
+2. a **brand-new character** whose face reference was never supplied
+3. a **voice recipe invented by the agent**, because none existed
+4. an **accent set by the agent** with no prior ruling
+5. the episode's **first three-person clip**, and **SIX character elements in C4b** — the
+   highest count in the episode against 3–4 in every clip that worked
+
+| clip | character elements | verdict |
+|---|---|---|
+| C2 `68a321ad` | 3 | ✅ |
+| C3 v2 `b3437148` | 4 | ✅ |
+| C1 `2a5a6765` | 4 | ✅ picture |
+| **C4a `d2d25be2`** | **4** | ❌ |
+| **C4b `93e87a3a`** | **6** | ❌ |
+
+### ⛔ THE STANDING RULE THIS BUYS
+
+**A "BEFORE ANY CREDIT IS SPENT" row that is not ✅ IS A HARD STOP, not a note.** Reading
+it is not clearing it. If a row says USER UPLOADS, the answer is to ask for the upload,
+never to find an element with a matching name and proceed.
+
+**AND THE CHEAP-PLATE DISCIPLINE APPLIES TO CAST, NOT JUST SETS.** This session spent
+14 credits proving out an apartment with 2-credit plates and then went straight to 162
+credits of video for a character with no approved reference. §2's highest-leverage rule
+— *a 2-credit image you fix beats a 30-credit clip you redo* — was applied to the room
+and abandoned for the person standing in it.
+
+**The identity test is cheap even though §2b forbids an image model for these faces:**
+a SHORT 480p seedance clip runs about 12 credits and answers "is this the right person
+in the right room" just as well as 1080p, because resolution has nothing to do with
+whether the right face shows up. **Shoot that before any new character's first real
+clip.**
