@@ -13,7 +13,7 @@ THE COMPLETE DIALOGUE, IN ORDER — THESE TWENTY-ONE WORDS AND NOTHING ELSE:
 
 IMAGE QUALITY: maximum sharpness and clarity throughout. Crisp, finely resolved detail on every face, on fabric texture and on skin. Clean edges, no softness, no haze, no smearing, no motion blur on faces, no heavy grain. Every frame should look like a sharp cinema capture, not a soft upscale.
 
-CAMERA: Panavision Millennium XL2 with Panavision Primo lenses, 50mm, eye-level, f/2.0. *** EXACTLY TWO CUTS, three shots in total. *** Shot A is a WIDE TWO-SHOT holding both of them across the room, and it carries lines 1 to 3 and the whole turn. Shot B cuts in to a MEDIUM on NIA for lines 4 to 7 — he is heard but not seen. Shot C cuts to a MEDIUM TWO-SHOT for lines 8 and 9 and the walk. Each cut lands ON THE FIRST SYLLABLE of the incoming line. No camera movement inside any shot — each is a clean locked framing. No transitions, no dissolves, no wipes, no handheld shake, no whip pans, no snap zooms.
+CAMERA: Panavision Millennium XL2 with Panavision Primo lenses, 50mm, eye-level, f/2.0. *** EXACTLY TWO CUTS, three shots in total. *** Shot A is a WIDE TWO-SHOT holding both of them across the room, and it carries lines 1 to 3 and the whole turn. Shot B is a MEDIUM TWO-SHOT holding BOTH of them, staged in three-quarter and turned INWARD toward each other so both faces stay readable by the camera, and it carries lines 4 to 8. Shot C is a WIDER TWO-SHOT showing the full distance between them, and it carries the walk and line 9. *** THE FIRST CUT LANDS THE MOMENT SHE COMPLETES HER TURN AND COMES BACK ROUND TO FACE HIM. THE SECOND CUT LANDS THE MOMENT HE STARTS TO MOVE TOWARD HER. Both cuts are placed by that ACTION and by nothing else. *** No camera movement inside any shot — each is a clean locked framing. No transitions, no dissolves, no wipes, no handheld shake, no whip pans, no snap zooms.
 
 TIME OF DAY: NIGHT, indoors. The city is dark beyond the window. Warm low interior light from lamps and the city glow behind them, pools of warm light and deep soft shadow between them. Never daylight, never sunset, never an overhead ceiling glare, no coloured LED.
 
@@ -53,20 +53,24 @@ BLOCKING AND PROPS.
 
 EYELINE. They look AT EACH OTHER for every line, turned toward one another in three-quarter to the camera so both faces stay readable. Neither of them ever looks at the camera. During her turn she looks away from him and back to him as she comes round.
 
-SCENE — three shots, two cuts, each cut on the first syllable of the incoming line.
+SCENE — three shots, two cuts. Each cut is placed by the ACTION described below, never by a word.
 
 SHOT A — WIDE TWO-SHOT, both of them, the room between them. He speaks first, quiet and easy, faintly amused: "Turn around."
 She answers immediately, a half-smile, not moving yet: "Why?"
 He answers, still unhurried, telling the plain truth and enjoying it: "Because I asked."
-Then the wordless beat. she turns, one full slow rotation, all the way round and back to facing him. she takes her time and she is enjoying being looked at. the coat stays over her left forearm the whole way round. she comes back to face him and holds his eye. about two and a half seconds, no dialogue in it.
+Then the first wordless beat. she turns, one full slow rotation, all the way round and back to facing him. she takes her time and she is enjoying being looked at. the coat stays over her left forearm the whole way round. she comes back to face him and holds his eye. about two and a half seconds, no dialogue in it.
 
-CUT TO SHOT B — MEDIUM ON NIA, held on her face and shoulders. He is heard but NOT seen in this shot. His voice comes from off camera, one word, appraising and warm: "White."
+the first cut lands the instant she is facing him again.
+
+SHOT B — MEDIUM TWO-SHOT, both faces readable, the room still between them. He speaks, one word, appraising and warm, looking at her: "White."
 She replies, arch, pleased, pushing back a little: "Is that a problem?"
-His voice, off camera, unhurried: "It's a statement."
+He replies, unhurried: "It's a statement."
 She replies, dry, deadpan, giving nothing away: "It's a dress."
+He says one word, flat and certain, and it is not a contradiction of her, it is a correction: "No."
 
-CUT TO SHOT C — MEDIUM TWO-SHOT. He says one word, flat and certain, and it is not a contradiction of her, it is a correction: "No."
-Then the second wordless beat. he crosses the room to her in one unhurried walk and stops SHORT — about a foot away, close enough that she has to tilt her head up to keep his eye. he does not touch her.
+Then the second wordless beat, and the second cut is placed by it. he starts to move, and on that movement the camera cuts.
+
+SHOT C — WIDER TWO-SHOT showing the whole distance between them. he crosses the room to her in one unhurried walk and stops SHORT — about a foot away, close enough that she has to tilt her head up to keep his eye. he does not touch her. she stays exactly where she is and lets him come.
 Then, quietly, looking down at her, entirely sincere and entirely amused: "That's a dare."
 The clip ends there, on the two of them a foot apart, not touching.
 
@@ -78,14 +82,14 @@ LINE BY LINE, WHO SPEAKS WHAT — ONLY THESE NINE LINES EXIST IN THE ENTIRE CLIP
 "Turn around." = DORIAN. NEVER give Nia this line.
 "Why?" = NIA. NEVER give Dorian this line.
 "Because I asked." = DORIAN. NEVER give Nia this line.
-"White." = DORIAN. *** CAREFUL: Nia says the word "White" in a different clip of this episode. Here it is DORIAN'S, spoken off camera while we are looking at her face. NEVER give it to Nia. ***
+"White." = DORIAN. *** CAREFUL: Nia says the word "White" in a different clip of this episode. Here it is DORIAN'S and he says it while looking at her, and her mouth stays closed and still. NEVER give it to Nia. ***
 "Is that a problem?" = NIA. NEVER give Dorian this line.
 "It's a statement." = DORIAN. NEVER give Nia this line.
 "It's a dress." = NIA. *** CAREFUL: this line and the line before it are nearly identical in shape — "It's a statement" is HIS, "It's a dress" is HERS. Never swap them, never give both to one of them. ***
 "No." = DORIAN. NEVER give Nia this word.
 "That's a dare." = DORIAN. NEVER give Nia this line.
 
-WHENEVER DORIAN SPEAKS IN SHOT B HE IS OFF CAMERA and only Nia is in frame; her mouth stays completely closed and still through both of his off-camera lines. In shots A and C, when one of them speaks the other's mouth stays completely closed and still.
+BOTH OF THEM ARE VISIBLE IN EVERY SHOT of this clip. When one of them speaks, the other's mouth stays COMPLETELY CLOSED AND STILL through the whole line. Six of the nine lines are DORIAN'S and three are NIA'S.
 
 AUDIO: only the exact English words given above, twenty-one words in total, and no others. Nia's voice is warm, low and British-accented. Dorian's voice is deep, round, warm and chesty, General American, unhurried. The two voices are CLEARLY DIFFERENT and are never confused, swapped, blended or exchanged. Dorian never speaks in Nia's voice and Nia never speaks in Dorian's. NO other voices exist in this clip.
 
