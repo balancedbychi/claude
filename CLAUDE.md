@@ -24,6 +24,56 @@ The user's words: *"The voice for Chi is literally ChiChi Canon voice V1. It is
 literally the voice we need."* That is the ruling. `180fdb9a` is deleted, it is not
 coming back, and **it is not an agent's business to relitigate either fact.**
 
+## 🎙️ THE CHARACTER SPEECH RECORD — CHECK THESE THREE THINGS SEPARATELY, EVERY TIME
+
+**The user's ruling, 17 Sep 2026. Language, accent and voice identity are THREE
+DIFFERENT CONTROLS and every prompt in this project has only ever specified the third.**
+
+> *"British and American English are the same language with different accents.
+> Selecting 'English' alone won't secure Nia's British accent."*
+
+| | **NIA** | **CHICHI** |
+|---|---|---|
+| **Language** | English | English |
+| **Accent** | **BRITISH** | **GENERAL AMERICAN** |
+| **Voice identity** | `Nia-voice-v2-clear` `12315c68-37de-41fe-8766-76ac07bcaf70` | `ChiChi-Canon-Voice-v1` `de50f37f-82fa-4a70-bdca-52355b2f4ca2` |
+| **Approved example** | element preview, **confirmed British by ear 17 Sep 2026** | element preview, **confirmed American by ear 17 Sep 2026** |
+| **Audio-reference media id** | `10c50bd1-017a-4d2e-8d90-53e0391ecbb7` | `701615f7-c251-4c44-a64f-33b4aa1903cf` |
+
+**They share a language and differ on accent, so language is not the lever — and
+naming the accent in prose is not a lever either.** Three episodes of prompts have
+carried "British-accented" in Nia's block and she still rendered flat. **Adding the
+words again is the music-swell failure on a third axis.**
+
+### ✅ VERIFIED 17 Sep 2026: THERE IS NO LANGUAGE SELECTOR ON THIS CONNECTION
+
+The user flagged that Higgsfield documents language selection in Seed Speech but that
+availability through this connection needed checking. It was checked with
+`models_explore`, and the parameter is **not exposed**:
+
+| model | every parameter actually available |
+|---|---|
+| `seed_audio` | `format` · `sample_rate` · `speech_rate` · `loudness_rate` · `pitch_rate` · `voice_type` · `voice_id` |
+| `text2speech_v2` (including `variant: "seed_speech"`) | `variant` · `voice_type` · `voice_id` |
+
+**Neither carries a language or accent field.** So both properties can only arrive
+through **the voice element** and **the text itself** — there is nothing to set.
+**Do not tell the user a language can be selected here, and do not go looking for the
+parameter again.** `seed_audio` does accept an `audio_references` media role, which is
+the only steering input that exists.
+
+### THE VERIFICATION, AND IT RUNS BEFORE EVERY SUBMISSION
+
+Name all three out loud for every character who speaks — not "her voice tag is in":
+
+1. **Language** — the line is written in the language it is meant to be spoken in.
+2. **Accent** — which accent this character's approved example carries.
+3. **Voice identity** — the exact element ID above, checked against this table and
+   against `list_voices`, never against memory.
+
+**Check the ACTUAL inputs, not the intent.** §5a's whole history is prompts that
+said the right thing while the inputs said something else.
+
 > ### ⛔ THE THIRD ELEMENT WAS TESTED, 17 Sep 2026. IT IS NOT THE FIX. DO NOT REVISIT IT.
 >
 > **`Nia-Canon-Voice-v2` `b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c`** sorts BEFORE both —
@@ -103,6 +153,10 @@ Before every `generate_video`, check all six and say the result out loud:
 4. ChiChi's `de50f37f` tag is in the prompt (if she speaks)
 5. `180fdb9a` appears NOWHERE in the prompt — it is deleted and points at nothing
 6. ChiChi's block order is character → skin → age → hair → VOICE → wardrobe → ring
+7. **LANGUAGE, ACCENT and VOICE IDENTITY named separately for every speaker** — see
+   THE CHARACTER SPEECH RECORD above. "Her voice tag is present" covers only the third.
+8. **If the accent matters in this clip, is there an APPROVED RECORDING to anchor it?**
+   0.5 credits of TTS beats discovering the accent is gone in a 162-credit render.
 
 **And if the clip is being shot to fix CHICHI'S VOICE, stop — it is the wrong tool.
 Revoice the footage you have. See the banner above.**
@@ -1556,9 +1610,50 @@ four:
 confirms that one clip worked. Repeated successes for BOTH women establish a usable
 workflow.** Nothing here gets promoted from hypothesis to method without that.
 
+### 🔑 AUDIO-FIRST — APPROVE THE SPEECH, THEN BUILD THE VIDEO AROUND IT
+
+**The user's ruling, 17 Sep 2026, and it reverses the order this project has always
+worked in.** Every episode so far has generated picture-and-sound together and then
+judged the voice afterwards. That is why three episodes of accent failures cost
+hundreds of credits each to discover.
+
+> *"Nia's approved British audio is the anchor. Repeatedly adding 'British accent' to
+> a long two-person prompt gives you less control than preserving speech you have
+> already approved."*
+
+**`seed_audio` TTS with her element costs 0.5 CREDITS** — preflighted 17 Sep 2026,
+`voice_type: "element"`, `voice_id: 12315c68`. **That is 324x cheaper than the 162-credit
+18s render that answers the same question.** Hear the line before you shoot it.
+
+1. **Generate the line as TTS with that character's element.** 0.5 credits.
+2. **The user listens and approves it.** Accent, identity, pacing. No render yet.
+3. **Keep the approved file.** It is the dialogue track for the episode, not a test.
+4. **Build the video around it**, one woman per generation, her reference attached.
+5. **If the render alters the voice, RESTORE THE APPROVED RECORDING** over the picture
+   and handle lip-sync as its own step. Do not re-shoot to chase a voice.
+
+**⚠️ AN AUDIO REFERENCE IS NOT A GUARANTEE.** The user's words: it "should not be
+treated as a guarantee that the output preserves the recording exactly." `51783a9e`
+is the proof in both directions — it fixed Nia and it bled her accent onto ChiChi.
+**Attaching a recording steers the render; it does not play the recording.**
+
+### ⛔ THIS SUPERSEDES "AN ACCENT FAULT IS A RENDER FAULT. ONLY A RE-SHOOT FIXES IT."
+
+That line is above, under `voice_change`, and **the mechanism it describes is still
+true**: a revoice rides on the render's own articulation, so it can swap timbre and
+never pronunciation. **The conclusion drawn from it was too narrow.** A re-shoot is
+not the only fix — it was only the only fix *within* the revoice framing. **Replacing
+the whole dialogue track with an approved recording is not a revoice**, inherits no
+articulation from the bad render, and costs no re-roll of picture, wardrobe or faces.
+
+**So when an accent is wrong: restore the approved audio. Never re-shoot.** That is
+the same move §5a already makes for ChiChi's voice, one level up — and the C1 v2
+result is what proves a re-shoot does not recover it.
+
 ### THE TEST PROTOCOL — run this before rebuilding any episode
 
-The user's workflow, 16 Sep 2026. Do not skip to step 4.
+The user's workflow, 16 Sep 2026, now sitting UNDER the audio-first rule above. Do not
+skip to step 4.
 
 1. **Build a clean reference for each woman.** Only her voice, the intended accent,
    natural delivery. No music, no second speaker, no room tone from a scene.
