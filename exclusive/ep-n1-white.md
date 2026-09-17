@@ -988,6 +988,41 @@ glazing genuinely present somewhere in this apartment, every future prompt needs
 which surface is glass and which is solid concrete, or the model will keep filling in
 the gap. → the fact sheet must name every surface, once it is settled.
 
+## ⛔ SUPERSEDED CLAUSE — THE TERRACE EDGE IS GLASS, NOT BRICK. USER'S RULING, 17 Sep 2026
+
+> *"Instead of the terrace having a brick railing to see over the edge, it should be a
+> glass railing similar to previous scenes."*
+
+**`Dorian-Roof-Terrace-Night` `dc0d5423` says "a brick parapet at the terrace edge" in
+its own write-once description and that text can never be edited or deleted.** This is
+the same permanent-contradiction shape as Episode 3's cup level: the only fix is to
+**override it in EVERY prompt that uses the terrace, forever**, and to record it here.
+
+| | |
+|---|---|
+| **The element says** | a brick parapet at the terrace edge |
+| **The truth is** | full-height CLEAR TOUGHENED GLASS panels, slim BLACK METAL posts at the joints, slim BLACK METAL top rail — you see the city and the drop straight THROUGH it |
+| **Why that railing** | it matches the idiom the building is already built in: black-framed windows, slim black pipe stair handrail, black pendant rail. **There is no written glass-railing precedent anywhere in this repo or in any element** — the user is describing footage, and an agent cannot see it, so this is a judgement call open to correction |
+| **The string bulbs** | now run from the black TOP RAIL, not from a parapet |
+| **The brick** | belongs ONLY to the vertical face of the building and stops there. It never continues around the terrace edge |
+
+**Negate it by name every time, per §5:** no brick parapet, no masonry balustrade, no
+low solid wall, no concrete upstand, no stone coping, no mesh, no cable balustrade, no
+timber rail, no planter wall.
+
+**⚠️ AND §2b'S RING LESSON APPLIES DIRECTLY.** *An image beats text every time.* If the
+locked plate behind `dc0d5423` shows a brick parapet, attaching that element and writing
+"NOT brick" is exactly the failure the wedding ring taught us. The re-roll therefore
+**scopes `dc0d5423` in prose** — it supplies deck, furniture, brick building face, sky
+and grade, and explicitly NOT the terrace edge. **If brick comes back anyway, that is
+the image-beats-text hypothesis CONFIRMED on a second object, and the fix is to drop the
+attachment, never a harder sentence.**
+
+**And this adds a fourth place glass exists.** Conflict 4 below is the glass map, and
+the terrace edge now joins the window wall, the mezzanine window and the kitchen's
+interior glazed screen. **More glass makes the map more necessary, not less** — §4a's
+record is Episode 2 asking for a solid wall and getting a glass one.
+
 ## Gaps with no plate at all
 
 - **The upper landing / top of the stairs** — named in `1a162d9b`, never shown.
