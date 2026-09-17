@@ -453,6 +453,10 @@ days. **Nothing here needs creating. This episode is not blocked on assets.**
 | `Dorian-Hallway-Night` | `6acd0d74-4da4-4aa4-bad6-4505bf5f26b2` | C4 (from inside), C6 |
 | `Dorian-Lift-Lobby-Night` | `8c54db0d-e65b-4514-9947-7cdccbe2e0c3` | C6 — lift doors, framed close, same corridor |
 | **`Dorian-Loft-Entry-Night`** | **`9ced01df-06ff-40ef-b14a-b677870aac27`** | **C4 — the front door FROM INSIDE + the shoe wall. Locked 17 Sep 2026** |
+| **`Dorian-Loft-Wide-Night`** | **`d2ab7a6f-312d-494d-834e-5906b01eb505`** | **MASTER GEOGRAPHY — the whole room in one frame. Not a shooting set** |
+| **`Dorian-Loft-Mezzanine-Night`** | **`48edf8ab-9e3b-453c-b6bc-ae8f2c895c65`** | **the upper landing. Matched pair with the terrace** |
+| **`Dorian-Roof-Terrace-v2`** | **`a6c1e4ca-f936-4d9a-adae-82ce86832660`** | **the terrace WITH THE GLASS RAILING — ⛔ use this, never `dc0d5423`** |
+| ~~`Dorian-Roof-Terrace-Night`~~ | ~~`dc0d5423-d0ba-4028-b78a-a3cbb449c3ce`~~ | ⛔ **RETIRED 17 Sep 2026** — its write-once text says "a brick parapet at the terrace edge" and the user ruled the edge is GLASS. Superseded by `a6c1e4ca` for all new work |
 
 ### Characters and wardrobe
 
@@ -954,10 +958,15 @@ is the one fact neither element states outright, and it is the fact that makes t
 - `0707edcb`, from inside: the windows are "set into **thick concrete** with deep reveals."
 - `dc0d5423`, from outside: the same windows run down "a long weathered **RED-BRICK** wall."
 
-**This is §4a's door-from-both-sides rule applied to a wall**, and it is the one conflict
-with an obvious resolution: a converted warehouse is brick outside and concrete-finished
-inside. **Proposed, needs a yes: ONE wall — exterior face weathered red brick, interior
-face board-marked poured concrete.** Written down, it stops being a contradiction.
+**This is §4a's door-from-both-sides rule applied to a wall.**
+
+### ✅ CLOSED 17 Sep 2026 — ONE WALL, TWO FACES
+
+**Exterior face weathered RED BRICK. Interior face board-marked POURED CONCRETE. One
+wall.** Which is simply what a converted warehouse is. Confirmed visually in the
+approved terrace plate `93137899` and written into `Dorian-Roof-Terrace-v2`
+`a6c1e4ca`. **The brick belongs ONLY to that vertical building face and never continues
+around the terrace edge.**
 
 ### 3. THERE ARE THREE SOFAS, OR ONE SOFA DESCRIBED THREE WAYS
 
@@ -983,10 +992,31 @@ The apartment has glass in at least three places and no map of where glass is an
 the window wall (`0707edcb`), **a tall black-framed INTERIOR glazed screen to the right
 of the kitchen** (`de2063f2`), and the terrace side of the same window wall.
 
-**§4a records Episode 2 asking for a solid wall and getting a GLASS one.** With interior
-glazing genuinely present somewhere in this apartment, every future prompt needs to say
-which surface is glass and which is solid concrete, or the model will keep filling in
-the gap. → the fact sheet must name every surface, once it is settled.
+**§4a records Episode 2 asking for a solid wall and getting a GLASS one.**
+
+### ✅ THE GLASS MAP — CLOSED 17 Sep 2026, WITH ONE ITEM STILL PARTIAL
+
+**GLASS EXISTS IN EXACTLY FOUR PLACES AND NOWHERE ELSE:**
+
+| # | where | what | element |
+|---|---|---|---|
+| 1 | the FAR END WALL | full-height black-framed industrial steel windows, fine multi-pane grid, across the whole width. Reads BLACK at night | `0707edcb` inside · `a6c1e4ca` outside |
+| 2 | the MEZZANINE | ONE tall black-framed window, same grid, facing the terrace. Unlit, reads black | `48edf8ab` inside · `a6c1e4ca` outside |
+| 3 | the TERRACE EDGE | clear toughened panels, slim black posts, slim black top rail | `a6c1e4ca` |
+| 4 | the KITCHEN | a tall black-framed **INTERIOR** glazed screen | `de2063f2` |
+
+**EVERY OTHER SURFACE IN THIS APARTMENT IS SOLID.** The front door is solid matte black
+steel with no vision panel. The wall it sits in is solid concrete. Every interior wall
+is board-marked poured concrete. The terrace edge is glass but the building face behind
+it is brick.
+
+**⚠️ ITEM 4 IS STILL PARTIAL AND THAT IS MY ERROR.** `de2063f2` places the interior
+glazed screen "to the RIGHT" relative to *its own framing*, which does not locate it in
+the room. Worse, **the wide-plate prompt negated it by name** — "never a glass partition
+or glazed screen anywhere in this view" — which contradicted an approved locked element.
+The user approved the wide anyway, so either it was out of shot or the model kept it.
+**Until that screen is located, name it explicitly in any kitchen prompt and do not
+negate glazing wholesale in a wide.**
 
 ## ⛔ SUPERSEDED CLAUSE — THE TERRACE EDGE IS GLASS, NOT BRICK. USER'S RULING, 17 Sep 2026
 
