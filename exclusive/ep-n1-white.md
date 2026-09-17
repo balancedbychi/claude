@@ -452,6 +452,7 @@ days. **Nothing here needs creating. This episode is not blocked on assets.**
 | `Dorian-Kitchen-Night` | `de2063f2-acee-4300-9669-b1f17bff850f` | C3 |
 | `Dorian-Hallway-Night` | `6acd0d74-4da4-4aa4-bad6-4505bf5f26b2` | C4 (from inside), C6 |
 | `Dorian-Lift-Lobby-Night` | `8c54db0d-e65b-4514-9947-7cdccbe2e0c3` | C6 — lift doors, framed close, same corridor |
+| **`Dorian-Loft-Entry-Night`** | **`9ced01df-06ff-40ef-b14a-b677870aac27`** | **C4 — the front door FROM INSIDE + the shoe wall. Locked 17 Sep 2026** |
 
 ### Characters and wardrobe
 
@@ -931,8 +932,22 @@ do not get rebuilt.
 
 **If the upper volume seen from the terrace IS the landing at the top of the stairs,
 the staircase is on the TERRACE side.** If the staircase is at the far opposite end
-from the windows, that upper volume has to be something else entirely. **Both readings
-are available in the locked text and they cannot both be true.** → **OPEN, user decides.**
+from the windows, that upper volume has to be something else entirely.
+
+### ✅ RESOLVED 17 Sep 2026 — BOTH ARE TRUE, AND A MEZZANINE IS WHY
+
+The two statements only fight if the landing sits directly **above** the stairs. It does
+not. **The landing is a MEZZANINE that runs back over the NEAR HALF of the room and
+stops**, leaving the far half open to full height.
+
+| that gives | and it satisfies |
+|---|---|
+| the staircase at the far end from the windows | `1a162d9b`'s "one end of a single room… continues into the window end at the far end" |
+| a dark upper volume with its own window, rising behind the glass | `dc0d5423`'s view from the terrace |
+| **standing on those stairs you look down the length of the loft, through the glass, at the patio** | the user's own note: *"there's a staircase that faces the back patio"* |
+
+**Nothing in the locked text is overridden — this reading uses all of it.** The mezzanine
+is the one fact neither element states outright, and it is the fact that makes them agree.
 
 ### 2. THE EXTERIOR WALL IS CONCRETE FROM INSIDE AND BRICK FROM OUTSIDE
 
@@ -952,9 +967,15 @@ face board-marked poured concrete.** Written down, it stops being a contradictio
 | `0707edcb` window end | **low DARK** sofa against the concrete wall "to one side" — *no side named* |
 | `de2063f2` kitchen | **BLACK leather** in the foreground right, black metal coffee table, potted aloe |
 
-§5: *quantities are absolute or they drift.* **Three sofas is a legitimate answer for a
-big loft. One sofa seen from three angles is not, because the colours disagree.**
-→ **OPEN.**
+§5: *quantities are absolute or they drift.*
+
+### ✅ RESOLVED BY THE USER, 17 Sep 2026: THERE ARE THREE SOFAS AND THEY ARE DIFFERENT OBJECTS.
+
+**Green leather under the stair · black leather at the kitchen · low dark at the window
+end.** All three locked descriptions are correct as written and none needs overriding.
+**Every prompt that shows more than one zone must name which sofa it means**, because
+the only thing keeping them apart is that each one's colour is written down — the same
+failure shape as the two figures in §3.
 
 ### 4. GLASS — AND THIS IS THE DANGEROUS ONE
 
