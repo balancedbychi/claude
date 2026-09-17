@@ -390,6 +390,7 @@ action, never the container alone.
 | Clip | Job | Credits | Measured |
 |---|---|---|---|
 | **C1 "Bold"** | `2a5a6765-7f51-493a-8816-5961f95e3936` | 162 | 18.05s · 1920x1080 · 9.66 Mbps · **9/9 cuts** · **41/41 words verbatim in order** · sharpness alternates 15–16 / 23–26 by room, clip mean 20.3 |
+| **C2 "A Dare"** | `68a321ad-5cec-4d23-81de-5fca2e8b1b01` | 126 | 14.04s · 1920x1080 · 7.90 Mbps · **2/2 cuts** (6.25s, 10.38s) · **21/21 words verbatim in order** · sharpness 27.3, range 15.2–34.2 — against the 8s test's 28.7 in the SAME ROOM, so no fall |
 
 Prompt: `exclusive/prompts/n1-clip01-DELIVERED-2a5a6765.txt`. Awaiting the user's eyes.
 
@@ -547,3 +548,59 @@ should land — it must not be written into the prompt as a quoted word.
 
 **Prompt: `exclusive/prompts/n1-clip02-TEST8s-DELIVERED-09f37a07.txt`. Awaiting the
 user's eyes on Dorian's look, the height, the no-touch, the tone, and Nia's accent.**
+
+
+---
+
+## C2 DELIVERED — job `68a321ad`, 126 credits, 17 Sep 2026
+
+Prompt: `exclusive/prompts/n1-clip02-DELIVERED-68a321ad.txt`. **Dorian's first render
+in this episode.**
+
+### ✅ THE CUT-ANCHOR FIX WORKED
+
+The 8s test duplicated "No." because the prompt anchored a cut to that word. Both cuts
+here were anchored to **ACTION** — the first the moment she completes her turn, the
+second the moment he starts to move. **21 of 21 words, nine lines, in order, nothing
+duplicated, and both cuts landed** at 28.7x and 28.2x mean frame difference.
+
+**Anchor cuts to movement, never to a quoted word.** That is now proven in both
+directions: word-anchored duplicated it, action-anchored did not.
+
+### ✅ ATTRIBUTION HELD ON 8 OF 9 — INCLUDING BOTH COLLISION PAIRS
+
+| line | p25 | spread | reads |
+|---|---|---|---|
+| "Turn around." | 80.7 | 1.95x | male ✅ |
+| **"Why?"** | **78.0** | **2.57x** | **AMBIGUOUS — see below** |
+| "Because I asked." | 83.0 | 2.65x | male ✅ |
+| "White." | 80.0 | **1.31x — clean** | male ✅ |
+| "Is that a problem?" | 168.4 | **1.13x — clean** | female ✅ |
+| "It's a statement." | 80.2 | 2.48x | male ✅ |
+| "It's a dress." | 140.4 | **1.25x — clean** | female ✅ |
+| "No." | 87.5 | 2.11x | male ✅ |
+| "That's a dare." | 77.1 | 1.94x | male ✅ |
+
+**Both collision pairs landed.** "White." went to Dorian despite Nia saying the same
+word elsewhere in the episode, and the "statement"/"dress" pair split correctly.
+
+### ⚠️ "WHY?" IS A FLAG, NOT A FINDING
+
+It reads **p25 78 Hz but median 165 Hz — a 2.57x spread**, and §5a puts anything above
+~1.4x below the reliability floor. At that spread the reading is ambiguous **in both
+directions**: 78 could be a sub-harmonic under a female voice, or 165 could be octave
+doubling above a male one. **The measurement cannot call it and §7 forbids acting on
+it. The user's ear settles whether "Why?" is in Nia's voice.**
+
+### A caveat on all the per-line numbers in this clip
+
+**Every Whisper segment came back exactly 1.00s** except the first. That is Whisper's
+segment grid, not real line boundaries — so each pitch window may include silence or a
+neighbouring speaker. **Treat per-line f0 here as indicative only**, and prefer the
+lines whose spread is under 1.4x, which are the four marked clean above.
+
+### Still the user's eyes
+
+Dorian's look on his first render, the height difference, whether he stops without
+touching her, whether "That's a dare" reads sincere rather than a leer, and Nia's
+accent.
