@@ -423,3 +423,57 @@ Card change and it is §5a's one-woman-per-generation hypothesis arriving by a
 different road.
 
 **Awaiting the user's ear.**
+
+---
+
+## 10. THE FULL C1 DIALOGUE AS TTS — 10 lines, **1.8 credits**, 17 Sep 2026
+
+All ten C1 lines at `speech_rate: 50`, each woman on her own element.
+**Confirmed from `transactions`, not estimated: 0.1–0.3 per line, 1.8 total.**
+Against **162 credits** for one 18s render — **90x cheaper for the whole scene.**
+
+Assembled scene track, 0.2s between lines per §6: **14.42s** (12.62s speech + 1.8s
+gaps), **3.25 w/s**. Library media `a7b9ca02-5879-484e-94eb-363074fc4fa3`.
+**It fits INSIDE C1's 18s container with headroom** — so +50 does not merely match
+render pace, it leaves room for the wordless beats.
+
+| # | who | job | result |
+|---|---|---|---|
+| 1 | NIA | `dbeb9abb` | ✅ verbatim |
+| **2** | CHI | `c5f029cb` | ❌ "What word?" → **"What we're"**, 0.40s |
+| 3 | NIA | `1f428322` | ✅ verbatim |
+| **4** | CHI | `407d8ee9` | ❌ **dropped "Okay."** |
+| 5 | NIA | `1fd529ff` | ⚠️ **"Cal"** again |
+| **6** | CHI | `bc52a6fc` | ❌ "...Mm." → **"Hmm." at −24.1 dBFS**, 0.22s |
+| **7** | NIA | `26dd2dd0` | ❌ **invented "I think"** |
+| 8 | CHI | `0c1b14de` | ✅ verbatim |
+| 9 | NIA | `5afec74f` | ✅ but 0.25s |
+| 10 | CHI | `7f7b5685` | ⚠️ peaks **−1.2 dBFS** vs −6 to −10 elsewhere |
+
+### 🔑 EVERY FAILURE IS A SHORT LINE. THE LONG ONES ALL CAME BACK VERBATIM.
+
+Lines 1, 3, 5 and 8 — the four longest — transcribed exactly. **The two-word,
+one-word and non-verbal beats are where `speech_rate: 50` breaks**, because it is
+compressing lines that have no slack to give. **Do not apply one rate to a whole
+script.** Long lines take +50; short lines need 0, or a re-roll, or they come from
+the render.
+
+### ⛔ CORRECTION: THE "KEL"/"CAL" FLAG IS BACK ON
+
+§5a recorded that the +50 transcript read "Kel" and therefore "softened" the flag.
+**A second +50 render of the SAME LINE at the SAME RATE reads "Cal".** Same config,
+different result — so that was **re-roll variance, not a fix**, and the earlier
+softening was wrong. Under §7, a transcript flipping between the right word and a
+different word across identical runs is itself the signal. **Kel's name needs
+phonetic spelling in every prompt, exactly as "jollof" did.**
+
+### Two things that block this becoming a dialogue master
+
+1. **Levels are inconsistent** — peaks span **−1.2 to −24.1 dBFS**. Per-line level
+   matching is required before assembly, measured on each line's own speech (the
+   §5a revoice recipe already has the method). No normalisation was applied here:
+   the only processing was a conservative head/tail trim at −45 dBFS.
+2. **The held "...Mm." does not survive TTS.** It is a non-verbal beat, and it came
+   back as a 0.22s "Hmm" 14 dB below everything else. **Non-verbal beats — a held
+   sound, a laugh, a breath — belong to the RENDER, not the TTS track.** The
+   audio-first workflow covers dialogue; it does not cover vocalisations.
