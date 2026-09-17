@@ -1667,15 +1667,35 @@ If an approved TTS track becomes the dialogue master, the CLIP gets sized to the
 |---|---|---|---|
 | C1's full script | 41 | ~12s speech → shot at 18s, **162 cr** | ~24s speech + boundaries ≈ **28s, ~252 cr** |
 
-**`seed_audio` has a `speech_rate` parameter, −50 to +100, default 0** — so the pace is
-adjustable rather than fixed, at 0.5 credits a test. **Settle the rate BEFORE recording
-an episode's dialogue**, because every clip length and every credit estimate downstream
-depends on it. Do not discover it after the track is approved.
+**`seed_audio` has a `speech_rate` parameter, −50 to +100, default 0.**
+**✅ TESTED 17 Sep 2026, job `445011d0`, 0.3 credits: `speech_rate: 50` lands TTS on
+render pace almost exactly.** Same element, same line, only the rate changed:
 
-**2. "KEL" TRANSCRIBED AS "CAL".** §7's rule: Whisper writing the RIGHT word proves
-nothing, but writing a DIFFERENT word carries real signal. Scripted `Kel`, transcript
-`Cal`. **It needs the user's ear, not a verdict from the transcript** — but if it is
-wrong, his name needs phonetic spelling in every prompt, exactly as "jollof" did.
+| | rate 0 | **rate +50** |
+|---|---|---|
+| duration | 4.80s | **2.66s** |
+| words/second | 1.67 | **3.48** — against 3.42 measured in renders |
+| peak / clipping | −4.2 dBFS / 0 | −5.1 dBFS / **0** |
+| f0 median | 192.8 Hz | 186.0 Hz (her element reads 183.9) |
+| transcript | "good because **Cal** asked…" | "Good. Because **Kel** asked…" |
+
+**So the container does NOT have to grow.** At +50 an approved TTS track fits the clip
+lengths already planned — C1 stays ~18s and ~162 credits rather than ~28s and ~252.
+No clipping, and the pitch moved slightly TOWARD her element rather than away.
+
+**`generate_audio` BILLS BY OUTPUT LENGTH, NOT PER REQUEST** — the same line preflighted
+at 0.5 credits at rate 0 and **0.3 at +50**, because the file is shorter. Preflight each
+rate rather than assuming one figure.
+
+**Settle the rate BEFORE recording an episode's dialogue**, because every clip length and
+every credit estimate downstream depends on it. Do not discover it after the track is
+approved.
+
+**2. "KEL" TRANSCRIBED AS "CAL" AT RATE 0 — AND AS "KEL" AT +50.** §7's rule cuts both
+ways here: writing a DIFFERENT word carries real signal, but writing the RIGHT word
+proves nothing. So the +50 transcript **softens the flag without resolving it**, and it
+is still the user's ear that settles whether his name reads. If it does not, phonetic
+spelling goes in every prompt, exactly as "jollof" did.
 
 **⚠️ AN AUDIO REFERENCE IS NOT A GUARANTEE.** The user's words: it "should not be
 treated as a guarantee that the output preserves the recording exactly." `51783a9e`
