@@ -1630,3 +1630,141 @@ mean nothing here.
 
 **Still unanswered, because they need people in frame:** is `28b4cecd` the right woman,
 and do Simone and Nia read as two different people.
+
+---
+
+## C4 v2 DELIVERED — job `e71e43da`, 117 credits, 18 Sep 2026
+
+Prompt: `exclusive/prompts/n1-clip04-v2-DELIVERED-e71e43da.txt`, 13,448 chars.
+**13s · 1080p · `bitrate_mode: high` · NO `quality` field · `medias: []` — pure t2v,
+no start_image.** Six elements: `e1997bea` (entry), `28b4cecd` (Simone face),
+`12a23175` (Simone wardrobe), `bcd528d3` (Nia), `91da557d` (white dress),
+`12315c68` (Nia's voice). Verified field-by-field on the returned payload.
+
+Delivered file: 1920x1080, 24fps, **10.81 Mbps video**, 13.05s, 18.1 MB.
+
+### ✅ THE SCRIPT LANDED EXACTLY — 18/18 WORDS, FIVE LINES, VERBATIM, IN ORDER
+
+| # | speaker | line | timestamps |
+|---|---|---|---|
+| 1 | SIMONE | "It's freezing out." | 1.18–2.36 |
+| 2 | NIA | "I'm sorry, who?" | 5.68–6.62 |
+| 3 | SIMONE | "Simone, you must be the new one." | 6.70–8.56 |
+| 4 | NIA | "The new what?" | 9.24–9.70 |
+| 5 | SIMONE | "He didn't." | 10.52–11.32 |
+
+Not one added word, no adlib, no narration. **The "new"-collision guard held** — lines
+2 and 3 both carry the word and neither migrated. That is the fourth consecutive clip
+where the top-of-prompt word count plus per-line speaker tags plus a named wrong answer
+has delivered the script exactly, and it is now the most reliable technique in this
+project.
+
+### ✅ PACING IS ON SPEC
+
+**5.24s of articulation for 18 words = 3.44 words/second**, against §6's measured
+render pace of 3.42. The clip is **60% wordless by design** — §6 requires silence to be
+declared and it was ("THIS CLIP IS THE SHOES… the silence is the point"). The 3.32s gap
+between lines 1 and 2 is the coat/bag/shoes business; the 1.73s tail is the hold on
+Nia's face. Reply gap L2→L3 is **0.08s**, inside the 0.2s asked for; L3→L4 and L4→L5
+ran 0.68s and 0.82s, slower than asked.
+
+### ✅ BOTH CUTS LANDED — AND BOTH LANDED ON A WORD, BECAUSE THE PROMPT ASKED FOR BOTH
+
+Frame-difference at 8fps/160x90, mean 2.819:
+
+| cut | t | diff | vs mean |
+|---|---|---|---|
+| 1 | **5.75s** | 36.5 | **13.0x** |
+| 2 | **6.75s** | 34.5 | **12.2x** |
+
+Two clean isolated spikes, nothing else above 3.3x — three shots, exactly as asked, and
+no third cut crept in.
+
+> ### ⛔ BUT THE PROMPT CONTRADICTED ITSELF ABOUT WHERE THEY GO, AND NOBODY CAUGHT IT
+>
+> The script block at the top says **"Cuts fall on the first syllable of the incoming
+> line."** The constraints block 30 lines below says **"Neither cut is anchored to a
+> spoken word."** Both shipped. Cut 1 landed 0.07s into line 2 and cut 2 landed 0.05s
+> into line 3 — the model obeyed the earlier, higher instruction, which is consistent
+> with §7's depth finding.
+>
+> **This is exactly the failure §7 already records from Episode 2 Clip 5** — three
+> different durations for one beat in one prompt, caught free on a final read. The rule
+> is *read the whole prompt start to finish and grep every number and every negation you
+> changed*, and it was not run on the pair of cut rules. **A contradiction between two
+> blocks is invisible to a check that only reads one block at a time.**
+>
+> **Which one is right is a directing call, not a fault.** Cutting on the incoming
+> syllable is ordinary coverage and §4 asks for it elsewhere. What cannot stand is
+> shipping both sentences. C5's prompt states the cut rule **once**.
+
+### PER-SHOT SHARPNESS — REPORTED, NOT RANKED
+
+Variance of Laplacian, 10 frames per shot, normalised to 1920x1080 grey:
+
+| shot | span | sharpness |
+|---|---|---|
+| A — door, coat, bag, shoes | 0.10–5.70s | **28.6** |
+| B — Nia closer | 5.80–6.70s | **21.9** |
+| C — two-shot | 6.80–13.00s | **17.2** |
+
+**These are inside the band of the clip the user called "THE BEST CLIP!"** — `c52c4a30`
+read 14.0 / 15.4 / 30.5 / 33.5. §7's standing rule applies and is absolute: **sharpness
+is a tripwire for a sudden fall inside ONE room across otherwise identical takes. It is
+not a quality score and it does not rank two clips.** No action taken on it.
+
+### ✅ NO MUSIC SWELL — THE FIRST CLEAN TAIL ON THIS AXIS IN THE PROJECT
+
+Per-100ms profile from 11.0s. Speech ends at 11.32; the tail decays to **−45 dBFS by
+11.30s and holds flat between −42 and −45 for the whole 1.7s hold**, finishing at
+−39.4. Against Ep2 C4's **+3.4 dB** and Ep2 C5's **+7.78 dB** swells, this is nothing.
+
+The wording that did it: *"NO music swell, NO music rise under the final hold — the
+last beat gets QUIETER, not louder."* §6 says the swell does not respond to negation
+and must be fixed in post. **One clip is one clip** — this does not overturn that, and
+the honest reading is that this clip's hold is on a silent face in a near-silent room
+rather than on a scored emotional beat. Keep budgeting for the ffmpeg duck.
+
+### ⚠️ THE FLAG: THE TWO WOMEN MEASURE 0.4 Hz APART
+
+f0 per line, autocorrelation, 16kHz mono, 40ms/10ms, 60–400 Hz, voiced frames only:
+
+| line | speaker | dur | median | p25 | p75 | spread |
+|---|---|---|---|---|---|---|
+| L1 | SIMONE | 1.18s | 210.5 | 187.1 | 231.9 | 1.24x |
+| L2 | NIA | 0.94s | 217.7 | 187.7 | 229.4 | 1.22x |
+| L3 | SIMONE | 1.86s | 222.2 | 202.5 | 241.5 | 1.19x |
+| L4 | NIA | 0.46s | 202.5 | 193.9 | 205.1 | 1.06x |
+| L5 | SIMONE | 0.80s | 166.7 | 141.6 | 200.0 | **1.41x** |
+
+**SIMONE 210.5 Hz · NIA 210.1 Hz · gap 0.4 Hz.** The prompt asked for Simone
+*"CLEARLY LOWER AND SLOWER THAN NIA"* and on this measure she is not.
+
+**Four separate reasons this number is weak, all of them already written in this repo:**
+
+1. **Four of the five lines are ≤1.2s and §5a says below about a second there is no
+   test.** L4 is 0.46s.
+2. **L5's spread is 1.41x, which §5a's own rule calls an UNSAFE reading** (>1.4x =
+   histogram it and take the lower mode). It is also the only line that measures low,
+   so it is doing all the work in Simone's direction.
+3. **§5a: short lines always read high** — that is what emphasis does, and it is also
+   what an unstable voice does. The measure cannot tell those apart.
+4. **The 45.1 Hz / 29.5 Hz gaps it would be compared against come from Episode 3, a
+   different clip, a different room and a different encode**, and §7 forbids exactly
+   that comparison.
+
+**⛔ NO ACTION TAKEN. §7's rule is absolute: a measurement may FLAG, it may never
+REVERT.** Nothing is rolled back, the take is not called a failure, and the direction is
+not abandoned on the strength of an f0 reading. **This is a question for the user's ear,
+and it is the same question as "do Simone and Nia read as two different people".**
+
+### THE THREE THINGS ONLY THE USER'S EYES CAN SETTLE
+
+Every one of them is something the rejected C4a/C4b failed on:
+
+1. **Is `28b4cecd` the right woman?** First render of the element built from her own
+   six-view sheet.
+2. **Does `e1997bea` read as the INTERIOR of a loft** rather than a corridor? That is
+   what retired `9ced01df`.
+3. **Do Simone and Nia read as two different people** — face, hair and voice?
+
