@@ -536,3 +536,102 @@ An assembly was split across two `sandbox_exec` calls and the second failed with
 `FileNotFoundError` on files the first had created. §5a already says the sandbox is
 discarded seconds after the command exits. **Download, process and upload must all sit
 in ONE call.**
+
+---
+
+# THE PRESET POOL — ALL 71 FEMALE VOICES MEASURED, 18 Sep 2026. ZERO CREDITS.
+
+`list_voices` returns `voice_type: "preset"` alongside `"element"`, and three
+episodes had only ever used elements. Presets cost no slot, carry free previews, and
+**cannot be tagged in a seedance prompt** — so they never enter the lowest-UUID
+binding sort and cannot displace Nia's `12315c68`. They are audio-layer assets, which
+is exactly where voice repair belongs.
+
+Every female preview was downloaded and measured on ONE chain: 16kHz mono, 40ms
+frames / 10ms hop, autocorrelation over 60–400 Hz, voiced frames only (RMS above the
+55th percentile, correlation peak ≥0.30), with §5a's octave-doubling guard applied
+whenever the quartile spread exceeded 1.4.
+
+## ✅ THE CHAIN IS CALIBRATED — BOTH CONTROLS LANDED ON THE FILE'S OWN NUMBERS
+
+| control | measured here | §5a's recorded figure |
+|---|---|---|
+| **`ChiChi-Canon-Voice-v1` `de50f37f`** | **160.0 Hz** | **160.0 Hz** |
+| **`Nia-voice-v2-clear` `12315c68`** | **183.9 Hz** | **183.9 Hz** |
+
+Exact on both. **These numbers are comparable to the ones already in this repo**, which
+is the whole reason the controls were run — §7 says always include a pair you know, so
+the scale means something.
+
+## THE TARGET — SEPARATION, NOT A PITCH
+
+§5a: *"convergence, not absolute pitch, is what 'both voices are wrong' measures as."*
+Approved Ep3 Clip 2 had Nia and ChiChi **45.1 Hz apart**. N1 C4 had Simone and Nia
+**13.6 Hz apart** and was rejected.
+
+| | band |
+|---|---|
+| **ChiChi** | element 160.0 · approved renders 158.4–160.0 |
+| **NIA** | element 183.9 · renders 188.8–220.7 |
+| **Simone must clear both** | so either **below ~145** or **above ~250** |
+
+## THE LOW BAND — and this is the one that fits the character
+
+She is cheerful, warm, unhurried, *"oh bless him"*. A low warm voice plays that; a
+bright high one drifts toward the smug register the episode file forbids by name.
+
+| preset | `voice_id` | f0 | spread | preview | vs Nia | vs Chi |
+|---|---|---|---|---|---|---|
+| **Onyx** | `8911390e-4b59-459b-ba84-19010917e1df` | **144.1** | **1.15** — tightest | **24.2s** | 40 | 16 |
+| **Ginger** | `8d261e04-3a3a-5853-96fc-0d89cca28bb4` | **132.8** | 1.20 | 10.1s | 51 | 27 |
+| **Linda** | `f82790fd-8283-5187-9e3f-cc8e99bc5b17` | **126.0** | 1.28 | 7.5s | 58 | 34 |
+| Karen | `b483a172-2776-559b-b138-8853559b20ee` | 131.7 | 1.28 | 7.5s | 52 | 28 |
+| Kiki | `2d51d9d0-b2a4-5e8b-9c63-f310adafd5f7` | 145.5 | 1.34 | 9.1s | 38 | 15 |
+
+⚠️ **Judy `3375c7b3` reads 77.5 Hz with a 1.42 spread — above §5a's 1.4 unsafe
+threshold.** The two-cluster check did not fire, so it is not a clean octave error
+either. **Do not quote that number.** It is a listen-only candidate.
+
+## THE HIGH BAND — only if Simone is played bright
+
+| preset | `voice_id` | f0 | spread | preview |
+|---|---|---|---|---|
+| Isla | `7367e919-3069-5a0b-939e-dfb1c0fd91b4` | 254.0 | 1.17 | 2.4s |
+| Zoe | `d0374db1-44b9-4f05-939e-0a9ae9dbbe6a` | 250.0 | 1.30 | 9.4s |
+| Luna | `375a3398-e3b4-4f91-845d-42181e352899` | 290.9 | 1.24 | 12.8s |
+
+**Choosing a high one means rewriting Simone's voice block**, which currently says
+*"clearly lower and slower than Nia."*
+
+## ⛔ THE DEAD ZONE — DO NOT PICK FROM HERE, WHATEVER THE NAME SUGGESTS
+
+**26 of the 71 presets sit between 160 and 210 Hz**, which is the band Nia and ChiChi
+already occupy. Anything in it reproduces the C4 convergence by construction.
+
+Among them: Soraya 153.8 · Tallulah 155.3 · Isabella 158.4 · **Nora, Olena, Sloane all
+exactly 160.0 — ChiChi's own number** · Ines 163.3 · Kayla 163.3 · Roxie 170.2 ·
+Vera 172.0 · Amanda 177.8 · Naomi 177.8 · Nadine 179.8 · Talia 180.8 · Romy 181.8 ·
+**Anika, Marisol, Raina and Una all 183.9 — Nia's own number** · Lucy 186.0 ·
+Brielle 188.2 · Imogen 188.2 · Helena 190.5 · Cora 192.8 · Zelda 195.1 · Hallie 197.5 ·
+Petra 197.5 · Xenia 197.5 · Pixie 200.0 · Gia 202.5 · Tamsin 202.5 · Liza 203.8 ·
+Bella 205.1 · Hana 205.1 · Opal 205.1.
+
+## ⚠️ WHAT THIS DOES NOT ANSWER, AND IT IS THE HALF THAT MATTERS MOST
+
+**Pitch is not accent, not identity, and not character.** No measurement in this file
+can hear whether a preset is British or American, warm or brittle, or whether it
+sounds like a woman who has let herself into this apartment a hundred times.
+
+**A NAME IS NOT EVIDENCE OF AN ACCENT.** Ainsley, Isla, Maeve, Imogen and Tallulah
+all read British on the page and none of that was measured. §5a's rule is the one
+that governs: **listen to it before you build on it.**
+
+**So this table NARROWS 71 to a handful. It does not choose.** §7: a measurement may
+flag, it may never decide.
+
+## THE METHOD IS REUSABLE AND THAT IS THE REAL VALUE
+
+Every future character — the men included — can now be cast from a measured table
+against the two women's known bands, instead of by an agent inventing a prose recipe.
+**Simone's voice being invented is what cost 162 credits on C4.** Re-run this whenever
+a new speaking part appears; it costs nothing.
