@@ -2523,3 +2523,56 @@ approaching Ep2's +3.4 and +7.78 dB swells.
 2. **Does Nia read as standing in the room** rather than pasted onto it?
 3. Is `66ab4872` still the right woman after the crop — the face should be untouched,
    only the frame changed.
+
+---
+
+## ⛔ C4 v6 REJECTED — THE CAMERA WAS POINTING THE WRONG WAY. 18 Sep 2026
+
+> *"Simone comes in and in the background you can see the room, which is correct… But now
+> everything has switched off. I didn't record that side. That technically should be an
+> end unit. We should have been filming towards the room that I already have recorded.
+> And so it looks like the room with the stairs is duplicated twice."*
+
+### THE PROMPT ASKED FOR A GEOMETRICALLY IMPOSSIBLE FRAME, AND THE MODEL OBLIGED
+
+v6's SET block reads: *"The camera stands in the room and looks back toward the entry
+end, so the staircase end and its gallery wall sit BEHIND AND AROUND the action."*
+
+**In a real apartment that cannot happen.** Stand in the room facing the front door and
+the staircase end is BEHIND THE CAMERA — it cannot also be behind the door. The prompt
+demanded both zones in one frame while facing away from one of them, and **the only way
+to satisfy that is to build a second staircase end, which is exactly what came back.**
+
+**THE DUPLICATION WAS NOT A MODEL FAULT. IT WAS THE PROMPT'S ONLY AVAILABLE SOLUTION.**
+That is a different class of error from anything else in this file: not a weak negation,
+not a competing element, not a trapdoor word — **an instruction that cannot be obeyed as
+written.** The render is what "satisfy the impossible" looks like.
+
+### ⛔ NEW GEOGRAPHY FACT, FROM THE USER: THE APARTMENT IS AN END UNIT
+
+**The wall the front door sits in is the OUTSIDE END WALL of an end-unit apartment, and
+she has no photograph of it.** *"I didn't record that side."*
+
+**So the camera never points at it. Ever.** Not in C4, not in C6, not in any episode.
+There is no reference for that wall, so any frame containing it is invented set design by
+definition — the failure §2 and §4b both forbid. Added to the location fact sheet.
+
+**And the correct direction was in her references the whole time.** Image 12 is titled,
+in her own words, **"Door-to-Staircase Orientation View."** It is the orientation. The
+master geography `d2ab7a6f` says the same thing in its first line — *"from just inside
+the front door looking down the long axis to the window wall."* **The established
+direction of this room has always been door → room. v6 inverted it.**
+
+### C4 v7 — `exclusive/prompts/n1-clip04-v7-PROPOSED.txt`, 17,671 chars
+
+Script block byte-identical for the fifth time.
+
+| # | change |
+|---|---|
+| 1 | **CAMERA REVERSED.** We stand at the door end and look DOWN THE LONG AXIS INTO THE ROOM — the viewpoint of her own door-to-staircase orientation image. Staircase, gallery wall, sofa, table and pendant are all AHEAD of us, in depth, past the two women |
+| 2 | **The front door is BEHIND THE CAMERA and never seen.** Simone walks into frame from behind us; we hear the door off-camera. The whole door-mechanism block is gone — a door that is never in shot cannot be a revolving one |
+| 3 | **"WE NEVER TURN AROUND AND WE NEVER LOOK BACK AT THE DOOR WALL"** — named as the unrecorded end wall, with the camera holding one direction for the whole clip, on both sides of every cut |
+| 4 | **EXACTLY ONE of every landmark**, listed one by one, never repeated, mirrored, echoed at the near end or shown twice. §5's quantity rule applied to a whole room instead of a wine glass |
+| 5 | Shot B re-anchored to the same direction; scale re-pinned to the furniture now the door is out of frame |
+
+**Cost: 13s at 1080p = 117 credits.** Not submitted.
