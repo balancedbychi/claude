@@ -2522,6 +2522,19 @@ to say hold one resolution for the whole episode. See the superseded rule there.
       second are too short to trust** — they score low against everything.
   Measure first, then confirm with the user. It does not replace their ear; it
   stops a wrong assumption reaching a paid step.
+- **⛔ THE PRICE MOVES DURING A SESSION. PREFLIGHT EVERY SINGLE TIME, AND NEVER QUOTE A
+  RATE OFF AN EARLIER CLIP. 18 Sep 2026.**
+  `seedance_2_5` at 1080p billed **9 credits/second all day** — C4 v7 at 13s cost **117**
+  (14:15) and C5 at 25s cost **225** (15:42), both confirmed in `transactions`. Preflighted
+  about twenty minutes after C5, the same calls quote **12 credits/second**: 13s → **156**,
+  20s → 240, 22s → **264**, 25s → **300**. 720p quotes **7/s** (22s → 154).
+  **A 33% rise inside one session, with nothing in the params changed** — `generate_audio`
+  on and off both quote 300, so it is not a flag, it is the rate.
+  **So a credit figure has a shelf life of minutes.** Every estimate in a plan, an episode
+  file or a message to the user is stamped with when it was preflighted, and it is
+  re-preflighted immediately before the submission it belongs to. This is §7's
+  "a parameter you do not send is one the server picks for you" with the PRICE as the
+  parameter — and the only defence is the same one: check, do not remember.
 - **Preflight every cost** with `get_cost` before generating. State the number.
   Not everything has one — `create_voice_from_confirmed_audio` does not, and the
   clone came in at 40 credits against a 20–25 estimate for the whole job. When a

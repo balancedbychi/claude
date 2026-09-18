@@ -2973,12 +2973,12 @@ clips and one 28s clip cost exactly the same. Every seam is an independent re-ro
 
 **But it does not apply here, and the numbers say why.**
 
-| option | seconds | generations | credits | what it removes | what it stacks |
+| option | seconds | generations | credits (at the CURRENT 12/s) | what it removes | what it stacks |
 |---|---|---|---|---|---|
-| C5 v2 + C6 separate | 22 + 10 | 2 | **198 + 90 = 288** | — | — |
-| **merged** | **29 (cap 30)** | **1** | **261** | one hard cut between two rooms | 2 locations, 2 camera set-ups, ~11 elements, the pour AND the lift in one take |
+| C5 v2 + C6 separate | 22 + 10 | 2 | **264 + 120 = 384** | — | — |
+| **merged** | **29 (cap 30)** | **1** | **348** | one hard cut between two rooms | 2 locations, 2 camera set-ups, ~11 elements, the pour AND the lift in one take |
 
-**The merge saves 27 credits and risks 261 on a single roll.** §4a's merge rule exists for
+**The merge saves 36 credits and risks 348 on a single roll.** §4a's merge rule exists for
 clips that **share a set** — it removes a re-roll of the same staging. C5 is the loft window
 end; C6 is the hallway and the lift. Merging them removes nothing that can be re-rolled and
 **doubles the surface area of one generation.** Every fault in this episode has come from
@@ -3000,7 +3000,7 @@ wardrobe column plus the stain, not one long take.
 | | |
 |---|---|
 | **Container** | **~22s**, from §6's own formula: 50 words ÷ 3.4 w/s = 14.7s speech, + 9 line boundaries × 0.45s = 4.1s, + ~3s for the pour as its own beat. 2.3 w/s against §6's 2.1 sanity check. 25s gave it ten seconds it did not know what to do with |
-| **Credits** | **~198** at 1080p, against 225 for the take that dropped a line |
+| **Credits** | **264** — preflighted 18 Sep 2026 at 16:0x, and it is NOT the 198 the old rate implied. **1080p went from 9 to 12 credits/second today**, between C5's submission and this preflight: 13s quoted 156 where C4 v7 actually billed 117, 25s quotes 300 where C5 actually billed 225. `generate_audio` on and off both quote 300, so it is the rate and not a flag. 720p is 7/s. **Re-preflight immediately before submitting** |
 | **Line 8** | restored to script order — blocking plays **7 → 8 → 9 → pour**, and the sequence diff runs before submission |
 | **Simone** | `Simone-Face-v3` `66ab4872` only. **`12a23175` DETACHED.** Plaid top and jeans in prose, in C4 v7's wording. Barefoot, no bag, **no coat and no coat anywhere in frame** |
 | **ChiChi** | height stated as a comparison — **taller than Nia by about two inches**, Simone and Nia level barefoot |
