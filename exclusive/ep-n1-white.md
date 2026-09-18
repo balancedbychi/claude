@@ -2025,6 +2025,7 @@ asset it depicts, so no media id is ever a guess about what it shows.
 |---|---|---|---|
 | 1 | **Dorian's FRONT DOOR seen from INSIDE the apartment** | `5f44a404-73ff-45e6-bf98-6d5c2756e99b` | `hf_20260918_095516_74016fb7-d2f2-412b-a739-26df1be1cd91.png` |
 | 2 | **THE ENTRY AREA — the wall where coats and shoes go** | `4e4746ff-cec7-4550-86e7-104765cbe515` | `hf_20260918_103604_b75e9e54-9479-4073-b479-20fce02732f7.png` |
+| 3 | **HOW THE DOOR END CONNECTS TO THE STAIRCASE END** | `ac51cf44-2f84-42dc-b605-3c5a54554db2` | `hf_20260918_110040_357495f6-f84b-4a08-893b-a67de1715c39.png` |
 
 **These are the authority.** Where a locked element's write-once description disagrees
 with one of these images, **the image wins and the description is recorded as superseded
