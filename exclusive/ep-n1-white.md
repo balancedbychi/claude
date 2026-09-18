@@ -2033,3 +2033,65 @@ here** — the same standing the two-sofa correction has. That rule exists becau
 episode has now lost three takes to prose I wrote that no picture ever supported: the
 phantom black sofa, the deleted coat hooks, and the front door described into a set that
 does not contain one.
+
+### ✅ `Dorian-Loft-Entry-v3` `96a02139-827d-4c0e-a003-1443137bd289` — LOCKED 18 Sep 2026
+
+**The first environment element in this series built from the user's own photographs of
+the apartment rather than from an agent's prose.** All three supplied images attached.
+Category `environment`, status `completed`, description 4,608 chars.
+
+**Its description contains NOT ONE SENTENCE describing what the images show, and that is
+the point.** §5: the image is the lock, so re-describing it creates a second, weaker spec
+that can disagree with the picture. The description carries only what a photograph cannot
+say — the scope, the mechanism negations, the quantities, the things that must never
+change. Every fault this episode suffered came from the opposite habit.
+
+**What it retires:** `9ced01df` (footage read as a corridor) and `e1997bea` (written from
+prose; its own write-once text forbade coat hooks the apartment has, started the floor
+bare, and said "pivoting", which rendered a revolving door). Neither is ever attached
+again.
+
+**What it does NOT do:** it never supersedes `1a162d9b` for the staircase end. That rule
+is written into the element itself, so a later session cannot reach the competing-element
+failure by accident.
+
+**Three more images sit in the user's library, unidentified** — `3045d2a4`, `ac4797b6`
+and `95f7fce8`, uploaded in the same window but never returned by the widget. **They have
+deliberately NOT been attached to anything.** §2: a media id with nothing tying it to the
+asset it depicts is a guess, and guessing builds an element from the wrong picture. They
+go in only when the user says what each one is.
+
+---
+
+## C4 v5 — WRITTEN AGAINST THE PHOTOGRAPHS
+
+`exclusive/prompts/n1-clip04-v5-PROPOSED.txt`, **15,218 chars.** Script block still
+byte-identical: 18/18 words, twice running.
+
+**THE DOOR IS BACK IN FRAME.** v4 hid it off-camera for one reason only — no photograph
+of it existed, and every written version came out wrong. That reason is gone. §7's third
+production directive says an image beats text every time; this is the first time in the
+episode that rule has been available to use in our favour rather than against us.
+
+| | v4 (door hidden) | v5 (door photographed) |
+|---|---|---|
+| entry set | none — described in prose | **`96a02139`, three real photographs** |
+| the door | off-camera, never seen | **in frame, reproduced from the image** |
+| hinge side, handle side, swing | not stated | **"read off the reference images"** — never asserted from memory |
+| coat hooks | described in prose (five hooks, timber rail, three coats) | **not described at all** — the photograph carries them; only the ACTION is written |
+| shoe row | described in prose | **not described at all** — same reason |
+| scale anchor | furniture only | the door again: head two-thirds up it, half a metre above |
+
+**Seven elements**: `96a02139` entry · `1a162d9b` staircase end · `28b4cecd` Simone ·
+`12a23175` her wardrobe · `bcd528d3` Nia · `91da557d` white dress · `12315c68` Nia's
+voice. Zero dead or retired ids. Zero occurrences of "pivot".
+
+**Both zones attached and anchored by name**, which is what the `c52c4a30` room-anchoring
+result ("THIS WAS THE BEST CLIP!") proved works for an intercut and what `96a02139`'s own
+scope rule requires.
+
+**Guards verified present:** exactly one cut rule (v3 shipped two contradictory ones),
+the no-second-opening negation, the revolving/rotating/carousel/sliding door negation,
+five speaker-tagged lines, one duration, one lens, one cut count.
+
+**Cost: 13s at 1080p = 117 credits.** Not submitted.
