@@ -2432,4 +2432,21 @@ notes:
 | 4 | entry state moves her **off the sofa wall onto open floor** |
 
 Seven elements, zero dead or retired ids, zero "pivot", one cut rule, five speaker tags.
-**Cost: 13s at 1080p = 117 credits.** Not submitted.
+
+**SHOT 18 Sep 2026 — job `0d5a7e3b-6a9d-4d0e-ac11-806f7f42c1eb`, 117 credits.** Prompt
+`exclusive/prompts/n1-clip04-v6-DELIVERED-0d5a7e3b.txt`, 16,954 chars. Payload verified:
+13s · 1080p · `bitrate_mode: high` · no `quality` · no `start_image`. Preset gate did not
+fire — `declined_preset_id` passed pre-emptively again, which has now suppressed it twice.
+
+**⚠️ A SECOND PROMPT-VERSUS-ELEMENT CONTRADICTION CAUGHT BEFORE SUBMISSION.** The new
+Shot B block was first written *"THERE IS NO WALL BEHIND HER"* — which fights the SET
+block's *"the concrete walls are UNBROKEN and SOLID on every other side of frame."*
+Changed to **"NO WALL SITS CLOSE BEHIND HER"**, which states the actual note (she needs
+DEPTH, not a missing wall) and contradicts nothing.
+
+**That is the second contradiction of this shape caught in two consecutive takes** — the
+first was "no landing" against the staircase element's "dark upper landing". Both were
+introduced by a fix for a real fault, and both would have been invisible to a check that
+read only the sentence being changed. **When you write a negation to fix a note, read it
+against the whole prompt AND against every attached element description before it
+ships.**
