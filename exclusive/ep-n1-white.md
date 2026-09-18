@@ -1508,3 +1508,62 @@ all three recorded with IDs.
 fault rather than by anything to do with her. The identity test cannot be shot at 15
 credits. At 720p it is 32.5 and at 1080p 90 — **a bigger number than the user accepted,
 so it is her call.**
+
+---
+
+## THE `nsfw` FAULT — EIGHT TESTS, AND THE ANSWER IS NOT THE RESOLUTION TIER
+
+The identity test could not be shot. Eight submissions, seven refused. **Net cost of the
+seven refusals: ZERO** — each charges and refunds within seconds.
+
+| # | tier | people | what changed | result |
+|---|---|---|---|---|
+| 1 | 480p | yes | the C4 v2 test as written | ❌ nsfw |
+| 2 | 480p | yes | wardrobe sentence restored VERBATIM from C4a | ❌ nsfw |
+| 3 | 480p | yes | wardrobe element dropped, figure block deleted, both in buttoned overcoats | ❌ nsfw |
+| 4 | 480p | yes | old set element `9ced01df` instead of the new one | ❌ nsfw |
+| 5 | 480p | yes | **Simone removed — NIA ALONE, modest dress** | ❌ nsfw |
+| 6 | 480p | yes | duration 5s → 8s | ❌ nsfw |
+| 7 | **720p** | yes | **the tier itself, with the new `28b4cecd`** | ❌ nsfw |
+| **8** | **720p** | **NO** | **the people removed entirely** | ✅ **RENDERED** `17ab7ff5` |
+
+### ⛔ THE AGENT NAMED 480p AS THE CAUSE AFTER TEST 6 AND WROTE IT INTO CLAUDE.md
+
+**Test 7 falsified it inside the hour.** That was the third wrong diagnosis of this one
+fault — after the coat wording and the body text — and unlike the first two it had already
+been committed to the rulebook as settled.
+
+**The error has a name and §7 already contains it, one level over: "the only value common
+to all six" is only true across the cases you actually ran.** Six failures at one tier does
+not implicate the tier; it records that the tier was never varied. A finding is what
+survives a test.
+
+### THE STANDING HYPOTHESIS — AND IT IS STILL ONLY THAT
+
+**A human figure below 1080p trips the filter; the same figure at 1080p does not.**
+
+It fits all eight tests plus the two C4 clips, which rendered at 1080p with three people in
+them. It also explains why the clothing never mattered: test 5 was one woman alone in a
+knee-length dress with sleeves, and test 3 put both women in buttoned winter overcoats.
+
+**THE ONE TEST THAT CONFIRMS IT: the identical people-prompt at 1080p, 5s, 90 credits.**
+Until that runs it stays a hypothesis and must not be written up as the cause.
+
+**If it holds, there is no cheap iteration tier for this show**, because every clip has
+people in it. Empty plates and geography checks still shoot at 720p for a third of the
+price — which is exactly what `17ab7ff5` is.
+
+### ✅ WHAT THE 32.5 CREDITS ACTUALLY BOUGHT
+
+`17ab7ff5-decc-4ff5-9bd3-49c1f71dc695` · 5s · 1280x720 · `bitrate_mode: high` · slow push
+in on the door. **It is the first render of `Dorian-Loft-Entry-v2` `e1997bea`**, so it
+answers one of the three questions the identity test was for: **does the entry read as an
+INTERIOR rather than a corridor?** That is the user's eyes.
+
+⚠️ **No sharpness figure is quoted for it, deliberately.** §7 forbids comparing
+variance-of-Laplacian across different rooms, and comparing a 720p clip to this file's
+1080p bands would be that same misuse with a second variable on top. The number would
+mean nothing here.
+
+**Still unanswered, because they need people in frame:** is `28b4cecd` the right woman,
+and do Simone and Nia read as two different people.

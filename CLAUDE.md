@@ -2156,7 +2156,7 @@ point, and it works with two people in frame.
 then render the final version at 1080p."* ✅ **THIS CORRECTS THIS FILE** — §7 below used
 to say hold one resolution for the whole episode. See the superseded rule there.
 
-> ### ⛔ BLOCKED 18 Sep 2026: 480p RETURNS `nsfw` ON THIS CONNECTION, WHATEVER IS IN THE PROMPT.
+> ### ⛔ BLOCKED 18 Sep 2026: SUB-1080p RENDERS WITH PEOPLE IN THEM RETURN `nsfw`.
 >
 > **SIX consecutive `seedance_2_5` submissions at `resolution: "480p"` came back
 > `status: "nsfw"`, `type: "image"`.** The content was eliminated one variable at a time
@@ -2176,14 +2176,50 @@ to say hold one resolution for the whole episode. See the superseded rule there.
 > could produce — and it was refused. `bcd528d3` is in every approved clip of the episode
 > at 1080p. **This is not a judgement about the content.**
 >
-> The only value common to all six is **`resolution: "480p"`**. Everything else varied.
+> ### ⛔ AND THE FIRST CONCLUSION DRAWN FROM THAT TABLE WAS WRONG. 720p FAILS TOO.
 >
-> **⚠️ SO DIRECTIVE 5 CANNOT BE FOLLOWED AS WRITTEN UNTIL THIS CLEARS.** The reasoning
-> behind it is still right — resolution has nothing to do with whether the right face or
-> the right blocking shows up, and paying 1080p to find a staging fault is waste. But the
-> cheap tier is not currently reachable. **Try 720p as the iteration tier** (5s = 32.5
-> credits against 90 at 1080p) and re-test 480p occasionally; it may be a transient
-> server-side filter setting rather than a permanent one.
+> This section originally read *"the only value common to all six is 480p"* and named the
+> tier as the cause. **Test 7 falsified it within the hour:** the same prompt at
+> **`resolution: "720p"` also came back `nsfw`.** That was the THIRD wrong diagnosis of
+> this one fault — after the coat wording and the body text — and it had already been
+> written into this file as settled.
+>
+> **The rule §7 already carries applies to an agent's own conclusions, not just to
+> measurements: a finding is what survives a test, and one that has not been tested is a
+> hypothesis.** "The only common value" is only ever true across the cases you actually
+> ran. Six failures at one tier does not establish the tier; it establishes that you never
+> varied it.
+>
+> ### ✅ TEST 8 IS THE ONE THAT CARRIES INFORMATION: NO PEOPLE, 720p — IT RENDERED.
+>
+> Same set element, same tier, same `bitrate_mode`, same `generate_audio` — and the ONLY
+> change being **an empty room with no human figures and no dialogue**. It passed the
+> filter and rendered.
+>
+> | | people | tier | result |
+> |---|---|---|---|
+> | tests 1–6 | yes | 480p | ❌ nsfw |
+> | test 7 | yes | 720p | ❌ nsfw |
+> | **test 8** | **NO** | 720p | **✅ rendered** |
+> | C4a `d2d25be2`, C4b `93e87a3a` | yes | 1080p | ✅ rendered |
+>
+> **THE STANDING HYPOTHESIS, AND IT IS A HYPOTHESIS: a human figure below 1080p trips the
+> filter, and the same figure at 1080p does not.** It fits every case above and it is
+> consistent with the clothing being irrelevant — test 5 was one woman alone in a
+> knee-length dress with sleeves.
+>
+> **THE ONE TEST THAT WOULD CONFIRM IT** is the identical people-prompt at 1080p, 5s, 90
+> credits. Until that runs, do not write this up as the cause.
+>
+> **⚠️ WHAT IT MEANS FOR DIRECTIVE 5 IF IT HOLDS: there is no cheap iteration tier for
+> THIS SHOW**, because every clip in it has people in it. The directive's reasoning stays
+> correct — resolution has nothing to do with whether the right face shows up — but the
+> saving is not available. Empty-set plates and geography checks CAN still be shot at 720p
+> for a third of the price, and that is worth keeping.
+>
+> Re-test occasionally: this may be a server-side filter setting rather than a permanent
+> property. **480p has demonstrably worked on this account before** — the voice-capture
+> clip `572d535a` was 480p, and §7 records an approved 480p clip being re-shot at 1080p.
 >
 > ### ✅ AND AN `nsfw` REJECTION COSTS NOTHING — BUT THE BALANCE LIES WHILE IT SETTLES
 >

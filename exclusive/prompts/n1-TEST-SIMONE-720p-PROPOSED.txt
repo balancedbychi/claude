@@ -1,7 +1,7 @@
 === EXCLUSIVE · N1 · SIMONE IDENTITY TEST ===
-5s · seedance_2_5 · t2v · 480p · 16:9 · bitrate_mode high · no quality field
+5s · seedance_2_5 · t2v · 720p · 16:9 · bitrate_mode high · no quality field
 NOT A DELIVERABLE. This answers three questions before C4 is shot:
-  1. is 59989697 the right woman, in the right clothes
+  1. is 28b4cecd the right woman, in the right clothes
   2. does e1997bea render as an INTERIOR, not a corridor
   3. do Simone and Nia read as two different women
 
@@ -55,6 +55,13 @@ SIMONE
 exact adult facial identity from this reference — same face, same bone
 structure, same complexion, same eyes, same mouth, same hairline. A
 grown woman in her early thirties, relaxed and well.
+
+HER HAIR is a COPPER-AUBURN shoulder-length blunt bob, straight and
+glossy, ends turning slightly under, deeply side-parted with a sweep
+carrying across her forehead. Reproduce the part and the sweep EXACTLY
+as her element shows them and NEVER MIRROR THEM. Never a centre part,
+never pulled back or tied up, never long, never cropped, never curly
+or textured, never dark brown or black.
 
 HER SKIN: clear, even, luminous, firm, sharply in focus, natural
 visible pore texture. NEVER blotchy, mottled, patchy, waxy, plastic,
