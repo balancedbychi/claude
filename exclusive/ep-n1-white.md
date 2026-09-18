@@ -2603,3 +2603,64 @@ Script block byte-identical for the fifth time.
 | 5 | Shot B re-anchored to the same direction; scale re-pinned to the furniture now the door is out of frame |
 
 **Cost: 13s at 1080p = 117 credits.** Not submitted.
+
+### C4 v7 MEASURED — job `7a614b90`
+
+1920x1080, **11.58 Mbps — the highest bitrate of any take in this episode**, 13.05s.
+**18/18 WORDS, FIFTH CONSECUTIVE CLEAN SCRIPT HIT.** Two isolated cuts, 5.88s (11.2x) and
+7.50s (11.7x); cut 2 lands in the gap between "I'm sorry." and "Who?", not inside a word.
+
+### ✅ SHOT B ACROSS THREE TAKES: 8.5 → 19.9 → 32.3
+
+| shot | v5 | v6 | **v7** |
+|---|---|---|---|
+| A | 37.4 | 18.0 | 18.4 |
+| **B — Nia** | **8.5** | **19.9** | **32.3** |
+| C | 22.9 | 21.0 | 21.7 |
+
+**Shot B is now the sharpest shot in the clip and its range is tight, 30.1–33.6.** Two
+changes compounded: v6 replaced the flat near wall with three planes of depth, v7 turned
+the camera to look down the length of the room, which puts genuine distance behind her.
+**Same room, same elements, one variable changed per take — the comparison §7 sanctions.**
+
+### ✅ THE VOICE GAP IS THE WIDEST IT HAS EVER BEEN — AND THE FIRST TAKE WITH NO UNSAFE READING
+
+| line | speaker | median | spread |
+|---|---|---|---|
+| L1 | SIMONE | 197.5 | 1.38x |
+| L2 | NIA | 222.2 | 1.25x |
+| L3 | SIMONE | 179.8 | 1.07x |
+| L4 | NIA | 202.5 | 1.07x |
+| L5 | SIMONE | 166.7 | 1.24x |
+
+| take | SIMONE | NIA | gap |
+|---|---|---|---|
+| v2 | 210.5 | 210.1 | 0.4 Hz |
+| v3 | 188.2 | 211.0 | 22.8 Hz |
+| v5 | 200.0 | 228.6 | 28.6 Hz |
+| v6 | 195.1 | 214.1 | 18.9 Hz |
+| **v7** | **179.8** | **212.4** | **32.6 Hz** |
+
+**Every Simone line sits below every Nia line, and EVERY SPREAD IS UNDER §5a's 1.4x UNSAFE
+THRESHOLD — the first take where that is true.** v5 had L3 and L4 identical at 225.4; v6
+had L5 at a meaningless 2.19x. This one has neither. **For scale, approved Ep3 Clip 2 ran
+45.1 Hz and the take the user rejected for "both voices are wrong" ran 29.5 Hz.**
+
+### ✅ FIFTH CLEAN TAIL
+Decays to −48 dBFS, small bump to −39.3 at 12.90, **centroid 886.8 Hz** — short and low,
+an object on the same test. Nothing like Ep2's sustained +3.4 / +7.78 dB swells.
+
+### ⚠️ ONE FLAG: THE FRONT OF THE CLIP MAY DRAG
+
+**Line 1 lands at 4.60s** — the latest of any take (v2 1.18, v3 2.12, v5 2.76, v6 0.98).
+**That is 35% of a 13-second clip before anyone speaks.** The model compensated by
+compressing the dialogue to **4.79 words/second against §6's measured render pace of
+3.42** — the fastest delivery recorded in this project.
+
+**This is §6's container problem, and the direction change is the likely cause**: looking
+down the length of the room gives the model far more to establish than looking at a wall
+with a door in it. The silence IS declared in the prompt ("this clip is the shoes"), so
+this is the rule working as designed — but 4.6s of it may play as a drag, and the sprinted
+dialogue is a second symptom. **Flagged, not acted on. If the front feels slow, the fix is
+the CONTAINER — shorten the clip — never a "no dead air" instruction, which §6 says does
+nothing.**
