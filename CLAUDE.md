@@ -551,6 +551,13 @@ dialogue block at the very top.
 | 6 | **prompt is at or under 19,554 characters** | dialogue block at the very top |
 | 7 | **prose checked against the last approved frame** | wardrobe, jewellery, cup levels, props on the table |
 | 8 | **whole prompt read start to finish** | grep every number and every negation you changed |
+| 9 | **`python3 exclusive/check-prompt.py <file>` comes back clean** | chars, word count, the SEQUENCE DIFF and the element inventory — it catches what a read cannot |
+
+> **ITEM 9 EXISTS BECAUSE THE WHOLE-PROMPT READ IS NOT ENOUGH.** N1 C5 shipped with the
+> numbered script saying lines 1–10 "IN THIS ORDER" and the blocking playing 9 before 8.
+> **Line 8 never rendered; 225 credits.** Every block was internally consistent, so reading
+> them one at a time could never surface it — **a contradiction in SEQUENCE is only visible
+> as a diff.** The checker reproduces the fault on the delivered file and passes the fix.
 
 > **ITEM 4 WAS SETTLED BY THE USER ON 16 SEP 2026: use `de50f37f`.** It had been
 > `180fdb9a` for Episodes 1 and 2, and section 5a previously forbade the swap. The
@@ -2723,6 +2730,11 @@ to say hold one resolution for the whole episode. See the superseded rule there.
   door — was described in the file as "required" and its ID was never written
   down. It had to be recovered from the workspace two clips later. Prose saying an
   element exists is not a record of it; the table is.
+- **`exclusive/check-prompt.py` runs on every prompt before it is submitted.** Character
+  count against the 19,554 ceiling, the script's word and line count against what its own
+  header claims, the **sequence diff** between the numbered script and the running order in
+  the shot list and the blocking, the element inventory, and the left-hand guard the params
+  hook needs. It is free and it catches what reading cannot.
 - **Every prompt is saved to `exclusive/prompts/` as a file.** Section 5 says never
   reword what produced an approved result, and that is unenforceable if the words
   only ever existed in a chat transcript. Name them
