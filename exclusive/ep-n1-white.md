@@ -381,7 +381,7 @@ action, never the container alone.
 | `Nia` · `ChiChi-the-Influencer` · `Dorian-Series-Look` · `Kel-The-Cousin` | ✅ LOCKED |
 | Voices — `12315c68` + `de50f37f` in every prompt, Kel's prose recipe | ✅ LOCKED |
 | **Simone — wardrobe** `12a23175` | ✅ **LOCKED** — checked 18 Sep, its description IS written and complete |
-| **Simone — face** `59989697` | ⏳ **IDENTITY TEST SHOT 18 Sep — job `82f57050`, 5s 480p, 15 credits.** Image `20d0fffb`, description null and unfillable, so her spec lives in the PROMPT. Awaiting the user's eyes |
+| **Simone — face** `28b4cecd` | ✅ **LOCKED 18 Sep 2026** from the user's six-view sheet, full spec in the element. ⏳ Still UNVERIFIED IN A RENDER — the identity test is blocked by the 480p `nsfw` fault, not by her |
 | **Nia's white dress** `91da557d` | ✅ LOCKED — read right on the 8s test `c9976b46` |
 | **Chi's look** `f2c3a3c5` | ✅ LOCKED — shot on the 8s test |
 | **Simone's voice** | ✅ **ROXIE — preset `f6448975-768e-4327-b932-1b7c973d58e9`. Chosen by the user 18 Sep 2026.** Audio layer only; see below |
@@ -468,7 +468,8 @@ days. **Nothing here needs creating. This episode is not blocked on assets.**
 | `ChiChi-the-Influencer` | `8a8e8eeb-d41e-4d91-b245-fa0caa8801b6` | face, identity |
 | `Dorian-Series-Look` | `51c0cbaa-2fbe-4918-bb91-a29307caca09` | C2 |
 | `Kel-The-Cousin` | `3ad69411-e32c-44bd-b797-a93ec0d4b52c` | C3, C6 |
-| `Simone-Series-Look` | `59989697-7111-457c-9116-d83c4ae9eb3e` | C4, C5 — ⚠️ **description is EMPTY**, section 2 requires the spec in the element |
+| **`Simone-Face-v2`** | **`28b4cecd-a89a-4420-ab2b-55c66b91ecb3`** | **C4, C5 — SIMONE'S FACE AND HAIR. Locked 18 Sep 2026 from the user's own six-view character sheet, media `a4c112bd`. 4,381-char spec written in: scope, hair, anti-cartoon set, register** |
+| ~~`Simone-Series-Look`~~ | ~~`59989697-7111-457c-9116-d83c4ae9eb3e`~~ | ⛔ **RETIRED 18 Sep 2026** — description EMPTY and write-once, so it could never be given one. The only clips that used it, C4a and C4b, were rejected for "faces changed". Superseded by `28b4cecd` |
 | `Nia-White-Dress-Ep1` | `91da557d-8353-4d90-90c5-72333ff5c713` | clean C1, C2, C4, C5; stained C6 |
 | `ChiChi-Ep1-Look` | `f2c3a3c5-3269-420e-a07d-69723410a094` | C1, C3, C5, C6 |
 | `Simone-Party-Look-v2` | `12a23175-ff6c-44dd-ab98-b21d1ee9609e` | C4, C5 |
@@ -1442,3 +1443,68 @@ STILL unverified in a render, and that row stays a hard stop.
 
 **The identity test needs to be re-shot at 720p (32.5 credits) or 1080p (90).** That is a
 bigger number than the 15 the user accepted, so it is her call, not an agent's.
+
+---
+
+## ✅ SIMONE IS LOCKED — `Simone-Face-v2` `28b4cecd-a89a-4420-ab2b-55c66b91ecb3`, 18 Sep 2026
+
+The user supplied a **SIX-VIEW CHARACTER SHEET** — front, three-quarter and profile
+across the top, neutral / smiling / laughing below — with the words *"This is simone."*
+Media `a4c112bd-e5c5-46f6-b369-4981ba275216`.
+
+**This is the first time in the episode that Simone has had a written specification.**
+The 4,381-character description carries what an image cannot: the scope, the hair rules,
+the anti-cartoon set, the two-women-never-converge rule and her register.
+
+### WHAT SHE LOOKS LIKE, FOR THE PROMPT
+
+**Copper-auburn shoulder-length blunt bob**, straight and glossy, ends turning slightly
+under, deeply side-parted with a sweep across the forehead. Warm mid-brown complexion.
+Early thirties.
+
+⚠️ **THE SWEEP DIRECTION IS DELIBERATELY NOT PINNED IN THE WRITE-ONCE DESCRIPTION.** It
+says *reproduce the part and sweep exactly as the reference shows them and never mirror
+them*. §4b's rule — a left/right fact is meaningless without the thing it is relative to,
+and it has cost this series takes on ChiChi's hair — cuts both ways: getting it backwards
+in a description that can never be edited would weld the error in permanently. **Read it
+off the image and state it both ways in the PROMPT**, which is revisable.
+
+**And she is the mirror of ChiChi either way**, which is what actually keeps them apart:
+ChiChi is honey-blonde and forty, Simone is copper-auburn and in her thirties.
+
+### THE SCOPE IS THE LOAD-BEARING PART
+
+| the element OWNS | the element NEVER supplies |
+|---|---|
+| face, head, bone structure, complexion | wardrobe — **the grey t-shirt in the sheet is the sheet's neutral, not her clothing** |
+| hair colour, length, cut, texture, part | the white studio sweep behind her — that is not a set |
+| the anti-cartoon negation set | hands, fingers, rings, nails, body proportions |
+| her cheerful register | jewellery — the studs are styling, and §3 makes styling a per-episode prompt decision |
+
+Her wardrobe stays `Simone-Party-Look-v2` `12a23175`. Her voice is the preset **Roxie**
+`f6448975`, which cannot be attached to a render at all.
+
+### ⛔ `Simone-Series-Look` `59989697` IS RETIRED
+
+Its description is EMPTY and descriptions are write-once, so it could never be given one.
+The only two clips that ever used it — C4a `d2d25be2` and C4b `93e87a3a` — were rejected
+in full for *"faces changed and outfits changed"*.
+
+**⚠️ AND WHETHER `20d0fffb` IS EVEN THE SAME WOMAN REMAINS UNVERIFIED.** The image behind
+`59989697` could not be inspected: this environment's proxy refuses the Higgsfield CDN
+with a 403, and `sandbox_exec` can fetch it but cannot show it to an agent. **So the
+tempting explanation — that C4's faces changed because that element was a different
+person — is a HYPOTHESIS THAT WAS NEVER TESTED, and it must not be written up as the
+cause.** It did not need to be tested to make this decision: the user has now said
+authoritatively who Simone is, the old element can never carry a spec, and no approved
+footage depends on it.
+
+### WHAT THIS DOES AND DOES NOT CLEAR
+
+✅ **The "USER UPLOADS" hard stop is gone.** Simone has a face, a wardrobe and a voice,
+all three recorded with IDs.
+
+❌ **She is still UNVERIFIED IN A RENDER**, and that is now blocked by the 480p `nsfw`
+fault rather than by anything to do with her. The identity test cannot be shot at 15
+credits. At 720p it is 32.5 and at 1080p 90 — **a bigger number than the user accepted,
+so it is her call.**
