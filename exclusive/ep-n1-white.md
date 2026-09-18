@@ -1966,3 +1966,48 @@ beat — but the exposure is looking smaller than the file assumes.
 2. **Is `28b4cecd` the right woman**, and do Simone and Nia read as two different people?
 3. **Scale** — is Simone a normal height against a full-height door now?
 4. Do the **hooks** land, and does the coat go on without her looking?
+
+---
+
+## ⛔ C4 v3 REJECTED — TWO FAULTS, BOTH FROM THE PROMPT. 18 Sep 2026
+
+> *"Simone came through the door and it revolved. Like, I don't understand that. How did
+> it revolve? And then Nia came out of the room next to the door. That was AI slop."*
+
+**1. THE REVOLVING DOOR — the word was `pivoting`.** v3 said *"it opens INWARD into the
+room **pivoting** on its right edge."* A door that pivots is a **pivot door**, which
+rotates about an axis rather than hanging on hinges — and that renders as revolving.
+**The phrase came out of CLAUDE.md §5**, which had used it as the model door-geometry
+sentence since Episode 2; from there into `e1997bea`'s write-once description, and from
+there into this prompt. **Retired from the project and the rulebook is corrected.**
+The negation set named five wrong doors — steel slab, flush warehouse, fire, service,
+sliding — **and every one of them was a door TYPE. Not one named a wrong MECHANISM**,
+which is §5's "a negation set can have a whole AXIS missing from it" landing again.
+
+**2. THE ROOM NEXT TO THE DOOR — the locked set has no front door in it.**
+`1a162d9b` is the STAIRCASE END. Its plate and its description contain no front door.
+The prompt described one into that wall *and* put the party "behind" Nia, and the model
+resolved both by **inventing a second opening for her to come out of.** That is §2's
+invent-the-space failure one object smaller, and it is the second time in two takes that
+a door has generated architecture nobody asked for.
+
+### C4 v4 — THE DOOR LEAVES THE FRAME ENTIRELY
+
+`exclusive/prompts/n1-clip04-v4-PROPOSED.txt`, **15,919 chars.** Script block still
+byte-identical — it has now delivered 18/18 words twice. Everything else that worked in
+v3 is untouched: same set `1a162d9b`, same hooks, same guests, same voice blocks (which
+opened the gap to 22.8 Hz).
+
+| change | why |
+|---|---|
+| **No door in frame, ever.** It is OFF-CAMERA past the near edge; Simone walks into frame already inside. | A door that is never seen cannot revolve, and it is ordinary coverage rather than a new element or a new plate |
+| Negation by MECHANISM, one sentence: no swinging, **revolving, rotating, pivoting, carousel**, sliding, glass or double doors | §5's ring rule — a door is a SHAPE the model supplies from its own prior, so naming the wrong answer is correct here |
+| **"There is EXACTLY ONE ROOM and it has NO other openings"** — no second doorway, archway, opening in any wall, side room, adjoining room, corridor, alcove or passage. Walls UNBROKEN. Nobody emerges from anywhere | kills the room Nia came out of, by name |
+| **Nia never arrives.** She is already standing in frame in front of the green sofa, mid-turn away from the guests at the squiggle table, expecting Dorian | she needed a reason to be there (the user's earlier note) WITHOUT needing somewhere to come from |
+| **Scale re-anchored off the furniture**, not the door: sofa back at hip, hook rail at shoulder, pendant clearly above their heads | the door was the measuring stick in v3 and the door is gone |
+| Hooks moved from "beside the door" to "the unbroken concrete wall at the NEAR END" | same reason |
+
+**Cost: 13s at 1080p = 117 credits.** Not submitted.
+
+**Two rejected takes in a row at 117 each. §7: flagging a risk is not permission to take
+it.** v4 waits for the user.

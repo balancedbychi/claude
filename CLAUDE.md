@@ -2054,10 +2054,50 @@ smaller claim.**
   for and a door arrived — hinged on the left, knob on the right, and opening from
   the left with the knob still on the right. The model draws the parts; it does not
   reason about how they work together. Name which edge each part lives on, which
-  edge it pivots on, and where the gap appears: "hinges on the LEFT edge, handle on
-  the RIGHT edge, never the same side — it opens inward pivoting on the left, so the
-  gap opens on the right." The same applies to anything with a working part —
+  edge it hangs on, and where the gap appears: "hinges on the LEFT edge, handle on
+  the RIGHT edge, never the same side — it SWINGS INWARD ON ITS HINGES from the left,
+  so the gap opens on the right." The same applies to anything with a working part —
   drawers, lids, latches, windows, a phone cord.
+
+  > ### ⛔ THE WORD `PIVOTING` WAS IN THIS RULE AND IT RENDERED A REVOLVING DOOR. 18 Sep 2026, 117 credits.
+  >
+  > The sentence above used to read *"it opens inward **pivoting** on the left."* It was
+  > copied verbatim into `Dorian-Loft-Entry-v2` `e1997bea`'s write-once description, out
+  > of there into N1 C4 v3's prompt, and the user's verdict on the render was:
+  > **"Simone came through the door and it revolved. Like, I don't understand that."**
+  >
+  > **A door that PIVOTS is a pivot door** — a real product that rotates about an axis
+  > instead of hanging on hinges — and a rotating door renders as a revolving one. This is
+  > §5's `high mock-halter neckline` trapdoor exactly: a word that means something specific
+  > in the trade, used loosely, requesting the wrong object every time it shipped. **The
+  > difference is that this one was in the rulebook**, so it was not one agent's slip — it
+  > was the house style.
+  >
+  > **`pivot` and `pivoting` are retired from this project. A hinged door SWINGS ON ITS
+  > HINGES.** And the negation set was missing a whole axis, per §5's own warning: every
+  > wrong answer it named was a door TYPE by material or use — steel slab, fire door,
+  > service door, sliding door — and **not one of them named a wrong MECHANISM.** Any
+  > future prompt with a door in frame negates by name: **NO revolving door, NO rotating
+  > door, NO pivot door, NO carousel door, NO door that spins, NO double doors.**
+  >
+  > **And check your own style guide for trade words before blaming the model.** One grep
+  > for `pivot` found the source in under a minute, after the render.
+
+- **⛔ DO NOT DESCRIBE A FIXTURE INTO A LOCKED SET THAT DOES NOT CONTAIN ONE — THE MODEL
+  BUILDS ARCHITECTURE TO RESOLVE IT. 18 Sep 2026, same 117 credits.**
+  The same clip put a front door into `Dorian-Loft-Night` `1a162d9b`, the approved locked
+  set, which is the STAIRCASE END and has no front door in its plate or its description.
+  The prompt also placed guests "behind" Nia. The model reconciled a wall that must hold a
+  door with a party that must be somewhere by **inventing a second opening**, and the user
+  watched **"Nia came out of the room next to the door. That was AI slop."**
+  **A locked set is an inventory, not a suggestion.** Adding one fixture it does not have
+  is the same act as §2's "do not invent the space between two references", one object
+  smaller — and it is how a second room gets built.
+  **The fix is free and it is ordinary film coverage: PUT THE FIXTURE OFF-CAMERA.** A
+  character can walk into frame from a door the audience never sees, and then no door can
+  be wrong. **When a scene needs something the locked set does not have, first ask whether
+  the shot actually needs to SEE it** — before asking the user for a plate, and long before
+  building an element.
 
 ---
 
