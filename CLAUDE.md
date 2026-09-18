@@ -797,6 +797,26 @@ the figure to the garment.
 "the white dress read right" — so the wardrobe wording is approved and, per
 section 5, is not to be reworded.
 
+### THE THREE HEIGHTS — ruled by the user, 18 Sep 2026
+
+> **"Chi is taller than Nia by 2 inches."**
+
+| | height |
+|---|---|
+| **CHICHI** | **two inches taller than Nia** — the tallest of the three women |
+| **NIA** | the reference height |
+| **SIMONE** | **the same height as Nia** barefoot; a few centimetres taller in heels |
+
+**State it as a COMPARISON, never as a number in centimetres.** A model cannot render
+"168 cm"; it can render "her head reaches the other woman's eyebrows." Pin every height to
+another body or to a named object in frame — the sofa back at the hip, the pendant clearly
+above the head — which is what finally fixed Simone reading as tall as a door.
+
+**⚠️ THIS WAS MISSING ENTIRELY AND THAT IS WHY IT DRIFTED.** N1 C5 pinned Simone to Nia
+and said NOTHING about ChiChi's height, so there was no spec to hold — §3's whole point
+about "natural body proportions" applied to stature instead of shape. **Any prompt with
+two or more women in frame states their heights relative to each other.**
+
 ### Jewellery is STYLE, except the ring — the user's ruling, Episode 3
 
 **"Their style can change from day to day."** The user's words, ruling on a frame

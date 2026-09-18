@@ -2845,3 +2845,38 @@ standing still.
 2. **Shorter container** — around 18–20s rather than 25s.
 3. **The pour given an explicit duration and its own beat**, rather than sitting inside a
    shot that also has to carry a line.
+
+### THREE NOTES ON C5 FROM THE USER — 18 Sep 2026
+
+> *"So… for the 25 second video, the british accent is back? Also, Chi is taller than Nia
+> by 2 inches. Simone's jacket should have been off."*
+
+**1. THE ACCENT — UNCONFIRMED, AND IT WOULD BE THE BIGGEST RESULT IN THE FILE IF IT HOLDS.**
+Claude cannot hear it. **If Nia's British accent survived a 25-second THREE-hander, that is
+the longest multispeaker render it has ever survived by seven seconds**, against a record
+where C1 lost it twice at 18s with two speakers. §5a's table would need a new row and the
+length hypothesis would weaken again. **Do not write it up until the user confirms by ear —
+§7: a finding is what survives a test, and an agent's inference is not the user's ear.**
+
+**2. ✅ CHI IS TWO INCHES TALLER THAN NIA — NEW CANON, RECORDED IN CLAUDE.md §3.**
+**There was no height spec for ChiChi at all.** C5's prompt pinned Simone to Nia and said
+nothing about Chi, so the model had nothing to hold — the "natural body proportions"
+failure applied to stature instead of shape. Now: Chi tallest, Simone and Nia level
+barefoot, and **heights always stated as comparisons between bodies, never as centimetres**,
+because the thing that fixed Simone-versus-the-door was a relative anchor rather than a
+number.
+
+**3. ⚠️ THE JACKET — SUSPECTED TO BE THE GREY T-SHIRT FAILURE, ONE GARMENT OVER.**
+C5's prompt explicitly said her coat was left at the entry. It stayed on anyway. **The
+wardrobe element `12a23175`'s own description ends "long black wool coat shed at the
+door"** — and if that coat is IN ITS REFERENCE IMAGE, the prompt was never going to remove
+it. That is exactly what happened with Simone's grey t-shirt hours earlier: an element's
+description forbade a garment its own picture contained, and the picture won.
+
+**The reference image has been put in front of the user** (`ef00c6fa`) with one question:
+is the coat in it? **If yes, the fix is a coat-free wardrobe reference for the
+post-entry clips, not stronger wording — the same crop-the-picture move that fixed the
+face.** If no, it is ordinary drift and the prompt handles it.
+
+**Checking the picture before theorising is the whole lesson of this episode**, and it is
+free.
