@@ -2015,6 +2015,77 @@ nothing. Shortening the clip does, because the slack disappears.
 
 ## 7. WORKING RULES
 
+### 🔑 THE FIVE PRODUCTION DIRECTIVES — the user's own, 18 Sep 2026
+
+**Given after N1 C4 was rejected in full for 162 credits. Four restate rules this file
+already had and were not being followed; one is a correction; one contains a factual
+claim that was checked and does not hold on this connection.**
+
+**1. BREAK THE SEEDING CHAIN.** *"Every image-to-video pass loses roughly 20% of fine
+detail, and seeding the next clip from an already-degraded frame compounds it… Seed
+from the sharpest available frame rather than the most recent one, and break the chain
+back to text-to-video every couple of clips."*
+§4a has the measurement and it matches her figure exactly — Clip 2 renders 47.5, Clip 3
+renders 36 from it, **−20% against its own seed.** ✅ **NEW HERE: the CADENCE.** §4a said
+"do not chain" and "seed from the sharpest source"; it never said how often to reset.
+**Every couple of clips, come back to pure t2v.** A chain with a reset in it cannot
+compound past two links.
+
+**2. CUT THE PROMPT LENGTH HARD, AND FRONT-LOAD MORE THAN THE DIALOGUE.** *"At around
+20,000 characters, instructions toward the end carry little weight… dialogue and
+critical constraints need to sit near the front rather than at depth."*
+§2b's ceiling is 19,554 and §7's table shows adherence collapsing above it. ✅ **NEW
+HERE: "critical constraints", not just the script.** The file only ever said to lift the
+DIALOGUE to the top. **Anything that must not be re-rolled — the attribution guards, the
+ring rule, the no-cup rule, the cut anchors — belongs near the front too, not at 70%
+depth where the script used to sit.**
+
+**3. THE START FRAME OVERRULES THE TEXT.** *"Your prompts specified ring-free and no
+necklace while the seed image carried both, and the image won… anything you need
+excluded has to be absent from the frame."*
+§4a records this exact failure. ✅ **NEW HERE: the general rule, stated as an
+instruction rather than a post-mortem.** **On image-to-video, a negation only works if
+the thing is ABSENT FROM THE REFERENCE. Writing "no ring" over a frame containing a ring
+is not a fix, it is a wish.** This is §2b's ring hypothesis and §3's no-cup rule and the
+Sucré lettering lesson, all the same mechanism: **an image beats text every time.**
+
+**4. GENERATE VOICE SEPARATELY — and here is what was checked.**
+*"Voice Cloning with Voice Binding locks a voice to a character across scenes, rather
+than relying on native multi-character audio to assign them correctly each time."*
+
+> ### ⚠️ VERIFIED 18 Sep 2026: THERE IS NO VOICE BINDING ON THIS CONNECTION.
+> `models_explore` on `seedance_2_5` returns its complete parameter set — **`mode` ·
+> `duration` · `resolution` · `generate_audio` · `bitrate_mode` · `extension_mode`** —
+> and media roles `start_image` · `end_image` · `image_references` ·
+> `video_references` · `audio_references`. **Nothing assigns a voice to a character.**
+> `list_voices` returns `voice_id` · `voice_type` · `name` · `gender` · `preview_url`
+> and **no character field.** Soul characters (`show_characters`) DO bind identity, but
+> only to `soul_2` and `soul_cinematic` — image models — and **one soul per
+> generation**, so Soul is not a video path at all.
+> **Do not go looking for this parameter again.** Same standing as the language
+> selector in the Lock Card: checked, absent, recorded.
+
+**✅ BUT THE OUTCOME SHE IS ASKING FOR IS ACHIEVABLE, AND IT IS THE FILE'S OWN PROTOCOL
+THAT HAS NEVER BEEN RUN.** The way to stop a render mis-assigning voices is to give it
+**ONE SPEAKER PER GENERATION**. With one mouth in the shot there is no assignment to get
+wrong. §5a's TEST PROTOCOL already says exactly this at step 3 — *"one visible speaking
+character per test"* — and step 2 was never executed; the project went straight to
+multi-speaker clips. **N1 C4 is the bill: Simone and Nia measured 13.6 Hz apart, below
+the figure §5a names as the signature of converged voices.**
+The working method, all of it already proven in pieces:
+- **`generate_audio` TTS per character** with her own element — 0.3–0.5 credits, and it
+  is the only path that has ever produced a British Nia on demand.
+- **One speaker per seedance generation**, her audio reference attached.
+- **Cut the scene together** from single-speaker shots and reaction shots.
+- **`voice_change` (2 credits) to repair one speaker** in a finished clip, per §5a's
+  proven Ep3 C5 recipe.
+
+**5. TEST AT 480p, DELIVER AT 1080p.** *"Confirm the motion, framing and dialogue land,
+then render the final version at 1080p."* ✅ **THIS CORRECTS THIS FILE** — §7 below used
+to say hold one resolution for the whole episode. See the superseded rule there.
+
+---
+
 - **One variable per take.** When a note comes in, change that one thing and
   nothing else. Bundling a second improvement into a fix is what broke the most
   expensive shot of Episode 1. If a second change seems needed, propose it first.
@@ -2290,11 +2361,23 @@ nothing. Shortening the clip does, because the slack disappears.
   chooses for you, and it will not choose the same thing twice.
   **And when a render regresses in a way the prompt cannot explain, check the
   parameters BEFORE theorising about the model.**
-- **Pick the resolution before the first clip of an episode, not after.** "Blurry"
+- **⛔ SUPERSEDED 18 Sep 2026 — ITERATE AT 480p, DELIVER AT 1080p.** This rule used to
+  say pick one resolution and *hold it for the whole episode*. **The user has overruled
+  that and she is right.** Resolution has nothing to do with whether the right face,
+  the right room, the right blocking or the right dialogue shows up — so paying 1080p
+  prices to discover a staging fault is pure waste. **Test at 480p. Confirm motion,
+  framing, identity and dialogue land. THEN render the final at 1080p.**
+  **The numbers make the case on their own:** a 5s test is **15 credits at 480p against
+  90 at 1080p**, and a 16s clip is **144 at 1080p**. N1 C4 was rejected in full at 162
+  credits; the 480p test that found the actual cause cost 15. **Six 480p iterations are
+  cheaper than one wrong 1080p take.**
+  What survives from the old rule: once you are shooting the FINAL, hold 1080p across
+  the whole episode so delivered clips match — and never read a 480p test as a verdict
+  on picture quality, because it is not one.
+- **Pick the FINAL resolution before the first clip of an episode, not after.** "Blurry"
   is usually not a prompt problem — 480p looks fine in a chat preview and soft on
   a television, and no amount of sharpness wording fixes the pixel count. Quote
-  all three tiers per clip and per episode up front and let the user choose, then
-  hold it for the whole episode. Seedance on a 15s clip: **480p 37.5**, **720p
+  all three tiers per clip and per episode up front and let the user choose. Seedance on a 15s clip: **480p 37.5**, **720p
   97.5**, **1080p 135** credits. The only free moment to change it is while the
   episode's one existing clip is already being replaced.
 - **Ask for sharpness in the prompt too, but expect little from it.** An IMAGE
