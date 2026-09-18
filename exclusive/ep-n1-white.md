@@ -2450,3 +2450,76 @@ introduced by a fix for a real fault, and both would have been invisible to a ch
 read only the sentence being changed. **When you write a negation to fix a note, read it
 against the whole prompt AND against every attached element description before it
 ships.**
+
+### C4 v6 MEASURED — job `0d5a7e3b`
+
+1920x1080, **10.17 Mbps**, 13.05s. **18/18 WORDS — FOURTH CONSECUTIVE CLEAN SCRIPT HIT.**
+**Two cuts, both isolated and unambiguous: 6.75s (12.1x) and 8.50s (10.3x)**, with no
+intermediate motion cluster at all — cleaner than v5, which needed the "smooth cluster is
+motion, not cuts" rule to read correctly.
+
+### ✅ THE SHOT-B FIX MOVED THE NUMBER 2.3x — AND THIS IS THE ONE COMPARISON §7 ALLOWS
+
+| shot | v5 | **v6** |
+|---|---|---|
+| A — door, hooks, shoes | 37.4 | 18.0 |
+| **B — Nia** | **8.5** | **19.9** |
+| C — two-shot | 22.9 | 21.0 |
+
+**Shot B more than doubled, 8.5 → 19.9, and its range tightened to 17.4–21.9** — flat
+across the shot rather than a lucky frame. **Same room, same set elements, same prompt
+except for that one block: this is exactly the "sudden change inside ONE room across
+otherwise identical takes" that §7 says the measure is FOR**, as opposed to the
+cross-room, cross-clip comparisons it forbids. Replacing a flat near wall with three
+planes of receding depth put real scene detail behind her, which is what the number reads.
+
+**⚠️ It still does not prove the shot LOOKS right.** More detail behind her is what depth
+produces; whether she now reads as standing IN the room is the user's eye and nothing else.
+
+**⚠️ AND SHOT A FELL, 37.4 → 18.0 — REPORTED, NOT ACTED ON.** Its range went from a tight
+34.8–41.9 in v5 to a wide **9.8–21.6** here. §7: *"a kinetic subject gives a spread, not a
+line."* v6's line 1 lands at **0.98s against v5's 2.76s**, so far more of Shot A is Simone
+in motion rather than held frame. That is a plausible reading of a spread, not a proven
+cause, and **nothing is being changed on it.**
+
+**The clip is now uniform — 18.0 / 19.9 / 21.0 against v5's 37.4 / 8.5 / 22.9.** No shot
+stands out as soft. **§7 forbids calling that better and it is not called better here.**
+
+### THE VOICE GAP NARROWED, BUT THE PER-LINE SEPARATION IMPROVED
+
+| line | speaker | median | spread |
+|---|---|---|---|
+| L1 | SIMONE | 195.1 | 1.36x |
+| L2 | NIA | 213.3 | 1.28x |
+| L3 | SIMONE | 195.1 | 1.06x |
+| L4 | NIA | 214.8 | 1.08x |
+| L5 | SIMONE | 176.8 | **2.19x** |
+
+| take | SIMONE | NIA | gap |
+|---|---|---|---|
+| v2 | 210.5 | 210.1 | 0.4 Hz |
+| v3 | 188.2 | 211.0 | 22.8 Hz |
+| v5 | 200.0 | 228.6 | 28.6 Hz |
+| **v6** | **195.1** | **214.1** | **18.9 Hz** |
+
+**The pooled gap is down, and the per-line picture is CLEANER, not worse.** In v5, L3 and
+L4 measured IDENTICALLY at 225.4 Hz — two adjacent lines indistinguishable. **In v6 no two
+lines match and EVERY Simone line sits below EVERY Nia line.** The headline number and the
+line-by-line reading disagree, and the line-by-line one is the more informative.
+
+**L5's spread is 2.19x, far past §5a's 1.4x unsafe threshold — that reading is not
+trustworthy** and should be histogrammed before anyone quotes 176.8.
+
+### ✅ NO MUSIC SWELL — FOURTH CLEAN TAIL
+
+Flat at −41 to −43 dBFS across the whole hold, with a 3 dB bump at 12.85–12.90 whose
+centroid is **779.3 Hz** — an object, on the same test that cleared v5's tail. Nothing
+approaching Ep2's +3.4 and +7.78 dB swells.
+
+### STILL THE USER'S EYES
+
+1. **Does Simone stay in the same outfit the whole way through?** The grey top is now
+   physically absent from her reference rather than argued against in prose.
+2. **Does Nia read as standing in the room** rather than pasted onto it?
+3. Is `66ab4872` still the right woman after the crop — the face should be untouched,
+   only the frame changed.
