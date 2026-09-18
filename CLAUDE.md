@@ -2156,6 +2156,44 @@ point, and it works with two people in frame.
 then render the final version at 1080p."* ✅ **THIS CORRECTS THIS FILE** — §7 below used
 to say hold one resolution for the whole episode. See the superseded rule there.
 
+> ### ⛔ BLOCKED 18 Sep 2026: 480p RETURNS `nsfw` ON THIS CONNECTION, WHATEVER IS IN THE PROMPT.
+>
+> **SIX consecutive `seedance_2_5` submissions at `resolution: "480p"` came back
+> `status: "nsfw"`, `type: "image"`.** The content was eliminated one variable at a time
+> and none of it was the cause:
+>
+> | # | what was removed or changed | result |
+> |---|---|---|
+> | 1 | the full C4 v2 test as written | ❌ nsfw |
+> | 2 | wardrobe sentence restored VERBATIM from C4a, which passed at 1080p | ❌ nsfw |
+> | 3 | wardrobe element dropped, figure block deleted, both women in full buttoned overcoats | ❌ nsfw |
+> | 4 | new set element swapped for the old `9ced01df` | ❌ nsfw |
+> | 5 | **Simone removed entirely — NIA ALONE, modest dress, locked set** | ❌ nsfw |
+> | 6 | duration 5s → 8s | ❌ nsfw |
+>
+> **Test 5 is the one that settles it.** One woman, alone, in a knee-length dress with
+> sleeves, in an approved set, saying three words — the most innocuous frame this series
+> could produce — and it was refused. `bcd528d3` is in every approved clip of the episode
+> at 1080p. **This is not a judgement about the content.**
+>
+> The only value common to all six is **`resolution: "480p"`**. Everything else varied.
+>
+> **⚠️ SO DIRECTIVE 5 CANNOT BE FOLLOWED AS WRITTEN UNTIL THIS CLEARS.** The reasoning
+> behind it is still right — resolution has nothing to do with whether the right face or
+> the right blocking shows up, and paying 1080p to find a staging fault is waste. But the
+> cheap tier is not currently reachable. **Try 720p as the iteration tier** (5s = 32.5
+> credits against 90 at 1080p) and re-test 480p occasionally; it may be a transient
+> server-side filter setting rather than a permanent one.
+>
+> ### ✅ AND AN `nsfw` REJECTION COSTS NOTHING — BUT THE BALANCE LIES WHILE IT SETTLES
+>
+> `transactions` shows each one as a **−15 spend followed by a +15 refund within seconds**.
+> Six rejections, six matched pairs, balance returned to exactly where it started.
+> **An agent reading `balance` in the gap between the two will see credits missing that
+> are not missing** — that happened here and was reported to the user as a real charge
+> before `transactions` corrected it. **Never call a spend from a balance delta alone;
+> read `transactions`, which names the action.**
+
 ---
 
 - **One variable per take.** When a note comes in, change that one thing and

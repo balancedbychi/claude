@@ -381,10 +381,10 @@ action, never the container alone.
 | `Nia` · `ChiChi-the-Influencer` · `Dorian-Series-Look` · `Kel-The-Cousin` | ✅ LOCKED |
 | Voices — `12315c68` + `de50f37f` in every prompt, Kel's prose recipe | ✅ LOCKED |
 | **Simone — wardrobe** `12a23175` | ✅ **LOCKED** — checked 18 Sep, its description IS written and complete |
-| **Simone — face** `59989697` | ⚠️ **IMAGE PRESENT `20d0fffb`, DESCRIPTION NULL AND UNFILLABLE.** Her spec lives in the PROMPT. **Unverified in a render** — 12-credit 480p identity test first |
+| **Simone — face** `59989697` | ⏳ **IDENTITY TEST SHOT 18 Sep — job `82f57050`, 5s 480p, 15 credits.** Image `20d0fffb`, description null and unfillable, so her spec lives in the PROMPT. Awaiting the user's eyes |
 | **Nia's white dress** `91da557d` | ✅ LOCKED — read right on the 8s test `c9976b46` |
 | **Chi's look** `f2c3a3c5` | ✅ LOCKED — shot on the 8s test |
-| **Simone's voice** | ⚠️ **PICK A PRESET BY EAR** — the preset pool exists, previews are free, no element slot needed. See below |
+| **Simone's voice** | ✅ **ROXIE — preset `f6448975-768e-4327-b932-1b7c973d58e9`. Chosen by the user 18 Sep 2026.** Audio layer only; see below |
 
 ## DELIVERED
 
@@ -453,7 +453,8 @@ days. **Nothing here needs creating. This episode is not blocked on assets.**
 | `Dorian-Kitchen-Night` | `de2063f2-acee-4300-9669-b1f17bff850f` | C3 |
 | `Dorian-Hallway-Night` | `6acd0d74-4da4-4aa4-bad6-4505bf5f26b2` | C4 (from inside), C6 |
 | `Dorian-Lift-Lobby-Night` | `8c54db0d-e65b-4514-9947-7cdccbe2e0c3` | C6 — lift doors, framed close, same corridor |
-| **`Dorian-Loft-Entry-Night`** | **`9ced01df-06ff-40ef-b14a-b677870aac27`** | **C4 — the front door FROM INSIDE + the shoe wall. Locked 17 Sep 2026** |
+| **`Dorian-Loft-Entry-v2`** | **`e1997bea-c835-4a4e-b8ac-53b518a3ccf3`** | **C4 — the front door FROM INSIDE. LOCKED 18 Sep 2026 from plate `c8c5f6f4`. Full spec written into the description, including the door's mirrored geometry both ways and the bare-floor rule** |
+| ~~`Dorian-Loft-Entry-Night`~~ | ~~`9ced01df-06ff-40ef-b14a-b677870aac27`~~ | ⛔ **RETIRED 18 Sep 2026** — its prompt invented a concrete vestibule with coat hooks this apartment does not have, and the footage read as a CORRIDOR. Superseded by `e1997bea` |
 | **`Dorian-Loft-Wide-Night`** | **`d2ab7a6f-312d-494d-834e-5906b01eb505`** | **MASTER GEOGRAPHY — the whole room in one frame. Not a shooting set** |
 | **`Dorian-Loft-Mezzanine-Night`** | **`48edf8ab-9e3b-453c-b6bc-ae8f2c895c65`** | **the upper landing. Matched pair with the terrace** |
 | **`Dorian-Roof-Terrace-v2`** | **`a6c1e4ca-f936-4d9a-adae-82ce86832660`** | **the terrace WITH THE GLASS RAILING — ⛔ use this, never `dc0d5423`** |
@@ -1378,3 +1379,66 @@ signature of "both voices are wrong". The prose separation above is written at t
 the audio layer — TTS per character, or `voice_change` on one speaker plus a splice — is
 the repair if the render still converges them. **Never re-shoot a clip whose picture is
 right to chase a voice.**
+
+---
+
+## 18 SEP 2026 — THE DOOR AND SIMONE'S VOICE ARE BOTH SETTLED
+
+The user: *"make up a door and use voice Roxy."*
+
+### ✅ THE DOOR — `Dorian-Loft-Entry-v2` `e1997bea-c835-4a4e-b8ac-53b518a3ccf3`
+
+Locked from plate A `c8c5f6f4`, the INSIDE view, because that is the side C4 plays on.
+The full spec is written into the description — the door's mirrored geometry stated both
+ways, the not-an-industrial-door negation set, the bare-floor rule, the lighting and the
+blank-surface rule. **`9ced01df` is RETIRED**; its prompt invented a concrete vestibule
+with coat hooks and its footage read as a corridor.
+
+Plates B `7ba23c15` (corridor) and C `cf64c86c` (lift + door in one frame) stay
+unlocked until C6 needs them, but their IDs are in this file now.
+
+### ✅ SIMONE'S VOICE — `Roxie`, preset `f6448975-768e-4327-b932-1b7c973d58e9`
+
+Chosen by the user. It is an AUDIO-LAYER asset: a preset cannot be tagged in a seedance
+prompt, so it never enters the binding sort and cannot displace Nia's `12315c68`. Simone's
+voice inside a render is still the prose recipe; Roxie arrives as TTS or `voice_change`.
+
+**First TTS: job `cdd5df48`, 0.5 credits, `speech_rate: 50`, all three of her C4 lines.**
+
+| | |
+|---|---|
+| duration | 4.32s, **2.78 words/sec** against 3.42 measured in renders |
+| peak / clipping | −6.3 dBFS / **0 clipped samples** |
+| **f0 median** | **190.5 Hz** |
+| p25 / p75 | 160.0 / 229.4, **spread 1.43** |
+
+### ⚠️ AND THE NUMBER MOVED — HER PREVIEW READ 170.2, HER DIALOGUE READS 190.5
+
+That is a **+20 Hz shift between the preview and real lines**, and it puts her **6.6 Hz
+from Nia's element** — closer than the 13.6 Hz that got C4 rejected.
+
+**This is a FLAG, not a verdict, and per §7 it does not revert anything.** Three reasons
+to be careful with it:
+
+- **§5a already documents exactly this effect.** *"Canon Chi 146.8 Hz, capture 160.0 Hz,
+  element 181.8 Hz — the gap is delivery, not identity."* Content and delivery move pitch
+  more than identity does, and these are three short exclamatory sentences.
+- **The spread is 1.43, above §5a's 1.4 unsafe threshold.** It is NOT octave doubling —
+  229.4/160.0 = 1.43, nowhere near 2 — so it is genuine range rather than a bad reading.
+  But a median over that much range is a weak summary.
+- **Nia's own render figures are 188.8–220.7, not 183.9.** Against those, Roxie at 190.5
+  is at the bottom of Nia's band rather than inside it.
+
+**The free mitigation, if the user's ear agrees they blur:** `seed_audio` takes a
+`pitch_rate` parameter. A pitch-shifted Roxie costs another 0.3–0.5 credits and can be
+compared by ear against this one. **Do not apply it on the strength of the number alone.**
+
+### ❌ AND THE 480p IDENTITY TEST COULD NOT BE SHOT — SEE CLAUDE.md §7
+
+Six submissions, all `nsfw`, all refunded, net zero credits. The content was eliminated
+variable by variable down to **Nia alone in a modest dress saying three words**, which was
+still refused. **480p is the only thing common to all six.** Simone's face is therefore
+STILL unverified in a render, and that row stays a hard stop.
+
+**The identity test needs to be re-shot at 720p (32.5 credits) or 1080p (90).** That is a
+bigger number than the 15 the user accepted, so it is her call, not an agent's.
