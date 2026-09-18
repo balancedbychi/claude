@@ -313,9 +313,19 @@ highest-leverage rule in this file.
 - **⛔ A WARDROBE ELEMENT IS A WHOLE OUTFIT, SO IT DIES THE MOMENT A GARMENT COMES OFF ON
   CAMERA. N1 C5, 18 Sep 2026, 225 credits.**
   `Simone-Party-Look-v2` `12a23175`'s write-once description ends *"sage strappy heeled
-  sandals, small sage top-handle bag, **long black wool coat**"*, and its reference plate
-  carries a large near-black garment mass across the torso-to-knee zone — measured, x
-  720–1560, y 770–2640 of a 2160x3840 plate, the two columns of a long dark coat.
+  sandals, small sage top-handle bag, **long black wool coat**"*, and its single 2160x3840
+  plate is a SHEET OF SEVERAL VIEWS of her — **the user's own correction: "There are
+  multiple photos of her, 1 with a coat and 1 without."**
+  **⚠️ AND HERE IS AN AGENT BREAKING §7's OWN RULE THE DAY AFTER WRITING IT DOWN.** The
+  same agent measured a near-black low-saturation mass in two vertical columns, x 720–1560,
+  y 770–2640, and reported it to the user as *"that's a coat, not hair and not shoes."*
+  **A dark region is what was measured; "a long coat" is what was claimed.** §7 is
+  absolute — *a measurement may FLAG, it may never REVERT* — and it applies just as hard to
+  an agent settling a VISUAL question it cannot see. The pixels could not tell a coat from
+  a shadow, and the sheet turned out to hold both a coated and an uncoated view.
+  **The diagnosis survives the correction and is in fact stronger: the plate shows the coat
+  BOTH ON AND OFF, so the picture is ambiguous, and the DESCRIPTION is what resolves it —
+  toward the coat, because it is the only garment list in the prompt.**
   **C4 v7 is the clip where she takes that coat off and hangs it on the hooks.** C5 is a
   minute later in the next room. C5's prompt said *"her sandals and her coat left at the
   entry earlier in the evening"* — and attached `12a23175` anyway. The coat was on. The
@@ -327,11 +337,15 @@ highest-leverage rule in this file.
   settles which side wins: **an image beats text every time**, and so does the element
   text riding beside it.
   **So: an outfit element is valid ONLY for the clips where the WHOLE outfit is worn.**
-  From the first frame after a garment comes off, that element is finished. The clips
-  after it get identity from a garment-free element — `Simone-Face-v3` `66ab4872` is
-  exactly that, built by cropping the grey t-shirt out of frame — and the remaining
-  garments in PROSE. **Do not attach an outfit element and negate one of its garments.
-  Detach it.**
+  From the first frame after a garment comes off, that element is finished.
+  **And when the plate is a MULTI-VIEW SHEET, the fix is not prose — it is a CROP.** Cut the
+  sheet down to the views that show the after state only, and build the post-change element
+  from that. The plaid stays locked by a picture instead of being re-described in words,
+  which is §5's whole point, and the coat cannot arrive because it is not in the frame. That
+  is the `Simone-Face-v3` move — the grey t-shirt was cropped out, not argued with — and a
+  crop needs the USER to say which views to keep, because that is a visual question.
+  Only when no clean view exists does the garment go into PROSE. **Either way: do not attach
+  an outfit element and negate one of its garments. Crop it or detach it.**
   This is the grey t-shirt, the ring, the Sucré lettering and Dorian's cup for the fifth
   time. **The pattern is always the same: a reference asserts a thing, the prompt denies
   it, the reference wins.** Before attaching ANY element, read its description back and

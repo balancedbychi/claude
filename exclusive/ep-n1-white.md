@@ -2898,11 +2898,21 @@ left at the entry earlier in the evening."* The prose was correct.
 **What C5's prompt also did:** attached `<<<12a23175>>>`, whose write-once description ends
 *"sage strappy heeled sandals, small sage top-handle bag, **long black wool coat**"*.
 
-**And the plate carries it too — measured, no credits, 18 Sep 2026.** `d5dce62f`,
-2160x3840: a near-black low-saturation mass in **two vertical columns, x 720–1080 and
-x 1320–1560, spanning y 770 to 2640** — half the height of the plate, continuous, with
-zero black above or below. That is the silhouette of a long dark coat, not hair and not
-shoes, which would read as two separate bands.
+**And the plate is a SHEET OF SEVERAL VIEWS — the user's correction, 18 Sep 2026:**
+*"There are multiple photos of her, 1 with a coat and 1 without."* `d5dce62f`, 2160x3840,
+one media, no gutters — a seamless multi-view sheet.
+
+**⛔ AN AGENT CALLED A DARK REGION A COAT AND REPORTED IT AS SETTLED.** The measurement was
+a near-black low-saturation mass in two vertical columns, x 720–1080 and x 1320–1560,
+spanning y 770–2640, and it was written up as *"that is the silhouette of a long dark coat,
+not hair and not shoes."* **The pixels support "a large dark region." They do not support
+"a coat."** §7: a measurement may FLAG, never settle — and that applies hardest to a VISUAL
+question, which is the user's eyes and nothing else. Recorded in CLAUDE.md §2.
+
+**The diagnosis is stronger for the correction, not weaker.** The plate shows the coat BOTH
+ON AND OFF, so the picture is genuinely ambiguous about whether she is wearing it — and the
+**description** is what breaks the tie, toward the coat, because *"long black wool coat"* is
+the only garment list travelling with the element.
 
 **So the coat was asserted twice, by the description and by the picture, and denied once,
 in prose. §7 directive 3 already settles that: an image beats text every time.** This is
@@ -2920,11 +2930,23 @@ dies the moment a garment comes off on camera — detach it, never negate one of
 garments; and the seam map carries a WARDROBE column whose exit state is read off the
 previous clip's `-DELIVERED-` file, never off memory.
 
-**THE FIX FOR C5 v2 AND C6, AND IT COSTS NOTHING:** drop `12a23175` entirely. Simone's
-identity comes from **`Simone-Face-v3` `66ab4872`, which has no garment in frame at all** —
-it exists because the grey t-shirt was cropped out of it — and the plaid top and jeans go
-in PROSE, in the wording C4 v7 already rendered correctly. **No image carrying a coat is
-attached, so no coat can arrive.**
+**THE FIX FOR C5 v2 AND C6 — AND THE CORRECTION MAKES IT BETTER THAN THE FIRST ANSWER.**
+The first answer was: drop `12a23175`, keep identity from `Simone-Face-v3` `66ab4872` (no
+garment in frame at all), and write the plaid top and jeans in PROSE. That works and it is
+what `n1-clip05-v2-PROPOSED.txt` currently does — **but it gives up the image lock on the
+plaid**, which §5 calls the strongest thing a reference carries.
+
+**Since the sheet contains a coat-free view, the better fix is a CROP:** cut `d5dce62f` down
+to the views with no coat, and build `Simone-Party-Look-POST-ENTRY` from that crop, with a
+description that never writes the word coat. Then the plaid, the jeans and the fit are all
+locked by a picture again, and the coat cannot arrive because it is not in frame. Same move
+as `Simone-Face-v3`.
+
+**That needs the user's eyes and nothing else.** A numbered 2x3 overlay of the plate went to
+her as media `4914ee55-10a7-428b-9a05-242fddfe9ce8` — panels 1–6, big yellow numerals, per
+the convention that when a human has to identify something it gets labelled with something
+they can say out loud. She names the coat-free panels; the crop and the element follow. If
+no panel is clean on its own, the prose version already written stands.
 
 **Checking the picture before theorising is the whole lesson of this episode**, and it is
 free.
