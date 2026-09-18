@@ -296,6 +296,30 @@ highest-leverage rule in this file.
   the rules that never move. **A level, a look or a styling choice is a take
   decision, and putting it in a write-once description guarantees a contradiction
   the first time the user changes their mind.**
+- **⛔ A WRITE-ONCE DESCRIPTION CAN CONTAIN AN OBJECT THAT IS NOT IN ITS OWN IMAGE, AND
+  THAT PHANTOM IS PERMANENT. CONFIRMED 18 Sep 2026.**
+  `Dorian-Kitchen-Night` `de2063f2` describes *"a black leather sofa in the foreground
+  right with a black metal coffee table carrying a small potted aloe, on a faded
+  patterned rug."* The user checked the plate the description was written from and the
+  delivered C3 footage shot in it: **"no black sofa in the plate either."** Four props,
+  none of them ever there.
+  **This is one step worse than the rule above about re-describing an image.** That
+  failure creates a second, weaker spec that can DISAGREE with the picture. This one
+  **invents contents the picture never had** — and descriptions cannot be edited, so the
+  phantom stays, looking exactly as authoritative as the true clauses beside it.
+  **AND IT PROPAGATES INTO RULINGS.** The phantom sofa passed from `de2063f2` into
+  `Dorian-Loft-Wide-Night`'s *"EXACTLY THREE SOFAS"*, into the episode file, into
+  `locations.md`, and was finally written down as **the user's own ruling of 17 Sep
+  2026** — because an agent asked her to choose between three descriptions without ever
+  checking one of them against its plate. **She answered the question she was asked; the
+  question was built on something that did not exist.** A ruling is only as good as the
+  options put to the user, and constructing those options is the agent's job.
+  **So: AUDIT EVERY LOCKED DESCRIPTION AGAINST ITS OWN PLATE, and do it before quoting
+  the description in a prompt or building a question out of it.** It is free —
+  `sandbox_exec` fetches any plate and builds a contact sheet, `media_upload` puts it in
+  the user's library, and her eye settles it in one glance. Nothing in this series has
+  ever had that check run on it.
+
 - **⛔ AN ELEMENT'S OWN PLATE CANNOT CONFIRM ITS OWN DESCRIPTION. 18 Sep 2026.**
   The user re-uploaded the loft wide with the words *"this is the apartment"*, and an
   agent — this one — wrote that it *"confirms the mezzanine"* and that *"four locked

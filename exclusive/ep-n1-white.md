@@ -1007,14 +1007,40 @@ the stair and the LOW DARK one at the window end. There is NO black leather sofa
 sofa at the kitchen edge, NO black metal coffee table and NO faded patterned rug
 anywhere in the kitchen zone.*
 
-### ⚠️ AND `de2063f2` CARRIES APPROVED FOOTAGE, WHICH MAKES THIS ONE DIFFERENT
+### ✅ CHECKED 18 Sep 2026 — AND IT IS NOT A CONTINUITY CONFLICT. THE SOFA NEVER EXISTED.
 
-The kitchen element is not a stale plate — **C3 v2 `b3437148` was shot in it.** The wide
-is one angle and the kitchen element is another, so a sofa absent from the wide could
-still be sitting in the kitchen plate, out of the wide's frame. **The ruling settles what
-is CANON going forward; it does not tell us what is in the delivered C3 footage.** If a
-black sofa is visible in `b3437148`, that is a continuity conflict between delivered
-footage and canon and the user should decide it, not an agent.
+Three frames of C3 v2 `b3437148` and the kitchen plate `fbb95f8d` itself were built into
+one sheet and put in the user's library (`673b2c55`). Her verdict: **"no black sofa in
+the plate either."**
+
+**So the clause was INVENTED IN THE DESCRIPTION. It is not in the footage and it is not
+in the plate the description was written from.** Nothing delivered contradicts the
+two-sofa canon, and the override is a straightforward correction rather than a decision
+about shipped footage.
+
+### ⛔ AND THIS IS A FAILURE MODE THIS FILE HAD NEVER RECORDED
+
+§5 warns that re-describing what an image shows creates *"a SECOND, weaker specification
+that can disagree with the picture."* **This is a step worse: the description ADDED AN
+OBJECT THE IMAGE NEVER CONTAINED** — a black leather sofa, a black metal coffee table, a
+potted aloe and a faded patterned rug, none of them in the plate. **And because
+descriptions are write-once, that phantom is permanent and will look authoritative to
+every future session.**
+
+**Then it propagated.** The phantom sofa went from `de2063f2`'s description into
+`d2ab7a6f`'s "EXACTLY THREE SOFAS", into this episode file, and into `locations.md` — and
+was finally recorded as a **user ruling**. The user did rule three on 17 Sep; she was
+answering a question an agent built out of three descriptions, one of which contained an
+object that was never there. **She answered the question she was asked. The question was
+wrong.**
+
+### ⚠️ WHAT ELSE HAS NEVER BEEN CHECKED AGAINST ITS OWN PLATE?
+
+The sofa arrived as a package with three other props. Every locked element in this series
+carries a long written description and **none of them has ever been audited against the
+image it sits on.** That audit is free — the sandbox can fetch any plate and build a
+contact sheet, and the user's eye does the rest. **Worth doing before C5, which plays at
+the window end, an area described in `0707edcb` in exactly the same prose-first way.**
 
 `d2ab7a6f`'s own text says *"where this wide and a zone element disagree about that zone,
 THE ZONE ELEMENT WINS."* **The user's ruling outranks both.**
