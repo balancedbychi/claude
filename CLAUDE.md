@@ -1364,6 +1364,41 @@ attached and on camera when capturing Chi again.
 3. Verify before cloning. Do not trust it by ear alone and do not skip this —
    see "Verifying audio you cannot hear" in section 7.
 
+### ✅ THERE IS A SECOND VOICE POOL AND THIS FILE HAD NEVER LOOKED AT IT — 18 Sep 2026
+
+**`list_voices` returns `voice_type: "element"` AND `voice_type: "preset"`.** Every
+voice argument in three episodes of this project has been an element, and the slot-limit
+section below — *"you cannot just clone another character"* — was answering a question
+that has a free answer.
+
+| | elements | presets |
+|---|---|---|
+| how many | **3, and the cap is 3** | **dozens**, paginated, costing no slot |
+| `<<<tagged>>>` in a seedance prompt | yes | **NO — they are not reference elements** |
+| enters the lowest-UUID binding sort | yes | **no** |
+| free `preview_url` | yes | **yes** |
+| `generate_audio` TTS · `voice_change` | yes | **yes** |
+
+**That a preset CANNOT go in a prompt is what makes it safe, not what makes it
+useless.** It is an audio-layer asset by construction — which is exactly where the
+corrected workflow puts voice repair. Adding a new character a voice this way **cannot
+displace Nia's `12315c68` in the binding sort**, so it cannot cost Nia or ChiChi theirs.
+That is the whole reason the three-slot cap was frightening, and it does not apply here.
+
+**Use it for NEW characters — Simone, Kel, Dorian.** §5a already reasoned that a cloned
+male element *"will almost certainly be ignored the same way unless its UUID happens to
+sort below hers"*, and concluded the men need the prose-recipe treatment. **A preset is
+the better answer**: a real asset, no slot, no sort, free to audition.
+
+⛔ **This does NOT reopen Nia or ChiChi.** The Lock Card settles both, a preset cannot be
+attached to a render at all, and §5a's whole history is agents relitigating settled
+voices. Do not propose swapping either woman onto a preset.
+
+**And the rule that governs it is the one already written: LISTEN BEFORE YOU BUILD.**
+Three episodes of prompts were built around a voice element nobody had ever played. The
+previews are free and the user's ear is the only instrument — audition, let her choose,
+write the id down in the episode file.
+
 ### The voice-element slot limit — you cannot just clone another character
 
 The account caps voice elements at three. **As of 15 Sep 2026 TWO are used and ONE
@@ -2039,6 +2074,14 @@ HERE: "critical constraints", not just the script.** The file only ever said to 
 DIALOGUE to the top. **Anything that must not be re-rolled — the attribution guards, the
 ring rule, the no-cup rule, the cut anchors — belongs near the front too, not at 70%
 depth where the script used to sit.**
+
+> **⚠️ AND IT WAS NOT WHAT BROKE N1 C4 — checked 18 Sep 2026.** Both rejected takes hit
+> their word counts EXACTLY (6/6 and 12/12) at 12,937 and 12,397 characters, while the
+> APPROVED C3 v2 is the longest of the three at 17,697. C4 broke on faces, wardrobe and
+> set. **A rule that is right in general is not automatically the diagnosis for the take
+> in front of you** — §7 already says to check the parameters before theorising about the
+> model, and this is that habit applied to a rule instead of a parameter. Confirm the
+> named cause is present in THIS take's evidence before spending work on it.
 
 **3. THE START FRAME OVERRULES THE TEXT.** *"Your prompts specified ring-free and no
 necklace while the seed image carried both, and the image won… anything you need

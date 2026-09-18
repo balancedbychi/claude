@@ -380,10 +380,11 @@ action, never the container alone.
 | All six sets | ✅ LOCKED — no plates |
 | `Nia` · `ChiChi-the-Influencer` · `Dorian-Series-Look` · `Kel-The-Cousin` | ✅ LOCKED |
 | Voices — `12315c68` + `de50f37f` in every prompt, Kel's prose recipe | ✅ LOCKED |
-| **Simone — face + wardrobe** | ⚠️ USER UPLOADS |
+| **Simone — wardrobe** `12a23175` | ✅ **LOCKED** — checked 18 Sep, its description IS written and complete |
+| **Simone — face** `59989697` | ⚠️ **IMAGE PRESENT `20d0fffb`, DESCRIPTION NULL AND UNFILLABLE.** Her spec lives in the PROMPT. **Unverified in a render** — 12-credit 480p identity test first |
 | **Nia's white dress** `91da557d` | ✅ LOCKED — read right on the 8s test `c9976b46` |
 | **Chi's look** `f2c3a3c5` | ✅ LOCKED — shot on the 8s test |
-| **Simone's voice** | ⚠️ PROSE RECIPE + reference audio sample |
+| **Simone's voice** | ⚠️ **PICK A PRESET BY EAR** — the preset pool exists, previews are free, no element slot needed. See below |
 
 ## DELIVERED
 
@@ -1230,3 +1231,150 @@ a SHORT 480p seedance clip runs about 12 credits and answers "is this the right 
 in the right room" just as well as 1080p, because resolution has nothing to do with
 whether the right face shows up. **Shoot that before any new character's first real
 clip.**
+
+---
+
+## THE DOOR PLATES — THREE SHOT, ALL COMPLETE, AWAITING THE USER'S EYES
+
+**Written down 18 Sep 2026 because they existed ONLY in a chat transcript.** §8 says an
+element is not locked until its ID is in the registry, and these three were one context
+window away from being lost exactly as the hallway element was in Episode 2.
+
+| # | Job | What it shows | Intended use |
+|---|---|---|---|
+| **A** | `c8c5f6f4-b1b6-43d4-93f4-0e975508fb4c` | the front door **FROM INSIDE THE LOFT**, room around it, bare floor, no hooks | **C4** — the entry, shot from inside, which is the side C4 plays on |
+| **B** | `7ba23c15-be72-4f99-adb1-ee114424aefa` | the door **FROM THE CORRIDOR**, door only, brick + marble + caged sconces | **C6** — the goodbye |
+| **C** | `cf64c86c-e239-4417-9abe-95901019b015` | **the lift bays AND the door in ONE frame** | the geography answer to *"can you see an elevator from here?"* — lift and door are ONE place, per §4b |
+
+All three were generated as EMPTY SET PLATES — no people, nobody holding a cup — and all
+three carry the same door: dark-stained timber, finished architrave, aged brass, solid and
+opaque, explicitly **not** a matte-black steel slab. The geometry is mirrored between A and
+B/C on purpose: **hinges RIGHT / handle LEFT from inside, hinges LEFT / handle RIGHT from
+the corridor.** Same door, both true.
+
+**`9ced01df` `Dorian-Loft-Entry-Night` is pending retirement** the moment plate A is
+approved. Its footage read as a corridor because the prompt behind it invented a concrete
+vestibule with coat hooks that the loft does not have.
+
+---
+
+## ✅ THE PRESET VOICE POOL — FOUND 18 SEP 2026, AND IT CLEARS SIMONE'S VOICE FOR FREE
+
+**`list_voices` returns TWO kinds of voice: `voice_type: "element"` and
+`voice_type: "preset"`.** Three episodes of this project have reasoned entirely about
+elements, and §5a's whole "the account caps voice elements at three, so you cannot just
+clone another character" problem was solved the whole time by a pool nobody had looked at.
+
+| | elements | presets |
+|---|---|---|
+| count | **3, and the cap is 3** — `b3d2fc9b`, `12315c68`, `de50f37f` | **dozens**, and they cost no slot |
+| can be `<<<tagged>>>` in a seedance prompt | yes | **no — they are not reference elements** |
+| enters the UUID binding sort | yes | **no** |
+| free `preview_url` | yes | **yes** |
+| usable by `generate_audio` TTS and `voice_change` | yes | **yes** |
+
+**That it CANNOT go in a prompt is the point, not a limitation.** The corrected workflow
+is *shoot multispeaker, fix the voices in the AUDIO LAYER* — and a preset is an
+audio-layer asset by construction. It cannot displace Nia's `12315c68` in the binding
+sort, so adding Simone a voice cannot cost ChiChi or Nia theirs.
+
+**Female presets, with the free previews the user picks from by ear:** Ainsley, Brielle,
+Faye, Delia, Celine, Elodie, Ginger, Giselle, Helena, Isla, Juno, Maeve, Nadine, Opal,
+Petra, Raina, Romy, Soraya, Talia, Livia, Daisy, Una, Evie, Kaia, Vera, Gracie — and the
+list paginates further.
+
+**This is the direct answer to the C4 post-mortem's line "SIMONE'S VOICE WAS INVENTED FOR
+THIS CLIP."** It no longer has to be. The rule from §5a stands and it is the whole method:
+**listen to it before building on it.** One free call, the user's ear, then it is settled
+and written down here.
+
+⚠️ **Do not read this as reopening Nia or ChiChi.** The Lock Card settles both and a preset
+cannot be attached to a render anyway. This is for NEW characters — Simone, and the men.
+
+---
+
+## C4 v2 — THE REBUILD PLAN
+
+Prompt: `exclusive/prompts/n1-clip04-v2-PROPOSED.txt`, **13,037 characters.**
+
+### FIRST, A CORRECTION TO THE POST-MORTEM: LENGTH WAS NEVER C4'S PROBLEM
+
+| prompt | chars | words delivered |
+|---|---|---|
+| C4a `d2d25be2` ❌ | 12,937 | **6/6** |
+| C4b `93e87a3a` ❌ | 12,397 | **12/12** |
+| C3 v2 `b3437148` ✅ | 17,697 | **26/26** |
+
+**Both rejected takes hit their word counts exactly, and the approved clip was the
+longest prompt of the three.** The user's directive #2 about prompt length is right in
+general and §7's Episode 3 table proves it above ~19,500 — but it is **not** what broke
+C4. C4 broke on faces, wardrobe and set. Shortening the prompt further would have been
+work aimed at the wrong variable.
+
+### THE FOUR CHANGES, AND NOTHING ELSE
+
+**1. ONE CLIP, NOT TWO — 13s.** §4a: *before splitting a scene into clips, ask what the
+split is buying.* The split bought a seam in the middle of a woman walking across a room.
+Merging removes the seam and one chain link, and bills the same per second.
+
+**2. FOUR CHARACTER ELEMENTS, MATCHING C3 v2.** The rejected C4b carried **six**, the
+highest in the episode against 3–4 in everything that worked.
+
+| | |
+|---|---|
+| in | Simone face `59989697` · Simone wardrobe `12a23175` · Nia face `bcd528d3` · Nia dress `91da557d` |
+| out | **ChiChi, entirely** |
+
+⚠️ **THIS CHANGES THE SEAM MAP AND IT IS A DELIBERATE CHANGE, NOT AN OVERSIGHT.** The
+C3→C4 row asks for *"Chi visible at the frame edge in at least one frame of C4"*. Holding
+that costs three more elements — `8a8e8eeb` + `f2c3a3c5` + `54b60e1c` — and lands on the
+exact count that was rejected. **C3 already ends on Chi at the island with the plate, so
+the audience knows she is in the room**, and C5 opens with her scripted at the frame edge
+with the plate. The establishment moves to C5. If the user wants her in C4, that is a
+different shot and a different element budget — say so before it is shot, not after.
+
+**3. THE COAT COMES OFF ON CAMERA, INSIDE THE SHOE BUSINESS.** `12a23175` says *"long
+black wool coat shed at the door"* and C5 has no coat, so the change has to play (§3's
+movement rule). The plate has no hooks and a bare floor, so it goes: **coat off → bag
+down → coat onto the bag → first heel → second heel → placed square against the wall,
+all in ONE unbroken shot with no cut in it.** That is §5's fork-in-a-rag lesson applied
+before the fact — a continuous piece of business with objects in it never crosses a cut.
+
+**4. BOTH CUTS ANCHORED TO ACTION, NEVER TO A WORD.** Cut 1 on her straightening up from
+the shoes. Cut 2 on her crossing past Nia. Three shots: wide → Nia → inward-facing
+two-shot for the last three lines, both faces readable, neither parallel to the lens.
+
+### SIZING — 18 WORDS, AND MOST OF THE CLIP IS WORDLESS ON PURPOSE
+
+`18 / 3.4 = 5.3s` of speech + ~6s of entry business + `4 × 0.45s` of line boundaries
+**≈ 13.1s**, which is what the script header said before any of this. The §6 sanity check
+reads **1.38 w/s against a 2.1 target** — deliberately low, because the shoes are the
+clip. The prompt declares the silence so it does not get filled.
+
+### THE ORDER OF SPEND, CHEAPEST FIRST
+
+| step | what it answers | cost |
+|---|---|---|
+| 0 | user picks a door plate; user picks Simone's voice from the free previews | **0** |
+| 1 | **4s @ 480p identity test** — is `59989697` the right woman, in the right room, in the right clothes | **~12** |
+| 2 | **13s @ 480p** — motion, framing, the shoes, the five lines, the two cuts | **~39** |
+| 3 | **13s @ 1080p** final | **~117** |
+
+**Step 1 is the standing rule the C4 rejection bought, and it is not optional.** 162
+credits went on a character whose reference had never been seen in a render.
+
+### THE TWO ROWS THAT ARE STILL NOT ✅ — HARD STOPS, PER THE STANDING RULE
+
+- **Simone's face is unverified in a render.** The image exists, it is `20d0fffb`, and
+  the user has confirmed it is the right person. What nobody has is a frame of it
+  rendered. That is step 1 and it costs 12 credits.
+- **Simone's voice is unchosen.** The prompt writes her voice as a SEPARATION from Nia —
+  lower, slower, warmer, never converging — and deliberately **names no accent**, because
+  an agent setting her accent with no ruling is one of the five variables that sank C4.
+  The preset previews settle it for free.
+
+C4a and C4b measured Simone and Nia **13.6 Hz apart**, below the figure §5a names as the
+signature of "both voices are wrong". The prose separation above is written at that, and
+the audio layer — TTS per character, or `voice_change` on one speaker plus a splice — is
+the repair if the render still converges them. **Never re-shoot a clip whose picture is
+right to chase a voice.**
