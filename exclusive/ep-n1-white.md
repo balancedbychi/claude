@@ -2732,4 +2732,31 @@ full pinned identity block are all present; only the voice tag is out.**
 holds the white paper plate for the whole clip, which keeps the fourth finger against the
 plate and out of clear view, and her right hand is the one that goes to Nia's arm.
 
-**Not submitted.**
+### ⛔ THE HOOK BLOCKED THE FIRST SUBMISSION, AND IT WAS RIGHT
+
+The `.claude/hooks/` guard refused the prompt on ChiChi's ring:
+
+> *"ChiChi is in this clip and the prompt does not keep her LEFT HAND concealed or out of
+> frame… Adding more negation words is not a fix. Write an instruction to the CAMERA
+> instead."*
+
+**The prompt DID intend framing — and that is exactly why the block is instructive.** It
+said her left hand holds the plate *"which keeps that finger against the plate and out of
+clear view."* **That is a CONSEQUENCE, not an INSTRUCTION.** It describes an outcome the
+staging might produce rather than telling the camera what to do, and a model has no
+obligation to honour a side effect. The guard caught the difference between *"this will
+result in the hand being hidden"* and *"this hand is not in frame."*
+
+**Nothing was bypassed. The staging was rewritten**, and the fix is better than the one
+the guard proposed: **the plate moved to her RIGHT hand**, so her left never enters frame
+at all, and **she sets the plate down on the console before line 10** to free the right
+hand for Nia's arm. That keeps §4a's prop continuity — the plate carried from C3 — which
+simply hiding the left hand would have cost, and it gives ChiChi a motivated action in a
+clip where she is otherwise still.
+
+**A framing instruction must be addressed to the camera in the imperative. "Her hand is
+behind the plate" is a hope; "her left hand is never visible in any shot" is a rule.**
+
+**SHOT 18 Sep 2026 — job `18225f06-35d3-4374-b6e4-59d15cd27de5`, 225 credits.** Prompt
+`exclusive/prompts/n1-clip05-DELIVERED-18225f06.txt`, 18,909 chars. Payload verified:
+25s · 1080p · `bitrate_mode: high` · no `quality` · no `start_image` · eight elements.
