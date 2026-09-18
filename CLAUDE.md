@@ -641,6 +641,31 @@ These are series-wide, not per-episode, and belong in every prompt she appears i
   AND soft and out of focus — because an agent who cannot see the render does not
   know which one it got.
 
+### ⛔ DORIAN NEVER HOLDS A CUP — ruled by the user, 18 Sep 2026
+
+> *"If Dorian is again in any images, the cup in Dorian's hand has to be removed."*
+
+**Both his hands are EMPTY in every shot, in every episode, from now on.** NO cup, NO
+mug, NO glass, NO tumbler, NO whiskey glass, NO wine glass, NO bottle, NO can, NO paper
+cup, NO travel cup. Negate them by name per §5 — "unhurried, drink in hand" is the exact
+kind of generic that a strong prior fills in for you.
+
+**This overrules the scripts and the element text, both of which give him one.** N1 C2's
+slugline says *"Dorian across the room, tumbler, unhurried"*; "The Caterer" says *"Dorian
+crosses to meet them, unhurried, whiskey in hand."* Those are now SUPERSEDED. Delivered
+prompts keep their wording as a record of what was shot (§8), but **no new prompt gives
+him anything to hold.**
+
+**And §3's hands rule still applies, so give him a job instead of a prop.** "Hands must
+have a job" was written because idle unspecified hands are where anatomy errors appear —
+removing the glass does not mean leaving his hands unwritten. A hand in a pocket, a hand
+on the back of a chair, a sleeve being pushed up. Never a drink.
+
+**If a cup appears in a reference image, that image is the cause and no wording will fix
+it** — §2b's ring lesson. `hf_mult_replace_object` (Genjutsu) removes an object from a
+FINISHED clip for ~81 credits on an ~8s source; use that rather than re-shooting, and
+prefer framing the hand out in the first place.
+
 ### THE TWO FIGURES — BOTH HOURGLASSES — ruled by the user, 16 Sep 2026
 
 Three notes in one day, off the N1 8-second test `c9976b46`:
