@@ -275,6 +275,32 @@ highest-leverage rule in this file.
   into the episode file as canon, and it survived three takes before the user
   said so. Inventing the space *between* two references is still inventing set
   design. If the action needs somewhere the references do not show, ask.
+- **⛔ AND THE RULE ABOVE WAS BROKEN FOR A SCENE THAT ALREADY HAD AN APPROVED LOCKED
+  SET. 18 Sep 2026, 117 credits.** N1 C4 was shot in `Dorian-Loft-Entry-v2` `e1997bea`,
+  an environment element created that same day to fix a door that had read as a corridor.
+  But `Dorian-Loft-Night` `1a162d9b` calls itself **"THE APPROVED LOCKED SET"** in its own
+  first line and ends *"ChiChi watches Clip 4 from three steps up this staircase."* **The
+  scene already had a set and nobody looked.** The user's verdict on the render: *"it
+  doesn't look like the apartment that we showed… we're just doing too much at this
+  point."*
+  **The damage was done by the new element's WRITE-ONCE TEXT, and three of her four notes
+  are clauses in it.** It says *"NO COAT HOOKS OR COAT RACK ON ANY WALL"* — and the master
+  geography `d2ab7a6f` had always described that zone as *"the front door, its shoe wall
+  and IRON HOOKS."* It says the floor *"starts COMPLETELY BARE"* — so the room rendered
+  empty. It describes concrete and a door and nothing else — so the gallery wall, green
+  sofa, squiggle table and globe pendant that make the apartment recognisable were never
+  attached.
+  **This is the phantom-sofa failure running in REVERSE.** That one put four objects into
+  a description that its plate never had; this one used a description to DELETE objects
+  the room already had. Both are permanent, neither can be edited, and both look equally
+  authoritative to the next session.
+  **So, two rules. A SCENE IS SHOT IN THE ELEMENT ALREADY APPROVED FOR THAT SCENE —
+  check for one before writing a description, because an element's own text will tell you
+  which clips it owns.** And **A NEW ENVIRONMENT ELEMENT IS CREATED ONLY WHEN THE USER
+  ASKS FOR ONE OR SUPPLIES A REFERENCE FOR IT, NEVER TO SOLVE A PROBLEM IN PROSE.** One
+  room in this series now carries five zone elements, a master wide, three door plates and
+  a retired entry — more elements than the episode has clips — and every one was created
+  to close a question an earlier element left open.
 - **Never introduce a new element mid-episode.** An element created *before* any
   footage defines the set. An element created *after* footage exists, from a fresh
   description, is not a lock — it is a second, competing set. This replaced a
