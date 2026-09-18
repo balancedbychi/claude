@@ -2118,7 +2118,34 @@ scope rule requires.
 the no-second-opening negation, the revolving/rotating/carousel/sliding door negation,
 five speaker-tagged lines, one duration, one lens, one cut count.
 
-**Cost: 13s at 1080p = 117 credits.** Not submitted.
+**SHOT 18 Sep 2026 — job `7a614b90-cfa8-45bf-ab1b-647580c3bd47`, 117 credits.** Prompt
+`exclusive/prompts/n1-clip04-v7-DELIVERED-7a614b90.txt`, 18,055 chars. Payload verified:
+13s · 1080p · `bitrate_mode: high` · no `quality` · no `start_image`.
+
+### ⛔ THE FULL READ CAUGHT THREE CONTRADICTIONS — ALL THREE INTRODUCED BY THE FIX ITSELF
+
+**Third consecutive take where reversing or adding a block created a contradiction
+somewhere else.** This is now a pattern with a name: **a fix for a real note is the most
+likely source of the next fault.**
+
+1. The entry element was still instructed to *"REPRODUCE THEM EXACTLY — **the front
+   door**, the wall it sits in…"* while the new camera block says the door is never seen.
+2. *"The only person who comes **through the front door** is Simone"* implied the door was
+   on camera.
+3. **The one that would have cost the take: THE EYELINE.** With the camera at the door end,
+   Nia facing the door means **Nia facing the LENS** — which breaks §3's three-quarter
+   staging and the prompt's own *"neither one facing out at us."* The new direction created
+   a direct collision with an old rule, in a block nobody edited.
+
+**Fixed by putting the camera OFF THE CENTRE LINE**: Simone enters from the near side of
+frame rather than dead behind the lens, and Nia *"LOOKS PAST THE LENS AT SIMONE AND NEVER
+INTO IT"*, turning *"PAST the camera, not into it."* Both the new direction and the old
+eyeline rule are satisfied, which is §3's point that both goals are always satisfiable
+with ordinary coverage.
+
+**THE STANDING CHECK, now earned three times over: after writing a fix, re-read the WHOLE
+prompt AND every attached element description, looking specifically for what the fix has
+just broken.** Nothing found this by reading the changed sentence.
 
 ### The three unreported uploads — resolved 18 Sep 2026
 
