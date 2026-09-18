@@ -2095,3 +2095,40 @@ the no-second-opening negation, the revolving/rotating/carousel/sliding door neg
 five speaker-tagged lines, one duration, one lens, one cut count.
 
 **Cost: 13s at 1080p = 117 credits.** Not submitted.
+
+### The three unreported uploads — resolved 18 Sep 2026
+
+The widget returned three media ids out of six uploaded in that window. The other three
+were checked rather than guessed at:
+
+| media | CDN | size | verdict |
+|---|---|---|---|
+| `3045d2a4-c9d3-4ae6-a053-d6c2b9797abb` | 200 | 1792x2400 | real image, **subject unidentified** |
+| `ac4797b6-18c3-41b1-8564-1d6fa83f59df` | 200 | 2752x1536 | real image, **subject unidentified** |
+| `95f7fce8-62b2-4fea-a494-eb4d9dd9ad88` | **403** | 111 B of XML | **FAILED UPLOAD — the record exists, the bytes never landed** |
+
+**⚠️ A MEDIA ID IN `show_medias` DOES NOT MEAN THE FILE EXISTS.** `95f7fce8` is listed
+with a url and a timestamp exactly like the working ones, and fetching it returns an S3
+403. Had it been attached to an element on the strength of the listing, the element would
+have carried a broken reference that nothing in the listing would reveal. **Fetch before
+attaching** — §7's "inspect the inputs" applied to media rather than to job payloads.
+
+**The two real ones were put in front of the user rather than guessed at.** Contact sheet
+`3b4ca21a-ea76-4dcc-8e4b-f75f2c4db38e`, built in `sandbox_exec` and pushed to her library
+by the §2 method — fetch, label, `media_upload` → PUT → `media_confirm`, all in the same
+sandbox command because the box is discarded seconds after it exits. Each panel carries
+its own code in 108pt type, so the answer comes back tied to an id instead of to a
+position in a list.
+
+**Three build faults worth remembering, all free to fix and all silent if unchecked:**
+`-extent '%[fx:w]x900'` is not valid ImageMagick 6 syntax; a file named `.raw` is read as
+CAMERA RAW regardless of its actual contents, so force the format or rename it; and
+`-annotate` ABORTS with no useful error when no font is specified — pass `-font` with a
+real path (`/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf`, or the Metropolis and
+Montserrat files under `/usr/share/fonts/truetype/higgsfield/`).
+
+**And the first PUT succeeded with an empty body.** `curl -f` reported no error and
+printed "PUT OK" while uploading nothing, because the file it pointed at had never been
+created. `media_confirm` was NOT called on that, so no broken media entered the library —
+but **"PUT OK" is not evidence that a file was uploaded. Check the size before
+confirming.**
