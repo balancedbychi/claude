@@ -2011,3 +2011,23 @@ opened the gap to 22.8 Hz).
 
 **Two rejected takes in a row at 117 each. §7: flagging a risk is not permission to take
 it.** v4 waits for the user.
+
+---
+
+## 📷 USER-SUPPLIED APARTMENT REFERENCES — collected 18 Sep 2026
+
+> *"I want to provide all the images of Dorian's apartment so that we can film this scene."*
+
+Collected one at a time via `media_upload_widget` per §2, each labelled with the exact
+asset it depicts, so no media id is ever a guess about what it shows.
+
+| # | asset asked for | media id | source filename |
+|---|---|---|---|
+| 1 | **Dorian's FRONT DOOR seen from INSIDE the apartment** | `5f44a404-73ff-45e6-bf98-6d5c2756e99b` | `hf_20260918_095516_74016fb7-d2f2-412b-a739-26df1be1cd91.png` |
+
+**These are the authority.** Where a locked element's write-once description disagrees
+with one of these images, **the image wins and the description is recorded as superseded
+here** — the same standing the two-sofa correction has. That rule exists because this
+episode has now lost three takes to prose I wrote that no picture ever supported: the
+phantom black sofa, the deleted coat hooks, and the front door described into a set that
+does not contain one.
