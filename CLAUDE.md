@@ -346,6 +346,14 @@ highest-leverage rule in this file.
   crop needs the USER to say which views to keep, because that is a visual question.
   Only when no clean view exists does the garment go into PROSE. **Either way: do not attach
   an outfit element and negate one of its garments. Crop it or detach it.**
+  **✅ RESOLVED THE SAME DAY, AND THE FIRST MOVE SHOULD HAVE BEEN THE LAST ONE.** The agent
+  narrowed to "crop the sheet" and built a numbered overlay to ask which panel to keep. The
+  user's reply: *"I can upload the image."* She had a coat-free photograph the whole time.
+  **`Simone-Party-Look-POST-ENTRY` `452a4f12-650e-4d63-8a1d-1113fbf95459`** is built from it,
+  with a **rules-only description carrying no garment list at all** — the image is the
+  specification, the description says the image wins, and it holds only the negations, the
+  one-directional changes and the supersession note. **§2's very first step is ask for the
+  reference. That is cheaper than any analysis and it was reached last instead of first.**
   This is the grey t-shirt, the ring, the Sucré lettering and Dorian's cup for the fifth
   time. **The pattern is always the same: a reference asserts a thing, the prompt denies
   it, the reference wins.** Before attaching ANY element, read its description back and

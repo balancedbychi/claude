@@ -279,7 +279,7 @@ prompt file, never off memory.**
 | C1 → C2 | Chi picking up her keys, sunset | Nia: white dress, coat over arm. Chi: Ep1 look | Nia in the loft, coat over arm, night — hard cut, the biggest jump in the episode |
 | C2 → C3 | Dorian a foot from Nia, not touching | Nia: white dress, clean. Chi: Ep1 look + clutch | Kel's back, kitchen, Chi in the doorway with her clutch — **later, the party has filled** |
 | C3 → C4 | Chi at the island with the plate, Kel grinning | Nia: white dress, clean. Chi: Ep1 look + clutch + white paper plate | door opening from inside, Nia nearest it. **Chi must be visible at the frame edge in at least one frame of C4** so she is established in the room for C5 |
-| C4 → C5 | Simone barefoot, moving into the room, heels against the wall | **SIMONE: plaid off-shoulder crop top + light-wash ripped wide-leg jeans, BAREFOOT. THE LONG BLACK COAT IS OFF AND ON THE HOOKS. THE BAG IS ON THE FLOOR. THE SANDALS ARE SQUARE AGAINST THE WALL. She carries NOTHING.** Nia: white dress, clean. Chi: Ep1 look + clutch + plate | same room a minute later, Nia and Simone facing each other, **heels still visible against the wall, bottle on the console, Chi at the frame edge**. **Attach `Simone-Face-v3` `66ab4872` and NOT `12a23175`** — that element's description and plate both carry the coat |
+| C4 → C5 | Simone barefoot, moving into the room, heels against the wall | **SIMONE: plaid off-shoulder crop top + light-wash ripped wide-leg jeans, BAREFOOT. THE LONG BLACK COAT IS OFF AND ON THE HOOKS. THE BAG IS ON THE FLOOR. THE SANDALS ARE SQUARE AGAINST THE WALL. She carries NOTHING.** Nia: white dress, clean. Chi: Ep1 look + clutch + plate | same room a minute later, Nia and Simone facing each other, **heels still visible against the wall, bottle on the console, Chi at the frame edge**. **Attach `Simone-Face-v3` `66ab4872` for the face and `Simone-Party-Look-POST-ENTRY` `452a4f12` for the clothes. NEVER `12a23175`** — its description names the coat and its plate shows her wearing one |
 | C5 → C6 | Chi's hand on Nia's arm, Simone turning away | **NIA: white dress, WINE-STAINED down the front, one long run past the hem — the stain is now permanent and identical in every later frame.** Chi: Ep1 look + clutch, plate set down on the console before line 10. Simone: unchanged, still barefoot, still no coat | hallway, both women walking, **the stain on the dress identical**, Chi's clutch in her other hand |
 
 **The bottle exists before it is used** — on the console in C2 and C5, same
@@ -478,7 +478,8 @@ days. **Nothing here needs creating. This episode is not blocked on assets.**
 | ~~`Simone-Series-Look`~~ | ~~`59989697-7111-457c-9116-d83c4ae9eb3e`~~ | ⛔ **RETIRED 18 Sep 2026** — description EMPTY and write-once, so it could never be given one. The only clips that used it, C4a and C4b, were rejected for "faces changed". Superseded by `28b4cecd` |
 | `Nia-White-Dress-Ep1` | `91da557d-8353-4d90-90c5-72333ff5c713` | clean C1, C2, C4, C5; stained C6 |
 | `ChiChi-Ep1-Look` | `f2c3a3c5-3269-420e-a07d-69723410a094` | C1, C3, C5, C6 |
-| `Simone-Party-Look-v2` | `12a23175-ff6c-44dd-ab98-b21d1ee9609e` | C4, C5 |
+| `Simone-Party-Look-v2` | `12a23175-ff6c-44dd-ab98-b21d1ee9609e` | **C4 ONLY — the ARRIVAL look, and it is RETIRED from the moment the coat comes off.** Its description ends *"long black wool coat"* and its plate is a multi-view sheet showing her both coated and uncoated. Correct for the clip where she walks in wearing it; wrong for every clip after. It put the coat back on in C5, 225 credits |
+| **`Simone-Party-Look-POST-ENTRY`** | **`452a4f12-650e-4d63-8a1d-1113fbf95459`** | **C5, C6 — SIMONE'S WARDROBE AFTER THE COAT IS OFF.** Locked 18 Sep 2026 from the user's own coat-free photograph, media `1b90982b-c27a-4bfa-9ab5-2774e7880602`, 2160x3840. **Rules-only description, 3,312 chars — it deliberately contains NO garment list**, because a garment list is what named the coat last time. The image is the specification and the description says the image wins. Carries the coat/jacket/blazer/cardigan/shawl negations by name, barefoot, no bag, the supersession note, and the height comparison. **Attach this with `Simone-Face-v3` `66ab4872` for the face. Never attach `12a23175` alongside it** |
 | **`ChiChi-Face-Photoreal`** | **`54b60e1c-2c1e-4258-bc4e-219bf5d0ea13`** | **skin rendering ONLY — see below** |
 
 #### `ChiChi-Face-Photoreal` — created 17 Sep 2026 from the user's own frame
@@ -2942,11 +2943,35 @@ description that never writes the word coat. Then the plaid, the jeans and the f
 locked by a picture again, and the coat cannot arrive because it is not in frame. Same move
 as `Simone-Face-v3`.
 
-**That needs the user's eyes and nothing else.** A numbered 2x3 overlay of the plate went to
-her as media `4914ee55-10a7-428b-9a05-242fddfe9ce8` — panels 1–6, big yellow numerals, per
-the convention that when a human has to identify something it gets labelled with something
-they can say out loud. She names the coat-free panels; the crop and the element follow. If
-no panel is clean on its own, the prose version already written stands.
+### ✅ DONE — AND THE USER SUPPLIED A BETTER INPUT THAN THE CROP
+
+A numbered 2x3 overlay of the plate went to her (`4914ee55`) so she could name the coat-free
+panels. Her answer was better than the question: **"I can upload the image."** She had a
+coat-free photograph of Simone all along.
+
+**`Simone-Party-Look-POST-ENTRY` `452a4f12-650e-4d63-8a1d-1113fbf95459`**, locked 18 Sep
+2026 from media `1b90982b-c27a-4bfa-9ab5-2774e7880602`, 2160x3840, supplied through the
+widget per §2. Checked before building: that media is in NO existing element, so this is not
+the competing-element failure. Its near-black low-saturation fraction reads **0.003** against
+roughly 0.15 on the old sheet — **a dark-pixel statistic and nothing more; it corroborates
+her, it does not identify a garment, and the identification is hers.**
+
+**The description is RULES ONLY and contains no garment list on purpose**, and says so in its
+own text so a later session does not "improve" it: the image is the specification, the image
+wins where they disagree, and the coat is negated by name along with jacket, blazer,
+cardigan, shawl and wrap. Barefoot and no bag as one-directional changes. The supersession
+is written in — `12a23175` is the ARRIVAL look, correct for C4, finished from the first frame
+after the coat is off, and never attached alongside this one.
+
+**C5 v2 now carries no garment prose at all.** It points at `452a4f12` and lets the picture
+speak, which is §2 step 5 applied to wardrobe instead of a set. That also bought back ~200
+characters: 19,311, 243 under the ceiling, checker clean.
+
+**And the lesson worth keeping is about the QUESTION, not the answer.** The agent had
+narrowed to "crop the sheet" and built a numbered overlay to ask which panel. The user had a
+clean asset and the crop was never needed. **§2 already says ask for the reference first —
+that rule beat two hours of pixel analysis, and it should have been the first move rather
+than the last.**
 
 **Checking the picture before theorising is the whole lesson of this episode**, and it is
 free.
@@ -3024,7 +3049,7 @@ wardrobe column plus the stain, not one long take.
 | **Container** | **~22s**, from §6's own formula: 50 words ÷ 3.4 w/s = 14.7s speech, + 9 line boundaries × 0.45s = 4.1s, + ~3s for the pour as its own beat. 2.3 w/s against §6's 2.1 sanity check. 25s gave it ten seconds it did not know what to do with |
 | **Credits** | **264** — preflighted 18 Sep 2026 at 16:0x, and it is NOT the 198 the old rate implied. **1080p went from 9 to 12 credits/second today**, between C5's submission and this preflight: 13s quoted 156 where C4 v7 actually billed 117, 25s quotes 300 where C5 actually billed 225. `generate_audio` on and off both quote 300, so it is the rate and not a flag. 720p is 7/s. **Re-preflight immediately before submitting** |
 | **Line 8** | restored to script order — blocking plays **7 → 8 → 9 → pour**, and the sequence diff runs before submission |
-| **Simone** | `Simone-Face-v3` `66ab4872` only. **`12a23175` DETACHED.** Plaid top and jeans in prose, in C4 v7's wording. Barefoot, no bag, **no coat and no coat anywhere in frame** |
+| **Simone** | `Simone-Face-v3` `66ab4872` for the face + **`Simone-Party-Look-POST-ENTRY` `452a4f12`** for the clothes. **`12a23175` DETACHED.** No garment list in the prompt at all — it points at the element and the image speaks. Barefoot, no bag, **no coat and no coat anywhere in frame** |
 | **ChiChi** | height stated as a comparison — **taller than Nia by about two inches**, Simone and Nia level barefoot |
 | **Nia** | **byte-identical to C5.** Her identity block, her voice line and her `12315c68` tag do not move — that configuration produced the British accent at 25s and §5 forbids rewording an approved result |
 | **The pour** | sudden, unannounced, one unbroken shot, its own stated duration, Nia's late flinch is the shot |
