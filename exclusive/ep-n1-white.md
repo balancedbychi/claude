@@ -2760,3 +2760,88 @@ behind the plate" is a hope; "her left hand is never visible in any shot" is a r
 **SHOT 18 Sep 2026 — job `18225f06-35d3-4374-b6e4-59d15cd27de5`, 225 credits.** Prompt
 `exclusive/prompts/n1-clip05-DELIVERED-18225f06.txt`, 18,909 chars. Payload verified:
 25s · 1080p · `bitrate_mode: high` · no `quality` · no `start_image` · eight elements.
+
+### ⛔ C5 MEASURED — 39 WORDS OF 50, AND THE PROMPT CONTRADICTED ITSELF ON LINE ORDER
+
+1920x1080, 10.35 Mbps, 25.05s. **Three cuts landed: 9.88s (18.6x), 13.50s (19.1x),
+21.38s (14.7x).** Everything else is a problem.
+
+### 1. ⛔ LINE 8 NEVER RENDERED — AND THE CAUSE IS A SELF-CONTRADICTION I INTRODUCED
+
+**39 words against 50.** The missing line is **8 — *"I'm having a lovely time. Those
+aren't the same thing."*** — ten words, and the line the episode file calls the show's
+thesis. Line 1 also lost its opening "I" ("Think you should leave").
+
+| line | scripted | rendered |
+|---|---|---|
+| 1 | I think you should leave. | "Think you should leave" — lost the "I" |
+| 2–7 | — | **all correct** |
+| **8** | **I'm having a lovely time. Those aren't the same thing.** | **ABSENT** |
+| 9, 10 | — | correct |
+
+**THE CAUSE IS IN MY PROMPT, NOT THE MODEL.** The script block numbers the lines 1–10 and
+says **"IN THIS ORDER"**. The blocking block then puts **line 9 in SHOT B and line 8 in
+SHOT C** — that is, 9 BEFORE 8. **Two blocks of one prompt specified two different
+orders.** The model obeyed the blocking for line 9 and dropped line 8 entirely.
+
+**This is the fourth consecutive take with a prompt-internal contradiction, and the first
+one that actually shipped.** The previous three were caught on the whole-prompt read. This
+one was not, because **the check I have been running looks for contradictions in WORDING —
+two different numbers, a negation fighting an element. This was a contradiction in
+SEQUENCE**, between a numbered list and a running order, and reading each block on its own
+would never surface it.
+
+**NEW CHECK, and it is cheap: after writing the blocking, list the dialogue lines in the
+order the BLOCKING plays them and diff that against the numbered script block.** They must
+be the same sequence. Nothing else in the file catches this.
+
+### 2. ⚠️ THE POUR PROBABLY DID NOT HAPPEN — STRONGLY SUSPECTED, NOT PROVEN
+
+There is a **10.4-second silent gap** between the end of line 9 (13.46s) and line 10
+(23.88s). Per-frame motion across that window:
+
+| window | motion vs clip mean |
+|---|---|
+| 14.1–16.1s | 1.2x – 2.2x — something moves |
+| **17.1–21.1s** | **0.26x – 0.57x — almost completely static** |
+| whole pour window | **0.85x, BELOW the clip average** |
+
+**A three-second pour with a lifted bottle is a large continuous movement and should read
+far ABOVE the clip mean, not below it.** What the numbers show is a little movement around
+14–16s and then roughly five seconds of near-stillness.
+
+**⛔ THIS IS A FLAG, NOT A VERDICT.** Motion analysis at 8fps and 160x90 cannot prove a
+pour did not occur, and §7's rule is absolute: **a measurement may FLAG, it may never
+REVERT.** The user's eyes settle whether the wine happened.
+
+### 3. ⚠️ THE VOICE GAP COLLAPSED TO 3.7 Hz, THE WORST SINCE v2
+
+| take | SIMONE | NIA | gap |
+|---|---|---|---|
+| C4 v7 | 179.8 | 212.4 | **32.6 Hz** |
+| **C5** | **173.9** | **170.2** | **3.7 Hz** |
+
+And it is unstable within the clip: Simone reads **155.3 Hz** on one segment and **205.1
+Hz** on another, while Nia sits flat at 170.2 throughout. **One segment's spread is 1.53x,
+past the unsafe threshold.** Whatever produced the widest separation this project has had,
+one clip earlier, did not survive into this one.
+
+**Three candidate causes, none tested:** the clip is 25s against C4's 13s; eight elements
+against seven; and three women on screen against two. **No data separates them, and
+guessing is what §7 forbids.**
+
+### 4. THE CLIP IS OVER-PROVISIONED AND THAT IS WHY IT HAS TEN SECONDS OF NOTHING
+
+**39 rendered words in 25s = 1.56 words/second**, well under §6's 2.1 sanity check. Even
+at the full 50 words it would be 2.0. §6 is explicit: **fix pacing with the CONTAINER.**
+50 words at the model's measured pace needs roughly 15s of speech plus the pour — the 25s
+container handed it ten seconds it did not know what to do with, and it spent them
+standing still.
+
+### WHAT C5 v2 NEEDS — NOT SUBMITTED, NOT COSTED WITHOUT A DECISION
+
+1. **Line 8 restored to script order**, with the blocking playing 7 → 8 → 9 → pour, and
+   the new sequence diff run before submission.
+2. **Shorter container** — around 18–20s rather than 25s.
+3. **The pour given an explicit duration and its own beat**, rather than sitting inside a
+   shot that also has to carry a line.
