@@ -310,6 +310,32 @@ highest-leverage rule in this file.
   travel with it; rules stored in your head do not.
 - **Mark superseded elements explicitly** so a later session cannot pick up a
   stale one. Old elements are never deleted, only retired in the registry.
+- **⛔ A WARDROBE ELEMENT IS A WHOLE OUTFIT, SO IT DIES THE MOMENT A GARMENT COMES OFF ON
+  CAMERA. N1 C5, 18 Sep 2026, 225 credits.**
+  `Simone-Party-Look-v2` `12a23175`'s write-once description ends *"sage strappy heeled
+  sandals, small sage top-handle bag, **long black wool coat**"*, and its reference plate
+  carries a large near-black garment mass across the torso-to-knee zone — measured, x
+  720–1560, y 770–2640 of a 2160x3840 plate, the two columns of a long dark coat.
+  **C4 v7 is the clip where she takes that coat off and hangs it on the hooks.** C5 is a
+  minute later in the next room. C5's prompt said *"her sandals and her coat left at the
+  entry earlier in the evening"* — and attached `12a23175` anyway. The coat was on. The
+  user's words: *"we film clip four. Simone comes into the clip and takes off her coat.
+  So why would you… refilm clip five with the jacket on?"*
+  **The prose was right and it lost, because an attached element's description is part of
+  the prompt.** Writing "her coat is off" while attaching an element that says she owns a
+  long black wool coat is not a negation — it is a contradiction, and §7's directive 3
+  settles which side wins: **an image beats text every time**, and so does the element
+  text riding beside it.
+  **So: an outfit element is valid ONLY for the clips where the WHOLE outfit is worn.**
+  From the first frame after a garment comes off, that element is finished. The clips
+  after it get identity from a garment-free element — `Simone-Face-v3` `66ab4872` is
+  exactly that, built by cropping the grey t-shirt out of frame — and the remaining
+  garments in PROSE. **Do not attach an outfit element and negate one of its garments.
+  Detach it.**
+  This is the grey t-shirt, the ring, the Sucré lettering and Dorian's cup for the fifth
+  time. **The pattern is always the same: a reference asserts a thing, the prompt denies
+  it, the reference wins.** Before attaching ANY element, read its description back and
+  ask what it asserts that this clip forbids.
 - **An element description is WRITE-ONCE, so put only DURABLE facts in it and leave
   anything a take might revise to the prompt.** Episode 3 has three clauses inside
   live elements that the footage overruled and that cannot be edited out: the cup
@@ -951,6 +977,27 @@ any prompt, write down two things:
   clips, let them ENTER THE FRAME rather than open already positioned. Opening on
   people pre-arranged in a new spot is the single thing that makes cuts feel
   abrupt.
+- **⛔ THE SEAM MAP MUST CARRY A WARDROBE COLUMN, AND THE EXIT STATE IS READ OFF THE
+  PREVIOUS CLIP'S DELIVERED PROMPT — NEVER OFF MEMORY. N1 C5, 225 credits.**
+  The seam map for this episode WAS written before shooting, and its C4→C5 row says
+  *"Simone barefoot, moving into the room, heels against the wall."* **It tracked the
+  shoes coming off and missed the coat coming off in the same piece of business.** Both
+  changes are in one sentence of C4 v7's delivered prompt —
+  *"THE ONLY WARDROBE CHANGE IN THIS ENTIRE CLIP IS THE LONG BLACK COAT COMING OFF AND
+  GOING ONTO THE HOOKS"* — a sentence sitting in `exclusive/prompts/`, in the repo, that
+  one grep would have found.
+  **That is the honest answer to "why is the script not being tracked": the tracking was
+  done by hand, from memory, and a hand-written ledger drops the item nobody is thinking
+  about.** The delivered prompt is the record (§8) and it is machine-readable.
+  **So, before writing clip N+1:** open clip N's `-DELIVERED-` file, grep it for every
+  garment, prop and state change (`coat|jacket|shoe|sandal|bag|clutch|heels|ring|
+  necklace|watch|plate|bottle|glass|phone`), and write the exit state from what that file
+  SAYS. Then carry a **WARDROBE** column in the seam row for every character, stating what
+  each one is wearing and what came off — not just where she is standing.
+  **A state change that plays on camera is the highest-risk seam there is**, because the
+  clip that shows it is right and every clip after it inherits a change the elements do
+  not know about. §3 already says changes are one-directional and never revert; this is
+  what enforcing that costs in practice.
 - **Inherit position, not just place.** "Int. loft" is not an entry state. "Just
   inside the front door, Nia's hand still on ChiChi's wrist from the pull" is.
 - **A door seen from both sides is TWO set descriptions of ONE object, and they

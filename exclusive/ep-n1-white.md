@@ -268,13 +268,19 @@ and no closer.***
 
 ## THE SEAM MAP
 
-| Seam | Exit state | Entry state |
-|---|---|---|
-| C1 → C2 | Chi picking up her keys, sunset | Nia in the loft, coat over arm, night — hard cut, the biggest jump in the episode |
-| C2 → C3 | Dorian a foot from Nia, not touching | Kel's back, kitchen, Chi in the doorway with her clutch — **later, the party has filled** |
-| C3 → C4 | Chi at the island with the plate, Kel grinning | door opening from inside, Nia nearest it. **Chi must be visible at the frame edge in at least one frame of C4** so she is established in the room for C5 |
-| C4 → C5 | Simone barefoot, moving into the room, heels against the wall | same room a minute later, Nia and Simone facing each other, **heels still visible against the wall, bottle on the console, Chi at the frame edge** |
-| C5 → C6 | Chi's hand on Nia's arm, Simone turning away | hallway, both women walking, **the stain on the dress identical**, Chi's clutch in her other hand |
+**⛔ THE WARDROBE COLUMN WAS ADDED AFTER C5 COST 225 CREDITS.** The C4 → C5 row below used
+to read only *"Simone barefoot, moving into the room, heels against the wall"* — it tracked
+the shoes coming off and missed the coat coming off in the same sentence of the same clip,
+and C5 shot her in the coat. **Every exit state here is read off that clip's `-DELIVERED-`
+prompt file, never off memory.**
+
+| Seam | Exit state | **WARDROBE — what is on each body leaving** | Entry state |
+|---|---|---|---|
+| C1 → C2 | Chi picking up her keys, sunset | Nia: white dress, coat over arm. Chi: Ep1 look | Nia in the loft, coat over arm, night — hard cut, the biggest jump in the episode |
+| C2 → C3 | Dorian a foot from Nia, not touching | Nia: white dress, clean. Chi: Ep1 look + clutch | Kel's back, kitchen, Chi in the doorway with her clutch — **later, the party has filled** |
+| C3 → C4 | Chi at the island with the plate, Kel grinning | Nia: white dress, clean. Chi: Ep1 look + clutch + white paper plate | door opening from inside, Nia nearest it. **Chi must be visible at the frame edge in at least one frame of C4** so she is established in the room for C5 |
+| C4 → C5 | Simone barefoot, moving into the room, heels against the wall | **SIMONE: plaid off-shoulder crop top + light-wash ripped wide-leg jeans, BAREFOOT. THE LONG BLACK COAT IS OFF AND ON THE HOOKS. THE BAG IS ON THE FLOOR. THE SANDALS ARE SQUARE AGAINST THE WALL. She carries NOTHING.** Nia: white dress, clean. Chi: Ep1 look + clutch + plate | same room a minute later, Nia and Simone facing each other, **heels still visible against the wall, bottle on the console, Chi at the frame edge**. **Attach `Simone-Face-v3` `66ab4872` and NOT `12a23175`** — that element's description and plate both carry the coat |
+| C5 → C6 | Chi's hand on Nia's arm, Simone turning away | **NIA: white dress, WINE-STAINED down the front, one long run past the hem — the stain is now permanent and identical in every later frame.** Chi: Ep1 look + clutch, plate set down on the console before line 10. Simone: unchanged, still barefoot, still no coat | hallway, both women walking, **the stain on the dress identical**, Chi's clutch in her other hand |
 
 **The bottle exists before it is used** — on the console in C2 and C5, same
 position. **The heels are in frame in C5.** **The clutch is in Chi's hand in C3, C5
@@ -2851,12 +2857,26 @@ standing still.
 > *"So… for the 25 second video, the british accent is back? Also, Chi is taller than Nia
 > by 2 inches. Simone's jacket should have been off."*
 
-**1. THE ACCENT — UNCONFIRMED, AND IT WOULD BE THE BIGGEST RESULT IN THE FILE IF IT HOLDS.**
-Claude cannot hear it. **If Nia's British accent survived a 25-second THREE-hander, that is
-the longest multispeaker render it has ever survived by seven seconds**, against a record
-where C1 lost it twice at 18s with two speakers. §5a's table would need a new row and the
-length hypothesis would weaken again. **Do not write it up until the user confirms by ear —
-§7: a finding is what survives a test, and an agent's inference is not the user's ear.**
+**1. ✅ THE ACCENT IS THERE — CONFIRMED BY THE USER, 18 Sep 2026: *"Yes, the accent is
+there."*** **Nia's British accent survived a 25-SECOND THREE-HANDER** — the longest
+multispeaker render it has ever survived by seven seconds, against a record where C1 lost
+it twice at 18s with only two speakers.
+
+| clip | length | on screen | element | audio ref | British? |
+|---|---|---|---|---|---|
+| C1 `2a5a6765` | 18s | 2 | `12315c68` | no | ❌ |
+| C1 v2 `903a4d2b` | 18s | 2 | `b3d2fc9b` | no | ❌ |
+| `94afd8b5` | 5s | **1** | `b3d2fc9b` | no | ✅ |
+| `51783a9e` | 18s | 2 | `12315c68` | **yes** | ✅ (bled onto Chi) |
+| **C5 `18225f06`** | **25s** | **3** | `12315c68` | **no** | **✅** |
+
+**⚠️ ONE CLIP. §7: an observation, not a finding.** But it is the row that breaks the
+length hypothesis outright — 25s beat 18s with no audio reference and one more body in
+frame — and §5a already said length was never an absolute barrier. **What it means in
+practice is narrower and more useful: whatever C5 did, C5 v2 must not change it.**
+Per §5 — never reword anything that produced an approved result — **C5 v2 keeps Nia's
+identity block, her voice line and the element list byte-identical.** The container
+shortens and the blocking changes; her block does not.
 
 **2. ✅ CHI IS TWO INCHES TALLER THAN NIA — NEW CANON, RECORDED IN CLAUDE.md §3.**
 **There was no height spec for ChiChi at all.** C5's prompt pinned Simone to Nia and said
@@ -2866,17 +2886,128 @@ barefoot, and **heights always stated as comparisons between bodies, never as ce
 because the thing that fixed Simone-versus-the-door was a relative anchor rather than a
 number.
 
-**3. ⚠️ THE JACKET — SUSPECTED TO BE THE GREY T-SHIRT FAILURE, ONE GARMENT OVER.**
-C5's prompt explicitly said her coat was left at the entry. It stayed on anyway. **The
-wardrobe element `12a23175`'s own description ends "long black wool coat shed at the
-door"** — and if that coat is IN ITS REFERENCE IMAGE, the prompt was never going to remove
-it. That is exactly what happened with Simone's grey t-shirt hours earlier: an element's
-description forbade a garment its own picture contained, and the picture won.
+**3. ⛔ THE JACKET — RESOLVED, AND IT IS THE WORST PROCESS FAILURE OF THE EPISODE.**
+The user, 18 Sep 2026: *"we film clip four. Simone comes into the clip and takes off her
+coat. So why would you waste my fucking credits and refilm clip five with the jacket on?
+Like why is the AI not keeping track of the fucking script?"* **She is right and the
+answer is mechanical.**
 
-**The reference image has been put in front of the user** (`ef00c6fa`) with one question:
-is the coat in it? **If yes, the fix is a coat-free wardrobe reference for the
-post-entry clips, not stronger wording — the same crop-the-picture move that fixed the
-face.** If no, it is ordinary drift and the prompt handles it.
+**What C5's prompt said:** *"SHE IS BAREFOOT for this whole clip, her sandals and her coat
+left at the entry earlier in the evening."* The prose was correct.
+
+**What C5's prompt also did:** attached `<<<12a23175>>>`, whose write-once description ends
+*"sage strappy heeled sandals, small sage top-handle bag, **long black wool coat**"*.
+
+**And the plate carries it too — measured, no credits, 18 Sep 2026.** `d5dce62f`,
+2160x3840: a near-black low-saturation mass in **two vertical columns, x 720–1080 and
+x 1320–1560, spanning y 770 to 2640** — half the height of the plate, continuous, with
+zero black above or below. That is the silhouette of a long dark coat, not hair and not
+shoes, which would read as two separate bands.
+
+**So the coat was asserted twice, by the description and by the picture, and denied once,
+in prose. §7 directive 3 already settles that: an image beats text every time.** This is
+the grey t-shirt, the ring, the Sucré lettering and Dorian's cup for the fifth time.
+
+**THE PROXIMATE CAUSE IS THE SEAM MAP, AND IT IS WORSE THAN A MODEL FAULT — IT WAS WRITTEN
+AND IT WAS WRONG.** The C4→C5 row of this file's own seam map reads *"Simone barefoot,
+moving into the room, heels against the wall."* **It tracked the shoes coming off and
+missed the coat coming off in the same sentence of the same clip.** Both are in C4 v7's
+delivered prompt, in this repo: *"THE ONLY WARDROBE CHANGE IN THIS ENTIRE CLIP IS THE LONG
+BLACK COAT COMING OFF AND GOING ONTO THE HOOKS."* One grep would have found it.
+
+**Two rules out of it, both now in CLAUDE.md:** a wardrobe element is a whole outfit and
+dies the moment a garment comes off on camera — detach it, never negate one of its
+garments; and the seam map carries a WARDROBE column whose exit state is read off the
+previous clip's `-DELIVERED-` file, never off memory.
+
+**THE FIX FOR C5 v2 AND C6, AND IT COSTS NOTHING:** drop `12a23175` entirely. Simone's
+identity comes from **`Simone-Face-v3` `66ab4872`, which has no garment in frame at all** —
+it exists because the grey t-shirt was cropped out of it — and the plaid top and jeans go
+in PROSE, in the wording C4 v7 already rendered correctly. **No image carrying a coat is
+attached, so no coat can arrive.**
 
 **Checking the picture before theorising is the whole lesson of this episode**, and it is
 free.
+
+---
+
+## ⛔ C5 — THE FOURTH NOTE, AND THE ANSWER ON "FILM IT BEGINNING TO END" · 18 Sep 2026
+
+### 4. ✅ THE POUR HAPPENED — AND IT WAS TOO POLITE
+
+> *"the pour of wine on the dress should have been more dramatic and a surprise to Nia."*
+
+**That resolves the motion flag: the wine happened.** The 8fps/160x90 pass read the pour
+window at **0.85x the clip mean** and suspected it had not. It had. **§7's rule earned its
+keep twice over** — the measurement FLAGGED and did not REVERT, and a stronger reading of
+that number would have thrown away a pour that was on screen the whole time.
+
+**And the prompt got precisely what it asked for.** C5 says the pour is *"A CONTINUOUS
+STREAM from the held bottle, slow, steady, gravity-fed… the way you would water a plant.
+NEVER a throw. NEVER a splash, NEVER a spray, NEVER droplets in the air."* **Every one of
+those negations was aimed at stopping a thrown glass, and they also stopped the drama.**
+§5's own warning, one axis over: a negation set can be long, well-tested and still be
+pointed at the wrong failure — here, "not slapstick" got written and "not boring" never did.
+
+**What stays negated in v2:** no glass or tumbler thrown or tipped, no stain appearing
+instantly or by a cut, no liquid frozen mid-air, no second bottle.
+**What changes in v2:** the pour is **SUDDEN AND UNANNOUNCED — Nia does not see it coming.**
+Simone's face does not telegraph it, there is no wind-up and no pause before it; the bottle
+comes up and over in one unbroken movement on the end of line 9, and **NIA'S REACTION IS
+THE SHOT** — the flinch that arrives a beat too late, hands going up after the wine has
+already landed. The stillness that makes it land belongs to SIMONE, not to the camera.
+**It is still one unbroken shot with no cut in it** — §5's fork-in-a-rag rule does not
+relax — and it gets its own beat and its own stated duration rather than sharing a shot
+with a line.
+
+### ⛔ "FILM IT FROM BEGINNING TO END" — HER PROPOSAL, AND WHY I AM RECOMMENDING AGAINST IT
+
+> *"I don't know what else to fucking do except to film this from beginning to
+> motherfucking end. So that there will be consistency from the fucking beginning to the
+> fucking end. Versus sitting here and spending $2,000 fucking credits on one fucking
+> scene to get nothing right."*
+
+**The instinct is exactly what §4a already says**, and it is right wherever it applies:
+*"do not create the seam… `seedance_2_5` runs to 30 seconds and bills linearly, so two 14s
+clips and one 28s clip cost exactly the same. Every seam is an independent re-roll."*
+
+**But it does not apply here, and the numbers say why.**
+
+| option | seconds | generations | credits | what it removes | what it stacks |
+|---|---|---|---|---|---|
+| C5 v2 + C6 separate | 22 + 10 | 2 | **198 + 90 = 288** | — | — |
+| **merged** | **29 (cap 30)** | **1** | **261** | one hard cut between two rooms | 2 locations, 2 camera set-ups, ~11 elements, the pour AND the lift in one take |
+
+**The merge saves 27 credits and risks 261 on a single roll.** §4a's merge rule exists for
+clips that **share a set** — it removes a re-roll of the same staging. C5 is the loft window
+end; C6 is the hallway and the lift. Merging them removes nothing that can be re-rolled and
+**doubles the surface area of one generation.** Every fault in this episode has come from
+putting more into one prompt, not less: C4 took seven takes and only worked when it was ONE
+zone with ONE camera direction, and C5's own record already flags eight elements as an
+untested count. Eleven is not the way to find out.
+
+**And the consistency she is actually asking for was never a seam problem.** The coat did
+not drift across the cut — it was asserted by an attached element inside C5's own prompt.
+One generation would have carried the same element and produced the same coat.
+**Detaching `12a23175` fixes it. Merging does not.**
+
+**So: C5 v2 and C6 stay separate. The C5→C6 seam is a hard cut between two rooms, which is
+the one kind of seam that is supposed to be a cut**, and §4a's own rule for it is the
+wardrobe column plus the stain, not one long take.
+
+### WHAT C5 v2 IS — NOT SUBMITTED, NOT COSTED WITHOUT A GO
+
+| | |
+|---|---|
+| **Container** | **~22s**, from §6's own formula: 50 words ÷ 3.4 w/s = 14.7s speech, + 9 line boundaries × 0.45s = 4.1s, + ~3s for the pour as its own beat. 2.3 w/s against §6's 2.1 sanity check. 25s gave it ten seconds it did not know what to do with |
+| **Credits** | **~198** at 1080p, against 225 for the take that dropped a line |
+| **Line 8** | restored to script order — blocking plays **7 → 8 → 9 → pour**, and the sequence diff runs before submission |
+| **Simone** | `Simone-Face-v3` `66ab4872` only. **`12a23175` DETACHED.** Plaid top and jeans in prose, in C4 v7's wording. Barefoot, no bag, **no coat and no coat anywhere in frame** |
+| **ChiChi** | height stated as a comparison — **taller than Nia by about two inches**, Simone and Nia level barefoot |
+| **Nia** | **byte-identical to C5.** Her identity block, her voice line and her `12315c68` tag do not move — that configuration produced the British accent at 25s and §5 forbids rewording an approved result |
+| **The pour** | sudden, unannounced, one unbroken shot, its own stated duration, Nia's late flinch is the shot |
+| **Set** | `0707edcb`, one camera direction stated once and held, exactly one of every landmark — unchanged, it is not what failed |
+
+**Pre-submission, in addition to the standing list:** the sequence diff (blocking order vs
+numbered script), and **the element audit — read every attached element's description back
+and name anything it asserts that this clip forbids.**
