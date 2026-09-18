@@ -1858,4 +1858,25 @@ it delivered 18/18 words:
 **Also fixed: the cut rule is stated ONCE.** v2 shipped two contradictory sentences
 about where the cuts fall.
 
-**Cost: 13s at 1080p = 117 credits.** Not submitted — awaiting the user.
+**SHOT 18 Sep 2026 on the user's "go" — job `ad076b82-90e3-42cb-bee2-3ecb8f556524`, 117
+credits.** Prompt file: `exclusive/prompts/n1-clip04-v3-DELIVERED-ad076b82.txt`.
+Payload verified: `duration: 13` · `resolution: "1080p"` · `bitrate_mode: "high"` ·
+`generate_audio: true` · **no `quality` field** · no `start_image` (pure t2v).
+
+**The "IN THE DARK" preset gate fired again on first submission** — `24bae836`, the same
+one that stopped Ep3 C1. No job was created and nothing was charged; declined with
+`declined_preset_id` and resubmitted literally, per §7. **That gate has now fired twice
+on this project and both times on a prompt with the word DARK or SHADOW in a lighting
+block. Expect it; never accept it — a preset would override the locked set and the grade.**
+
+**Two known gaps, flagged before the spend rather than after:**
+- **Simone has no accent named and no voice element.** Roxie `f6448975` is a PRESET, and
+  presets cannot be attached to a render at all (§5a). Her voice is a prose recipe only:
+  "LOW-PITCHED, chesty… THE DEEPER OF THE TWO WOMEN BY A CLEAR MARGIN." That wording is
+  the whole mechanism, and the 0.4 Hz convergence measured on v2 is what it is trying to
+  beat.
+- **Nia's audio reference `10c50bd1` was NOT attached.** The Lock Card records one clip
+  where it held her British accent in an 18s two-hander — and bled that accent onto the
+  other woman. Adding it would have been an agent's change on top of the user's five, and
+  §7's one-variable rule says propose it first. It is the obvious next lever if her accent
+  comes back flat.
