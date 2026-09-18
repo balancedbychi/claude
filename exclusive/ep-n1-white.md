@@ -1768,3 +1768,94 @@ Every one of them is something the rejected C4a/C4b failed on:
    what retired `9ced01df`.
 3. **Do Simone and Nia read as two different people** — face, hair and voice?
 
+
+---
+
+## ⛔ C4 v2 REJECTED BY THE USER — AND ALL FOUR NOTES TRACE TO ONE DECISION. 18 Sep 2026
+
+> *"She seems like she's almost as tall as the door… we should add in coat hooks so that
+> she can hang her coat… Nia is just standing there randomly like she's just standing
+> the place is empty doesn't look like the apartment that we showed… we should be
+> duplicating the room that I had provided originally with like the wall paintings and
+> all that stuff like We're just doing too much at this point."*
+
+**THE CAUSE: A NEW SET ELEMENT WAS BUILT FOR A SCENE THAT ALREADY HAD AN APPROVED
+LOCKED SET.** `Dorian-Loft-Entry-v2` `e1997bea` was created 18 Sep 2026 and C4 v2 was
+shot in it for 117 credits. But `Dorian-Loft-Night` `1a162d9b` calls itself, in its own
+first line, **"THE APPROVED LOCKED SET"** — and its description ends *"ChiChi watches
+Clip 4 from three steps up this staircase."* **C4 was always meant to be shot there.**
+
+**§2 already forbids this in as many words: "Never introduce a new element mid-episode.
+An element created after footage exists, from a fresh description, is not a lock — it is
+a second, competing set."** It was done anyway, and worse, it was done while that rule
+was being quoted in the same session about a different element.
+
+### THREE OF THE FOUR NOTES ARE THINGS `e1997bea`'s OWN WRITE-ONCE TEXT DELETED
+
+| the user's note | the clause that caused it |
+|---|---|
+| "add in coat hooks" | `e1997bea`: *"NO COAT HOOKS OR COAT RACK ON ANY WALL"* |
+| "the place is empty" | `e1997bea`: *"the floor beside the door starts COMPLETELY BARE — no shoes, no bags, no boxes, no basket, no console, no bench"*, plus the prompt's own *"THERE ARE NO GUESTS IN THIS SHOT"* |
+| "doesn't look like the apartment that we showed… the wall paintings" | `e1997bea` describes raw concrete and a door and **nothing else**. The gallery wall, green sofa, squiggle table, cream chairs and globe pendant are all in `1a162d9b` and none of them was attached |
+
+**AND THE HOOKS WERE NEVER A NEW REQUEST.** The master geography `d2ab7a6f` describes
+zone 1 as *"the front door, its shoe wall and IRON HOOKS."* They were canon before
+`e1997bea` existed. **A write-once description was used to delete a feature the master
+geography had already established** — which is the phantom-sofa failure of 18 Sep 2026
+running in reverse: that one invented an object the plate never had, this one erased
+objects the room did have. Both are permanent and neither can be edited out.
+
+### ⛔ `Dorian-Loft-Entry-v2` `e1997bea` IS RETIRED. DO NOT USE IT IN ANY NEW WORK.
+
+It has one delivered clip, `e71e43da`, rejected. Per §2 old elements are never deleted,
+only retired here. **The party scenes are shot in `1a162d9b`, which is the room the user
+recognises.** Its crowd rule (up to six guests, edges or deep soft focus) is what fills
+the frame; that rule was in the locked set the whole time and the prompt overrode it.
+
+### THE FOURTH NOTE IS THE REAL ONE: "WE'RE JUST DOING TOO MUCH"
+
+Five separate environment elements now exist for **one room** — entry, staircase end,
+kitchen, window end, terrace — plus a master-geography wide, plus three door plates, plus
+a retired entry, plus a retired Simone look. Every one was created to answer a question
+an earlier element had left open, and each new one opened two more. **The loft has more
+elements than the episode has clips.**
+
+**The standing rule from here: a scene is shot in the element that is already approved
+for that scene. A new environment element is created only when the user asks for one or
+supplies a reference for it — never to solve a problem in prose.**
+
+### C4 v3 — THE FIX, WRITTEN AND WAITING
+
+`exclusive/prompts/n1-clip04-v3-PROPOSED.txt`, 15,766 chars. Five changes, all of them
+the user's notes, nothing else touched — the v2 script block is byte-identical because
+it delivered 18/18 words:
+
+1. **SET is `1a162d9b`, the approved locked set**, with every landmark named: gallery
+   wall (the five artworks and the skateboard rack, item by item), green leather sofa,
+   pink squiggle table, cream tubular chairs, brushstroke rug, black steel staircase,
+   yellow globe pendant. `e1997bea` is not attached. The front door is described into
+   the near end of that same room — one continuous space, unbroken concrete floor, no
+   vestibule, per the master geography.
+2. **IRON COAT HOOKS restored** — five black cast-iron hooks on a timber rail at
+   shoulder height, **three coats already on them and two hooks empty**, with a shoe row
+   already on the floor beneath. Simone hangs her coat without looking, first try. That
+   is the same "she has done this a hundred times" beat as the shoes, doubled.
+3. **SCALE PINNED BOTH WAYS.** Her head reaches about two-thirds up the door with half a
+   metre of door visible above it; never as tall as the door, never filling the doorway,
+   never towering. And pinned to Nia: the same height barefoot, a few centimetres taller
+   in heels. §5's rule — a generic ("normal height") loses to a strong prior, so the
+   wrong answer is named.
+4. **NIA IS GIVEN A REASON TO BE THERE.** She is crossing the room back toward the door
+   because she heard it open and **she thinks it is Dorian** — mid-stride, her face
+   already lifting into a private smile for the man she expects, and the smile falls off
+   when Simone comes through. She is never standing waiting. That also makes the reveal
+   land harder at no cost.
+5. **GUESTS RESTORED**, to the locked set's own rule: up to six, frame edges or deep
+   soft focus, never crossing in front of the leads, never at the lens. Drinks and used
+   glasses stand on the squiggle table; neither woman ever picks one up, so §3's no-cup
+   rule survives while the room stops reading as empty.
+
+**Also fixed: the cut rule is stated ONCE.** v2 shipped two contradictory sentences
+about where the cuts fall.
+
+**Cost: 13s at 1080p = 117 credits.** Not submitted — awaiting the user.
