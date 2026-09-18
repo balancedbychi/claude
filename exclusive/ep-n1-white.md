@@ -2182,3 +2182,63 @@ makes ImageMagick try to decode camera RAW and abort); pass `-font` an absolute 
 useful message; size tiles with `-resize WxH -background C -gravity center -extent WxH`
 and never with an `fx:` expression, which IM6 rejects; and chain the `curl -X PUT` into
 the SAME sandbox command, because the box is discarded seconds after it exits.
+
+### ✅ THE USER NAMED ALL TWELVE — 18 Sep 2026. DORIAN'S APARTMENT IS NOW DOCUMENTED.
+
+| # | media id | what it is | zone |
+|---|---|---|---|
+| 1 | `f6d6a81d-e726-4ae4-bd9a-e35d46337327` | appliance + storage wall | kitchen |
+| 2 | `e4b76289-7e24-4ffd-9d8c-b641f6ce1e4a` | **kitchen-to-living transition** | the join |
+| 3 | `6fd92178-7ca4-4f51-86c0-8282a75edca1` | **entry + arrival zone** | entry |
+| 4 | `81ac19de-d134-44ff-a010-d98bd1adc848` | opposite side of the island | kitchen |
+| 5 | `def5ec7a-1276-4ee5-8d7e-836f2056e150` | full kitchen | kitchen |
+| 6 | `70c66280-1223-402f-87c7-7160255b309c` | pantry access | kitchen |
+| 7 | `2c4e993c-f07d-4667-a189-ba7d68629541` | arriving on the upper landing | **upper level** |
+| 8 | `19f37234-190b-487d-9faf-0c1f4c361635` | upper hallway | **upper level** |
+| 9 | `318d7173-c06a-4b46-bb19-95760d27bb93` | staircase + upper-level landing | **upper level** |
+| 10 | `686a990c-b4cb-4e99-8415-a06230cabcfe` | double-height overlook | **upper level** |
+| 11 | `32bbfa21-d294-4f5e-8322-69963f559986` | **coat + shoe wall** | entry |
+| 12 | `ef3df734-824d-41ab-8f8e-cfef30ab3de5` | **door-to-staircase orientation view** | entry |
+
+### 1. ✅ `Dorian-Loft-Entry-v3` ALREADY HOLDS 3, 11 AND 12 — AND THE LABELS WERE RIGHT
+
+The twelve were re-uploads, so each has a fresh media id but the SAME source filename as
+the copy already attached. Matching on source filename, not on id:
+
+| her number | her name for it | source file | already in `96a02139` as |
+|---|---|---|---|
+| **3** | entry + arrival zone | `hf_20260918_095516_74016fb7…` | `5f44a404` — asked for as "the front door from inside" |
+| **11** | coat + shoe wall | `hf_20260918_103604_b75e9e54…` | `4e4746ff` — asked for as "the entry area, where coats and shoes go" |
+| **12** | door-to-staircase orientation view | `hf_20260918_110040_357495f6…` | `ac51cf44` — asked for as "how the door end connects to the staircase end" |
+
+**All three of the labels the widget asked for match what she says the pictures are.**
+That is the one-at-a-time protocol doing exactly the job §2 wrote it for. **The entry
+element is correct and needs no rebuild, and C4 v5 can shoot against it unchanged.**
+
+### 2. ⛔ THE MEZZANINE IS REAL — AND THAT DOES NOT MAKE THE REASONING THAT INVENTED IT OK
+
+Four of her twelve photographs are an upper level: **arriving on the upper landing, an
+upper hallway, a staircase-and-landing view, and a DOUBLE-HEIGHT OVERLOOK.**
+
+§2 records that an agent — this one — invented a mezzanine to reconcile four locked
+descriptions, wrote it into `Dorian-Loft-Wide-Night`, and then claimed a plate "confirmed"
+it when the plate had been GENERATED FROM that same prose. **The conclusion happens to
+have been right. The method was still circular, and being lucky is not being correct.**
+The three-sofa ruling came out of the identical method and the user looked at the picture
+and said there were two.
+
+**What changes now is the evidence, not the claim.** The upper level is documented by four
+photographs the user took and named. It is a fact about the apartment from today; it was a
+guess before, and the file should keep saying so.
+
+### 3. THE BEST-DOCUMENTED ROOMS ARE THE ONES THE EPISODE BARELY USES
+
+Five kitchen images and four upper-level images against three for the entry. **The upper
+level has never been shot and is not in N1 at all.** Worth knowing for N2 and N3 — and
+worth not acting on now.
+
+**And five real kitchen photographs now exist**, which bear on `Dorian-Kitchen-Night`
+`de2063f2` and its phantom black sofa. **No action taken**: C3 is already delivered and
+approved, its footage is not being re-rolled for this, and building kitchen elements today
+is exactly the "doing too much" the user called out. Recorded for whenever the kitchen is
+next shot.
