@@ -155,7 +155,7 @@ the standing reference.
    gallery wall **LEFT**, yellow-and-white globe pendant. `1a162d9b`
 3. **KITCHEN** — open to the room, no dividing wall. Brushed stainless island
    free-standing, three black dome pendants in a row, matte black timber-grain
-   cabinets. **BLACK leather** sofa at its edge. `de2063f2`
+   cabinets. **NO SOFA — see the two-sofa override below.** `de2063f2`
 4. **WINDOW END** — full-height black-framed gridded steel windows across the end wall.
    **LOW DARK** sofa, console with the warm lamp and the one open bottle, potted plant.
    Sparse and quiet. `0707edcb`
@@ -170,7 +170,7 @@ and stops; the far half is full height. `48edf8ab`
 |---|---|
 | **The mezzanine** | is what makes the locked descriptions agree. The staircase sits at the far end from the windows AND a dark upper volume rises behind the glass from the terrace, because the landing runs back over the near half. Stand on the stairs and you look down the loft, through the glass, at the terrace |
 | **One wall, two faces** | exterior weathered RED BRICK, interior board-marked POURED CONCRETE. The brick never continues around the terrace edge |
-| **Three sofas** | green / black / low dark. Different objects. **Any prompt showing more than one zone must name which sofa it means** |
+| **TWO sofas** ⛔ *corrected 18 Sep 2026* | **GREEN under the stair · LOW DARK at the window end. THERE IS NO BLACK LEATHER SOFA AT THE KITCHEN EDGE.** Both `d2ab7a6f` and `de2063f2` still say three in their write-once text — override it in every prompt. Any prompt showing more than one zone must still name which of the two it means |
 | **The terrace edge** | GLASS — clear toughened panels, slim black posts, slim black top rail. Never a brick parapet |
 
 ### The glass map — glass exists in exactly four places

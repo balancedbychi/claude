@@ -981,13 +981,50 @@ around the terrace edge.**
 
 §5: *quantities are absolute or they drift.*
 
-### ✅ RESOLVED BY THE USER, 17 Sep 2026: THERE ARE THREE SOFAS AND THEY ARE DIFFERENT OBJECTS.
+### ⛔ SUPERSEDED 18 Sep 2026 — THERE ARE **TWO** SOFAS. THE USER RULED IT OFF THE MASTER WIDE.
 
-**Green leather under the stair · black leather at the kitchen · low dark at the window
-end.** All three locked descriptions are correct as written and none needs overriding.
-**Every prompt that shows more than one zone must name which sofa it means**, because
-the only thing keeping them apart is that each one's colour is written down — the same
-failure shape as the two figures in §3.
+> **"there's only two sofas, record it as an override"**
+
+| | |
+|---|---|
+| ✅ **GREEN leather** | three-seat, channelled back, **under the stair**, one dark jacket on its arm |
+| ✅ **LOW DARK** | **at the window end**, beside the console with the warm lamp and the one open bottle |
+| ❌ **BLACK leather at the kitchen edge** | **DOES NOT EXIST. Never write it into a prompt again.** |
+
+### HOW THIS BECAME AN OVERRIDE RATHER THAN A FIX
+
+**Two write-once descriptions still say there are three, and neither can be edited:**
+
+| element | the clause that is now wrong |
+|---|---|
+| `Dorian-Loft-Wide-Night` `d2ab7a6f` | *"THERE ARE EXACTLY THREE SOFAS AND THEY ARE DIFFERENT OBJECTS… BLACK leather at the kitchen edge, on its faded patterned rug with a black metal coffee table"* |
+| `Dorian-Kitchen-Night` `de2063f2` | *"a black leather sofa in the foreground right with a black metal coffee table carrying a small potted aloe, on a faded patterned rug"* |
+
+**So it goes in every prompt as an override and it is recorded here as superseded** —
+§2's standing remedy for a write-once description the footage or the user overrules.
+The line to carry: *there are exactly TWO sofas in this apartment, the GREEN one under
+the stair and the LOW DARK one at the window end. There is NO black leather sofa, NO
+sofa at the kitchen edge, NO black metal coffee table and NO faded patterned rug
+anywhere in the kitchen zone.*
+
+### ⚠️ AND `de2063f2` CARRIES APPROVED FOOTAGE, WHICH MAKES THIS ONE DIFFERENT
+
+The kitchen element is not a stale plate — **C3 v2 `b3437148` was shot in it.** The wide
+is one angle and the kitchen element is another, so a sofa absent from the wide could
+still be sitting in the kitchen plate, out of the wide's frame. **The ruling settles what
+is CANON going forward; it does not tell us what is in the delivered C3 footage.** If a
+black sofa is visible in `b3437148`, that is a continuity conflict between delivered
+footage and canon and the user should decide it, not an agent.
+
+`d2ab7a6f`'s own text says *"where this wide and a zone element disagree about that zone,
+THE ZONE ELEMENT WINS."* **The user's ruling outranks both.**
+
+### THE REASON THIS WAS EVER WRITTEN DOWN AS THREE
+
+The 17 Sep resolution read *"all three locked descriptions are correct as written and
+none needs overriding"* — a conclusion reached by reconciling three descriptions with
+each other rather than by looking at what the plate showed. **Three sources agreeing is
+not evidence when all three are prose and none of them was checked against the image.**
 
 ### 4. GLASS — AND THIS IS THE DANGEROUS ONE
 

@@ -296,6 +296,25 @@ highest-leverage rule in this file.
   the rules that never move. **A level, a look or a styling choice is a take
   decision, and putting it in a write-once description guarantees a contradiction
   the first time the user changes their mind.**
+- **⛔ AN ELEMENT'S OWN PLATE CANNOT CONFIRM ITS OWN DESCRIPTION. 18 Sep 2026.**
+  The user re-uploaded the loft wide with the words *"this is the apartment"*, and an
+  agent — this one — wrote that it *"confirms the mezzanine"* and that *"four locked
+  elements agree with one photograph."* **Both claims were circular and the second was
+  simply false.** The file was `451425a1`, already the media inside
+  `Dorian-Loft-Wide-Night` `d2ab7a6f` — a plate GENERATED FROM those four descriptions,
+  including a mezzanine the agent had invented to make them agree. A render cannot
+  corroborate the prose that produced it; it inherited it.
+  **Two habits come out of it.** **Check whether a supplied image is already in the
+  workspace before reasoning from it** — the filename carries the media UUID, and one
+  `show_reference_elements` call settles it. Building a second element from it would
+  have been the competing-element failure below, two elements holding the identical
+  image with two descriptions.
+  **And the sharper version, which is what actually cost something here: THREE PROSE
+  SOURCES AGREEING IS NOT EVIDENCE WHEN NONE OF THEM WAS CHECKED AGAINST THE PICTURE.**
+  The three-sofa ruling was reached exactly that way, by reconciling three locked
+  descriptions with each other. The user looked at the plate and said **there are two.**
+  Reconciling descriptions tells you they are consistent; only the image tells you they
+  are true.
 - **The saved element descriptions still say "The Standard Society". Leave them.**
   The series was renamed to EXCLUSIVE after Episode 1 was shot. Every locked
   element — both rooms, both characters, both voices — carries the old name in
