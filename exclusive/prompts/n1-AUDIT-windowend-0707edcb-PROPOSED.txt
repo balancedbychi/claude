@@ -1,0 +1,70 @@
+=== EXCLUSIVE · AUDIT RENDER — THE WINDOW END ===
+8s · seedance_2_5 · t2v · 720p · 16:9 · bitrate_mode high · no quality field
+NOT A DELIVERABLE. NOT A SHOT. This is an ELEMENT AUDIT.
+
+WHY IT IS WRITTEN THIS WAY — READ BEFORE EDITING IT.
+The question is: what does 0707edcb ACTUALLY CONTAIN? Its description claims a
+low dark sofa, a low dark console, a warm table lamp, a few used glasses, one
+open bottle and a tall potted plant. The kitchen element made exactly that kind
+of claim and four of its props turned out not to exist in its plate.
+
+*** SO THIS PROMPT NAMES NONE OF THOSE OBJECTS, DELIBERATELY. ***
+§5: naming a thing in a prompt is what supplies it. If this prompt listed the
+bottle, the render would draw a bottle and prove nothing. By naming nothing,
+whatever appears is what the ELEMENT carries — which is the only thing worth
+knowing. DO NOT ADD A PROP LIST TO THIS FILE.
+
+--------------------------------------------------------------------
+THE SET — AND IT IS THE ONLY AUTHORITY IN THIS PROMPT
+--------------------------------------------------------------------
+
+<<<0707edcb-9dbb-46d2-931c-0c865fac7941>>>
+
+REPRODUCE THIS SET EXACTLY AS THE REFERENCE SHOWS IT. Change nothing. Move
+nothing. Add nothing. The reference image is the complete and only inventory of
+this room: if it is not in the reference, it does not exist and it is not
+rendered. Invent no furnishings and no objects of any kind.
+
+Show the WHOLE of this end of the room, wall to wall and floor to ceiling, so
+that everything the set contains is visible at some point in the clip.
+
+LATE NIGHT, about ten in the evening. Warm practical light inside meeting
+cooler city glow through the glass, the concrete piers sinking into deep
+shadow, strong contrast, warm pools against darkness. Never daylight, never
+sunset, never a pink or lilac sky, no moon, no stars, never blue-dominant,
+never coloured LED or club lighting.
+
+--------------------------------------------------------------------
+CAMERA
+--------------------------------------------------------------------
+
+35mm, eye level. ONE continuous shot, NO CUTS. A slow, steady, even pan across
+the whole window end from one side to the other, left to right, revealing the
+full width of the space. No handheld shake, no whip pan, no snap zoom, no
+transitions. Deep focus — everything in the room stays legible, nothing is
+thrown soft.
+
+--------------------------------------------------------------------
+THERE ARE NO PEOPLE IN THIS CLIP
+--------------------------------------------------------------------
+
+*** NO people, NO figures, NO silhouettes, NO reflections of people, NOBODY at
+the frame edge and NOBODY passing behind. The room is EMPTY. ***
+NO dialogue, NO voice, NO narration. Nobody speaks.
+
+--------------------------------------------------------------------
+AUDIO
+--------------------------------------------------------------------
+
+Quiet room tone only, and the faint muffled sound of a party far off deeper in
+the apartment with not one intelligible word. NO music, NO score, NO swell,
+NO voices.
+
+--------------------------------------------------------------------
+IMAGE QUALITY
+--------------------------------------------------------------------
+
+Maximum sharpness and clarity throughout, crisp resolved detail on the steel
+window frames, the concrete, and every surface in the room. No softness, no
+haze, no smearing. A real cinema camera capture, photographic, never
+illustrated, never CGI, never a render, never an architectural visualisation.
