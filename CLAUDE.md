@@ -2065,20 +2065,49 @@ than relying on native multi-character audio to assign them correctly each time.
 > **Do not go looking for this parameter again.** Same standing as the language
 > selector in the Lock Card: checked, absent, recorded.
 
-**✅ BUT THE OUTCOME SHE IS ASKING FOR IS ACHIEVABLE, AND IT IS THE FILE'S OWN PROTOCOL
-THAT HAS NEVER BEEN RUN.** The way to stop a render mis-assigning voices is to give it
-**ONE SPEAKER PER GENERATION**. With one mouth in the shot there is no assignment to get
-wrong. §5a's TEST PROTOCOL already says exactly this at step 3 — *"one visible speaking
-character per test"* — and step 2 was never executed; the project went straight to
-multi-speaker clips. **N1 C4 is the bill: Simone and Nia measured 13.6 Hz apart, below
-the figure §5a names as the signature of converged voices.**
-The working method, all of it already proven in pieces:
-- **`generate_audio` TTS per character** with her own element — 0.3–0.5 credits, and it
-  is the only path that has ever produced a British Nia on demand.
-- **One speaker per seedance generation**, her audio reference attached.
-- **Cut the scene together** from single-speaker shots and reaction shots.
-- **`voice_change` (2 credits) to repair one speaker** in a finished clip, per §5a's
-  proven Ep3 C5 recipe.
+> ### ⛔ AND THE AGENT'S FIRST ANSWER TO THIS WAS WRONG. THE USER OVERRULED IT, 18 Sep 2026.
+>
+> The agent read *"generate voice separately"* and concluded **ONE SPEAKER PER
+> GENERATION** — shoot each woman alone and cut the scene together. **The user's reply:
+> *"no I don't like that method. I want multispeaker."*** She is right, on two counts.
+>
+> **It throws out the show.** §1 is two women across a table who interrupt each other.
+> A scene assembled from solo shots is not that scene.
+>
+> **And the evidence never supported it.** Multispeaker attribution has worked in every
+> clip where the ASSETS were right:
+>
+> | clip | speakers | result |
+> |---|---|---|
+> | C1 `2a5a6765` | 2 | **41/41 words verbatim, in order** |
+> | C2 `68a321ad` | 2 | **21/21 words, 8 of 9 lines clean** |
+> | C3 v2 `b3437148` | 2 | **26 words exact, BOTH collision lines to the right mouth** |
+> | C4a / C4b | 2–3 | **6/6 and 12/12 — the words and the mouths were fine** |
+>
+> **C4 failed on an unverified character element and an invented set, not on having two
+> people in the shot.** "Generate voice separately" means generate the AUDIO separately.
+> It never meant stage the scene separately, and turning one into the other was the
+> agent's inference, not the instruction.
+
+**✅ SO: SHOOT MULTISPEAKER. FIX THE VOICES IN THE AUDIO LAYER, NOT THE STAGING.** That
+is what "removes the mismatch at its source" actually means here — the source is the
+DIALOGUE TRACK, not the blocking. Every piece of this is already proven:
+
+- **`generate_audio` TTS per character** with her own element, `speech_rate: 50` —
+  0.3–0.5 credits, and the ONLY path that has ever produced a British Nia on demand.
+  Approve the speech before the render exists.
+- **Shoot the scene multispeaker**, with the guards that C2 and C3 both proved: exact
+  word count at the very top, every line tagged with its speaker, the other mouth
+  explicitly closed, the specific wrong answer named, and **cuts anchored to ACTION
+  rather than to a spoken word.**
+- **If a voice comes back wrong, RESTORE THE APPROVED RECORDING over the picture.**
+  §5a's audio-first rule already supersedes "an accent fault is a render fault" — a
+  replaced dialogue track inherits nothing from the bad render and re-rolls no picture.
+- **Or `voice_change` on ONE speaker plus a splice**, per §5a's proven Ep3 C5 recipe —
+  2 credits, and it does not touch a frame.
+
+**Never re-shoot a clip whose picture is right to chase a voice.** That is the whole
+point, and it works with two people in frame.
 
 **5. TEST AT 480p, DELIVER AT 1080p.** *"Confirm the motion, framing and dialogue land,
 then render the final version at 1080p."* ✅ **THIS CORRECTS THIS FILE** — §7 below used
