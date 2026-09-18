@@ -2664,3 +2664,72 @@ this is the rule working as designed — but 4.6s of it may play as a drag, and 
 dialogue is a second symptom. **Flagged, not acted on. If the front feels slow, the fix is
 the CONTAINER — shorten the clip — never a "no dead air" instruction, which §6 says does
 nothing.**
+
+---
+
+## CLIP 5 — "SINCE WHEN" · WRITTEN 18 Sep 2026
+
+`exclusive/prompts/n1-clip05-PROPOSED.txt`, **18,367 chars** (ceiling 19,554).
+**50 words, ten lines, verified by count.** 25s at 1080p = **225 credits, preflighted.**
+
+**Built on everything C4 took seven takes to learn:** exact word count at the very top,
+every line speaker-tagged with the other mouth closed, the collision named, ONE camera
+direction stated once and held, EXACTLY ONE of every landmark, and the set's own props
+counted before the action was written.
+
+### THE COLLISION IN THIS CLIP IS LINES 1 AND 2
+
+Both begin **"I think you should"**. Line 1 is the short one, ends on *"leave"*, and is
+NIA'S. Line 2 is the long one, ends on *"how long"*, and is SIMONE'S. Named both ways,
+per §4's specific-wrong-answer rule — the same guard that has held the "new" collision
+five takes running.
+
+### THE BOTTLE WAS ALREADY IN THE LOCKED SET
+
+`0707edcb`'s own description puts *"a few used glasses and one open bottle"* on the
+console. **That is the bottle Simone pours** — §5's fork-in-a-rag lesson applied before
+the fact rather than after: the action's object is named, the set's competing props are
+named and parked (*"THOSE GLASSES ARE NEVER PICKED UP, NEVER MOVED AND NEVER POURED
+FROM"*), and no second bottle is allowed to exist.
+
+### THE POUR IS ONE UNBROKEN SHOT
+
+§5: *"any single continuous piece of business with an object in it belongs inside ONE
+shot"* — the rule written after a fork turned into a plate across a cut. **The camera
+does not cut between Simone lifting the bottle and setting it down.** The pour is
+specified as a continuous gravity-fed stream from a held bottle with the stain spreading
+downward and outward, and the wrong answers are named: no throw, no splash, no spray, no
+droplets in air, no glass tipped, no stain appearing by a cut.
+
+### ⚠️ FOUR THINGS TO KNOW BEFORE SPENDING 225
+
+**1. THIS IS THE BIGGEST SINGLE SPEND OF THE EPISODE**, nearly double any C4 take, and
+**there is no cheap rehearsal available** — §7 records that sub-1080p renders containing
+people come back `nsfw`, so the 480p test tier this clip most deserves does not exist.
+
+**2. EIGHT ELEMENTS, the most ever attached to one clip here.** Whether that count is
+safe is an OPEN QUESTION with no data behind it — flagged in this file before C5 was
+written and still unanswered.
+
+**3. ⛔ THE WINDOW END IS A GENERATED PLATE, NOT A PHOTOGRAPH.** The user's twelve images
+are five kitchen, four upper level and three entry. **There is no photograph of this end
+of the room.** That is the same condition that produced every C4 fault. **Three things
+make it materially safer than C4:** one zone rather than two, one camera direction stated
+once and held, and the direction faces the element's own anchor — the window wall its
+plate is built around — rather than an unrecorded wall. **But it is the honest risk on
+this clip and it is stated before the spend, not after.**
+
+**4. CHICHI'S VOICE ELEMENT IS DELIBERATELY NOT ATTACHED.** She is on screen and she
+never speaks, so the Lock Card's item 4 (*"if she speaks"*) does not apply. **The reason
+to leave it out is positive, not merely permissive:** §5a records that an attached voice
+element COLOURS THE WHOLE RENDER — swapping one moved both women's pitch and closed their
+gap by 15 Hz. The Simone/Nia separation has just reached its widest ever at 32.6 Hz, and
+introducing an unused third voice into the pool is exactly the kind of silent variable
+that has cost this project takes before. **Her character element, her wardrobe and her
+full pinned identity block are all present; only the voice tag is out.**
+
+**Her ring is handled by framing, not by wording** — §2b's cheap mitigation. Her left hand
+holds the white paper plate for the whole clip, which keeps the fourth finger against the
+plate and out of clear view, and her right hand is the one that goes to Nia's arm.
+
+**Not submitted.**
