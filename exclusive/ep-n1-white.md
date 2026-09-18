@@ -2266,3 +2266,94 @@ worth not acting on now.
 approved, its footage is not being re-rolled for this, and building kitchen elements today
 is exactly the "doing too much" the user called out. Recorded for whenever the kitchen is
 next shot.
+
+### C4 v5 MEASURED — job `7d28efb9`
+
+1920x1080, 24fps, **10.54 Mbps**, 13.05s.
+
+**✅ 18/18 WORDS — THIRD CONSECUTIVE CLEAN SCRIPT HIT** (v2 `e71e43da`, v3 `ad076b82`,
+v5 `7d28efb9`). Five lines, verbatim, in order, no adlib. The "new" collision held a third
+time. **This prompt structure — exact word count at the top, per-line speaker tags, the
+other mouth closed, the wrong answer named — is now the most reliable thing in the
+project and should not be touched.**
+
+| # | speaker | line | t |
+|---|---|---|---|
+| 1 | SIMONE | "It's freezing out." | 2.76–4.06 |
+| 2 | NIA | "I'm sorry. Who?" | 6.36–7.66 |
+| 3 | SIMONE | "Simone." / "You must be the new one." | 8.14–8.48 / 9.30–10.08 |
+| 4 | NIA | "The new what?" | 10.50–10.96 |
+| 5 | SIMONE | "He didn't." | 11.98–12.64 |
+
+4.84s of articulation for 18 words = **3.72 w/s**. **Line 1 starts at 2.76s** against
+v3's 2.12 and v2's 1.18 — the fuller the frame, the longer the model spends establishing
+it before anyone speaks. Three takes, monotonic.
+
+**✅ TWO CUTS — 6.62s (7.9x) and 7.88s (12.2x).** A cluster at 6.88/7.00/7.25 reads
+4.0–4.6x, and per §7 *"a real cut stands far above its neighbours; a smooth cluster of
+moderately high values is just fast motion"* — that is Simone crossing, not three extra
+cuts. Three shots, as asked.
+
+### ✅ THE TAIL IS NOT A SWELL, AND THE 100ms PROFILE ALONE WOULD HAVE SAID IT WAS
+
+The per-100ms pass showed −44.6 dBFS at 12.70 rising to **−29.8 at 12.90: +14.8 dB.**
+On the v2 and v3 evidence that reads as a third music swell. **It is not one.**
+
+| | centroid | duration |
+|---|---|---|
+| **the tail event, 12.85–13.00** | **500.7 Hz** | ~150 ms |
+| the quiet dip before it | 793.8 Hz | — |
+| mid-clip room tone | 1233.0 Hz | — |
+| Simone's speech | 1375.0 Hz | — |
+| *Ep2 C6 door slam, for scale* | *708 Hz* | *~400 ms* |
+| *Ep2 C6 quiet tail, for scale* | *1569 Hz* | *sustained* |
+
+**LOWER and SHORTER than a door slam. §7's test says low and short is an OBJECT** — a
+bare foot on concrete, or the bag settling. **Third clean tail running.**
+
+**The process point is the one worth keeping: §7's own rule caught this, and skipping it
+would have produced a false finding for the second time.** The Ep2 C6 near-miss is
+recorded in this file and the identical trap was walked into here. **Profile per-100ms,
+then ALWAYS take the centroid before using the word "swell".**
+
+### ✅ THE VOICE GAP WIDENED AGAIN — 0.4 → 22.8 → 28.6 Hz
+
+| line | speaker | dur | median | spread |
+|---|---|---|---|---|
+| L1 | SIMONE | 1.30s | 200.0 | **1.45x** |
+| L2 | NIA | 1.30s | 231.9 | 1.34x |
+| L3 | SIMONE | 0.78s | **225.4** | 1.06x |
+| L4 | NIA | 0.46s | **225.4** | 1.06x |
+| L5 | SIMONE | 0.66s | 163.3 | 1.13x |
+
+| take | SIMONE | NIA | gap |
+|---|---|---|---|
+| v2 `e71e43da` | 210.5 | 210.1 | 0.4 Hz |
+| v3 `ad076b82` | 188.2 | 211.0 | 22.8 Hz |
+| **v5 `7d28efb9`** | **200.0** | **228.6** | **28.6 Hz** |
+
+Simone is the lower voice for the third straight take and the separation is the widest
+yet. **Two flags against it, stated rather than buried:** L1's spread is **1.45x, past
+§5a's 1.4x unsafe threshold**, and **L3 and L4 measure IDENTICALLY at 225.4 Hz** — the
+two women reading the same on adjacent lines, which is precisely the convergence
+signature. **The trend is real, one clip is still one clip, and the user's ear settles
+whether they sound like two people.**
+
+### ⚠️ SHARPNESS — SHOT B IS THE FLAG, AND NOTHING IS BEING REVERTED
+
+| shot | span | sharpness |
+|---|---|---|
+| A — door, hooks, shoes | 0.10–6.50s | **37.4** |
+| B — Nia close | 6.70–7.80s | **8.5** |
+| C — two-shot | 8.00–13.00s | 22.9 |
+
+**Shot B at 8.5 is the lowest single shot recorded anywhere in this episode** — below the
+14.0 floor of `c52c4a30`, the clip the user called the best. It is 1.1 seconds of Nia
+against a deliberately soft gallery wall at f/2.2, so low scene detail is partly by
+design, and §2b's "mush below 30" is Episode 3's scale, not this series'.
+
+**⛔ NO ACTION. §7 is absolute: a measurement may FLAG, it may never REVERT.** This is a
+question for the user's eye — *does Shot B look soft?* — and nothing is rolled back on
+the number. **Shot A's 37.4 is likewise NOT a claim that the photo-backed entry is
+sharper**; it is a different set element with different scene detail, and §7 forbids
+ranking two clips on this measure.
