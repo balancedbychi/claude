@@ -2007,7 +2007,31 @@ opened the gap to 22.8 Hz).
 | **Scale re-anchored off the furniture**, not the door: sofa back at hip, hook rail at shoulder, pendant clearly above their heads | the door was the measuring stick in v3 and the door is gone |
 | Hooks moved from "beside the door" to "the unbroken concrete wall at the NEAR END" | same reason |
 
-**Cost: 13s at 1080p = 117 credits.** Not submitted.
+**SHOT 18 Sep 2026 — job `7d28efb9-d921-488d-b08b-f1f51643f366`, 117 credits.** Prompt
+file `exclusive/prompts/n1-clip04-v5-DELIVERED-7d28efb9.txt`, 15,471 chars. Payload
+verified: `duration: 13` · `1080p` · `bitrate_mode: "high"` · no `quality` field · no
+`start_image`. The "IN THE DARK" preset gate did NOT fire this time — declined
+pre-emptively with `declined_preset_id`, which appears to suppress it cleanly.
+
+**⚠️ ONE CONTRADICTION CAUGHT ON THE FINAL READ, AND IT WOULD HAVE COST THE TAKE.**
+The SET block read *"no dividing wall, no separate hall, no vestibule, no corridor, NO
+LANDING, no step and no level change anywhere."* That clause was written to forbid a step
+up at the threshold — but `Dorian-Loft-Night` `1a162d9b`, attached in the same prompt,
+says in its own description that the stair rises **"to a dark upper landing"**, and the
+user's photographs 7–10 show that upper level directly. **The prompt was negating a
+feature its own attached element asserts.**
+
+Rewritten before submission to: *"no entrance step and no change of floor level between
+the front door and the staircase (the black steel staircase rising to the upper level is
+part of the staircase-end element and stays exactly as that element shows it; this clip
+is played entirely at ground level and never goes up)."*
+
+**This is §7's read-the-whole-prompt rule paying for itself a second time**, and it is a
+NEW SHAPE of the fault. The Episode 2 catch was a number contradicting another number
+inside one prompt. **This one is the PROMPT contradicting an ATTACHED ELEMENT** — invisible
+to any check that reads the prompt alone, and only findable by holding the element
+descriptions in view at the same time. **Add it to the pre-submission read: every negation
+in the prompt gets checked against what the attached elements assert.**
 
 **Two rejected takes in a row at 117 each. §7: flagging a risk is not permission to take
 it.** v4 waits for the user.
