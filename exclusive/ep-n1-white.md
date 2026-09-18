@@ -2357,3 +2357,79 @@ question for the user's eye — *does Shot B look soft?* — and nothing is roll
 the number. **Shot A's 37.4 is likewise NOT a claim that the photo-backed entry is
 sharper**; it is a different set element with different scene detail, and §7 forbids
 ranking two clips on this measure.
+
+---
+
+## ⛔ C4 v5 REJECTED — THE GREY T-SHIRT WAS IN THE REFERENCE. 18 Sep 2026
+
+> *"Simone came in one outfit and then it switched to her wearing a gray top, which was
+> not the outfit she was wearing when she came in. And then it looks like Nia is
+> superimposed into the wall… overall it's a better improvement it's just still not
+> right."*
+
+### 1. ⛔ AN ELEMENT'S OWN DESCRIPTION CANNOT REMOVE A GARMENT FROM ITS OWN IMAGE
+
+`Simone-Face-v2` `28b4cecd` is the six-view character sheet, and **she is wearing a plain
+grey t-shirt in it.** That element's write-once description says, in capitals:
+
+> *"THE PLAIN GREY T-SHIRT AND GREY LOWER GARMENT IN THIS REFERENCE ARE THE CHARACTER
+> SHEET'S NEUTRAL, NOT HER CLOTHING, and they are never reproduced in any generation."*
+
+**It was reproduced anyway.** Simone entered in her correct wardrobe and switched into a
+grey top mid-clip.
+
+**This is the ring failure on a new axis, and it is now confirmed twice over.** §2b
+records that the strongest named negation in this file could not remove a wedding ring
+that lived in a reference image. §7's third directive states the general rule: *an image
+beats text every time; anything you need excluded has to be ABSENT FROM THE FRAME.*
+**What is new here is the location of the offending image: it is the ELEMENT'S OWN MEDIA,
+and the negation was inside that same element's description.** A description cannot
+argue with the picture it is attached to. **It never could, and no wording will change
+that.**
+
+**⛔ SO THE RULE, AND IT IS ABSOLUTE: A CHARACTER-IDENTITY ELEMENT MUST CONTAIN NOTHING
+YOU DO NOT WANT RENDERED. Crop it until that is true.** A face element shows a face. A
+character sheet wearing a studio neutral is not a face element; it is a face element AND
+a wardrobe element, and the wardrobe half will fight every prompt you write.
+
+### ✅ `Simone-Face-v3` `66ab4872-3bbf-4ce0-8e0d-267753f00c37` — THE PICTURE FIXED, NOT THE SENTENCE
+
+The sheet was split in half and **the user was shown both halves and chose** — no guess.
+The bottom half is the three close-ups (neutral, warm smile, open laugh); the top half is
+where the grey t-shirt lives. Cropped to 2752x768 and locked as a new element.
+**There is no garment in the frame, so there is nothing to switch into.**
+
+`28b4cecd` is RETIRED for all new work — **not because its face was wrong, but because its
+frame carried clothing.** That distinction is written into the new element so a later
+session does not "restore" it.
+
+### 2. NIA LOOKED SUPERIMPOSED — AND THAT WAS THE STAGING, NOT THE MODEL
+
+v5's camera block reads: *"SHOT B — closer on Nia… with the gallery wall soft behind
+her."* **A sharp figure, a flat blurred surface a metre behind her, and nothing in
+between is the recipe for a cut-out.** The measurement agreed without being able to name
+it: **Shot B read 8.5, the lowest single shot in the episode.** Low scene detail behind
+her is exactly what a flat near wall produces.
+
+**The fix is DEPTH, not sharpness.** v6 removes the wall from behind her entirely: open
+floor, the length of the room running away, guests at three distinct distances falling
+progressively softer, the pendant and its pool well beyond, the far end into shadow, and
+the light wrapping her shoulders rather than stopping flat. Then §5's named wrong answer:
+**NEVER cut out, pasted, composited, layered, superimposed, or a flat figure against a
+flat surface.** Her entry state also moves her off the sofa wall and out onto the open
+floor.
+
+## C4 v6 — `exclusive/prompts/n1-clip04-v6-PROPOSED.txt`, 16,952 chars
+
+Script block byte-identical for the fourth time. Four changes, all of them the user's two
+notes:
+
+| # | change |
+|---|---|
+| 1 | **`66ab4872` replaces `28b4cecd`** — cropped face reference, no clothing in frame |
+| 2 | the coat is named as **the ONLY wardrobe change**; what is under it is identical first frame to last; plain grey tops negated by name as backup to the crop |
+| 3 | **Shot B restaged for depth** — no wall behind Nia, three planes of falloff, superimposition negated by name |
+| 4 | entry state moves her **off the sofa wall onto open floor** |
+
+Seven elements, zero dead or retired ids, zero "pivot", one cut rule, five speaker tags.
+**Cost: 13s at 1080p = 117 credits.** Not submitted.
