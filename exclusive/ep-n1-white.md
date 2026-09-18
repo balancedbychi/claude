@@ -2132,3 +2132,53 @@ printed "PUT OK" while uploading nothing, because the file it pointed at had nev
 created. `media_confirm` was NOT called on that, so no broken media entered the library —
 but **"PUT OK" is not evidence that a file was uploaded. Check the size before
 confirming.**
+
+---
+
+## 📋 THE NUMBERED CONTACT SHEET — `06ec6701-2192-46bc-8d6d-fc089e323608`, 18 Sep 2026
+
+**The user asked for the sheet to be redone, and the change that matters is the
+labelling.** The first attempt printed MEDIA IDS on each panel. Her reply: *"I don't know
+what those codes mean."* She was right — a hex id is unreadable, and asking someone to
+answer in hex makes the tool useless to the only person who can supply the answer.
+
+**So the sheet is numbered 1–12 and the ids stay on this side.** She answers in numbers;
+the map below turns her answer back into ids. That is the general rule and it outlives
+this sheet: **when a human has to identify something, label it with something a human can
+say out loud.**
+
+12 images supplied in one batch. **Batching is normally forbidden by §2** — a pile of
+files returns ids with nothing tying each to its subject — **but it is SAFE when the very
+next step is a numbered contact sheet**, because the sheet is precisely the instrument
+that re-attaches subject to id. That is a genuine exception to §2 and it is the reason to
+prefer one big upload plus one sheet over twelve labelled widget rounds.
+
+All 12 verified before the build: HTTP 200, 8.1–10.3 MB each, every one 2160x3840.
+Nothing failed and no tile is blank. Sheet is 2664x1926, six columns by two rows.
+
+| # | media id |
+|---|---|
+| 1 | `f6d6a81d-e726-4ae4-bd9a-e35d46337327` |
+| 2 | `e4b76289-7e24-4ffd-9d8c-b641f6ce1e4a` |
+| 3 | `6fd92178-7ca4-4f51-86c0-8282a75edca1` |
+| 4 | `81ac19de-d134-44ff-a010-d98bd1adc848` |
+| 5 | `def5ec7a-1276-4ee5-8d7e-836f2056e150` |
+| 6 | `70c66280-1223-402f-87c7-7160255b309c` |
+| 7 | `2c4e993c-f07d-4667-a189-ba7d68629541` |
+| 8 | `19f37234-190b-487d-9faf-0c1f4c361635` |
+| 9 | `318d7173-c06a-4b46-bb19-95760d27bb93` |
+| 10 | `686a990c-b4cb-4e99-8415-a06230cabcfe` |
+| 11 | `32bbfa21-d294-4f5e-8322-69963f559986` |
+| 12 | `ef3df734-824d-41ab-8f8e-cfef30ab3de5` |
+
+**⚠️ THIS TABLE IS THE ONLY PLACE THE MAPPING EXISTS.** §8: ids living in a chat
+transcript are lost. Her answer arrives as numbers and is meaningless without it.
+
+**Build recipe that works, so the next sheet is right first time:**
+fetch all in parallel with `curl ... &` then `wait`; check HTTP code, byte size AND
+`identify` on every file before using it; save with a `.png` extension (a `.raw` name
+makes ImageMagick try to decode camera RAW and abort); pass `-font` an absolute path
+(`/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf`) or `-annotate` aborts with no
+useful message; size tiles with `-resize WxH -background C -gravity center -extent WxH`
+and never with an `fx:` expression, which IM6 rejects; and chain the `curl -X PUT` into
+the SAME sandbox command, because the box is discarded seconds after it exits.
