@@ -1880,3 +1880,89 @@ block. Expect it; never accept it — a preset would override the locked set and
   other woman. Adding it would have been an agent's change on top of the user's five, and
   §7's one-variable rule says propose it first. It is the obvious next lever if her accent
   comes back flat.
+
+### C4 v3 MEASURED — job `ad076b82`
+
+1920x1080, 24fps, **10.88 Mbps**, 13.05s.
+
+**✅ 18/18 WORDS, FIVE LINES, VERBATIM, IN ORDER** — second consecutive clean hit on
+this prompt structure (v2 `e71e43da` and v3 `ad076b82`). The "new" collision held again.
+
+| # | speaker | line | timestamps |
+|---|---|---|---|
+| 1 | SIMONE | "It's freezing out." | 2.12–3.34 |
+| 2 | NIA | "I'm sorry. Who?" | 5.80–6.94 |
+| 3 | SIMONE | "Simone. You must be the new one." | 7.30–9.16 |
+| 4 | NIA | "The new what?" | 9.84–10.34 |
+| 5 | SIMONE | "He didn't." | 11.10–11.96 |
+
+5.58s of articulation for 18 words = **3.23 w/s** against the measured render pace of
+3.42. **Line 1 now starts at 2.12s against v2's 1.18s** — the model spent an extra
+second on the room before anyone spoke, which is what a furnished set buys.
+
+**✅ TWO CUTS, THREE SHOTS.** Frame-difference, mean 3.783: isolated spikes at **6.25s
+(9.6x)** and **6.75s (13.3x)**, nothing else above 2.5x. **Cut 2 landed on the ACTION**
+(0.55s before line 3 begins) rather than on a word — the first time in this episode an
+action anchor has actually held. Cut 1 landed 0.45s inside Nia's line. Shot B is only
+0.5s long, which is very short for a coverage shot; the user's eye settles whether it
+reads as a beat or a flash.
+
+### ✅ THE VOICE GAP OPENED — 0.4 Hz → 22.8 Hz
+
+| line | speaker | dur | median | spread |
+|---|---|---|---|---|
+| L1 | SIMONE | 1.22s | 188.2 | 1.27x |
+| L2 | NIA | 1.14s | **227.0** | 1.28x |
+| L3 | SIMONE | 1.86s | 216.2 | 1.21x |
+| L4 | NIA | 0.50s | 195.1 | 1.14x |
+| L5 | SIMONE | 0.86s | **163.3** | 1.32x |
+
+| | SIMONE | NIA | gap |
+|---|---|---|---|
+| **v2 `e71e43da`** | 210.5 | 210.1 | **0.4 Hz** |
+| **v3 `ad076b82`** | **188.2** | **211.0** | **22.8 Hz** |
+
+**Simone is now the LOWER of the two, which is what the prompt asked for, and the two
+women are 22.8 Hz apart instead of indistinguishable.** §5a's rule is that the GAP is
+the cross-clip-comparable quantity — *"check the gap against Clip 2's 45 Hz, not either
+voice against a target"* — so this comparison is the one the file permits, unlike the
+sharpness figures below. For scale: approved Ep3 C2 ran 45.1 Hz, rejected Ep3 C5 ran
+29.5 Hz. 22.8 is still under both.
+
+**What changed that could have done it:** Simone's voice block was rewritten from
+*"warm, low-set… clearly lower and slower"* to **"LOW-PITCHED, chesty… THE DEEPER OF THE
+TWO WOMEN BY A CLEAR MARGIN… NIA IS AUDIBLY HIGHER AND QUICKER IN EVERY LINE"**, with
+convergence negated by name. **That is one candidate among five simultaneous changes and
+it is NOT isolated** — the set, the room's acoustics, the guests and the blocking all
+moved too. §7: one clip is an observation. **Do not write this up as the lever until it
+repeats.** The caveats from v2 still stand: four of five lines are ≤1.3s, and L5's 1.32x
+spread is close to the 1.4x unsafe threshold.
+
+### PER-SHOT SHARPNESS — REPORTED, AND NOT COMPARABLE TO v2
+
+| shot | span | sharpness |
+|---|---|---|
+| A — door, hooks, shoes | 0.10–6.20s | 18.8 |
+| B — Nia | 6.30–6.70s | 14.2 |
+| C — two-shot | 6.80–13.00s | **31.8** |
+
+**⛔ These must NOT be read against v2's 28.6 / 21.9 / 17.2.** v2 was shot in bare
+concrete; v3 is shot in a furnished room with a gallery wall, a patterned rug and a
+crowd. §7: *the room is the dominant term; compare a shot to the SAME ROOM in another
+take, never to a different set.* Within v3 the range is **14.2–31.8**, inside the band
+of the clip the user called "THE BEST CLIP!" (14.0–33.5). No action taken.
+
+### ✅ NO MUSIC SWELL — SECOND CLEAN TAIL
+
+Speech ends 11.96. Tail decays −33.6 → −43.6 dBFS by 12.40 and holds flat, finishing at
+−41.2. A 2.4 dB lift across the last 200ms, against the +3.4 and +7.78 dB swells §6
+records. **Two clips running now, on the same wording.** Still not enough to overturn
+§6's "fix it in post" — both holds have been on a near-silent room rather than a scored
+beat — but the exposure is looking smaller than the file assumes.
+
+### STILL THE USER'S EYES
+
+1. Does the room read as **the apartment** — gallery wall, green sofa, globe pendant?
+2. **Is `28b4cecd` the right woman**, and do Simone and Nia read as two different people?
+3. **Scale** — is Simone a normal height against a full-height door now?
+4. Do the **hooks** land, and does the coat go on without her looking?
