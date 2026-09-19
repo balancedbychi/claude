@@ -56,11 +56,38 @@ availability through this connection needed checking. It was checked with
 | `seed_audio` | `format` · `sample_rate` · `speech_rate` · `loudness_rate` · `pitch_rate` · `voice_type` · `voice_id` |
 | `text2speech_v2` (including `variant: "seed_speech"`) | `variant` · `voice_type` · `voice_id` |
 
-**Neither carries a language or accent field.** So both properties can only arrive
-through **the voice element** and **the text itself** — there is nothing to set.
-**Do not tell the user a language can be selected here, and do not go looking for the
-parameter again.** `seed_audio` does accept an `audio_references` media role, which is
-the only steering input that exists.
+**Neither carries a language or accent field.** So for THOSE TWO models both
+properties can only arrive through **the voice element** and **the text itself**.
+`seed_audio` does accept an `audio_references` media role, which is its only steering
+input.
+
+> #### ⚠️ NARROWED 19 Sep 2026 — THE CLAIM WAS TRUE OF TWO MODELS AND WAS WRITTEN AS IF IT WERE TRUE OF THE CONNECTION.
+>
+> A read-only audit of the catalogue found a THIRD speech model this file had never
+> looked at, and it does carry a language field:
+>
+> | model | language | style |
+> |---|---|---|
+> | `seed_audio` | ❌ none | — |
+> | `text2speech_v2` (all 5 variants) | ❌ none | — |
+> | **`qwen_audio_tts`** (Qwen Audio 3.0 TTS Flash) | **`language`: zh·en·fr·de·ja·ko·ru·pt·th·id·vi·it·ms** | **`instruction`: free text for "emotion, dialect, speed, or style"** |
+>
+> **THE RULING DOES NOT CHANGE AND THE LOCK CARD DOES NOT MOVE.** `en` is ONE code.
+> It cannot distinguish British from General American, which is the whole point of the
+> user's 17 Sep ruling that language and accent are different controls. So a language
+> selector existing does not give us an accent selector.
+>
+> **What IS new and untested is `instruction`.** It is a free-text style field on a
+> model nobody here has ever called — *"dialect"* is its own word, not ours. That is a
+> **hypothesis worth 0.1 credits of TTS**, not a finding, and it must be auditioned by
+> the user's ear before anything is built on it. ⚠️ It also uses a DIFFERENT voice model
+> from the one that produced the approved British Nia, so it is a change to an approved
+> input — §5a's rule applies: flag it as the risk it is and let the user decide first.
+>
+> **The process lesson is the one this file keeps paying for: "I checked and it is not
+> there" is only ever true of the things you checked.** Two models were inspected and
+> the conclusion was written about the connection. Same shape as the 480p tier called a
+> cause after six tests that never varied it. **Name the scope of a negative finding.**
 
 ### THE VERIFICATION, AND IT RUNS BEFORE EVERY SUBMISSION
 
@@ -1566,10 +1593,30 @@ write the id down in the episode file.
 
 ### The voice-element slot limit — you cannot just clone another character
 
-The account caps voice elements at three. **As of 15 Sep 2026 TWO are used and ONE
-SLOT IS FREE:** `Nia-voice-v2-clear` `12315c68` and `ChiChi-Canon-Voice-v1`
-`de50f37f`. The user deleted `ChiChi-the-Influencer-Voice` `180fdb9a` after it
-measured 59 Hz off Chi.
+> ### ⛔ CORRECTED 19 Sep 2026 — THE CAP IS FULL. THERE IS NO FREE SLOT.
+>
+> `list_voices`, read live: **THREE elements, and the cap is three.**
+>
+> | element | id |
+> |---|---|
+> | `Nia-Canon-Voice-v2` | `b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c` |
+> | `ChiChi-Canon-Voice-v1` | `de50f37f-82fa-4a70-bdca-52355b2f4ca2` |
+> | `Nia-voice-v2-clear` | `12315c68-37de-41fe-8766-76ac07bcaf70` |
+>
+> **`b3d2fc9b` is occupying the slot this file called free.** It was cloned for the
+> 207-credit accent test, ruled a dead end for the accent, and then nobody recorded
+> that it still exists. **No new voice can be cloned until the user deletes one in the
+> Higgsfield web UI** — there is no delete tool on this connection and it is never an
+> agent's call.
+>
+> **And this is the Lock Card's own lesson repeating: check the account, not the file.**
+> The paragraph below stayed confidently wrong for four days because nobody re-read
+> `list_voices`, which is free and takes one call.
+
+The account caps voice elements at three. ~~As of 15 Sep 2026 TWO are used and ONE
+SLOT IS FREE~~ — **SUPERSEDED, see the box above.** The user deleted
+`ChiChi-the-Influencer-Voice` `180fdb9a` after it measured 59 Hz off Chi, which is what
+freed the slot `b3d2fc9b` then took.
 
 When the cap IS full, `create_voice_from_confirmed_audio` refuses with "Voice limit
 reached — delete a voice to add a new one" and charges nothing. There is no
@@ -1854,8 +1901,29 @@ hundreds of credits each to discover.
 2. **The user listens and approves it.** Accent, identity, pacing. No render yet.
 3. **Keep the approved file.** It is the dialogue track for the episode, not a test.
 4. **Build the video around it**, one woman per generation, her reference attached.
-5. **If the render alters the voice, RESTORE THE APPROVED RECORDING** over the picture
-   and handle lip-sync as its own step. Do not re-shoot to chase a voice.
+5. **If the render alters the voice, RESTORE THE APPROVED RECORDING** over the picture.
+   Do not re-shoot to chase a voice.
+
+> ### ⛔ CORRECTED 19 Sep 2026 — STEP 5 USED TO SAY "handle lip-sync as its own step". THERE IS NO SUCH STEP.
+>
+> Audited against the live schemas: **no tool on this connection syncs a supplied audio
+> file to existing footage.** Three things look like they might and none of them does:
+>
+> | tool | what it actually does |
+> |---|---|
+> | `dubbing` | Translates, re-synthesizes and lip-syncs — but `target_language` is a REQUIRED enum of 18 codes. It is a translation tool. **It cannot take your file.** |
+> | `voice_change` | Swaps timbre, keeps the render's own timing and articulation. Not a sync |
+> | `audio_references` | Steers a generation. Does not play a file back |
+>
+> **So restoring an approved track means the mouths will not match it.** The mux itself
+> is free in `sandbox_exec`, and it works when the replaced line is close in length to
+> the original — §5a's Ep3 C5 revoice survived at 8ms drift. It does NOT work for a line
+> of a different length, and nothing here will re-time the lips.
+>
+> **This does not overturn audio-first.** Approving the speech for 0.1–0.5 credits before
+> spending 60–300 on a render is still the cheapest order of work. What it removes is the
+> safety net that sentence implied: **there is no repair step waiting at the end, so the
+> render has to come back close enough to splice.**
 
 ### ✅ PROVEN 17 Sep 2026 — TTS PRODUCES A BRITISH NIA. 0.5 CREDITS. job `91cb6ab8`
 
@@ -2557,6 +2625,43 @@ to say hold one resolution for the whole episode. See the superseded rule there.
   re-preflighted immediately before the submission it belongs to. This is §7's
   "a parameter you do not send is one the server picks for you" with the PRICE as the
   parameter — and the only defence is the same one: check, do not remember.
+- **✅ WHAT IS FREE, VERIFIED AGAINST `transactions` — 19 Sep 2026.** A whole read-only
+  audit ran with **zero** movement on the balance, and yesterday's element build charged
+  nothing either. These cost NOTHING and should be used without hesitation:
+  `media_upload` · `media_confirm` · `media_upload_widget` · `show_reference_elements`
+  **create** · `models_explore` · `list_voices` (including every `preview_url`) ·
+  every `get_cost` preflight · `job_display` · `jobs_wait` · `show_generation_by_ids` ·
+  `transactions` · `balance` · `sandbox_exec`.
+  **Building an element is free. Auditing a plate is free. Listening to a voice is free.**
+  Nothing in the plate-audit rule in §2 or the listen-first rule in §5a costs a credit,
+  so there is never a reason to skip one.
+
+- **⛔ `get_cost` IS MISSING ON SIX PAID TOOLS. Quote them as unknown, never estimate.**
+  Preflight EXISTS on `generate_image` · `generate_video` · `generate_audio` ·
+  `reframe` · `upscale_image`.
+  Preflight is ABSENT on **`upscale_video`** (says so in its own schema) ·
+  **`voice_change`** · **`dubbing`** · **`create_voice_from_confirmed_audio`** ·
+  **`show_reference_elements` create** · **and all three `*_batch` tools**, whose schemas
+  set `get_cost: {"not": {}}` — a batch cannot be priced at all, so price one item with
+  the single-shot tool first and multiply.
+
+- **RATES MEASURED 19 Sep 2026 — stamped, because §7's own rule is that a price has a
+  shelf life of minutes.** `seedance_2_5` 5s: **1080p = 60 (12 cr/s)** · **720p = 35
+  (7 cr/s)**. Aspect ratio does NOT change the price — 5s 1080p quotes 60 at both 16:9
+  and 9:16. `seed_audio` on a short line at `speech_rate: 50` = **0.1 credits**.
+  **`reframe` 5s 1080p = 48.**
+
+- **✅ `reframe` EXISTS AND THIS FILE HAD NEVER MENTIONED IT.** It re-canvases a finished
+  clip to `16:9` · `9:16` · `4:3` · `3:4` · `1:1` · `21:9`, takes the source as
+  `medias: [{role: "video"}]`, optionally 1–2 `image` references to guide the filled
+  edges and a `start_image` anchor, and **it has `get_cost`**. Over 15s of source it also
+  needs `duration_seconds` + `resolution`; the cap is 60s.
+  **⚠️ It OUTPAINTS — it invents the new edges.** Against a locked set that is §2's
+  invented-set-design failure arriving through a back door, so it is not automatically
+  the right answer. **A centre crop in `sandbox_exec` is FREE and invents nothing**; it
+  just costs frame width. Choose per shot, and never let either one re-roll approved
+  picture — neither does, which is the point.
+
 - **Preflight every cost** with `get_cost` before generating. State the number.
   Not everything has one — `create_voice_from_confirmed_audio` does not, and the
   clone came in at 40 credits against a 20–25 estimate for the whole job. When a
