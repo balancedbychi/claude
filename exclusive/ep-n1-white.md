@@ -2870,6 +2870,7 @@ it twice at 18s with only two speakers.
 | `94afd8b5` | 5s | **1** | `b3d2fc9b` | no | ✅ |
 | `51783a9e` | 18s | 2 | `12315c68` | **yes** | ✅ (bled onto Chi) |
 | **C5 `18225f06`** | **25s** | **3** | `12315c68` | **no** | **✅** |
+| **C5 v2 `21af609d`** | **22s** | **3** | `12315c68` | **no** | **awaiting her ear** |
 
 **⚠️ ONE CLIP. §7: an observation, not a finding.** But it is the row that breaks the
 length hypothesis outright — 25s beat 18s with no audio reference and one more body in
@@ -3058,3 +3059,82 @@ wardrobe column plus the stain, not one long take.
 **Pre-submission, in addition to the standing list:** the sequence diff (blocking order vs
 numbered script), and **the element audit — read every attached element's description back
 and name anything it asserts that this clip forbids.**
+
+---
+
+### ✅ C5 v2 SHOT AND DELIVERED — 19 Sep 2026, job `21af609d-1a4c-4c69-bc99-acff28b00da7`, **264 credits**
+
+Prompt `exclusive/prompts/n1-clip05-v2-DELIVERED-21af609d.txt`, 19,311 chars.
+`check-prompt.py` clean before submission and re-run clean on the delivered file.
+Charge confirmed in `transactions` as a single −264 line — **exactly the figure
+re-preflighted minutes before the submission**, no refund pair, no surprise.
+Balance after: **6,026.96**.
+
+**Params, diffed field by field against delivered C5 `18225f06` with `job_display`
+before sending.** `bitrate_mode: "high"` ✅ · no `quality` field ✅ · `resolution
+"1080p"` ✅ · `aspect_ratio "16:9"` ✅ · `generate_audio true` ✅ · no `start_image`,
+pure t2v ✅ · `declined_preset_id` sent pre-emptively so the preset gate could not
+swallow the submission. **`duration` 25 → 22 was the ONE intended change.**
+
+#### THE THING THIS CLIP WAS SHOT TO FIX, AND IT IS FIXED
+
+**All TEN lines rendered, in numerical order 1 → 10.** Line 8 — *"I'm having a lovely
+time. Those aren't the same thing."* — is present at **11.48–13.84s**. That is the line
+the delivered C5 dropped, for 225 credits, because its numbered script said 1–10 "IN
+THIS ORDER" while its blocking played 9 before 8.
+
+**The fault was invisible to a whole-prompt read and visible to a diff**, which is why
+`check-prompt.py`'s sequence check now runs on every prompt (§8, and §2b item 9). The
+checker reproduces the fault on the delivered C5 file and passes this one.
+
+| | delivered C5 `18225f06` | **C5 v2 `21af609d`** |
+|---|---|---|
+| duration | 25.05s | **22.05s** |
+| lines rendered | **9 of 10 — line 8 lost** | **10 of 10, in order** |
+| bitrate | 10.62 Mbps | **11.46 Mbps** |
+| sharpness, same room, 14 frames | median **18.2** (p25 17.3, p75 20.3) | median **26.1** (p25 23.0, p75 29.7) |
+
+**The sharpness bands do not overlap** (v1 p75 20.3 < v2 p25 23.0). ⚠️ Recorded as §7
+requires: this is a **tripwire between two takes in ONE room**, moved in the good
+direction. **It is not a quality score and it does not rank the two clips** — §7's own
+history is an agent nearly throwing away the best clip of the episode on exactly this
+number.
+
+#### THE REST OF THE MEASUREMENT PASS
+
+| check | result |
+|---|---|
+| container | 22.05s · 1920x1080 · 24fps · audio 32 kHz stereo |
+| words | 49 transcribed of 50 scripted. The absent one is the **leading "I" of line 1, which sits on frame zero** — the transcript opens "Think you should leave" at t=0.00. An edge effect, not a dropped word |
+| **cuts** | **TWO**, at **11.62s** (20.4x mean frame-difference) and **19.38s** (19.2x). Three were asked for; three shots came back instead of four |
+| **the pour is unbroken** | **nothing at or above 4x mean anywhere between 11.62 and 19.38.** The pour runs 16.26 → ~19.3 inside one continuous shot, which was the clip's single hardest structural constraint |
+| where the cuts fell | 11.62 lands 0.14s into Simone's line 8 — i.e. **on the first syllable of the incoming line**, which is §4's ideal even though the prompt asked for action-anchoring. 19.38 lands on the bottle going back down, after the pour, not inside it |
+| bottle-down transient | 19.3–19.6s, **centroid 824.8 Hz over 0.30s** against a 1659.8 Hz control. §7: low and short is an OBJECT. Not music |
+| **music swell** | **none.** Tail after line 10 falls to −40.6 then −35.8 dBFS |
+| pour window | **16.26 → 20.98 = 4.72s wordless**, declared silence, the payload of the clip |
+| density | 50 words / 22.05s = **2.27 w/s** against §6's ~2.1 sanity check. Speaking rate 3.67 w/s against the ~3.4 measured in renders. 61.8% articulation |
+
+#### ⚠️ f0 CANNOT ATTRIBUTE THE LINES IN THIS CLIP, AND THE FIRST PASS OF IT WAS UNSAFE
+
+The first f0 run sliced lines 1–5 and 7–9 out of two multi-line Whisper **segments by
+eyeball**, and three of the numbers came back nonsensical. Re-run on **measured word
+boundaries** the nonsense mostly went away — which means the odd numbers were the
+slicing, not the voices. **Estimating a boundary and then measuring inside it is not a
+measurement.**
+
+Even correctly sliced, it does not separate them. Simone's four usable lines read
+**172.0 · 209.2 · 155.3 · 205.1 Hz** — a 54 Hz range **across her own lines**, wider
+than the 9.4 Hz gap to Nia's pooled 198.0. Only four of ten lines clear §7's ~1.0s
+trustworthy floor at all.
+
+**So no attribution claim is made from pitch here, in either direction.** §7 is
+explicit that whose mouth moves is a VISUAL fact that cannot be read off a spectrum,
+and §5a records roughly 110 credits spent chasing this exact number. The transcript
+proves the **words** landed in order; **whose mouth said them is the user's eyes.**
+
+#### OPEN — ONLY THE USER CAN SETTLE THESE
+
+1. **Is Simone's coat gone?** `12a23175` detached, `452a4f12` attached with no garment
+   list in the prompt at all.
+2. **Does the pour read as sudden and a surprise**, with Nia's reaction arriving late?
+3. **Did Nia's British accent survive** a second long three-hander?

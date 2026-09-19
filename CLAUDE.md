@@ -2563,6 +2563,26 @@ to say hold one resolution for the whole episode. See the superseded rule there.
       invisible by construction. **Measure every line separately, then cluster
       the lines and see which speaker each one lands on.** Never average lines
       together on the assumption the script was obeyed.
+    - **⛔ AND A LINE BOUNDARY YOU ESTIMATED IS NOT A MEASUREMENT. ASK WHISPER FOR
+      WORD TIMESTAMPS FIRST. N1 C5 v2, 19 Sep 2026.** The rule above says measure
+      every line separately — so an agent did, by eyeballing five line boundaries
+      out of ONE 5.48s Whisper SEGMENT and measuring inside the guesses. Three of
+      the ten numbers came back nonsensical. Re-run on real per-word boundaries the
+      nonsense mostly vanished: **the odd readings were the slicing, not the
+      voices.** `word_timestamps=True` gives every word its own start and end for
+      free, and segment boundaries are not line boundaries — a segment can hold
+      five lines and two speakers. **Cut on measured word edges or do not cut.**
+      Had the first pass been believed, it would have flagged a voice fault that
+      was never there, which is §7's revert rule waiting to happen.
+    - **⚠️ AND f0 SOMETIMES SEPARATES NOBODY — SAY SO INSTEAD OF QUOTING A GAP.**
+      In that same clip, correctly sliced, Simone's four usable lines read
+      **172.0 · 209.2 · 155.3 · 205.1 Hz** — a **54 Hz range across her own
+      lines**, against a **9.4 Hz** gap to the other woman's pooled median. Six of
+      the ten lines were under §7's ~1.0s floor and unusable outright. **When one
+      speaker's own scatter is wider than the distance between the speakers, the
+      measurement has no resolving power and a separation figure from it is
+      noise.** Check the within-speaker spread BEFORE reporting a between-speaker
+      gap, and when it fails, report the failure — do not report the gap.
     - **A measurement window that spans a quiet passage AND a transient reports
       neither.** Episode 2 Clip 6's tail was nearly written up as a third music
       swell: averaging 21.5-24.0s as one window caught the door slam inside it and
