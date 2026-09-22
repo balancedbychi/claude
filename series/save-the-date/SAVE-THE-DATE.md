@@ -6,75 +6,104 @@
 
 ## Series bible
 
-**Logline.** Five weeks before her flawless wedding, Chi is trying to keep her messy little-sister-figure Nia from wrecking her life over a lying man. Problem one: the lying man is family. Problem two: Chi's own secret makes Nia look like a saint.
+**Logline.** Five weeks before her flawless wedding, Chi is trying to keep her messy little-sister-figure Nia from wrecking her life over a lying man. Problem one: the lying man is family. Problem two: Chi's own man is a bigger liar than Nia's, and Chi is the last person in that family to find out.
 
 **Format.** Ten episodes, 60 to 90 seconds each, vertical 9:16. Every episode opens on a countdown card and ends on a hard cut to black. No recaps. Each episode picks up on the exact frame the last one cut.
 
-**Tone.** Loud, fast, petty, and secretly heartfelt. Reality-confessional energy inside a soap plot. Slaps land, glasses shatter, and nobody learns a thing until it is far too late.
+**Tone.** Loud, fast, petty, and secretly heartfelt. Reality-confessional energy inside a soap plot. Three slaps in the whole season, each one earned. Everything else is phones, doorbell cameras, location dots, wrong group chats, and two women who cannot stop making things worse.
 
 ### Cast
 
 | Character | Age | Who they are |
 |---|---|---|
 | **NIA** | 24 | Nail tech. Big heart, zero impulse control, believes every apology. Her love language is "he said he was sorry." Always making mistakes, always narrating them. |
-| **CHI** | 30 | Marketing director. Immaculate, controlled, engaged to Derek. Everybody's big sister, nobody's confessor. Has been sleeping with her fiancé's brother since before the proposal. |
+| **CHI** | 30 | Marketing director. Immaculate, controlled, engaged to Derek. Everybody's big sister, nobody's confessor. Would rather pay a bill than ask a question. |
 | **MARCUS** | 28 | Nia's man. Derek's cousin. Talks like honey, lies like breathing. Has a girlfriend of three years. Nia is not that girlfriend. |
 | **SIMONE** | 27 | Marcus's girlfriend. Gorgeous, sharp, suspicious, and about to become Nia's new best friend. She doesn't know. Yet. |
-| **DEREK** | 32 | Chi's fiancé. Steady, kind, loyal to a fault, especially to family. Keeping two secrets of his own. |
-| **JALEN** | 28 | Derek's younger brother and best man. Chi's secret. Reckless, in love, and done pretending. |
-| **MS. PATRICE** | 60 | Derek and Jalen's mother. Thinks Chi is "too polished to be honest." She's right. Protects her sons like a lioness with a lawyer. |
+| **DEREK** | 32 | Chi's fiancé. "Senior project manager at Meridian Logistics." Closing on a house. Bonus clearing any day now. None of it is true. |
+| **JALEN** | 28 | Derek's younger brother and best man. Knows everything. Torn between blood and the truth. His secret meetings with Chi look exactly like an affair, and Derek will use that. |
+| **MS. PATRICE** | 60 | Derek and Jalen's mother. Cold to Chi from day one. Chi reads it as hate. It's guilt. |
+| **KIARA** | 31 | Atlanta. A six-year-old daughter with Derek's dimples. Has been waiting six years for somebody to ask the right question. |
 
 ### The two engines
 
-- **Nia's story is a farce.** She catches Marcus two-timing her, slaps him, dumps him, and is back in his bed a week later as the side chick. Then his girlfriend walks into her salon, adores her, and recruits her to help hunt down "the other woman." Nia nearly gets caught in a closet, a fitting room, a fire escape, a photo booth, a rehearsal dinner, and a bridal suite.
-- **Chi's story is a slow burn.** The put-together one has been sleeping with her fiancé's brother since before the ring. His mother knows. Then the pregnancy test comes back positive. Then the groom turns out to have a secret that turns the baby's paternity into simple math.
+- **Nia's story is a farce.** She catches Marcus two-timing her, slaps him, dumps him, and is back in his bed a week later as the side chick. Then his girlfriend walks into her salon, adores her, and recruits her to help hunt down "the other woman." Nia nearly gets caught by a closet door, a Ring doorbell, a lock screen, a location dot, a fire escape, a photo booth, a phone call, and finally a Live Photo.
+- **Chi's story is a slow-burn mystery.** The put-together one has been paying for a wedding to a man whose job, house, and bank statements don't exist. She finds the lies one at a time, tells no one, and makes it worse at every step: she pays the deposit, she sends "love you too," she builds a fake Instagram to test him, she apologizes to him when he flips it on her. Then she finds the wife. And instead of walking, she puts on the dress.
 
 ### Rules of the show
 
-1. Every episode has one Nia mistake, one Chi lie, at least one near-miss, and one cliffhanger.
-2. Chi lectures Nia about self-respect only in episodes where Chi is actively lying to someone.
+1. Every episode has one Nia mistake, one Chi cover-up, at least one near-miss, and one cliffhanger.
+2. Chi lectures Nia about self-respect only in episodes where Chi is actively hiding something.
 3. Simone is never stupid. She is always one clue away. It is Nia's luck that runs out, not Simone's brain.
-4. Countdown card on every cold open. Hard cut to black on every ending. No fades, ever.
+4. Derek never raises his voice. Every time Chi gets close, he turns it into a question about her.
+5. Countdown card on every cold open. Hard cut to black on every ending. Cut on the question, never the answer.
 
 ### Cliffhanger chain
 
 | Ep | Title | Cuts to black on |
 |---|---|---|
 | 1 | Work Thing | Marcus walks into the engagement party with Simone. He is Derek's cousin. |
-| 2 | Thirty Seconds | Nia turns the lock for Marcus. Derek asks Chi who is texting her at 3 a.m. |
-| 3 | Closet Space | Simone's hand turns the closet handle. Nia is inside. |
-| 4 | Full Set | Marcus walks into the salon. "Wait. Y'all know each other?" |
-| 5 | Something Borrowed | Simone sets the Friday trap. Chi buys a pregnancy test. |
-| 6 | Friday Night | Simone finds Nia's press-on nail on the fire escape. Jalen walks into the bathroom where Chi just hid the test. |
-| 7 | Bachelorette | Simone reaches for the photo booth curtain. Nia is inside. |
-| 8 | Rehearsal | Patrice slaps Chi. Chi says "I'm pregnant." Derek goes cold. Jalen drops his glass. |
-| 9 | Something Blue | Simone has Nia's phone and nine texts from Marcus. Jalen swears he will object. The organ starts. |
-| 10 | Speak Now | Two objections, a cake fight, a fainting bride. Simone: "I'm keeping the baby." Derek: "I can't have kids." Jalen heard. |
+| 2 | Thirty Seconds | Derek's phone at 3 a.m.: "Kiara." Nia turns the lock for Marcus. |
+| 3 | Closet Space | Derek is laughing into a phone with a dark screen. Simone's hand turns the closet handle. |
+| 4 | Full Set | Derek's office is a dentist. Marcus walks into the salon. "Y'all know each other?" |
+| 5 | Something Borrowed | Simone sets the Friday trap. Chi's fake page catches the wrong man. |
+| 6 | Friday Night | Simone finds Nia's nail on the fire escape and "Kiki" in Marcus's phone. Kiki gets a DM from Simone. |
+| 7 | Bachelorette | Jalen: "Her name is Kiara. There's a little girl." Simone reaches for the photo booth curtain. |
+| 8 | Rehearsal | The pre-approval letter is a free template. Kiara: "I've been waiting six years for somebody to text me that." |
+| 9 | Something Blue | Chi invites the wife to the wedding. Simone has Nia's phone. "Speak now." Chi: "Actually, I do." |
+| 10 | Speak Now | The wife stands. Patrice slaps her son. The Live Photo. The cake. Nia gets in the car. "$41,200 withdrawn." "I'm keeping the baby." |
 
 ### Slap tracker
 
-| Ep | Who | Whom | Why |
+Three, total. Each one is a turn, not a punctuation mark.
+
+| Ep | Who | Whom | Why it's earned |
 |---|---|---|---|
-| 1 | Chi | Jalen | "We said never again." Then she kisses him. |
-| 2 | Nia | Marcus | Three years, Marcus? |
-| 6 | Simone | Marcus | Two wine glasses. One lipstick print. |
-| 7 | Nia | Marcus | He proposed to Simone in front of her face. |
-| 8 | Patrice | Chi | "Don't you lie to me at my son's rehearsal dinner." |
-| 9 | Chi | Derek | He knew about Marcus and Nia for four months. |
-| 10 | Simone | Nia | Nine texts. Read aloud. In a chapel. |
-| 10 | Simone | Marcus | "It's OFF. All of it." |
-| 10 | Derek | Jalen (punch) | "Tell me she's lying." He can't. |
+| 2 | Nia | Marcus | The catalyst. The only time she ever hits him. She'll wish she'd saved it. |
+| 10 | Patrice | Derek | A mother, not a mother-in-law. She told him to tell the truth. He didn't. |
+| 10 | Simone | Nia | Nine texts and a Live Photo, read aloud, in a chapel. |
+
+### Chaos tracker
+
+What replaced the other six slaps.
+
+| Ep | Beats |
+|---|---|
+| 1 | A shattered glass. A declined card that Chi quietly covers. |
+| 2 | 27 missed calls. Roses in the rain. A lock that turns. |
+| 3 | Derek on a "call" with a dark screen. A heel sticking out of a closet. |
+| 4 | Ring doorbell footage. A rhinestone hoodie that says SIMONE. "Third floor's a dentist." |
+| 5 | A lock-screen text with a water emoji. Location sharing "for safety." A fake Instagram page. |
+| 6 | A phone left at home to fool a location dot. A PlayStation thrown off a fire escape. A confrontation Derek flips into an apology from Chi. |
+| 7 | Chi catfishing Simone. Nia blocking Marcus to his face. A photo booth. |
+| 8 | An unsent text in the bridesmaids' chat. A phone call to "NAILS." A clutch dumped on a dessert table. A pre-approval letter reverse-image-searched. |
+| 9 | "Sit in the back row. Wear something nice." A Live Photo. A bride objecting to her own wedding. |
+| 10 | A ring dropped in a breast pocket. A ring pushed into a cake. An updo. A bank alert. A bride running barefoot after a car. |
+
+### Influences
+
+What this draft pulls from, and where it shows up.
+
+- **"Who TF Did I Marry?" (Reesa Teesa, TikTok, 2024).** A 50-part series about a husband she calls "Legion": a fake VP job, bank statements and a pre-approval letter screenshotted from Google Images, house deals that could never close, faked phone calls with family and coworkers, and a daughter he said had died who was alive. Derek's whole architecture comes from here: the dentist on the third floor (Ep 4), the dark-screen phone call (Ep 3), the free-template pre-approval letter (Ep 8), and the family that knew. Sources: [Rolling Stone](https://www.rollingstone.com/culture/culture-news/who-tf-did-i-marry-tiktok-storytime-summary-1234855940/), [The Inquirer](https://www.inquirer.com/news/nation-world/reesa-teesa-tiktok-who-tf-did-i-marry-explained-20240221.html), [Capital FM](https://www.capitalfm.com/internet/tiktok-who-tf-did-i-marry-summary-reesa-teesa/), [Time](https://time.com/6837080/reesa-teesa-who-tf-did-i-marry-tiktok-update/).
+- **ReelShort and DramaBox vertical dramas.** The working structure for a 60 to 90 second episode: hook in the first three to five seconds (the "explosion point"), filmable friction through the middle, the turn around sixty percent, and the cliffhanger written first, then the episode built backwards to it. Cut on the question, not the answer. Every episode here was written button-first. Sources: [Filmustage](https://filmustage.com/blog/how-to-write-a-vertical-drama-script/), [ScreenWeaver](https://www.screenweaver.ai/blog/short-drama-episode-structure), [Real Reel](https://www.real-reel.com/vertical-drama-script-guide-film-tv-creators/), [Character App](https://www.character.app/blog/vertical-drama-script-template).
+- **Duanju (Chinese short drama) tropes.** The "face-slapping" scene is really a public humiliation of the villain and triumph of the heroine; the slap is optional. Also the mother-in-law versus daughter-in-law war, the mistress, and the misunderstanding. Chi's altar takedown (Ep 10) is a face-slap scene with no slap in it, and Patrice's arc inverts the mother-in-law trope: the woman Chi thinks hates her is the one carrying the guilt. Sources: [The World of Chinese](https://www.theworldofchinese.com/2025/09/welcome-to-the-micro-drama-nation-china/), [Wikipedia: Duanju](https://en.wikipedia.org/wiki/Duanju).
+- **"On the Wedding Day" (ReelShort).** A bride gets a text on her wedding morning that her husband is cheating, hunts the "mistress," and finds out it's her future mother-in-law. The wedding-day misdirect is the model for the Jalen red herring: his secret meetings with Chi look like an affair, and Derek weaponizes that. Sources: [ReelShort](https://www.reelshort.com/full-episodes/on-the-wedding-day-6705038e2c0f3f197a092eeb/5), [GoodShort](https://www.goodshort.com/drama/from-mother-in-law-to-mistress-a-wedding-day-misunderstanding-31000832570).
+- **"Side Chick" (Ashley McArthur Productions, Atlanta web series, 2016).** Lynn is deceived into dating engaged James; the show runs on double-booked nights where both women think they have him. Nia is deceived first and complicit second, and Ep 3's "she came home early" is the double-booking. Sources: [Backstage](https://www.backstage.com/casting/side-chick-111980/), [Prime Video](https://www.amazon.com/Side-Chick/dp/B0G4JLDQR2).
+- **"Being Mary Jane" (BET).** Andre slips up and reveals he's still sleeping with his wife. Marcus's "it might've been a Live Photo" (Ep 9) is that slip. Source: [Wikipedia](https://en.wikipedia.org/wiki/Being_Mary_Jane).
+- **"Insecure" (HBO), season four.** Molly accidentally sends a shady text about Issa to Issa and the friendship cracks. Nia's "come over" text landing in the bridesmaids' chat (Ep 8) and the Nia-versus-Chi fight over the fake page (Ep 6) come from that. Sources: [Essence](https://www.essence.com/entertainment/issa-rae-molly-insecure/), [Refinery29](https://www.refinery29.com/en-us/2020/06/9864411/hbo-insecure-issa-molly-friendship-love-story).
+- **Real caught-cheating stories.** Ring doorbell footage of a husband's visitor, 5.3 million views ([Newsweek](https://www.newsweek.com/woman-says-doorbell-camera-helped-her-catch-cheating-husband-video-viewed-5m-times-1661794)). Find My and Life360 as relationship surveillance, with #findmyfriends at 38.6 million views ([Bustle](https://www.bustle.com/entertainment/location-sharing-find-my-friends-relationship-problems)). A Live Photo of an "empty" hotel bed that showed another woman jumping into frame, 6.5 million views ([iHeart](https://thekat.iheart.com/featured/steve-gina-in-the-morning/content/2021-05-12-woman-caught-boyfriend-cheating-when-he-sent-video-instead-of-photo/), [Fox News](https://www.foxnews.com/lifestyle/woman-caught-boyfriend-cheating-accidentally-sent-video-instead-photo.amp)). The fake-Instagram "loyalty test" trend, including the twist where the wrong man bites ([TikTok](https://www.tiktok.com/discover/testing-my-boyfriend-with-a-fake-account)). Wrong-group-chat horror stories ([Refinery29](https://www.refinery29.com/en-gb/group-chat-text-drama)). These are Ep 4's Ring cam, Ep 5 and 6's location dot, Ep 9 and 10's Live Photo, Ep 5 to 7's "Kiki," and Ep 8's unsend.
+- **"To Catch a Cheater" (YouTube, 3 million subscribers).** The staged loyalty test as a format. Chi's Kiki page is one of these, and it catches the wrong man. Source: [Wikipedia](https://en.wikipedia.org/wiki/To_Catch_a_Cheater).
 
 ---
 
 ## EPISODE 1 — "Work Thing"
 
 **CARD: 5 WEEKS TO THE WEDDING**
-*Runtime target: 75 seconds*
+*Runtime target: 80 seconds*
 
 **INT. ROOFTOP LOUNGE — NIGHT**
 
-Engagement party. Gold balloons, a skyline, a hundred people. CHI, radiant in white, is air-kissing guests when NIA rushes in, forty minutes late, glowing.
+Engagement party. Gold balloons, a skyline, a hundred guests. CHI, radiant in white, is air-kissing her way through the room when NIA rushes in forty minutes late, glowing.
 
 **NIA:** I know. I KNOW. Don't look at me like that.
 
@@ -98,41 +127,33 @@ DEREK slides in, arm around Chi.
 
 **NIA:** SO small.
 
-Chi clocks it. Files it. Derek taps a glass.
+A VENUE COORDINATOR touches Chi's elbow. Low.
 
-**DEREK:** To my future wife. Who has never once lied to me.
+**COORDINATOR:** The second deposit didn't go through. Card declined.
+
+**CHI:** That's Derek's card.
+
+**DEREK:** Fraud alert, babe. Bank's being weird. I'll call Monday.
+
+Chi hands over her own card without a word. Across the room, MS. PATRICE watches her do it. Says nothing. Derek taps a glass.
+
+**DEREK:** To my future wife. Who I have never once lied to.
 
 **CHI (smiling):** Never.
 
-**INT. LOUNGE — PANTRY — CONTINUOUS**
+JALEN, the best man, clinks her glass. Quiet. For her only.
 
-Chi slips in for champagne. JALEN follows and shuts the door.
+**JALEN:** Ask him about Atlanta.
 
-**JALEN:** You're marrying the wrong brother.
+**CHI:** What?
 
-**CHI:** We said never again.
-
-**JALEN:** You said it. I just nodded.
-
-He steps in. She SLAPS him. He doesn't move.
-
-**JALEN:** Feel better?
-
-She grabs his collar and kisses him. Hard.
-
-**DEREK (O.S.):** Chi? Babe? Where'd you go?
-
-They fly apart. Chi wipes her mouth, smooths her dress, and walks out holding a bottle like nothing happened.
-
-**INT. LOUNGE — MAIN ROOM — CONTINUOUS**
+**JALEN:** Nothing. Congratulations.
 
 **DEREK (at the door):** And my cousin FINALLY made it. Marcus and Simone, three years strong. Y'all are next!
 
 MARCUS walks in. Arm around SIMONE. Stunning. Laughing.
 
-Nia's glass slips from her hand. It SHATTERS.
-
-Marcus looks up. Sees Nia. His smile dies.
+Nia's glass slips from her hand. It SHATTERS. Marcus looks up. Sees Nia. His smile dies.
 
 **NIA (whisper):** ...Work thing?
 
@@ -147,7 +168,7 @@ Marcus looks up. Sees Nia. His smile dies.
 
 **INT. LOUNGE — ELEVATOR BANK — CONTINUOUS**
 
-Nia has Marcus cornered. Across the room, Simone is hugging MS. PATRICE.
+Nia has Marcus cornered. Across the room, Simone hugs Patrice.
 
 **MARCUS:** Baby, let me explain.
 
@@ -161,7 +182,7 @@ Nia has Marcus cornered. Across the room, Simone is hugging MS. PATRICE.
 
 **NIA:** I KNOW THAT NOW, MARCUS.
 
-SLAP. His head snaps sideways.
+SLAP. His head snaps sideways. The only one she will ever give him. She'll wish she'd saved it.
 
 **NIA:** Lose my number.
 
@@ -181,37 +202,39 @@ Nia sobbing into Chi's shoulder.
 
 **CHI:** Not if I have anything to say about it.
 
-**NIA:** Why is your hand shaking?
-
-**CHI:** Champagne.
-
-Chi's phone lights up. JALEN: "We need to talk about what just happened." She deletes it.
-
 Patrice enters. Fixes her lipstick in the mirror. Meets Chi's eyes in the glass.
 
-**PATRICE:** Interesting place to keep the champagne, Chi. The pantry.
+**PATRICE:** Whatever my son tells you about money, get it in writing.
 
-**CHI:** It was chilling.
+**CHI:** Excuse me?
 
-**PATRICE:** Mm. Something was.
+**PATRICE:** Congratulations, sweetheart.
+
+She's gone. Nia, wet-faced, looks up.
+
+**NIA:** What was THAT?
+
+**CHI:** Patrice.
 
 **INT. CHI'S BEDROOM — 3 A.M.**
 
-Chi awake, staring at the ceiling. Derek asleep beside her. Her phone glows. JALEN: "I'm not pretending it didn't happen. Not this time."
+Chi awake. Derek asleep. HIS phone lights up on the nightstand. She glances.
 
-**DEREK (half asleep):** Who's texting you at three in the morning?
+**KIARA: "She asked about you again tonight. What do I tell her?"**
 
-**CHI:** Nia. She's spiraling.
+Chi stares. Derek stirs, grabs the phone, turns it face-down.
 
-**DEREK:** Mm. Tell her I'll handle Marcus.
+**DEREK (half asleep):** Work.
 
-Chi stares at him. Handle him how?
+**CHI:** At three in the morning?
 
-KNOCKING. From the front door.
+**DEREK:** Logistics never sleeps, babe.
+
+He's snoring in seconds. Chi is not. KNOCKING from the front door.
 
 **INT. APARTMENT — FRONT HALL — CONTINUOUS**
 
-Nia at the door in a T-shirt. Phone in hand: 27 MISSED CALLS. Through the peephole: Marcus in the rain. Roses.
+Nia at the door in a T-shirt. 27 MISSED CALLS. Through the peephole: Marcus in the rain. Roses.
 
 **MARCUS (through the door):** I told her. It's done. Please, Nia.
 
@@ -236,7 +259,7 @@ The lock turns.
 
 **INT. CAKE TASTING ROOM — DAY**
 
-Chi, Derek and Patrice at a table crowded with cake samples.
+Chi, Derek, Patrice and Jalen at a table crowded with cake samples.
 
 **CHI:** And Nia is DONE with him. Blocked him. I watched her do it.
 
@@ -274,37 +297,35 @@ Simone walks in. Tosses her bag. Kicks off her shoes.
 
 **INT. CLOSET — CONTINUOUS**
 
-Nia in the dark, in her bra, holding her breath. Her phone lights up in her hand. CHI: "Proud of you for staying strong 💛"
+Nia in the dark, in her bra, holding her breath. Her phone lights up. CHI: "Proud of you for staying strong 💛"
 
 She presses it face-down against her chest.
 
 **INT. CAKE TASTING ROOM — SAME**
 
-**PATRICE:** Jalen's been SO moody. Girl trouble, I think.
+Derek's phone rings. He steps outside, laughing into it. Through the window: pacing, animated, charming.
 
-Chi chokes on red velvet.
+**PATRICE:** That'll be work. It's always work.
 
-**PATRICE:** Wrong pipe? Happens when you eat too fast. Or hide things. (to Chi) And when do I get grandbabies?
+Jalen leans to Chi. Low.
 
-**DEREK (too fast):** Mom.
+**JALEN:** Look at his screen.
 
-**CHI:** Soon.
+Chi looks. The phone pressed to Derek's ear is BLACK. No call. He is laughing at nobody.
 
-Derek looks very hard at his cake. Chi excuses herself.
+**CHI:** ...Why would he—
 
-**EXT. CAKE SHOP — CONTINUOUS**
+**JALEN:** Ask him about Atlanta.
 
-JALEN leans against his mother's car.
+**CHI:** You keep saying that.
 
-**JALEN:** You've been ducking me for a week.
+**JALEN:** You keep not asking.
 
-**CHI:** I'm getting MARRIED, Jalen.
+Derek comes back in, tucking the phone away.
 
-**JALEN:** Meet me tonight. Or I tell him at the rehearsal dinner.
+**DEREK:** Vendor drama. Where were we?
 
-**CHI:** You'd lose your brother.
-
-**JALEN:** I'd rather lose him than watch you marry him.
+**CHI (a beat too long):** Red velvet.
 
 **INT. MARCUS & SIMONE'S BEDROOM — CONTINUOUS**
 
@@ -335,39 +356,31 @@ The door cracks open. Simone's arm reaches in. She's on her phone. Not looking.
 
 **SIMONE (into phone):** Mama, take the medicine, I'm not asking again.
 
-Her hand pats past Nia's face. Grabs the robe. The door shuts.
-
-Nia exhales like she's been underwater.
+Her hand pats past Nia's face. Grabs the robe. The door shuts. Nia exhales like she's been underwater.
 
 The SHOWER starts. Marcus rips the closet open and shoves a hoodie at her.
 
 **MARCUS:** Go go go go go.
 
-**INT. STAIRWELL — CONTINUOUS**
+**EXT. APARTMENT BUILDING — FRONT DOOR — 3:12 A.M.**
 
-Nia flying down the stairs, shoes in hand, hoodie on. She stops. Looks down. Pink. Rhinestones across the chest: S I M O N E.
+Nia bursts out, shoes in hand, hood up. Above the door, a RING DOORBELL blinks blue. She looks down at the hoodie. Pink. Rhinestones across the chest: S I M O N E.
 
 **NIA:** ...Great.
 
-**INT. HOTEL — ROOM 412 — NIGHT**
+**INT. OFFICE LOBBY — DOWNTOWN — DAY**
 
-Chi sits on the edge of a made bed. Coat still on. Jalen at the window.
+Chi in heels, holding two takeout bags. A RECEPTIONIST scrolls a directory.
 
-**CHI:** I came to say it's over. So. It's over.
+**RECEPTIONIST:** I don't have a Derek Cole. What company?
 
-**JALEN:** You've said that six times in six months.
+**CHI:** Meridian Logistics. Third floor. Senior project manager.
 
-**CHI:** This time I mean it.
+**RECEPTIONIST:** Third floor's a dentist, ma'am.
 
-**JALEN:** Then why are you still sitting there?
+Chi stares at the building directory. Her phone buzzes. DEREK: "Crazy day at the office, babe. Love you."
 
-She doesn't answer. He crosses to her. Her ring hand goes flat against his chest to stop him.
-
-It doesn't stop him.
-
-**INT. HOTEL BATHROOM — LATER**
-
-Chi at the sink. Her ring sits on the counter. Her phone buzzes. DEREK: "Where are you? Mom showed up. She's asking where you are. Like, specifically."
+She types: "Which office?" Deletes it. Types: "Love you too." Sends.
 
 **INT. NAIL SALON — THE NEXT DAY**
 
@@ -377,27 +390,25 @@ Nia at her station. The door chimes. SIMONE walks in.
 
 **NIA:** I only do one of those.
 
-**SIMONE (sitting):** Then talk to me while you do it.
+Simone sits. Holds up her phone. Doorbell footage: a hooded figure fleeing at 3:12 a.m.
+
+**SIMONE:** Somebody leaving MY building at three in the morning in MY hoodie.
+
+**NIA:** Could be anybody.
+
+**SIMONE:** In my HOODIE?
+
+**NIA:** ...It's a popular hoodie.
+
+**SIMONE:** Can't see her face. But I'd know that walk anywhere. I'm not crazy. I'm observant.
 
 Nia takes her hand. Steady. Somehow.
 
-**SIMONE:** I think my man is cheating. The bed was warm. And there was a SMELL. Vanilla. Cheap vanilla.
-
-**NIA:** That's crazy.
-
-**SIMONE:** You smell good. What is that?
-
-**NIA:** ...Coconut.
-
-**SIMONE:** And my favorite hoodie is GONE. I'm not crazy. I'm observant.
-
-**NIA:** You're not crazy.
-
 **SIMONE:** Give me your number. I need a girl who'll be honest with me.
 
-Nia types her number into Simone's phone. Every digit hurts.
+Nia types it in. Every digit hurts.
 
-**SIMONE:** Oh! And Chi asked me to be a bridesmaid. Miss Patrice insisted. So we're about to be REAL close. (beat) Marcus is parking, he's picking me up—
+**SIMONE:** Oh! Chi asked me to be a bridesmaid. Miss Patrice insisted. So we're about to be REAL close. (beat) Marcus is parking, he's picking me up—
 
 The door chimes. Marcus walks in. Sees Nia holding Simone's hand. Stops dead.
 
@@ -406,8 +417,6 @@ The door chimes. Marcus walks in. Sees Nia holding Simone's hand. Stops dead.
 **MARCUS:** ...Hey. Nia.
 
 **NIA:** Hey.
-
-Simone looks from one to the other.
 
 **SIMONE:** Wait. Y'all know each other?
 
@@ -426,8 +435,6 @@ Simone looks from one to the other.
 
 **MARCUS:** She was.
 
-**NIA:** I wasn't.
-
 **SIMONE (laughing):** Marcus. Apologize to my nail tech.
 
 **MARCUS:** ...Sorry, Nia.
@@ -440,45 +447,37 @@ She bears down on the file. Simone winces.
 
 Simone and Nia share a fitting room. Simone in shapewear, back to Nia.
 
-**SIMONE:** Zip me. You're my favorite person right now. Look what I got us.
+**SIMONE:** Zip me. You're my favorite person right now. Two things. One—
 
 Two identical phone cases. Pink. Glitter.
 
-**SIMONE:** Twins!
+**SIMONE:** Twins. Two: share your location with me. I share with all my girls. For safety.
 
-**NIA:** You didn't have to—
+**NIA:** ...Safety.
 
-**SIMONE:** Already did. Put it on.
-
-Nia puts it on. Mistake.
+Nia snaps on the case. Taps SHARE INDEFINITELY. Two mistakes in one breath.
 
 **INT. BOUTIQUE — MAIN FLOOR — SAME**
 
 Chi on the pedestal in her gown. Patrice circles her like a shark.
 
-**PATRICE:** I saw Jalen's car at the Marriott Thursday night.
+**PATRICE:** Who's paying for this dress?
 
-**CHI:** Okay?
+**CHI:** We are.
 
-**PATRICE:** And I saw yours.
+**PATRICE:** Mm. Who's "we"?
 
-**CHI:** I had a client meeting.
+**CHI:** Patrice, if you have something to say—
 
-**PATRICE:** In room 412?
+**PATRICE:** I have a son to protect. And a granddaughter.
 
-**CHI:** You FOLLOWED me?
+Beat. Patrice hears herself.
 
-**PATRICE:** I protect my sons. (leaning in) Call it off. Tell Derek you got cold feet. Or I tell him what you're really made of.
+**CHI:** A what?
 
-**CHI:** You're bluffing. You'd burn Jalen too.
+**PATRICE:** Goddaughter. Simone's niece. (to the seamstress) Cinch her. She's slouching.
 
-**PATRICE:** Try me, sweetheart.
-
-The seamstress cinches the corset. Chi sways. Grabs the mirror.
-
-**NIA (from the fitting room door):** Chi? You good?
-
-**CHI:** It's the corset.
+The corset cinches. Chi grabs the mirror.
 
 **INT. FITTING ROOM — CONTINUOUS**
 
@@ -498,17 +497,15 @@ Beat.
 
 Simone stares at her for a long, long time. Then laughs.
 
-**SIMONE:** Girl, you are so weird. (hands it back) Tell your plumber I said hi.
+**SIMONE:** Girl, you are so weird. Tell your plumber I said hi.
 
-She turns back to the mirror. In the reflection, her smile drops.
+She turns to the mirror. In the reflection, her smile drops.
 
 **INT. BOUTIQUE — RESTROOM — LATER**
 
-Chi locks the door. Pulls a pharmacy bag from her purse. A pregnancy test.
+Chi, locked in, builds an Instagram page with shaking hands. Name: KIKI. Photo: a stranger's sunset selfie. Bio: "just moved here 🌴". She follows Derek. Then, so it won't look like a trap, his brother and his cousin.
 
-She opens her phone calendar. Scrolls back. And back.
-
-**CHI (whisper):** No. No, no, no.
+**CHI (whisper):** Let's see who you are.
 
 **INT. FITTING ROOM — SAME**
 
@@ -520,6 +517,16 @@ She hangs up. Looks at herself in the mirror.
 
 **SIMONE:** Let's see who shows up.
 
+**INT. BOUTIQUE — RESTROOM — SAME**
+
+Chi's phone pings. A follow. Not Derek.
+
+**"marcus.made.it started following you."**
+
+Then a DM.
+
+**MARCUS: "who is this 👀"**
+
 **CUT TO BLACK.**
 
 ---
@@ -527,93 +534,103 @@ She hangs up. Looks at herself in the mirror.
 ## EPISODE 6 — "Friday Night"
 
 **CARD: 3 WEEKS TO THE WEDDING**
-*Runtime target: 90 seconds*
+*Runtime target: 90 seconds, cut fast*
 
 **INT. CHI & NIA'S APARTMENT — FRIDAY NIGHT**
 
-Nia at the door in a red dress. Chi in a robe, arms crossed.
+Nia at the door in a red dress. She sets her PHONE on the hall table. Chi in a robe, arms crossed.
 
-**CHI:** I'm begging you. As your big sister. Don't go over there.
+**CHI:** Why are you leaving your phone?
 
-**NIA:** She's at her mom's. It's the last time.
-
-**CHI:** You said that Tuesday.
-
-**NIA:** Tuesday was the last time TOO. This is the last-last time.
+**NIA:** Simone shares locations. If my dot's home, I'm home.
 
 **CHI:** You are the OTHER WOMAN, Nia. Have some self-respect.
 
-Nia's face crumples. Then hardens.
+**NIA:** Says the woman with a fake Instagram page.
 
-**NIA:** You're right. (beat) Don't wait up.
+Chi freezes.
 
-The door slams. Chi stands there. Then pulls the pregnancy test from her robe pocket.
+**NIA:** "Kiki." Marcus showed me the DMs. He thinks it's funny. YOU flirted with MY man?
+
+**CHI:** I made it for DEREK.
+
+**NIA:** And Marcus answered in an HOUR.
+
+**CHI:** That's my POINT.
+
+**NIA:** Your point is you're a catfish.
+
+The door slams.
 
 **INT. MARCUS & SIMONE'S BEDROOM — NIGHT**
 
-Wine. Music. The red dress on the floor. Laughter from the bed.
+The red dress on the floor. Laughter from the bed.
 
 **EXT. STREET — SAME**
 
-Simone in her parked car across the street. Watching the window. She gets out. Takes off her heels.
+Simone in her parked car. Checks her phone. Nia's location dot: HOME.
+
+**SIMONE:** Good girl.
+
+She gets out, heels in hand.
 
 **INT. MARCUS & SIMONE'S APARTMENT — CONTINUOUS**
 
-The front door opens without a sound. Simone, barefoot, walks to the bedroom door. Puts her palm flat against it.
+The front door opens without a sound. Simone pads to the bedroom door. Then KICKS it open.
 
-Then KICKS it open.
-
-Lights on. Marcus alone in bed. Sweating. The window wide open. Curtain blowing.
+Lights on. Marcus alone in bed. Sweating. Window wide open. Curtain blowing.
 
 **MARCUS:** BABY! You're back!
 
-**SIMONE:** Who were you laughing with?
+Two wine glasses on the nightstand. Lipstick on one rim. Simone picks it up. Sets it down gently.
 
-**MARCUS:** Podcast.
+**SIMONE:** Okay.
 
-She sees them: two wine glasses on the nightstand. Lipstick on one rim. She throws it against the wall. It SHATTERS.
+She walks to the open window. His Jordans. Out. His PlayStation. Out. His chain. Out.
 
-**SIMONE:** Where is she.
+**MARCUS:** SIMONE—
 
-**MARCUS:** Simone—
-
-SLAP. Full swing.
-
-**SIMONE (to the room):** I know you're in here, sweetheart! Come out! I just wanna TALK!
+**SIMONE:** I'm not crazy. I'm THOROUGH.
 
 **EXT. FIRE ESCAPE — CONTINUOUS**
 
-Nia. Underwear. Red dress balled under one arm. Climbing down six floors barefoot, praying to anyone listening.
+Nia, in her underwear, red dress balled under one arm, six floors of ladder below her. A Jordan whistles past her head. A PlayStation SHATTERS in the alley.
+
+**INT. CHI & NIA'S APARTMENT — SAME**
+
+Derek home. Chi at the counter, laptop open to Kiki's DMs. She closes it.
+
+**CHI:** I went to your office Tuesday. The third floor is a dentist.
+
+**DEREK:** We moved buildings in March. I TOLD you that. You don't listen when you're stressed.
+
+**DEREK (softer, deadlier):** What I want to know is why Jalen's car was outside here Tuesday. When I was in Charlotte.
+
+**CHI:** He dropped off the suits.
+
+**DEREK:** For two hours?
+
+Silence. And somehow it is Chi who says:
+
+**CHI:** ...I'm sorry.
+
+**INT. MARCUS & SIMONE'S BEDROOM — CONTINUOUS**
+
+**SIMONE:** Phone.
+
+Marcus hands it over. Nothing left to throw. She scrolls. DMs. A page called KIKI. "u look like trouble."
+
+**SIMONE:** Who is Kiki.
+
+She leans out the window. The alley is empty. On the railing: something small and glittery. A press-on nail. Chrome sunset.
+
+**SIMONE:** ...I know these nails.
 
 **INT. CHI'S BATHROOM — SAME**
 
-Chi on the floor, back against the tub. The test in her hand. Two lines.
+Chi, door locked, opens Kiki's inbox. New message.
 
-KNOCK.
-
-**DEREK (O.S.):** Babe? Why's the door locked?
-
-**CHI:** One second!
-
-She buries the test in the trash under a mountain of tissues. Flushes for effect. Opens the door. Derek, all smiles.
-
-**DEREK:** Jalen's here. He brought the suits.
-
-**JALEN (O.S., cheerful):** Mind if I use your bathroom?
-
-**CHI:** NO—
-
-He's already past her. The door clicks shut.
-
-**EXT. FIRE ESCAPE — SAME**
-
-Simone leans out the window. The alley is empty. Nia is gone.
-
-Her eyes drop to the railing. Something small. Glittery. She picks it up.
-
-A press-on nail. Chrome sunset. Custom.
-
-**SIMONE:** ...I know these nails.
+**SIMONE: "I found you in his phone. Who ARE you?"**
 
 **CUT TO BLACK.**
 
@@ -624,31 +641,21 @@ A press-on nail. Chrome sunset. Custom.
 **CARD: 2 WEEKS TO THE WEDDING**
 *Runtime target: 90 seconds, cut fast*
 
-**INT. CHI'S APARTMENT — CONTINUOUS**
+**INT. CHI'S BATHROOM — CONTINUOUS**
 
-The bathroom door opens. Jalen steps out, drying his hands. Slowly. He looks straight at Chi and pats his jacket pocket.
-
-**JALEN:** Nice bathroom.
+Chi stares at Simone's message. Types as Kiki: "girl he DMed me first. get your man." Sends. Deletes the page.
 
 **INT. NIGHTCLUB — VIP — NIGHT**
 
-Bachelorette. Sashes, sparklers, bridesmaids. Chi at the head of the table. Nia beside her. Simone across.
+Bachelorette. Sashes, sparklers. Chi at the head of the table. Nia beside her, not speaking to her. Simone across, waving her phone.
 
-Nia watches Chi tip her tequila into a potted plant.
+**SIMONE:** THIS is the girl. "Kiki." Deleted her whole page. Guilty.
 
-**NIA:** Since when do you waste tequila?
+**NIA:** Never seen her.
 
-**CHI:** Antibiotics.
+**CHI:** Me neither.
 
-**NIA:** For WHAT?
-
-**CHI:** Nia.
-
-**SIMONE:** None for me either. I'm on a cleanse.
-
-Simone slides the press-on nail across the table.
-
-**SIMONE:** Found this on my fire escape.
+**SIMONE:** None for me, I'm on a cleanse. (slides the press-on nail across) Found this on my fire escape.
 
 **NIA (not blinking):** Sunset Chrome. My most popular set. Half the city has it.
 
@@ -658,9 +665,7 @@ Simone slides the press-on nail across the table.
 
 WHOOPING. The guys crash in. Derek. Jalen. Marcus.
 
-**DEREK:** SURPRISE! Joint party! My idea!
-
-Chi and Nia exchange a look of pure death.
+**DEREK:** SURPRISE! Joint party!
 
 Marcus grabs the DJ's mic. Drops to one knee in front of Simone.
 
@@ -678,21 +683,21 @@ Simone SCREAMS yes. Nia claps. Nia actually claps.
 
 **EXT. CLUB — BALCONY — LATER**
 
-Chi alone in the dark. Jalen finds her. Holds up the pregnancy test.
+Chi alone in the dark. Jalen finds her.
 
-**JALEN:** Tell me it's his and I walk away forever.
+**CHI:** Okay. Atlanta. I'm asking.
 
-**CHI:** ...It's his.
+**JALEN:** Her name is Kiara. They never got divorced. (beat) There's a little girl. She's six.
 
-**JALEN:** You're lying.
+**CHI:** Does your mother know?
 
-**DEREK (arriving):** Lying about what?
+**JALEN:** My mother buys her birthday presents. (beat) Chi. If you weren't marrying him—
 
-**CHI:** Cake. I said red velvet. He wants lemon.
+**CHI:** Don't.
 
-**DEREK:** Lemon's disgusting, J.
+**DEREK (arriving):** What are we whispering about?
 
-**JALEN:** ...Yeah. Lemon's disgusting.
+**CHI:** Cake.
 
 **INT. CLUB — BATHROOM HALLWAY — SAME**
 
@@ -702,13 +707,15 @@ Marcus corners Nia.
 
 **NIA:** You proposed in front of my FACE.
 
-**MARCUS:** To keep her quiet. After Derek's wedding, I'm done. I swear on my—
+**MARCUS:** To keep her quiet. After Derek's wedding I'm done, I swear—
 
-SLAP.
+**NIA:** Watch this.
 
-**NIA:** Don't you swear on your mother again.
+She holds her phone up to his face. Tap. Tap. Tap.
 
-He touches his cheek. She grabs his shirt and kisses him anyway.
+**NIA:** Blocked. Blocked. Blocked. Enjoy your fiancée.
+
+She turns to go—
 
 **SIMONE (O.S.):** Nia? Girl, where'd you go?
 
@@ -720,9 +727,7 @@ Simone rounds the corner. Marcus, alone, leaning on the booth.
 
 **MARCUS:** Looking for you.
 
-She hugs him. Over his shoulder, the booth drops a photo strip into the tray. She picks it up.
-
-Blurry. A hand over a face. Sunset chrome nails.
+She hugs him. Over his shoulder, the booth drops a photo strip. She picks it up. Blurry. A hand over a face. Sunset chrome nails.
 
 **SIMONE (sweet as sugar):** Baby. Who's in there?
 
@@ -743,55 +748,51 @@ Simone rips the curtain open. Nia inside, hands up—
 
 **NIA:** SURPRISE! Get IN, bridesmaid!
 
-She yanks Simone into the booth. FLASH. FLASH.
+She yanks Simone in. FLASH. FLASH. Simone, laughing, hugs her. Over her shoulder, Nia mouths at Marcus: I. HATE. YOU.
 
-**SIMONE (laughing):** Why were you in here alone?
+**INT. UBER — LATER**
 
-**NIA:** Crying. The proposal. It was so beautiful.
+Nia, alone. Unblocks Marcus. Types: "I hate you. Come over." Sends. Looks up at the chat header.
 
-Simone hugs her. Over Simone's shoulder, Nia mouths at Marcus: I. HATE. YOU.
+**BRIDESMAIDS 👰🏾‍♀️ (6)**
+
+Hold. UNSEND.
+
+**SIMONE: "Nia unsent a message?"**
+
+**NIA (typing):** wrong chat lol. that was for my mom
+
+**SIMONE: "you tell your mom 'come over'?"**
+
+**NIA (typing):** she's clingy
 
 **INT. RESTAURANT — PRIVATE ROOM — ONE WEEK LATER**
 
-Rehearsal dinner. Candles, family, a long table. Chi at the mic, mid-toast. Simone slides into the chair beside Nia and sets Marcus's phone between them.
+Rehearsal dinner. Chi at the mic, mid-toast. Simone slides in beside Nia and sets Marcus's phone between them.
 
-**SIMONE:** He left it at the bar. Passcode. Go.
+**SIMONE:** He left it at the bar. Passcode.
 
-**NIA:** How would I know his—
-
-**SIMONE:** Guess.
-
-**NIA (typing):** ...Birthday?
+**NIA (typing before she can stop herself):** Birthday?
 
 It unlocks. Simone turns to her. Slowly.
 
-**SIMONE:** How'd you know his birthday?
+**SIMONE:** How do you know his birthday?
 
-**NIA:** He said it at the party.
+**NIA:** He's a Leo. They announce it.
 
-**SIMONE:** He announced his birthday. At the party.
-
-**NIA:** He's a Leo. They do that.
-
-Simone scrolls. Contacts. NAILS 💅. She hits CALL.
-
-Nia's clutch starts BUZZING on the table between them.
+Simone scrolls. Contacts. NAILS 💅. She hits CALL. Nia's clutch starts BUZZING on the table between them.
 
 **NIA:** That's Chi.
 
 **SIMONE:** Chi's holding a microphone.
 
-Simone hangs up. The buzzing stops. She calls again. The clutch buzzes again.
+She hangs up. Calls again. It buzzes again.
 
 **SIMONE:** Open the clutch, Nia.
 
 **NIA:** No.
 
-**SIMONE:** Open. The. Clutch.
-
-Simone grabs it and dumps it across the dessert table. Lip gloss. Keys. Nia's phone, face down.
-
-She reaches for it. A hand slams down on it first. CHI, who has crossed the room in four strides.
+Simone dumps it across the dessert table. Lip gloss. Keys. Nia's phone, face down. She reaches. A hand slams down on it first. CHI, who has crossed the room in four strides.
 
 **CHI:** Enough. You're embarrassing yourself at MY dinner.
 
@@ -799,53 +800,51 @@ She reaches for it. A hand slams down on it first. CHI, who has crossed the room
 
 **CHI:** Go home, Simone.
 
-Simone looks at Marcus. Marcus studies his shoes. She grabs her bag.
+Marcus studies his shoes. Simone grabs her bag.
 
 **SIMONE (to Nia):** See you at the wedding, sweetie. (to Marcus) BOTH of you.
-
-Gone. Chi presses the phone into Nia's hand and squeezes.
 
 **INT. RESTAURANT — COAT ROOM — CONTINUOUS**
 
 Patrice hauls Chi in by the elbow.
 
-**PATRICE:** You didn't call it off.
+**PATRICE:** You know.
 
-**CHI:** No.
+**CHI:** About Kiara. About the little girl. Yes.
 
-**PATRICE:** Then I say it at the toast.
+**PATRICE:** Then why are you still here?
 
-**CHI:** I'm pregnant.
+**CHI:** Why are YOU?
 
-Patrice goes still.
+**PATRICE:** She's my granddaughter. He swore the divorce was final.
 
-**PATRICE:** ...Whose?
+**CHI:** Is it?
 
-**CHI:** Derek's.
+**PATRICE:** ...I don't know anymore.
 
-SLAP. Chi's head snaps.
+**DEREK (at the door, beaming):** Ladies! Toast time!
 
-**PATRICE:** Don't you lie to me at my son's rehearsal dinner.
+**CHI (a perfect smile):** Coming, baby.
 
-**DEREK (at the door):** MOM?! What the HELL—
+**INT. DEREK'S CAR — NIGHT**
 
-**PATRICE:** Ask her.
+Derek driving. Chi in the passenger seat, laptop angled away. His email. She searches "Kiara."
 
-**DEREK:** Chi?
+A thread from a divorce attorney, dated LAST WEEK: "...cannot proceed until Mrs. Cole signs. She has declined again."
 
-**CHI (holding her cheek):** I'm pregnant.
+Below it, the pre-approval letter for "their" house. She reverse-image-searches the bank logo. First result: "Sample Pre-Approval Letter. Free Template."
 
-Derek's face does something strange. Not joy. Not anger. Something cold and far away.
+**DEREK:** You okay, babe?
 
-**DEREK:** ...Okay. Okay.
+**CHI:** Perfect.
 
-He hugs her. Over her shoulder, his eyes are a ghost's.
+She opens a text to a number from the thread.
 
-Across the room, Jalen's glass slips from his hand and SHATTERS.
+**CHI (typing):** "Kiara. This is Chi. I'm marrying Derek on Saturday. I think we should talk."
 
-Patrice looks at Jalen. Then at Chi.
+Three dots. Then:
 
-**PATRICE (ice):** Congratulations.
+**KIARA: "I've been waiting six years for somebody to text me that."**
 
 **CUT TO BLACK.**
 
@@ -858,69 +857,53 @@ Patrice looks at Jalen. Then at Chi.
 
 **INT. VENUE — BRIDAL SUITE — MORNING**
 
-Curling irons, champagne, bridesmaids in robes. Chi at the vanity. Nia doing her makeup with trembling hands.
+Curling irons, champagne, bridesmaids in robes. Across the room, Simone dry-heaves into a trash can. "Perfume." Chi at the vanity. Nia doing her makeup with trembling hands.
 
-**CHI:** Why are your hands shaking?
+**CHI:** Your hands are shaking.
 
-**NIA:** Champagne.
-
-**CHI:** ...Nia.
-
-**NIA:** I was with him last night.
+**NIA:** ...I was with him last night.
 
 **CHI:** NIA.
 
-**NIA:** After the dinner! He said he told her. He said—
+**NIA:** He said he told her! He said—
 
 **CHI:** They ALL say it, Nia!
 
-Nia sets the brush down. Looks at Chi. Really looks.
+**NIA:** And you know that HOW? You think I don't see you?
 
-**NIA:** How do you know?
+Chi puts down the champagne.
 
-Silence. Chi's eyes. Nia's face changes.
+**CHI:** He has a wife. In Atlanta. And a daughter.
 
-**NIA:** Chi. What did you do.
+**NIA:** ...Chi.
 
-**CHI:** Nothing.
+**CHI:** The job is fake. The house is fake. All of it.
 
-**NIA:** You don't drink anymore. Your mother-in-law slapped you. And Jalen looks at you like you're the last flight out.
+**NIA:** Then why are you in the DRESS?
 
-Chi's chin trembles. The first crack we have ever seen in her.
+**CHI:** Because two hundred people are about to watch him lie. I want them to watch him get caught.
 
-**NIA:** You've called me a mess for five weeks.
+**NIA:** That's the messiest thing you've ever said.
 
-**CHI:** You ARE a mess.
+**CHI:** I learned from the best.
 
-**NIA:** I'm a mess in a CLOSET, Chi. You're a mess at an ALTAR.
+Nia grabs her. Patrice's voice in the hall. They wipe their faces fast.
 
-Chi breaks. Nia holds her. Patrice's voice in the hall. They wipe their faces fast.
+**INT. VENUE — PARKING GARAGE — LATER**
 
-**INT. VENUE — OUTSIDE THE GROOM'S ROOM — LATER**
+Chi, in the dress, at the open window of a sedan. KIARA in the driver's seat. A SIX-YEAR-OLD in the back.
 
-Chi in the dress, going to find Derek. Voices through the door. She stops.
+**KIARA:** He told me you were his cousin.
 
-**MARCUS (O.S.):** Bro, just keep Simone away from Nia today.
+**CHI:** He told me you were his ex.
 
-**DEREK (O.S.):** I've covered for you for FOUR MONTHS, man. I'm done.
+**KIARA:** I'm his wife.
 
-Chi pushes the door open.
+**CHI:** I know. Sit in the back row. Wear something nice.
 
-**CHI:** Four months?
+**KIARA:** You're inviting me to your wedding?
 
-**DEREK:** Chi—
-
-**CHI:** You KNEW. Before the party. You let her walk in there.
-
-**DEREK:** He's my blood.
-
-**CHI:** I'm about to be your WIFE.
-
-SLAP. Derek takes it. Doesn't flinch.
-
-**DEREK (quiet):** Don't talk to me about secrets, Chi.
-
-The way he says it. She goes cold.
+**CHI:** I'm inviting you to his.
 
 **INT. BRIDAL SUITE — SAME**
 
@@ -928,7 +911,7 @@ Nia tearing through the room. Vanity. Bag. Floor.
 
 **NIA:** My phone. Where is my PHONE?
 
-Across the room, Simone, zipped into her bridesmaid dress, snaps her clutch shut. Smiling.
+Simone, zipped into her bridesmaid dress, snaps her clutch shut. Smiling.
 
 **SIMONE:** Lose something?
 
@@ -942,25 +925,27 @@ Nia drags Marcus around a corner.
 
 **NIA:** Saying WHAT?
 
-**MARCUS:** "Last night was..." Everything.
-
-**NIA:** MARCUS.
+**MARCUS:** "Last night was everything." And a picture. (beat) It might've been a Live Photo.
 
 **INT. VENUE — CHAPEL ANTEROOM — CONTINUOUS**
 
-Chi alone, trying to breathe. Jalen steps in. Tux. Boutonniere.
+Chi alone, breathing. Jalen steps in. Tux. Boutonniere.
 
-**JALEN:** When they ask if anyone objects, I'm standing up.
+**JALEN:** I'm going to say something at the ceremony.
 
-**CHI:** Then you lose me AND him.
-
-**JALEN:** I never had you. That's the point.
-
-He puts his hand on her stomach. She lets him. One second.
+**CHI:** No, you're not. I am.
 
 **SIMONE (O.S., sing-song):** Places, everybody! Nia, honey, walk with me. I've got something of yours.
 
-Nia's face. Chi's face. The organ starts.
+**INT. CHAPEL — LATER**
+
+Organ. Full house. Chi at the altar. Derek beaming. Nia gripping her bouquet like a weapon. Back row: Kiara. A little girl.
+
+**OFFICIANT:** If anyone objects to this union, speak now or forever hold your peace.
+
+Silence. Chi lifts her own veil.
+
+**CHI:** Actually. I do.
 
 **CUT TO BLACK.**
 
@@ -968,100 +953,92 @@ Nia's face. Chi's face. The organ starts.
 
 ## EPISODE 10 — "Speak Now"
 
-**CARD: THE WEDDING — 4:00 P.M.**
+**CARD: THE WEDDING — 4:02 P.M.**
 *Runtime target: 90 seconds, cut fast*
 
-**INT. CHAPEL — CEREMONY**
-
-Full house. Chi at the altar under the veil, perfect. Derek's jaw tight. Jalen beside him, eyes on the floor. Nia gripping her bouquet like a weapon. Simone in the bridesmaid line, serene, clutch under her arm.
-
-**OFFICIANT:** If anyone objects to this union, speak now or forever hold your peace.
-
-Silence. Chi looks at Jalen. Pleading.
-
-Jalen's hand grips the pew. He closes his eyes. He does not stand.
-
-Chi exhales.
-
-**PATRICE (standing):** I do.
+**INT. CHAPEL — CONTINUOUS**
 
 Every head turns.
 
-**PATRICE:** I object. My son deserves a wife who isn't sleeping with his BROTHER.
+**DEREK:** Babe—
 
-Gasps. Derek turns to Jalen.
+**CHI:** One question for the groom. Then we can continue. (turns to him) Derek. Who is Kiara?
 
-**DEREK:** Tell me she's lying.
+**DEREK:** Chi. Not here.
 
-Jalen can't.
+**CHI:** You picked here. You invited two hundred people to watch you lie to me.
 
-Derek PUNCHES him. Jalen goes down into the flowers.
+In the back row, Kiara stands, her daughter's hand in hers.
 
-**SIMONE (standing, bright):** Ooh, while we're doing this—
+**KIARA:** I'm his wife. We were never divorced. (beat) And that's his daughter.
 
-She holds up Nia's phone. Screen lit.
+Patrice crosses the aisle to her son and SLAPS him.
 
-**SIMONE (reading):** "Last night was everything. Can't wait till she's gone." Nine texts. From MY fiancé. To the MAID OF HONOR.
+**PATRICE:** I TOLD you to tell her.
 
-Nia's soul leaves her body.
+Chi slides off the ring. Drops it into Derek's breast pocket. Pats it.
+
+**CHI:** Keep it. It's on my card anyway.
+
+**SIMONE (standing, bright):** Ooh. Since we're doing this—
+
+She holds up Nia's phone.
+
+**SIMONE:** Nine texts from MY fiancé to the MAID OF HONOR. "Last night was everything." And a Live Photo. Hold it down, y'all.
+
+On the screen: a bed. Then sunset chrome nails slide into frame.
 
 **NIA:** He said he was LEAVING you—
 
-SLAP. Nia's updo goes sideways. A fistful of extensions in Simone's hand.
+SLAP. Nia's updo goes sideways. A fistful of extensions in Simone's hand. Nia swings back. They go DOWN into the cake table.
 
-Nia swings back. They go DOWN into the cake table. Marcus grabs Simone's arm.
+Simone pulls off her engagement ring and pushes it deep into what's left of the cake.
 
-**SIMONE:** DON'T TOUCH ME.
+**SIMONE:** Fish it out, baby. It's OFF. All of it.
 
-SLAP. Marcus. Full force.
+Chi steps down off the altar and walks up the aisle through the wreckage, train dragging through buttercream. Nia scrambles after her.
 
-**SIMONE:** It's OFF. All of it.
+**EXT. VENUE — PARKING LOT — DUSK**
 
-Chi at the altar, watching her whole life detonate in buttercream. She sways. Her eyes roll back.
+Two women on a curb. A ruined gown. Cake in an updo. One shoe.
 
-She goes down.
+**NIA:** I'm sorry I ruined your wedding.
 
-**DEREK:** CHI!
+**CHI:** You didn't ruin it. I did. On purpose.
 
-**EXT. HOSPITAL — NIGHT**
+**NIA:** ...We're a mess.
 
-Nia on a bench outside the ER. Cake in her hair. One shoe. Headlights. Marcus's car pulls up, window down.
+**CHI:** We're a mess.
 
-**MARCUS:** I told her it's over. For real this time. Get in.
+Headlights. Marcus's car. Window down.
 
-Nia looks at the hospital. Looks at the car.
+**MARCUS:** Nia. It's over with her. For real this time. Get in.
 
-She gets in.
+**CHI:** Nia. Don't you dare.
 
-He kisses her. His phone lights up on the dash.
+**NIA:** ...Last-last time.
+
+She gets in. Chi, alone. Her phone buzzes.
+
+**BANK ALERT: "$41,200 withdrawn — JOINT ACCT ****4471."**
+
+**CHI:** I don't HAVE a joint account.
+
+**KIARA (behind her, quiet):** You do now. He opened one in my name too.
+
+Across the lot, Derek's car peels out. Chi runs after it. In the dress. Barefoot.
+
+Marcus's car passes her going the other way. Through the window, for one second, Nia and Chi lock eyes.
+
+**INT. MARCUS'S CAR — CONTINUOUS**
+
+He kisses her at the light. His phone lights up on the dash.
 
 **SIMONE: "I'm keeping the baby."**
 
 Nia stares at it. Marcus stares at it.
 
 **NIA:** ...Keeping WHAT?
-
-**INT. HOSPITAL — CHI'S ROOM — SAME**
-
-Chi wakes. Still in the dress. Derek at the bedside, knuckles bandaged.
-
-**CHI:** The baby?
-
-**DEREK:** The baby's fine. Eight weeks, they said.
-
-A long silence.
-
-**DEREK:** I need the truth. Is it mine?
-
-**CHI:** Yes.
-
-Derek nods slowly. Like he expected it. Like it hurts anyway.
-
-**DEREK:** Chi. I can't have kids. (beat) I found out three years ago. I never told you.
-
-Chi's face. The floor drops out of the world.
-
-Behind Derek, in the doorway: Jalen. Bloody lip. He heard every word.
 
 **CUT TO BLACK.**
 
@@ -1073,8 +1050,8 @@ Behind Derek, in the doorway: Jalen. Bloody lip. He heard every word.
 
 The finale is built to keep going. Hooks already planted for episodes 11 to 15:
 
-- **Whose baby, whose brother.** Chi has to choose between the man she lied to and the man she lied with, while Patrice moves into the guest room "to help."
-- **Simone's baby.** Is it real, or the most expensive power move in the series? Either way she walks into Nia's salon with an ultrasound and books a full set.
-- **Derek's other secret.** He was too calm at the rehearsal dinner. He was too calm in the hospital. Nobody covers for a cheating cousin for four months without practice.
-- **Nia and Simone.** Two women, one man, one salon chair. Forced proximity until one of them cracks or they team up.
-- **Jalen and Derek.** A brother war with a wedding deposit, a shared mother, and a baby in the middle.
+- **The hunt.** Derek is gone with forty-one thousand dollars and there's a joint account with Chi's name on it. Chi and Kiara, the wife and the almost-wife, go looking for him together. Patrice knows where he'd run.
+- **The baby.** Simone's pregnant by a man who is, at this moment, kissing Nia at a red light. She walks into Nia's salon with an ultrasound and books a full set.
+- **The car.** Nia got in. She always gets in. Where does Marcus drive her, and who's waiting there?
+- **Jalen.** He carried his brother's secret for six years and never said the word "Kiara" to Chi until it was almost too late. Chi hasn't decided whether to forgive him. Neither has Patrice.
+- **Kiki.** Chi deleted the page. Instagram doesn't delete screenshots. Simone still has one, and she has started to wonder why the girl in the sunset selfie has never once been seen in this city.
