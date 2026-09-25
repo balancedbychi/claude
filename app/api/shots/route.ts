@@ -1,14 +1,18 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { generate, SYSTEM } from "@/lib/claude.ts";
-import { BibleIn, CharacterIn, SceneOut, ShotsOut } from "@/lib/schemas.ts";
+import { BibleIn, CharacterIn, LocationIn, SceneOut, ShotsOut } from "@/lib/schemas.ts";
 import { castBlock, errorResponse, readBody } from "@/lib/api.ts";
-import { buildShotPrompt } from "@/lib/prompt-builder.ts";
+import { buildShotPrompt, locationAnchor } from "@/lib/prompt-builder.ts";
 
 const Body = z.object({
   scene: SceneOut,
+  // Neighbouring scenes, so the first and last shots hand off cleanly.
+  prevScene: SceneOut.nullable().default(null),
+  nextScene: SceneOut.nullable().default(null),
   bible: BibleIn,
   characters: z.array(CharacterIn).max(8),
+  locations: z.array(LocationIn).max(30).default([]),
   maxClipSeconds: z.number().int().min(3).max(15).default(8),
 });
 
@@ -17,33 +21,40 @@ const Body = z.object({
 export async function POST(req: Request) {
   const body = await readBody(req, Body);
   if ("error" in body) return body.error;
-  const { scene, bible, characters, maxClipSeconds } = body.data;
+  const { scene, prevScene, nextScene, bible, characters, locations, maxClipSeconds } = body.data;
   const ids = new Set(characters.map((c) => c.id));
+  const location = locations.find((l) => l.id === scene.locationId);
+  const sameSetAsPrev = Boolean(prevScene && location && prevScene.locationId === location.id);
 
   try {
     const out = await generate({
       system: SYSTEM,
       schema: ShotsOut,
       effort: "medium",
-      prompt: `Break this scene into shots for an AI video generator (Higgsfield, Kling, Veo, Runway). Each shot becomes one generated clip.
+      prompt: `Break this scene into shots for an AI video generator (Higgsfield, Kling, Veo, Runway). Each shot becomes one generated clip, and the clips will be cut together into one continuous video.
 
 Visual style: ${bible.visualStyle || "cinematic, photorealistic"} | Aspect ratio: ${bible.aspectRatio}
 Cast (use these ids in characterIds; do NOT describe their appearance, it is added automatically):
 ${castBlock(characters)}
+Set: ${location ? `${locationAnchor(location)} Default light: ${location.lighting || "n/a"}. (Do not re-describe the set; it is added automatically. Refer to its fixed features by name so shots stay consistent.)` : scene.location}
 
-Scene ${scene.number}: ${scene.title}
-Location: ${scene.location}
+Previous scene: ${prevScene ? `${prevScene.title}: ${prevScene.action}` : "none (this opens the episode)"}
+THIS SCENE ${scene.number}: ${scene.title}
 Duration: ${scene.durationSeconds}s
 Action: ${scene.action}
 Lines:
 ${scene.lines.map((l) => `${l.speaker}: ${l.text}`).join("\n") || "(none)"}
+Next scene: ${nextScene ? `${nextScene.title}: ${nextScene.action}` : "none (this ends the episode)"}
 
 Rules:
 - Shots are at most ${maxClipSeconds}s each and their durations add up to about ${scene.durationSeconds}s.
-- action: one or two sentences of visible action and expression, naming characters by name. Include the location.
-- camera: shot size, angle and movement (e.g. "low-angle medium shot, slow dolly-in").
-- mood and lighting: short, specific.
-- Vary shot sizes so the edit feels cinematic.`,
+- action: one or two sentences of visible action and expression, naming characters by name.
+- camera: shot size, angle and movement (e.g. "low-angle medium shot, slow dolly-in"). Vary shot sizes so the edit feels cinematic.
+- mood and lighting: short and specific. Keep lighting consistent within the scene${location ? " and with the set's default light unless the story changes the time of day" : ""}.
+- Continuity: startFrame describes exactly what the first frame shows; endFrame describes exactly what the last frame shows. Each shot's startFrame must pick up from the previous shot's endFrame (same positions, props, eyelines, screen direction).
+- continueFromPrevious: true when the shot is the same camera angle continuing the previous shot's action, so the member should generate it from the previous clip's last frame. False for a new angle.${sameSetAsPrev ? "" : " The first shot is always false."}
+- transition: how this shot joins the previous clip: "hard cut", "match cut on <thing>", "continuous", "whip pan", "fade from black", etc. The first shot's transition should bridge from the previous scene.
+- The last shot should end on a frame that leads naturally into the next scene.`,
     });
 
     const shots = out.shots.map((s, i) => {
@@ -51,8 +62,9 @@ Rules:
         ...s,
         number: i + 1,
         characterIds: s.characterIds.filter((id) => ids.has(id)),
+        continueFromPrevious: s.continueFromPrevious && (i > 0 || sameSetAsPrev),
       };
-      return { ...shot, prompt: buildShotPrompt(shot, characters, bible) };
+      return { ...shot, prompt: buildShotPrompt(shot, characters, bible, location) };
     });
     return NextResponse.json({ sceneNumber: scene.number, shots });
   } catch (err) {

@@ -2,14 +2,16 @@
 
 import { useEffect, useState } from "react";
 import { newId, store, DEFAULT_BIBLE } from "@/lib/storage.ts";
-import type { Character, Episode, SeriesBible } from "@/lib/types.ts";
+import type { Character, Episode, Location, SeriesBible } from "@/lib/types.ts";
 import { CastStep } from "./CastStep.tsx";
+import { SetsStep } from "./SetsStep.tsx";
 import { StoryStep } from "./StoryStep.tsx";
 import { ScriptStep } from "./ScriptStep.tsx";
 import { ShotsStep } from "./ShotsStep.tsx";
 import { PackageStep } from "./PackageStep.tsx";
 
-const STEPS = ["Characters", "Story", "Script", "Scene prompts", "Package"] as const;
+const STEPS = ["Characters", "Sets", "Story", "Script", "Scene prompts", "Edit & post"] as const;
+const STORY = 2;
 
 function blankEpisode(): Episode {
   return { id: newId("ep"), createdAt: new Date().toISOString(), topic: "", concept: null, script: null, shots: [], pkg: null };
@@ -19,6 +21,7 @@ export function EpisodeBuilder() {
   const [loaded, setLoaded] = useState(false);
   const [bible, setBible] = useState<SeriesBible>(DEFAULT_BIBLE);
   const [characters, setCharacters] = useState<Character[]>([]);
+  const [locations, setLocations] = useState<Location[]>([]);
   const [episodes, setEpisodes] = useState<Episode[]>([]);
   const [episode, setEpisode] = useState<Episode>(blankEpisode);
   const [step, setStep] = useState(0);
@@ -27,8 +30,9 @@ export function EpisodeBuilder() {
     setBible(store.loadBible());
     const chars = store.loadCharacters();
     setCharacters(chars);
+    setLocations(store.loadLocations());
     setEpisodes(store.loadEpisodes());
-    if (chars.length > 0) setStep(1);
+    if (chars.length > 0) setStep(STORY);
     setLoaded(true);
   }, []);
 
@@ -38,6 +42,9 @@ export function EpisodeBuilder() {
   useEffect(() => {
     if (loaded) store.saveCharacters(characters);
   }, [characters, loaded]);
+  useEffect(() => {
+    if (loaded) store.saveLocations(locations);
+  }, [locations, loaded]);
 
   function updateEpisode(patch: EpisodePatch) {
     setEpisode((prev) => ({ ...prev, ...(typeof patch === "function" ? patch(prev) : patch) }));
@@ -64,12 +71,13 @@ export function EpisodeBuilder() {
   const reachable = [
     true,
     true,
+    true,
     Boolean(episode.concept),
     Boolean(episode.script),
     Boolean(episode.script),
   ];
 
-  const common = { bible, characters, episode, updateEpisode, goTo: setStep };
+  const common = { bible, characters, locations, episode, updateEpisode, goTo: setStep };
 
   return (
     <div className="shell">
@@ -79,7 +87,7 @@ export function EpisodeBuilder() {
           className="primary full"
           onClick={() => {
             setEpisode(blankEpisode());
-            setStep(characters.length > 0 ? 1 : 0);
+            setStep(characters.length > 0 ? STORY : 0);
           }}
         >
           + New episode
@@ -93,7 +101,7 @@ export function EpisodeBuilder() {
                 className="link"
                 onClick={() => {
                   setEpisode(e);
-                  setStep(e.pkg ? 4 : e.script ? 3 : e.concept ? 2 : 1);
+                  setStep(e.pkg ? 5 : e.script ? 4 : e.concept ? 3 : STORY);
                 }}
               >
                 {e.script?.title || e.concept?.title || e.topic || "Untitled"}
@@ -123,10 +131,12 @@ export function EpisodeBuilder() {
         {!loaded ? null : step === 0 ? (
           <CastStep bible={bible} setBible={setBible} characters={characters} setCharacters={setCharacters} onDone={() => setStep(1)} />
         ) : step === 1 ? (
-          <StoryStep {...common} />
+          <SetsStep bible={bible} locations={locations} setLocations={setLocations} onDone={() => setStep(STORY)} />
         ) : step === 2 ? (
-          <ScriptStep {...common} />
+          <StoryStep {...common} />
         ) : step === 3 ? (
+          <ScriptStep {...common} />
+        ) : step === 4 ? (
           <ShotsStep {...common} />
         ) : (
           <PackageStep {...common} />
@@ -139,6 +149,7 @@ export function EpisodeBuilder() {
 export interface StepProps {
   bible: SeriesBible;
   characters: Character[];
+  locations: Location[];
   episode: Episode;
   updateEpisode: (patch: EpisodePatch) => void;
   goTo: (step: number) => void;

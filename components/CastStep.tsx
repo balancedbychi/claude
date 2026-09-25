@@ -5,6 +5,7 @@ import { newId } from "@/lib/storage.ts";
 import { characterAnchor, characterSheetPrompt } from "@/lib/prompt-builder.ts";
 import type { Character, SeriesBible } from "@/lib/types.ts";
 import { CopyButton } from "./CopyButton.tsx";
+import { PhotoFill } from "./PhotoFill.tsx";
 
 const EMPTY: Omit<Character, "id"> = { name: "", role: "", age: "", look: "", wardrobe: "", voice: "", personality: "" };
 
@@ -96,6 +97,10 @@ export function CastStep(props: {
 
       <div className="card">
         <h4>{draft.id ? `Edit ${draft.name}` : "Add a character"}</h4>
+        <PhotoFill<{ age: string; look: string; wardrobe: string }>
+          kind="character"
+          onResult={(r) => setDraft((d) => ({ ...d, age: d.age || r.age, look: r.look, wardrobe: r.wardrobe }))}
+        />
         <div className="grid2">
           {FIELDS.map((f) => (
             <label key={f.key} className={f.long ? "span2" : ""}>
@@ -119,7 +124,7 @@ export function CastStep(props: {
 
       <div className="row end">
         <button className="primary" onClick={props.onDone} disabled={characters.length === 0}>
-          Next: pick a story →
+          Next: build your sets →
         </button>
       </div>
     </section>

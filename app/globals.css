@@ -144,6 +144,23 @@ pre {
 }
 details summary { cursor: pointer; }
 
+.stack.tight { gap: 6px; }
+.grow { flex: 1; }
+.photo-fill { display: flex; gap: 12px; align-items: center; margin: 8px 0 12px; padding: 10px; border: 1px dashed var(--border); border-radius: 8px; }
+.photo-fill .thumb { width: 64px; height: 64px; object-fit: cover; border-radius: 8px; }
+label.check { display: flex; gap: 8px; align-items: flex-start; font-weight: 400; font-size: 13px; }
+label.check input { width: auto; margin: 2px 0 0; }
+.room-edit { display: flex; flex-direction: column; gap: 6px; border-top: 1px solid var(--border); padding-top: 10px; }
+.room-edit .room-name { font-weight: 600; width: auto; flex: 1; }
+.badge { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--muted); margin-left: 4px; }
+.badge.accent { background: var(--accent-soft); color: var(--text); }
+.code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+.how { margin: 0; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+
 .login { min-height: 100vh; display: grid; place-items: center; padding: 16px; }
 .login .card { width: 100%; max-width: 360px; display: flex; flex-direction: column; gap: 12px; }
 

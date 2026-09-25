@@ -23,6 +23,8 @@ export class GenerationError extends Error {
 export async function generate<S extends z.ZodType>(opts: {
   system: string;
   prompt: string;
+  /** Optional reference image sent before the prompt. */
+  image?: { mediaType: "image/jpeg" | "image/png" | "image/webp"; data: string };
   schema: S;
   effort?: "low" | "medium" | "high";
   maxTokens?: number;
@@ -43,7 +45,17 @@ export async function generate<S extends z.ZodType>(opts: {
         format: betaZodOutputFormat(opts.schema),
       },
       system: opts.system,
-      messages: [{ role: "user", content: opts.prompt }],
+      messages: [
+        {
+          role: "user",
+          content: opts.image
+            ? [
+                { type: "image", source: { type: "base64", media_type: opts.image.mediaType, data: opts.image.data } },
+                { type: "text", text: opts.prompt },
+              ]
+            : opts.prompt,
+        },
+      ],
     });
   } catch (err) {
     if (err instanceof Anthropic.RateLimitError) {

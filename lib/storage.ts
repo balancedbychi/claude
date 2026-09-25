@@ -1,11 +1,11 @@
 "use client";
 
-import type { Character, Episode, SeriesBible } from "./types.ts";
+import type { Character, Episode, Location, SeriesBible } from "./types.ts";
 
-// v1 keeps member data in their own browser. Swap these three functions for a
+// v1 keeps member data in their own browser. Swap these functions for a
 // database (e.g. Supabase) when members need their work on multiple devices.
 
-const KEYS = { bible: "eb_bible", characters: "eb_characters", episodes: "eb_episodes" } as const;
+const KEYS = { bible: "eb_bible", characters: "eb_characters", locations: "eb_locations", episodes: "eb_episodes" } as const;
 
 export const DEFAULT_BIBLE: SeriesBible = {
   seriesName: "",
@@ -37,10 +37,33 @@ export const store = {
   saveBible: (b: SeriesBible) => write(KEYS.bible, b),
   loadCharacters: () => read<Character[]>(KEYS.characters, []),
   saveCharacters: (c: Character[]) => write(KEYS.characters, c),
-  loadEpisodes: () => read<Episode[]>(KEYS.episodes, []),
+  loadLocations: () => read<Location[]>(KEYS.locations, []),
+  saveLocations: (l: Location[]) => write(KEYS.locations, l),
+  loadEpisodes: () => read<Episode[]>(KEYS.episodes, []).map(upgradeEpisode),
   saveEpisodes: (e: Episode[]) => write(KEYS.episodes, e),
 };
 
 export function newId(prefix: string): string {
   return `${prefix}_${Math.random().toString(36).slice(2, 10)}`;
+}
+
+/** Fill fields added after v1 so older saved episodes keep working. */
+function upgradeEpisode(ep: Episode): Episode {
+  return {
+    ...ep,
+    script: ep.script && {
+      ...ep.script,
+      scenes: ep.script.scenes.map((s) => ({ ...s, locationId: s.locationId ?? "" })),
+    },
+    shots: ep.shots.map((sc) => ({
+      ...sc,
+      shots: sc.shots.map((sh) => ({
+        ...sh,
+        transition: sh.transition ?? "cut",
+        startFrame: sh.startFrame ?? "",
+        endFrame: sh.endFrame ?? "",
+        continueFromPrevious: sh.continueFromPrevious ?? false,
+      })),
+    })),
+  };
 }

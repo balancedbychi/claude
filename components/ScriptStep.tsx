@@ -24,7 +24,7 @@ function textToLines(text: string): ScriptLine[] {
     });
 }
 
-export function ScriptStep({ bible, characters, episode, updateEpisode, goTo }: StepProps) {
+export function ScriptStep({ bible, characters, locations, episode, updateEpisode, goTo }: StepProps) {
   const [minutes, setMinutes] = useState(4.5);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
@@ -36,7 +36,7 @@ export function ScriptStep({ bible, characters, episode, updateEpisode, goTo }: 
     setBusy(true);
     setError("");
     try {
-      const res = await post<Script>("/api/script", { concept: episode.concept, bible, characters, targetMinutes: minutes });
+      const res = await post<Script>("/api/script", { concept: episode.concept, bible, characters, locations, targetMinutes: minutes });
       updateEpisode({ script: res, shots: [], pkg: null });
     } catch (e) {
       setError((e as Error).message);
@@ -90,7 +90,7 @@ export function ScriptStep({ bible, characters, episode, updateEpisode, goTo }: 
             <h3>
               {script.title} <span className="muted">· {script.scenes.length} scenes · {fmt(script.totalSeconds)}</span>
             </h3>
-            <button className="primary" onClick={() => goTo(3)}>Next: scene prompts →</button>
+            <button className="primary" onClick={() => goTo(4)}>Next: scene prompts →</button>
           </div>
           {script.scenes.map((s) => {
             const start = clock;
@@ -107,6 +107,20 @@ export function ScriptStep({ bible, characters, episode, updateEpisode, goTo }: 
                     {s.characterIds.length > 0 && ` · ${s.characterIds.map(nameOf).join(", ")}`}
                   </span>
                 </div>
+                {locations.length > 0 && (
+                  <label className="inline">
+                    Set
+                    <select value={s.locationId} onChange={(e) => editScene(s.number, { locationId: e.target.value })}>
+                      <option value="">Not a locked set ({s.location})</option>
+                      {locations.map((l) => (
+                        <option key={l.id} value={l.id}>
+                          {l.setName ? `${l.setName}: ` : ""}
+                          {l.name}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                )}
                 <label>
                   What we see
                   <textarea rows={2} defaultValue={s.action} onBlur={(e) => e.target.value !== s.action && editScene(s.number, { action: e.target.value })} />

@@ -35,7 +35,7 @@ export function StoryStep({ bible, characters, episode, updateEpisode, goTo }: S
   function choose(c: Concept) {
     // A new concept invalidates everything generated after it.
     updateEpisode({ topic, concept: c, script: null, shots: [], pkg: null });
-    goTo(2);
+    goTo(3);
   }
 
   return (
@@ -68,7 +68,7 @@ export function StoryStep({ bible, characters, episode, updateEpisode, goTo }: S
           <h3>{episode.concept.title}</h3>
           <p>{episode.concept.logline}</p>
           <p><strong>Hook:</strong> {episode.concept.hook}</p>
-          <button className="primary" onClick={() => goTo(2)}>Continue to script →</button>
+          <button className="primary" onClick={() => goTo(3)}>Continue to script →</button>
         </div>
       )}
 

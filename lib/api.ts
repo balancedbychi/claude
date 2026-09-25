@@ -45,3 +45,10 @@ export function castBlock(
     )
     .join("\n");
 }
+
+export function setsBlock(locations: { id: string; setName: string; name: string; details: string; lighting: string }[]): string {
+  if (locations.length === 0) return "No locked sets. Use locationId \"\" for every scene.";
+  return locations
+    .map((l) => `- id "${l.id}": ${l.setName ? `${l.setName}, ` : ""}${l.name}. ${l.details} Default light: ${l.lighting || "n/a"}.`)
+    .join("\n");
+}

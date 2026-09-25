@@ -13,6 +13,14 @@ export const CharacterIn = z.object({
   personality: z.string().max(400),
 });
 
+export const LocationIn = z.object({
+  id: z.string().max(64),
+  setName: z.string().max(120),
+  name: z.string().min(1).max(120),
+  details: z.string().max(1200),
+  lighting: z.string().max(300),
+});
+
 export const BibleIn = z.object({
   seriesName: z.string().max(120),
   niche: z.string().max(200),
@@ -36,6 +44,7 @@ export const SceneOut = z.object({
   location: z.string(),
   durationSeconds: z.number().int(),
   characterIds: z.array(z.string()),
+  locationId: z.string(),
   action: z.string(),
   lines: z.array(LineOut),
 });
@@ -69,8 +78,29 @@ export const ShotsOut = z.object({
       camera: z.string(),
       mood: z.string(),
       lighting: z.string(),
+      transition: z.string(),
+      startFrame: z.string(),
+      endFrame: z.string(),
+      continueFromPrevious: z.boolean(),
     }),
   ),
+});
+
+export const SetOut = z.object({
+  setName: z.string(),
+  rooms: z.array(z.object({ name: z.string(), details: z.string(), lighting: z.string() })),
+});
+
+export const CharacterFromPhotoOut = z.object({
+  age: z.string(),
+  look: z.string(),
+  wardrobe: z.string(),
+});
+
+export const RoomFromPhotoOut = z.object({
+  name: z.string(),
+  details: z.string(),
+  lighting: z.string(),
 });
 
 export const PackageOut = z.object({

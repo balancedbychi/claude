@@ -12,6 +12,15 @@ export interface Character {
   personality: string;
 }
 
+/** One locked room or area of a recurring set (e.g. "Kitchen" in "Hollywood Hills house"). */
+export interface Location {
+  id: string;
+  setName: string; // the property or place this room belongs to
+  name: string; // the room or area
+  details: string; // fixed layout, materials, colours, furniture, window view
+  lighting: string; // default time of day and light
+}
+
 export interface SeriesBible {
   seriesName: string;
   niche: string;
@@ -38,6 +47,7 @@ export interface Scene {
   location: string;
   durationSeconds: number;
   characterIds: string[];
+  locationId: string; // "" when the scene is not in a locked set
   action: string; // what happens visually
   lines: ScriptLine[];
 }
@@ -56,6 +66,14 @@ export interface Shot {
   camera: string;
   mood: string;
   lighting: string;
+  /** How this shot joins the previous one, e.g. "hard cut", "match cut on the door". */
+  transition: string;
+  /** What the very first frame shows, so it lines up with where the last shot ended. */
+  startFrame: string;
+  /** What the very last frame shows, for the next shot to pick up from. */
+  endFrame: string;
+  /** Generate this clip from the previous clip's last frame (image-to-video). */
+  continueFromPrevious: boolean;
   /** Fully assembled, ready-to-paste prompt (character sheets inlined). */
   prompt: string;
 }

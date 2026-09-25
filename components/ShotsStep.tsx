@@ -3,10 +3,11 @@
 import { useState } from "react";
 import { pool, post } from "@/lib/client-api.ts";
 import type { Scene, SceneShots } from "@/lib/types.ts";
+import { clipName } from "@/lib/edit-guide.ts";
 import { CopyButton } from "./CopyButton.tsx";
 import type { StepProps } from "./EpisodeBuilder.tsx";
 
-export function ShotsStep({ bible, characters, episode, updateEpisode, goTo }: StepProps) {
+export function ShotsStep({ bible, characters, locations, episode, updateEpisode, goTo }: StepProps) {
   const [maxClip, setMaxClip] = useState(8);
   const [pending, setPending] = useState<Set<number>>(new Set());
   const [errors, setErrors] = useState<Record<number, string>>({});
@@ -18,7 +19,16 @@ export function ShotsStep({ bible, characters, episode, updateEpisode, goTo }: S
     setPending((p) => new Set(p).add(scene.number));
     setErrors(({ [scene.number]: _, ...rest }) => rest);
     try {
-      const res = await post<SceneShots>("/api/shots", { scene, bible, characters, maxClipSeconds: maxClip });
+      const i = scenes.findIndex((s) => s.number === scene.number);
+      const res = await post<SceneShots>("/api/shots", {
+        scene,
+        prevScene: scenes[i - 1] ?? null,
+        nextScene: scenes[i + 1] ?? null,
+        bible,
+        characters,
+        locations,
+        maxClipSeconds: maxClip,
+      });
       updateEpisode((prev) => ({
         shots: [...prev.shots.filter((x) => x.sceneNumber !== scene.number), res].sort((a, b) => a.sceneNumber - b.sceneNumber),
       }));
@@ -44,8 +54,9 @@ export function ShotsStep({ bible, characters, episode, updateEpisode, goTo }: S
       <header>
         <h2>Scene prompts</h2>
         <p className="muted">
-          Each shot is one clip. Paste the prompt into Higgsfield (or Kling, Veo, Runway) with your character reference image.
-          The character sheet is already included.
+          Each shot is one clip. Paste the prompt into Higgsfield (or Kling, Veo, Runway) with your character and set reference
+          images; the descriptions are already included. Save each clip under its code (S01-SH01, S01-SH02…) so they drop into
+          your editor in order.
         </p>
       </header>
 
@@ -63,7 +74,7 @@ export function ShotsStep({ bible, characters, episode, updateEpisode, goTo }: S
           {pending.size > 0 ? `Generating… ${done}/${scenes.length} scenes` : done === 0 ? "Generate all scene prompts" : `Generate remaining (${scenes.length - done})`}
         </button>
         {done === scenes.length && scenes.length > 0 && (
-          <button className="secondary" onClick={() => goTo(4)}>Next: package →</button>
+          <button className="secondary" onClick={() => goTo(5)}>Next: package →</button>
         )}
       </div>
 
@@ -91,13 +102,18 @@ export function ShotsStep({ bible, characters, episode, updateEpisode, goTo }: S
               <div key={shot.number} className="shot">
                 <div className="row between">
                   <span className="small">
-                    <strong>
-                      Shot {scene.number}.{shot.number}
-                    </strong>{" "}
-                    · {shot.durationSeconds}s · {shot.camera}
+                    <strong className="code">{clipName(scene.number, shot.number)}</strong> · {shot.durationSeconds}s · {shot.camera}
                     {shot.characterIds.length > 0 && ` · ${shot.characterIds.map(nameOf).join(", ")}`}
                   </span>
                   <CopyButton text={shot.prompt} />
+                </div>
+                <div className="row small">
+                  <span className="badge">In: {shot.transition || "cut"}</span>
+                  {shot.continueFromPrevious && (
+                    <span className="badge accent" title="Generate this clip image-to-video, using the last frame of the previous clip as the start image.">
+                      Start from the previous clip&apos;s last frame
+                    </span>
+                  )}
                 </div>
                 <pre className="prompt">{shot.prompt}</pre>
               </div>

@@ -18,16 +18,24 @@ test("markdown includes timestamps, shot prompts and package", () => {
       title: "The Move",
       totalSeconds: 95,
       scenes: [
-        { number: 1, title: "Open", location: "Kitchen", durationSeconds: 65, characterIds: ["c1"], action: "A", lines: [{ speaker: "Zara", text: "Hi" }] },
-        { number: 2, title: "Turn", location: "Street", durationSeconds: 30, characterIds: [], action: "B", lines: [] },
+        { number: 1, title: "Open", location: "Kitchen", durationSeconds: 65, characterIds: ["c1"], locationId: "l1", action: "A", lines: [{ speaker: "Zara", text: "Hi" }] },
+        { number: 2, title: "Turn", location: "Street", durationSeconds: 30, characterIds: [], locationId: "", action: "B", lines: [] },
       ],
     },
-    shots: [{ sceneNumber: 2, shots: [{ number: 1, durationSeconds: 5, characterIds: [], action: "", camera: "", mood: "", lighting: "", prompt: "PROMPT-2-1" }] }],
+    shots: [{ sceneNumber: 2, shots: [{ number: 1, durationSeconds: 5, characterIds: [], action: "", camera: "", mood: "", lighting: "", transition: "match cut", startFrame: "", endFrame: "", continueFromPrevious: true, prompt: "PROMPT-2-1" }] }],
     pkg: { titles: ["T1"], description: "D", hashtags: ["#a", "#b"], thumbnail: { concept: "C", textOverlay: "WOW", prompt: "TP" } },
   };
-  const md = episodeToMarkdown(ep, chars, bible);
+  const sets = [
+    { id: "l1", setName: "Hills House", name: "Kitchen", details: "white marble island", lighting: "morning" },
+    { id: "l2", setName: "Hills House", name: "Pool", details: "infinity pool", lighting: "dusk" },
+  ];
+  const md = episodeToMarkdown(ep, chars, bible, sets);
   assert.ok(md.startsWith("# Soft Life: The Move"));
-  assert.ok(md.includes("Scene 2: Turn [1:05–1:35]"));
+  // Scene 2 has 5s of shots, so its real length replaces the 30s estimate.
+  assert.ok(md.includes("Scene 2: Turn [1:05–1:10]"));
+  assert.ok(md.includes("Hills House, Kitchen: white marble island"));
+  assert.ok(!md.includes("infinity pool"), "unused sets are left out");
+  assert.ok(md.includes("| S02-SH01 | 1:05 | 5s | match cut (from last frame) |"));
   assert.ok(md.includes("PROMPT-2-1"));
   assert.ok(md.includes("#a #b"));
   assert.ok(md.includes("Character reference sheet of Zara, 28; box braids; wearing linen set."));

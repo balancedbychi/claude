@@ -1,5 +1,6 @@
-import { characterAnchor, characterSheetPrompt } from "./prompt-builder.ts";
-import type { Character, Episode, SeriesBible } from "./types.ts";
+import { fmtClock, sceneLength, timeline } from "./edit-guide.ts";
+import { characterAnchor, characterSheetPrompt, locationAnchor, locationSheetPrompt } from "./prompt-builder.ts";
+import type { Character, Episode, Location, SeriesBible } from "./types.ts";
 
 function fmt(seconds: number): string {
   const m = Math.floor(seconds / 60);
@@ -8,7 +9,12 @@ function fmt(seconds: number): string {
 }
 
 /** The full episode pack as Markdown, for download or pasting into Notion. */
-export function episodeToMarkdown(ep: Episode, characters: Character[], bible: SeriesBible): string {
+export function episodeToMarkdown(
+  ep: Episode,
+  characters: Character[],
+  bible: SeriesBible,
+  locations: Location[] = [],
+): string {
   const out: string[] = [];
   const title = ep.script?.title || ep.concept?.title || "Untitled episode";
   out.push(`# ${bible.seriesName ? `${bible.seriesName}: ` : ""}${title}`, "");
@@ -26,23 +32,46 @@ export function episodeToMarkdown(ep: Episode, characters: Character[], bible: S
     }
   }
 
+  const usedSets = locations.filter((l) => ep.script?.scenes.some((s) => s.locationId === l.id));
+  if (usedSets.length > 0) {
+    out.push("## Sets", "");
+    for (const l of usedSets) {
+      out.push(`### ${l.setName ? `${l.setName}: ` : ""}${l.name}`, "", locationAnchor(l), "");
+      out.push("Reference image prompt:", "", "```", locationSheetPrompt(l, bible), "```", "");
+    }
+  }
+
   if (ep.script) {
-    out.push(`## Script (${fmt(ep.script.totalSeconds)})`, "");
+    const total = ep.script.scenes.reduce((n, s) => n + sceneLength(ep, s), 0);
+    out.push(`## Script (${fmt(total)})`, "");
     let t = 0;
     for (const s of ep.script.scenes) {
-      out.push(`### Scene ${s.number}: ${s.title} [${fmt(t)}–${fmt(t + s.durationSeconds)}]`, "");
+      const len = sceneLength(ep, s);
+      out.push(`### Scene ${s.number}: ${s.title} [${fmt(t)}–${fmt(t + len)}]`, "");
       out.push(`*${s.location}.* ${s.action}`, "");
       for (const l of s.lines) out.push(`**${l.speaker}:** ${l.text}  `);
       out.push("");
-      t += s.durationSeconds;
+      t += len;
 
       const shots = ep.shots.find((x) => x.sceneNumber === s.number);
       if (shots) {
         for (const shot of shots.shots) {
-          out.push(`#### Shot ${s.number}.${shot.number} (${shot.durationSeconds}s)`, "", "```", shot.prompt, "```", "");
+          const how = shot.continueFromPrevious ? " · start from previous clip's last frame" : "";
+          out.push(`#### Shot ${s.number}.${shot.number} (${shot.durationSeconds}s · ${shot.transition || "cut"}${how})`, "", "```", shot.prompt, "```", "");
         }
       }
     }
+  }
+
+  const rows = timeline(ep);
+  if (rows.length > 0) {
+    out.push("## Edit guide", "", "Name each downloaded clip by its code, drop them on the timeline in this order, then import the captions file.", "");
+    out.push("| Clip | Starts | Length | Transition in | Voiceover |", "|---|---|---|---|---|");
+    for (const r of rows) {
+      const how = r.continueFromPrevious ? `${r.transition} (from last frame)` : r.transition;
+      out.push(`| ${r.clip} | ${fmtClock(r.start)} | ${r.duration}s | ${how} | ${r.voiceover.replace(/\|/g, "/")} |`);
+    }
+    out.push("");
   }
 
   if (ep.pkg) {
