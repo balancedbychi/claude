@@ -28,19 +28,19 @@ import { StudioProvider } from "@/lib/use-studio.ts";
 type NavItem = { href: string; label: string; icon: LucideIcon; blurb: string; bot: BotId };
 
 export const CREATE: NavItem[] = [
-  { href: "/builder", label: "Episode Builder", icon: Clapperboard, blurb: "Idea to storyboard: hooks, a timed script, keyframe and animation prompts, and an edit guide.", bot: "scout" },
-  { href: "/ugc", label: "UGC Ad Builder", icon: ShoppingBag, blurb: "Product review storyboards with your AI creator holding, applying and loving the product.", bot: "bestie" },
-  { href: "/commercial", label: "Commercial Builder", icon: Megaphone, blurb: "Turn one product into a cinematic, fully directed brand commercial.", bot: "bestie" },
-  { href: "/transitions", label: "Try-On Transitions", icon: Shirt, blurb: "Outfit and makeup transformations, step by step, with precise timings.", bot: "bella" },
-  { href: "/vault", label: "Prompt Vault", icon: BookOpen, blurb: "Proven image prompts, camera moves and looks, filled with your cast and products.", bot: "dot" },
+  { href: "/builder", label: "Episode Builder", icon: Clapperboard, blurb: "Idea to storyboard: hooks, a timed script, keyframe and animation prompts, and an edit guide.", bot: "hooks" },
+  { href: "/ugc", label: "UGC Ad Builder", icon: ShoppingBag, blurb: "Product review storyboards with your AI creator holding, applying and loving the product.", bot: "ads" },
+  { href: "/commercial", label: "Commercial Builder", icon: Megaphone, blurb: "Turn one product into a cinematic, fully directed brand commercial.", bot: "ads" },
+  { href: "/transitions", label: "Try-On Transitions", icon: Shirt, blurb: "Outfit and makeup transformations, step by step, with precise timings.", bot: "casting" },
+  { href: "/vault", label: "Prompt Vault", icon: BookOpen, blurb: "Proven image prompts, camera moves and looks, filled with your cast and products.", bot: "director" },
 ];
 
 export const LIBRARY: NavItem[] = [
-  { href: "/cast", label: "Cast Studio", icon: Users, blurb: "Your AI influencers and recurring cast.", bot: "bella" },
-  { href: "/sets", label: "Set Designer", icon: Sofa, blurb: "Luxury homes and studios, room by room.", bot: "sage" },
-  { href: "/products", label: "Products", icon: Package, blurb: "Packaging and claims for every product.", bot: "bestie" },
-  { href: "/projects", label: "Projects", icon: Library, blurb: "Every episode and ad you've built.", bot: "bow" },
-  { href: "/results", label: "Results", icon: BarChart3, blurb: "Track how your posts perform, week by week.", bot: "nia" },
+  { href: "/cast", label: "Cast Studio", icon: Users, blurb: "Your AI influencers and recurring cast.", bot: "casting" },
+  { href: "/sets", label: "Set Designer", icon: Sofa, blurb: "Luxury homes and studios, room by room.", bot: "sets" },
+  { href: "/products", label: "Products", icon: Package, blurb: "Packaging and claims for every product.", bot: "ads" },
+  { href: "/projects", label: "Projects", icon: Library, blurb: "Every episode and ad you've built.", bot: "manager" },
+  { href: "/results", label: "Results", icon: BarChart3, blurb: "Track how your posts perform, week by week.", bot: "stats" },
 ];
 
 export interface Account {

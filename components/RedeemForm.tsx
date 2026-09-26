@@ -26,7 +26,7 @@ export function RedeemForm({ email, title = "unlock your team", next = "/" }: { 
   return (
     <main className="login">
       <form onSubmit={submit} className="panel glow login-card">
-        <img src="/brand/logo.webp" alt={BRAND.name} className="login-logo" />
+        <img src="/brand/logo.webp" alt={BRAND.name} className="login-logo" width={210} height={225} />
         <div className="stack tight">
           <h1 className="display" style={{ fontSize: 34, textAlign: "center" }}>{title}</h1>
           <p className="muted small" style={{ textAlign: "center" }}>Signed in as {email}. Enter the access code from your purchase email.</p>

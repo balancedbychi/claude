@@ -135,7 +135,7 @@ export function EpisodeBuilder({ tool: kind }: { tool: ToolKind }) {
             <span className="eyebrow">{teamWorking ? "the team is on it. browse around, just keep this tab open" : "the team hit a snag"}</span>
             {!teamWorking && <button className="btn btn-soft btn-sm" onClick={() => team.finish(episode)}>try again from here</button>}
           </div>
-          <div className="progress"><i style={{ width: `${Math.round(team.run.progress * 100)}%` }} /></div>
+          <div className={`progress ${teamWorking ? "running" : ""}`}><i style={{ width: `${Math.round(team.run.progress * 100)}%` }} /></div>
           <TeamFeed feed={team.run.feed} />
         </section>
       ) : step === 0 ? (

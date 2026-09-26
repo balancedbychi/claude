@@ -74,7 +74,7 @@ export async function runPipeline(opts: {
 
   // 1. Ideas (episodes only)
   if (p.kind === "episode" && !p.concept) {
-    const m = say("scout", "reading your idea and pitching hooks…", "working");
+    const m = say("hooks", "reading your idea and pitching hooks…", "working");
     const { concepts } = await post<{ concepts: Concept[] }>("/api/concepts", { topic: p.topic, bible: lib.bible, characters: lib.characters });
     const pick = concepts[0];
     apply({ concept: pick });
@@ -86,13 +86,13 @@ export async function runPipeline(opts: {
   if (!p.script) {
     let script: Script;
     if (p.kind === "episode") {
-      const m = say("penny", `writing a ${opts.targetMinutes ? `${opts.targetMinutes}-minute` : "4½-minute"} script…`, "working");
+      const m = say("writer", `writing a ${opts.targetMinutes ? `${opts.targetMinutes}-minute` : "4½-minute"} script…`, "working");
       script = await post<Script>("/api/script", { concept: p.concept, bible: lib.bible, characters: lib.characters, locations: lib.locations, targetMinutes: opts.targetMinutes ?? 4.5 });
       resay(m, `“${script.title}”: ${script.scenes.length} scenes, ${mins(script.totalSeconds)}, ending on a cliffhanger.`, "done");
     } else {
       const product = lib.products.find((x) => x.id === p.brief?.productId);
-      say("bestie", `brief's in: ${[product?.name, p.brief?.angle, `${p.brief?.lengthSeconds}s`].filter(Boolean).join(" · ")}. passing it to penny.`, "done");
-      const m = say("penny", "writing the beats and a few extra hooks to test…", "working");
+      say("ads", `brief's in: ${[product?.name, p.brief?.angle, `${p.brief?.lengthSeconds}s`].filter(Boolean).join(" · ")}. passing it to the script writer.`, "done");
+      const m = say("writer", "writing the beats and a few extra hooks to test…", "working");
       script = await post<Script>("/api/beats", { kind: p.kind, brief: p.brief, bible: lib.bible, characters: lib.characters, locations: lib.locations, products: lib.products });
       resay(m, `${script.scenes.length} beats in ${script.totalSeconds}s, plus ${script.altHooks.length} alternative hooks to A/B test.`, "done");
     }
@@ -104,7 +104,7 @@ export async function runPipeline(opts: {
   const scenes = p.script!.scenes;
   const todo = scenes.filter((s) => !p.shots.some((x) => x.sceneNumber === s.number));
   if (todo.length > 0) {
-    const m = say("dot", `storyboarding ${todo.length} ${p.kind === "episode" ? "scenes" : "beats"}…`, "working");
+    const m = say("director", `storyboarding ${todo.length} ${p.kind === "episode" ? "scenes" : "beats"}…`, "working");
     let finished = scenes.length - todo.length;
     const product = lib.products.filter((x) => x.id === p.brief?.productId);
     await pool(todo, 3, async (scene) => {
@@ -132,7 +132,7 @@ export async function runPipeline(opts: {
 
   // 4. Posting package
   if (!p.pkg) {
-    const bot: BotId = p.kind === "episode" ? "scout" : "bestie";
+    const bot: BotId = p.kind === "episode" ? "hooks" : "ads";
     const m = say(bot, "writing titles, the caption and a thumbnail idea…", "working");
     const pkg = await post<PackageInfo>("/api/package", { script: p.script, bible: lib.bible, characters: lib.characters, kind: p.kind });
     apply({ pkg });
@@ -140,11 +140,11 @@ export async function runPipeline(opts: {
     tick();
   }
 
-  say("bow", `all done ✨ your ${tool.label.replace(" Builder", "").toLowerCase()} is ready to generate. open it to copy prompts or tweak anything.`, "done");
+  say("manager", `all done ✨ your ${tool.label.replace(" Builder", "").toLowerCase()} is ready to generate. open it to copy prompts or tweak anything.`, "done");
   return p;
 }
 
-/** What bow sends for planning: library items as short labels. */
+/** What the team manager sends for planning: library items as short labels. */
 export function libraryLabels(lib: Library) {
   return {
     niche: lib.bible.niche,

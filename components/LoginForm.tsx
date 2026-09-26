@@ -64,7 +64,7 @@ export function LoginForm({ mode, next, initialError }: { mode: "supabase" | "de
   return (
     <main className="login">
       <form onSubmit={submit} className="panel glow login-card">
-        <img src="/brand/logo.webp" alt={BRAND.name} className="login-logo" />
+        <img src="/brand/logo.webp" alt={BRAND.name} className="login-logo" width={210} height={225} />
         <div className="stack tight">
           <h1 className="display" style={{ fontSize: 34, textAlign: "center" }}>
             {tab === "signin" ? <>your team is <em>waiting</em></> : <>meet your <em>content team</em></>}

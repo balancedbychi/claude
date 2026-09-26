@@ -26,7 +26,7 @@ export function Bot({ id, size = 40, halo = true, badge = true }: { id: BotId; s
   );
 }
 
-/** The bot's name in its accent colour, as in "8am: hook scout's already looked". */
+/** The bot's name in its accent colour, as in "8am: hook finder's already looked". */
 export function BotName({ id }: { id: BotId }) {
   return (
     <span className="bot-name" style={{ color: TEAM[id].color }}>

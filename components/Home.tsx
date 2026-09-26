@@ -44,14 +44,14 @@ export function Home() {
     const shots = episodes.reduce((n, e) => n + e.shots.reduce((m, s) => m + s.shots.length, 0), 0);
     const eps = episodes.filter((e) => e.kind === "episode").length;
     return {
-      bow: team.busy ? "running a job right now…" : "ready when you are. just tell me what you want.",
-      scout: eps ? `${eps} episode${eps === 1 ? "" : "s"} pitched so far.` : "got a story idea? i'll find the hook.",
-      penny: scripts[0] ? `last wrote “${scripts[0].script!.title}”.` : "i'll write your first script.",
-      dot: shots ? `${shots} shots storyboarded so far.` : "every shot gets an image + animation prompt.",
-      bestie: products.length ? `${products.length} product${products.length === 1 ? "" : "s"} on the shelf. ask me for an ad.` : "add a product and i'll write ads for it.",
-      bella: characters.length ? `${characters.length} face${characters.length === 1 ? "" : "s"} cast and locked.` : "no cast yet. let's design your first face.",
-      sage: locations.length ? `${locations.length} room${locations.length === 1 ? "" : "s"} designed.` : "want a luxury home set? i'll design it.",
-      nia: !due ? "checking your numbers…" : due.due ? `${due.due} post${due.due === 1 ? "" : "s"} need${due.due === 1 ? "s" : ""} this week's numbers.` : due.tracked ? "all caught up this week ✓" : "track your first post and i'll find your winners.",
+      manager: team.busy ? "running a job right now…" : "ready when you are. just tell me what you want.",
+      hooks: eps ? `${eps} episode${eps === 1 ? "" : "s"} pitched so far.` : "got a story idea? i'll find the hook.",
+      writer: scripts[0] ? `last wrote “${scripts[0].script!.title}”.` : "i'll write your first script.",
+      director: shots ? `${shots} shots storyboarded so far.` : "every shot gets an image + animation prompt.",
+      ads: products.length ? `${products.length} product${products.length === 1 ? "" : "s"} on the shelf. ask me for an ad.` : "add a product and i'll write ads for it.",
+      casting: characters.length ? `${characters.length} face${characters.length === 1 ? "" : "s"} cast and locked.` : "no cast yet. let's design your first face.",
+      sets: locations.length ? `${locations.length} room${locations.length === 1 ? "" : "s"} designed.` : "want a luxury home set? i'll design it.",
+      stats: !due ? "checking your numbers…" : due.due ? `${due.due} post${due.due === 1 ? "" : "s"} need${due.due === 1 ? "s" : ""} this week's numbers.` : due.tracked ? "all caught up this week ✓" : "track your first post and i'll find your winners.",
     };
   }, [episodes, products, characters, locations, due, team.busy]);
 
@@ -75,7 +75,7 @@ export function Home() {
             one ask. a whole <em>content team</em>.
           </h1>
           <p className="muted" style={{ fontSize: 17, maxWidth: 560 }}>
-            Describe an episode, an ad or a transformation in your own words. bow briefs the team and they take it from idea to
+            Describe an episode, an ad or a transformation in your own words. the team manager briefs everyone and they take it from idea to
             a shot-by-shot storyboard, captions and all.
           </p>
 
@@ -92,7 +92,7 @@ export function Home() {
               disabled={team.busy}
             />
             <div className="row between">
-              <span className="faint tiny">bow picks the tool, your cast, product and set. press enter to send.</span>
+              <span className="faint tiny">the team manager picks the tool, your cast, product and set. press enter to send.</span>
               <button className="btn btn-primary" disabled={!text.trim() || team.busy}>
                 {team.busy ? <Loader2 size={16} className="spin" /> : <Send size={16} />}
                 {team.busy ? "team's working…" : "send to the team"}
@@ -110,10 +110,10 @@ export function Home() {
           {run && (
             <section className="panel dotted stack" style={{ marginTop: 10 }}>
               <div className="row between">
-                <span className="eyebrow">{run.status === "done" ? "done ✨" : run.status === "error" ? "the team hit a snag" : "the team is on it"}</span>
+                <span className={`eyebrow ${run.status === "done" ? "celebrate" : ""}`}>{run.status === "done" ? "done ✨" : run.status === "error" ? "the team hit a snag" : "the team is on it"}</span>
                 {!team.busy && <button className="btn btn-ghost btn-sm" onClick={team.dismiss}>clear</button>}
               </div>
-              <div className="progress"><i style={{ width: `${Math.round(run.progress * 100)}%` }} /></div>
+              <div className={`progress ${team.busy ? "running" : ""}`}><i style={{ width: `${Math.round(run.progress * 100)}%` }} /></div>
               <TeamFeed feed={run.feed} />
               {runProject && (
                 <div className="row end">

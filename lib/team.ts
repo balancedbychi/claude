@@ -1,27 +1,26 @@
-// The AI team. Each bot owns part of the work and "reports in" while it runs,
-// so the studio feels like a team working for you rather than a form.
+// The AI team. Each bot is named after its job, owns part of the work and
+// reports in while it runs, so the studio feels like a team working for you.
 
-export type BotId = "bow" | "scout" | "penny" | "dot" | "bella" | "sage" | "bestie" | "nia";
+export type BotId = "manager" | "hooks" | "writer" | "director" | "ads" | "casting" | "sets" | "stats";
 
 export interface Teammate {
   id: BotId;
-  name: string;
-  role: string;
+  name: string; // what the member sees: the job, in plain words
+  role: string; // a few words on what they handle
   emoji: string;
   color: string; // accent for their name and halo
   href: string; // where their work lives
-  does: string;
 }
 
 export const TEAM: Record<BotId, Teammate> = {
-  bow: { id: "bow", name: "bow", role: "manager", emoji: "🎀", color: "#e0648f", href: "/", does: "Turns your ask into a plan and hands it to the right bots." },
-  scout: { id: "scout", name: "hook scout", role: "ideas & hooks", emoji: "🔎", color: "#3b9b90", href: "/builder", does: "Pitches episode ideas with scroll-stopping first lines." },
-  penny: { id: "penny", name: "penny", role: "writer", emoji: "✍️", color: "#d64f4a", href: "/builder", does: "Writes timed scripts, ad beats and alternative hooks." },
-  dot: { id: "dot", name: "dot", role: "director", emoji: "🎬", color: "#8a6fd3", href: "/builder", does: "Storyboards every shot with image and animation prompts." },
-  bella: { id: "bella", name: "bella", role: "casting", emoji: "💄", color: "#e0648f", href: "/cast", does: "Designs your AI influencers and keeps their faces identical." },
-  sage: { id: "sage", name: "sage", role: "set stylist", emoji: "🛋️", color: "#b8862f", href: "/sets", does: "Designs luxury homes and studios, room by room." },
-  bestie: { id: "bestie", name: "ad bestie", role: "UGC & ads", emoji: "🛍️", color: "#e07a3f", href: "/ugc", does: "Turns a product into UGC ads, commercials and try-ons." },
-  nia: { id: "nia", name: "nia", role: "numbers", emoji: "📊", color: "#3f73c9", href: "/results", does: "Tracks your posts and spots which hooks win." },
+  manager: { id: "manager", name: "team manager", role: "plans every ask", emoji: "🎀", color: "#e0648f", href: "/" },
+  hooks: { id: "hooks", name: "hook finder", role: "ideas & hooks", emoji: "🔎", color: "#3b9b90", href: "/builder" },
+  writer: { id: "writer", name: "script writer", role: "scripts & ad copy", emoji: "✍️", color: "#d64f4a", href: "/builder" },
+  director: { id: "director", name: "storyboard director", role: "shots & prompts", emoji: "🎬", color: "#8a6fd3", href: "/builder" },
+  ads: { id: "ads", name: "ad maker", role: "UGC, ads & commercials", emoji: "🛍️", color: "#e07a3f", href: "/ugc" },
+  casting: { id: "casting", name: "casting agent", role: "your AI characters", emoji: "💄", color: "#e0648f", href: "/cast" },
+  sets: { id: "sets", name: "set designer", role: "homes & locations", emoji: "🛋️", color: "#b8862f", href: "/sets" },
+  stats: { id: "stats", name: "stats tracker", role: "results & winners", emoji: "📊", color: "#3f73c9", href: "/results" },
 };
 
-export const TEAM_ORDER: BotId[] = ["bow", "scout", "penny", "dot", "bestie", "bella", "sage", "nia"];
+export const TEAM_ORDER: BotId[] = ["manager", "hooks", "writer", "director", "ads", "casting", "sets", "stats"];

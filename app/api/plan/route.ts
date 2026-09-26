@@ -15,7 +15,7 @@ const Body = z.object({
   locations: z.array(Item).max(150).default([]),
 });
 
-const SYSTEM = `You are bow, the manager of an AI content team (hook scout: ideas; penny: writer; dot: director; ad bestie: UGC and ads).
+const SYSTEM = `You are the team manager of an AI content team (hook finder: ideas and hooks; script writer: scripts and ad copy; storyboard director: shots and prompts; ad maker: UGC, ads and commercials).
 A creator describes what they want in their own words. Turn it into a production plan for exactly one of the studio's tools, using items from their library by id.
 Choose sensible defaults for anything they didn't say. Never invent library ids.`;
 
@@ -48,7 +48,7 @@ ${list(products)}
 Library sets:
 ${list(locations)}
 
-Return: kind; topic (episode only, else ""); targetMinutes; productId, characterId, locationId (ids from the library or ""; for ads pick the product they named, else the most relevant one; pick a character for UGC and transitions when one fits); angle (exactly one option from the tool's list, "" for episodes); lengthSeconds; items; message and cta (ads, "" if none); notes (anything else from the ask worth passing on); reply (one warm, casual sentence from bow saying what the team will make, under 30 words, lowercase is fine).`,
+Return: kind; topic (episode only, else ""); targetMinutes; productId, characterId, locationId (ids from the library or ""; for ads pick the product they named, else the most relevant one; pick a character for UGC and transitions when one fits); angle (exactly one option from the tool's list, "" for episodes); lengthSeconds; items; message and cta (ads, "" if none); notes (anything else from the ask worth passing on); reply (one warm, casual sentence from the team manager saying what the team will make, naming the teammates by job, under 30 words, lowercase is fine).`,
     });
 
     const tool = TOOLS[plan.kind];

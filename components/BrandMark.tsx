@@ -1,14 +1,6 @@
 import { BRAND } from "@/lib/brand.ts";
 
-/** The wordmark in the logo's bubbly style: pink and lilac with an ink outline. */
+/** The logo, cut out of its background so it sits on the paper. */
 export function BrandMark() {
-  return (
-    <span className="brand">
-      <img src="/brand/icon.svg" alt="" className="brand-mark" />
-      <span className="brand-name">
-        bot + <b>bow</b> ai
-      </span>
-      <span className="sr-only">{BRAND.name}</span>
-    </span>
-  );
+  return <img src="/brand/logo-sm.webp" alt={BRAND.name} className="brand-logo" width={132} height={142} />;
 }

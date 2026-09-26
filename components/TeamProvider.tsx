@@ -86,7 +86,7 @@ export function TeamProvider({ children }: { children: React.ReactNode }) {
   const ask = useCallback(
     async (text: string) => {
       setRun({ ask: text, projectId: null, status: "planning", feed: [{ id: `m${++seq}`, bot: "you", text, state: "done", at: Date.now() }], progress: 0 });
-      const m = say("bow", "reading your ask and briefing the team…", "working");
+      const m = say("manager", "reading your ask and briefing the team…", "working");
       let plan: Plan;
       try {
         const { bible, characters, locations, products } = libRef.current;
@@ -112,7 +112,7 @@ export function TeamProvider({ children }: { children: React.ReactNode }) {
       // Make sure the project is in the library, so the team's updates land on it.
       libRef.current.setEpisodes((list) => (list.some((e) => e.id === project.id) ? list.map((e) => (e.id === project.id ? project : e)) : [project, ...list]));
       setRun({ ask: "", projectId: project.id, status: "running", feed: [], progress: 0 });
-      say("bow", stepsLeft(project) > 0 ? "got it, the team will take it from here." : "this one's already finished!", "done");
+      say("manager", stepsLeft(project) > 0 ? "got it, the team will take it from here." : "this one's already finished!", "done");
       await go(project, targetMinutes);
     },
     [go, say],
@@ -163,12 +163,12 @@ function Dock() {
   return (
     <aside className="dock" aria-live="polite">
       <div className="row between nowrap">
-        <strong className="small">{run.status === "done" ? "the team is done ✨" : run.status === "error" ? "the team got stuck" : "the team is working…"}</strong>
+        <strong className={`small ${run.status === "done" ? "celebrate" : ""}`}>{run.status === "done" ? "the team is done ✨" : run.status === "error" ? "the team got stuck" : "the team is working…"}</strong>
         {!(run.status === "planning" || run.status === "running") && (
           <button className="btn btn-ghost btn-sm" onClick={dismiss} aria-label="Close"><X size={14} /></button>
         )}
       </div>
-      <div className="progress"><i style={{ width: `${Math.round(run.progress * 100)}%` }} /></div>
+      <div className={`progress ${run.status === "running" || run.status === "planning" ? "running" : ""}`}><i style={{ width: `${Math.round(run.progress * 100)}%` }} /></div>
       <TeamFeed feed={run.feed} limit={2} />
       {project && (
         <Link href={href} className="btn btn-soft btn-sm">Open project <ArrowRight size={14} /></Link>
