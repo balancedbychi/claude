@@ -2,10 +2,13 @@
 
 import type { Character, Episode, Location, Product, SeriesBible, Shot } from "./types.ts";
 
-// v1 keeps member data in their own browser. Swap these functions for a
-// database (e.g. Supabase) when members need their work on multiple devices.
+// Member data lives on the server (lib/use-studio.ts). This module keeps the
+// defaults, id helper and upgrades for older saves, and reads work saved in
+// the browser by versions before accounts, so it can be moved to the server
+// once on first sign-in.
 
 const KEYS = { bible: "eb_bible", characters: "eb_characters", locations: "eb_locations", products: "eb_products", episodes: "eb_episodes" } as const;
+const IMPORTED = "eb_imported_to_account";
 
 export const DEFAULT_BIBLE: SeriesBible = {
   seriesName: "",
@@ -24,33 +27,38 @@ function read<T>(key: string, fallback: T): T {
   }
 }
 
-function write(key: string, value: unknown): void {
+/** Work saved in this browser before accounts existed, if any and not already imported. */
+export function readLocalStudio() {
   try {
-    localStorage.setItem(key, JSON.stringify(value));
+    if (localStorage.getItem(IMPORTED)) return null;
   } catch {
-    // Storage full or blocked (private mode). The session still works in memory.
+    return null;
   }
+  const local = {
+    bible: read<SeriesBible>(KEYS.bible, DEFAULT_BIBLE),
+    characters: read<Character[]>(KEYS.characters, []),
+    locations: read<Location[]>(KEYS.locations, []),
+    products: read<Product[]>(KEYS.products, []),
+    episodes: read<Episode[]>(KEYS.episodes, []).map(upgradeEpisode),
+  };
+  const hasWork = local.characters.length || local.locations.length || local.products.length || local.episodes.length;
+  return hasWork ? local : null;
 }
 
-export const store = {
-  loadBible: () => read<SeriesBible>(KEYS.bible, DEFAULT_BIBLE),
-  saveBible: (b: SeriesBible) => write(KEYS.bible, b),
-  loadCharacters: () => read<Character[]>(KEYS.characters, []),
-  saveCharacters: (c: Character[]) => write(KEYS.characters, c),
-  loadLocations: () => read<Location[]>(KEYS.locations, []),
-  saveLocations: (l: Location[]) => write(KEYS.locations, l),
-  loadProducts: () => read<Product[]>(KEYS.products, []),
-  saveProducts: (p: Product[]) => write(KEYS.products, p),
-  loadEpisodes: () => read<Episode[]>(KEYS.episodes, []).map(upgradeEpisode),
-  saveEpisodes: (e: Episode[]) => write(KEYS.episodes, e),
-};
+export function markLocalImported(): void {
+  try {
+    localStorage.setItem(IMPORTED, new Date().toISOString());
+  } catch {
+    // Blocked storage: the import simply offers itself again next time.
+  }
+}
 
 export function newId(prefix: string): string {
   return `${prefix}_${Math.random().toString(36).slice(2, 10)}`;
 }
 
 /** Fill fields added after v1 so older saved episodes keep working. */
-function upgradeEpisode(ep: Episode): Episode {
+export function upgradeEpisode(ep: Episode): Episode {
   return {
     ...ep,
     kind: ep.kind ?? "episode",

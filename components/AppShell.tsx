@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
+  BarChart3,
   BookOpen,
+  ShieldCheck,
   Clapperboard,
   Home,
   Library,
@@ -16,6 +18,9 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { BRAND } from "@/lib/brand.ts";
+import { SignOutButton } from "./SignOutButton.tsx";
+import { SaveStatus } from "./SaveStatus.tsx";
+import { StudioProvider } from "@/lib/use-studio.ts";
 
 type NavItem = { href: string; label: string; icon: LucideIcon; blurb: string };
 
@@ -32,7 +37,14 @@ export const LIBRARY: NavItem[] = [
   { href: "/sets", label: "Set Designer", icon: Sofa, blurb: "Luxury homes and studios, room by room." },
   { href: "/products", label: "Products", icon: Package, blurb: "Packaging and claims for every product." },
   { href: "/projects", label: "Projects", icon: Library, blurb: "Every episode and ad you've built." },
+  { href: "/results", label: "Results", icon: BarChart3, blurb: "Track how your posts perform, week by week." },
 ];
+
+export interface Account {
+  email: string;
+  isAdmin: boolean;
+  hasPerformance: boolean;
+}
 
 const TABS: { href: string; label: string; icon: LucideIcon }[] = [
   { href: "/", label: "Home", icon: Home },
@@ -55,7 +67,7 @@ function NavLink({ href, label, icon: Icon, pathname }: { href: string; label: s
   );
 }
 
-export function AppShell({ children }: { children: React.ReactNode }) {
+export function AppShell({ children, account }: { children: React.ReactNode; account: Account }) {
   const pathname = usePathname();
   return (
     <div className="app">
@@ -70,8 +82,17 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           {CREATE.map((t) => <NavLink key={t.href} {...t} pathname={pathname} />)}
           <div className="nav-label eyebrow">Library</div>
           {LIBRARY.map((t) => <NavLink key={t.href} {...t} pathname={pathname} />)}
+          {account.isAdmin && (
+            <>
+              <div className="nav-label eyebrow">Owner</div>
+              <NavLink href="/admin" label="Admin" icon={ShieldCheck} pathname={pathname} />
+            </>
+          )}
         </nav>
-        <div className="sidebar-foot faint tiny">{BRAND.tagline}</div>
+        <div className="sidebar-foot stack tight">
+          <span className="faint tiny" title={account.email} style={{ overflow: "hidden", textOverflow: "ellipsis" }}>{account.email}</span>
+          <SignOutButton />
+        </div>
       </aside>
 
       <div className="main">
@@ -81,8 +102,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             <span className="brand-name">{BRAND.name}</span>
           </Link>
         </div>
-        {children}
+        <StudioProvider>{children}</StudioProvider>
       </div>
+      <SaveStatus />
 
       <nav className="tabbar">
         {TABS.map(({ href, label, icon: Icon }) => (

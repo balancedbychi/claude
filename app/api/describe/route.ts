@@ -1,3 +1,4 @@
+import { withMember } from "@/lib/server/auth.ts";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { generate } from "@/lib/claude.ts";
@@ -19,7 +20,7 @@ const SYSTEM = `You write visual reference descriptions for AI video generation,
 Describe only what is visible: physical appearance, clothing, materials, colours, layout. Use precise, concrete wording (e.g. "shoulder-length copper curls" not "nice hair").
 Never identify who a person is, guess their name, or say they resemble anyone; treat them as an original fictional character. Do not infer sensitive traits such as ethnicity, religion or health; describe visible skin tone and features instead.`;
 
-export async function POST(req: Request) {
+export const POST = withMember(async (req) => {
   const body = await readBody(req, Body);
   if ("error" in body) return body.error;
   const { kind, image } = body.data;
@@ -62,4 +63,4 @@ export async function POST(req: Request) {
   } catch (err) {
     return errorResponse(err);
   }
-}
+});

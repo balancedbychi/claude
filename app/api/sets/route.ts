@@ -1,3 +1,4 @@
+import { withMember } from "@/lib/server/auth.ts";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { generate } from "@/lib/claude.ts";
@@ -13,7 +14,7 @@ const Body = z.object({
 
 // Designs a whole recurring set (a house, an office, a salon) room by room.
 // Each room's details are later pasted verbatim into every shot filmed there.
-export async function POST(req: Request) {
+export const POST = withMember(async (req) => {
   const body = await readBody(req, Body);
   if ("error" in body) return body.error;
   const { brief, bible, roomCount } = body.data;
@@ -39,4 +40,4 @@ Keep the rooms consistent with each other so they read as one property.`,
   } catch (err) {
     return errorResponse(err);
   }
-}
+});

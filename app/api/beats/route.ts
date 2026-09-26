@@ -1,7 +1,9 @@
+import { withMember } from "@/lib/server/auth.ts";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { generate } from "@/lib/claude.ts";
 import { systemFor } from "@/lib/playbook.ts";
+import { insightsFor } from "@/lib/server/insights.ts";
 import { BibleIn, BriefIn, CharacterIn, LocationIn, ProductIn, ScriptOut } from "@/lib/schemas.ts";
 import { castBlock, errorResponse, productsBlock, readBody, setsBlock } from "@/lib/api.ts";
 import { TOOLS } from "@/lib/tools.ts";
@@ -17,7 +19,7 @@ const Body = z.object({
 
 // The "script" for the short-form ad tools: timed beats with dialogue and
 // on-screen text. The storyboard step then breaks each beat into shots.
-export async function POST(req: Request) {
+export const POST = withMember(async (req) => {
   const body = await readBody(req, Body);
   if ("error" in body) return body.error;
   const { kind, brief, bible, characters, locations, products } = body.data;
@@ -34,7 +36,7 @@ export async function POST(req: Request) {
 
   try {
     const script = await generate({
-      system: systemFor("beats", kind),
+      system: systemFor("beats", kind, await insightsFor("beats", kind)),
       schema: ScriptOut,
       effort: "high",
       prompt: `${tool.beatsDirection}
@@ -68,4 +70,4 @@ Return a title, the hookStyle of the opening you wrote, altHooks (4 alternative 
   } catch (err) {
     return errorResponse(err);
   }
-}
+});

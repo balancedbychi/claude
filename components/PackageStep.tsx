@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Captions, Download, FileText, Loader2, Mic, Sparkles } from "lucide-react";
+import { BarChart3, Captions, Download, Loader2, Mic, Sparkles } from "lucide-react";
+import Link from "next/link";
 import { post } from "@/lib/client-api.ts";
 import { captionsSrt, fmtClock, timeline, voiceoverScript } from "@/lib/edit-guide.ts";
 import { episodeToMarkdown } from "@/lib/export.ts";
@@ -149,6 +150,15 @@ export function PackageStep({ tool, bible, characters, locations, products, epis
             <Download size={15} /> Download pack
           </button>
         </div>
+      </div>
+      <div className="panel row between">
+        <div className="stack tight">
+          <h3>Posted it?</h3>
+          <span className="faint small">Track its results. Winning scripts teach the studio what works.</span>
+        </div>
+        <Link href={`/results?project=${encodeURIComponent(episode.id)}`} className="btn btn-soft">
+          <BarChart3 size={15} /> Track results
+        </Link>
       </div>
     </section>
   );

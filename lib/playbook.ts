@@ -2,9 +2,9 @@
 // sent to Claude with every request that needs it.
 //
 // This is the first place to edit when tuning output quality. The second is
-// `insightsFor()` at the bottom: the slot where proven winners from the
-// community (performance check-ins, approved by an admin) will be added so
-// the studio keeps writing more of what actually performs.
+// the admin dashboard: winners approved there, plus live hook-style results,
+// are appended by lib/server/insights.ts so the studio keeps writing more of
+// what actually performs.
 
 import type { ToolKind } from "./types.ts";
 
@@ -89,7 +89,7 @@ const PACKAGING = `TITLES AND CAPTIONS
 export type PlaybookTask = "concepts" | "script" | "beats" | "shots" | "package" | "sets" | "character";
 
 /** The system prompt for a task: the base, the relevant playbook sections, and any community insights. */
-export function systemFor(task: PlaybookTask, kind: ToolKind = "episode"): string {
+export function systemFor(task: PlaybookTask, kind: ToolKind = "episode", insights = ""): string {
   const toolCraft = kind === "ugc" ? [ADS, UGC] : kind === "commercial" ? [ADS, COMMERCIAL] : kind === "transition" ? [TRANSITIONS] : [STORY];
   const sections: Record<PlaybookTask, string[]> = {
     concepts: [HOOKS, STORY, CHARACTERS],
@@ -100,15 +100,5 @@ export function systemFor(task: PlaybookTask, kind: ToolKind = "episode"): strin
     sets: [],
     character: [CHARACTERS],
   };
-  return [BASE, ...sections[task], insightsFor(task, kind)].filter(Boolean).join("\n\n");
-}
-
-/**
- * Community insights: approved winning hooks and scripts, and what the data
- * says about hook styles, for this task and tool. Empty until the
- * performance loop is live. Keep it short and stable within a day so prompt
- * caching keeps working.
- */
-export function insightsFor(_task: PlaybookTask, _kind: ToolKind): string {
-  return "";
+  return [BASE, ...sections[task], insights].filter(Boolean).join("\n\n");
 }

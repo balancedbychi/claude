@@ -22,3 +22,9 @@ test("hook styles are unique and listed in the playbook", () => {
   assert.equal(new Set(HOOK_STYLES).size, HOOK_STYLES.length);
   for (const h of HOOK_STYLES) assert.ok(systemFor("concepts").includes(h));
 });
+
+test("community insights are appended last when present", () => {
+  const s = systemFor("beats", "ugc", "WHAT'S WORKING NOW\n- example");
+  assert.ok(s.endsWith("WHAT'S WORKING NOW\n- example"));
+  assert.ok(!systemFor("beats", "ugc").includes("WHAT'S WORKING NOW"));
+});

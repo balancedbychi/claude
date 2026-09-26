@@ -1,17 +1,43 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { COOKIE, gateDisabled, isValidToken } from "@/lib/access.ts";
+import { createServerClient } from "@supabase/ssr";
+import { DEV_COOKIE, readDevCookie, supabaseConfigured } from "@/lib/dev-session.ts";
 
-export async function proxy(req: NextRequest) {
-  if (gateDisabled() || (await isValidToken(req.cookies.get(COOKIE)?.value))) {
-    return NextResponse.next();
+// Runs before every page and API request: refreshes the Supabase session and
+// sends signed-out visitors to /login. Membership (paid access) is checked
+// by the studio layout and by every API route.
+
+const PUBLIC = ["/login", "/auth/", "/api/auth/"];
+
+export async function proxy(request: NextRequest) {
+  const path = request.nextUrl.pathname;
+  let response = NextResponse.next({ request });
+  let signedIn = false;
+
+  if (supabaseConfigured()) {
+    const supabase = createServerClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!, {
+      cookies: {
+        getAll: () => request.cookies.getAll(),
+        setAll: (list, headers) => {
+          list.forEach(({ name, value }) => request.cookies.set(name, value));
+          response = NextResponse.next({ request });
+          list.forEach(({ name, value, options }) => response.cookies.set(name, value, options));
+          Object.entries(headers ?? {}).forEach(([k, v]) => response.headers.set(k, v));
+        },
+      },
+    });
+    const { data } = await supabase.auth.getClaims();
+    signedIn = Boolean(data?.claims?.sub);
+  } else if (process.env.NODE_ENV !== "production") {
+    signedIn = Boolean(await readDevCookie(request.cookies.get(DEV_COOKIE)?.value));
   }
-  if (req.nextUrl.pathname.startsWith("/api/")) {
-    return NextResponse.json({ error: "Members only. Please log in." }, { status: 401 });
-  }
-  return NextResponse.redirect(new URL("/login", req.url));
+
+  if (signedIn || PUBLIC.some((p) => path.startsWith(p))) return response;
+  if (path.startsWith("/api/")) return NextResponse.json({ error: "Please sign in." }, { status: 401 });
+  const login = new URL("/login", request.url);
+  if (path !== "/") login.searchParams.set("next", path + request.nextUrl.search);
+  return NextResponse.redirect(login);
 }
 
 export const config = {
-  // Everything except the login page, its API route and static assets.
-  matcher: ["/((?!login|api/login|_next/static|_next/image|favicon.ico).*)"],
+  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
 };

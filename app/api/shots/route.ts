@@ -1,3 +1,4 @@
+import { withMember } from "@/lib/server/auth.ts";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { generate } from "@/lib/claude.ts";
@@ -22,7 +23,7 @@ const Body = z.object({
 
 // One call per scene keeps each response small and lets the UI fill in
 // scenes as they finish instead of waiting on the whole episode.
-export async function POST(req: Request) {
+export const POST = withMember(async (req) => {
   const body = await readBody(req, Body);
   if ("error" in body) return body.error;
   const { scene, prevScene, nextScene, bible, characters, locations, products, kind, maxClipSeconds } = body.data;
@@ -82,4 +83,4 @@ Rules:
   } catch (err) {
     return errorResponse(err);
   }
-}
+});

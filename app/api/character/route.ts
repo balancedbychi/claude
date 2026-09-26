@@ -1,3 +1,4 @@
+import { withMember } from "@/lib/server/auth.ts";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { generate } from "@/lib/claude.ts";
@@ -13,7 +14,7 @@ const Body = z.object({
 
 // Drafts an original character sheet from a short idea. The member reviews
 // and edits it before locking it in Cast Studio.
-export async function POST(req: Request) {
+export const POST = withMember(async (req) => {
   const body = await readBody(req, Body);
   if ("error" in body) return body.error;
   const { idea, bible, existing } = body.data;
@@ -42,4 +43,4 @@ Return:
   } catch (err) {
     return errorResponse(err);
   }
-}
+});

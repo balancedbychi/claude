@@ -1,7 +1,9 @@
+import { withMember } from "@/lib/server/auth.ts";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { generate } from "@/lib/claude.ts";
 import { systemFor } from "@/lib/playbook.ts";
+import { insightsFor } from "@/lib/server/insights.ts";
 import { BibleIn, CharacterIn, PackageOut, ScriptIn, ToolKindIn } from "@/lib/schemas.ts";
 import { errorResponse, readBody } from "@/lib/api.ts";
 import { characterAnchor } from "@/lib/prompt-builder.ts";
@@ -13,7 +15,7 @@ const Body = z.object({
   kind: ToolKindIn.default("episode"),
 });
 
-export async function POST(req: Request) {
+export const POST = withMember(async (req) => {
   const body = await readBody(req, Body);
   if ("error" in body) return body.error;
   const { script, bible, characters, kind } = body.data;
@@ -21,7 +23,7 @@ export async function POST(req: Request) {
 
   try {
     const out = await generate({
-      system: systemFor("package", kind),
+      system: systemFor("package", kind, await insightsFor("package", kind)),
       schema: PackageOut,
       effort: "medium",
       prompt: `Package this ${isAd ? "ad" : kind === "transition" ? "transformation video" : "episode"} for posting on TikTok, Reels and YouTube Shorts.
@@ -47,4 +49,4 @@ Return:
   } catch (err) {
     return errorResponse(err);
   }
-}
+});

@@ -27,23 +27,30 @@ Claude never rewrites a character, room or product description. It only decides 
 
 The app writes prompts; it doesn't generate images or video itself. Members paste the prompts into their image and video tools along with the reference images.
 
-## Run it locally
+## Accounts, results and the feedback loop
+
+- **Accounts:** members sign up with email and password (or an emailed sign-in link) through Supabase Auth, then enter the access code from their purchase to unlock the studio. Performance Pack codes unlock that too. Emails in `ADMIN_EMAILS` get full access and the Admin dashboard.
+- **Data:** the library and every project are saved to Postgres per member, so work follows them across devices. Work saved in the browser by earlier versions is moved to the account on first sign-in.
+- **Results:** members add each posted video (optionally linked to the studio project and the hook they used) and log its numbers weekly. Each post is scored against that member's own typical views (`lib/score.ts`).
+- **Winners:** a studio post at 2× the member's typical views (and at least 1,000 views) becomes a candidate, if the member shares winners. Sharing is on by default, can be turned off on the Results page, and entries are anonymous.
+- **Admin:** you review candidates. Approved hooks and openings, plus hook-style results once a style has 5+ scored posts, are added to the AI's instructions for that tool (`lib/server/insights.ts`, refreshed every 10 minutes).
+
+## Set up
+
+1. **Supabase:** create a project at supabase.com.
+   - Under Authentication → URL Configuration, set the Site URL to your app's address and add `https://<your-domain>/auth/callback` as a redirect URL.
+   - Paste `supabase/migrations/0001_studio.sql` into the SQL editor and run it.
+2. **Environment:** copy `.env.example` to `.env.local` (or into Vercel's environment variables) and fill it in.
+3. **Deploy:** import the repo on Vercel with the same variables.
+
+### Run it locally
 
 ```bash
 npm install
-cp .env.example .env.local   # add your ANTHROPIC_API_KEY
-npm run dev                  # http://localhost:3000
+npm run dev
 ```
 
-Checks: `npm run typecheck`, `npm test`, `npm run build`.
-
-## Deploy (Vercel)
-
-1. Import this repo at vercel.com/new.
-2. Add the environment variables from `.env.example`. `MEMBER_ACCESS_CODES` and `ACCESS_SECRET` are required in production. Without codes the app stays locked.
-3. Deploy, then put the URL and an access code in your Stan Store product's delivery message.
-
-To revoke access, remove a code from `MEMBER_ACCESS_CODES` and redeploy. Anyone logged in with that code is signed out.
+Without the Supabase keys, `npm run dev` uses a development-only sign-in (any email, no password) so the app can be tried against any Postgres in `DATABASE_URL`. This is refused in production. Checks: `npm run typecheck`, `npm test`, `npm run build`.
 
 ## Where things live
 
@@ -60,14 +67,14 @@ To revoke access, remove a code from `MEMBER_ACCESS_CODES` and redeploy. Anyone 
 | `lib/export.ts` | Episode pack → Markdown |
 | `app/api/beats` | Timed beats for the ad tools |
 | `app/api/sets`, `app/api/describe` | Set designer, and reading a character, room or product from a photo |
-| `lib/access.ts`, `proxy.ts`, `app/login` | Access-code gate |
-| `lib/storage.ts` | Characters, sets, products and projects are saved in the member's browser (v1) |
+| `proxy.ts`, `lib/server/auth.ts`, `app/login`, `app/welcome` | Sign-in, membership codes, per-route member checks |
+| `lib/server/*.ts`, `supabase/migrations` | Database access and schema |
+| `lib/score.ts`, `lib/winners.ts` | Performance scoring and winner snapshots |
+| `components/ResultsPage.tsx`, `components/AdminDashboard.tsx` | Results tracking and the admin review queue |
+| `lib/use-studio.ts` | Loads and saves the member's library and projects |
 
-## Known limits of v1
+## Known limits
 
-- Member data lives in their browser. Clearing it or switching devices loses their characters and episodes. The upgrade path is swapping `lib/storage.ts` for a database such as Supabase.
-- Access is shared codes, not individual accounts. You can't see who used what, and a leaked code works until you remove it. Individual logins (e.g. Clerk + Stripe) are the next step once there are paying members.
-- Clips are assembled by the member in their editor. The app plans continuity and gives them the order, captions and voiceover, but doesn't stitch video files itself.
-- Caption timings are spread evenly by word count within each scene. Members nudge them to the final voiceover.
-- Uploaded photos are sent to Claude to be described and are not stored.
-- Nothing limits how often a member can generate, so every generation is paid from your Claude API key. Watch usage in the Anthropic Console, and add per-member limits before scaling.
+- Access codes are shared, not per person: a leaked code works until you remove it from the environment. Stripe checkout with per-member subscriptions is the next step.
+- Results are entered by members. Connected TikTok, Instagram and YouTube accounts (the Performance Pack) will fill them in automatically and are weighted as verified.
+- Nothing yet limits how often a member can generate, so watch usage in the Anthropic Console before scaling and add per-member limits.
