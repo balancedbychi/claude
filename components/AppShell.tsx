@@ -18,26 +18,29 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { BRAND } from "@/lib/brand.ts";
+import type { BotId } from "@/lib/team.ts";
+import { BrandMark } from "./BrandMark.tsx";
+import { TeamProvider } from "./TeamProvider.tsx";
 import { SignOutButton } from "./SignOutButton.tsx";
 import { SaveStatus } from "./SaveStatus.tsx";
 import { StudioProvider } from "@/lib/use-studio.ts";
 
-type NavItem = { href: string; label: string; icon: LucideIcon; blurb: string };
+type NavItem = { href: string; label: string; icon: LucideIcon; blurb: string; bot: BotId };
 
 export const CREATE: NavItem[] = [
-  { href: "/builder", label: "Episode Builder", icon: Clapperboard, blurb: "Idea to storyboard: hooks, a timed script, keyframe and animation prompts, and an edit guide." },
-  { href: "/ugc", label: "UGC Ad Builder", icon: ShoppingBag, blurb: "Product review storyboards with your AI creator holding, applying and loving the product." },
-  { href: "/commercial", label: "Commercial Builder", icon: Megaphone, blurb: "Turn one product into a cinematic, fully directed brand commercial." },
-  { href: "/transitions", label: "Try-On Transitions", icon: Shirt, blurb: "Outfit and makeup transformations, step by step, with precise timings." },
-  { href: "/vault", label: "Prompt Vault", icon: BookOpen, blurb: "Proven image prompts, camera moves and looks, filled with your cast and products." },
+  { href: "/builder", label: "Episode Builder", icon: Clapperboard, blurb: "Idea to storyboard: hooks, a timed script, keyframe and animation prompts, and an edit guide.", bot: "scout" },
+  { href: "/ugc", label: "UGC Ad Builder", icon: ShoppingBag, blurb: "Product review storyboards with your AI creator holding, applying and loving the product.", bot: "bestie" },
+  { href: "/commercial", label: "Commercial Builder", icon: Megaphone, blurb: "Turn one product into a cinematic, fully directed brand commercial.", bot: "bestie" },
+  { href: "/transitions", label: "Try-On Transitions", icon: Shirt, blurb: "Outfit and makeup transformations, step by step, with precise timings.", bot: "bella" },
+  { href: "/vault", label: "Prompt Vault", icon: BookOpen, blurb: "Proven image prompts, camera moves and looks, filled with your cast and products.", bot: "dot" },
 ];
 
 export const LIBRARY: NavItem[] = [
-  { href: "/cast", label: "Cast Studio", icon: Users, blurb: "Your AI influencers and recurring cast." },
-  { href: "/sets", label: "Set Designer", icon: Sofa, blurb: "Luxury homes and studios, room by room." },
-  { href: "/products", label: "Products", icon: Package, blurb: "Packaging and claims for every product." },
-  { href: "/projects", label: "Projects", icon: Library, blurb: "Every episode and ad you've built." },
-  { href: "/results", label: "Results", icon: BarChart3, blurb: "Track how your posts perform, week by week." },
+  { href: "/cast", label: "Cast Studio", icon: Users, blurb: "Your AI influencers and recurring cast.", bot: "bella" },
+  { href: "/sets", label: "Set Designer", icon: Sofa, blurb: "Luxury homes and studios, room by room.", bot: "sage" },
+  { href: "/products", label: "Products", icon: Package, blurb: "Packaging and claims for every product.", bot: "bestie" },
+  { href: "/projects", label: "Projects", icon: Library, blurb: "Every episode and ad you've built.", bot: "bow" },
+  { href: "/results", label: "Results", icon: BarChart3, blurb: "Track how your posts perform, week by week.", bot: "nia" },
 ];
 
 export interface Account {
@@ -47,7 +50,7 @@ export interface Account {
 }
 
 const TABS: { href: string; label: string; icon: LucideIcon }[] = [
-  { href: "/", label: "Home", icon: Home },
+  { href: "/", label: "Team", icon: Home },
   { href: "/builder", label: "Episodes", icon: Clapperboard },
   { href: "/ugc", label: "UGC", icon: ShoppingBag },
   { href: "/cast", label: "Cast", icon: Users },
@@ -70,21 +73,22 @@ function NavLink({ href, label, icon: Icon, pathname }: { href: string; label: s
 export function AppShell({ children, account }: { children: React.ReactNode; account: Account }) {
   const pathname = usePathname();
   return (
+    <StudioProvider>
+    <TeamProvider>
     <div className="app">
       <aside className="sidebar">
-        <Link href="/" className="brand">
-          <span className="brand-mark">{BRAND.mark}</span>
-          <span className="brand-name">{BRAND.name}</span>
+        <Link href="/" aria-label={`${BRAND.name} home`}>
+          <BrandMark />
         </Link>
         <nav className="nav">
-          <NavLink href="/" label="Home" icon={Home} pathname={pathname} />
-          <div className="nav-label eyebrow">Create</div>
+          <NavLink href="/" label="Ask the team" icon={Home} pathname={pathname} />
+          <div className="nav-label eyebrow">do it yourself</div>
           {CREATE.map((t) => <NavLink key={t.href} {...t} pathname={pathname} />)}
-          <div className="nav-label eyebrow">Library</div>
+          <div className="nav-label eyebrow">your library</div>
           {LIBRARY.map((t) => <NavLink key={t.href} {...t} pathname={pathname} />)}
           {account.isAdmin && (
             <>
-              <div className="nav-label eyebrow">Owner</div>
+              <div className="nav-label eyebrow">owner</div>
               <NavLink href="/admin" label="Admin" icon={ShieldCheck} pathname={pathname} />
             </>
           )}
@@ -97,12 +101,11 @@ export function AppShell({ children, account }: { children: React.ReactNode; acc
 
       <div className="main">
         <div className="mobile-top">
-          <Link href="/" className="brand">
-            <span className="brand-mark">{BRAND.mark}</span>
-            <span className="brand-name">{BRAND.name}</span>
+          <Link href="/" aria-label={`${BRAND.name} home`}>
+            <BrandMark />
           </Link>
         </div>
-        <StudioProvider>{children}</StudioProvider>
+        {children}
       </div>
       <SaveStatus />
 
@@ -115,5 +118,7 @@ export function AppShell({ children, account }: { children: React.ReactNode; acc
         ))}
       </nav>
     </div>
+    </TeamProvider>
+    </StudioProvider>
   );
 }

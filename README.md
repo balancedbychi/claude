@@ -1,6 +1,21 @@
-# Episode Builder
+# bot + bow ai
 
-A members-only creator studio for faceless AI content. Members build a **library** once, and every **create** tool reuses it so faces, rooms and packaging never drift.
+**bot + bow ai** is a members-only AI content team for faceless creators. Tell the team what you want in one sentence ("a 30-second problem-solution ad for Glow Drops with Zara"), and **bow**, the manager bot, turns it into a plan and hands it to the team:
+
+| Bot | Job |
+|---|---|
+| bow | Reads your ask, picks the tool and the cast, product and set from your library |
+| hook scout | Pitches episode ideas with scroll-stopping hooks and picks the strongest |
+| penny | Writes timed scripts, ad beats and alternative hooks to A/B test |
+| dot | Storyboards every shot with a keyframe image prompt and an animation prompt |
+| ad bestie | Turns products into UGC ads, commercials and try-on transitions |
+| bella, sage | Cast Studio (characters) and Set Designer (luxury homes, room by room) |
+| nia | Results: tracks posts and spots winning hooks |
+
+The bots report in as they work, in a chat-style feed on Home and a floating panel on other pages. A run lives in the browser tab: members can move around the app while it works, and if the tab closes, everything finished so far is saved and "let the team finish it ✨" picks up where it stopped. Every project can also be built step by step in its tool, or handed to the team at any step (`lib/pipeline.ts`, `components/TeamProvider.tsx`, `app/api/plan`).
+
+Members build a **library** once, and every **create** tool reuses it so faces, rooms and packaging never drift.
+
 
 **Library**
 - **Cast Studio**: the series look (name, niche, visual style, format) plus recurring characters: look, wardrobe, age, voice. Members can type the details, fill them in from a photo, or have AI design a character from a one-line idea.
@@ -19,7 +34,7 @@ A members-only creator studio for faceless AI content. Members build a **library
 
 Each tool's direction to Claude lives in `lib/tools.ts`, so tuning a tool, or adding one, is mostly writing its brief fields and instructions there.
 
-Rename the product in `lib/brand.ts`.
+Rename the product in `lib/brand.ts`. Logo files are in `public/brand/`. The whole look (paper texture, colours, type, sticker outlines) lives in `app/globals.css`.
 
 ### How characters, sets and products stay consistent
 

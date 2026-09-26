@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { ArrowRight, Package, Users } from "lucide-react";
+import { TeamFeed, useTeam } from "./TeamProvider.tsx";
 import { newId } from "@/lib/storage.ts";
 import { TOOLS, type ToolConfig } from "@/lib/tools.ts";
 import type { Character, Episode, Location, Product, SeriesBible, ToolKind } from "@/lib/types.ts";
@@ -29,6 +30,9 @@ export function EpisodeBuilder({ tool: kind }: { tool: ToolKind }) {
   const [episode, setEpisode] = useState<Episode | null>(null);
   const [step, setStep] = useState(0);
   const tool = TOOLS[kind];
+  const team = useTeam();
+  const teamOnThis = Boolean(episode && team.run?.projectId === episode.id);
+  const teamWorking = teamOnThis && team.busy;
 
   // Open the project named in the URL, or start a fresh one.
   const wantedId = params.get("id");
@@ -52,6 +56,17 @@ export function EpisodeBuilder({ tool: kind }: { tool: ToolKind }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loaded, wantedId, wantsNew]);
 
+  // While the team works on this project, follow their updates from the library.
+  const fromLibrary = episode ? episodes.find((e) => e.id === episode.id) : undefined;
+  useEffect(() => {
+    if (teamOnThis && fromLibrary && fromLibrary !== episode) setEpisode(fromLibrary);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [teamOnThis, fromLibrary]);
+  useEffect(() => {
+    if (teamOnThis && team.run?.status === "done") setStep(2);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [teamOnThis, team.run?.status]);
+
   function updateEpisode(patch: EpisodePatch) {
     setEpisode((prev) => (prev ? { ...prev, ...(typeof patch === "function" ? patch(prev) : patch) } : prev));
   }
@@ -71,7 +86,7 @@ export function EpisodeBuilder({ tool: kind }: { tool: ToolKind }) {
   const started = Boolean(episode.concept || episode.brief);
   const reachable = [true, started, Boolean(episode.script), Boolean(episode.script)];
   const done = episodeProgress(episode);
-  const common: StepProps = { tool, bible, characters, locations, products, episode, updateEpisode, goTo: setStep };
+  const common: StepProps = { tool, bible, characters, locations, products, episode, updateEpisode, goTo: setStep, handOff: (p) => team.finish(p) };
   const [before, em, after] = tool.headline;
 
   return (
@@ -82,7 +97,12 @@ export function EpisodeBuilder({ tool: kind }: { tool: ToolKind }) {
             <span className="eyebrow">{tool.eyebrow}</span>
             <h1 className="display">{started ? episodeTitle(episode) : <>{before}<em>{em}</em>{after}</>}</h1>
           </div>
-          <Link href={`${tool.href}?new=1`} className="btn btn-ghost btn-sm">+ New</Link>
+          <div className="row">
+            {started && done < 4 && !team.busy && (
+              <button className="btn btn-primary btn-sm" onClick={() => team.finish(episode)}>let the team finish it ✨</button>
+            )}
+            <Link href={`${tool.href}?new=1`} className="btn btn-ghost btn-sm">+ New</Link>
+          </div>
         </div>
       </header>
 
@@ -109,7 +129,16 @@ export function EpisodeBuilder({ tool: kind }: { tool: ToolKind }) {
         </div>
       ) : null}
 
-      {step === 0 ? (
+      {teamOnThis && team.run && (team.busy || team.run.status === "error") ? (
+        <section className="panel dotted stack">
+          <div className="row between">
+            <span className="eyebrow">{teamWorking ? "the team is on it. browse around, just keep this tab open" : "the team hit a snag"}</span>
+            {!teamWorking && <button className="btn btn-soft btn-sm" onClick={() => team.finish(episode)}>try again from here</button>}
+          </div>
+          <div className="progress"><i style={{ width: `${Math.round(team.run.progress * 100)}%` }} /></div>
+          <TeamFeed feed={team.run.feed} />
+        </section>
+      ) : step === 0 ? (
         kind === "episode" ? <StoryStep {...common} /> : <BriefStep {...common} />
       ) : step === 1 ? (
         <ScriptStep {...common} />
@@ -131,6 +160,8 @@ export interface StepProps {
   episode: Episode;
   updateEpisode: (patch: EpisodePatch) => void;
   goTo: (step: number) => void;
+  /** Hand the project to the team to finish end to end. */
+  handOff: (project: Episode) => void;
 }
 
 /** A partial update, or a function of the latest episode (for concurrent updates). */

@@ -8,7 +8,7 @@ import type { StepProps } from "./EpisodeBuilder.tsx";
 
 const CTA_IDEAS = ["Tap the orange cart", "Link in bio", "Use code GLOW15 for 15% off", "Shop now"];
 
-export function BriefStep({ tool, characters, locations, products, episode, updateEpisode, goTo }: StepProps) {
+export function BriefStep({ tool, characters, locations, products, episode, updateEpisode, goTo, handOff }: StepProps) {
   const [brief, setBrief] = useState<Brief>(
     episode.brief ?? {
       productId: tool.needsProduct ? (products[0]?.id ?? "") : "",
@@ -27,11 +27,15 @@ export function BriefStep({ tool, characters, locations, products, episode, upda
   const product = products.find((p) => p.id === brief.productId);
   const ready = (!tool.needsProduct || product) && (!isTransition || brief.items.trim().length > 0);
 
-  function next() {
+  function saved() {
     const changed = JSON.stringify(brief) !== JSON.stringify(episode.brief);
     const label = [product?.name, brief.angle].filter(Boolean).join(" · ");
     // A changed brief makes any existing script and storyboard stale.
-    updateEpisode(changed ? { brief, topic: label, script: null, shots: [], pkg: null } : { brief, topic: label });
+    return changed ? { brief, topic: label, script: null, shots: [], pkg: null } : { brief, topic: label };
+  }
+
+  function next() {
+    updateEpisode(saved());
     goTo(1);
   }
 
@@ -115,9 +119,14 @@ export function BriefStep({ tool, characters, locations, products, episode, upda
           ) : (
             <span className="faint small">{product ? `Only the claims saved for ${product.name} will be used.` : ""}</span>
           )}
-          <button className="btn btn-primary" onClick={next} disabled={!ready}>
-            Next: write the script <ArrowRight size={15} />
-          </button>
+          <div className="row">
+            <button className="btn btn-soft" onClick={() => handOff({ ...episode, ...saved() })} disabled={!ready}>
+              let the team make it all ✨
+            </button>
+            <button className="btn btn-primary" onClick={next} disabled={!ready}>
+              Next: write the script <ArrowRight size={15} />
+            </button>
+          </div>
         </div>
       </div>
     </section>

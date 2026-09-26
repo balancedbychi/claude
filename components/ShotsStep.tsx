@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ArrowRight, Clapperboard, Loader2, RefreshCw } from "lucide-react";
-import { artFor } from "@/lib/art.ts";
+import { tintFor } from "@/lib/art.ts";
 import { pool, post } from "@/lib/client-api.ts";
 import { clipName, fmtClock, sceneLength } from "@/lib/edit-guide.ts";
 import type { Scene, SceneShots } from "@/lib/types.ts";
@@ -114,7 +114,7 @@ export function ShotsStep({ tool, bible, characters, locations, products, episod
                   const code = clipName(scene.number, shot.number);
                   return (
                     <article key={shot.number} className="shot-card">
-                      <div className="frame" style={{ ["--art" as string]: artFor(`${scene.locationId || scene.location}${shot.number % 3}`) }}>
+                      <div className="frame" style={{ ["--art-strip" as string]: tintFor(scene.locationId || scene.location) }}>
                         <div className="top">
                           <span className="code">{code}</span>
                           <span className="dur">{shot.durationSeconds}s</span>

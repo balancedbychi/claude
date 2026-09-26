@@ -1,6 +1,5 @@
 // Rename the product here. Used in the sidebar, login page and browser tab.
 export const BRAND = {
-  name: "Muse Studio",
-  mark: "M",
-  tagline: "Faceless AI content, directed.",
+  name: "bot + bow ai",
+  tagline: "your AI content team",
 };

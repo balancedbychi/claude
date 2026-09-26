@@ -5,7 +5,7 @@ import { ArrowRight, KeyRound, Loader2 } from "lucide-react";
 import { BRAND } from "@/lib/brand.ts";
 import { SignOutButton } from "./SignOutButton.tsx";
 
-export function RedeemForm({ email, title = "Unlock your studio", next = "/" }: { email: string; title?: string; next?: string }) {
+export function RedeemForm({ email, title = "unlock your team", next = "/" }: { email: string; title?: string; next?: string }) {
   const [code, setCode] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
@@ -25,14 +25,11 @@ export function RedeemForm({ email, title = "Unlock your studio", next = "/" }: 
 
   return (
     <main className="login">
-      <form onSubmit={submit} className="panel glow">
-        <div className="brand" style={{ padding: 0 }}>
-          <span className="brand-mark">{BRAND.mark}</span>
-          <span className="brand-name">{BRAND.name}</span>
-        </div>
+      <form onSubmit={submit} className="panel glow login-card">
+        <img src="/brand/logo.webp" alt={BRAND.name} className="login-logo" />
         <div className="stack tight">
-          <h1 className="display" style={{ fontSize: 40 }}>{title}</h1>
-          <p className="muted small">Signed in as {email}. Enter the access code from your purchase email.</p>
+          <h1 className="display" style={{ fontSize: 34, textAlign: "center" }}>{title}</h1>
+          <p className="muted small" style={{ textAlign: "center" }}>Signed in as {email}. Enter the access code from your purchase email.</p>
         </div>
         <div className="search">
           <KeyRound size={16} />

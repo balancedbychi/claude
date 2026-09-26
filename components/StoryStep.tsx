@@ -13,7 +13,7 @@ const SUGGESTIONS = [
   "A 30-day glow-up challenge that goes wrong on day 1",
 ];
 
-export function StoryStep({ bible, characters, episode, updateEpisode, goTo }: StepProps) {
+export function StoryStep({ bible, characters, episode, updateEpisode, goTo, handOff }: StepProps) {
   const [topic, setTopic] = useState(episode.topic);
   const [concepts, setConcepts] = useState<Concept[]>([]);
   const [busy, setBusy] = useState(false);
@@ -53,6 +53,9 @@ export function StoryStep({ bible, characters, episode, updateEpisode, goTo }: S
         </div>
         <div className="row end">
           {error && <span className="error">{error}</span>}
+          <button className="btn btn-soft" onClick={() => handOff({ ...episode, topic })} disabled={busy || topic.trim().length < 2}>
+            let the team make it all ✨
+          </button>
           <button className="btn btn-primary" onClick={pitch} disabled={busy || topic.trim().length < 2}>
             {busy ? <Loader2 size={16} className="spin" /> : <Sparkles size={16} />}
             {busy ? "Writing ideas…" : concepts.length ? "Get new ideas" : "Get 4 episode ideas"}

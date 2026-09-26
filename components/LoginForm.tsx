@@ -63,16 +63,13 @@ export function LoginForm({ mode, next, initialError }: { mode: "supabase" | "de
 
   return (
     <main className="login">
-      <form onSubmit={submit} className="panel glow">
-        <div className="brand" style={{ padding: 0 }}>
-          <span className="brand-mark">{BRAND.mark}</span>
-          <span className="brand-name">{BRAND.name}</span>
-        </div>
+      <form onSubmit={submit} className="panel glow login-card">
+        <img src="/brand/logo.webp" alt={BRAND.name} className="login-logo" />
         <div className="stack tight">
-          <h1 className="display" style={{ fontSize: 40 }}>
-            {tab === "signin" ? <>Welcome <em>back</em></> : <>Create your <em>studio</em></>}
+          <h1 className="display" style={{ fontSize: 34, textAlign: "center" }}>
+            {tab === "signin" ? <>your team is <em>waiting</em></> : <>meet your <em>content team</em></>}
           </h1>
-          <p className="muted small">
+          <p className="muted small" style={{ textAlign: "center" }}>
             {mode === "dev" ? "Development sign-in: any email works. Supabase sign-in replaces this once its keys are set." : tab === "signin" ? "Sign in to your studio." : "Use the email you bought with. You'll add your access code next."}
           </p>
         </div>

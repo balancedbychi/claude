@@ -6,7 +6,7 @@ import { DEV_COOKIE, readDevCookie, supabaseConfigured } from "@/lib/dev-session
 // sends signed-out visitors to /login. Membership (paid access) is checked
 // by the studio layout and by every API route.
 
-const PUBLIC = ["/login", "/auth/", "/api/auth/"];
+const PUBLIC = ["/login", "/auth/", "/api/auth/", "/brand/"];
 
 export async function proxy(request: NextRequest) {
   const path = request.nextUrl.pathname;

@@ -30,7 +30,7 @@ ${castBlock(characters)}
 
 Topic or idea from the creator: ${topic}
 
-Pitch 4 distinct episode concepts for a 4-5 minute episode, each using a DIFFERENT hook style so the creator can test what works. For each give a title, a one-sentence logline, the exact hook for the first 3 seconds (a spoken line or on-screen moment), its hookStyle, and one sentence on why it will hold viewers. Use the existing cast where it fits.`,
+Pitch 4 distinct episode concepts for a 4-5 minute episode, each using a DIFFERENT hook style so the creator can test what works. For each give a title, a one-sentence logline, the exact hook for the first 3 seconds (a spoken line or on-screen moment), its hookStyle, and one sentence on why it will hold viewers. Use the existing cast where it fits. Order them strongest first.`,
     });
     return NextResponse.json(out);
   } catch (err) {

@@ -169,3 +169,19 @@ export const CharacterOut = z.object({
   voice: z.string(),
   personality: z.string(),
 });
+
+export const PlanOut = z.object({
+  kind: z.enum(["episode", "ugc", "commercial", "transition"]),
+  topic: z.string(),
+  targetMinutes: z.number(),
+  productId: z.string(),
+  characterId: z.string(),
+  locationId: z.string(),
+  angle: z.string(),
+  lengthSeconds: z.number().int(),
+  items: z.string(),
+  message: z.string(),
+  cta: z.string(),
+  notes: z.string(),
+  reply: z.string(),
+});
