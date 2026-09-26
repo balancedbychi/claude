@@ -4,7 +4,7 @@ import { EpisodeBuilder } from "@/components/EpisodeBuilder.tsx";
 export default function Page() {
   return (
     <Suspense fallback={<div className="page" />}>
-      <EpisodeBuilder tool="episode" />
+      <EpisodeBuilder tool="transition" />
     </Suspense>
   );
 }

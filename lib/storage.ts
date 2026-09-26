@@ -1,11 +1,11 @@
 "use client";
 
-import type { Character, Episode, Location, SeriesBible, Shot } from "./types.ts";
+import type { Character, Episode, Location, Product, SeriesBible, Shot } from "./types.ts";
 
 // v1 keeps member data in their own browser. Swap these functions for a
 // database (e.g. Supabase) when members need their work on multiple devices.
 
-const KEYS = { bible: "eb_bible", characters: "eb_characters", locations: "eb_locations", episodes: "eb_episodes" } as const;
+const KEYS = { bible: "eb_bible", characters: "eb_characters", locations: "eb_locations", products: "eb_products", episodes: "eb_episodes" } as const;
 
 export const DEFAULT_BIBLE: SeriesBible = {
   seriesName: "",
@@ -39,6 +39,8 @@ export const store = {
   saveCharacters: (c: Character[]) => write(KEYS.characters, c),
   loadLocations: () => read<Location[]>(KEYS.locations, []),
   saveLocations: (l: Location[]) => write(KEYS.locations, l),
+  loadProducts: () => read<Product[]>(KEYS.products, []),
+  saveProducts: (p: Product[]) => write(KEYS.products, p),
   loadEpisodes: () => read<Episode[]>(KEYS.episodes, []).map(upgradeEpisode),
   saveEpisodes: (e: Episode[]) => write(KEYS.episodes, e),
 };
@@ -51,14 +53,17 @@ export function newId(prefix: string): string {
 function upgradeEpisode(ep: Episode): Episode {
   return {
     ...ep,
+    kind: ep.kind ?? "episode",
+    brief: ep.brief ?? null,
     script: ep.script && {
       ...ep.script,
-      scenes: ep.script.scenes.map((s) => ({ ...s, locationId: s.locationId ?? "" })),
+      scenes: ep.script.scenes.map((s) => ({ ...s, locationId: s.locationId ?? "", onScreenText: s.onScreenText ?? "" })),
     },
     shots: ep.shots.map((sc) => ({
       ...sc,
       shots: sc.shots.map((sh: Shot & { prompt?: string }) => ({
         ...sh,
+        productIds: sh.productIds ?? [],
         cameraMove: sh.cameraMove ?? "",
         imagePrompt: sh.imagePrompt ?? "",
         animationPrompt: sh.animationPrompt ?? sh.prompt ?? "",

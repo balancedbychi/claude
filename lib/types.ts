@@ -21,6 +21,32 @@ export interface Location {
   lighting: string; // default time of day and light
 }
 
+/** A product members make ads for. The packaging text is pasted verbatim into prompts. */
+export interface Product {
+  id: string;
+  name: string;
+  brand: string;
+  category: string; // e.g. "face moisturiser", "hair oil"
+  packaging: string; // fixed look: container shape, colours, label layout, finish, size
+  benefits: string; // key claims the member is allowed to make
+  usage: string; // how it's applied or used on camera
+}
+
+export type ToolKind = "episode" | "ugc" | "commercial" | "transition";
+
+/** Inputs for the ad tools. Each tool uses the fields it needs. */
+export interface Brief {
+  productId: string;
+  characterId: string;
+  locationId: string;
+  angle: string; // UGC format, commercial style, or transformation type
+  lengthSeconds: number;
+  items: string; // transition: pieces applied in order, one per line
+  message: string; // key message or offer
+  cta: string;
+  notes: string;
+}
+
 export interface SeriesBible {
   seriesName: string;
   niche: string;
@@ -49,6 +75,7 @@ export interface Scene {
   characterIds: string[];
   locationId: string; // "" when the scene is not in a locked set
   action: string; // what happens visually
+  onScreenText: string; // caption burned into the video for this beat ("" for none)
   lines: ScriptLine[];
 }
 
@@ -62,6 +89,7 @@ export interface Shot {
   number: number;
   durationSeconds: number;
   characterIds: string[];
+  productIds: string[];
   action: string; // movement and performance during the clip
   camera: string; // framing: shot size and angle
   cameraMove: string; // camera movement during the clip
@@ -99,7 +127,9 @@ export interface PackageInfo {
 
 export interface Episode {
   id: string;
+  kind: ToolKind;
   createdAt: string;
+  brief: Brief | null;
   topic: string;
   concept: Concept | null;
   script: Script | null;

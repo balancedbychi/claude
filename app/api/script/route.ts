@@ -40,7 +40,7 @@ Opening hook: ${concept.hook}
 Requirements:
 - Total runtime about ${targetMinutes} minutes (${Math.round(targetMinutes * 60)} seconds). Set totalSeconds to the sum of scene durations.
 - 8 to 14 scenes, numbered from 1. Scene 1 opens on the hook.
-- For each scene: a short title, location, locationId, durationSeconds, characterIds on screen, the visual action (what the camera sees, concrete and renderable by an AI video model), and the lines (voiceover as speaker "Narrator", or dialogue by character name).
+- For each scene: a short title, location, locationId, onScreenText ("" unless an on-screen caption helps, e.g. "3 weeks later"), durationSeconds, characterIds on screen, the visual action (what the camera sees, concrete and renderable by an AI video model), and the lines (voiceover as speaker "Narrator", or dialogue by character name).
 - Prefer the locked sets so the world stays consistent. Keep continuity of time of day, props and outfits from scene to scene.
 - Paced for short-form: a turn or reveal every 20-30 seconds, and end on a cliffhanger that sets up the next episode.`,
     });
@@ -50,6 +50,7 @@ Requirements:
       ...s,
       characterIds: s.characterIds.filter((id) => ids.has(id)),
       locationId: locationIds.has(s.locationId) ? s.locationId : "",
+      onScreenText: s.onScreenText ?? "",
     }));
     script.totalSeconds = script.scenes.reduce((t, s) => t + s.durationSeconds, 0);
     return NextResponse.json(script);

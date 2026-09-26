@@ -9,8 +9,8 @@ import type { Scene, SceneShots } from "@/lib/types.ts";
 import { CopyButton } from "./CopyButton.tsx";
 import type { StepProps } from "./EpisodeBuilder.tsx";
 
-export function ShotsStep({ bible, characters, locations, episode, updateEpisode, goTo }: StepProps) {
-  const [maxClip, setMaxClip] = useState(8);
+export function ShotsStep({ tool, bible, characters, locations, products, episode, updateEpisode, goTo }: StepProps) {
+  const [maxClip, setMaxClip] = useState(tool.kind === "episode" ? 8 : 5);
   const [pending, setPending] = useState<Set<number>>(new Set());
   const [errors, setErrors] = useState<Record<number, string>>({});
   const scenes = episode.script?.scenes ?? [];
@@ -29,6 +29,8 @@ export function ShotsStep({ bible, characters, locations, episode, updateEpisode
         bible,
         characters,
         locations,
+        products: products.filter((p) => p.id === episode.brief?.productId),
+        kind: tool.kind,
         maxClipSeconds: maxClip,
       });
       updateEpisode((prev) => ({
@@ -91,8 +93,9 @@ export function ShotsStep({ bible, characters, locations, episode, updateEpisode
           <section key={scene.number} className="storyboard-scene">
             <div className="storyboard-head">
               <div className="stack tight">
-                <span className="eyebrow">Scene {String(scene.number).padStart(2, "0")} · {fmtClock(start)}–{fmtClock(start + len)}</span>
+                <span className="eyebrow">{tool.kind === "episode" ? "Scene" : "Beat"} {String(scene.number).padStart(2, "0")} · {fmtClock(start)}–{fmtClock(start + len)}</span>
                 <h3>{scene.title}</h3>
+                {scene.onScreenText && <span className="small grad" style={{ fontStyle: "normal", fontWeight: 700 }}>&ldquo;{scene.onScreenText}&rdquo;</span>}
               </div>
               <div className="row">
                 <span className="tag">{set ? `${set.setName ? `${set.setName} · ` : ""}${set.name}` : scene.location}</span>
@@ -124,7 +127,11 @@ export function ShotsStep({ bible, characters, locations, episode, updateEpisode
                           {shot.continueFromPrevious && <span className="tag outline-accent">from last frame</span>}
                         </div>
                         <p className="small muted">{shot.camera}{shot.cameraMove ? ` · ${shot.cameraMove}` : ""}</p>
-                        {shot.characterIds.length > 0 && <p className="tiny faint">{shot.characterIds.map(nameOf).join(", ")}</p>}
+                        {(shot.characterIds.length > 0 || shot.productIds.length > 0) && (
+                          <p className="tiny faint">
+                            {[...shot.characterIds.map(nameOf), ...shot.productIds.map((id) => products.find((p) => p.id === id)?.name ?? "")].filter(Boolean).join(", ")}
+                          </p>
+                        )}
                         <details className="prompts">
                           <summary>View prompts</summary>
                           {!shot.continueFromPrevious && (

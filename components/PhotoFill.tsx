@@ -18,7 +18,7 @@ async function toJpegBase64(file: File): Promise<string> {
   return canvas.toDataURL("image/jpeg", 0.85).split(",")[1];
 }
 
-export function PhotoFill<T>(props: { kind: "character" | "room"; onResult: (data: T) => void }) {
+export function PhotoFill<T>(props: { kind: "character" | "room" | "product"; onResult: (data: T) => void }) {
   const input = useRef<HTMLInputElement>(null);
   const [rights, setRights] = useState(false);
   const [busy, setBusy] = useState(false);

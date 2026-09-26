@@ -1,4 +1,4 @@
-import type { Character, Location, SeriesBible, Shot } from "./types.ts";
+import type { Character, Location, Product, SeriesBible, Shot } from "./types.ts";
 
 // Consistency is the core promise of the app, so character and set
 // descriptions are never left to the model to paraphrase. Claude decides the
@@ -21,19 +21,34 @@ export function locationAnchor(l: Location): string {
   return `${l.setName ? `${l.setName}, ` : ""}${l.name}: ${l.details}`;
 }
 
-type ShotPlan = Omit<Shot, "imagePrompt" | "animationPrompt">;
-
-function castOf(shot: ShotPlan, characters: Character[]): Character[] {
-  return shot.characterIds
-    .map((id) => characters.find((c) => c.id === id))
-    .filter((c): c is Character => Boolean(c));
+export function productAnchor(p: Product): string {
+  return `${[p.brand, p.name].filter(Boolean).join(" ")}${p.category ? ` (${p.category})` : ""}: ${p.packaging}`;
 }
 
-export function buildImagePrompt(shot: ShotPlan, characters: Character[], bible: SeriesBible, location?: Location): string {
-  const cast = castOf(shot, characters);
+type ShotPlan = Omit<Shot, "imagePrompt" | "animationPrompt">;
+
+/** Everything a shot prompt can reference. */
+export interface PromptContext {
+  characters: Character[];
+  products: Product[];
+  bible: SeriesBible;
+  location?: Location;
+}
+
+function pick<T extends { id: string }>(ids: string[], items: T[]): T[] {
+  return ids.map((id) => items.find((x) => x.id === id)).filter((x): x is T => Boolean(x));
+}
+
+export function buildImagePrompt(shot: ShotPlan, ctx: PromptContext): string {
+  const { bible, location } = ctx;
+  const cast = pick(shot.characterIds, ctx.characters);
+  const products = pick(shot.productIds ?? [], ctx.products);
   return [
     `Photorealistic still frame. ${shot.startFrame || shot.action}`,
     cast.length > 0 ? `Characters (match reference exactly): ${cast.map(characterAnchor).join(" | ")}` : "",
+    products.length > 0
+      ? `Product (match reference exactly, label legible and correct): ${products.map(productAnchor).join(" | ")}`
+      : "",
     location ? `Set (match reference exactly): ${locationAnchor(location)}` : bible.setting ? `World: ${bible.setting}` : "",
     `Framing: ${shot.camera}`,
     `Lighting: ${shot.lighting}`,
@@ -45,30 +60,22 @@ export function buildImagePrompt(shot: ShotPlan, characters: Character[], bible:
     .join("\n");
 }
 
-export function buildAnimationPrompt(shot: ShotPlan, characters: Character[]): string {
-  const names = castOf(shot, characters).map((c) => c.name);
+export function buildAnimationPrompt(shot: ShotPlan, ctx: Pick<PromptContext, "characters" | "products">): string {
+  const names = pick(shot.characterIds, ctx.characters).map((c) => c.name);
+  const hasProduct = pick(shot.productIds ?? [], ctx.products).length > 0;
   return [
     shot.continueFromPrevious ? "Start from the last frame of the previous clip." : "Start from the keyframe image.",
     shot.action.trim(),
     shot.cameraMove ? `Camera: ${shot.cameraMove}` : "",
     shot.endFrame ? `Ends on: ${shot.endFrame}` : "",
-    `Keep ${names.length > 0 ? `${names.join(" and ")}'s face, hair and outfit` : "every detail"} and the set identical to the start image. Natural, realistic motion, ${shot.durationSeconds}s.`,
+    `Keep ${names.length > 0 ? `${names.join(" and ")}'s face, hair and outfit` : "every detail"}${hasProduct ? ", the product packaging and label" : ""} and the set identical to the start image. Natural, realistic motion, ${shot.durationSeconds}s.`,
   ]
     .filter((l) => l.length > 0)
     .join("\n");
 }
 
-export function withPrompts(
-  shot: ShotPlan,
-  characters: Character[],
-  bible: SeriesBible,
-  location?: Location,
-): Shot {
-  return {
-    ...shot,
-    imagePrompt: buildImagePrompt(shot, characters, bible, location),
-    animationPrompt: buildAnimationPrompt(shot, characters),
-  };
+export function withPrompts(shot: ShotPlan, ctx: PromptContext): Shot {
+  return { ...shot, imagePrompt: buildImagePrompt(shot, ctx), animationPrompt: buildAnimationPrompt(shot, ctx) };
 }
 
 /** Prompt for the one-time reference image members upload to their video tool. */
@@ -87,5 +94,14 @@ export function locationSheetPrompt(l: Location, bible: SeriesBible): string {
     `Lighting: ${l.lighting || "soft natural daylight"}.`,
     "No people. Eye-level, wide lens, whole room visible, sharp detail on materials and furniture.",
     `Style: ${bible.visualStyle || "cinematic, photorealistic"}. Aspect ratio ${bible.aspectRatio}.`,
+  ].join("\n");
+}
+
+/** Packshot reference image for a product, used to keep the label consistent. */
+export function productSheetPrompt(p: Product, bible: SeriesBible): string {
+  return [
+    `Studio packshot of ${productAnchor(p)}.`,
+    "Front-facing, label fully legible, centred on a seamless soft neutral background, soft even lighting with a gentle reflection, sharp focus on the label text.",
+    `Style: ${bible.visualStyle || "photorealistic"}. Aspect ratio 1:1.`,
   ].join("\n");
 }

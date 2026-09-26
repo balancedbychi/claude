@@ -25,19 +25,22 @@ function textToLines(text: string): ScriptLine[] {
     });
 }
 
-export function ScriptStep({ bible, characters, locations, episode, updateEpisode, goTo }: StepProps) {
+export function ScriptStep({ tool, bible, characters, locations, products, episode, updateEpisode, goTo }: StepProps) {
+  const isEpisode = tool.kind === "episode";
   const [minutes, setMinutes] = useState(4.5);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const script = episode.script;
 
   async function write() {
-    if (!episode.concept) return;
+    if (isEpisode ? !episode.concept : !episode.brief) return;
     if (script && !confirm("Replace the current script? The storyboard and posting package will be cleared.")) return;
     setBusy(true);
     setError("");
     try {
-      const res = await post<Script>("/api/script", { concept: episode.concept, bible, characters, locations, targetMinutes: minutes });
+      const res = isEpisode
+        ? await post<Script>("/api/script", { concept: episode.concept, bible, characters, locations, targetMinutes: minutes })
+        : await post<Script>("/api/beats", { kind: tool.kind, brief: episode.brief, bible, characters, locations, products });
       updateEpisode({ script: res, shots: [], pkg: null });
     } catch (e) {
       setError((e as Error).message);
@@ -63,10 +66,22 @@ export function ScriptStep({ bible, characters, locations, episode, updateEpisod
     <section className="stack loose">
       <div className="panel stack">
         <div className="stack tight">
-          <span className="eyebrow">The idea</span>
-          <p className="muted">{episode.concept?.logline}</p>
+          <span className="eyebrow">{isEpisode ? "The idea" : "The brief"}</span>
+          <p className="muted">
+            {isEpisode
+              ? episode.concept?.logline
+              : [
+                  products.find((p) => p.id === episode.brief?.productId)?.name,
+                  episode.brief?.angle,
+                  `${episode.brief?.lengthSeconds}s`,
+                  characters.find((c) => c.id === episode.brief?.characterId)?.name,
+                ]
+                  .filter(Boolean)
+                  .join(" · ")}
+          </p>
         </div>
         <div className="row between">
+          {isEpisode ? (
           <label className="inline-field">
             Length
             <select value={minutes} onChange={(e) => setMinutes(Number(e.target.value))}>
@@ -77,11 +92,14 @@ export function ScriptStep({ bible, characters, locations, episode, updateEpisod
               <option value={5}>5 min</option>
             </select>
           </label>
+          ) : (
+            <button className="btn btn-ghost btn-sm" onClick={() => goTo(0)}>Edit brief</button>
+          )}
           <div className="row">
             {error && <span className="error">{error}</span>}
             <button className={`btn ${script ? "btn-soft" : "btn-primary"}`} onClick={write} disabled={busy}>
               {busy ? <Loader2 size={16} className="spin" /> : <PenLine size={16} />}
-              {busy ? "Writing… about a minute" : script ? "Rewrite script" : "Write the script"}
+              {busy ? (isEpisode ? "Writing… about a minute" : "Writing…") : script ? "Rewrite script" : "Write the script"}
             </button>
           </div>
         </div>
@@ -102,7 +120,7 @@ export function ScriptStep({ bible, characters, locations, episode, updateEpisod
               clock += s.durationSeconds;
               return (
                 // Keyed on content so the uncontrolled editors reset when the script is rewritten.
-                <article key={`${episode.id}:${s.number}:${s.action}:${linesToText(s.lines)}`} className="panel scene">
+                <article key={`${episode.id}:${s.number}:${s.action}:${s.onScreenText}:${linesToText(s.lines)}`} className="panel scene">
                   <div className="scene-num">
                     <b className="grad">{String(s.number).padStart(2, "0")}</b>
                     <span className="faint tiny">{fmt(start)}–{fmt(clock)}</span>
@@ -131,6 +149,12 @@ export function ScriptStep({ bible, characters, locations, episode, updateEpisod
                       What we see
                       <textarea rows={2} defaultValue={s.action} onBlur={(e) => e.target.value !== s.action && editScene(s.number, { action: e.target.value })} />
                     </label>
+                    {(!isEpisode || s.onScreenText) && (
+                      <label className="field">
+                        On-screen text
+                        <input defaultValue={s.onScreenText} placeholder="None" onBlur={(e) => e.target.value !== s.onScreenText && editScene(s.number, { onScreenText: e.target.value })} />
+                      </label>
+                    )}
                     <label className="field">
                       Voiceover &amp; dialogue <span className="hint">one line each, &ldquo;Speaker: text&rdquo;</span>
                       <textarea

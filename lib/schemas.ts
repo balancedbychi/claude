@@ -21,6 +21,30 @@ export const LocationIn = z.object({
   lighting: z.string().max(300),
 });
 
+export const ProductIn = z.object({
+  id: z.string().max(64),
+  name: z.string().min(1).max(120),
+  brand: z.string().max(120),
+  category: z.string().max(120),
+  packaging: z.string().max(1000),
+  benefits: z.string().max(1000),
+  usage: z.string().max(600),
+});
+
+export const BriefIn = z.object({
+  productId: z.string().max(64),
+  characterId: z.string().max(64),
+  locationId: z.string().max(64),
+  angle: z.string().max(120),
+  lengthSeconds: z.number().int().min(5).max(120),
+  items: z.string().max(1500),
+  message: z.string().max(600),
+  cta: z.string().max(200),
+  notes: z.string().max(1000),
+});
+
+export const ToolKindIn = z.enum(["episode", "ugc", "commercial", "transition"]);
+
 export const BibleIn = z.object({
   seriesName: z.string().max(120),
   niche: z.string().max(200),
@@ -46,6 +70,7 @@ export const SceneOut = z.object({
   characterIds: z.array(z.string()),
   locationId: z.string(),
   action: z.string(),
+  onScreenText: z.string(),
   lines: z.array(LineOut),
 });
 
@@ -74,6 +99,7 @@ export const ShotsOut = z.object({
       number: z.number().int(),
       durationSeconds: z.number().int(),
       characterIds: z.array(z.string()),
+      productIds: z.array(z.string()),
       action: z.string(),
       camera: z.string(),
       cameraMove: z.string(),
@@ -96,6 +122,13 @@ export const CharacterFromPhotoOut = z.object({
   age: z.string(),
   look: z.string(),
   wardrobe: z.string(),
+});
+
+export const ProductFromPhotoOut = z.object({
+  name: z.string(),
+  brand: z.string(),
+  category: z.string(),
+  packaging: z.string(),
 });
 
 export const RoomFromPhotoOut = z.object({

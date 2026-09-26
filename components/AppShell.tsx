@@ -8,6 +8,7 @@ import {
   Home,
   Library,
   Megaphone,
+  Package,
   Shirt,
   ShoppingBag,
   Sofa,
@@ -16,23 +17,42 @@ import {
 } from "lucide-react";
 import { BRAND } from "@/lib/brand.ts";
 
-export const TOOLS: { href: string; label: string; icon: LucideIcon }[] = [
-  { href: "/", label: "Home", icon: Home },
-  { href: "/builder", label: "Episode Builder", icon: Clapperboard },
-  { href: "/cast", label: "Cast Studio", icon: Users },
-  { href: "/sets", label: "Set Designer", icon: Sofa },
-  { href: "/episodes", label: "Episodes", icon: Library },
+type NavItem = { href: string; label: string; icon: LucideIcon; blurb: string };
+
+export const CREATE: NavItem[] = [
+  { href: "/builder", label: "Episode Builder", icon: Clapperboard, blurb: "Idea to storyboard: hooks, a timed script, keyframe and animation prompts, and an edit guide." },
+  { href: "/ugc", label: "UGC Ad Builder", icon: ShoppingBag, blurb: "Product review storyboards with your AI creator holding, applying and loving the product." },
+  { href: "/commercial", label: "Commercial Builder", icon: Megaphone, blurb: "Turn one product into a cinematic, fully directed brand commercial." },
+  { href: "/transitions", label: "Try-On Transitions", icon: Shirt, blurb: "Outfit and makeup transformations, step by step, with precise timings." },
+  { href: "/vault", label: "Prompt Vault", icon: BookOpen, blurb: "Proven image prompts, camera moves and looks, filled with your cast and products." },
 ];
 
-export const COMING_SOON: { label: string; icon: LucideIcon; blurb: string }[] = [
-  { label: "UGC Ad Builder", icon: ShoppingBag, blurb: "Product review storyboards with your AI creator holding and using the product." },
-  { label: "Commercial Builder", icon: Megaphone, blurb: "Turn one product into a cinematic, fully directed ad campaign." },
-  { label: "Try-On Transitions", icon: Shirt, blurb: "Outfit and makeup transformation storyboards with precise timings." },
-  { label: "Prompt Vault", icon: BookOpen, blurb: "Proven image prompts, camera moves and visual styles, ready to copy." },
+export const LIBRARY: NavItem[] = [
+  { href: "/cast", label: "Cast Studio", icon: Users, blurb: "Your AI influencers and recurring cast." },
+  { href: "/sets", label: "Set Designer", icon: Sofa, blurb: "Luxury homes and studios, room by room." },
+  { href: "/products", label: "Products", icon: Package, blurb: "Packaging and claims for every product." },
+  { href: "/projects", label: "Projects", icon: Library, blurb: "Every episode and ad you've built." },
+];
+
+const TABS: { href: string; label: string; icon: LucideIcon }[] = [
+  { href: "/", label: "Home", icon: Home },
+  { href: "/builder", label: "Episodes", icon: Clapperboard },
+  { href: "/ugc", label: "UGC", icon: ShoppingBag },
+  { href: "/cast", label: "Cast", icon: Users },
+  { href: "/projects", label: "Projects", icon: Library },
 ];
 
 function isActive(pathname: string, href: string) {
   return href === "/" ? pathname === "/" : pathname.startsWith(href);
+}
+
+function NavLink({ href, label, icon: Icon, pathname }: { href: string; label: string; icon: LucideIcon; pathname: string }) {
+  return (
+    <Link href={href} className={isActive(pathname, href) ? "active" : ""}>
+      <Icon size={18} strokeWidth={1.8} />
+      {label}
+    </Link>
+  );
 }
 
 export function AppShell({ children }: { children: React.ReactNode }) {
@@ -45,19 +65,11 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           <span className="brand-name">{BRAND.name}</span>
         </Link>
         <nav className="nav">
-          {TOOLS.map(({ href, label, icon: Icon }) => (
-            <Link key={href} href={href} className={isActive(pathname, href) ? "active" : ""}>
-              <Icon size={18} strokeWidth={1.8} />
-              {label}
-            </Link>
-          ))}
-          <div className="nav-label eyebrow">Coming soon</div>
-          {COMING_SOON.map(({ label, icon: Icon }) => (
-            <span key={label} className="soon-item">
-              <Icon size={18} strokeWidth={1.8} />
-              {label}
-            </span>
-          ))}
+          <NavLink href="/" label="Home" icon={Home} pathname={pathname} />
+          <div className="nav-label eyebrow">Create</div>
+          {CREATE.map((t) => <NavLink key={t.href} {...t} pathname={pathname} />)}
+          <div className="nav-label eyebrow">Library</div>
+          {LIBRARY.map((t) => <NavLink key={t.href} {...t} pathname={pathname} />)}
         </nav>
         <div className="sidebar-foot faint tiny">{BRAND.tagline}</div>
       </aside>
@@ -73,10 +85,10 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       </div>
 
       <nav className="tabbar">
-        {TOOLS.map(({ href, label, icon: Icon }) => (
+        {TABS.map(({ href, label, icon: Icon }) => (
           <Link key={href} href={href} className={isActive(pathname, href) ? "active" : ""}>
             <Icon size={20} strokeWidth={1.8} />
-            {label.replace("Episode ", "").replace(" Studio", "").replace("Set Designer", "Sets")}
+            {label}
           </Link>
         ))}
       </nav>

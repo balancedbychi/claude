@@ -18,12 +18,12 @@ function saveFile(name: string, text: string, type: string) {
   URL.revokeObjectURL(url);
 }
 
-export function PackageStep({ bible, characters, locations, episode, updateEpisode }: StepProps) {
+export function PackageStep({ tool, bible, characters, locations, products, episode, updateEpisode }: StepProps) {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const pkg = episode.pkg;
   const slug = (episode.script?.title || "episode").replace(/[^\w-]+/g, "-").toLowerCase();
-  const pack = () => episodeToMarkdown(episode, characters, bible, locations);
+  const pack = () => episodeToMarkdown(episode, characters, bible, locations, products);
   const rows = timeline(episode);
   const missingShots = (episode.script?.scenes.length ?? 0) - episode.shots.length;
 
@@ -32,7 +32,7 @@ export function PackageStep({ bible, characters, locations, episode, updateEpiso
     setBusy(true);
     setError("");
     try {
-      updateEpisode({ pkg: await post<PackageInfo>("/api/package", { script: episode.script, bible, characters }) });
+      updateEpisode({ pkg: await post<PackageInfo>("/api/package", { script: episode.script, bible, characters, kind: tool.kind }) });
     } catch (e) {
       setError((e as Error).message);
     } finally {
@@ -67,7 +67,7 @@ export function PackageStep({ bible, characters, locations, episode, updateEpiso
           <div className="table-wrap">
             <table>
               <thead>
-                <tr><th>Clip</th><th>Starts</th><th>Length</th><th>Joins by</th><th>Voiceover</th></tr>
+                <tr><th>Clip</th><th>Starts</th><th>Length</th><th>Joins by</th><th>On screen</th><th>Voiceover</th></tr>
               </thead>
               <tbody>
                 {rows.map((r) => (
@@ -81,6 +81,7 @@ export function PackageStep({ bible, characters, locations, episode, updateEpiso
                         {r.continueFromPrevious && <span className="tag outline-accent">from last frame</span>}
                       </div>
                     </td>
+                    <td className="small"><b>{r.onScreenText}</b></td>
                     <td className="small muted">{r.voiceover}</td>
                   </tr>
                 ))}
@@ -140,7 +141,7 @@ export function PackageStep({ bible, characters, locations, episode, updateEpiso
       <div className="panel glow row between">
         <div className="stack tight">
           <h3>Episode pack</h3>
-          <span className="faint small">Script, character and set sheets, every prompt and the edit guide in one file.</span>
+          <span className="faint small">Script, character, set and product sheets, every prompt and the edit guide in one file.</span>
         </div>
         <div className="row">
           <CopyButton text={pack()} label="Copy all" />

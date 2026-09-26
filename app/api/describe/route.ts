@@ -1,11 +1,11 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { generate } from "@/lib/claude.ts";
-import { CharacterFromPhotoOut, RoomFromPhotoOut } from "@/lib/schemas.ts";
+import { CharacterFromPhotoOut, ProductFromPhotoOut, RoomFromPhotoOut } from "@/lib/schemas.ts";
 import { errorResponse, readBody } from "@/lib/api.ts";
 
 const Body = z.object({
-  kind: z.enum(["character", "room"]),
+  kind: z.enum(["character", "room", "product"]),
   image: z.object({
     mediaType: z.enum(["image/jpeg", "image/png", "image/webp"]),
     // Base64 of an image the browser has already shrunk to ~1024px.
@@ -26,7 +26,18 @@ export async function POST(req: Request) {
 
   try {
     const out =
-      kind === "character"
+      kind === "product"
+        ? await generate({
+            system: SYSTEM,
+            image,
+            schema: ProductFromPhotoOut,
+            effort: "low",
+            prompt: `Describe this product as a packshot reference for AI image generation.
+- name and brand: as printed on the label ("" if not visible).
+- category: what it is, e.g. "hydrating face serum".
+- packaging: 40-80 words of fixed visual facts: container type and shape, material and finish, cap or pump, exact colours, label layout, fonts and key label text, size relative to a hand.`,
+          })
+        : kind === "character"
         ? await generate({
             system: SYSTEM,
             image,

@@ -27,6 +27,7 @@ export interface TimelineRow {
   transition: string;
   continueFromPrevious: boolean;
   voiceover: string; // the scene's lines, shown on its first clip
+  onScreenText: string; // the beat's caption, shown on its first clip
 }
 
 export function timeline(ep: Episode): TimelineRow[] {
@@ -36,7 +37,7 @@ export function timeline(ep: Episode): TimelineRow[] {
     const voiceover = scene.lines.map((l) => `${l.speaker}: ${l.text}`).join(" / ");
     const shots = ep.shots.find((s) => s.sceneNumber === scene.number)?.shots ?? [];
     if (shots.length === 0) {
-      rows.push({ clip: clipName(scene.number), sceneNumber: scene.number, start: t, duration: scene.durationSeconds, transition: "cut", continueFromPrevious: false, voiceover });
+      rows.push({ clip: clipName(scene.number), sceneNumber: scene.number, start: t, duration: scene.durationSeconds, transition: "cut", continueFromPrevious: false, voiceover, onScreenText: scene.onScreenText ?? "" });
       t += scene.durationSeconds;
       continue;
     }
@@ -49,6 +50,7 @@ export function timeline(ep: Episode): TimelineRow[] {
         transition: shot.transition || "cut",
         continueFromPrevious: shot.continueFromPrevious,
         voiceover: i === 0 ? voiceover : "",
+        onScreenText: i === 0 ? (scene.onScreenText ?? "") : "",
       });
       t += shot.durationSeconds;
     });

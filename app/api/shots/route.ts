@@ -1,8 +1,9 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { generate, SYSTEM } from "@/lib/claude.ts";
-import { BibleIn, CharacterIn, LocationIn, SceneOut, ShotsOut } from "@/lib/schemas.ts";
-import { castBlock, errorResponse, readBody } from "@/lib/api.ts";
+import { BibleIn, CharacterIn, LocationIn, ProductIn, SceneOut, ShotsOut, ToolKindIn } from "@/lib/schemas.ts";
+import { castBlock, errorResponse, productsBlock, readBody } from "@/lib/api.ts";
+import { TOOLS } from "@/lib/tools.ts";
 import { locationAnchor, withPrompts } from "@/lib/prompt-builder.ts";
 
 const Body = z.object({
@@ -13,6 +14,8 @@ const Body = z.object({
   bible: BibleIn,
   characters: z.array(CharacterIn).max(8),
   locations: z.array(LocationIn).max(30).default([]),
+  products: z.array(ProductIn).max(20).default([]),
+  kind: ToolKindIn.default("episode"),
   maxClipSeconds: z.number().int().min(3).max(15).default(8),
 });
 
@@ -21,8 +24,9 @@ const Body = z.object({
 export async function POST(req: Request) {
   const body = await readBody(req, Body);
   if ("error" in body) return body.error;
-  const { scene, prevScene, nextScene, bible, characters, locations, maxClipSeconds } = body.data;
+  const { scene, prevScene, nextScene, bible, characters, locations, products, kind, maxClipSeconds } = body.data;
   const ids = new Set(characters.map((c) => c.id));
+  const productIds = new Set(products.map((p) => p.id));
   const location = locations.find((l) => l.id === scene.locationId);
   const sameSetAsPrev = Boolean(prevScene && location && prevScene.locationId === location.id);
 
@@ -33,15 +37,19 @@ export async function POST(req: Request) {
       effort: "medium",
       prompt: `Break this scene into shots for an image-first AI video workflow (Higgsfield, Kling, Veo, Runway): each shot is a keyframe still that is then animated into one clip, and the clips are cut together into one continuous video.
 
+Direction: ${TOOLS[kind].shotDirection}
 Visual style: ${bible.visualStyle || "cinematic, photorealistic"} | Aspect ratio: ${bible.aspectRatio}
 Cast (use these ids in characterIds; do NOT describe their appearance, it is added automatically):
 ${castBlock(characters)}
+Products (use these ids in productIds for every shot where the product is visible; do NOT describe the packaging, it is added automatically):
+${productsBlock(products)}
 Set: ${location ? `${locationAnchor(location)} Default light: ${location.lighting || "n/a"}. (Do not re-describe the set; it is added automatically. Refer to its fixed features by name so shots stay consistent.)` : scene.location}
 
 Previous scene: ${prevScene ? `${prevScene.title}: ${prevScene.action}` : "none (this opens the episode)"}
 THIS SCENE ${scene.number}: ${scene.title}
 Duration: ${scene.durationSeconds}s
 Action: ${scene.action}
+On-screen text: ${scene.onScreenText || "(none)"}
 Lines:
 ${scene.lines.map((l) => `${l.speaker}: ${l.text}`).join("\n") || "(none)"}
 Next scene: ${nextScene ? `${nextScene.title}: ${nextScene.action}` : "none (this ends the episode)"}
@@ -64,9 +72,10 @@ Rules:
         ...s,
         number: i + 1,
         characterIds: s.characterIds.filter((id) => ids.has(id)),
+        productIds: s.productIds.filter((id) => productIds.has(id)),
         continueFromPrevious: s.continueFromPrevious && (i > 0 || sameSetAsPrev),
       };
-      return withPrompts(shot, characters, bible, location);
+      return withPrompts(shot, { characters, products, bible, location });
     });
     return NextResponse.json({ sceneNumber: scene.number, shots });
   } catch (err) {

@@ -4,17 +4,17 @@ import { captionsSrt, timeline } from "./edit-guide.ts";
 import type { Episode, Shot } from "./types.ts";
 
 const shot = (n: number, d: number, extra: Partial<Shot> = {}): Shot => ({
-  number: n, durationSeconds: d, characterIds: [], action: "", camera: "", cameraMove: "", mood: "", lighting: "",
+  number: n, durationSeconds: d, characterIds: [], productIds: [], action: "", camera: "", cameraMove: "", mood: "", lighting: "",
   transition: "cut", startFrame: "", endFrame: "", continueFromPrevious: false, imagePrompt: "", animationPrompt: "", ...extra,
 });
 
 const ep: Episode = {
-  id: "e", createdAt: "", topic: "", concept: null, pkg: null,
+  id: "e", kind: "episode", brief: null, createdAt: "", topic: "", concept: null, pkg: null,
   script: {
     title: "T", totalSeconds: 30,
     scenes: [
-      { number: 1, title: "", location: "", durationSeconds: 10, characterIds: [], locationId: "", action: "", lines: [{ speaker: "Narrator", text: "one two three four five six seven eight nine ten" }] },
-      { number: 2, title: "", location: "", durationSeconds: 20, characterIds: [], locationId: "", action: "", lines: [{ speaker: "Zara", text: "hello there" }] },
+      { number: 1, title: "", location: "", durationSeconds: 10, characterIds: [], locationId: "", action: "", onScreenText: "WAIT FOR IT", lines: [{ speaker: "Narrator", text: "one two three four five six seven eight nine ten" }] },
+      { number: 2, title: "", location: "", durationSeconds: 20, characterIds: [], locationId: "", action: "", onScreenText: "", lines: [{ speaker: "Zara", text: "hello there" }] },
     ],
   },
   shots: [{ sceneNumber: 1, shots: [shot(1, 5), shot(2, 7, { continueFromPrevious: true, transition: "match cut" })] }],
@@ -26,6 +26,8 @@ test("timeline uses real shot lengths and falls back to the scene for missing sh
   assert.equal(rows[1].continueFromPrevious, true);
   assert.equal(rows[1].voiceover, "");
   assert.ok(rows[0].voiceover.startsWith("Narrator:"));
+  assert.equal(rows[0].onScreenText, "WAIT FOR IT");
+  assert.equal(rows[1].onScreenText, "", "on-screen text is listed once, on the beat's first clip");
 });
 
 test("captions are chunked, proportional and start each scene at its real offset", () => {

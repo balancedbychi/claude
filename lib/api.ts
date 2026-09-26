@@ -52,3 +52,15 @@ export function setsBlock(locations: { id: string; setName: string; name: string
     .map((l) => `- id "${l.id}": ${l.setName ? `${l.setName}, ` : ""}${l.name}. ${l.details} Default light: ${l.lighting || "n/a"}.`)
     .join("\n");
 }
+
+export function productsBlock(
+  products: { id: string; name: string; brand: string; category: string; packaging: string; benefits: string; usage: string }[],
+): string {
+  if (products.length === 0) return "No products. Use productIds [] everywhere.";
+  return products
+    .map(
+      (p) =>
+        `- id "${p.id}": ${[p.brand, p.name].filter(Boolean).join(" ")} (${p.category || "product"}). Benefits you may claim: ${p.benefits || "none listed, make no claims"}. How it is used: ${p.usage || "n/a"}.`,
+    )
+    .join("\n");
+}

@@ -1,6 +1,6 @@
 import { clipName, fmtClock, sceneLength, timeline } from "./edit-guide.ts";
-import { characterAnchor, characterSheetPrompt, locationAnchor, locationSheetPrompt } from "./prompt-builder.ts";
-import type { Character, Episode, Location, SeriesBible } from "./types.ts";
+import { characterAnchor, characterSheetPrompt, locationAnchor, locationSheetPrompt, productAnchor, productSheetPrompt } from "./prompt-builder.ts";
+import type { Character, Episode, Location, Product, SeriesBible } from "./types.ts";
 
 function fmt(seconds: number): string {
   const m = Math.floor(seconds / 60);
@@ -14,6 +14,7 @@ export function episodeToMarkdown(
   characters: Character[],
   bible: SeriesBible,
   locations: Location[] = [],
+  products: Product[] = [],
 ): string {
   const out: string[] = [];
   const title = ep.script?.title || ep.concept?.title || "Untitled episode";
@@ -41,6 +42,18 @@ export function episodeToMarkdown(
     }
   }
 
+  const usedProducts = products.filter(
+    (p) => p.id === ep.brief?.productId || ep.shots.some((sc) => sc.shots.some((sh) => sh.productIds.includes(p.id))),
+  );
+  if (usedProducts.length > 0) {
+    out.push("## Products", "");
+    for (const p of usedProducts) {
+      out.push(`### ${[p.brand, p.name].filter(Boolean).join(" ")}`, "", productAnchor(p), "");
+      if (p.benefits) out.push(`Claims: ${p.benefits}`, "");
+      out.push("Packshot prompt:", "", "```", productSheetPrompt(p, bible), "```", "");
+    }
+  }
+
   if (ep.script) {
     const total = ep.script.scenes.reduce((n, s) => n + sceneLength(ep, s), 0);
     out.push(`## Script (${fmt(total)})`, "");
@@ -49,6 +62,7 @@ export function episodeToMarkdown(
       const len = sceneLength(ep, s);
       out.push(`### Scene ${s.number}: ${s.title} [${fmt(t)}–${fmt(t + len)}]`, "");
       out.push(`*${s.location}.* ${s.action}`, "");
+      if (s.onScreenText) out.push(`On screen: **${s.onScreenText}**`, "");
       for (const l of s.lines) out.push(`**${l.speaker}:** ${l.text}  `);
       out.push("");
       t += len;
@@ -68,10 +82,10 @@ export function episodeToMarkdown(
   const rows = timeline(ep);
   if (rows.length > 0) {
     out.push("## Edit guide", "", "Name each downloaded clip by its code, drop them on the timeline in this order, then import the captions file.", "");
-    out.push("| Clip | Starts | Length | Transition in | Voiceover |", "|---|---|---|---|---|");
+    out.push("| Clip | Starts | Length | Transition in | On screen | Voiceover |", "|---|---|---|---|---|---|");
     for (const r of rows) {
       const how = r.continueFromPrevious ? `${r.transition} (from last frame)` : r.transition;
-      out.push(`| ${r.clip} | ${fmtClock(r.start)} | ${r.duration}s | ${how} | ${r.voiceover.replace(/\|/g, "/")} |`);
+      out.push(`| ${r.clip} | ${fmtClock(r.start)} | ${r.duration}s | ${how} | ${r.onScreenText.replace(/\|/g, "/")} | ${r.voiceover.replace(/\|/g, "/")} |`);
     }
     out.push("");
   }
