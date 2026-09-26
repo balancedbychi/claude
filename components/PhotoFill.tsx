@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { ImagePlus, Loader2 } from "lucide-react";
 import { post } from "@/lib/client-api.ts";
 
 const MAX_SIDE = 1024;
@@ -43,9 +44,14 @@ export function PhotoFill<T>(props: { kind: "character" | "room"; onResult: (dat
   }
 
   return (
-    <div className="photo-fill">
-      {preview && <img src={preview} alt="Uploaded reference" className="thumb" />}
-      <div className="stack tight">
+    <div className="upload-zone">
+      {preview ? (
+        <img src={preview} alt="Uploaded reference" className="thumb" />
+      ) : (
+        <span className="placeholder"><ImagePlus size={22} strokeWidth={1.6} /></span>
+      )}
+      <div className="stack tight grow">
+        <strong className="small">Start from a photo</strong>
         <label className="check">
           <input type="checkbox" checked={rights} onChange={(e) => setRights(e.target.checked)} />
           {props.kind === "character"
@@ -53,8 +59,9 @@ export function PhotoFill<T>(props: { kind: "character" | "room"; onResult: (dat
             : "I have the right to use this image."}
         </label>
         <div className="row">
-          <button type="button" className="ghost small" disabled={!rights || busy} onClick={() => input.current?.click()}>
-            {busy ? "Reading photo…" : "Fill in from a photo"}
+          <button type="button" className="btn btn-soft btn-sm" disabled={!rights || busy} onClick={() => input.current?.click()}>
+            {busy ? <Loader2 size={14} className="spin" /> : <ImagePlus size={14} />}
+            {busy ? "Reading photo…" : "Upload photo"}
           </button>
           {error && <span className="error small">{error}</span>}
         </div>

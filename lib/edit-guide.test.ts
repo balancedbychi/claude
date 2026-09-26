@@ -4,8 +4,8 @@ import { captionsSrt, timeline } from "./edit-guide.ts";
 import type { Episode, Shot } from "./types.ts";
 
 const shot = (n: number, d: number, extra: Partial<Shot> = {}): Shot => ({
-  number: n, durationSeconds: d, characterIds: [], action: "", camera: "", mood: "", lighting: "",
-  transition: "cut", startFrame: "", endFrame: "", continueFromPrevious: false, prompt: "", ...extra,
+  number: n, durationSeconds: d, characterIds: [], action: "", camera: "", cameraMove: "", mood: "", lighting: "",
+  transition: "cut", startFrame: "", endFrame: "", continueFromPrevious: false, imagePrompt: "", animationPrompt: "", ...extra,
 });
 
 const ep: Episode = {

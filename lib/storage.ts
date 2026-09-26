@@ -1,6 +1,6 @@
 "use client";
 
-import type { Character, Episode, Location, SeriesBible } from "./types.ts";
+import type { Character, Episode, Location, SeriesBible, Shot } from "./types.ts";
 
 // v1 keeps member data in their own browser. Swap these functions for a
 // database (e.g. Supabase) when members need their work on multiple devices.
@@ -57,8 +57,11 @@ function upgradeEpisode(ep: Episode): Episode {
     },
     shots: ep.shots.map((sc) => ({
       ...sc,
-      shots: sc.shots.map((sh) => ({
+      shots: sc.shots.map((sh: Shot & { prompt?: string }) => ({
         ...sh,
+        cameraMove: sh.cameraMove ?? "",
+        imagePrompt: sh.imagePrompt ?? "",
+        animationPrompt: sh.animationPrompt ?? sh.prompt ?? "",
         transition: sh.transition ?? "cut",
         startFrame: sh.startFrame ?? "",
         endFrame: sh.endFrame ?? "",

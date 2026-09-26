@@ -76,6 +76,7 @@ export const ShotsOut = z.object({
       characterIds: z.array(z.string()),
       action: z.string(),
       camera: z.string(),
+      cameraMove: z.string(),
       mood: z.string(),
       lighting: z.string(),
       transition: z.string(),

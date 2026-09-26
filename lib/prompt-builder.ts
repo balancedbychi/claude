@@ -2,8 +2,11 @@ import type { Character, Location, SeriesBible, Shot } from "./types.ts";
 
 // Consistency is the core promise of the app, so character and set
 // descriptions are never left to the model to paraphrase. Claude decides the
-// action, camera, mood, lighting and continuity for each shot; this module
+// composition, performance, camera and continuity for each shot; this module
 // pastes the saved sheets into every prompt verbatim.
+//
+// Each shot gets two prompts, matching the image-first workflow: generate a
+// keyframe still with the character and set references, then animate it.
 
 export function characterAnchor(c: Character): string {
   const parts = [
@@ -18,36 +21,54 @@ export function locationAnchor(l: Location): string {
   return `${l.setName ? `${l.setName}, ` : ""}${l.name}: ${l.details}`;
 }
 
-export function buildShotPrompt(
-  shot: Omit<Shot, "prompt">,
+type ShotPlan = Omit<Shot, "imagePrompt" | "animationPrompt">;
+
+function castOf(shot: ShotPlan, characters: Character[]): Character[] {
+  return shot.characterIds
+    .map((id) => characters.find((c) => c.id === id))
+    .filter((c): c is Character => Boolean(c));
+}
+
+export function buildImagePrompt(shot: ShotPlan, characters: Character[], bible: SeriesBible, location?: Location): string {
+  const cast = castOf(shot, characters);
+  return [
+    `Photorealistic still frame. ${shot.startFrame || shot.action}`,
+    cast.length > 0 ? `Characters (match reference exactly): ${cast.map(characterAnchor).join(" | ")}` : "",
+    location ? `Set (match reference exactly): ${locationAnchor(location)}` : bible.setting ? `World: ${bible.setting}` : "",
+    `Framing: ${shot.camera}`,
+    `Lighting: ${shot.lighting}`,
+    `Mood: ${shot.mood}`,
+    `Style: ${bible.visualStyle || "cinematic, photorealistic"}, natural skin texture, sharp focus.`,
+    `Aspect ratio ${bible.aspectRatio}. No text, no watermark.`,
+  ]
+    .filter((l) => l.length > 0)
+    .join("\n");
+}
+
+export function buildAnimationPrompt(shot: ShotPlan, characters: Character[]): string {
+  const names = castOf(shot, characters).map((c) => c.name);
+  return [
+    shot.continueFromPrevious ? "Start from the last frame of the previous clip." : "Start from the keyframe image.",
+    shot.action.trim(),
+    shot.cameraMove ? `Camera: ${shot.cameraMove}` : "",
+    shot.endFrame ? `Ends on: ${shot.endFrame}` : "",
+    `Keep ${names.length > 0 ? `${names.join(" and ")}'s face, hair and outfit` : "every detail"} and the set identical to the start image. Natural, realistic motion, ${shot.durationSeconds}s.`,
+  ]
+    .filter((l) => l.length > 0)
+    .join("\n");
+}
+
+export function withPrompts(
+  shot: ShotPlan,
   characters: Character[],
   bible: SeriesBible,
   location?: Location,
-): string {
-  const cast = shot.characterIds
-    .map((id) => characters.find((c) => c.id === id))
-    .filter((c): c is Character => Boolean(c));
-
-  const lines = [
-    shot.continueFromPrevious ? "Continue seamlessly from the previous clip's last frame." : "",
-    shot.startFrame ? `Opening frame: ${shot.startFrame}` : "",
-    shot.action.trim(),
-    cast.length > 0
-      ? `Characters (keep identical to reference): ${cast.map(characterAnchor).join(" | ")}`
-      : "",
-    location
-      ? `Set (keep identical to reference): ${locationAnchor(location)}`
-      : bible.setting
-        ? `World: ${bible.setting}`
-        : "",
-    `Camera: ${shot.camera}`,
-    `Mood: ${shot.mood}`,
-    `Lighting: ${shot.lighting}`,
-    shot.endFrame ? `Ends on: ${shot.endFrame}` : "",
-    `Style: ${bible.visualStyle || "cinematic, photorealistic"}`,
-    `Aspect ratio ${bible.aspectRatio}, ${shot.durationSeconds}s clip, consistent faces, outfits and set, no text on screen.`,
-  ];
-  return lines.filter((l) => l.length > 0).join("\n");
+): Shot {
+  return {
+    ...shot,
+    imagePrompt: buildImagePrompt(shot, characters, bible, location),
+    animationPrompt: buildAnimationPrompt(shot, characters),
+  };
 }
 
 /** Prompt for the one-time reference image members upload to their video tool. */

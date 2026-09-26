@@ -62,20 +62,23 @@ export interface Shot {
   number: number;
   durationSeconds: number;
   characterIds: string[];
-  action: string;
-  camera: string;
+  action: string; // movement and performance during the clip
+  camera: string; // framing: shot size and angle
+  cameraMove: string; // camera movement during the clip
   mood: string;
   lighting: string;
   /** How this shot joins the previous one, e.g. "hard cut", "match cut on the door". */
   transition: string;
-  /** What the very first frame shows, so it lines up with where the last shot ended. */
+  /** What the very first frame shows. Also the composition of the keyframe image. */
   startFrame: string;
   /** What the very last frame shows, for the next shot to pick up from. */
   endFrame: string;
-  /** Generate this clip from the previous clip's last frame (image-to-video). */
+  /** Animate from the previous clip's last frame instead of a new keyframe image. */
   continueFromPrevious: boolean;
-  /** Fully assembled, ready-to-paste prompt (character sheets inlined). */
-  prompt: string;
+  /** Still-image prompt for the keyframe (character and set sheets inlined). */
+  imagePrompt: string;
+  /** Image-to-video prompt that animates the keyframe. */
+  animationPrompt: string;
 }
 
 export interface SceneShots {

@@ -3,7 +3,7 @@ import { z } from "zod";
 import { generate, SYSTEM } from "@/lib/claude.ts";
 import { BibleIn, CharacterIn, LocationIn, SceneOut, ShotsOut } from "@/lib/schemas.ts";
 import { castBlock, errorResponse, readBody } from "@/lib/api.ts";
-import { buildShotPrompt, locationAnchor } from "@/lib/prompt-builder.ts";
+import { locationAnchor, withPrompts } from "@/lib/prompt-builder.ts";
 
 const Body = z.object({
   scene: SceneOut,
@@ -31,7 +31,7 @@ export async function POST(req: Request) {
       system: SYSTEM,
       schema: ShotsOut,
       effort: "medium",
-      prompt: `Break this scene into shots for an AI video generator (Higgsfield, Kling, Veo, Runway). Each shot becomes one generated clip, and the clips will be cut together into one continuous video.
+      prompt: `Break this scene into shots for an image-first AI video workflow (Higgsfield, Kling, Veo, Runway): each shot is a keyframe still that is then animated into one clip, and the clips are cut together into one continuous video.
 
 Visual style: ${bible.visualStyle || "cinematic, photorealistic"} | Aspect ratio: ${bible.aspectRatio}
 Cast (use these ids in characterIds; do NOT describe their appearance, it is added automatically):
@@ -48,10 +48,12 @@ Next scene: ${nextScene ? `${nextScene.title}: ${nextScene.action}` : "none (thi
 
 Rules:
 - Shots are at most ${maxClipSeconds}s each and their durations add up to about ${scene.durationSeconds}s.
-- action: one or two sentences of visible action and expression, naming characters by name.
-- camera: shot size, angle and movement (e.g. "low-angle medium shot, slow dolly-in"). Vary shot sizes so the edit feels cinematic.
+- startFrame: the keyframe composition: exactly what the first frame shows (who is where, pose, expression, props). This becomes the still image.
+- action: the movement and performance during the clip (gestures, expressions, dialogue delivery), naming characters by name.
+- camera: framing only, shot size and angle (e.g. "low-angle medium shot"). Vary shot sizes so the edit feels cinematic.
+- cameraMove: camera movement during the clip (e.g. "slow dolly-in", "handheld follow", "static").
 - mood and lighting: short and specific. Keep lighting consistent within the scene${location ? " and with the set's default light unless the story changes the time of day" : ""}.
-- Continuity: startFrame describes exactly what the first frame shows; endFrame describes exactly what the last frame shows. Each shot's startFrame must pick up from the previous shot's endFrame (same positions, props, eyelines, screen direction).
+- Continuity: endFrame describes exactly what the last frame shows. Each shot's startFrame must pick up from the previous shot's endFrame (same positions, props, eyelines, screen direction).
 - continueFromPrevious: true when the shot is the same camera angle continuing the previous shot's action, so the member should generate it from the previous clip's last frame. False for a new angle.${sameSetAsPrev ? "" : " The first shot is always false."}
 - transition: how this shot joins the previous clip: "hard cut", "match cut on <thing>", "continuous", "whip pan", "fade from black", etc. The first shot's transition should bridge from the previous scene.
 - The last shot should end on a frame that leads naturally into the next scene.`,
@@ -64,7 +66,7 @@ Rules:
         characterIds: s.characterIds.filter((id) => ids.has(id)),
         continueFromPrevious: s.continueFromPrevious && (i > 0 || sameSetAsPrev),
       };
-      return { ...shot, prompt: buildShotPrompt(shot, characters, bible, location) };
+      return withPrompts(shot, characters, bible, location);
     });
     return NextResponse.json({ sceneNumber: scene.number, shots });
   } catch (err) {

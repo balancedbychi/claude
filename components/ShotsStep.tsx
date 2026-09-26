@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import { ArrowRight, Clapperboard, Loader2, RefreshCw } from "lucide-react";
+import { artFor } from "@/lib/art.ts";
 import { pool, post } from "@/lib/client-api.ts";
+import { clipName, fmtClock, sceneLength } from "@/lib/edit-guide.ts";
 import type { Scene, SceneShots } from "@/lib/types.ts";
-import { clipName } from "@/lib/edit-guide.ts";
 import { CopyButton } from "./CopyButton.tsx";
 import type { StepProps } from "./EpisodeBuilder.tsx";
 
@@ -48,77 +50,103 @@ export function ShotsStep({ bible, characters, locations, episode, updateEpisode
   }
 
   const nameOf = (id: string) => characters.find((c) => c.id === id)?.name ?? id;
+  const setOf = (id: string) => locations.find((l) => l.id === id);
+  let clock = 0;
 
   return (
-    <section className="stack">
-      <header>
-        <h2>Scene prompts</h2>
+    <section className="stack loose">
+      <div className="panel stack">
         <p className="muted">
-          Each shot is one clip. Paste the prompt into Higgsfield (or Kling, Veo, Runway) with your character and set reference
-          images; the descriptions are already included. Save each clip under its code (S01-SH01, S01-SH02…) so they drop into
-          your editor in order.
+          Every shot is one clip. Make the <b>keyframe</b> from the image prompt with your character and set references, then
+          bring it to life with the <b>animation prompt</b>. Shots marked &ldquo;from last frame&rdquo; skip the keyframe and
+          animate from the end of the previous clip, so the cut is seamless.
         </p>
-      </header>
-
-      <div className="card row">
-        <label className="inline">
-          Max clip length
-          <select value={maxClip} onChange={(e) => setMaxClip(Number(e.target.value))}>
-            <option value={5}>5s</option>
-            <option value={8}>8s</option>
-            <option value={10}>10s</option>
-            <option value={15}>15s</option>
-          </select>
-        </label>
-        <button className="primary" onClick={runAll} disabled={pending.size > 0 || done === scenes.length}>
-          {pending.size > 0 ? `Generating… ${done}/${scenes.length} scenes` : done === 0 ? "Generate all scene prompts" : `Generate remaining (${scenes.length - done})`}
-        </button>
-        {done === scenes.length && scenes.length > 0 && (
-          <button className="secondary" onClick={() => goTo(5)}>Next: package →</button>
-        )}
+        <div className="row between">
+          <label className="inline-field">
+            Max clip length
+            <select value={maxClip} onChange={(e) => setMaxClip(Number(e.target.value))}>
+              {[5, 8, 10, 15].map((n) => <option key={n} value={n}>{n}s</option>)}
+            </select>
+          </label>
+          <div className="row">
+            {done === scenes.length && scenes.length > 0 ? (
+              <button className="btn btn-primary" onClick={() => goTo(3)}>Edit &amp; post <ArrowRight size={15} /></button>
+            ) : (
+              <button className="btn btn-primary" onClick={runAll} disabled={pending.size > 0}>
+                {pending.size > 0 ? <Loader2 size={16} className="spin" /> : <Clapperboard size={16} />}
+                {pending.size > 0 ? `Directing… ${done}/${scenes.length} scenes` : done === 0 ? "Build the storyboard" : `Build remaining ${scenes.length - done} scenes`}
+              </button>
+            )}
+          </div>
+        </div>
       </div>
 
       {scenes.map((scene) => {
         const result = byScene.get(scene.number);
+        const start = clock;
+        const len = sceneLength(episode, scene);
+        clock += len;
+        const set = setOf(scene.locationId);
         return (
-          <div key={scene.number} className="card scene">
-            <div className="row between">
-              <strong>
-                Scene {scene.number}: {scene.title}
-              </strong>
-              <button className="ghost small" onClick={() => runScene(scene)} disabled={pending.has(scene.number)}>
-                {pending.has(scene.number) ? "Working…" : result ? "Regenerate" : "Generate"}
-              </button>
-            </div>
-            {scene.lines.length > 0 && (
-              <details>
-                <summary className="muted small">Voiceover / dialogue for this scene</summary>
-                <pre className="lines">{scene.lines.map((l) => `${l.speaker}: ${l.text}`).join("\n")}</pre>
-                <CopyButton text={scene.lines.map((l) => l.text).join(" ")} label="Copy voiceover text" />
-              </details>
-            )}
-            {errors[scene.number] && <p className="error">{errors[scene.number]}</p>}
-            {result?.shots.map((shot) => (
-              <div key={shot.number} className="shot">
-                <div className="row between">
-                  <span className="small">
-                    <strong className="code">{clipName(scene.number, shot.number)}</strong> · {shot.durationSeconds}s · {shot.camera}
-                    {shot.characterIds.length > 0 && ` · ${shot.characterIds.map(nameOf).join(", ")}`}
-                  </span>
-                  <CopyButton text={shot.prompt} />
-                </div>
-                <div className="row small">
-                  <span className="badge">In: {shot.transition || "cut"}</span>
-                  {shot.continueFromPrevious && (
-                    <span className="badge accent" title="Generate this clip image-to-video, using the last frame of the previous clip as the start image.">
-                      Start from the previous clip&apos;s last frame
-                    </span>
-                  )}
-                </div>
-                <pre className="prompt">{shot.prompt}</pre>
+          <section key={scene.number} className="storyboard-scene">
+            <div className="storyboard-head">
+              <div className="stack tight">
+                <span className="eyebrow">Scene {String(scene.number).padStart(2, "0")} · {fmtClock(start)}–{fmtClock(start + len)}</span>
+                <h3>{scene.title}</h3>
               </div>
-            ))}
-          </div>
+              <div className="row">
+                <span className="tag">{set ? `${set.setName ? `${set.setName} · ` : ""}${set.name}` : scene.location}</span>
+                {scene.lines.length > 0 && <CopyButton text={scene.lines.map((l) => l.text).join(" ")} label="Voiceover" variant="ghost" />}
+                <button className="btn btn-ghost btn-sm" onClick={() => runScene(scene)} disabled={pending.has(scene.number)}>
+                  {pending.has(scene.number) ? <Loader2 size={14} className="spin" /> : <RefreshCw size={14} />}
+                  {result ? "Redo" : "Build"}
+                </button>
+              </div>
+            </div>
+            {errors[scene.number] && <p className="error">{errors[scene.number]}</p>}
+            {!result && !pending.has(scene.number) && <p className="faint small">{scene.action}</p>}
+            {result && (
+              <div className="storyboard">
+                {result.shots.map((shot) => {
+                  const code = clipName(scene.number, shot.number);
+                  return (
+                    <article key={shot.number} className="shot-card">
+                      <div className="frame" style={{ ["--art" as string]: artFor(`${scene.locationId || scene.location}${shot.number % 3}`) }}>
+                        <div className="top">
+                          <span className="code">{code}</span>
+                          <span className="dur">{shot.durationSeconds}s</span>
+                        </div>
+                        <p className="sketch">{shot.startFrame || shot.action}</p>
+                      </div>
+                      <div className="shot-meta">
+                        <div className="row">
+                          <span className="tag">{shot.transition || "cut"}</span>
+                          {shot.continueFromPrevious && <span className="tag outline-accent">from last frame</span>}
+                        </div>
+                        <p className="small muted">{shot.camera}{shot.cameraMove ? ` · ${shot.cameraMove}` : ""}</p>
+                        {shot.characterIds.length > 0 && <p className="tiny faint">{shot.characterIds.map(nameOf).join(", ")}</p>}
+                        <details className="prompts">
+                          <summary>View prompts</summary>
+                          {!shot.continueFromPrevious && (
+                            <>
+                              <div className="prompt-label">Image</div>
+                              <pre className="prompt">{shot.imagePrompt}</pre>
+                            </>
+                          )}
+                          <div className="prompt-label">Animation</div>
+                          <pre className="prompt">{shot.animationPrompt}</pre>
+                        </details>
+                        <div className="copy-row">
+                          {!shot.continueFromPrevious && <CopyButton text={shot.imagePrompt} label="Image" />}
+                          <CopyButton text={shot.animationPrompt} label="Animation" />
+                        </div>
+                      </div>
+                    </article>
+                  );
+                })}
+              </div>
+            )}
+          </section>
         );
       })}
     </section>

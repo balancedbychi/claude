@@ -1,4 +1,4 @@
-import { fmtClock, sceneLength, timeline } from "./edit-guide.ts";
+import { clipName, fmtClock, sceneLength, timeline } from "./edit-guide.ts";
 import { characterAnchor, characterSheetPrompt, locationAnchor, locationSheetPrompt } from "./prompt-builder.ts";
 import type { Character, Episode, Location, SeriesBible } from "./types.ts";
 
@@ -57,7 +57,9 @@ export function episodeToMarkdown(
       if (shots) {
         for (const shot of shots.shots) {
           const how = shot.continueFromPrevious ? " · start from previous clip's last frame" : "";
-          out.push(`#### Shot ${s.number}.${shot.number} (${shot.durationSeconds}s · ${shot.transition || "cut"}${how})`, "", "```", shot.prompt, "```", "");
+          out.push(`#### ${clipName(s.number, shot.number)} (${shot.durationSeconds}s · ${shot.transition || "cut"}${how})`, "");
+          if (!shot.continueFromPrevious && shot.imagePrompt) out.push("Image prompt:", "", "```", shot.imagePrompt, "```", "");
+          out.push("Animation prompt:", "", "```", shot.animationPrompt, "```", "");
         }
       }
     }

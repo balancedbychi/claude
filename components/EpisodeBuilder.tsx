@@ -1,147 +1,108 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { newId, store, DEFAULT_BIBLE } from "@/lib/storage.ts";
+import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
+import { ArrowRight, Users } from "lucide-react";
+import { newId } from "@/lib/storage.ts";
 import type { Character, Episode, Location, SeriesBible } from "@/lib/types.ts";
-import { CastStep } from "./CastStep.tsx";
-import { SetsStep } from "./SetsStep.tsx";
+import { episodeProgress, episodeTitle, useStudio } from "@/lib/use-studio.ts";
 import { StoryStep } from "./StoryStep.tsx";
 import { ScriptStep } from "./ScriptStep.tsx";
 import { ShotsStep } from "./ShotsStep.tsx";
 import { PackageStep } from "./PackageStep.tsx";
 
-const STEPS = ["Characters", "Sets", "Story", "Script", "Scene prompts", "Edit & post"] as const;
-const STORY = 2;
+const STEPS = ["Story", "Script", "Storyboard", "Edit & post"] as const;
 
 function blankEpisode(): Episode {
   return { id: newId("ep"), createdAt: new Date().toISOString(), topic: "", concept: null, script: null, shots: [], pkg: null };
 }
 
 export function EpisodeBuilder() {
-  const [loaded, setLoaded] = useState(false);
-  const [bible, setBible] = useState<SeriesBible>(DEFAULT_BIBLE);
-  const [characters, setCharacters] = useState<Character[]>([]);
-  const [locations, setLocations] = useState<Location[]>([]);
-  const [episodes, setEpisodes] = useState<Episode[]>([]);
-  const [episode, setEpisode] = useState<Episode>(blankEpisode);
+  const router = useRouter();
+  const params = useSearchParams();
+  const { loaded, bible, characters, locations, episodes, setEpisodes } = useStudio();
+  const [episode, setEpisode] = useState<Episode | null>(null);
   const [step, setStep] = useState(0);
 
+  // Open the episode named in the URL, or start a fresh one.
+  const wantedId = params.get("id");
+  const wantsNew = params.get("new");
   useEffect(() => {
-    setBible(store.loadBible());
-    const chars = store.loadCharacters();
-    setCharacters(chars);
-    setLocations(store.loadLocations());
-    setEpisodes(store.loadEpisodes());
-    if (chars.length > 0) setStep(STORY);
-    setLoaded(true);
-  }, []);
-
-  useEffect(() => {
-    if (loaded) store.saveBible(bible);
-  }, [bible, loaded]);
-  useEffect(() => {
-    if (loaded) store.saveCharacters(characters);
-  }, [characters, loaded]);
-  useEffect(() => {
-    if (loaded) store.saveLocations(locations);
-  }, [locations, loaded]);
+    if (!loaded) return;
+    const found = wantedId ? episodes.find((e) => e.id === wantedId) : undefined;
+    if (found) {
+      if (episode?.id !== found.id) {
+        setEpisode(found);
+        setStep(Math.min(episodeProgress(found), 3));
+      }
+    } else if (!episode || wantsNew) {
+      setEpisode(blankEpisode());
+      setStep(0);
+      if (wantsNew) router.replace("/builder");
+    }
+    // Only react to navigation, not to our own saves.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loaded, wantedId, wantsNew]);
 
   function updateEpisode(patch: EpisodePatch) {
-    setEpisode((prev) => ({ ...prev, ...(typeof patch === "function" ? patch(prev) : patch) }));
+    setEpisode((prev) => (prev ? { ...prev, ...(typeof patch === "function" ? patch(prev) : patch) } : prev));
   }
 
-  // Every change to the working episode is saved to the library, in place.
+  // Autosave into the library once there's something worth keeping.
   useEffect(() => {
-    if (!loaded || (!episode.topic && !episode.concept)) return;
+    if (!episode || (!episode.topic && !episode.concept)) return;
     setEpisodes((list) =>
-      list.some((e) => e.id === episode.id)
-        ? list.map((e) => (e.id === episode.id ? episode : e))
-        : [episode, ...list],
+      list.some((e) => e.id === episode.id) ? list.map((e) => (e.id === episode.id ? episode : e)) : [episode, ...list],
     );
-  }, [episode, loaded]);
-  useEffect(() => {
-    if (loaded) store.saveEpisodes(episodes);
-  }, [episodes, loaded]);
+    if (wantedId !== episode.id) router.replace(`/builder?id=${episode.id}`, { scroll: false });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [episode]);
 
-  function deleteEpisode(id: string) {
-    setEpisodes((list) => list.filter((e) => e.id !== id));
-    if (episode.id === id) setEpisode(blankEpisode());
-  }
+  if (!loaded || !episode) return <div className="page" />;
 
-  const reachable = [
-    true,
-    true,
-    true,
-    Boolean(episode.concept),
-    Boolean(episode.script),
-    Boolean(episode.script),
-  ];
-
+  const reachable = [true, Boolean(episode.concept), Boolean(episode.script), Boolean(episode.script)];
+  const done = episodeProgress(episode);
   const common = { bible, characters, locations, episode, updateEpisode, goTo: setStep };
 
   return (
-    <div className="shell">
-      <aside className="sidebar">
-        <div className="brand">Episode Builder</div>
-        <button
-          className="primary full"
-          onClick={() => {
-            setEpisode(blankEpisode());
-            setStep(characters.length > 0 ? STORY : 0);
-          }}
-        >
-          + New episode
-        </button>
-        <h4>Your episodes</h4>
-        {episodes.length === 0 && <p className="muted small">Episodes you build are saved here.</p>}
-        <ul className="episode-list">
-          {episodes.map((e) => (
-            <li key={e.id} className={e.id === episode.id ? "active" : ""}>
-              <button
-                className="link"
-                onClick={() => {
-                  setEpisode(e);
-                  setStep(e.pkg ? 5 : e.script ? 4 : e.concept ? 3 : STORY);
-                }}
-              >
-                {e.script?.title || e.concept?.title || e.topic || "Untitled"}
-              </button>
-              <button className="icon" title="Delete" onClick={() => confirm("Delete this episode?") && deleteEpisode(e.id)}>
-                ×
-              </button>
-            </li>
-          ))}
-        </ul>
-      </aside>
+    <div className="page">
+      <header className="page-head">
+        <div className="page-head-row">
+          <div className="stack tight">
+            <span className="eyebrow">Episode Builder</span>
+            <h1 className="display">{episode.concept ? episodeTitle(episode) : <>A new <em>episode</em></>}</h1>
+          </div>
+          <Link href="/builder?new=1" className="btn btn-ghost btn-sm">+ New episode</Link>
+        </div>
+      </header>
 
-      <main className="main">
-        <nav className="steps">
-          {STEPS.map((label, i) => (
-            <button
-              key={label}
-              className={`step ${i === step ? "current" : ""}`}
-              disabled={!reachable[i]}
-              onClick={() => setStep(i)}
-            >
-              <span className="num">{i + 1}</span> {label}
-            </button>
-          ))}
-        </nav>
+      <nav className="stepper">
+        {STEPS.map((label, i) => (
+          <button key={label} className={`${i === step ? "current" : ""} ${i < done ? "done" : ""}`} disabled={!reachable[i]} onClick={() => setStep(i)}>
+            <span className="n">{i + 1}</span>
+            {label}
+          </button>
+        ))}
+      </nav>
 
-        {!loaded ? null : step === 0 ? (
-          <CastStep bible={bible} setBible={setBible} characters={characters} setCharacters={setCharacters} onDone={() => setStep(1)} />
-        ) : step === 1 ? (
-          <SetsStep bible={bible} locations={locations} setLocations={setLocations} onDone={() => setStep(STORY)} />
-        ) : step === 2 ? (
-          <StoryStep {...common} />
-        ) : step === 3 ? (
-          <ScriptStep {...common} />
-        ) : step === 4 ? (
-          <ShotsStep {...common} />
-        ) : (
-          <PackageStep {...common} />
-        )}
-      </main>
+      {characters.length === 0 && (
+        <div className="banner">
+          <Users size={18} />
+          <span className="grow">Add your cast first so every shot uses the same faces.</span>
+          <Link href="/cast" className="btn btn-soft btn-sm">Cast Studio <ArrowRight size={14} /></Link>
+        </div>
+      )}
+
+      {step === 0 ? (
+        <StoryStep {...common} />
+      ) : step === 1 ? (
+        <ScriptStep {...common} />
+      ) : step === 2 ? (
+        <ShotsStep {...common} />
+      ) : (
+        <PackageStep {...common} />
+      )}
     </div>
   );
 }

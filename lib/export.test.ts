@@ -22,7 +22,7 @@ test("markdown includes timestamps, shot prompts and package", () => {
         { number: 2, title: "Turn", location: "Street", durationSeconds: 30, characterIds: [], locationId: "", action: "B", lines: [] },
       ],
     },
-    shots: [{ sceneNumber: 2, shots: [{ number: 1, durationSeconds: 5, characterIds: [], action: "", camera: "", mood: "", lighting: "", transition: "match cut", startFrame: "", endFrame: "", continueFromPrevious: true, prompt: "PROMPT-2-1" }] }],
+    shots: [{ sceneNumber: 2, shots: [{ number: 1, durationSeconds: 5, characterIds: [], action: "", camera: "", cameraMove: "", mood: "", lighting: "", transition: "match cut", startFrame: "", endFrame: "", continueFromPrevious: true, imagePrompt: "IMAGE-2-1", animationPrompt: "PROMPT-2-1" }] }],
     pkg: { titles: ["T1"], description: "D", hashtags: ["#a", "#b"], thumbnail: { concept: "C", textOverlay: "WOW", prompt: "TP" } },
   };
   const sets = [
@@ -37,6 +37,7 @@ test("markdown includes timestamps, shot prompts and package", () => {
   assert.ok(!md.includes("infinity pool"), "unused sets are left out");
   assert.ok(md.includes("| S02-SH01 | 1:05 | 5s | match cut (from last frame) |"));
   assert.ok(md.includes("PROMPT-2-1"));
+  assert.ok(!md.includes("IMAGE-2-1"), "clips that continue from the last frame need no new keyframe");
   assert.ok(md.includes("#a #b"));
   assert.ok(md.includes("Character reference sheet of Zara, 28; box braids; wearing linen set."));
 });
