@@ -1,12 +1,13 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
-import { generate, SYSTEM } from "@/lib/claude.ts";
-import { BibleIn, CharacterIn, PackageOut, ScriptOut, ToolKindIn } from "@/lib/schemas.ts";
+import { generate } from "@/lib/claude.ts";
+import { systemFor } from "@/lib/playbook.ts";
+import { BibleIn, CharacterIn, PackageOut, ScriptIn, ToolKindIn } from "@/lib/schemas.ts";
 import { errorResponse, readBody } from "@/lib/api.ts";
 import { characterAnchor } from "@/lib/prompt-builder.ts";
 
 const Body = z.object({
-  script: ScriptOut,
+  script: ScriptIn,
   bible: BibleIn,
   characters: z.array(CharacterIn).max(8),
   kind: ToolKindIn.default("episode"),
@@ -20,7 +21,7 @@ export async function POST(req: Request) {
 
   try {
     const out = await generate({
-      system: SYSTEM,
+      system: systemFor("package", kind),
       schema: PackageOut,
       effort: "medium",
       prompt: `Package this ${isAd ? "ad" : kind === "transition" ? "transformation video" : "episode"} for posting on TikTok, Reels and YouTube Shorts.

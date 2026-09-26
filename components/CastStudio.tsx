@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { ArrowRight, Lock, Pencil, Trash2, Users } from "lucide-react";
+import { ArrowRight, Loader2, Lock, Pencil, Sparkles, Trash2, Users } from "lucide-react";
+import { post } from "@/lib/client-api.ts";
 import { artFor } from "@/lib/art.ts";
 import { characterAnchor, characterSheetPrompt } from "@/lib/prompt-builder.ts";
 import { newId } from "@/lib/storage.ts";
@@ -26,6 +27,22 @@ const FIELDS: { key: keyof typeof EMPTY; label: string; placeholder: string; lon
 export function CastStudio() {
   const { loaded, bible, setBible, characters, setCharacters } = useStudio();
   const [draft, setDraft] = useState<Character>({ id: "", ...EMPTY });
+  const [idea, setIdea] = useState("");
+  const [designing, setDesigning] = useState(false);
+  const [designError, setDesignError] = useState("");
+
+  async function designWithAI() {
+    setDesigning(true);
+    setDesignError("");
+    try {
+      const out = await post<Omit<Character, "id">>("/api/character", { idea, bible, existing: characters.map((c) => c.name) });
+      setDraft((d) => ({ ...out, id: d.id }));
+    } catch (e) {
+      setDesignError((e as Error).message);
+    } finally {
+      setDesigning(false);
+    }
+  }
 
   function save() {
     if (!draft.name.trim() || !draft.look.trim()) return;
@@ -132,6 +149,20 @@ export function CastStudio() {
           {draft.id && <button className="btn btn-ghost btn-sm" onClick={() => setDraft({ id: "", ...EMPTY })}>Cancel</button>}
         </div>
         <div className="stack">
+          <div className="upload-zone">
+            <span className="placeholder"><Sparkles size={22} strokeWidth={1.6} /></span>
+            <div className="stack tight grow">
+              <strong className="small">Design with AI</strong>
+              <div className="row nowrap">
+                <input className="grow" value={idea} onChange={(e) => setIdea(e.target.value)} placeholder="e.g. a confident Nigerian-British skincare girl who left her corporate job" />
+                <button type="button" className="btn btn-soft btn-sm" onClick={designWithAI} disabled={designing || idea.trim().length < 2}>
+                  {designing ? <Loader2 size={14} className="spin" /> : <Sparkles size={14} />}
+                  {designing ? "Designing…" : "Design"}
+                </button>
+              </div>
+              {designError && <span className="error small">{designError}</span>}
+            </div>
+          </div>
           <PhotoFill<{ age: string; look: string; wardrobe: string }>
             kind="character"
             onResult={(r) => setDraft((d) => ({ ...d, age: d.age || r.age, look: r.look, wardrobe: r.wardrobe }))}

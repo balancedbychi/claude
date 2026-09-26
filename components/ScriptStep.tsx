@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ArrowRight, Loader2, PenLine } from "lucide-react";
 import { post } from "@/lib/client-api.ts";
+import { CopyButton } from "./CopyButton.tsx";
 import type { Scene, Script, ScriptLine } from "@/lib/types.ts";
 import type { StepProps } from "./EpisodeBuilder.tsx";
 
@@ -110,10 +111,25 @@ export function ScriptStep({ tool, bible, characters, locations, products, episo
           <div className="row between">
             <div className="stack tight">
               <h2 className="display">{script.title}</h2>
-              <span className="faint small">{script.scenes.length} scenes · {fmt(script.totalSeconds)} · click any text to edit</span>
+              <div className="row">
+                {script.hookStyle && <span className="tag outline-accent">{script.hookStyle} hook</span>}
+                <span className="faint small">{script.scenes.length} {isEpisode ? "scenes" : "beats"} · {fmt(script.totalSeconds)} · click any text to edit</span>
+              </div>
             </div>
             <button className="btn btn-primary" onClick={() => goTo(2)}>Build the storyboard <ArrowRight size={15} /></button>
           </div>
+          {script.altHooks.length > 0 && (
+            <div className="panel stack tight">
+              <span className="eyebrow">Alternative hooks to test</span>
+              <p className="faint small">Post the same video with a different opening line and on-screen text to find the winner.</p>
+              {script.altHooks.map((h) => (
+                <div key={h} className="row between nowrap">
+                  <span>&ldquo;{h}&rdquo;</span>
+                  <CopyButton text={h} variant="ghost" />
+                </div>
+              ))}
+            </div>
+          )}
           <div className="stack">
             {script.scenes.map((s) => {
               const start = clock;

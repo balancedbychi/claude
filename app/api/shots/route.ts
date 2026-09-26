@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
-import { generate, SYSTEM } from "@/lib/claude.ts";
+import { generate } from "@/lib/claude.ts";
+import { systemFor } from "@/lib/playbook.ts";
 import { BibleIn, CharacterIn, LocationIn, ProductIn, SceneOut, ShotsOut, ToolKindIn } from "@/lib/schemas.ts";
 import { castBlock, errorResponse, productsBlock, readBody } from "@/lib/api.ts";
 import { TOOLS } from "@/lib/tools.ts";
@@ -32,7 +33,7 @@ export async function POST(req: Request) {
 
   try {
     const out = await generate({
-      system: SYSTEM,
+      system: systemFor("shots", kind),
       schema: ShotsOut,
       effort: "medium",
       prompt: `Break this scene into shots for an image-first AI video workflow (Higgsfield, Kling, Veo, Runway): each shot is a keyframe still that is then animated into one clip, and the clips are cut together into one continuous video.

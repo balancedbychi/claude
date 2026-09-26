@@ -15,10 +15,12 @@ test("markdown includes timestamps, shot prompts and package", () => {
     brief: null,
     createdAt: "",
     topic: "",
-    concept: { title: "Ep 1", logline: "L", hook: "H", whyItWorks: "" },
+    concept: { title: "Ep 1", logline: "L", hook: "H", hookStyle: "Curiosity gap", whyItWorks: "" },
     script: {
       title: "The Move",
       totalSeconds: 95,
+      hookStyle: "Curiosity gap",
+      altHooks: ["ALT ONE", "ALT TWO"],
       scenes: [
         { number: 1, title: "Open", location: "Kitchen", durationSeconds: 65, characterIds: ["c1"], locationId: "l1", action: "A", onScreenText: "", lines: [{ speaker: "Zara", text: "Hi" }] },
         { number: 2, title: "Turn", location: "Street", durationSeconds: 30, characterIds: [], locationId: "", action: "B", onScreenText: "", lines: [] },
@@ -48,5 +50,7 @@ test("markdown includes timestamps, shot prompts and package", () => {
   assert.ok(md.includes("PROMPT-2-1"));
   assert.ok(!md.includes("IMAGE-2-1"), "clips that continue from the last frame need no new keyframe");
   assert.ok(md.includes("#a #b"));
+  assert.ok(md.includes("**Hook:** H (Curiosity gap)"));
+  assert.ok(md.includes("- ALT ONE") && md.includes("- ALT TWO"));
   assert.ok(md.includes("Character reference sheet of Zara, 28; box braids; wearing linen set."));
 });

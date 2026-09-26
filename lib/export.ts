@@ -21,7 +21,8 @@ export function episodeToMarkdown(
   out.push(`# ${bible.seriesName ? `${bible.seriesName}: ` : ""}${title}`, "");
 
   if (ep.concept) {
-    out.push("## Concept", "", `**Logline:** ${ep.concept.logline}`, "", `**Hook:** ${ep.concept.hook}`, "");
+    const style = ep.concept.hookStyle ? ` (${ep.concept.hookStyle})` : "";
+    out.push("## Concept", "", `**Logline:** ${ep.concept.logline}`, "", `**Hook:** ${ep.concept.hook}${style}`, "");
   }
 
   if (characters.length > 0) {
@@ -52,6 +53,12 @@ export function episodeToMarkdown(
       if (p.benefits) out.push(`Claims: ${p.benefits}`, "");
       out.push("Packshot prompt:", "", "```", productSheetPrompt(p, bible), "```", "");
     }
+  }
+
+  if (ep.script && ep.script.altHooks.length > 0) {
+    out.push(`## Alternative hooks to test${ep.script.hookStyle ? ` (main hook: ${ep.script.hookStyle})` : ""}`, "");
+    ep.script.altHooks.forEach((h) => out.push(`- ${h}`));
+    out.push("");
   }
 
   if (ep.script) {

@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
-import { generate, SYSTEM } from "@/lib/claude.ts";
+import { generate } from "@/lib/claude.ts";
+import { systemFor } from "@/lib/playbook.ts";
 import { BibleIn, SetOut } from "@/lib/schemas.ts";
 import { errorResponse, readBody } from "@/lib/api.ts";
 
@@ -19,7 +20,7 @@ export async function POST(req: Request) {
 
   try {
     const out = await generate({
-      system: SYSTEM,
+      system: systemFor("sets"),
       schema: SetOut,
       effort: "medium",
       prompt: `Design a recurring set for an AI video series, as a production designer would.

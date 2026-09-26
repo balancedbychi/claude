@@ -3,7 +3,7 @@
 A members-only creator studio for faceless AI content. Members build a **library** once, and every **create** tool reuses it so faces, rooms and packaging never drift.
 
 **Library**
-- **Cast Studio**: the series look (name, niche, visual style, format) plus recurring characters: look, wardrobe, age, voice. Members can type the details or fill them in from a photo.
+- **Cast Studio**: the series look (name, niche, visual style, format) plus recurring characters: look, wardrobe, age, voice. Members can type the details, fill them in from a photo, or have AI design a character from a one-line idea.
 - **Set Designer**: describe a recurring place and Claude designs it room by room with fixed materials, colours, furniture and views.
 - **Products**: packaging, the claims the member may make, and how the product is used on camera. Can be filled in from a photo.
 - **Projects**: everything built in any tool, saved automatically and filterable by tool.
@@ -14,6 +14,8 @@ A members-only creator studio for faceless AI content. Members build a **library
 - **Commercial Builder**: brief (product, style, length, tagline) → a directed brand spot with hero and macro product shots.
 - **Try-On Transitions**: the pieces or makeup steps in order → a precisely timed transformation with a locked-off camera and match cuts.
 - **Prompt Vault**: 38 curated image prompts, animation prompts, camera moves and looks. Members can fill any prompt with a saved character, product or set.
+
+**The craft playbook** (`lib/playbook.ts`) is sent with every AI request: hook rules and a fixed list of 12 hook styles, retention, storyline and series design, character design, performance-ad rules, UGC authenticity, commercial and transformation craft, and titles and captions. Every concept and script is tagged with its hook style, and ad scripts come with alternative hooks to A/B test, so performance can later be compared by hook style. `insightsFor()` is the slot where approved community winners will be added once performance tracking is live.
 
 Each tool's direction to Claude lives in `lib/tools.ts`, so tuning a tool, or adding one, is mostly writing its brief fields and instructions there.
 
@@ -48,6 +50,7 @@ To revoke access, remove a code from `MEMBER_ACCESS_CODES` and redeploy. Anyone 
 | Path | What it does |
 |---|---|
 | `app/(studio)/`, `components/` | All pages. `EpisodeBuilder` runs every storyboard tool; `BriefStep` starts the ad tools |
+| `lib/playbook.ts` | The craft playbook, hook styles, and the slot for community insights |
 | `lib/tools.ts` | Per-tool steps, brief options and direction for Claude |
 | `lib/vault.ts` | Prompt Vault content |
 | `app/globals.css` | The whole design system: colour tokens, type, components |

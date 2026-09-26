@@ -76,6 +76,7 @@ export function StoryStep({ bible, characters, episode, updateEpisode, goTo }: S
         <div className="concept-grid">
           {concepts.map((c) => (
             <article key={c.title} className="panel concept">
+              {c.hookStyle && <span className="tag outline-accent" style={{ alignSelf: "flex-start" }}>{c.hookStyle} hook</span>}
               <h3>{c.title}</h3>
               <p className="muted small">{c.logline}</p>
               <div className="hook"><b>Hook ·</b> {c.hook}</div>

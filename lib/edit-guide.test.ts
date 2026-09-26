@@ -11,7 +11,7 @@ const shot = (n: number, d: number, extra: Partial<Shot> = {}): Shot => ({
 const ep: Episode = {
   id: "e", kind: "episode", brief: null, createdAt: "", topic: "", concept: null, pkg: null,
   script: {
-    title: "T", totalSeconds: 30,
+    title: "T", totalSeconds: 30, hookStyle: "", altHooks: [],
     scenes: [
       { number: 1, title: "", location: "", durationSeconds: 10, characterIds: [], locationId: "", action: "", onScreenText: "WAIT FOR IT", lines: [{ speaker: "Narrator", text: "one two three four five six seven eight nine ten" }] },
       { number: 2, title: "", location: "", durationSeconds: 20, characterIds: [], locationId: "", action: "", onScreenText: "", lines: [{ speaker: "Zara", text: "hello there" }] },

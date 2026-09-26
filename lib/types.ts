@@ -59,6 +59,7 @@ export interface Concept {
   title: string;
   logline: string;
   hook: string; // first 3 seconds, spoken or on-screen
+  hookStyle: string; // one of HOOK_STYLES, for performance tracking
   whyItWorks: string;
 }
 
@@ -82,6 +83,8 @@ export interface Scene {
 export interface Script {
   title: string;
   totalSeconds: number;
+  hookStyle: string; // one of HOOK_STYLES, for performance tracking
+  altHooks: string[]; // alternative opening lines to A/B test
   scenes: Scene[];
 }
 

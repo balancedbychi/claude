@@ -55,8 +55,11 @@ function upgradeEpisode(ep: Episode): Episode {
     ...ep,
     kind: ep.kind ?? "episode",
     brief: ep.brief ?? null,
+    concept: ep.concept && { ...ep.concept, hookStyle: ep.concept.hookStyle ?? "" },
     script: ep.script && {
       ...ep.script,
+      hookStyle: ep.script.hookStyle ?? "",
+      altHooks: ep.script.altHooks ?? [],
       scenes: ep.script.scenes.map((s) => ({ ...s, locationId: s.locationId ?? "", onScreenText: s.onScreenText ?? "" })),
     },
     shots: ep.shots.map((sc) => ({

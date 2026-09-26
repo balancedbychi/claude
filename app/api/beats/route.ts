@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
-import { generate, SYSTEM } from "@/lib/claude.ts";
+import { generate } from "@/lib/claude.ts";
+import { systemFor } from "@/lib/playbook.ts";
 import { BibleIn, BriefIn, CharacterIn, LocationIn, ProductIn, ScriptOut } from "@/lib/schemas.ts";
 import { castBlock, errorResponse, productsBlock, readBody, setsBlock } from "@/lib/api.ts";
 import { TOOLS } from "@/lib/tools.ts";
@@ -33,7 +34,7 @@ export async function POST(req: Request) {
 
   try {
     const script = await generate({
-      system: SYSTEM,
+      system: systemFor("beats", kind),
       schema: ScriptOut,
       effort: "high",
       prompt: `${tool.beatsDirection}
@@ -53,7 +54,7 @@ ${brief.message ? `Key message or offer: ${brief.message}` : ""}
 ${brief.cta ? `Call to action: ${brief.cta}` : ""}
 ${brief.notes ? `Extra notes from the member: ${brief.notes}` : ""}
 
-Return a title for the ad, and the beats as scenes numbered from 1. For each: title (the beat name, e.g. "Hook", "Demo", "Earrings"), location, locationId, durationSeconds, characterIds on screen, action (exactly what the camera sees, concrete and renderable), onScreenText, and lines (dialogue by character name, or "Narrator" for voiceover; [] for silent beats).`,
+Return a title, the hookStyle of the opening you wrote, altHooks (4 alternative opening lines in different hook styles, each under 12 words, for A/B testing), and the beats as scenes numbered from 1. For each: title (the beat name, e.g. "Hook", "Demo", "Earrings"), location, locationId, durationSeconds, characterIds on screen, action (exactly what the camera sees, concrete and renderable), onScreenText, and lines (dialogue by character name, or "Narrator" for voiceover; [] for silent beats).`,
     });
 
     script.scenes = script.scenes.map((s, i) => ({

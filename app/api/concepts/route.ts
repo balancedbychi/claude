@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
-import { generate, SYSTEM } from "@/lib/claude.ts";
+import { generate } from "@/lib/claude.ts";
+import { systemFor } from "@/lib/playbook.ts";
 import { BibleIn, CharacterIn, ConceptsOut } from "@/lib/schemas.ts";
 import { castBlock, errorResponse, readBody } from "@/lib/api.ts";
 
@@ -17,7 +18,7 @@ export async function POST(req: Request) {
 
   try {
     const out = await generate({
-      system: SYSTEM,
+      system: systemFor("concepts"),
       schema: ConceptsOut,
       effort: "medium",
       prompt: `Series: ${bible.seriesName || "untitled"} | Niche: ${bible.niche || "general"}
@@ -27,7 +28,7 @@ ${castBlock(characters)}
 
 Topic or idea from the creator: ${topic}
 
-Pitch 4 distinct episode concepts for a 4-5 minute episode. For each give a title, a one-sentence logline, the exact hook for the first 3 seconds (a spoken line or on-screen moment), and one sentence on why it will hold viewers. Use the existing cast where it fits.`,
+Pitch 4 distinct episode concepts for a 4-5 minute episode, each using a DIFFERENT hook style so the creator can test what works. For each give a title, a one-sentence logline, the exact hook for the first 3 seconds (a spoken line or on-screen moment), its hookStyle, and one sentence on why it will hold viewers. Use the existing cast where it fits.`,
     });
     return NextResponse.json(out);
   } catch (err) {

@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
-import { generate, SYSTEM } from "@/lib/claude.ts";
+import { generate } from "@/lib/claude.ts";
+import { systemFor } from "@/lib/playbook.ts";
 import { BibleIn, CharacterIn, ConceptIn, LocationIn, ScriptOut } from "@/lib/schemas.ts";
 import { castBlock, errorResponse, readBody, setsBlock } from "@/lib/api.ts";
 
@@ -21,7 +22,7 @@ export async function POST(req: Request) {
 
   try {
     const script = await generate({
-      system: SYSTEM,
+      system: systemFor("script"),
       schema: ScriptOut,
       effort: "high",
       prompt: `Write the full script for this episode.
@@ -35,13 +36,14 @@ ${setsBlock(locations)}
 
 Episode: ${concept.title}
 Logline: ${concept.logline}
-Opening hook: ${concept.hook}
+Opening hook: ${concept.hook}${concept.hookStyle ? ` (${concept.hookStyle})` : ""}
 
 Requirements:
 - Total runtime about ${targetMinutes} minutes (${Math.round(targetMinutes * 60)} seconds). Set totalSeconds to the sum of scene durations.
 - 8 to 14 scenes, numbered from 1. Scene 1 opens on the hook.
 - For each scene: a short title, location, locationId, onScreenText ("" unless an on-screen caption helps, e.g. "3 weeks later"), durationSeconds, characterIds on screen, the visual action (what the camera sees, concrete and renderable by an AI video model), and the lines (voiceover as speaker "Narrator", or dialogue by character name).
 - Prefer the locked sets so the world stays consistent. Keep continuity of time of day, props and outfits from scene to scene.
+- hookStyle: the style of the opening you wrote. altHooks: 3 alternative opening lines in different hook styles, for testing.
 - Paced for short-form: a turn or reveal every 20-30 seconds, and end on a cliffhanger that sets up the next episode.`,
     });
 

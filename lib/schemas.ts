@@ -1,3 +1,4 @@
+import { HOOK_STYLES } from "./playbook.ts";
 import { z } from "zod";
 
 // ---- Request bodies (validated on every API route) ----
@@ -57,6 +58,7 @@ export const ConceptIn = z.object({
   title: z.string().max(200),
   logline: z.string().max(1000),
   hook: z.string().max(500),
+  hookStyle: z.string().max(60).default(""),
   whyItWorks: z.string().max(1000),
 });
 
@@ -74,10 +76,19 @@ export const SceneOut = z.object({
   lines: z.array(LineOut),
 });
 
+/** What the model returns for a script. */
 export const ScriptOut = z.object({
   title: z.string(),
   totalSeconds: z.number().int(),
+  hookStyle: z.enum(HOOK_STYLES),
+  altHooks: z.array(z.string()),
   scenes: z.array(SceneOut),
+});
+
+/** A script sent back by the browser (older saves may lack the newer fields). */
+export const ScriptIn = ScriptOut.extend({
+  hookStyle: z.string().max(60).default(""),
+  altHooks: z.array(z.string().max(300)).max(10).default([]),
 });
 
 // ---- Model outputs ----
@@ -88,6 +99,7 @@ export const ConceptsOut = z.object({
       title: z.string(),
       logline: z.string(),
       hook: z.string(),
+      hookStyle: z.enum(HOOK_STYLES),
       whyItWorks: z.string(),
     }),
   ),
@@ -146,4 +158,14 @@ export const PackageOut = z.object({
     textOverlay: z.string(),
     prompt: z.string(),
   }),
+});
+
+export const CharacterOut = z.object({
+  name: z.string(),
+  role: z.string(),
+  age: z.string(),
+  look: z.string(),
+  wardrobe: z.string(),
+  voice: z.string(),
+  personality: z.string(),
 });
