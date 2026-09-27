@@ -7,7 +7,10 @@ import { post } from "@/lib/client-api.ts";
 import { captionsSrt, fmtClock, timeline, voiceoverScript } from "@/lib/edit-guide.ts";
 import { episodeToMarkdown } from "@/lib/export.ts";
 import type { PackageInfo } from "@/lib/types.ts";
+import { estimateProject, fmtCredits, fmtUsd, fmtWait, modelsFor, times } from "@/lib/pricing.ts";
+import { useStudio } from "@/lib/use-studio.ts";
 import { CopyButton } from "./CopyButton.tsx";
+import { GenerateNote } from "./Cost.tsx";
 import type { StepProps } from "./EpisodeBuilder.tsx";
 
 function saveFile(name: string, text: string, type: string) {
@@ -24,6 +27,9 @@ export function PackageStep({ tool, bible, characters, locations, products, epis
   const [error, setError] = useState("");
   const pkg = episode.pkg;
   const slug = (episode.script?.title || "episode").replace(/[^\w-]+/g, "-").toLowerCase();
+  const { pricing } = useStudio();
+  const cost = estimateProject(episode, pricing, modelsFor(pricing, bible));
+  const budget = times(cost, pricing.attempts, pricing);
   const pack = () => episodeToMarkdown(episode, characters, bible, locations, products);
   const rows = timeline(episode);
   const missingShots = (episode.script?.scenes.length ?? 0) - episode.shots.length;
@@ -59,6 +65,14 @@ export function PackageStep({ tool, bible, characters, locations, products, epis
           </div>
         </div>
         <div className="stack">
+          {cost.clips > 0 && (
+            <p className="small">
+              <b>Generating it on Higgsfield:</b> {cost.images} image{cost.images === 1 ? "" : "s"} + {cost.clips} clip{cost.clips === 1 ? "" : "s"} ≈ {fmtCredits(cost.credits)} (~{fmtUsd(cost.usd)}),
+              about {fmtWait(cost.seconds).replace("~", "")} of generating. Budget ≈ {fmtCredits(budget.credits)} (~{fmtUsd(budget.usd)}) for retries.{" "}
+              <span className="faint">Estimate; Higgsfield shows the exact price on its Generate button.</span>
+            </p>
+          )}
+          <GenerateNote compact />
           <ol className="steps-list">
             <li>Generate each clip and save it under its code (S01-SH01…). &ldquo;From last frame&rdquo; clips start from the previous clip&apos;s final frame.</li>
             <li>In CapCut, import all clips, sort by name and drop them on the timeline. They land in order.</li>

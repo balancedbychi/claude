@@ -547,3 +547,34 @@ th { color: var(--faint); font-weight: 800; font-size: 11px; text-transform: upp
 .dock { right: 12px; bottom: 92px; }
 }
 @media (min-width: 821px) { .mobile-top { display: none; } }
+
+/* ---------------- Cost estimates & regenerate ---------------- */
+.cost-tag {
+  display: inline-flex; align-items: center; gap: 5px; flex-wrap: wrap;
+  align-self: flex-start;
+  font: 600 12px/1.3 var(--font-ui);
+  color: var(--ink);
+  background: var(--lilac-soft);
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+.cost-tag svg { color: var(--lilac-deep); margin-left: 3px; }
+.cost-tag svg:first-of-type { margin-left: 0; }
+.cost-summary {
+  display: flex; justify-content: space-between; align-items: flex-end; gap: 14px; flex-wrap: wrap;
+  border-top: 1px dashed var(--line-strong);
+  padding-top: 14px;
+}
+.cost-summary > .stack { flex: 1 1 320px; min-width: 0; }
+.note.warn { font-size: 17px; transform: rotate(0.4deg); }
+.note.warn svg { color: var(--pink-deep); vertical-align: -2px; }
+.fix-panel {
+  border: 1.5px solid var(--ink);
+  border-radius: 14px;
+  padding: 12px;
+  background: var(--pink-soft);
+  animation: rise 0.25s both;
+}
+.fix-panel .chip { font-size: 12px; padding: 6px 10px; }
+.fix-panel input { width: 100%; }

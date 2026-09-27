@@ -9,6 +9,7 @@ import { newId } from "@/lib/storage.ts";
 import type { Product } from "@/lib/types.ts";
 import { useStudio } from "@/lib/use-studio.ts";
 import { CopyButton } from "./CopyButton.tsx";
+import { ImageCost } from "./Cost.tsx";
 import { PhotoFill } from "./PhotoFill.tsx";
 
 const EMPTY: Product = { id: "", name: "", brand: "", category: "", packaging: "", benefits: "", usage: "" };
@@ -70,6 +71,7 @@ export function ProductShelf() {
                 </div>
               </div>
               <p className="desc">{productAnchor(p)}</p>
+              <ImageCost />
               <div className="asset-actions">
                 <CopyButton text={productSheetPrompt(p, bible)} label="Packshot prompt" />
                 <button className="btn btn-ghost btn-sm" onClick={() => edit(p)}><Pencil size={14} /> Edit</button>

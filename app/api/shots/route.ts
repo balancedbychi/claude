@@ -19,6 +19,15 @@ const Body = z.object({
   products: z.array(ProductIn).max(20).default([]),
   kind: ToolKindIn.default("episode"),
   maxClipSeconds: z.number().int().min(3).max(15).default(8),
+  // Regenerate one shot: the scene's current shots, which one, and what was off.
+  redo: z
+    .object({
+      shotNumber: z.number().int().min(1),
+      note: z.string().max(600).default(""),
+      shots: ShotsOut.shape.shots,
+    })
+    .nullable()
+    .default(null),
 });
 
 // One call per scene keeps each response small and lets the UI fill in
@@ -26,7 +35,7 @@ const Body = z.object({
 export const POST = withMember(async (req) => {
   const body = await readBody(req, Body);
   if ("error" in body) return body.error;
-  const { scene, prevScene, nextScene, bible, characters, locations, products, kind, maxClipSeconds } = body.data;
+  const { scene, prevScene, nextScene, bible, characters, locations, products, kind, maxClipSeconds, redo } = body.data;
   const ids = new Set(characters.map((c) => c.id));
   const productIds = new Set(products.map((p) => p.id));
   const location = locations.find((l) => l.id === scene.locationId);
@@ -58,7 +67,7 @@ Next scene: ${nextScene ? `${nextScene.title}: ${nextScene.action}` : "none (thi
 
 Rules:
 - Shots are at most ${maxClipSeconds}s each and their durations add up to about ${scene.durationSeconds}s.
-- startFrame: the keyframe composition: exactly what the first frame shows (who is where, pose, expression, props). This becomes the still image.
+- startFrame: the keyframe composition, written as precise pose and placement: each person's body position and orientation (standing, seated, lying on their back, facing camera or three-quarter), where they sit in the frame (left/right third, upper/lower half, head toward which edge), where they are relative to the set's named fixed objects, what each hand is doing and holding, gaze and expression, and where any product sits and which way its label faces. This becomes the still image, so leave nothing to guess.
 - action: the movement and performance during the clip (gestures, expressions, dialogue delivery), naming characters by name.
 - camera: framing only, shot size and angle (e.g. "low-angle medium shot"). Vary shot sizes so the edit feels cinematic.
 - cameraMove: camera movement during the clip (e.g. "slow dolly-in", "handheld follow", "static").
@@ -66,8 +75,30 @@ Rules:
 - Continuity: endFrame describes exactly what the last frame shows. Each shot's startFrame must pick up from the previous shot's endFrame (same positions, props, eyelines, screen direction).
 - continueFromPrevious: true when the shot is the same camera angle continuing the previous shot's action, so the member should generate it from the previous clip's last frame. False for a new angle.${sameSetAsPrev ? "" : " The first shot is always false."}
 - transition: how this shot joins the previous clip: "hard cut", "match cut on <thing>", "continuous", "whip pan", "fade from black", etc. The first shot's transition should bridge from the previous scene.
-- The last shot should end on a frame that leads naturally into the next scene.`,
+- The last shot should end on a frame that leads naturally into the next scene.${
+        redo
+          ? `
+
+REGENERATE ONE SHOT. These are the scene's current shots:
+${redo.shots.map((s) => `${s.number}. [${s.durationSeconds}s] start: ${s.startFrame} | action: ${s.action} | end: ${s.endFrame} | camera: ${s.camera}, ${s.cameraMove}`).join("\n")}
+Return exactly ONE shot: a fresh take on shot ${redo.shotNumber}, same duration, still picking up from shot ${redo.shotNumber - 1 || "the previous scene"}'s end frame and handing off to shot ${redo.shotNumber + 1}'s start frame. ${redo.note ? `The member says the last version had this problem, so fix it: "${redo.note}".` : "Keep the story beat but make the composition simpler and easier for the video model to render cleanly (fewer hands on props, clearer poses, less motion)."}`
+          : ""
+      }`,
     });
+
+    if (redo) {
+      const s = out.shots[0];
+      const i = redo.shotNumber - 1;
+      const shot = {
+        ...s,
+        number: redo.shotNumber,
+        durationSeconds: redo.shots[i]?.durationSeconds ?? s.durationSeconds,
+        characterIds: s.characterIds.filter((id) => ids.has(id)),
+        productIds: s.productIds.filter((id) => productIds.has(id)),
+        continueFromPrevious: s.continueFromPrevious && (i > 0 || sameSetAsPrev),
+      };
+      return NextResponse.json({ sceneNumber: scene.number, shots: [withPrompts(shot, { characters, products, bible, location, kind })] });
+    }
 
     const shots = out.shots.map((s, i) => {
       const shot = {
@@ -77,7 +108,7 @@ Rules:
         productIds: s.productIds.filter((id) => productIds.has(id)),
         continueFromPrevious: s.continueFromPrevious && (i > 0 || sameSetAsPrev),
       };
-      return withPrompts(shot, { characters, products, bible, location });
+      return withPrompts(shot, { characters, products, bible, location, kind });
     });
     return NextResponse.json({ sceneNumber: scene.number, shots });
   } catch (err) {

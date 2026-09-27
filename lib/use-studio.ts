@@ -2,6 +2,7 @@
 
 import { createContext, createElement, useCallback, useContext, useEffect, useRef, useState } from "react";
 import { DEFAULT_BIBLE, readLocalStudio, markLocalImported, upgradeEpisode } from "./storage.ts";
+import { DEFAULT_PRICING, type PriceBook } from "./pricing.ts";
 import type { Character, Episode, Location, Product, SeriesBible } from "./types.ts";
 
 type Updater<T> = T | ((prev: T) => T);
@@ -41,6 +42,7 @@ function useStudioState() {
   const [locations, setLocationsState] = useState<Location[]>([]);
   const [products, setProductsState] = useState<Product[]>([]);
   const [episodes, setEpisodesState] = useState<Episode[]>([]);
+  const [pricing, setPricing] = useState<PriceBook>(DEFAULT_PRICING);
 
   // What the server last had, so only real changes are sent.
   const saved = useRef<{ lib: Partial<Library>; projects: Map<string, Episode> }>({ lib: {}, projects: new Map() });
@@ -54,7 +56,7 @@ function useStudioState() {
         window.location.href = "/login";
         return;
       }
-      const data = (await res.json()) as { bible: SeriesBible | null } & Omit<Library, "bible"> & { projects: Episode[] };
+      const data = (await res.json()) as { bible: SeriesBible | null } & Omit<Library, "bible"> & { projects: Episode[]; pricing?: PriceBook };
       let lib: Library = { bible: data.bible ?? DEFAULT_BIBLE, characters: data.characters, locations: data.locations, products: data.products };
       let projects = data.projects.map(upgradeEpisode);
 
@@ -76,6 +78,7 @@ function useStudioState() {
       setLocationsState(lib.locations);
       setProductsState(lib.products);
       setEpisodesState(projects);
+      if (data.pricing) setPricing(data.pricing);
       setLoaded(true);
     })().catch(() => reportSave(false));
     return () => {
@@ -139,6 +142,8 @@ function useStudioState() {
 
   return {
     loaded,
+    /** Higgsfield price book for cost and time estimates (read-only; the admin edits it). */
+    pricing,
     bible,
     setBible: useCallback((u: Updater<SeriesBible>) => setBibleState(u), []),
     characters,

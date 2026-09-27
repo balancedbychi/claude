@@ -52,6 +52,8 @@ export const BibleIn = z.object({
   visualStyle: z.string().max(300),
   setting: z.string().max(400),
   aspectRatio: z.enum(["9:16", "16:9", "1:1"]),
+  imageModel: z.string().max(60).optional(),
+  videoModel: z.string().max(60).optional(),
 });
 
 export const ConceptIn = z.object({
@@ -184,4 +186,26 @@ export const PlanOut = z.object({
   cta: z.string(),
   notes: z.string(),
   reply: z.string(),
+});
+
+export const PricingIn = z.object({
+  creditUsd: z.number().min(0).max(10),
+  attempts: z.number().min(1).max(10),
+  models: z
+    .array(
+      z.object({
+        id: z.string().min(1).max(60).regex(/^[a-z0-9_]+$/),
+        label: z.string().min(1).max(80),
+        type: z.enum(["image", "video"]),
+        credits: z.number().min(0).max(10_000),
+        minSeconds: z.number().min(0).max(60).optional(),
+        secondsToMake: z.number().min(0).max(36_000),
+      }),
+    )
+    .min(1)
+    .max(40)
+    .refine((m) => m.some((x) => x.type === "image") && m.some((x) => x.type === "video"), "Keep at least one image and one video model."),
+  defaultImage: z.string().max(60),
+  defaultVideo: z.string().max(60),
+  updatedAt: z.string().max(40).default(""),
 });

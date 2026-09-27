@@ -10,6 +10,7 @@ import { newId } from "@/lib/storage.ts";
 import type { Location } from "@/lib/types.ts";
 import { useStudio } from "@/lib/use-studio.ts";
 import { CopyButton } from "./CopyButton.tsx";
+import { ImageCost } from "./Cost.tsx";
 import { PhotoFill } from "./PhotoFill.tsx";
 
 type Room = Omit<Location, "id" | "setName">;
@@ -164,6 +165,7 @@ export function SetDesigner() {
                     </div>
                     <h3>{l.name}</h3>
                     <p className="desc">{l.details}</p>
+                    <ImageCost />
                     <div className="asset-actions">
                       <CopyButton text={locationSheetPrompt(l, bible)} label="Reference prompt" />
                       <button className="btn btn-ghost btn-sm" onClick={() => edit(l)}><Pencil size={14} /> Edit</button>

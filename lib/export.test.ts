@@ -52,5 +52,5 @@ test("markdown includes timestamps, shot prompts and package", () => {
   assert.ok(md.includes("#a #b"));
   assert.ok(md.includes("**Hook:** H (Curiosity gap)"));
   assert.ok(md.includes("- ALT ONE") && md.includes("- ALT TWO"));
-  assert.ok(md.includes("Character reference sheet of Zara, 28; box braids; wearing linen set."));
+  assert.ok(md.includes("character reference sheet of Zara, 28; box braids; wearing linen set."));
 });

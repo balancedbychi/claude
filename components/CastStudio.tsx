@@ -10,6 +10,7 @@ import { newId } from "@/lib/storage.ts";
 import type { Character, SeriesBible } from "@/lib/types.ts";
 import { useStudio } from "@/lib/use-studio.ts";
 import { CopyButton } from "./CopyButton.tsx";
+import { ImageCost } from "./Cost.tsx";
 import { PhotoFill } from "./PhotoFill.tsx";
 
 const EMPTY: Omit<Character, "id"> = { name: "", role: "", age: "", look: "", wardrobe: "", voice: "", personality: "" };
@@ -130,6 +131,7 @@ export function CastStudio() {
                   </div>
                 </div>
                 <p className="desc">{characterAnchor(c)}</p>
+                <ImageCost />
                 <div className="asset-actions">
                   <CopyButton text={characterSheetPrompt(c, bible)} label="Reference prompt" />
                   <button className="btn btn-ghost btn-sm" onClick={() => edit(c)}><Pencil size={14} /> Edit</button>

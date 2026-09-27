@@ -1,6 +1,7 @@
 "use client";
 
 import { pool, post } from "./client-api.ts";
+import { costReport, estimateScenes, fmtEstimate, modelsFor, type PriceBook } from "./pricing.ts";
 import { newId } from "./storage.ts";
 import type { BotId } from "./team.ts";
 import { TOOLS } from "./tools.ts";
@@ -23,6 +24,8 @@ export interface Library {
   characters: Character[];
   locations: Location[];
   products: Product[];
+  /** For the cost and time estimate the team gives at the end. */
+  pricing?: PriceBook;
 }
 
 type Say = (bot: TeamMessage["bot"], text: string, state?: TeamMessage["state"]) => string;
@@ -104,6 +107,9 @@ export async function runPipeline(opts: {
   const scenes = p.script!.scenes;
   const todo = scenes.filter((s) => !p.shots.some((x) => x.sceneNumber === s.number));
   if (todo.length > 0) {
+    const maxClip = p.kind === "episode" ? 8 : 5;
+    const rough = lib.pricing ? estimateScenes(todo, maxClip, lib.pricing, modelsFor(lib.pricing, lib.bible)) : null;
+    if (rough) say("director", `rough cost before i start: about ${rough.clips} clips, ${fmtEstimate(rough)} of generating on Higgsfield. exact numbers once the shots are in.`, "done");
     const m = say("director", `storyboarding ${todo.length} ${p.kind === "episode" ? "scenes" : "beats"}…`, "working");
     let finished = scenes.length - todo.length;
     const product = lib.products.filter((x) => x.id === p.brief?.productId);
@@ -118,7 +124,7 @@ export async function runPipeline(opts: {
         locations: lib.locations,
         products: product,
         kind: p.kind,
-        maxClipSeconds: p.kind === "episode" ? 8 : 5,
+        maxClipSeconds: maxClip,
       });
       apply({ shots: [...p.shots.filter((x) => x.sceneNumber !== res.sceneNumber), res].sort((a, b) => a.sceneNumber - b.sceneNumber) });
       finished++;
@@ -141,6 +147,9 @@ export async function runPipeline(opts: {
   }
 
   say("manager", `all done ✨ your ${tool.label.replace(" Builder", "").toLowerCase()} is ready to generate. open it to copy prompts or tweak anything.`, "done");
+  const cost = lib.pricing ? costReport(p, lib.pricing, lib.bible) : "";
+  if (cost) say("manager", `💸 ${cost}`, "done");
+  say("director", "heads up: AI generators can hallucinate: faces drift, hands grow extra fingers, labels misspell, rooms rearrange. check each result against your references and hit regenerate on any shot that's off. i'll add fixes to the prompt.", "done");
   return p;
 }
 

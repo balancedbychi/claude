@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import { Check, ExternalLink, Loader2, RotateCcw, X } from "lucide-react";
 import { TOOLS } from "@/lib/tools.ts";
 import type { ToolKind } from "@/lib/types.ts";
+import { PricingEditor } from "./PricingEditor.tsx";
 
 interface Winner {
   id: string;
@@ -110,6 +111,11 @@ export function AdminDashboard() {
             )}
           </div>
         ))}
+      </section>
+
+      <section className="stack">
+        <h2 className="display">Higgsfield pricing</h2>
+        <PricingEditor />
       </section>
     </div>
   );

@@ -53,6 +53,9 @@ export interface SeriesBible {
   visualStyle: string; // e.g. "cinematic photoreal, soft film grain"
   setting: string; // recurring world / locations
   aspectRatio: "9:16" | "16:9" | "1:1";
+  /** Higgsfield models the member generates with (ids from the price book), for cost estimates. */
+  imageModel?: string;
+  videoModel?: string;
 }
 
 export interface Concept {
@@ -88,6 +91,8 @@ export interface Script {
   scenes: Scene[];
 }
 
+export type FixId = "face" | "hands" | "body" | "outfit" | "product" | "room" | "look" | "motion";
+
 export interface Shot {
   number: number;
   durationSeconds: number;
@@ -110,6 +115,9 @@ export interface Shot {
   imagePrompt: string;
   /** Image-to-video prompt that animates the keyframe. */
   animationPrompt: string;
+  /** What went wrong last time; adds correction lines to both prompts. */
+  fixes?: FixId[];
+  fixNote?: string;
 }
 
 export interface SceneShots {

@@ -6,6 +6,7 @@ import { Search } from "lucide-react";
 import { useStudio } from "@/lib/use-studio.ts";
 import { VAULT, VAULT_CATEGORIES, fillPrompt } from "@/lib/vault.ts";
 import { CopyButton } from "./CopyButton.tsx";
+import { ClipCost, ImageCost } from "./Cost.tsx";
 
 export function PromptVault() {
   const { loaded, characters, products, locations } = useStudio();
@@ -96,6 +97,7 @@ export function PromptVault() {
                 </div>
                 <span className="faint tiny">{v.category}</span>
                 <pre className="prompt">{text}</pre>
+                {v.type === "Image" || v.type === "Look" ? <ImageCost /> : <ClipCost seconds={5} />}
                 <div className="asset-actions">
                   <CopyButton text={text} label="Copy prompt" />
                 </div>

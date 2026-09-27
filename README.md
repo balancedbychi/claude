@@ -40,7 +40,14 @@ Rename the product in `lib/brand.ts`. Bot names live in `lib/team.ts`. Logo and 
 
 Claude never rewrites a character, room or product description. It only decides the composition, performance, camera and continuity for each shot. The app then pastes the saved character sheet, room description and packaging into every image prompt word-for-word (`lib/prompt-builder.ts`), so "long knotless braids, cream linen set" and "white Calacatta marble island, brass pendants" read exactly the same in shot 1 and shot 40.
 
+Every image prompt follows one house format: format and camera first, then which uploaded reference controls what (environment, character, outfit, product). After that come identity, hair and outfit preservation ("do not beautify, reshape, age…"), then precise pose and placement, believable anatomy and framing. Next is a locked environment ("never rotate, relocate, resize, recolor, or redesign"), then lighting and how materials react to it, and consistency across regenerations. The prompt ends with the look, an avoid list and a closing sentence. UGC ads and try-ons get a "premium iPhone creator content, not cinematic" look; episodes and commercials use the series' visual style.
+
 The app writes prompts; it doesn't generate images or video itself. Members paste the prompts into their image and video tools along with the reference images.
+
+### Regenerating and cost estimates
+
+- **Regenerate:** AI generators hallucinate, so the storyboard, Edit & post page and the team all remind members to check results against their references. Each shot has a **Regenerate** panel. The member ticks what went wrong (face, hands, outfit, label, room, motion…) and adds targeted corrections to that shot's prompts, or asks the director for a fresh take on just that shot.
+- **Cost and time:** every shot, reference prompt and Vault prompt shows an estimate in Higgsfield credits, dollars and waiting time. The storyboard and Edit & post page show project totals plus a budget for retries. The team gives a rough cost before storyboarding and exact totals when it finishes. Members pick their image and video models on the storyboard. The price list (`lib/pricing.ts` defaults) is editable in **Admin → Higgsfield pricing**, because Higgsfield changes prices and has no price API. All figures are labelled as estimates.
 
 ## Accounts, results and the feedback loop
 
@@ -54,7 +61,7 @@ The app writes prompts; it doesn't generate images or video itself. Members past
 
 1. **Supabase:** create a project at supabase.com.
    - Under Authentication → URL Configuration, set the Site URL to your app's address and add `https://<your-domain>/auth/callback` as a redirect URL.
-   - Paste `supabase/migrations/0001_studio.sql` into the SQL editor and run it.
+   - Paste `supabase/migrations/0001_studio.sql`, then `0002_settings.sql`, into the SQL editor and run them.
 2. **Environment:** copy `.env.example` to `.env.local` (or into Vercel's environment variables) and fill it in.
 3. **Deploy:** import the repo on Vercel with the same variables.
 
@@ -78,6 +85,7 @@ Without the Supabase keys, `npm run dev` uses a development-only sign-in (any em
 | `app/globals.css` | The whole design system: colour tokens, type, components |
 | `app/api/{concepts,script,shots,package}` | One Claude call per step, with structured JSON output validated by Zod |
 | `lib/prompt-builder.ts` | Character anchors and final shot-prompt assembly |
+| `lib/pricing.ts`, `components/Cost.tsx`, `components/PricingEditor.tsx` | Higgsfield cost and time estimates, and the admin price list |
 | `lib/edit-guide.ts` | Clip timeline, captions (.srt) and voiceover script |
 | `lib/export.ts` | Episode pack → Markdown |
 | `app/api/beats` | Timed beats for the ad tools |

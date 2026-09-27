@@ -60,12 +60,12 @@ export function TeamProvider({ children }: { children: React.ReactNode }) {
 
   const go = useCallback(
     async (project: Episode, targetMinutes?: number) => {
-      const { bible, characters, locations, products } = libRef.current;
+      const { bible, characters, locations, products, pricing } = libRef.current;
       setRun((r) => (r ? { ...r, projectId: project.id, status: "running", progress: 0.02 } : r));
       try {
         await runPipeline({
           project,
-          lib: { bible, characters, locations, products },
+          lib: { bible, characters, locations, products, pricing },
           targetMinutes,
           update,
           say,

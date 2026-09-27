@@ -3,9 +3,13 @@ import { z } from "zod";
 import { readBody } from "@/lib/api.ts";
 import { BibleIn, CharacterIn, LocationIn, ProductIn } from "@/lib/schemas.ts";
 import { withMember } from "@/lib/server/auth.ts";
+import { getPricing } from "@/lib/server/settings.ts";
 import { loadStudio, saveStudio } from "@/lib/server/studio.ts";
 
-export const GET = withMember(async (_req, { user }) => NextResponse.json(await loadStudio(user.id)));
+export const GET = withMember(async (_req, { user }) => {
+  const [studio, pricing] = await Promise.all([loadStudio(user.id), getPricing()]);
+  return NextResponse.json({ ...studio, pricing });
+});
 
 const Body = z.object({
   bible: BibleIn.optional(),
