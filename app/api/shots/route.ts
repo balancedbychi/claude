@@ -24,7 +24,10 @@ const Body = z.object({
     .object({
       shotNumber: z.number().int().min(1),
       note: z.string().max(600).default(""),
-      shots: ShotsOut.shape.shots,
+      // Only what the prompt needs, so storyboards saved before newer fields still work.
+      shots: z
+        .array(z.object({ number: z.number(), durationSeconds: z.number(), startFrame: z.string(), action: z.string(), endFrame: z.string(), camera: z.string(), cameraMove: z.string() }).passthrough())
+        .max(30),
     })
     .nullable()
     .default(null),
@@ -69,6 +72,11 @@ Rules:
 - Shots are at most ${maxClipSeconds}s each and their durations add up to about ${scene.durationSeconds}s.
 - startFrame: the keyframe composition, written as precise pose and placement: each person's body position and orientation (standing, seated, lying on their back, facing camera or three-quarter), where they sit in the frame (left/right third, upper/lower half, head toward which edge), where they are relative to the set's named fixed objects, what each hand is doing and holding, gaze and expression, and where any product sits and which way its label faces. This becomes the still image, so leave nothing to guess.
 - action: the movement and performance during the clip (gestures, expressions, dialogue delivery), naming characters by name.
+- performance: 3-8 short cues for expression, energy and micro-movements that fit this brief and character (e.g. "strong direct eye contact", "knowing smirk", "slow head tilt", "light hair touch"). Empty when no one is on screen.
+- choreography: the action as ordered, physically explicit beats, one per item. Spell out cause before effect ("her fingers wrap around the remote", "her thumb visibly presses the button", "ONLY THEN the fan starts"). Hands touch what they hold. 2-7 beats.
+- mechanics: rules for anything besides people that moves, transforms or acts as a transition device, written so a video model can't get them wrong: direction in screen space (e.g. "clockwise: top → right, right → down, bottom → left, left → up"), fixed pivots that never move, what triggers what, and for wipes exactly what is ahead of / under / behind the wiping object. Empty when nothing else moves.
+- wardrobe: when the outfit changes during this clip, every complete outfit in order (outfit 1 = the one in the start frame), each written garment by garment with colors, fabrics and accessories. Empty when the outfit doesn't change.
+- priorities: 2-6 must-haves specific to this shot, most important first, in short imperative capitals style (e.g. "SHE PRESSES THE REMOTE BEFORE THE FAN MOVES."). Don't repeat identity or camera consistency; those are added automatically.
 - camera: framing only, shot size and angle (e.g. "low-angle medium shot"). Vary shot sizes so the edit feels cinematic.
 - cameraMove: camera movement during the clip (e.g. "slow dolly-in", "handheld follow", "static").
 - mood and lighting: short and specific. Keep lighting consistent within the scene${location ? " and with the set's default light unless the story changes the time of day" : ""}.

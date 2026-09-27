@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import {
   BarChart3,
   BookOpen,
+  Gauge,
   ShieldCheck,
   Clapperboard,
   Home,
@@ -41,6 +42,7 @@ export const LIBRARY: NavItem[] = [
   { href: "/products", label: "Products", icon: Package, blurb: "Packaging and claims for every product.", bot: "ads" },
   { href: "/projects", label: "Projects", icon: Library, blurb: "Every episode and ad you've built.", bot: "manager" },
   { href: "/results", label: "Results", icon: BarChart3, blurb: "Track how your posts perform, week by week.", bot: "stats" },
+  { href: "/models", label: "Model Guide", icon: Gauge, blurb: "Which Higgsfield model to use, the credits, and the crispest settings.", bot: "director" },
 ];
 
 export interface Account {

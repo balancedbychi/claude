@@ -1,7 +1,9 @@
 "use client";
 
 import { pool, post } from "./client-api.ts";
-import { costReport, estimateScenes, fmtEstimate, modelsFor, type PriceBook } from "./pricing.ts";
+import { outputTip } from "./model-guide.ts";
+import { costReport, estimateProject, estimateScenes, fmtCredits, fmtEstimate, fmtWait, hardestShot, modelsFor, priceLabel, testClip, type PriceBook } from "./pricing.ts";
+import { clipName } from "./edit-guide.ts";
 import { newId } from "./storage.ts";
 import type { BotId } from "./team.ts";
 import { TOOLS } from "./tools.ts";
@@ -17,6 +19,8 @@ export interface TeamMessage {
   text: string;
   state: "working" | "done" | "error";
   at: number;
+  /** A question with buttons: "run a test clip first?" for this project. */
+  ask?: { kind: "test"; projectId: string };
 }
 
 export interface Library {
@@ -28,7 +32,7 @@ export interface Library {
   pricing?: PriceBook;
 }
 
-type Say = (bot: TeamMessage["bot"], text: string, state?: TeamMessage["state"]) => string;
+type Say = (bot: TeamMessage["bot"], text: string, state?: TeamMessage["state"], ask?: TeamMessage["ask"]) => string;
 type Resay = (id: string, text: string, state?: TeamMessage["state"]) => void;
 
 export function newProject(kind: ToolKind, init: Partial<Episode> = {}): Episode {
@@ -108,7 +112,7 @@ export async function runPipeline(opts: {
   const todo = scenes.filter((s) => !p.shots.some((x) => x.sceneNumber === s.number));
   if (todo.length > 0) {
     const maxClip = p.kind === "episode" ? 8 : 5;
-    const rough = lib.pricing ? estimateScenes(todo, maxClip, lib.pricing, modelsFor(lib.pricing, lib.bible)) : null;
+    const rough = lib.pricing ? estimateScenes(todo, maxClip, modelsFor(lib.pricing, lib.bible)) : null;
     if (rough) say("director", `rough cost before i start: about ${rough.clips} clips, ${fmtEstimate(rough)} of generating on Higgsfield. exact numbers once the shots are in.`, "done");
     const m = say("director", `storyboarding ${todo.length} ${p.kind === "episode" ? "scenes" : "beats"}…`, "working");
     let finished = scenes.length - todo.length;
@@ -149,8 +153,21 @@ export async function runPipeline(opts: {
   say("manager", `all done ✨ your ${tool.label.replace(" Builder", "").toLowerCase()} is ready to generate. open it to copy prompts or tweak anything.`, "done");
   const cost = lib.pricing ? costReport(p, lib.pricing, lib.bible) : "";
   if (cost) say("manager", `💸 ${cost}`, "done");
+  say("director", `best output: ${outputTip(lib.bible.aspectRatio)}`, "done");
   say("director", "heads up: AI generators can hallucinate: faces drift, hands grow extra fingers, labels misspell, rooms rearrange. check each result against your references and hit regenerate on any shot that's off. i'll add fixes to the prompt.", "done");
+  const q = lib.pricing ? testQuestion(p, lib.pricing, lib.bible) : "";
+  if (q) say("manager", q, "done", { kind: "test", projectId: p.id });
   return p;
+}
+
+/** "want to run a test clip first?" with the shot to test and what it saves. */
+export function testQuestion(p: Episode, book: PriceBook, bible: SeriesBible): string {
+  const all = p.shots.flatMap((s) => s.shots.map((shot) => ({ ...shot, scene: s.sceneNumber })));
+  const pick = hardestShot(all);
+  const test = pick && testClip(pick, book);
+  if (!pick || !test) return "";
+  const full = estimateProject(p, modelsFor(book, bible));
+  return `want to run a test clip first to save credits? i'd test ${clipName(pick.scene, pick.number)} (the trickiest shot) on ${priceLabel(test.model)}, ${test.seconds}s, audio off: ${fmtCredits(test.estimate.credits)}, ${fmtWait(test.estimate.seconds)}. if the face, hands and motion look right, render everything (${fmtEstimate(full)}).`;
 }
 
 /** What the team manager sends for planning: library items as short labels. */

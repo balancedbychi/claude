@@ -42,12 +42,16 @@ Claude never rewrites a character, room or product description. It only decides 
 
 Every image prompt follows one house format: format and camera first, then which uploaded reference controls what (environment, character, outfit, product). After that come identity, hair and outfit preservation ("do not beautify, reshape, age…"), then precise pose and placement, believable anatomy and framing. Next is a locked environment ("never rotate, relocate, resize, recolor, or redesign"), then lighting and how materials react to it, and consistency across regenerations. The prompt ends with the look, an avoid list and a closing sentence. UGC ads and try-ons get a "premium iPhone creator content, not cinematic" look; episodes and commercials use the series' visual style.
 
+Video prompts use a sectioned format written for Seedance 2.5 on Higgsfield. It starts with a reference hierarchy that tags each upload (`@Image 1` = character identity master, `@Image 2` = the starting frame, then the product and each outfit) and says what each one controls. Then come identity, scene and camera (locked when static), exact wardrobe reproduction, product, performance, choreography, physics and mechanics, continuity, an absolute priority order and a final result. The storyboard director writes the parts that depend on the ask (performance cues, ordered beats, mechanics such as "the fan rotates clockwise only", outfit states and priorities), so the format adapts to what the member wants. Each shot also lists the references to upload, in order, and its render settings.
+
 The app writes prompts; it doesn't generate images or video itself. Members paste the prompts into their image and video tools along with the reference images.
 
 ### Regenerating and cost estimates
 
 - **Regenerate:** AI generators hallucinate, so the storyboard, Edit & post page and the team all remind members to check results against their references. Each shot has a **Regenerate** panel. The member ticks what went wrong (face, hands, outfit, label, room, motion…) and adds targeted corrections to that shot's prompts, or asks the director for a fresh take on just that shot.
-- **Cost and time:** every shot, reference prompt and Vault prompt shows an estimate in Higgsfield credits, dollars and waiting time. The storyboard and Edit & post page show project totals plus a budget for retries. The team gives a rough cost before storyboarding and exact totals when it finishes. Members pick their image and video models on the storyboard. The price list (`lib/pricing.ts` defaults) is editable in **Admin → Higgsfield pricing**, because Higgsfield changes prices and has no price API. All figures are labelled as estimates.
+- **Test first:** as soon as a storyboard exists, the team and the storyboard ask whether to run a test clip. It picks the trickiest shot and renders it at 480p for 5 seconds with audio off (about 15 credits on Seedance 2.5), and lists what to check before the full render.
+- **Model Guide** (`/models`): which Higgsfield model to use for what, and credits per model and resolution. It covers the crispest output settings for TikTok/Reels/Shorts (9:16, 1080p) and YouTube (16:9, 1080p upscaled to 4K), plus video best practice. One 4K example image is shown at 1K, 2K and 4K, and the viewer can pick which spot to zoom.
+- **Cost and time:** every shot, reference prompt and Vault prompt shows an estimate in Higgsfield credits and waiting time (members have Higgsfield plans, so no dollars). The storyboard and Edit & post page show project totals plus a budget for retries. The team gives a rough cost before storyboarding and exact totals when it finishes. Members pick their image and video models on the storyboard. Default credits come from Higgsfield's own cost check. The price list (`lib/pricing.ts` defaults) is editable in **Admin → Higgsfield pricing**, because Higgsfield changes prices and has no price API. All figures are labelled as estimates.
 
 ## Accounts, results and the feedback loop
 
@@ -85,7 +89,8 @@ Without the Supabase keys, `npm run dev` uses a development-only sign-in (any em
 | `app/globals.css` | The whole design system: colour tokens, type, components |
 | `app/api/{concepts,script,shots,package}` | One Claude call per step, with structured JSON output validated by Zod |
 | `lib/prompt-builder.ts` | Character anchors and final shot-prompt assembly |
-| `lib/pricing.ts`, `components/Cost.tsx`, `components/PricingEditor.tsx` | Higgsfield cost and time estimates, and the admin price list |
+| `lib/pricing.ts`, `components/Cost.tsx`, `components/PricingEditor.tsx` | Higgsfield credit and time estimates, test clips, and the admin price list |
+| `lib/model-guide.ts`, `components/ModelGuide.tsx` | The Model Guide: models, picks, output settings, resolution comparison |
 | `lib/edit-guide.ts` | Clip timeline, captions (.srt) and voiceover script |
 | `lib/export.ts` | Episode pack → Markdown |
 | `app/api/beats` | Timed beats for the ad tools |

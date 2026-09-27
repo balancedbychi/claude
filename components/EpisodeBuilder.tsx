@@ -45,7 +45,7 @@ export function EpisodeBuilder({ tool: kind }: { tool: ToolKind }) {
     } else if (found) {
       if (episode?.id !== found.id) {
         setEpisode(found);
-        setStep(Math.min(episodeProgress(found), 3));
+        setStep(params.get("step") === "storyboard" && found.script ? 2 : Math.min(episodeProgress(found), 3));
       }
     } else if (!episode || wantsNew) {
       setEpisode(blankEpisode(kind));

@@ -15,8 +15,8 @@ export const PUT = withMember(
     const ids = book.models.map((m) => m.id);
     if (new Set(ids).size !== ids.length) return NextResponse.json({ error: "Each model needs a different id." }, { status: 400 });
     const has = (id: string, type: string) => book.models.some((m) => m.id === id && m.type === type);
-    if (!has(book.defaultImage, "image") || !has(book.defaultVideo, "video")) {
-      return NextResponse.json({ error: "Pick a default image model and a default video model from the list." }, { status: 400 });
+    if (!has(book.defaultImage, "image") || !has(book.defaultVideo, "video") || (book.testVideo && !has(book.testVideo, "video"))) {
+      return NextResponse.json({ error: "Pick the default image and video models and the test-clip settings from the list." }, { status: 400 });
     }
     await savePricing(book);
     return NextResponse.json({ pricing: book });

@@ -2,9 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { Loader2, Plus, RotateCcw, Trash2 } from "lucide-react";
-import { fmtEstimate, estimateShot, modelsFor, type ModelPrice, type PriceBook } from "@/lib/pricing.ts";
+import { estimateShot, fmtEstimate, modelsFor, priceLabel, type ModelPrice, type PriceBook } from "@/lib/pricing.ts";
 
-/** Admin: the Higgsfield price book behind every cost and time estimate. */
+const SOURCES: Record<ModelPrice["source"], string> = { account: "Higgsfield cost check", published: "published pricing", estimate: "estimate" };
+
+/** Admin: the Higgsfield price list (credits and wait times) behind every estimate. */
 export function PricingEditor() {
   const [book, setBook] = useState<PriceBook | null>(null);
   const [defaults, setDefaults] = useState<PriceBook | null>(null);
@@ -40,29 +42,32 @@ export function PricingEditor() {
     } else setState(d.error || "Couldn't save.");
   }
 
-  const sample = estimateShot({ durationSeconds: 8, continueFromPrevious: false }, book, modelsFor(book));
+  const sample = estimateShot({ durationSeconds: 8, continueFromPrevious: false }, modelsFor(book));
+  const videos = book.models.filter((m) => m.type === "video");
 
   return (
     <div className="panel stack">
       <p className="small muted">
-        Members see these numbers as estimates on every shot, reference prompt and team report. Check them against Higgsfield&apos;s
-        Generate button when prices change. Last updated {book.updatedAt || "never"}. Example: an 8s shot with a keyframe on the
-        defaults is <b>{fmtEstimate(sample)}</b>.
+        Members see these credits and wait times as estimates on every shot, reference prompt and team report. To check a price, use
+        Higgsfield&apos;s cost preview (or the Generate button) and update the row. Last updated {book.updatedAt || "never"}. Example:
+        an 8s shot with a keyframe on the defaults is <b>{fmtEstimate(sample)}</b>.
       </p>
       <div className="row">
         <label className="inline-field">
-          $ per credit
-          <input type="number" step="0.001" min="0" value={book.creditUsd} onChange={(e) => change({ creditUsd: num(e.target.value) })} style={{ width: 90 }} />
-        </label>
-        <label className="inline-field">
           Tries to budget per shot
           <input type="number" step="0.5" min="1" max="10" value={book.attempts} onChange={(e) => change({ attempts: num(e.target.value) })} style={{ width: 70 }} />
+        </label>
+        <label className="inline-field">
+          Test-clip settings
+          <select value={book.testVideo} onChange={(e) => change({ testVideo: e.target.value })}>
+            {videos.map((m) => <option key={m.id} value={m.id}>{priceLabel(m)}</option>)}
+          </select>
         </label>
       </div>
       <div className="table-wrap">
         <table>
           <thead>
-            <tr><th>Default</th><th>Model</th><th>Type</th><th>Credits</th><th>Min billed sec</th><th>Wait (sec)</th><th /></tr>
+            <tr><th>Default</th><th>Model</th><th>Type</th><th>Resolution</th><th>Credits</th><th>Min billed sec</th><th>Wait (sec)</th><th>Source</th><th /></tr>
           </thead>
           <tbody>
             {book.models.map((m, i) => {
@@ -83,6 +88,9 @@ export function PricingEditor() {
                     </select>
                   </td>
                   <td>
+                    <input value={m.resolution} onChange={(e) => setModel(i, { resolution: e.target.value })} style={{ width: 70 }} aria-label="Resolution" />
+                  </td>
+                  <td>
                     <input type="number" step="0.05" min="0" value={m.credits} onChange={(e) => setModel(i, { credits: num(e.target.value) })} style={{ width: 80 }} aria-label="Credits" />
                     <span className="tiny faint"> {m.type === "image" ? "/ image" : "/ second"}</span>
                   </td>
@@ -97,7 +105,12 @@ export function PricingEditor() {
                     <input type="number" min="0" value={m.secondsToMake} onChange={(e) => setModel(i, { secondsToMake: num(e.target.value) })} style={{ width: 80 }} aria-label="Seconds to generate" />
                   </td>
                   <td>
-                    <button className="btn btn-ghost btn-sm btn-danger" onClick={() => change({ models: book.models.filter((_, j) => j !== i) })} aria-label={`Remove ${m.label}`}>
+                    <select value={m.source} onChange={(e) => setModel(i, { source: e.target.value as ModelPrice["source"] })} aria-label="Where the price came from">
+                      {Object.entries(SOURCES).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
+                    </select>
+                  </td>
+                  <td>
+                    <button className="btn btn-ghost btn-sm btn-danger" onClick={() => change({ models: book.models.filter((_, j) => j !== i) })} aria-label={`Remove ${priceLabel(m)}`}>
                       <Trash2 size={14} />
                     </button>
                   </td>
@@ -109,7 +122,10 @@ export function PricingEditor() {
       </div>
       <div className="row between">
         <div className="row">
-          <button className="btn btn-soft btn-sm" onClick={() => change({ models: [...book.models, { id: `model_${book.models.length + 1}`, label: "New model", type: "image", credits: 10, secondsToMake: 40 }] })}>
+          <button
+            className="btn btn-soft btn-sm"
+            onClick={() => change({ models: [...book.models, { id: `model_${book.models.length + 1}`, family: "", label: "New model", type: "image", resolution: "2K", credits: 2, secondsToMake: 40, source: "estimate" }] })}
+          >
             <Plus size={14} /> Add model
           </button>
           {defaults && (

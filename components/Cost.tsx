@@ -1,7 +1,7 @@
 "use client";
 
 import { Clock, Coins, TriangleAlert } from "lucide-react";
-import { fmtCredits, fmtUsd, fmtWait, modelsFor, type Estimate } from "@/lib/pricing.ts";
+import { clipCredits, fmtCredits, fmtWait, modelsFor, priceLabel, type Estimate } from "@/lib/pricing.ts";
 import type { SeriesBible } from "@/lib/types.ts";
 import { useStudio } from "@/lib/use-studio.ts";
 
@@ -9,9 +9,9 @@ import { useStudio } from "@/lib/use-studio.ts";
 export function CostTag({ e, prefix }: { e: Estimate; prefix?: string }) {
   if (e.credits === 0 && e.seconds === 0) return null;
   return (
-    <span className="cost-tag" title="Estimate from the studio's Higgsfield price list. Higgsfield shows the exact price on its Generate button.">
+    <span className="cost-tag" title="Estimate from the studio's Higgsfield price list. Higgsfield shows the exact credits on its Generate button.">
       {prefix && <span>{prefix}</span>}
-      <Coins size={12} aria-hidden="true" /> ≈ {fmtCredits(e.credits)} · {fmtUsd(e.usd)}
+      <Coins size={12} aria-hidden="true" /> ≈ {fmtCredits(e.credits)}
       <Clock size={12} aria-hidden="true" /> {fmtWait(e.seconds)}
     </span>
   );
@@ -27,7 +27,7 @@ export function ModelPicker() {
       .filter((x) => x.type === type)
       .map((x) => (
         <option key={x.id} value={x.id}>
-          {x.label} · {x.type === "image" ? `${x.credits} cr/image` : `${x.credits} cr/sec`}
+          {priceLabel(x)} · {x.type === "image" ? `${x.credits} credits/image` : `${x.credits} credits/sec`}
         </option>
       ));
   return (
@@ -62,9 +62,9 @@ export function ImageCost({ count = 1 }: { count?: number }) {
   if (!image) return null;
   const credits = image.credits * count;
   return (
-    <span className="cost-tag" title="Estimate. Higgsfield shows the exact price on its Generate button.">
-      <Coins size={12} aria-hidden="true" /> ≈ {fmtCredits(credits)} · {fmtUsd(credits * pricing.creditUsd)}
-      <Clock size={12} aria-hidden="true" /> {fmtWait(image.secondsToMake * count)} on {image.label}
+    <span className="cost-tag" title="Estimate. Higgsfield shows the exact credits on its Generate button.">
+      <Coins size={12} aria-hidden="true" /> ≈ {fmtCredits(credits)}
+      <Clock size={12} aria-hidden="true" /> {fmtWait(image.secondsToMake * count)} on {priceLabel(image)}
     </span>
   );
 }
@@ -74,11 +74,11 @@ export function ClipCost({ seconds }: { seconds: number }) {
   const { pricing, bible } = useStudio();
   const video = modelsFor(pricing, bible).video;
   if (!video) return null;
-  const credits = video.credits * Math.max(video.minSeconds ?? 0, seconds);
+  const credits = clipCredits(video, seconds);
   return (
-    <span className="cost-tag" title="Estimate. Higgsfield shows the exact price on its Generate button.">
-      <Coins size={12} aria-hidden="true" /> ≈ {fmtCredits(credits)} · {fmtUsd(credits * pricing.creditUsd)} per {seconds}s clip
-      <Clock size={12} aria-hidden="true" /> {fmtWait(video.secondsToMake)} on {video.label}
+    <span className="cost-tag" title="Estimate. Higgsfield shows the exact credits on its Generate button.">
+      <Coins size={12} aria-hidden="true" /> ≈ {fmtCredits(credits)} per {seconds}s clip
+      <Clock size={12} aria-hidden="true" /> {fmtWait(video.secondsToMake)} on {priceLabel(video)}
     </span>
   );
 }

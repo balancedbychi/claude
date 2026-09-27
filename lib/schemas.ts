@@ -123,6 +123,11 @@ export const ShotsOut = z.object({
       startFrame: z.string(),
       endFrame: z.string(),
       continueFromPrevious: z.boolean(),
+      performance: z.array(z.string()),
+      choreography: z.array(z.string()),
+      mechanics: z.array(z.string()),
+      priorities: z.array(z.string()),
+      wardrobe: z.array(z.string()),
     }),
   ),
 });
@@ -189,23 +194,26 @@ export const PlanOut = z.object({
 });
 
 export const PricingIn = z.object({
-  creditUsd: z.number().min(0).max(10),
   attempts: z.number().min(1).max(10),
   models: z
     .array(
       z.object({
         id: z.string().min(1).max(60).regex(/^[a-z0-9_]+$/),
+        family: z.string().max(60).default(""),
         label: z.string().min(1).max(80),
         type: z.enum(["image", "video"]),
+        resolution: z.string().max(20).default(""),
         credits: z.number().min(0).max(10_000),
         minSeconds: z.number().min(0).max(60).optional(),
         secondsToMake: z.number().min(0).max(36_000),
+        source: z.enum(["account", "published", "estimate"]).default("estimate"),
       }),
     )
     .min(1)
-    .max(40)
+    .max(60)
     .refine((m) => m.some((x) => x.type === "image") && m.some((x) => x.type === "video"), "Keep at least one image and one video model."),
   defaultImage: z.string().max(60),
   defaultVideo: z.string().max(60),
+  testVideo: z.string().max(60).default(""),
   updatedAt: z.string().max(40).default(""),
 });

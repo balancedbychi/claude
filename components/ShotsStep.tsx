@@ -1,13 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowRight, Clapperboard, Loader2, RefreshCw, Sparkles, Wand2 } from "lucide-react";
+import { ArrowRight, Check, Clapperboard, FlaskConical, Loader2, RefreshCw, Sparkles, Wand2 } from "lucide-react";
 import { tintFor } from "@/lib/art.ts";
 import { pool, post } from "@/lib/client-api.ts";
 import { clipName, fmtClock, sceneLength } from "@/lib/edit-guide.ts";
-import { estimateProject, estimateShot, fmtCredits, fmtUsd, fmtWait, modelsFor, times } from "@/lib/pricing.ts";
-import { FIXES, withPrompts } from "@/lib/prompt-builder.ts";
-import type { FixId, Scene, SceneShots, Shot } from "@/lib/types.ts";
+import { outputTip, renderSettings } from "@/lib/model-guide.ts";
+import { estimateProject, estimateShot, fmtCredits, fmtEstimate, fmtWait, hardestShot, modelsFor, priceLabel, testClip, times } from "@/lib/pricing.ts";
+import { FIXES, videoRefs, withPrompts } from "@/lib/prompt-builder.ts";
+import type { Episode, FixId, Scene, SceneShots, SeriesBible, Shot } from "@/lib/types.ts";
 import { useStudio } from "@/lib/use-studio.ts";
 import { CopyButton } from "./CopyButton.tsx";
 import { CostTag, GenerateNote, ModelPicker } from "./Cost.tsx";
@@ -22,8 +23,8 @@ export function ShotsStep({ tool, bible, characters, locations, products, episod
   const done = scenes.filter((s) => byScene.has(s.number)).length;
   const { pricing } = useStudio();
   const models = modelsFor(pricing, bible);
-  const total = estimateProject(episode, pricing, models);
-  const budget = times(total, pricing.attempts, pricing);
+  const total = estimateProject(episode, models);
+  const budget = times(total, pricing.attempts);
   const [fixing, setFixing] = useState<string | null>(null); // "scene:shot" with the regenerate panel open
   const [redoing, setRedoing] = useState<string | null>(null);
   const episodeProducts = products.filter((p) => p.id === episode.brief?.productId);
@@ -143,18 +144,21 @@ export function ShotsStep({ tool, bible, characters, locations, products, episod
             <span className="eyebrow">what it&apos;ll cost on Higgsfield</span>
             {total.clips > 0 ? (
               <p className="small">
-                <b>{total.images} image{total.images === 1 ? "" : "s"} + {total.clips} clip{total.clips === 1 ? "" : "s"} ≈ {fmtCredits(total.credits)} (~{fmtUsd(total.usd)})</b>, about {fmtWait(total.seconds).replace("~", "")} of generating
-                if you run them one after another. Budget <b>≈ {fmtCredits(budget.credits)} (~{fmtUsd(budget.usd)})</b> to allow {pricing.attempts} tries per shot.
+                <b>{total.images} image{total.images === 1 ? "" : "s"} + {total.clips} clip{total.clips === 1 ? "" : "s"} ≈ {fmtCredits(total.credits)}</b>, about {fmtWait(total.seconds).replace("~", "")} of generating
+                if you run them one after another. Budget <b>≈ {fmtCredits(budget.credits)}</b> to allow {pricing.attempts} tries per shot.
               </p>
             ) : (
-              <p className="small muted">Build the storyboard and every shot gets a credit, dollar and time estimate.</p>
+              <p className="small muted">Build the storyboard and every shot gets a credit and time estimate.</p>
             )}
-            <span className="tiny faint">Estimates from the studio&apos;s price list (updated {pricing.updatedAt}). Higgsfield shows the exact price on its Generate button.</span>
+            <span className="tiny faint">Estimates from the studio&apos;s price list (updated {pricing.updatedAt}). Higgsfield shows the exact credits on its Generate button.</span>
+            <span className="tiny"><b>Best output:</b> {outputTip(bible.aspectRatio)} <a href="/models">Model guide →</a></span>
           </div>
           <ModelPicker />
         </div>
         <GenerateNote />
       </div>
+
+      {total.clips > 0 && <TestFirst episode={episode} bible={bible} updateEpisode={updateEpisode} />}
 
       {scenes.map((scene) => {
         const result = byScene.get(scene.number);
@@ -201,14 +205,26 @@ export function ShotsStep({ tool, bible, characters, locations, products, episod
                           {shot.continueFromPrevious && <span className="tag outline-accent">from last frame</span>}
                         </div>
                         <p className="small muted">{shot.camera}{shot.cameraMove ? ` · ${shot.cameraMove}` : ""}</p>
-                        <CostTag e={estimateShot(shot, pricing, models)} />
+                        <CostTag e={estimateShot(shot, models)} />
                         {(shot.characterIds.length > 0 || shot.productIds.length > 0) && (
                           <p className="tiny faint">
                             {[...shot.characterIds.map(nameOf), ...shot.productIds.map((id) => products.find((p) => p.id === id)?.name ?? "")].filter(Boolean).join(", ")}
                           </p>
                         )}
                         <details className="prompts">
-                          <summary>View prompts</summary>
+                          <summary>View prompts &amp; settings</summary>
+                          <div className="prompt-label">Upload for the video, in this order</div>
+                          <ol className="ref-list">
+                            {videoRefs(shot, { characters, products: episodeProducts, bible, location: set, kind: tool.kind }).map((r) => (
+                              <li key={r.tag}><b>{r.tag}</b> {r.what}</li>
+                            ))}
+                          </ol>
+                          {models.video && (
+                            <>
+                              <div className="prompt-label">Render settings</div>
+                              <p className="tiny">{renderSettings({ model: models.video.label, resolution: models.video.resolution, aspectRatio: bible.aspectRatio, seconds: shot.durationSeconds })}</p>
+                            </>
+                          )}
                           {!shot.continueFromPrevious && (
                             <>
                               <div className="prompt-label">Image</div>
@@ -254,7 +270,7 @@ function FixPanel({ shot, busy, onApply, onNewTake }: { shot: Shot; busy: boolea
   const [fixes, setFixes] = useState<FixId[]>(shot.fixes ?? []);
   const [note, setNote] = useState(shot.fixNote ?? "");
   const { pricing, bible } = useStudio();
-  const again = estimateShot(shot, pricing, modelsFor(pricing, bible));
+  const again = estimateShot(shot, modelsFor(pricing, bible));
   const toggle = (id: FixId) => setFixes((f) => (f.includes(id) ? f.filter((x) => x !== id) : [...f, id]));
   const reason = [...FIXES.filter((f) => fixes.includes(f.id)).map((f) => f.label), note.trim()].filter(Boolean).join("; ");
   return (
@@ -279,5 +295,56 @@ function FixPanel({ shot, busy, onApply, onNewTake }: { shot: Shot; busy: boolea
       <CostTag e={again} prefix="each retry" />
       <span className="tiny faint">Or just press Generate again on Higgsfield: the same prompt often comes out fine on a second try.</span>
     </div>
+  );
+}
+
+/** "Run a test clip first?" — asked as soon as there's a storyboard, before any credits go on full renders. */
+function TestFirst({ episode, bible, updateEpisode }: { episode: Episode; bible: SeriesBible; updateEpisode: StepProps["updateEpisode"] }) {
+  const { pricing } = useStudio();
+  const all = episode.shots.flatMap((s) => s.shots.map((shot) => ({ ...shot, scene: s.sceneNumber })));
+  const pick = hardestShot(all);
+  const test = pick && testClip(pick, pricing);
+  if (!pick || !test) return null;
+  const full = estimateProject(episode, modelsFor(pricing, bible));
+  const code = clipName(pick.scene, pick.number);
+  const choice = episode.testChoice;
+  if (choice === "full" || choice === "passed") {
+    return (
+      <p className="small faint">
+        <Check size={13} /> {choice === "passed" ? `Test passed on ${code}. Render everything at full quality.` : "Going straight to full quality."}{" "}
+        <button className="btn btn-ghost btn-sm" onClick={() => updateEpisode({ testChoice: undefined })}>change</button>
+      </p>
+    );
+  }
+  return (
+    <section className={`panel stack tight test-first ${choice === "test" ? "on" : ""}`} aria-live="polite">
+      <div className="row between">
+        <span className="eyebrow"><FlaskConical size={13} /> {choice === "test" ? "your test clip" : "save credits: test first?"}</span>
+        <span className="tag">{code}</span>
+      </div>
+      {choice !== "test" ? (
+        <>
+          <p className="small">
+            Run the trickiest shot, <b>{code}</b>, as a quick test on <b>{priceLabel(test.model)}</b> for <b>{fmtCredits(test.estimate.credits)}</b> ({fmtWait(test.estimate.seconds)})
+            before spending {fmtEstimate(full)} on the full render. If the face, hands, product and motion look right, render the rest.
+          </p>
+          <div className="row">
+            <button className="btn btn-primary btn-sm" onClick={() => updateEpisode({ testChoice: "test" })}>Yes, test first</button>
+            <button className="btn btn-soft btn-sm" onClick={() => updateEpisode({ testChoice: "full" })}>Skip, go full quality</button>
+          </div>
+        </>
+      ) : (
+        <>
+          <p className="small">
+            <b>Settings:</b> {renderSettings({ model: test.model.label, resolution: test.model.resolution, aspectRatio: bible.aspectRatio, seconds: test.seconds, test: true })}. Use {code}&apos;s keyframe and animation prompt (below).
+          </p>
+          <p className="small"><b>Check:</b> same face as the character sheet · five fingers on each hand · product label spelled right · the motion and any transition happen in the right order.</p>
+          <div className="row">
+            <button className="btn btn-primary btn-sm" onClick={() => updateEpisode({ testChoice: "passed" })}><Check size={14} /> Test looks good</button>
+            <span className="tiny faint">Something off? Tap Regenerate on {code} and tick what went wrong, then test again.</span>
+          </div>
+        </>
+      )}
+    </section>
   );
 }

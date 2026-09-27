@@ -79,7 +79,9 @@ const COMMERCIAL = `COMMERCIAL CRAFT
 const TRANSITIONS = `TRANSFORMATION CRAFT
 - The payoff is the contrast between the first frame and the last. Tease the final look early to earn the watch-through.
 - Match cuts need identical position, framing and pose between steps. Change one thing at a time.
-- Put a retention moment near the middle (a turn, a mirror check, a reveal of the back) and end on a confident final pose.`;
+- Put a retention moment near the middle (a turn, a mirror check, a reveal of the back) and end on a confident final pose.
+- For one-take transitions (a spinning fan, a door, a hand swipe, a spin) the transition object is a physical mask: the old look stays ahead of it, the change happens hidden under it, and the new look appears only behind it. Spell out its direction and pivot, and what triggers it, so the video model can't guess.
+- Performance sells it: the character serves the camera the whole time (eye contact, knowing expressions, small intentional pose changes), never stiff or waiting.`
 
 const PACKAGING = `TITLES AND CAPTIONS
 - Titles are hooks, not summaries. Curiosity over description. Under 70 characters.

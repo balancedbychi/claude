@@ -115,6 +115,16 @@ export interface Shot {
   imagePrompt: string;
   /** Image-to-video prompt that animates the keyframe. */
   animationPrompt: string;
+  /** Expression, energy and micro-movements (e.g. "strong direct eye contact"). */
+  performance?: string[];
+  /** The action as ordered, physically explicit beats. */
+  choreography?: string[];
+  /** Rules for anything else that moves or transforms: direction, pivots, cause → effect, wipes. */
+  mechanics?: string[];
+  /** Shot-specific must-haves, most important first. */
+  priorities?: string[];
+  /** Complete outfits in order, when the wardrobe changes during the clip. */
+  wardrobe?: string[];
   /** What went wrong last time; adds correction lines to both prompts. */
   fixes?: FixId[];
   fixNote?: string;
@@ -146,4 +156,6 @@ export interface Episode {
   script: Script | null;
   shots: SceneShots[];
   pkg: PackageInfo | null;
+  /** The member's answer to "run a test clip first?": test first, skip to full quality, or test passed. */
+  testChoice?: "test" | "full" | "passed";
 }
