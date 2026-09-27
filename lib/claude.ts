@@ -84,3 +84,45 @@ export async function generate<S extends z.ZodType>(opts: {
   }
   return response.parsed_output as z.infer<S>;
 }
+
+export interface ConnectionStatus {
+  configured: boolean;
+  ok: boolean;
+  model: string;
+  /** The model that actually answered (differs from `model` only after a fallback). */
+  servedBy?: string;
+  ms?: number;
+  error?: string;
+}
+
+/** A tiny real request, so the admin can confirm the key and model work. Costs a fraction of a cent. */
+export async function checkConnection(): Promise<ConnectionStatus> {
+  const configured = Boolean(process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN);
+  if (!configured) return { configured, ok: false, model: MODEL, error: "ANTHROPIC_API_KEY isn't set on the server." };
+  const started = Date.now();
+  try {
+    const response = await client.messages.create({
+      model: MODEL,
+      max_tokens: 1024,
+      output_config: { effort: "low" },
+      messages: [{ role: "user", content: "Reply with the single word: ready" }],
+    });
+    return { configured, ok: true, model: MODEL, servedBy: response.model, ms: Date.now() - started };
+  } catch (err) {
+    const error =
+      err instanceof Anthropic.AuthenticationError
+        ? "The API key was rejected. Check it was copied in full, and that it hasn't been deleted in the Claude Console."
+        : err instanceof Anthropic.PermissionDeniedError
+          ? "The key works but isn't allowed to use this model. Check the key's workspace in the Claude Console."
+          : err instanceof Anthropic.NotFoundError
+            ? `The model "${MODEL}" wasn't found. Remove CLAUDE_MODEL or set it to a current model id.`
+            : err instanceof Anthropic.RateLimitError
+              ? "Rate limited, or the account is out of credit. Check Billing in the Claude Console."
+              : err instanceof Anthropic.APIConnectionError
+                ? "Couldn't reach the Claude API from the server."
+                : err instanceof Anthropic.APIError
+                  ? `The Claude API returned an error (${err.status ?? "unknown"}).`
+                  : (err as Error).message;
+    return { configured, ok: false, model: MODEL, ms: Date.now() - started, error };
+  }
+}

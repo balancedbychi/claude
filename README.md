@@ -66,8 +66,9 @@ The app writes prompts; it doesn't generate images or video itself. Members past
 1. **Supabase:** create a project at supabase.com.
    - Under Authentication → URL Configuration, set the Site URL to your app's address and add `https://<your-domain>/auth/callback` as a redirect URL.
    - Paste `supabase/migrations/0001_studio.sql`, then `0002_settings.sql`, into the SQL editor and run them.
-2. **Environment:** copy `.env.example` to `.env.local` (or into Vercel's environment variables) and fill it in.
-3. **Deploy:** import the repo on Vercel with the same variables.
+2. **Claude API key:** in the Claude Console (platform.claude.com), create an API key under Settings → API keys, add credit under Billing, and set a monthly spend limit under Limits. The key goes in `ANTHROPIC_API_KEY`. It is only ever read on the server; never give it a `NEXT_PUBLIC_` prefix. After deploying, open **Admin → AI connection → Test the AI connection** to confirm it works.
+3. **Environment:** copy `.env.example` to `.env.local` (or into Vercel's environment variables) and fill it in.
+4. **Deploy:** import the repo on Vercel with the same variables.
 
 ### Run it locally
 
