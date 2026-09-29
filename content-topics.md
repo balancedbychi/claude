@@ -130,8 +130,8 @@ Topics creators use again and again to promote content, grouped by type. The one
 ---
 
 **Tip:** You can combine topics. For example, "cozy girl autumn" + night routine + a product
-in use gives you a seasonal, shoppable video. For AI services, "you in another era" + before and after
-+ "steal my prompt" shows off the result and teaches at the same time.
+in use gives you a seasonal, shoppable video. For AI services, "you in another era" + before and after +
+"steal my prompt" shows off the result and teaches at the same time.
 
 ## Sources
 - [TikTok & Instagram Trends for September 2026 – Pepper Agency](https://www.pepperagency.com/blog/tiktok-instagram-trends-for-september-2026-and-how-brands-can-actually-use-them)
