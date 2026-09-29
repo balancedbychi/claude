@@ -1,4 +1,4 @@
-# 50 Social Media Content Topics
+# 100 Social Media Content Topics
 
 Topics creators use again and again to promote content, grouped by type. The ones marked
 **(Trending)** are showing up in trend roundups for September 2026 (sources at the bottom).
@@ -65,10 +65,73 @@ Topics creators use again and again to promote content, grouped by type. The one
 49. Giveaways and collaborations
 50. Challenges (7-day, 30-day, or a trending challenge)
 
+## Promoting AI services (avatars, stories, video)
+51. AI avatar reveal: "I turned myself into..."
+52. Before and after: plain selfie to AI portrait or avatar
+53. Photo to motion video: animating a still image
+54. "How I made this with AI": behind-the-scenes screen recording
+55. "Steal my prompt": prompt breakdown with the result
+56. AI storybook: animated children's story or bedtime story
+57. Recurring AI character series (an AI persona with ongoing episodes)
+58. Custom brand mascot created with AI
+59. AI spokesperson / talking avatar for small businesses
+60. AI product shots vs. a real photo shoot comparison
+61. "I made a video ad in 10 minutes" speedrun
+62. Client transformation showcase (portfolio of past work)
+63. "Guess which one is AI" challenge
+64. Your pet as an AI character
+65. You in another era: 90s, Renaissance painting, vintage film
+66. AI music video or lyric visualizer
+67. Animating old family photos
+68. AI tools I use to run my business
+69. Pricing and packages explained / FAQ ("what does an AI avatar cost?")
+70. AI myths, ethics, and how you disclose AI content
+
+## Fashion and beauty
+71. Outfit of the day
+72. Capsule wardrobe / seasonal closet switch
+73. Get the look for less (dupes)
+74. Makeup tutorial
+75. Hair care routine
+76. Haul and try-on
+
+## Home and organization
+77. Room makeover / home tour
+78. Organize with me
+79. Clean with me
+80. Cozy home decor ideas
+81. Plant care and plant shelf tour
+
+## Seasonal (fall and Q4)
+82. Fall bucket list
+83. Halloween costume ideas (including AI costume transformations)
+84. Thanksgiving recipes and table setup
+85. Holiday gift guide
+86. Black Friday finds and deals
+87. New year goals / vision board
+
+## Creator and business
+88. How I grew to [X] followers
+89. Business or income breakdown
+90. Content batching day
+91. Work-from-home setup
+92. Side hustle ideas
+93. Client or customer testimonials
+94. Launch countdown for a new product or service
+
+## Lifestyle, travel and community
+95. Travel vlog / weekend getaway
+96. Date ideas
+97. Friendship content ("types of friends", friend dates)
+98. Family routines / mom life
+99. Reading list and book recommendations
+100. Local guide: best spots in your city
+
 ---
 
 **Tip:** You can combine topics. For example, "cozy girl autumn" + night routine + a product
-in use gives you a seasonal, shoppable video.
+in use gives you a seasonal, shoppable video. For AI services, "you in another era" + before and after
++ "steal my prompt" shows off the result and teaches at the same time.
 
 ## Sources
 - [TikTok & Instagram Trends for September 2026 – Pepper Agency](https://www.pepperagency.com/blog/tiktok-instagram-trends-for-september-2026-and-how-brands-can-actually-use-them)
