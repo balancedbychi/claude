@@ -180,6 +180,14 @@ These come from the locked rules in the Higgsfield element notes.
 - **Nia:** use `Nia` for identity. **No rings, no bracelets.** She carries the overnight bag in C1, and it should stay on her shoulder through C4.
 - **Wine:** Simone holds one glass in C1–C4. ChiChi and Kel have exactly two glasses in C5–C7. Levels only ever go down.
 - **Phone:** Nia uses her phone as a mirror in C1. **Never show readable text on the screen.**
-- **Wardrobe:** waiting on your references for all five characters. Each one becomes a wardrobe-only element with no face in it. Dorian's black set and Kel's polo are locked to "The Caterer" and are not reused here.
+- **Wardrobe:** these are locked from your references. Each one is a wardrobe-only element: the picture decides the clothes, and face and identity come from the character's own element. Dorian's black set and Kel's polo belong to "The Caterer" and are not used here.
+
+  | Character | Clips | Wardrobe element | Identity elements attached with it |
+  |---|---|---|---|
+  | Nia | C1–C4 | `Nia-Double-Booked-Look` `38c8cb48-d342-4143-85f2-9eb5ba462544` | `Nia` `bcd528d3…` |
+  | Simone | C1–C4 | `Simone-Double-Booked-Look` `2a042d0e-64b9-477f-bc2d-2ad8cda38335` | `Simone-Face-v3` `66ab4872…` |
+  | Dorian | C3–C4 | `Dorian-Double-Booked-Look` `f44003af-4374-4d5c-acbf-d4f2aad1f9b3` | `Dorian` `5deb4ada…` |
+  | ChiChi | C5–C7 | `ChiChi-Double-Booked-Look` `a18211bc-26e3-45d3-8ea0-66ee6cc3b13d` | `ChiChi-the-Influencer` `8a8e8eeb…` and `ChiChi-Face-Photoreal` `54b60e1c…` |
+  | Kel | C5–C7 | `Kel-Double-Booked-Look` `0bac4ba5-b61d-411c-98a9-f26c16967200` | `Kel-The-Cousin` `3ad69411…` |
 
 **Spoken word count:** about 220 words, which fits 90 seconds with room for the silences. C4 and C7 depend on the pauses, so don't rush them.
