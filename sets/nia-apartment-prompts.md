@@ -149,3 +149,16 @@ I'll save each approved image as a Higgsfield **environment** element, or a **pr
 | W3 | `30003885-275a-4693-9ccc-f6dc9c9db89c` |
 
 Next: a closer view of the door, made from the chosen W shot, then the corridor, made from that door.
+
+**1 Oct 2026, decision:** the user picked **W3** (`30003885-275a-4693-9ccc-f6dc9c9db89c`) as the master view from the living room to the door.
+
+**1 Oct 2026, closer door view and corridor, both made from W3:**
+
+| Set | Option | Job ID |
+|---|---|---|
+| Door from inside (Nia's side) | D1 | `46cf3eab-7fc6-4563-82b7-dcec22495bf3` |
+| Door from inside (Nia's side) | D2 | `f9787524-7532-408f-b49c-5ff79ba42b16` |
+| Door from inside (Nia's side) | D3 | `132b21b4-ffa7-40ae-b0d1-f496b181bf9c` |
+| Corridor outside (Dorian's side) | K1 | `4d60e315-b4aa-4fed-b390-b74ef6e435d1` |
+| Corridor outside (Dorian's side) | K2 | `f1b148fb-a362-46d5-9ed9-a283c496c94c` |
+| Corridor outside (Dorian's side) | K3 | `ebcf6f00-620a-41a0-94c7-4fcef28fd731` |
