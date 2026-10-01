@@ -1,7 +1,7 @@
 # EXCLUSIVE with Nia and Chi: "Exclusive to Me"
 
 **Format:** scripted short, vertical 9:16
-**Runtime:** about 90 seconds, 11 clips
+**Runtime:** about 60 seconds, **3 segments**: 22 s, 30 s and 8 s. Each segment is one render that cuts between the people on the call.
 **When:** later the same night as "Double Booked", after Nia leaves Dorian's
 **Cast:** Nia · ChiChi · Dorian · Narrator (V.O.)
 **Sets:** `Nia-Bedroom-Night` · `ChiChi-Living-Room-Night-v2` · `Dorian-Roof-Terrace-v2`
@@ -14,173 +14,143 @@ Still in the outfit she wore to Dorian's, Nia calls ChiChi in tears. Mid-sentenc
 
 ---
 
+## Pacing rule (applies to every segment)
+
+**No dead air.** Every reply lands right on the end of the line before it, with no gap longer than a fraction of a second. There are only three short beats in the whole episode, each about one second:
+1. the call-waiting beep in Segment 1,
+2. the line going dead on Dorian in Segment 2,
+3. Nia lowering the phone at the very end.
+
+Cuts always happen **on a line**, from whoever just spoke to whoever answers. The camera never sits on someone who isn't reacting.
+
 ## Staging rules
 
-- **Nia** holds her phone to her ear. When the call-waiting beep comes, she lowers it to look at the screen. The screen never shows readable text; it's only a glow.
-- **ChiChi** is on speakerphone, as always. No phone is visible in her scenes, her hands stay free, and she talks toward the room.
-- **Dorian** is alone on his roof terrace and holds the phone to his ear. The loft behind the glass stays out of focus, and no one else is ever seen.
-- **The other side of a call is audio only.** Whoever isn't on screen is heard as a thin, phone-filtered voice.
+- **Nia** holds her phone to her ear. At the beep she lowers it to look at the screen, which shows only a glow, never readable text.
+- **ChiChi** is on speakerphone, as always. No phone is visible, her hands stay free, and she talks toward the room.
+- **Dorian** is alone on his roof terrace with the phone to his ear. The lit loft behind the glass stays out of focus, and no one else is ever seen.
+- **Both sides of each call are heard clearly.** The person on screen sounds natural, and the person off screen sounds slightly thinner, like a phone line.
 
 ---
 
 ## Script
 
-### C1 — SAME NIGHT (0:00–0:11)
-*INT. NIA'S BEDROOM — NIGHT*
+### SEGMENT 1 — "ANOTHER GIRL?" (0:00–0:22)
+*Cutting between INT. NIA'S BEDROOM — NIGHT and INT. CHICHI'S LIVING ROOM — NIGHT*
 
-*Lamplight. Nia sits on the edge of the bed, still wearing the outfit she wore to Dorian's. The overnight bag lies where she dropped it on the floor. She has the phone to her ear and her mascara is running. She's been crying for a while.*
+*NIA'S BEDROOM. Lamplight. Nia sits on the edge of the bed, still in the outfit she wore to Dorian's, with the overnight bag dropped on the floor. Phone to her ear, mascara running.*
 
-> **NARRATOR (V.O.)**
+> **NARRATOR (V.O.)** *(laid over the first seconds in the edit)*
 > Same night. Same outfit.
-> Very different plans.
 
 > **NIA**
 > *(crying)*
-> Chi… I went to Dorian's.
-> There was a girl there.
+> Chi… I went to Dorian's. There was a girl there.
 
----
-
-### C2 — WHAT? (0:11–0:16)
-*INT. CHICHI'S LIVING ROOM — NIGHT*
-
-*ChiChi is alone at the end of the sectional with her feet tucked under her, talking on speaker toward the room. She sits up straight.*
+*CUT TO CHICHI, alone on the sectional, on speaker. She sits up.*
 
 > **CHICHI**
 > What? Another girl?
 
----
-
-### C3 — THE BEEP (0:16–0:30)
-*INT. NIA'S BEDROOM — NIGHT*
+*CUT TO NIA.*
 
 > **NIA**
-> *(through tears)*
-> Yes, another girl. She opened his door, Chi.
-> I really thought he was into me. I really thought we were a thing.
+> Yes, another girl. She opened his door, Chi. I really thought he was into me. I really thought we were a thing.
 
-*A call-waiting BEEP. Nia pulls the phone from her ear and looks down at it, the screen lighting her wet face. She goes still.*
+*BEEP. Nia lowers the phone and looks at the screen, which lights her wet face.*
 
 > **NIA**
-> …It's him. It's Dorian.
+> …It's Dorian.
 
----
-
-### C4 — ANSWER IT (0:30–0:35)
-*INT. CHICHI'S LIVING ROOM — NIGHT*
-
-*ChiChi raises her eyebrows without a moment's hesitation.*
+*CUT TO CHICHI, instantly.*
 
 > **CHICHI**
 > Well? Answer it.
 
 ---
 
-### C5 — HE CALLS (0:35–0:46)
-*EXT. DORIAN'S ROOF TERRACE — NIGHT*
+### SEGMENT 2 — "EXCLUSIVE TO ME" (0:22–0:52)
+*Cutting between EXT. DORIAN'S ROOF TERRACE — NIGHT and INT. NIA'S BEDROOM — NIGHT*
 
-*Dorian is alone outside with the phone to his ear. Behind him, through the glass, the lit loft. Whoever is inside stays a soft blur and is never in focus. He rubs his forehead and doesn't know where to start.*
+*DORIAN'S TERRACE. Alone, phone to his ear, the city behind him. He rubs his forehead.*
 
 > **DORIAN**
 > Hey. Listen… I'm real sorry.
 
-> **NIA (ON PHONE)**
-> *(thin, through the speaker)*
+*CUT TO NIA, steadying her voice.*
+
+> **NIA**
 > What was that about?
 
+*CUT TO DORIAN.*
+
 > **DORIAN**
-> *(exhales)*
 > Look, I didn't want to tell you.
 
----
-
-### C6 — EXCLUSIVE (0:46–0:51)
-*INT. NIA'S BEDROOM — NIGHT*
-
-*Nia has wiped her face and steadied her voice. She's holding on.*
+*CUT TO NIA.*
 
 > **NIA**
 > I thought we were exclusive.
 
----
-
-### C7 — TO ME (0:51–1:04)
-*EXT. DORIAN'S ROOF TERRACE — NIGHT*
-
-*Dorian leans on the glass railing. He means every word, and that's the problem. There's no smirk; he's trying to be honest and doesn't see the hole he's digging.*
+*CUT TO DORIAN, leaning on the glass railing. He's sincere and has no idea how this sounds.*
 
 > **DORIAN**
-> I mean — you and I are exclusive. Like, you're exclusive… to me.
+> I mean — you and I are exclusive. Like, you're exclusive to me.
 
-> **NIA (ON PHONE)**
-> …What do you mean?
+*CUT TO NIA.*
+
+> **NIA**
+> What do you mean?
+
+*CUT TO DORIAN.*
 
 > **DORIAN**
 > Well, I never said I was exclusive with you. You wanted to be exclusive with me. And I said, sure.
 
----
-
-### C8 — HANG UP (1:04–1:10)
-*INT. NIA'S BEDROOM — NIGHT*
-
-*Nia's face changes completely.*
+*CUT TO NIA. Her face changes completely.*
 
 > **NIA**
 > Are you kidding me?
 
-> **DORIAN (ON PHONE)**
+*CUT TO DORIAN.*
+
+> **DORIAN**
 > Look —
 
-*She hangs up on him mid-word.*
+*The line goes dead. He lowers the phone and looks at it, sorry and a little lost. A one-second beat, then the segment ends.*
 
 ---
 
-### C9 — DEAD LINE (1:10–1:15)
-*EXT. DORIAN'S ROOF TERRACE — NIGHT*
+### SEGMENT 3 — "CALL YOU BACK" (0:52–1:00)
+*Cutting between INT. CHICHI'S LIVING ROOM — NIGHT and INT. NIA'S BEDROOM — NIGHT*
 
-*The line goes dead. Dorian lowers the phone and looks at the screen. For a moment he looks sorry and a little lost. He glances back at the lit loft behind the glass and doesn't go in.*
-
----
-
-### C10 — CLICKS BACK (1:15–1:20)
-*INT. CHICHI'S LIVING ROOM — NIGHT*
-
-*ChiChi leans toward the room as the line clicks back.*
+*CHICHI, leaning toward the room.*
 
 > **CHICHI**
 > Hey — is everything okay?
 
----
-
-### C11 — I HAVE TO CALL YOU BACK (1:20–1:30)
-*INT. NIA'S BEDROOM — NIGHT*
-
-*Close on Nia, phone at her ear, eyes full.*
+*CUT TO NIA, eyes full.*
 
 > **NIA**
-> *(barely holding it)*
 > I have to call you back.
 
-*She hangs up, lowers the phone into her lap, and sits there in the lamplight.*
+*She hangs up and lowers the phone into her lap. The segment ends on her.*
 
-> **NARRATOR (V.O.)**
-> Exclusive.
-> Just not mutual.
+> **NARRATOR (V.O.)** *(laid over the last frames in the edit)*
+> Exclusive. Just not mutual.
 
-*CUT TO BLACK.*
-
-**END CARD:** *EXCLUSIVE with Nia and Chi*
+*CUT TO BLACK.* **END CARD:** *EXCLUSIVE with Nia and Chi*
 
 ---
 
 ## Continuity and production notes
 
-- **Nia:** she's still in her "Double Booked" outfit, `Nia-Double-Booked-Look`, one look for every clip. Her face comes from `Nia`; clothes **never** come from that image. No rings, no bracelets. Diamond studs.
-- **ChiChi:** her look is `ChiChi-Double-Booked-Look`. Her hair is always honey-blonde, and she wears no rings or bracelets. She's alone and on speakerphone, with no phone in view.
-- **Dorian:** wears `Dorian-Double-Booked-Look`, with no dish towel now. His face comes from `Dorian`. Voice: deep, low, calm General American baritone. **He's not a villain.** He's sorry and honestly believes what he's saying, which is what makes it land. C9 gives him a moment to feel it.
-- **Nia's bedroom (`Nia-Bedroom-Night`):** warm lamplight, deep shadows.
-- **ChiChi's living room (`ChiChi-Living-Room-Night-v2`):** one table lamp, **no floor lamp**, TV off.
-- **Dorian's roof terrace (`Dorian-Roof-Terrace-v2`):** the approved terrace with the glass railing. Late night, and the city is behind him.
-- **No doors open or close on screen** in this episode.
-- **Pacing:** replies come in quickly. The only pauses are the beep in C3, the dead line in C9 and the hang-up in C11.
-- **Spoken word count:** about 190 words in roughly 90 seconds.
+- **Nia:** still in her "Double Booked" outfit, `Nia-Double-Booked-Look`, the same look in every shot. Her face comes from `Nia`; clothes **never** come from that image. No rings, no bracelets. Diamond studs.
+- **ChiChi:** wears `ChiChi-Double-Booked-Look`. Her hair is always honey-blonde, and she wears no rings or bracelets. She's alone and on speakerphone, with no phone in view.
+- **Dorian:** wears `Dorian-Double-Booked-Look`, with no dish towel. His face comes from `Dorian`. Voice: deep, low, calm General American baritone. **He's not a villain.** He's sorry and honestly believes what he's saying.
+- **Sets:**
+  - **Nia's bedroom:** lamplight, deep shadows.
+  - **ChiChi's living room:** one table lamp, **no floor lamp**, TV off.
+  - **Dorian's roof terrace:** the approved terrace with the glass railing, city at night.
+- **No doors open or close on screen.**
+- **Narration** is a separate voiceover track, only two short lines, laid over action in the edit. It's never rendered into a segment and never sits over silence.
+- **Spoken word count:** about 175 words in about 60 seconds, a brisk, natural conversational pace.
