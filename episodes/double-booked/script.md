@@ -15,14 +15,16 @@ Nia shows up at Dorian's to spend the night and finds Simone answering his door.
 
 ## Voices
 
-| Character | Voice | Delivery |
+Voice files can't be attached to a render, so each voice comes from the written description that goes into the clip prompt. These descriptions are the ones already set in earlier episodes; the narrator is the only new one. Paste a speaker's description into every clip they speak in, word for word, so the voice stays the same from clip to clip.
+
+| Character | Voice description for the prompt | In this episode |
 |---|---|---|
-| **NIA** | `Nia-Canon-Voice-v2` | Warm and low, British, dry and deadpan until the deadpan cracks. |
-| **CHICHI** | `ChiChi-Canon-Voice-v1` | Unhurried, deadpan and warm, with calm authority. She doesn't raise her voice, even when it breaks her heart. |
-| **SIMONE** | Preset **Roxie** (`f6448975…`) | Cheerful, bright, normal volume. She has no idea anything is wrong. |
-| **DORIAN** | Not yet assigned | Warm, easy and ordinary. Caught out, not cruel. |
-| **KEL** | Not yet assigned | Warm, low, unhurried and entirely sincere, with no attitude. |
-| **NARRATOR** | Not yet assigned; Maeve or Helena are suggestions | Wry, intimate voice-of-God. Speaks only between scenes. |
+| **NIA** | A warm, low, British-accented woman's voice. Dry and deadpan. Young, quick and a little impatient, with charm. | Deadpan until C4, where it cracks. Quiet, not loud. |
+| **CHICHI** | Unhurried and deadpan, warm, with calm authority. Direct and grounded, never angry. | Even when she's let down in C7, she says it softly. |
+| **SIMONE** | Cheerful, bright and warm. Normal volume, unhurried, having a nice time. No drawl, no edge, nothing knowing. | Stays friendly all the way through, including "Okay — come in!" |
+| **DORIAN** | Warm, unhurried, easy company, completely at ease in his own home. Never slick, never smooth, never performing. | Relaxed in C3 until he sees Nia, then quiet and caught. |
+| **KEL** | Warm, low, unhurried and entirely sincere, with no attitude. | Kind and honest, even when he gives the wrong answer. |
+| **NARRATOR** *(new, no earlier version)* | A rich, warm, low woman's voice. Wry and intimate, like a friend telling you the story over a drink. Measured pace, never theatrical. | Voiceover only, between scenes. She never talks over dialogue. |
 
 ---
 
@@ -174,10 +176,10 @@ These come from the locked rules in the Higgsfield element notes.
 - **Dorian:** use `Dorian` for identity. **He is not a villain.** He's caught, embarrassed and out of words, but never smirking or cold. The audience should see a man who simply didn't think it through.
 - **Simone:** `Simone-Face-v3` supplies her face and hair only, as a copper-auburn bob. She stays **cheerful and friendly** the whole time, with no sneer and no smugness. She's as blindsided as Nia, just slower to notice. Her wardrobe has **no coat**, because she has been there a while.
 - **Kel:** use `Kel-The-Cousin`. He's 53, warm and sincere, and **genuinely kind**. His answer is honest, not dismissive. His joke about the pot in C5 calls back to "The Caterer".
-- **ChiChi:** use `ChiChi-the-Influencer` for identity and `ChiChi-Face-Photoreal` for skin. Her hair is honey-blonde, pending your answer on the hair question. **No rings, no bracelets.** She wants a child and has no partner, which carries over from "Available".
+- **ChiChi:** use `ChiChi-the-Influencer` for identity and `ChiChi-Face-Photoreal` for skin. **Her hair is always honey-blonde:** shoulder-length layers with darker roots and outward-curled ends. The deep side part is on the left side of her head, so the volume falls to screen left. It is never dark brown. Never attach `ChiChi-Series-Look`; it's retired. **No rings, no bracelets.** She wants a child and has no partner, which carries over from "Available".
 - **Nia:** use `Nia` for identity. **No rings, no bracelets.** She carries the overnight bag in C1, and it should stay on her shoulder through C4.
 - **Wine:** Simone holds one glass in C1–C4. ChiChi and Kel have exactly two glasses in C5–C7. Levels only ever go down.
 - **Phone:** Nia uses her phone as a mirror in C1. **Never show readable text on the screen.**
-- **Wardrobe:** this is a new episode, so no one has a locked look yet. Every character needs wardrobe elements before generation. Dorian's black set and Kel's polo are locked to "The Caterer" only.
+- **Wardrobe:** waiting on your references for all five characters. Each one becomes a wardrobe-only element with no face in it. Dorian's black set and Kel's polo are locked to "The Caterer" and are not reused here.
 
 **Spoken word count:** about 220 words, which fits 90 seconds with room for the silences. C4 and C7 depend on the pauses, so don't rush them.
