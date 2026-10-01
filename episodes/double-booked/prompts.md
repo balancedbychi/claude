@@ -47,108 +47,80 @@
 
 ---
 
-## C1 — THE DOOR · 10 s
+## C1 — THE DOOR · 20 s · one continuous take
 
-**Elements:** hallway, Nia ×2, Simone ×2
-
-```
-Photoreal cinematic drama, vertical 9:16, late night. Set: the residential hallway outside Dorian's apartment <<<6acd0d74-4da4-4aa4-bad6-4505bf5f26b2>>>, reproduced exactly as the reference shows it, no relight.
-
-Nia <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>>, wearing exactly the outfit in <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, with an overnight bag on her shoulder, walks down the hallway toward the apartment door. Waist-length jet-black water-wave curls, diamond stud earrings, no rings, no bracelets. She stops at the door, lifts her phone and checks her lip gloss in its dark screen, presses her lips together, and allows herself a small private smile. The screen shows nothing readable.
-
-She reaches for the door handle. Before her fingers touch it, the door swings open from inside.
-
-Simone stands in the doorway. Her face and hair are from <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>>: a copper-auburn blunt shoulder-length bob, deep side part and sweep exactly as the reference shows, never mirrored. She wears exactly the outfit in <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, with no coat. She holds one glass of red wine and looks relaxed and at home. The two women face each other across the threshold and Nia's smile drops. The clip ends on that moment.
-
-Nia's saved voice element <<<12315c68-37de-41fe-8766-76ac07bcaf70>>> is attached to this generation.
-ChiChi's saved voice element <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>> is attached to this generation, but CHICHI IS NOT IN THIS SCENE: she never appears and speaks no lines.
-
-Camera: a smooth tracking shot behind Nia's shoulder down the hallway, settling into a profile two-shot at the door when it opens. 35mm, shallow depth.
-Audio: quiet hallway hum, Nia's heels on the floor, the soft click of the latch. NO DIALOGUE in this clip. No voice-over, no music.
-Skin photographed, never cartoonish or airbrushed. Correct five-finger hands. No subtitles, no captions, no on-screen text.
-```
-
----
-
-## C2 — WHO ARE YOU? · 12 s
-
-**Elements:** hallway, loft entry, Nia ×2, Simone ×2
+**Replaces the old C1 and C2.** Elements: hallway, loft entry, Nia, Nia's look, Simone, Simone's look, plus both voice elements.
 
 ```
-Photoreal cinematic drama, vertical 9:16, late night. Continuous from the previous moment. Set: the open front door of Dorian's apartment. The hallway <<<6acd0d74-4da4-4aa4-bad6-4505bf5f26b2>>> is behind Nia, and the entry of Dorian's loft <<<96a02139-827d-4c0e-a003-1443137bd289>>> is behind Simone, each exactly as its reference shows.
+ONE CONTINUOUS UNBROKEN TAKE, 20 seconds, NO CUTS. Photoreal cinematic drama, vertical 9:16, late night. Because there are no cuts, every person's clothing is identical from the first frame to the last.
 
-Nia <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>>, wearing exactly <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, with the overnight bag on her shoulder. Simone <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>> has her copper-auburn bob and wears exactly <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, holding one glass of red wine.
+SET: the residential hallway outside Dorian's apartment <<<6acd0d74-4da4-4aa4-bad6-4505bf5f26b2>>>, exactly as the reference shows, no relight. Through the door when it opens: the entry of Dorian's loft <<<96a02139-827d-4c0e-a003-1443137bd289>>>, exactly as its reference shows.
 
-Simone smiles, genuinely friendly, and says brightly: "Oh! Hi! Who are you?"
-Nia, flat and dead still, says: "Who are you?"
-Nia doesn't wait for an answer. She immediately steps straight past Simone's shoulder and into the loft without being invited. Simone turns to watch her go, still smiling and confused, and says pleasantly: "Okay — come in!"
+<<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> is NIA, thirty years old. Preserve her exact facial identity, deep warm brown complexion, facial geometry and waist-length jet-black water-wave curls.
+NIA'S CLOTHES COME ONLY FROM <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, which supplies clothing, footwear and accessories ONLY. <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> supplies her FACE, HAIR AND BODY ONLY: any clothing visible in that reference is NEVER reproduced. She wears ONE outfit, exactly the outfit in <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, from the first frame to the last. It NEVER changes, never swaps for a different top, dress or trousers, never changes colour, and never gains or loses a layer. The overnight bag stays on her shoulder throughout. Diamond stud earrings. No rings, no bracelets.
 
-Simone is never smug, never sneering, and never enjoys the moment; she is simply friendly and confused.
+<<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>> is SIMONE, early thirties: FACE AND HAIR ONLY. A COPPER-AUBURN shoulder-length blunt bob, straight and glossy, deep side part and sweep EXACTLY as the reference shows, never mirrored. Her clothes come ONLY from <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>: ONE outfit, unchanged from first frame to last, with NO coat or jacket over it. She holds one glass of red wine.
 
-Nia's English dialogue uses <<<12315c68-37de-41fe-8766-76ac07bcaf70>>>, her saved clear British voice: warm, low, dry and deadpan. Never a substitute voice, never swapped with anyone else's. She is BRITISH and every one of her lines is spoken in a British accent.
+THE ACTION, in order:
+0–7 s: the camera tracks behind Nia's shoulder as she walks down the hallway to the apartment door. No dialogue. She stops, lifts her phone and checks her lip gloss in its dark screen (nothing readable on it), and allows herself a small private smile.
+7–9 s: she reaches for the handle. Before she touches it, the door swings open from inside, and Simone is standing in the doorway, barefoot and relaxed, wine glass in hand.
+9–20 s: the dialogue runs tight, with NO gap longer than a fraction of a second between lines:
+LINE 1 — SIMONE, brightly and genuinely friendly: "Oh! Hi! Who are you?" Nia's mouth stays closed.
+LINE 2 — NIA, flat and dead still: "Who are you?" Simone's mouth stays closed.
+Nia does NOT wait for an answer. She steps straight past Simone's shoulder into the loft, and the camera follows her across the threshold in the same move.
+LINE 3 — SIMONE, turning to watch her go, still smiling and confused, pleasantly: "Okay — come in!" Nia's mouth stays closed.
+
+Nia's English dialogue uses <<<12315c68-37de-41fe-8766-76ac07bcaf70>>>, her saved clear British voice: warm, low, dry and deadpan. Never a substitute voice, never swapped with anyone else's. She is BRITISH and every one of her lines is in a British accent.
 SIMONE'S VOICE — SHE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. Warm, LOW-PITCHED, chesty and unhurried, with a relaxed pace and a soft landing on the ends of her sentences. She is clearly deeper and slower than Nia, and the two voices never sound alike. Never shrill, breathy, clipped, whispered, sing-song, or pitched up to match Nia. Her register is CHEERFUL AND PLEASANT: bright, warm, normal volume, genuinely having a nice time. No sneer, no smirk, no smugness, no drawl, no knowing look.
 ChiChi's saved voice element <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>> is attached to this generation, but CHICHI IS NOT IN THIS SCENE: she never appears and speaks no lines.
 
-Camera: an over-the-shoulder two-shot across the threshold, then a pan following Nia as she brushes past into the loft. 35mm.
-Audio: the dialogue above, exactly as written, plus soft loft ambience and faint music from inside the apartment. No voice-over.
-No rings or bracelets on Nia. Correct five-finger hands. No subtitles, no captions, no on-screen text.
+AUDIO: only the three lines above, in this order, each in the correct voice and never swapped, plus hallway hum, footsteps, the latch, and faint music from inside the apartment. No voice-over, no narration, no score.
+Skin photographed, never cartoonish, waxy or airbrushed. Correct five-finger hands. No subtitles, no captions, no title cards, no on-screen text, no legible lettering anywhere.
 ```
 
 ---
 
-## C3 — THE KITCHEN · 12 s
+## C2 — SHE WALKS · 22 s · one continuous take
 
-**Elements:** loft entry, kitchen, Dorian ×2, Nia ×2, Simone ×2
+**Replaces the old C3 and C4.** Elements: loft entry, kitchen, Nia, Nia's look, Simone, Simone's look, Dorian, Dorian's look, plus both voice elements.
 
 ```
-Photoreal cinematic drama, vertical 9:16, late night. Set: inside Dorian's loft, at the entry <<<96a02139-827d-4c0e-a003-1443137bd289>>>, looking toward the open kitchen <<<de2063f2-acee-4300-9669-b1f17bff850f>>>, both exactly as their references show.
+ONE CONTINUOUS UNBROKEN TAKE, 22 seconds, NO CUTS. The camera may pan and push in, but it never cuts. Photoreal cinematic drama, vertical 9:16, late night. Because there are no cuts, every person's clothing is identical from the first frame to the last.
 
-Dorian <<<5deb4ada-665f-4894-8d16-2a9f34c0248f>>>, wearing exactly the outfit in <<<f44003af-4374-4d5c-acbf-d4f2aad1f9b3>>>, with a dish towel over one shoulder, steps out of the kitchen wiping his hands and calls back toward the door, relaxed: "Babe, who was at the —"
+SET: inside Dorian's loft at the entry <<<96a02139-827d-4c0e-a003-1443137bd289>>>, looking toward the open kitchen <<<de2063f2-acee-4300-9669-b1f17bff850f>>>, both exactly as their references show. The front door behind Nia is open.
 
-He sees Nia <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> (wearing exactly <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, overnight bag on her shoulder) standing just inside the loft. He stops short, and his hands go still on the towel. His eyes go from Nia, to Simone <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>> (copper-auburn bob, exactly <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, wine glass in hand) behind her at the door, then back to Nia. He realises what he's done in a second, not longer.
-Dorian, quietly: "Nia."
-Simone, to Dorian, still pleasant: "You know her?"
+<<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> is NIA, thirty years old. Preserve her exact facial identity, deep warm brown complexion, facial geometry and waist-length jet-black water-wave curls.
+NIA'S CLOTHES COME ONLY FROM <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, which supplies clothing, footwear and accessories ONLY. <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> supplies her FACE, HAIR AND BODY ONLY: any clothing visible in that reference is NEVER reproduced. She wears ONE outfit, exactly the outfit in <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, from the first frame to the last. It NEVER changes, never swaps for a different top, dress or trousers, never changes colour, and never gains or loses a layer. The overnight bag stays on her shoulder throughout. Diamond stud earrings. No rings, no bracelets.
 
-Dorian is NOT a villain: no smirk, no coldness, no menace. He is an ordinary man caught out, embarrassed and out of words.
+<<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>> is SIMONE, early thirties: FACE AND HAIR ONLY. A COPPER-AUBURN shoulder-length blunt bob, straight and glossy, deep side part and sweep EXACTLY as the reference shows, never mirrored. Her clothes come ONLY from <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>: ONE outfit, unchanged from first frame to last, with NO coat or jacket over it. She holds one glass of red wine.
 
+<<<5deb4ada-665f-4894-8d16-2a9f34c0248f>>> is DORIAN: FACE, HAIR AND BODY ONLY. Preserve his exact facial identity, warm deep-brown complexion, short cropped hair with a clean lineup, and full short black beard. HIS CLOTHES COME ONLY FROM <<<f44003af-4374-4d5c-acbf-d4f2aad1f9b3>>>: any clothing visible in his identity reference is NEVER reproduced, and his all-black outfit from the party episode is NOT worn. ONE outfit, unchanged throughout. A dish towel over one shoulder.
+
+THE ACTION, in order. The dialogue runs tight, with NO gap longer than a fraction of a second between lines:
+Opening: Nia stands just inside the entry, her bag on her shoulder. Simone stands behind her by the open door. Dorian steps out of the kitchen wiping his hands, relaxed.
+LINE 1 — DORIAN, calling toward the door: "Babe, who was at the —" He cuts himself off as he sees Nia. Both women's mouths stay closed.
+He stops short. His eyes go from Nia, to Simone, and back to Nia in about one second. He understands.
+LINE 2 — DORIAN, quietly: "Nia." Both women's mouths stay closed.
+LINE 3 — SIMONE, to Dorian, still pleasant: "You know her?" Nia's and Dorian's mouths stay closed.
+Push in on Nia. Her jaw tightens and her eyes fill with tears that she will not let fall.
+LINE 4 — NIA, barely above a whisper: "You told me to come." Dorian's and Simone's mouths stay closed.
+Dorian opens his mouth, and nothing comes out. He is stricken, not cruel: no smirk, no coldness, no menace.
+Nia immediately turns and walks straight past Simone and out the open door, and the door SLAMS. Simone flinches. The take ends after one brief beat on Dorian and Simone standing apart in the entry.
+
+Nia's English dialogue uses <<<12315c68-37de-41fe-8766-76ac07bcaf70>>>, her saved clear British voice: warm, low, dry and deadpan. Never a substitute voice, never swapped with anyone else's. She is BRITISH and every one of her lines is in a British accent.
+SIMONE'S VOICE — SHE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. Warm, LOW-PITCHED, chesty and unhurried, with a relaxed pace and a soft landing on the ends of her sentences. She is clearly deeper and slower than Nia, and the two voices never sound alike. Never shrill, breathy, clipped, whispered, sing-song, or pitched up to match Nia. Her register is CHEERFUL AND PLEASANT: bright, warm, normal volume, genuinely having a nice time. No sneer, no smirk, no smugness, no drawl, no knowing look.
 DORIAN'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A DEEP, LOW, CALM, COMPOSED adult male voice: an unhurried General American baritone pitched well below both women, with relaxed chest resonance, warm rather than gravelly. Never rushed, never breathy, never nasal, never a light or boyish tenor, never British, and never the same voice as any woman's. Once he sees Nia it goes quiet and caught: still warm, never cold, never smug.
-SIMONE'S VOICE — SHE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. Warm, LOW-PITCHED, chesty and unhurried, with a relaxed pace and a soft landing on the ends of her sentences. She is clearly deeper and slower than Nia, and the two voices never sound alike. Never shrill, breathy, clipped, whispered, sing-song, or pitched up to match Nia. Her register is CHEERFUL AND PLEASANT: bright, warm, normal volume, genuinely having a nice time. No sneer, no smirk, no smugness, no drawl, no knowing look.
-Nia's saved voice element <<<12315c68-37de-41fe-8766-76ac07bcaf70>>> is attached to this generation.
 ChiChi's saved voice element <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>> is attached to this generation, but CHICHI IS NOT IN THIS SCENE: she never appears and speaks no lines.
 
-Camera: a medium shot on Dorian as he enters, then a quick push in on his face as he realises, with Nia soft in the foreground. 35mm.
-Audio: the dialogue above, exactly as written, plus the kitchen ambience of a pot simmering. No voice-over.
-Correct five-finger hands. No subtitles, no captions, no on-screen text.
+AUDIO: only the four lines above, in this order, each in the correct voice and never swapped: line 1 and line 2 are DORIAN, line 3 is SIMONE, line 4 is NIA. Plus soft loft ambience, faint music from elsewhere in the apartment, Nia's footsteps, and the hard door slam. No voice-over, no narration, no score.
+Skin photographed, never cartoonish, waxy or airbrushed. Correct five-finger hands. No subtitles, no captions, no title cards, no on-screen text, no legible lettering anywhere.
 ```
 
 ---
 
-## C4 — SHE WALKS · 10 s
+## C3 — ACROSS TOWN · 11 s
 
-**Elements:** loft entry, Nia ×2, Dorian ×2, Simone ×2
-
-```
-Photoreal cinematic drama, vertical 9:16, late night. Set: the entry of Dorian's loft <<<96a02139-827d-4c0e-a003-1443137bd289>>>, exactly as the reference shows, with the front door open.
-
-Close-up of Nia <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>>, wearing exactly <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, overnight bag on her shoulder, looking at Dorian. Her jaw is tight and her eyes fill with tears that she will not let fall. She says, barely above a whisper: "You told me to come."
-
-Reverse shot of Dorian <<<5deb4ada-665f-4894-8d16-2a9f34c0248f>>>, wearing exactly <<<f44003af-4374-4d5c-acbf-d4f2aad1f9b3>>>, with the dish towel. He opens his mouth and nothing comes out. He has no defence and he knows it. He is stricken, not cruel.
-
-Nia immediately turns and walks straight past Simone <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>> (copper-auburn bob, exactly <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, wine glass in hand) and out the open door. The door slams and Simone flinches. One brief beat on Dorian and Simone in the entry, then the clip ends.
-
-Nia's English dialogue uses <<<12315c68-37de-41fe-8766-76ac07bcaf70>>>, her saved clear British voice: warm, low, dry and deadpan. Never a substitute voice, never swapped with anyone else's. She is BRITISH and every one of her lines is spoken in a British accent.
-ChiChi's saved voice element <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>> is attached to this generation, but CHICHI IS NOT IN THIS SCENE: she never appears and speaks no lines.
-
-Camera: a tight close-up of Nia, a reverse close-up of Dorian, then a wide shot of the entry for the exit.
-Audio: Nia's one line, exactly as written, then her footsteps, and the door slamming hard. No other dialogue, no voice-over, no music.
-No rings or bracelets on Nia. Correct five-finger hands. No subtitles, no captions, no on-screen text.
-```
-
----
-
-## C5 — ACROSS TOWN · 11 s
-
-**Elements:** living room, ChiChi ×3, Kel ×2
+**Elements:** living room, ChiChi ×3, Kel ×2, plus both voice elements
 
 ```
 Photoreal cinematic drama, vertical 9:16, night. Set: ChiChi's living room at night <<<9c43c008-b953-4dac-9ab2-9b77929580c3>>>, exactly as the reference shows: a large cream-greige L-shaped sectional, a round white-marble coffee table on a dark drum base, ONE warm table lamp on the media console, the TV off, and a lit city skyline through floor-to-ceiling corner windows. There is NO floor lamp of any kind.
@@ -173,9 +145,9 @@ Skin photographed, never cartoonish. Correct five-finger hands. No subtitles, no
 
 ---
 
-## C6 — THE QUESTION · 12 s
+## C4 — THE QUESTION · 12 s
 
-**Elements:** living room, ChiChi ×3, Kel ×2
+**Elements:** living room, ChiChi ×3, Kel ×2, plus both voice elements
 
 ```
 Photoreal cinematic drama, vertical 9:16, night. Continuous. Set: ChiChi's living room at night <<<9c43c008-b953-4dac-9ab2-9b77929580c3>>>, exactly as the reference shows, with one warm table lamp, no floor lamp and the TV off.
@@ -198,9 +170,9 @@ Correct five-finger hands. No subtitles, no captions, no on-screen text.
 
 ---
 
-## C7 — TAG · 9 s
+## C5 — TAG · 9 s
 
-**Elements:** living room, ChiChi ×3, Kel ×2
+**Elements:** living room, ChiChi ×3, Kel ×2, plus both voice elements
 
 ```
 Photoreal cinematic drama, vertical 9:16, night. Continuous. Set: ChiChi's living room at night <<<9c43c008-b953-4dac-9ab2-9b77929580c3>>>, exactly as the reference shows, with one warm table lamp, no floor lamp and the TV off.
@@ -229,23 +201,23 @@ Generate as text-to-speech (`text2speech_v2` or `seed_audio`) using one preset v
 | Cue | Lands over | Line |
 |---|---|---|
 | N1 | C1, 0:01–0:07, under Nia walking (C1 has no dialogue) | "He said come over. He said stay the night. He just didn't say it to *only* her." |
-| N2 | C5, 0:00–0:03, over ChiChi's laugh (the first three seconds have no dialogue) | "Meanwhile, ChiChi was having the best night she'd had in a year." |
-| N3 | C7, from Kel's smile fading through the pull back to the end | "One woman found out there was someone else. The other found out there wasn't going to be." |
+| N2 | C3, 0:00–0:03, over ChiChi's laugh (the first three seconds have no dialogue) | "Meanwhile, ChiChi was having the best night she'd had in a year." |
+| N3 | C5, from Kel's smile fading through the pull back to the end | "One woman found out there was someone else. The other found out there wasn't going to be." |
 
 **End card:** *EXCLUSIVE with Nia and Chi*. Add it as a title in the edit, not in a render.
 
 ## Continuity checks before approving a take
 
-- **Wine levels:** Simone's single glass, and ChiChi's and Kel's two glasses, only ever go down. Never a third glass.
+- **Wine levels:** Simone's single glass (C1–C2), and ChiChi's and Kel's two glasses (C3–C5), only ever go down. Never a third glass.
 - **ChiChi:** honey-blonde, with the part on the left side of her head. Reject any take with dark hair or a ring.
-- **Nia:** the overnight bag stays on her shoulder in C1–C4.
+- **Nia:** one outfit from the first frame of C1 to the last frame of C2, with the overnight bag on her shoulder throughout. Reject any take where her clothes change.
 - **Simone:** never wears a coat. Her bob's part is never mirrored.
 - **Living room:** no floor lamp, and the TV stays dark.
 - **Lip-sync:** reject any take where the mouth movement doesn't match the words.
 
 ## Render log
 
-**1 Oct 2026:** first 1080p pass submitted. Higgsfield's suggested presets were declined ("IN THE DARK" `24bae836…` for C1–C4, "EXIT THE DREAM" `3c00b5c4…` for C5–C7).
+**1 Oct 2026, first pass (old 7-clip numbering; old C5–C7 are now C3–C5):** submitted at 1080p without saved voice elements. Old C1–C4 were rejected because Nia's outfit changed between clips. Higgsfield's suggested presets were declined ("IN THE DARK" `24bae836…` for C1–C4, "EXIT THE DREAM" `3c00b5c4…` for C5–C7).
 
 | Clip | Job ID |
 |---|---|
