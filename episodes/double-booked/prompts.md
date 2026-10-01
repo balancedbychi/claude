@@ -9,7 +9,7 @@
 | Aspect | `9:16` |
 | Resolution | `1080p` (or `draft: true` at 480p first, then finalize the approved draft) |
 | Audio | `generate_audio: true`. Dialogue and room sound are generated **in the same pass** as the picture. **Never** supply audio_references: in this project a supplied voice track does not lip-sync on Seedance. |
-| References | `<<<element-id>>>` placeholders in the prompt. Each clip lists the elements it uses. |
+| References | Seedance 2.5 does **not** resolve `<<<element-id>>>` placeholders. Each element's image is attached as `image_references` (by its media ID), and the prompt refers to it as `@image1`, `@image2` and so on, in the order the placeholders appear in each prompt below. |
 
 **Narration is not in these renders.** The narrator is a separate voiceover track, laid in during the edit (see the end of this file). Each clip's prompt keeps her moments free of dialogue and has **no voice-over**, so the model never puts her lines in an on-screen mouth.
 
@@ -224,3 +224,17 @@ Generate as text-to-speech (`text2speech_v2` or `seed_audio`) using one preset v
 - **Simone:** never wears a coat. Her bob's part is never mirrored.
 - **Living room:** no floor lamp, and the TV stays dark.
 - **Lip-sync:** reject any take where the mouth movement doesn't match the words.
+
+## Render log
+
+**1 Oct 2026:** first 1080p pass submitted. Higgsfield's suggested presets were declined ("IN THE DARK" `24bae836…` for C1–C4, "EXIT THE DREAM" `3c00b5c4…` for C5–C7).
+
+| Clip | Job ID |
+|---|---|
+| C1 | `76e1e104-643d-4e6e-9b64-fbb075a3ebc1` |
+| C2 | `241e50f3-31ed-41b6-a9ec-835ca9e46485` |
+| C3 | `975a60ac-e5f1-45fc-a6d4-5fa492528ff6` |
+| C4 | `74107601-72ce-4be8-b73a-1a6b9b831bbb` |
+| C5 | `2c53a4a1-9dfc-4e0a-aa5f-6bd6db72064a` |
+| C6 | `f6c8be77-df23-45d6-9792-8b75ea79360c` |
+| C7 | `9f1f91bc-794e-47fe-bbdb-cc720e468560` |
