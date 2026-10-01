@@ -46,9 +46,16 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - Only beats that the script calls for explicitly, kept to about one second each.
 - Prefer a few longer segments that cut between shots inside one render over many short clips.
 
-### 5. Physical logic
-- Doors open from the handle side and swing on their hinges.
-- Avoid on-screen door action unless the scene needs it, and describe which side the hinges and handle are on when it does.
+### 5. Physical logic and natural movement
+- **Doors are opened ONLY from the handle side.** A hand touches only the handle. The hinge edge stays fixed in the frame and pivots; only the handle edge swings, and the gap opens on the handle side first. Nobody ever opens, pushes or grips a door from its hinge side.
+- **In every door prompt, write out:**
+  - which side the hinges and the handle are on, from the camera's point of view;
+  - which way the door opens (inward or outward);
+  - which hand reaches for the handle, and where the person stands (on the handle side);
+  - how the door ends up (half open, or wide against its hinge side).
+- **Movements are always natural and realistic:** ordinary walking pace, real weight and momentum, feet on the floor. No snapping, gliding, sliding or teleporting, no jump cuts in the middle of an action, and no props or doors changing size, side or colour.
+- Avoid on-screen door action unless the scene needs it.
+- **Nia's front door:** from inside, hinges on the LEFT and handle on the RIGHT, opening inward. From the corridor, the handle is on the LEFT. See `sets/nia-apartment-prompts.md`.
 
 ## How to render (Seedance 2.5 through the Higgsfield tools)
 

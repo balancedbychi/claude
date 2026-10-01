@@ -30,7 +30,9 @@
 
 TIMING — READ THIS FIRST. The dialogue is ONE FAST RUN: the gap between lines NEVER exceeds two tenths of a second, with no pauses inside lines. The ONLY beat is about one second when Nia decides to let him in. No silent opening.
 
-THE DOOR — FIXED GEOMETRY, NEVER WRONG. Nia's front door is warm cream with recessed panels. It OPENS INWARD, INTO THE APARTMENT. Seen from INSIDE, the HINGES ARE ON THE LEFT and the brass lever HANDLE IS ON THE RIGHT. Seen from the CORRIDOR, the handle is on the LEFT. Nia opens it by pulling the handle toward herself, and it swings in on its LEFT-hand hinges. It never opens outward, never swings from the handle side, never slides.
+THE DOOR — FIXED GEOMETRY, NEVER WRONG. Nia's front door is warm cream with recessed panels. It OPENS INWARD, INTO THE APARTMENT. Seen from INSIDE, the HINGES ARE ON THE LEFT and the brass lever HANDLE IS ON THE RIGHT. Seen from the CORRIDOR, the handle is on the LEFT. Nia opens it by pulling the handle toward herself, and it swings in on its LEFT-hand hinges. It never opens outward, never slides, and is NEVER opened from the hinge side.
+
+HOW A DOOR MOVES — REAL PHYSICS, NATURAL MOVEMENT. A hand only ever touches the HANDLE, on the handle edge. The HINGE edge NEVER moves away from the frame; it pivots in place. Only the HANDLE edge travels, in an arc. The opening always appears on the HANDLE side first. Nobody pushes, pulls or grips the door on its hinge side. The door moves at a natural, unhurried speed with real weight and momentum: no snapping open, no teleporting, no jump cuts mid-swing, no door that changes size, side or colour. Every movement is a real person's ordinary movement: natural walking pace, natural reach, feet planted on the floor, nobody gliding or sliding.
 
 SETS, EXACTLY AS THEIR REFERENCES SHOW: the corridor outside the door <<<ffd138c9-eb9e-4b8f-9b6f-1a5fe2d40e8f>>>. The door seen from inside <<<ad5fda38-862e-4700-b7b2-0c2a9691b6f8>>>. The entry opening onto the living room <<<f372a786-8e16-49c8-b495-a5534986f8d7>>>. Soft warm MORNING light.
 
@@ -42,13 +44,13 @@ THE BOUQUET — <<<8caf7af0-ff56-4fd9-99fc-def716d5c5dd>>>, reproduced EXACTLY: 
 
 THE CLIP, SHOT BY SHOT:
 SHOT 1 — CORRIDOR. Dorian stands at the closed door holding the bouquet in one arm and knocks twice with his free hand. CUT.
-SHOT 2 — INSIDE, NIA'S SIDE. Nia walks to the door, pulls the handle on the RIGHT, and the door swings IN toward her on its LEFT-hand hinges. She sees him and stops, surprised:
+SHOT 2 — INSIDE, NIA'S SIDE. Nia walks to the door and stands on the RIGHT, the HANDLE side. She reaches with her RIGHT hand to the brass lever on the RIGHT edge, presses it down, and pulls. The door's RIGHT edge (the handle edge) swings IN toward her, while its LEFT edge stays fixed on its hinges in the frame. The gap opens on the RIGHT, the handle side, and she steps back slightly with the door as it comes toward her. She sees him through the gap and stops, surprised:
   NIA: "…Dorian."
 SHOT 3 — THE OPEN DOORWAY, from inside over Nia's shoulder. Dorian stands in the corridor with the flowers, and she holds the door half open. Fast:
   DORIAN: "Morning. Can I come in?"
   NIA: "Why should I let you in?"
   DORIAN, a small hopeful smile: "Come on. You're really going to keep me outside?"
-  One beat. Nia exhales, steps back and swings the door wide open on its left-hand hinges. Dorian steps over the threshold into the apartment, bouquet first, past her. END as he is inside.
+  One beat. Nia exhales. Still holding the handle, she walks the handle edge of the door further IN and toward the LEFT wall, until the door stands wide open against its hinge side. She stays beside it, out of the doorway. Dorian walks through the open gap on the handle side, over the threshold and into the apartment, bouquet first, passing her. END as he is inside.
 
 LINE BY LINE, NEVER SWAPPED: "…Dorian." = NIA. "Morning. Can I come in?" = DORIAN. "Why should I let you in?" = NIA. "Come on. You're really going to keep me outside?" = DORIAN.
 
