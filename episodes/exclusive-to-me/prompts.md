@@ -39,9 +39,9 @@ LOCATION A — NIA'S BEDROOM AT NIGHT <<<b6a4c5be-82cb-4328-aa15-d260bc70243e>>>
 
 LOCATION B — CHICHI'S LIVING ROOM AT NIGHT <<<9c43c008-b953-4dac-9ab2-9b77929580c3>>>, exactly as the reference shows: large cream-greige L-shaped sectional, round white-marble coffee table, ONE warm table lamp on the media console, TV off, lit city skyline through floor-to-ceiling windows. There is NO floor lamp of any kind. Framing: medium shot of ChiChi at the right end of the sectional.
 
-NIA — <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> supplies her FACE, HAIR AND BODY ONLY. Thirty years old, deep warm brown complexion, waist-length jet-black water-wave curls, diamond stud earrings. HER CLOTHES COME ONLY FROM <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>: one outfit, exactly as that reference shows, identical in every shot. Any clothing visible in her face reference is NEVER reproduced. No rings, no bracelets. She has been crying for a long time: wet eyes, mascara smudged under her eyes, tear tracks. She holds her phone to her ear. A dark overnight bag lies dropped on the floor by the bed.
+NIA — <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> supplies her FACE, HAIR AND BODY ONLY. Thirty years old, deep warm brown complexion, waist-length jet-black water-wave curls, diamond stud earrings. HER CLOTHES COME ONLY FROM <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>: one outfit, exactly as that reference shows, identical in every shot. Any clothing visible in her face reference is NEVER reproduced: NEVER a green sweatshirt, never a sweatshirt or hoodie. No rings, no bracelets. She has been crying for a long time: wet eyes, mascara smudged under her eyes, tear tracks. She holds her phone to her ear. A dark overnight bag lies dropped on the floor by the bed.
 
-CHICHI — <<<8a8e8eeb-d41e-4d91-b245-fa0caa8801b6>>> is ChiChi, forty, with her skin rendered photographically as in <<<54b60e1c-2c1e-4258-bc4e-219bf5d0ea13>>>: clear, even, luminous, natural pore texture, never aged, never waxy, never cartoonish. HONEY-BLONDE shoulder-length layered hair with darker roots and outward-curled ends, deep side part on the left side of her head so the volume falls to screen left. NEVER dark brown. HER CLOTHES COME ONLY FROM <<<a18211bc-26e3-45d3-8ea0-66ee6cc3b13d>>>, identical in every shot. NO RINGS on any finger, no bracelets. She is ALONE and ON SPEAKERPHONE: NO PHONE IS VISIBLE anywhere in her shots, both hands are free and empty, and she talks toward the room.
+CHICHI — <<<8a8e8eeb-d41e-4d91-b245-fa0caa8801b6>>> is ChiChi, forty, with her skin rendered photographically as in <<<54b60e1c-2c1e-4258-bc4e-219bf5d0ea13>>>: clear, even, luminous, natural pore texture, never aged, never waxy, never cartoonish. HONEY-BLONDE shoulder-length layered hair with darker roots and outward-curled ends, deep side part on the left side of her head so the volume falls to screen left. NEVER dark brown. HER CLOTHES COME ONLY FROM <<<a18211bc-26e3-45d3-8ea0-66ee6cc3b13d>>>, identical in every shot. NO RINGS on any finger, no bracelets. She is ALONE and ON SPEAKERPHONE: NO PHONE IS VISIBLE anywhere in her shots, both hands are free and empty, and she talks toward the room. [SUPERSEDED: the user's ruling of 1 Oct 2026 is that ChiChi holds a phone to her ear. Use that if this segment is re-rendered.]
 
 THE CLIP, SHOT BY SHOT:
 SHOT 1 — NIA'S BEDROOM. Nia on the edge of the bed, phone to her ear, crying. She speaks straight away, with no silent opening:
@@ -85,7 +85,7 @@ LOCATION B — NIA'S BEDROOM AT NIGHT <<<b6a4c5be-82cb-4328-aa15-d260bc70243e>>>
 
 DORIAN — <<<5deb4ada-665f-4894-8d16-2a9f34c0248f>>> supplies his FACE, HAIR AND BODY ONLY: exact facial identity, warm deep-brown complexion, short cropped hair with a clean lineup, full short black beard. HIS CLOTHES COME ONLY FROM <<<f44003af-4374-4d5c-acbf-d4f2aad1f9b3>>>, identical in every shot; any clothing in his face reference is NEVER reproduced. No dish towel. HE IS NOT A VILLAIN: no smirk, no smugness, no menace, never cold. He is genuinely sorry, a little uncomfortable, and sincerely believes what he is saying — he simply does not hear how it sounds.
 
-NIA — <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> supplies her FACE, HAIR AND BODY ONLY. Thirty years old, deep warm brown complexion, waist-length jet-black water-wave curls, diamond stud earrings. HER CLOTHES COME ONLY FROM <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, identical in every shot; any clothing in her face reference is NEVER reproduced. No rings, no bracelets. She has been crying: wet eyes, mascara smudged, but she has steadied her voice and is holding on.
+NIA — <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> supplies her FACE, HAIR AND BODY ONLY. Thirty years old, deep warm brown complexion, waist-length jet-black water-wave curls, diamond stud earrings. HER CLOTHES COME ONLY FROM <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, identical in every shot; any clothing in her face reference is NEVER reproduced: NEVER a green sweatshirt, never a sweatshirt or hoodie. No rings, no bracelets. She has been crying: wet eyes, mascara smudged, but she has steadied her voice and is holding on.
 
 THE CLIP, SHOT BY SHOT:
 SHOT 1 — DORIAN, TERRACE. Phone to his ear, he rubs his forehead with his free hand and speaks straight away, with no silent opening:
@@ -117,9 +117,46 @@ AUDIO: only these nine lines, in this order, plus quiet night-city ambience and 
 Skin photographed, never cartoonish, waxy or airbrushed. Correct five-finger hands, especially the hands holding the phones. No subtitles, no captions, no title cards, no on-screen text, no legible lettering anywhere, including on the phone screens.
 ```
 
+## Segment 3 — "Call you back" · 8 s
+
+```
+8 SECONDS. A PHONE CALL BETWEEN TWO WOMEN IN TWO DIFFERENT HOMES, CUT BETWEEN THEM. Photoreal cinematic drama, vertical 9:16, late night.
+
+*** BOTH WOMEN HOLD A PHONE TO THEIR EAR. *** ChiChi holds her phone to her ear with one hand for her whole shot. Nia holds her phone to her ear until she ends the call. A real smartphone held against the ear, the hand cupped naturally around it. Never a speakerphone, never earbuds, never a headset, never a phone lying on a surface. The phone screens show only light, never readable text.
+
+TIMING — READ THIS FIRST. The two lines run back to back. The gap between them NEVER exceeds two tenths of a second. No silent opening, no pauses inside lines. The only beat is the last second, after Nia lowers the phone.
+
+CUTS. There is exactly ONE cut and TWO shots. CHICHI is in HER LIVING ROOM and NIA is in HER BEDROOM. They are NEVER in the same room and NEVER in the same frame.
+
+LOCATION A — CHICHI'S LIVING ROOM AT NIGHT <<<9c43c008-b953-4dac-9ab2-9b77929580c3>>>, exactly as the reference shows: large cream-greige L-shaped sectional, round white-marble coffee table, ONE warm table lamp on the media console, TV off, lit city skyline through floor-to-ceiling windows. There is NO floor lamp of any kind. Framing: medium close-up of ChiChi at the right end of the sectional.
+
+LOCATION B — NIA'S BEDROOM AT NIGHT <<<b6a4c5be-82cb-4328-aa15-d260bc70243e>>>, exactly as the reference shows: low platform bed with no headboard, cream and oatmeal linen, a tall arched mirror leaning behind the bed, a white paper lantern, a rattan nightstand with a round warm-globe lamp, the night city through the window on the right. Glowing golden lamplight and deep warm shadows. Framing: close-up of Nia sitting on the edge of the bed.
+
+CHICHI — <<<8a8e8eeb-d41e-4d91-b245-fa0caa8801b6>>> is ChiChi, forty, with her skin rendered photographically as in <<<54b60e1c-2c1e-4258-bc4e-219bf5d0ea13>>>: clear, even, luminous, natural pore texture, never aged, never waxy, never cartoonish. HONEY-BLONDE shoulder-length layered hair with darker roots and outward-curled ends, deep side part on the left side of her head so the volume falls to screen left. NEVER dark brown. HER CLOTHES COME ONLY FROM <<<a18211bc-26e3-45d3-8ea0-66ee6cc3b13d>>>. NO RINGS on any finger, no bracelets — the hand holding the phone is bare. She is alone.
+
+NIA — <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> supplies her FACE, HAIR AND BODY ONLY. Thirty years old, deep warm brown complexion, waist-length jet-black water-wave curls, diamond stud earrings. HER CLOTHES COME ONLY FROM <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>; any clothing in her face reference is NEVER reproduced: NEVER a green sweatshirt, never a sweatshirt or hoodie. No rings, no bracelets. Her eyes are full of tears, mascara smudged.
+
+THE CLIP, SHOT BY SHOT:
+SHOT 1 — CHICHI, LIVING ROOM. Phone to her ear, she leans forward, concerned, and speaks straight away:
+  CHICHI: "Hey — is everything okay?"
+  CUT.
+SHOT 2 — NIA, BEDROOM. Phone to her ear, eyes full, barely holding it together:
+  NIA: "I have to call you back."
+  She takes the phone from her ear, ends the call, and lowers the phone into her lap. She sits still in the lamplight for the last second. END.
+
+LINE BY LINE, NEVER SWAPPED: "Hey — is everything okay?" = CHICHI. "I have to call you back." = NIA.
+
+VOICES. ChiChi's English dialogue uses <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>, her saved warm, smooth, mid-to-low General American voice with calm authority, here soft with concern: never a British accent, never swapped with Nia's. Nia's English dialogue uses <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>, her saved clear British voice: warm and low, here thick with tears but every word clear. She is BRITISH. The two voices never sound alike.
+
+AUDIO: only these two lines, in this order, plus soft room tone, faint distant city sound and the small click of the call ending. No music, no score, no voice-over, no narration.
+
+Skin photographed, never cartoonish, waxy or airbrushed. Correct five-finger hands, especially the hands holding the phones. No subtitles, no captions, no title cards, no on-screen text, no legible lettering anywhere, including on the phone screens.
+```
+
 ## Render log
 
 | Segment | Job ID |
 |---|---|
 | 1 | `b3b4626d-cd86-4207-b313-11e1bfecd275` (22 s, 1080p, 1 Oct 2026) |
 | 2 | `e011b2cc-e83a-4283-8fb4-c036b31bf146` (30 s, 1080p, 1 Oct 2026; both holding phones to their ears) |
+| 3 | `76ff0034-6eae-49d7-862f-0bc6fe308bd7` (8 s, 1080p, 1 Oct 2026; both holding phones to their ears) |

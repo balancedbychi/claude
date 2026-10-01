@@ -26,7 +26,7 @@ Cuts always happen **on a line**, from whoever just spoke to whoever answers. Th
 ## Staging rules
 
 - **Nia** holds her phone to her ear. At the beep she lowers it to look at the screen, which shows only a glow, never readable text.
-- **ChiChi** is on speakerphone, as always. No phone is visible, her hands stay free, and she talks toward the room.
+- **Everyone on the call holds a real phone to their ear:** Nia, ChiChi and Dorian. ChiChi is **not** on speakerphone (series ruling; see `CLAUDE.md`).
 - **Dorian** is alone on his roof terrace with the phone to his ear. The lit loft behind the glass stays out of focus, and no one else is ever seen.
 - **Both sides of each call are heard clearly.** The person on screen sounds natural, and the person off screen sounds slightly thinner, like a phone line.
 
@@ -46,7 +46,7 @@ Cuts always happen **on a line**, from whoever just spoke to whoever answers. Th
 > *(crying)*
 > Chi… I went to Dorian's. There was a girl there.
 
-*CUT TO CHICHI, alone on the sectional, on speaker. She sits up.*
+*CUT TO CHICHI, alone on the sectional, phone to her ear. She sits up.*
 
 > **CHICHI**
 > What? Another girl?
@@ -144,8 +144,8 @@ Cuts always happen **on a line**, from whoever just spoke to whoever answers. Th
 
 ## Continuity and production notes
 
-- **Nia:** still in her "Double Booked" outfit, `Nia-Double-Booked-Look`, the same look in every shot. Her face comes from `Nia`; clothes **never** come from that image. No rings, no bracelets. Diamond studs.
-- **ChiChi:** wears `ChiChi-Double-Booked-Look`. Her hair is always honey-blonde, and she wears no rings or bracelets. She's alone and on speakerphone, with no phone in view.
+- **Nia:** still in her "Double Booked" outfit, `Nia-Double-Booked-Look`, the same look in every shot. Her face comes from `Nia`; clothes **never** come from that image, and she's **never** in the green sweatshirt from her character image. No rings, no bracelets. Diamond studs.
+- **ChiChi:** wears `ChiChi-Double-Booked-Look`. Her hair is always honey-blonde, and she wears no rings or bracelets. She's alone and holds her phone to her ear.
 - **Dorian:** wears `Dorian-Double-Booked-Look`, with no dish towel. His face comes from `Dorian`. Voice: deep, low, calm General American baritone. **He's not a villain.** He's sorry and honestly believes what he's saying.
 - **Sets:**
   - **Nia's bedroom:** lamplight, deep shadows.
