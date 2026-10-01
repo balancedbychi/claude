@@ -162,3 +162,16 @@ Next: a closer view of the door, made from the chosen W shot, then the corridor,
 | Corridor outside (Dorian's side) | K1 | `4d60e315-b4aa-4fed-b390-b74ef6e435d1` |
 | Corridor outside (Dorian's side) | K2 | `f1b148fb-a362-46d5-9ed9-a283c496c94c` |
 | Corridor outside (Dorian's side) | K3 | `ebcf6f00-620a-41a0-94c7-4fcef28fd731` |
+
+## APPROVED SET — Nia's apartment, morning (1 Oct 2026)
+
+| Element | Element ID | Source image (job) |
+|---|---|---|
+| `Nia-Living-Room-Morning` | `15184b87-fd29-4816-9fdd-db953135a11b` | `cae433c1-2093-4ced-aece-296612782bc2` (living room 1) |
+| `Nia-Foyer-Morning` | `f372a786-8e16-49c8-b495-a5534986f8d7` | `30003885-275a-4693-9ccc-f6dc9c9db89c` (W3) |
+| `Nia-Front-Door-Morning` | `ad5fda38-862e-4700-b7b2-0c2a9691b6f8` | `46cf3eab-7fc6-4563-82b7-dcec22495bf3` (D1) |
+| `Nia-Corridor-Morning` | `ffd138c9-eb9e-4b8f-9b6f-1a5fe2d40e8f` | `4d60e315-b4aa-4fed-b390-b74ef6e435d1` (K1) |
+
+**Door geometry:** from inside, the hinges are on the left and the handle on the right, and the door opens inward. From the corridor, the handle is on the left.
+
+The bouquet comes from the user's own photo rather than Prompt 5; Prompt 5 is no longer needed.

@@ -4,10 +4,11 @@
 **Runtime:** about 50 seconds, **2 segments** of 20 s and 30 s. Each segment is one render with cuts inside it.
 **When:** the next morning, after "Exclusive to Me"
 **Cast:** Nia · Dorian
-**Sets (new; see `sets/nia-apartment-prompts.md`):**
-- `Nia-Corridor-Morning`: outside her door, Dorian's side.
-- `Nia-Front-Door-Morning`: the entry seen from inside.
-- `Nia-Living-Room-Morning`: where the conversation lands.
+**Sets (approved 1 Oct 2026):**
+- `Nia-Corridor-Morning` `ffd138c9-eb9e-4b8f-9b6f-1a5fe2d40e8f`: outside her door, Dorian's side.
+- `Nia-Front-Door-Morning` `ad5fda38-862e-4700-b7b2-0c2a9691b6f8`: the door from inside, Nia's side.
+- `Nia-Foyer-Morning` `f372a786-8e16-49c8-b495-a5534986f8d7`: the living room and door in one frame.
+- `Nia-Living-Room-Morning` `15184b87-fd29-4816-9fdd-db953135a11b`: where the conversation lands.
 
 ---
 
@@ -21,9 +22,14 @@ The morning after the phone call, Dorian turns up at Nia's door with a bouquet t
 
 Nia's front door **opens inward, into her apartment**. Seen from inside, the **hinges are on the LEFT** and the **handle is on the RIGHT**. She pulls the handle toward herself and the door swings in on its left-hand hinges. When she lets him in, she **steps back and swings the door wide**, and he walks in past her.
 
-## The bouquet
+## The bouquet (from the user's reference photo, 1 Oct 2026)
 
-A huge, lavish, obviously expensive bouquet: **white stargazer lilies and long-stemmed roses in blush pink and deep red**, with a little greenery. It's wrapped in matte cream florist paper and tied with a wide satin ribbon. **No card, no logo, no lettering** on the wrap or ribbon. **Dorian holds it for the entire scene.** Nia never takes it, and that's a choice.
+**The user's reference photo is the specification.** A huge, lush, obviously expensive bouquet:
+- **Flowers:** one large white lily with an unopened bud; roses in pink, blush, cream and lavender; pink carnations; pink alstroemeria.
+- **Filler:** clouds of white baby's breath, purple statice, and eucalyptus.
+- **Wrapping:** layered blush-pink and cream paper, tied with wide pink and cream satin ribbons in a big bow.
+- **No tag, no card.** The "For you" tag in the photo is left off, because generated lettering garbles.
+- **Dorian holds it for the entire scene.** Nia never takes it, and that's a choice.
 
 ---
 
