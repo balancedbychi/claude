@@ -129,3 +129,12 @@ A huge, lavish, obviously expensive bouquet: **white stargazer lilies and long-s
 3. **Nia, full-length photo in her morning outfit:** locks her petite, curvy shape and the outfit together. Saved as `Nia-Miscommunication-Look`.
 4. **Dorian's outfit**, ideally a full-length photo of him wearing it.
 5. **The bouquet:** described in the prompt by default, or generate a reference image of it to lock its look between segments. Prompt 5 in the sets file.
+
+---
+
+## Wardrobe (locked 1 Oct 2026)
+
+| Character | Element | Image |
+|---|---|---|
+| Nia | `Nia-Miscommunication-Look` `f65d7c8e-3249-4424-9d75-534a72e3a312` | niafit2.jpg (`31d5b2fa…`) |
+| Dorian | `Dorian-Miscommunication-Look` `6a797aec-4d2c-4fac-97bf-b3c515b12f6b` | dorfit2.png (`6eff82db…`) |
