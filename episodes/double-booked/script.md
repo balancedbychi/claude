@@ -145,6 +145,8 @@ Voice files can't be attached to a render, so each voice comes from the written 
 
 ## Continuity and production notes
 
+- **Everyone is single:** no rings on anyone. The left ring finger is bare on every character, men included (series rule; see `CLAUDE.md`).
+
 These come from the locked rules in the Higgsfield element notes.
 
 - **Sets:** `Dorian-Hallway-Night` is locked as supplied, with no relight. `Dorian-Loft-Entry-v3` overrides `-Entry-v2` and `-Entry-Night`, which are retired. `Dorian-Kitchen-Night`. `ChiChi-Living-Room-Night-v2` has **no floor lamp**, the TV stays off, and the room is lit by one table lamp.

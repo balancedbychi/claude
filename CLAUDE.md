@@ -21,6 +21,19 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 ### 3. ChiChi's hair is always honey-blonde
 - Never dark brown. `ChiChi-Series-Look` (`bc1bd310…`) says dark brown and is retired; never attach it.
 
+### 3a. Every character is single: no wedding rings, ever
+- **Nia, ChiChi, Dorian, Simone, Kel, and anyone else in the series are all single.**
+- **No wedding ring, engagement ring or band of any kind, on anyone.** The **fourth finger of the left hand is always bare skin**, on every character, in every shot.
+- Default for every character: **no rings on any finger.** Dorian's old "one silver ring" from "The Caterer" is retired.
+- **Every prompt must say this for each person on screen,** for example: *"NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring."* State it explicitly for the men as well as the women.
+- If any reference image shows a ring, the ring is **never** reproduced.
+- Reject any take with a ring on the left ring finger.
+
+### 3b. Dorian's voice must not drift
+- Dorian has no saved voice element, so his voice is rebuilt from a written description each time and can drift between renders.
+- Always paste his full description word for word: *a deep, low, calm adult male voice, an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly.*
+- **Lasting fix (needs the user's pick):** once the user approves a take where Dorian sounds right, save his voice from it as a voice element, e.g. `Dorian-Canon-Voice-v1`, and attach that element from then on.
+
 ### 4. Pacing
 - No long pauses. Replies land on the end of the previous line, with no gap longer than about two tenths of a second.
 - Only beats that the script calls for explicitly, kept to about one second each.

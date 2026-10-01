@@ -144,6 +144,8 @@ Cuts always happen **on a line**, from whoever just spoke to whoever answers. Th
 
 ## Continuity and production notes
 
+- **Everyone is single:** no rings on anyone. The left ring finger is bare on every character, men included (series rule; see `CLAUDE.md`).
+
 - **Nia:** still in her "Double Booked" outfit, `Nia-Double-Booked-Look`, the same look in every shot. Her face comes from `Nia`; clothes **never** come from that image, and she's **never** in the green sweatshirt from her character image. No rings, no bracelets. Diamond studs.
 - **ChiChi:** wears `ChiChi-Double-Booked-Look`. Her hair is always honey-blonde, and she wears no rings or bracelets. She's alone and holds her phone to her ear.
 - **Dorian:** wears `Dorian-Double-Booked-Look`, with no dish towel. His face comes from `Dorian`. Voice: deep, low, calm General American baritone. **He's not a villain.** He's sorry and honestly believes what he's saying.
