@@ -110,4 +110,4 @@ Skin photographed, never cartoonish, waxy or airbrushed. Correct five-finger han
 | Segment | Job ID |
 |---|---|
 | 1 | `f078ccbb-b911-486d-85c7-43d382fdfbd2` (20 s, 1080p, 1 Oct 2026) |
-| 2 | not rendered yet |
+| 2 | `a7f9c99a-512d-40ec-998b-f916c1d710ff` (30 s, 1080p, 1 Oct 2026; half-second beat) |
