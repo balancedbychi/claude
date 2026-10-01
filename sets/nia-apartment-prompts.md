@@ -114,3 +114,15 @@ Photoreal product-style photograph, 4:5, on a plain warm cream seamless backgrou
 ## After you approve each image
 
 I'll save each approved image as a Higgsfield **environment** element, or a **prop** element for the bouquet. Each one gets a full stage-map description in the same style as your other sets, including the door geometry, so every future episode in Nia's apartment matches.
+
+---
+
+## Generation log
+
+**1 Oct 2026, Prompt 1 (living room, morning):** 3 options at 2k and 16:9, with `Nia-Bedroom-Night` as the style reference. Requested as Nano Banana Pro; Higgsfield ran them on Nano Banana 2.
+
+| Option | Job ID |
+|---|---|
+| 1 | `cae433c1-2093-4ced-aece-296612782bc2` |
+| 2 | `8991c407-b78b-4c3c-bfd7-19c033ae70cc` |
+| 3 | `e01184e7-2344-41d0-800c-0086f1b050f6` |
