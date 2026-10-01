@@ -28,7 +28,7 @@
 ```
 20 SECONDS. MORNING. A MAN ARRIVES AT A WOMAN'S APARTMENT DOOR WITH FLOWERS. Photoreal cinematic drama, vertical 9:16.
 
-TIMING — READ THIS FIRST. The dialogue is ONE FAST RUN: the gap between lines NEVER exceeds two tenths of a second, with no pauses inside lines. The ONLY beat is about one second when Nia decides to let him in. No silent opening.
+TIMING — READ THIS FIRST. The dialogue is ONE FAST RUN: the gap between lines NEVER exceeds two tenths of a second, with no pauses inside lines. The ONLY beat is a HALF-SECOND exhale when Nia decides to let him in. No silent opening, no lingering looks, no held reactions. Knocks, door and dialogue flow straight into each other like real life.
 
 THE DOOR — FIXED GEOMETRY, NEVER WRONG. Nia's front door is warm cream with recessed panels. It OPENS INWARD, INTO THE APARTMENT. Seen from INSIDE, the HINGES ARE ON THE LEFT and the brass lever HANDLE IS ON THE RIGHT. Seen from the CORRIDOR, the handle is on the LEFT. Nia opens it by pulling the handle toward herself, and it swings in on its LEFT-hand hinges. It never opens outward, never slides, and is NEVER opened from the hinge side.
 
@@ -50,7 +50,7 @@ SHOT 3 — THE OPEN DOORWAY, from inside over Nia's shoulder. Dorian stands in t
   DORIAN: "Morning. Can I come in?"
   NIA: "Why should I let you in?"
   DORIAN, a small hopeful smile: "Come on. You're really going to keep me outside?"
-  One beat. Nia exhales. Still holding the handle, she walks the handle edge of the door further IN and toward the LEFT wall, until the door stands wide open against its hinge side. She stays beside it, out of the doorway. Dorian walks through the open gap on the handle side, over the threshold and into the apartment, bouquet first, passing her. END as he is inside.
+  A half-second exhale, no longer. Still holding the handle, she walks the handle edge of the door further IN and toward the LEFT wall, until the door stands wide open against its hinge side. She stays beside it, out of the doorway. Dorian walks through the open gap on the handle side, over the threshold and into the apartment, bouquet first, passing her. END as he is inside.
 
 LINE BY LINE, NEVER SWAPPED: "…Dorian." = NIA. "Morning. Can I come in?" = DORIAN. "Why should I let you in?" = NIA. "Come on. You're really going to keep me outside?" = DORIAN.
 
@@ -68,7 +68,7 @@ Skin photographed, never cartoonish, waxy or airbrushed. Correct five-finger han
 ```
 30 SECONDS. MORNING. CONTINUOUS FROM HIM STEPPING INSIDE. Photoreal cinematic drama, vertical 9:16.
 
-TIMING — READ THIS FIRST. The dialogue is ONE FAST RUN: the gap between lines NEVER exceeds two tenths of a second, and Nia's "Simone." cuts INTO Dorian's line before he finishes it. The ONLY beat is about one second of Nia stunned after "a year and a half." The clip ENDS on Dorian's word "You." with no reaction shot after it.
+TIMING — READ THIS FIRST. The dialogue is ONE FAST RUN: the gap between lines NEVER exceeds two tenths of a second, and Nia's "Simone." cuts INTO Dorian's line before he finishes it. The ONLY beat is a HALF-SECOND of Nia stunned after "a year and a half." Then Dorian keeps talking straight away to fill the silence, as nervous people do. No lingering looks, no held reactions, no dead air anywhere. The clip ENDS on Dorian's word "You." with no reaction shot after it.
 
 SET: Nia's living room <<<15184b87-fd29-4816-9fdd-db953135a11b>>>, with the entry and front door behind them as in <<<f372a786-8e16-49c8-b495-a5534986f8d7>>>, exactly as the references show. Soft warm MORNING light. The front door is CLOSED, hinges on the left as seen from inside.
 
@@ -87,7 +87,7 @@ THE CLIP — mostly a two-shot standing in the living room, with singles for the
   DORIAN: "Yeah. Simone."
   NIA: "Oh, so we're on a first-name basis now?"
   DORIAN, a short nervous laugh: "We've been dating about a year and a half. On and off."
-  Close on NIA, stunned, for about one second.
+  Close on NIA, stunned, for half a second only. Dorian jumps straight back in:
   DORIAN: "Look, I wasn't really expecting us to turn into anything. But I really like your vibe. I like how you make me feel."
   NIA: "And what's that supposed to mean to me?"
   DORIAN: "I hope it means you feel the same way."

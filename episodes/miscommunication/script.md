@@ -122,7 +122,7 @@ Nia's front door **opens inward, into her apartment**. Seen from inside, the **h
   - New outfit for this episode, from your upload.
   - **Not a villain:** charming, a bit nervous, sincere in his own way. His nervous laugh is real, not a smirk.
   - Voice: the full deep, calm baritone description, word for word.
-- **Pacing:** replies land right on each other. Nia cuts into "I knew Simone was —" mid-sentence. The only beats are her decision at the door and her stunned silence after "a year and a half," each about one second.
+- **Pacing:** replies land right on each other. Nia cuts into "I knew Simone was —" mid-sentence. The only beats are her decision at the door and her stunned silence after "a year and a half," each **half a second at most**. Dorian rushes back in to fill the silence. No long pauses anywhere.
 - **Ending:** the episode ends on Dorian's word "You." with no reaction shot after it.
 - **Spoken word count:** about 125 words in about 50 seconds.
 

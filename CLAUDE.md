@@ -43,7 +43,8 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 
 ### 4. Pacing
 - No long pauses. Replies land on the end of the previous line, with no gap longer than about two tenths of a second.
-- Only beats that the script calls for explicitly, kept to about one second each.
+- Only beats that the script calls for explicitly, kept to **half a second each**, one second at the absolute most for a door slam or a phone hang-up.
+- **No super-long pauses, ever:** no lingering looks, no held reaction shots, no dead air before a line, after a line or at the end of a clip. Silences get filled the way real people fill them: someone keeps talking, moves or reacts.
 - Prefer a few longer segments that cut between shots inside one render over many short clips.
 
 ### 5. Physical logic and natural movement
