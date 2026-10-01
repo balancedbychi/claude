@@ -105,3 +105,16 @@ No green sweatshirt, no hoodie. No text, no numbers, no labels, no watermark, no
 1. **Approve the face and body sheets,** then save them as `Nia-Face` and `Nia-Body`.
 2. **Optional: a Soul identity for stills.** Train a Higgsfield Soul from 5–20 approved images of her face. This gives the strongest face lock for images (posters, thumbnails, promo stills). It **doesn't** work in Seedance video, which keeps using the elements.
 3. **Optional: a wardrobe sheet.** Show her in each episode's outfit side by side, for continuity checks.
+
+---
+
+## Generation log
+
+**1 Oct 2026, casting sheets, round 1:** `Nia` image `362ecc5e…` as the face reference. Requested as Nano Banana Pro; Higgsfield ran them on Nano Banana 2.
+
+| Sheet | Option | Job ID |
+|---|---|---|
+| Face / expressions | F1 | `416e705c-9fc9-4a20-accb-4769a7739736` |
+| Face / expressions | F2 | `bc380ef4-c7e8-48c8-87bc-049842257751` |
+| Body turnaround | B1 | `5423fcc8-e453-4570-b603-138d8753ceb5` |
+| Body turnaround | B2 | `626eaec7-8292-4e5a-922a-f23b632cf908` |
