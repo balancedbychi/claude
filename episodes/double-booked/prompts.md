@@ -9,7 +9,7 @@
 | Aspect | `9:16` |
 | Resolution | `1080p` (or `draft: true` at 480p first, then finalize the approved draft) |
 | Audio | `generate_audio: true`. Dialogue and room sound are generated **in the same pass** as the picture. **Never** supply audio_references: in this project a supplied voice track does not lip-sync on Seedance. |
-| References | Seedance 2.5 does **not** resolve `<<<element-id>>>` placeholders. Each element's image is attached as `image_references` (by its media ID), and the prompt refers to it as `@image1`, `@image2` and so on, in the order the placeholders appear in each prompt below. |
+| References | Same method as the approved EXCLUSIVE episodes: every element is passed in the `reference_elements` field, and the prompt points at each one with its `<<<element-id>>>` placeholder. **Both saved voice elements are attached to every clip**, `Nia-voice-v2-clear` and `ChiChi-the-Influencer-Voice`, exactly as in "The Caterer". Dorian, Kel and Simone have no saved voice, so each one's voice comes from the written description used in their approved takes. |
 
 **Narration is not in these renders.** The narrator is a separate voiceover track, laid in during the edit (see the end of this file). Each clip's prompt keeps her moments free of dialogue and has **no voice-over**, so the model never puts her lines in an on-screen mouth.
 
@@ -35,13 +35,15 @@
 | Dorian-Kitchen-Night | `de2063f2-acee-4300-9669-b1f17bff850f` |
 | ChiChi-Living-Room-Night-v2 | `9c43c008-b953-4dac-9ab2-9b77929580c3` |
 
-### Voice descriptions (paste word for word into every clip where the character speaks)
+### Voices (taken from the approved EXCLUSIVE takes)
 
-- **NIA:** a warm, low, British-accented young woman's voice, dry and deadpan, quick and a little impatient.
-- **SIMONE:** a cheerful, bright, warm woman's voice at normal volume, unhurried, having a nice time. No drawl, no edge, nothing knowing.
-- **DORIAN:** a warm, unhurried man's voice, easy company, completely at ease. Never slick, never smooth, never performing.
-- **CHICHI:** an unhurried, deadpan, warm woman's voice with calm authority. Direct and grounded, never angry, never raised.
-- **KEL:** a warm, low, unhurried man's voice in his fifties, entirely sincere, with no attitude.
+| Character | Source |
+|---|---|
+| Nia | Voice element `Nia-voice-v2-clear` `12315c68-37de-41fe-8766-76ac07bcaf70` |
+| ChiChi | Voice element `ChiChi-the-Influencer-Voice` `180fdb9a-7c0b-469e-be49-3f76692a3968` |
+| Dorian | Written description from "The Caterer" (job `138b2a2f…`): a deep, low, calm General American baritone |
+| Kel | Written description from "The Caterer" (job `8a2543d2…`): plain, dry, slightly bright, thinner mid-low |
+| Simone | Written description from "The Caterer" (job `21af609d…`): warm, low-pitched, chesty, cheerful, deeper and slower than Nia |
 
 ---
 
@@ -57,6 +59,9 @@ Nia <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>>, wearing exactly the outfit in <<
 She reaches for the door handle. Before her fingers touch it, the door swings open from inside.
 
 Simone stands in the doorway. Her face and hair are from <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>>: a copper-auburn blunt shoulder-length bob, deep side part and sweep exactly as the reference shows, never mirrored. She wears exactly the outfit in <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, with no coat. She holds one glass of red wine and looks relaxed and at home. The two women face each other across the threshold and Nia's smile drops. The clip ends on that moment.
+
+Nia's saved voice element <<<12315c68-37de-41fe-8766-76ac07bcaf70>>> is attached to this generation.
+ChiChi's saved voice element <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>> is attached to this generation, but CHICHI IS NOT IN THIS SCENE: she never appears and speaks no lines.
 
 Camera: a smooth tracking shot behind Nia's shoulder down the hallway, settling into a profile two-shot at the door when it opens. 35mm, shallow depth.
 Audio: quiet hallway hum, Nia's heels on the floor, the soft click of the latch. NO DIALOGUE in this clip. No voice-over, no music.
@@ -78,9 +83,11 @@ Simone smiles, genuinely friendly, and says brightly: "Oh! Hi! Who are you?"
 Nia, flat and dead still, says: "Who are you?"
 Nia doesn't wait for an answer. She immediately steps straight past Simone's shoulder and into the loft without being invited. Simone turns to watch her go, still smiling and confused, and says pleasantly: "Okay — come in!"
 
-Simone's voice: a cheerful, bright, warm woman's voice at normal volume, unhurried, having a nice time. No drawl, no edge, nothing knowing.
-Nia's voice: a warm, low, British-accented young woman's voice, dry and deadpan, quick and a little impatient.
 Simone is never smug, never sneering, and never enjoys the moment; she is simply friendly and confused.
+
+Nia's English dialogue uses <<<12315c68-37de-41fe-8766-76ac07bcaf70>>>, her saved clear British voice: warm, low, dry and deadpan. Never a substitute voice, never swapped with anyone else's. She is BRITISH and every one of her lines is spoken in a British accent.
+SIMONE'S VOICE — SHE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. Warm, LOW-PITCHED, chesty and unhurried, with a relaxed pace and a soft landing on the ends of her sentences. She is clearly deeper and slower than Nia, and the two voices never sound alike. Never shrill, breathy, clipped, whispered, sing-song, or pitched up to match Nia. Her register is CHEERFUL AND PLEASANT: bright, warm, normal volume, genuinely having a nice time. No sneer, no smirk, no smugness, no drawl, no knowing look.
+ChiChi's saved voice element <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>> is attached to this generation, but CHICHI IS NOT IN THIS SCENE: she never appears and speaks no lines.
 
 Camera: an over-the-shoulder two-shot across the threshold, then a pan following Nia as she brushes past into the loft. 35mm.
 Audio: the dialogue above, exactly as written, plus soft loft ambience and faint music from inside the apartment. No voice-over.
@@ -102,9 +109,12 @@ He sees Nia <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> (wearing exactly <<<38c8c
 Dorian, quietly: "Nia."
 Simone, to Dorian, still pleasant: "You know her?"
 
-Dorian's voice: a warm, unhurried man's voice, easy company, completely at ease. Never slick, never smooth, never performing. After he sees Nia it goes quiet and caught.
-Simone's voice: a cheerful, bright, warm woman's voice at normal volume, unhurried. No drawl, no edge, nothing knowing.
 Dorian is NOT a villain: no smirk, no coldness, no menace. He is an ordinary man caught out, embarrassed and out of words.
+
+DORIAN'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A DEEP, LOW, CALM, COMPOSED adult male voice: an unhurried General American baritone pitched well below both women, with relaxed chest resonance, warm rather than gravelly. Never rushed, never breathy, never nasal, never a light or boyish tenor, never British, and never the same voice as any woman's. Once he sees Nia it goes quiet and caught: still warm, never cold, never smug.
+SIMONE'S VOICE — SHE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. Warm, LOW-PITCHED, chesty and unhurried, with a relaxed pace and a soft landing on the ends of her sentences. She is clearly deeper and slower than Nia, and the two voices never sound alike. Never shrill, breathy, clipped, whispered, sing-song, or pitched up to match Nia. Her register is CHEERFUL AND PLEASANT: bright, warm, normal volume, genuinely having a nice time. No sneer, no smirk, no smugness, no drawl, no knowing look.
+Nia's saved voice element <<<12315c68-37de-41fe-8766-76ac07bcaf70>>> is attached to this generation.
+ChiChi's saved voice element <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>> is attached to this generation, but CHICHI IS NOT IN THIS SCENE: she never appears and speaks no lines.
 
 Camera: a medium shot on Dorian as he enters, then a quick push in on his face as he realises, with Nia soft in the foreground. 35mm.
 Audio: the dialogue above, exactly as written, plus the kitchen ambience of a pot simmering. No voice-over.
@@ -126,7 +136,9 @@ Reverse shot of Dorian <<<5deb4ada-665f-4894-8d16-2a9f34c0248f>>>, wearing exact
 
 Nia immediately turns and walks straight past Simone <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>> (copper-auburn bob, exactly <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, wine glass in hand) and out the open door. The door slams and Simone flinches. One brief beat on Dorian and Simone in the entry, then the clip ends.
 
-Nia's voice: a warm, low, British-accented young woman's voice, dry and deadpan, here cracking and very quiet.
+Nia's English dialogue uses <<<12315c68-37de-41fe-8766-76ac07bcaf70>>>, her saved clear British voice: warm, low, dry and deadpan. Never a substitute voice, never swapped with anyone else's. She is BRITISH and every one of her lines is spoken in a British accent.
+ChiChi's saved voice element <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>> is attached to this generation, but CHICHI IS NOT IN THIS SCENE: she never appears and speaks no lines.
+
 Camera: a tight close-up of Nia, a reverse close-up of Dorian, then a wide shot of the entry for the exit.
 Audio: Nia's one line, exactly as written, then her footsteps, and the door slamming hard. No other dialogue, no voice-over, no music.
 No rings or bracelets on Nia. Correct five-finger hands. No subtitles, no captions, no on-screen text.
@@ -149,8 +161,10 @@ The scene opens mid-laugh: ChiChi is laughing, a real, unguarded laugh, for the 
 Kel, grinning: "— and the pot was fine. I watched that pot all night."
 ChiChi laughs again, settles back and looks at him, then asks, calmly: "Kel. Do you want children?"
 
-ChiChi's voice: an unhurried, deadpan, warm woman's voice with calm authority. Direct and grounded, never angry, never raised.
-Kel's voice: a warm, low, unhurried man's voice in his fifties, entirely sincere, with no attitude.
+
+ChiChi's English dialogue uses <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>>, her saved warm, smooth, mid-to-low General American voice with calm authority and dry humour. Never a substitute voice, never a British accent, never swapped with Nia's.
+KEL'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A Black American man in his fifties with a General American accent. His voice is PLAIN, DRY and slightly BRIGHT: a mid-low male voice with a THINNER, less resonant quality, less bass body, more edge and no velvet. Never smooth, never suave, never rich or round or chesty, never a radio announcer. Unhurried, completely at ease, entirely sincere. He says everything plainly, as fact.
+Nia's saved voice element <<<12315c68-37de-41fe-8766-76ac07bcaf70>>> is attached to this generation, but NIA IS NOT IN THIS SCENE: she never appears and speaks no lines.
 
 Camera: a warm, intimate two-shot at sofa height, then a gentle push in on ChiChi for her question. 35mm.
 Audio: the dialogue above, exactly as written, plus soft room tone and faint distant city sound. No voice-over, no music.
@@ -172,8 +186,10 @@ Kel smiles gently, as if she might be joking: "You do know I'm fifty-three, righ
 ChiChi, evenly, not smiling: "That wasn't my question. Do you want children?"
 Kel sets his wine glass down on the round marble coffee table and leans in, sincere and kind: "Look, I really like where this is going. I do. But don't you think we're a little too old for that?"
 
-Kel's voice: a warm, low, unhurried man's voice in his fifties, entirely sincere, with no attitude. He is kind, never dismissive.
-ChiChi's voice: an unhurried, deadpan, warm woman's voice with calm authority. Direct and grounded, never angry, never raised.
+
+KEL'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A Black American man in his fifties with a General American accent. His voice is PLAIN, DRY and slightly BRIGHT: a mid-low male voice with a THINNER, less resonant quality, less bass body, more edge and no velvet. Never smooth, never suave, never rich or round or chesty, never a radio announcer. Unhurried, completely at ease, entirely sincere. He says everything plainly, as fact.
+ChiChi's English dialogue uses <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>>, her saved warm, smooth, mid-to-low General American voice with calm authority and dry humour. Never a substitute voice, never a British accent, never swapped with Nia's.
+Nia's saved voice element <<<12315c68-37de-41fe-8766-76ac07bcaf70>>> is attached to this generation, but NIA IS NOT IN THIS SCENE: she never appears and speaks no lines.
 
 Camera: shot-reverse-shot in close singles, with Kel in a soft three-quarter view and ChiChi framed straight on. 35mm.
 Audio: the dialogue above, exactly as written, plus soft room tone. No voice-over, no music.
@@ -195,7 +211,9 @@ ChiChi, quietly: "Wow. I don't know if this is gonna work."
 Cut to Kel <<<3ad69411-e32c-44bd-b797-a93ec0d4b52c>>> in exactly <<<0bac4ba5-b61d-411c-98a9-f26c16967200>>>. His warm smile fades as he understands.
 The camera pulls back to a wide shot: two people on one long sofa, a space now open between them, the city glittering behind. Room tone only to the end.
 
-ChiChi's voice: an unhurried, deadpan, warm woman's voice with calm authority, here soft and quiet, never angry, never raised.
+ChiChi's English dialogue uses <<<180fdb9a-7c0b-469e-be49-3f76692a3968>>>, her saved warm, smooth, mid-to-low General American voice with calm authority and dry humour. Never a substitute voice, never a British accent, never swapped with Nia's.
+Nia's saved voice element <<<12315c68-37de-41fe-8766-76ac07bcaf70>>> is attached to this generation, but NIA IS NOT IN THIS SCENE: she never appears and speaks no lines.
+
 Audio: ChiChi's line, exactly as written, then room tone. No other dialogue, no voice-over, no music.
 Correct five-finger hands. No subtitles, no captions, no on-screen text.
 ```
