@@ -18,6 +18,13 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - The same rule applies to every character: a face or identity element supplies the face, never the clothes.
 - **Lasting fix (needs the user):** upload a face-only crop of Nia with no clothing visible. Save it as a new element, e.g. `Nia-Face`, and use it in place of `Nia`. This is the same fix that stopped Simone's grey T-shirt (see `Simone-Face-v3`).
 
+### 2a. Nia's body: petite but curvy, never drifting
+- **Nia is PETITE and CURVY.** She's short and small-framed, clearly shorter than ChiChi and much shorter than Dorian, with an hourglass figure: a small, defined waist, a fuller bust, and full, rounded hips and thighs. Healthy and toned at thirty.
+- **Never** tall, long-legged or model-proportioned. **Never** straight up and down, boxy or thick through the waist. **Never** slim-hipped, flat or boyish. **Never** heavier or larger-framed than she is.
+- **Every prompt with Nia must state this body description**, because the identity image alone has let her shape drift between renders.
+- Clothes always fit her real shape: the clothing adapts to her body, never the reverse.
+- Height relationships stay constant: Nia is the shortest, then ChiChi, with Dorian much taller than both.
+
 ### 3. ChiChi's hair is always honey-blonde
 - Never dark brown. `ChiChi-Series-Look` (`bc1bd310…`) says dark brown and is retired; never attach it.
 
