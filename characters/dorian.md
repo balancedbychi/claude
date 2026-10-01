@@ -1,0 +1,108 @@
+# DORIAN: casting profile
+
+*EXCLUSIVE with Nia and Chi · recurring lead · started 1 Oct 2026*
+
+This is the single source of truth for who Dorian is on screen. The series rules in `/CLAUDE.md` still apply. If anything here conflicts with an older Higgsfield element description, **this file wins.**
+
+---
+
+## At a glance
+
+| | |
+|---|---|
+| **Age** | Mid-to-late thirties |
+| **Skin** | Warm, deep brown complexion |
+| **Height / build** | **Tall and heavily built**, about 6'3" (190 cm). Broad shoulders and chest, solid and strong, with a lived-in, real-man build: substantial, not gym-sculpted or bodybuilder-cut. |
+| **Hair** | Short and cropped, with a crisp, clean lineup |
+| **Facial hair** | A full, well-groomed short black beard and moustache |
+| **Distinguishing mark** | A tattoo on his **left forearm** |
+| **Rings** | **None, ever.** He's single, and the fourth finger of his left hand is bare skin. His old "one silver ring" is retired. |
+| **Voice** | No saved voice element yet. *A deep, low, calm adult male voice: an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly.* |
+| **Signature look** | **Black.** The black outfit from "Miscommunication" Segment 1 is his current approved look. |
+
+---
+
+## Face (for every prompt)
+
+- **Overall:** a mature adult face with a strong, well-defined jaw under the beard, solid cheekbones, and a broad, grounded presence.
+- **Eyes:** dark brown and warm, with naturally muted catchlights.
+- **Brows:** full and dark.
+- **Expression:** an **easy, unforced smile**. He's relaxed and approachable, warm rather than intense.
+- **Skin:** photographed, not retouched. Visible pores and texture, natural asymmetry, and a matte-to-natural finish. No airbrushing, no beauty filter.
+
+## Body (for every prompt)
+
+> **TALL AND HEAVILY BUILT.** He's much taller than both women. Nia, who is petite, comes up to around his shoulder, so she looks up at him. He has broad shoulders, a big chest and solid arms, and a substantial, strong, natural build. **Never** slim, lanky or narrow. **Never** short. **Never** a sculpted fitness-model physique.
+
+**Height line-up:** Nia (shortest), then ChiChi, then Dorian (much taller than both).
+
+## Personality and performance: the whole point of him
+
+- **He is not a villain.** He's ordinary, warm, genuinely easy company, and completely unavailable, which is worse and more true. He doesn't think he's doing anything wrong.
+- **On screen:** charming, unhurried and at ease. When caught out, he gets nervous and quiet and fills silences with talk; his laugh is a real, nervous laugh.
+- **Never:** smirking, smug, slick, menacing, cold, or "playing a player". The audience should understand exactly why Nia keeps going back.
+- **Canon:** he texts every eleven days and makes plans every two weeks. He's been on and off with Simone for a year and a half.
+
+## Wardrobe rules
+
+- His clothes come from the episode's wardrobe, **or from an approved segment used as a video reference** (series rule 7). They never come from his identity image.
+- **Current approved look:** the black outfit he wears in "Miscommunication" Segment 1 (`f078ccbb…`).
+- **Retired for new work:** the "one silver ring" and any ring at all, and `Dorian-Miscommunication-Look` (dorfit2.png), which the user overruled.
+
+---
+
+## Higgsfield assets
+
+| Asset | ID | Use |
+|---|---|---|
+| `Dorian` (identity) | `5deb4ada-665f-4894-8d16-2a9f34c0248f` | Face. Image `887050a4…`. Being supplemented by `Dorian-Face`. |
+| `Dorian-Series-Look` | `51c0cbaa-2fbe-4918-bb91-a29307caca09` | "The Caterer" black camp-collar set. Old episode only; it carries the retired ring. |
+| `Dorian-Double-Booked-Look` | `f44003af-4374-4d5c-acbf-d4f2aad1f9b3` | "Double Booked" / "Exclusive to Me" wardrobe |
+| `Dorian-Miscommunication-Look` | `6a797aec-4d2c-4fac-97bf-b3c515b12f6b` | **Not used**, by the user's ruling |
+| `Dorian-Face` (casting face sheet) | *(being built, see below)* | Face only, with no clothing in frame |
+| `Dorian-Body` (casting turnaround) | *(being built, see below)* | Height, build and tattoo only. The fitting garments are **never** his costume. |
+| `Dorian-Canon-Voice-v1` | *(not yet created)* | To be made from an approved take where he sounds right, so his voice stops drifting |
+
+**Approved footage of Dorian, for video references:** "Miscommunication" Segment 1 `f078ccbb-b911-486d-85c7-43d382fdfbd2`. Segment 2 v2 (`83543884…`) is awaiting your approval.
+
+---
+
+## Casting sheet prompts
+
+Generated with Nano Banana Pro, using the `Dorian` image as the face reference only.
+
+### 1. Face and expression sheet → `Dorian-Face`
+
+```
+Character expression sheet of the SAME ORIGINAL MAN shown in the reference image: his exact facial identity, bone structure, skin tone, hairline and beard. Six head-and-shoulders portraits in a clean 3x2 grid: neutral front, three-quarter left, left profile, easy relaxed smile, nervous half-laugh, and caught-out apologetic look. Every portrait is cropped at the base of the neck, ABOVE THE COLLARBONES, so NO CLOTHING OF ANY KIND IS VISIBLE: no collar, no neckline, no fabric, no chain. Bare neck and the tops of the shoulders only. Plain warm-grey seamless studio background.
+
+He is in his mid-to-late thirties, with a warm, deep brown complexion. A mature adult face: a strong, well-defined jaw under the beard, solid cheekbones, a broad, grounded presence. Short cropped hair with a crisp, clean lineup. A full, well-groomed short black beard and moustache, neatly shaped. Warm dark brown eyes with naturally muted catchlights, no glare in the iris. Full dark brows. An easy, unforced smile. Warm, approachable and relaxed, never smirking, never smug, never menacing.
+
+No earrings, no chains, no jewellery of any kind. Visible fine skin texture with natural pores, subtle natural asymmetry, matte-to-natural finish, no digital smoothing, no beauty filter, no airbrushing, no plastic skin. Soft diffused studio lighting without harsh reflections. Identical original man in all six portraits. High-end but unretouched photography, 4K, sharp focus on skin and beard texture.
+
+No clothing visible, no fabric anywhere in frame. No text, no labels, no watermark, no logos, no frame borders, no other people.
+```
+
+### 2. Full-body turnaround → `Dorian-Body`
+
+```
+Character turnaround model sheet of the SAME ORIGINAL MAN shown in the reference image: his exact face, skin tone, hairline and beard. Four consistent full-body views in a row, evenly spaced: front view, three-quarter view, side profile, back view. Each is standing upright in a relaxed neutral pose, arms slightly away from the body, head to toe with both feet in frame, not cropped, not sitting. Plain warm-grey seamless studio background with a soft floor shadow.
+
+He is in his mid-to-late thirties, with a warm, deep brown complexion. TALL AND HEAVILY BUILT: about 6'3", broad shoulders, a big chest, solid strong arms, and a substantial, natural, real-man build. Never slim, never lanky, never a sculpted fitness-model physique. Short cropped hair with a clean lineup. A full, well-groomed short black beard and moustache. A TATTOO ON HIS LEFT FOREARM, clearly visible below the sleeve, exactly as the reference shows it if it is visible there, otherwise a simple dark-ink design on the outer left forearm. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin. No watch, no bracelets, no chain, no earrings.
+
+He wears plain, neutral fitting-room clothes that show his build clearly: a fitted plain heather-grey short-sleeved crew-neck T-shirt with no logo or print, and plain charcoal straight-leg trousers. Barefoot.
+
+Visible natural skin texture, no airbrushing, no beauty filter, no plastic skin. Soft diffused even studio lighting. Identical original man in all four views. High-end but unretouched commercial photography, 4K.
+
+No text, no numbers, no labels, no watermark, no logos, no other people, no props, no furniture.
+```
+
+**When saving `Dorian-Body`,** the element description must say: *"height, build and tattoo reference ONLY; the grey T-shirt and charcoal trousers are fitting-room clothes and are NEVER his costume."*
+
+---
+
+## Next steps toward a complete profile
+
+1. **Approve the face and body sheets,** then save them as `Dorian-Face` and `Dorian-Body`.
+2. **Lock his voice:** once you approve a take where he sounds right (Segment 1, or Segment 2 v2), create `Dorian-Canon-Voice-v1` from it and attach it to every clip he speaks in.
+3. **Optional: a wardrobe sheet** of his episode looks side by side.

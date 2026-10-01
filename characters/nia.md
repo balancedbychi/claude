@@ -118,3 +118,10 @@ No green sweatshirt, no hoodie. No text, no numbers, no labels, no watermark, no
 | Face / expressions | F2 | `bc380ef4-c7e8-48c8-87bc-049842257751` |
 | Body turnaround | B1 | `5423fcc8-e453-4570-b603-138d8753ceb5` |
 | Body turnaround | B2 | `626eaec7-8292-4e5a-922a-f23b632cf908` |
+
+**1 Oct 2026, wardrobe sheet (on hold at the user's request):** 5 outfits side by side (Ep1 white dress, The Caterer, Available, Double Booked, Miscommunication), 21:9. The jobs had already been submitted when the user paused it. Kept for later review.
+
+| Option | Job ID |
+|---|---|
+| W1 | `3476ab77-2b16-45c4-9f08-d21b35c4c2e9` |
+| W2 | `98b9a7f1-75c3-4e65-9d5d-1ecacdc55bff` |
