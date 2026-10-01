@@ -1,7 +1,7 @@
 # EXCLUSIVE with Nia and Chi — "Double Booked"
 
 **Format:** scripted short, vertical 9:16
-**Runtime:** ~90 seconds, 7 clips (C1–C7) of ~12–13 s each
+**Runtime:** ~76 seconds, 7 clips (C1–C7) of 9–12 s each
 **Cast:** Nia · Dorian · Simone · ChiChi · Kel · Narrator (V.O. only)
 **Two storylines, one night:** Nia at Dorian's loft (C1–C4) · ChiChi and Kel at her apartment (C5–C7)
 
@@ -30,14 +30,13 @@ Voice files can't be attached to a render, so each voice comes from the written 
 
 ## Script
 
-### C1 — THE DOOR (0:00–0:13)
+### C1 — THE DOOR (0:00–0:10)
 *Set: `Dorian-Hallway-Night`*
 
 *INT. DORIAN'S BUILDING, 10TH-FLOOR HALLWAY — NIGHT. Nia walks to the door of 10B with an overnight bag on her shoulder. She stops, checks her lip gloss in her phone camera, and smiles to herself.*
 
 > **NARRATOR (V.O.)**
 > He said come over. He said stay the night.
-> *(beat)*
 > He just didn't say it to *only* her.
 
 *Nia reaches for the handle, but the door swings open before she touches it.*
@@ -46,14 +45,14 @@ Voice files can't be attached to a render, so each voice comes from the written 
 
 ---
 
-### C2 — WHO ARE YOU? (0:13–0:26)
+### C2 — WHO ARE YOU? (0:10–0:22)
 *Set: `Dorian-Hallway-Night` → `Dorian-Loft-Entry-v3`*
 
 *Two-shot across the threshold.*
 
 > **SIMONE**
 > *(bright, friendly)*
-> Oh! Hi! …Who are you?
+> Oh! Hi! Who are you?
 
 > **NIA**
 > *(flat)*
@@ -66,7 +65,7 @@ Voice files can't be attached to a render, so each voice comes from the written 
 
 ---
 
-### C3 — THE KITCHEN (0:26–0:39)
+### C3 — THE KITCHEN (0:22–0:34)
 *Set: `Dorian-Loft-Entry-v3` → `Dorian-Kitchen-Night`*
 
 *DORIAN steps out of the kitchen with a dish towel over his shoulder, wiping his hands and calling back toward the door.*
@@ -74,13 +73,13 @@ Voice files can't be attached to a render, so each voice comes from the written 
 > **DORIAN**
 > Babe, who was at the —
 
-*He sees Nia and stops dead. The towel stops moving in his hands.*
+*He sees Nia and stops short. The towel stops moving in his hands.*
 
 *He looks at Nia, then at Simone, then back at Nia. We watch him work it out: two texts, and the same night.*
 
 > **DORIAN**
 > *(quietly)*
-> …Nia.
+> Nia.
 
 > **SIMONE**
 > *(to Dorian, still pleasant)*
@@ -88,7 +87,7 @@ Voice files can't be attached to a render, so each voice comes from the written 
 
 ---
 
-### C4 — SHE WALKS (0:39–0:52)
+### C4 — SHE WALKS (0:34–0:44)
 *Set: `Dorian-Loft-Entry-v3`*
 
 *Close on Nia as she looks at Dorian. Her jaw is tight and her eyes fill. She won't let it fall, not here.*
@@ -101,11 +100,11 @@ Voice files can't be attached to a render, so each voice comes from the written 
 
 *Nia turns and walks straight past Simone and out the door. Simone flinches as it slams.*
 
-*Hold on Dorian and Simone, who stand in silence.*
+*One brief beat on Dorian and Simone, then cut.*
 
 ---
 
-### C5 — ACROSS TOWN (0:52–1:05)
+### C5 — ACROSS TOWN (0:44–0:55)
 *Set: `ChiChi-Living-Room-Night-v2`*
 
 *INT. CHICHI'S LIVING ROOM — NIGHT. The city lights are on and one warm lamp glows. ChiChi and KEL sit together at the right end of the sectional, each holding a glass of wine. ChiChi is laughing, really laughing.*
@@ -123,38 +122,34 @@ Voice files can't be attached to a render, so each voice comes from the written 
 
 ---
 
-### C6 — THE QUESTION (1:05–1:18)
+### C6 — THE QUESTION (0:55–1:07)
 *Set: `ChiChi-Living-Room-Night-v2`*
 
-*Kel pauses, then smiles gently, as if she's joking.*
+*Kel smiles gently, as if she's joking.*
 
 > **KEL**
 > You do know I'm fifty-three, right?
 
 > **CHICHI**
 > *(evenly)*
-> That wasn't my question.
-> *(beat)*
-> Do you want children?
+> That wasn't my question. Do you want children?
 
 *Kel sets his glass down and leans in, sincere and kind.*
 
 > **KEL**
-> Look… I really like where this is going. I do.
+> Look, I really like where this is going. I do.
 > But don't you think we're a little too old for that?
 
 ---
 
-### C7 — TAG (1:18–1:30)
+### C7 — TAG (1:07–1:16)
 *Set: `ChiChi-Living-Room-Night-v2`*
 
-*Close on ChiChi. She takes a long look at him with no anger, only clarity.*
+*Close on ChiChi. She looks at him with no anger, only clarity.*
 
 > **CHICHI**
 > *(quietly)*
-> Wow.
-> *(beat)*
-> I don't know if this is gonna work.
+> Wow. I don't know if this is gonna work.
 
 *Kel's smile fades.*
 
@@ -190,4 +185,4 @@ These come from the locked rules in the Higgsfield element notes.
   | ChiChi | C5–C7 | `ChiChi-Double-Booked-Look` `a18211bc-26e3-45d3-8ea0-66ee6cc3b13d` | `ChiChi-the-Influencer` `8a8e8eeb…` and `ChiChi-Face-Photoreal` `54b60e1c…` |
   | Kel | C5–C7 | `Kel-Double-Booked-Look` `0bac4ba5-b61d-411c-98a9-f26c16967200` | `Kel-The-Cousin` `3ad69411…` |
 
-**Spoken word count:** about 220 words, which fits 90 seconds with room for the silences. C4 and C7 depend on the pauses, so don't rush them.
+**Spoken word count:** about 210 words in roughly 76 seconds. The pacing is conversational, with no long holds: reactions take a second, not several, and the narrator plays over action, never over dead air.

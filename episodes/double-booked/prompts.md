@@ -45,7 +45,7 @@
 
 ---
 
-## C1 — THE DOOR · 13 s
+## C1 — THE DOOR · 10 s
 
 **Elements:** hallway, Nia ×2, Simone ×2
 
@@ -56,16 +56,16 @@ Nia <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>>, wearing exactly the outfit in <<
 
 She reaches for the door handle. Before her fingers touch it, the door swings open from inside.
 
-Simone stands in the doorway. Her face and hair are from <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>>: a copper-auburn blunt shoulder-length bob, deep side part and sweep exactly as the reference shows, never mirrored. She wears exactly the outfit in <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, with no coat. She holds one glass of red wine and looks relaxed and at home. The two women freeze, face to face across the threshold. Hold on Nia's smile dropping.
+Simone stands in the doorway. Her face and hair are from <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>>: a copper-auburn blunt shoulder-length bob, deep side part and sweep exactly as the reference shows, never mirrored. She wears exactly the outfit in <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, with no coat. She holds one glass of red wine and looks relaxed and at home. The two women face each other across the threshold and Nia's smile drops. The clip ends on that moment.
 
-Camera: a slow tracking shot behind Nia's shoulder down the hallway, settling into a profile two-shot at the door when it opens. 35mm, shallow depth.
+Camera: a smooth tracking shot behind Nia's shoulder down the hallway, settling into a profile two-shot at the door when it opens. 35mm, shallow depth.
 Audio: quiet hallway hum, Nia's heels on the floor, the soft click of the latch. NO DIALOGUE in this clip. No voice-over, no music.
 Skin photographed, never cartoonish or airbrushed. Correct five-finger hands. No subtitles, no captions, no on-screen text.
 ```
 
 ---
 
-## C2 — WHO ARE YOU? · 13 s
+## C2 — WHO ARE YOU? · 12 s
 
 **Elements:** hallway, loft entry, Nia ×2, Simone ×2
 
@@ -74,9 +74,9 @@ Photoreal cinematic drama, vertical 9:16, late night. Continuous from the previo
 
 Nia <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>>, wearing exactly <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, with the overnight bag on her shoulder. Simone <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>> has her copper-auburn bob and wears exactly <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, holding one glass of red wine.
 
-Simone smiles, genuinely friendly, and says brightly: "Oh! Hi! …Who are you?"
+Simone smiles, genuinely friendly, and says brightly: "Oh! Hi! Who are you?"
 Nia, flat and dead still, says: "Who are you?"
-Simone opens her mouth to answer, but Nia is already moving. She steps straight past Simone's shoulder and into the loft without being invited. Simone turns to watch her go, still smiling and confused, and says pleasantly: "Okay — come in!"
+Nia doesn't wait for an answer. She immediately steps straight past Simone's shoulder and into the loft without being invited. Simone turns to watch her go, still smiling and confused, and says pleasantly: "Okay — come in!"
 
 Simone's voice: a cheerful, bright, warm woman's voice at normal volume, unhurried, having a nice time. No drawl, no edge, nothing knowing.
 Nia's voice: a warm, low, British-accented young woman's voice, dry and deadpan, quick and a little impatient.
@@ -89,7 +89,7 @@ No rings or bracelets on Nia. Correct five-finger hands. No subtitles, no captio
 
 ---
 
-## C3 — THE KITCHEN · 13 s
+## C3 — THE KITCHEN · 12 s
 
 **Elements:** loft entry, kitchen, Dorian ×2, Nia ×2, Simone ×2
 
@@ -98,22 +98,22 @@ Photoreal cinematic drama, vertical 9:16, late night. Set: inside Dorian's loft,
 
 Dorian <<<5deb4ada-665f-4894-8d16-2a9f34c0248f>>>, wearing exactly the outfit in <<<f44003af-4374-4d5c-acbf-d4f2aad1f9b3>>>, with a dish towel over one shoulder, steps out of the kitchen wiping his hands and calls back toward the door, relaxed: "Babe, who was at the —"
 
-He sees Nia <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> (wearing exactly <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, overnight bag on her shoulder) standing just inside the loft. He stops dead, and his hands go still on the towel. His eyes go from Nia, to Simone <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>> (copper-auburn bob, exactly <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, wine glass in hand) behind her at the door, then back to Nia. We watch him realise what he's done.
-Dorian, quietly: "…Nia."
+He sees Nia <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> (wearing exactly <<<38c8cb48-d342-4143-85f2-9eb5ba462544>>>, overnight bag on her shoulder) standing just inside the loft. He stops short, and his hands go still on the towel. His eyes go from Nia, to Simone <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>> (copper-auburn bob, exactly <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, wine glass in hand) behind her at the door, then back to Nia. He realises what he's done in a second, not longer.
+Dorian, quietly: "Nia."
 Simone, to Dorian, still pleasant: "You know her?"
 
 Dorian's voice: a warm, unhurried man's voice, easy company, completely at ease. Never slick, never smooth, never performing. After he sees Nia it goes quiet and caught.
 Simone's voice: a cheerful, bright, warm woman's voice at normal volume, unhurried. No drawl, no edge, nothing knowing.
 Dorian is NOT a villain: no smirk, no coldness, no menace. He is an ordinary man caught out, embarrassed and out of words.
 
-Camera: a medium shot on Dorian as he enters, then a slow push into his face during the realisation, with Nia soft in the foreground. 35mm.
+Camera: a medium shot on Dorian as he enters, then a quick push in on his face as he realises, with Nia soft in the foreground. 35mm.
 Audio: the dialogue above, exactly as written, plus the kitchen ambience of a pot simmering. No voice-over.
 Correct five-finger hands. No subtitles, no captions, no on-screen text.
 ```
 
 ---
 
-## C4 — SHE WALKS · 13 s
+## C4 — SHE WALKS · 10 s
 
 **Elements:** loft entry, Nia ×2, Dorian ×2, Simone ×2
 
@@ -124,17 +124,17 @@ Close-up of Nia <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>>, wearing exactly <<<3
 
 Reverse shot of Dorian <<<5deb4ada-665f-4894-8d16-2a9f34c0248f>>>, wearing exactly <<<f44003af-4374-4d5c-acbf-d4f2aad1f9b3>>>, with the dish towel. He opens his mouth and nothing comes out. He has no defence and he knows it. He is stricken, not cruel.
 
-Nia turns and walks straight past Simone <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>> (copper-auburn bob, exactly <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, wine glass in hand) and out the open door. The door slams and Simone flinches. Hold in silence on Dorian and Simone standing apart in the entry, neither speaking.
+Nia immediately turns and walks straight past Simone <<<66ab4872-3bbf-4ce0-8e0d-267753f00c37>>> (copper-auburn bob, exactly <<<2a042d0e-64b9-477f-bc2d-2ad8cda38335>>>, wine glass in hand) and out the open door. The door slams and Simone flinches. One brief beat on Dorian and Simone in the entry, then the clip ends.
 
 Nia's voice: a warm, low, British-accented young woman's voice, dry and deadpan, here cracking and very quiet.
-Camera: a tight close-up of Nia, a reverse close-up of Dorian, then a wide shot of the entry for the exit and the hold.
-Audio: Nia's one line, exactly as written, then her footsteps, the door slamming hard, and a ringing quiet. No other dialogue, no voice-over, no music.
+Camera: a tight close-up of Nia, a reverse close-up of Dorian, then a wide shot of the entry for the exit.
+Audio: Nia's one line, exactly as written, then her footsteps, and the door slamming hard. No other dialogue, no voice-over, no music.
 No rings or bracelets on Nia. Correct five-finger hands. No subtitles, no captions, no on-screen text.
 ```
 
 ---
 
-## C5 — ACROSS TOWN · 13 s
+## C5 — ACROSS TOWN · 11 s
 
 **Elements:** living room, ChiChi ×3, Kel ×2
 
@@ -145,9 +145,9 @@ ChiChi <<<8a8e8eeb-d41e-4d91-b245-fa0caa8801b6>>>, with skin rendered as in <<<5
 Kel <<<3ad69411-e32c-44bd-b797-a93ec0d4b52c>>>, 53, bald, with a close-cropped silver-grey beard, wearing exactly the outfit in <<<0bac4ba5-b61d-411c-98a9-f26c16967200>>>.
 They sit close together at the right end of the sectional, each holding a glass of red wine. Exactly two glasses exist.
 
-The scene opens on ChiChi laughing, a real, unguarded laugh. Hold that for the first four seconds with room sound only.
+The scene opens mid-laugh: ChiChi is laughing, a real, unguarded laugh, for the first three seconds with room sound only. Then Kel picks the conversation straight back up.
 Kel, grinning: "— and the pot was fine. I watched that pot all night."
-ChiChi laughs again and settles back, studying him. She decides to ask. Calmly: "Kel. Do you want children?"
+ChiChi laughs again, settles back and looks at him, then asks, calmly: "Kel. Do you want children?"
 
 ChiChi's voice: an unhurried, deadpan, warm woman's voice with calm authority. Direct and grounded, never angry, never raised.
 Kel's voice: a warm, low, unhurried man's voice in his fifties, entirely sincere, with no attitude.
@@ -159,7 +159,7 @@ Skin photographed, never cartoonish. Correct five-finger hands. No subtitles, no
 
 ---
 
-## C6 — THE QUESTION · 13 s
+## C6 — THE QUESTION · 12 s
 
 **Elements:** living room, ChiChi ×3, Kel ×2
 
@@ -168,9 +168,9 @@ Photoreal cinematic drama, vertical 9:16, night. Continuous. Set: ChiChi's livin
 
 ChiChi <<<8a8e8eeb-d41e-4d91-b245-fa0caa8801b6>>>, skin as in <<<54b60e1c-2c1e-4258-bc4e-219bf5d0ea13>>>, in exactly <<<a18211bc-26e3-45d3-8ea0-66ee6cc3b13d>>>. Honey-blonde hair, side part on the left side of her head, no rings, no bracelets. Kel <<<3ad69411-e32c-44bd-b797-a93ec0d4b52c>>> in exactly <<<0bac4ba5-b61d-411c-98a9-f26c16967200>>>. They sit together on the sectional with two glasses of wine, lower than before.
 
-Kel pauses, then smiles gently, as if she might be joking: "You do know I'm fifty-three, right?"
-ChiChi, evenly, not smiling: "That wasn't my question." A beat. "Do you want children?"
-Kel sets his wine glass down on the round marble coffee table and leans in, sincere and kind: "Look… I really like where this is going. I do. But don't you think we're a little too old for that?"
+Kel smiles gently, as if she might be joking: "You do know I'm fifty-three, right?"
+ChiChi, evenly, not smiling: "That wasn't my question. Do you want children?"
+Kel sets his wine glass down on the round marble coffee table and leans in, sincere and kind: "Look, I really like where this is going. I do. But don't you think we're a little too old for that?"
 
 Kel's voice: a warm, low, unhurried man's voice in his fifties, entirely sincere, with no attitude. He is kind, never dismissive.
 ChiChi's voice: an unhurried, deadpan, warm woman's voice with calm authority. Direct and grounded, never angry, never raised.
@@ -182,21 +182,21 @@ Correct five-finger hands. No subtitles, no captions, no on-screen text.
 
 ---
 
-## C7 — TAG · 12 s
+## C7 — TAG · 9 s
 
 **Elements:** living room, ChiChi ×3, Kel ×2
 
 ```
 Photoreal cinematic drama, vertical 9:16, night. Continuous. Set: ChiChi's living room at night <<<9c43c008-b953-4dac-9ab2-9b77929580c3>>>, exactly as the reference shows, with one warm table lamp, no floor lamp and the TV off.
 
-Close-up of ChiChi <<<8a8e8eeb-d41e-4d91-b245-fa0caa8801b6>>>, skin as in <<<54b60e1c-2c1e-4258-bc4e-219bf5d0ea13>>>, in exactly <<<a18211bc-26e3-45d3-8ea0-66ee6cc3b13d>>>, honey-blonde hair with the side part on the left side of her head, no rings, no bracelets. She takes a long look at Kel, with no anger, only clarity, and a quiet disappointment she doesn't hide.
-ChiChi, quietly: "Wow." A beat. "I don't know if this is gonna work."
+Close-up of ChiChi <<<8a8e8eeb-d41e-4d91-b245-fa0caa8801b6>>>, skin as in <<<54b60e1c-2c1e-4258-bc4e-219bf5d0ea13>>>, in exactly <<<a18211bc-26e3-45d3-8ea0-66ee6cc3b13d>>>, honey-blonde hair with the side part on the left side of her head, no rings, no bracelets. She looks at Kel with no anger, only clarity, and a quiet disappointment she doesn't hide.
+ChiChi, quietly: "Wow. I don't know if this is gonna work."
 
-Cut to Kel <<<3ad69411-e32c-44bd-b797-a93ec0d4b52c>>> in exactly <<<0bac4ba5-b61d-411c-98a9-f26c16967200>>>. His warm smile slowly fades as he understands.
-Then a slow pull back to a wide shot: two people on one long sofa, a space now open between them, the city glittering behind. Hold in silence for the last five seconds. Room tone only.
+Cut to Kel <<<3ad69411-e32c-44bd-b797-a93ec0d4b52c>>> in exactly <<<0bac4ba5-b61d-411c-98a9-f26c16967200>>>. His warm smile fades as he understands.
+The camera pulls back to a wide shot: two people on one long sofa, a space now open between them, the city glittering behind. Room tone only to the end.
 
 ChiChi's voice: an unhurried, deadpan, warm woman's voice with calm authority, here soft and quiet, never angry, never raised.
-Audio: ChiChi's line, exactly as written, then silence and room tone. No other dialogue, no voice-over, no music.
+Audio: ChiChi's line, exactly as written, then room tone. No other dialogue, no voice-over, no music.
 Correct five-finger hands. No subtitles, no captions, no on-screen text.
 ```
 
@@ -210,9 +210,9 @@ Generate as text-to-speech (`text2speech_v2` or `seed_audio`) using one preset v
 
 | Cue | Lands over | Line |
 |---|---|---|
-| N1 | C1, 0:01–0:09, under Nia walking (C1 has no dialogue) | "He said come over. He said stay the night. … He just didn't say it to *only* her." |
-| N2 | C5, 0:00–0:04, over ChiChi's laugh (the first four seconds have no dialogue) | "Meanwhile, ChiChi was having the best night she'd had in a year." |
-| N3 | C7, the last five seconds of silence | "One woman found out there was someone else. The other found out there wasn't going to be." |
+| N1 | C1, 0:01–0:07, under Nia walking (C1 has no dialogue) | "He said come over. He said stay the night. He just didn't say it to *only* her." |
+| N2 | C5, 0:00–0:03, over ChiChi's laugh (the first three seconds have no dialogue) | "Meanwhile, ChiChi was having the best night she'd had in a year." |
+| N3 | C7, from Kel's smile fading through the pull back to the end | "One woman found out there was someone else. The other found out there wasn't going to be." |
 
 **End card:** *EXCLUSIVE with Nia and Chi*. Add it as a title in the edit, not in a render.
 
