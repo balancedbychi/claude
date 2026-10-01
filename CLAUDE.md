@@ -58,6 +58,16 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - Avoid on-screen door action unless the scene needs it.
 - **Nia's front door:** from inside, hinges on the LEFT and handle on the RIGHT, opening inward. From the corridor, the handle is on the LEFT. See `sets/nia-apartment-prompts.md`.
 
+### 6. Camera
+- **No zooms, push-ins or creeping toward a face. No extreme close-ups.** Faces are never framed tighter than a waist-up medium shot.
+- **Default coverage:** a steady, eye-level medium-wide two-shot, with a few clean cuts to waist-up over-the-shoulder singles for key lines. Every framing holds still.
+- **Sequencing is simple and in order:** where people are, where they move, then the conversation. No confusing jumps.
+
+### 7. Continuity between segments
+- **Once a segment is approved, the next segment of the same scene attaches it as a VIDEO REFERENCE** (`medias` role `video_references`, value = the approved job ID). The prompt says the characters look, dress and sound exactly as in the reference video.
+- This carries over the voices, Dorian's especially, and the outfits. It works better than rebuilding them from elements each time.
+- If an approved segment and a wardrobe upload disagree, **the approved segment wins**, unless the user says otherwise. In "Miscommunication", Dorian wears the black outfit from Segment 1, not `Dorian-Miscommunication-Look`.
+
 ## How to render (Seedance 2.5 through the Higgsfield tools)
 
 - Pass elements in `reference_elements` **and** each element's image in `medias` as `image_references`. The API rejects element-only requests.

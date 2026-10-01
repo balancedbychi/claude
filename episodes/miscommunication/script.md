@@ -143,4 +143,4 @@ Nia's front door **opens inward, into her apartment**. Seen from inside, the **h
 | Character | Element | Image |
 |---|---|---|
 | Nia | `Nia-Miscommunication-Look` `f65d7c8e-3249-4424-9d75-534a72e3a312` | niafit2.jpg (`31d5b2fa…`) |
-| Dorian | `Dorian-Miscommunication-Look` `6a797aec-4d2c-4fac-97bf-b3c515b12f6b` | dorfit2.png (`6eff82db…`) |
+| Dorian | **The black outfit he wears in Segment 1** (`f078ccbb…`), carried into later segments by attaching Segment 1 as a video reference. `Dorian-Miscommunication-Look` (`6a797aec…`, dorfit2.png) is **not used** in this episode, by the user's ruling. | — |

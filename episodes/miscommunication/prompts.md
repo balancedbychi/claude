@@ -105,9 +105,62 @@ AUDIO: only these lines, plus soft morning room tone. No music, no score, no voi
 Skin photographed, never cartoonish, waxy or airbrushed. Correct five-finger hands. No subtitles, captions or on-screen text, and no legible lettering anywhere.
 ```
 
+## Segment 2 v2 — "You." · 30 s (re-film, 1 Oct 2026)
+
+**Why it was re-filmed:** the first version had Dorian in the uploaded outfit with the wrong voice, odd sequencing, and zooms into faces. **The user's ruling:** match Segment 1 exactly. Dorian wears the black outfit he wears in Segment 1, with Segment 1's voice. `Dorian-Miscommunication-Look` is **not used**. The approved Segment 1 render (`f078ccbb…`) is attached as a **video reference**.
+
+```
+30 SECONDS. MORNING. THIS CLIP CONTINUES DIRECTLY FROM THE REFERENCE VIDEO: same two people, same morning, same apartment, a few seconds later. Photoreal cinematic drama, vertical 9:16.
+
+*** THE REFERENCE VIDEO IS THE AUTHORITY FOR BOTH CHARACTERS. *** DORIAN looks, dresses and sounds EXACTLY as he does in the reference video: the same face, the same BLACK OUTFIT, unchanged, and the SAME VOICE. NIA looks, dresses and sounds EXACTLY as she does in the reference video: the same face, hair, outfit and voice. Nothing about either of them changes from the reference video. No new clothes, no new jacket, no colour change.
+
+CAMERA — STEADY AND SIMPLE. Eye-level camera on a tripod or a smooth dolly. Mostly ONE MEDIUM-WIDE TWO-SHOT, framed from about mid-thigh up, with both of them standing in the living room facing each other in profile and three-quarter view, the sofa and windows behind them. A FEW clean cuts to medium singles, framed from the waist up, over the other person's shoulder, for the key lines. *** NO ZOOMS. NO PUSH-INS. NO CREEPING TOWARD A FACE. NO EXTREME CLOSE-UPS. *** Faces are never closer than a waist-up medium shot. Every cut is to a stable framing that holds still.
+
+SEQUENCE — CLEAR, IN ORDER, ONE CONTINUOUS CONVERSATION:
+1. Opens a moment after the reference video ends. Behind them in the entry, the front door is now CLOSED. Nia walks from the entry into the living room and turns to face Dorian, arms folded. Dorian follows and stands a few steps from her, holding the bouquet. They stay standing in roughly these positions for the whole clip.
+2. The dialogue runs as below, in the two-shot, cutting to waist-up singles over the shoulder only where marked.
+3. The clip ends on Dorian saying "You." in a waist-up single, and cuts out immediately.
+
+TIMING — READ THIS FIRST. The dialogue is ONE FAST, NATURAL RUN. The gap between lines NEVER exceeds two tenths of a second. Nia's "Simone." cuts INTO Dorian's line before he finishes it. The ONLY beat is a HALF-SECOND after "a year and a half." Then Dorian keeps talking straight away to fill the silence. No lingering looks, no held reactions, no dead air.
+
+SET: Nia's living room <<<15184b87-fd29-4816-9fdd-db953135a11b>>>, with the entry and the closed front door behind them as in <<<f372a786-8e16-49c8-b495-a5534986f8d7>>>, exactly as the references show. Soft warm MORNING light.
+
+NIA — <<<bcd528d3-9756-4190-ba80-4aaae881f2b2>>> for face and hair. Her outfit is EXACTLY what she wears in the reference video (from <<<f65d7c8e-3249-4424-9d75-534a72e3a312>>>). NEVER a green sweatshirt, never any sweatshirt or hoodie. PETITE AND CURVY: short and small-framed, MUCH shorter than Dorian, looking UP at him, with an hourglass figure. NO RINGS on any finger; the fourth finger of the left hand is bare skin.
+
+DORIAN — <<<5deb4ada-665f-4894-8d16-2a9f34c0248f>>> for face. HIS OUTFIT IS THE BLACK OUTFIT HE WEARS IN THE REFERENCE VIDEO, EXACTLY, identical in every shot. Tall and heavily built. NO RINGS on any finger; the fourth finger of the left hand is bare skin. NOT A VILLAIN: charming, nervous, sincere in his own way. His nervous laugh is real, never a smirk.
+
+THE BOUQUET — <<<8caf7af0-ff56-4fd9-99fc-def716d5c5dd>>>, exactly as in the reference video, with NO tag and no lettering. Dorian holds it the whole time. Nia never takes it.
+
+THE DIALOGUE:
+  [TWO-SHOT] NIA: "What are we doing?"
+  [TWO-SHOT] DORIAN: "Look, I think there was just a bit of miscommunication."
+  [TWO-SHOT] NIA: "Miscommunication? There was another girl at your place."
+  [TWO-SHOT] DORIAN: "I shouldn't have told you to come over. I knew Simone was —"
+  [TWO-SHOT] NIA, cutting in sharply: "Simone."
+  [TWO-SHOT] DORIAN: "Yeah. Simone."
+  [TWO-SHOT] NIA: "Oh, so we're on a first-name basis now?"
+  [WAIST-UP SINGLE ON DORIAN, over Nia's shoulder] DORIAN, a short nervous laugh: "We've been dating about a year and a half. On and off."
+  [WAIST-UP SINGLE ON NIA, over Dorian's shoulder] Nia, stunned, for half a second only.
+  [TWO-SHOT] DORIAN, jumping straight back in: "Look, I wasn't really expecting us to turn into anything. But I really like your vibe. I like how you make me feel."
+  [TWO-SHOT] NIA: "And what's that supposed to mean to me?"
+  [TWO-SHOT] DORIAN: "I hope it means you feel the same way."
+  [WAIST-UP SINGLE ON NIA, over Dorian's shoulder] NIA: "Dorian. What do you want?"
+  [WAIST-UP SINGLE ON DORIAN, over Nia's shoulder] DORIAN: "You."
+  END ON THAT WORD.
+
+LINE OWNERSHIP, NEVER SWAPPED: Nia says "What are we doing?", "Miscommunication? There was another girl at your place.", "Simone.", "Oh, so we're on a first-name basis now?", "And what's that supposed to mean to me?" and "Dorian. What do you want?". Dorian says every other line, including "Yeah. Simone." and "You."
+
+VOICES — EXACTLY AS IN THE REFERENCE VIDEO. Nia's voice is the British voice she speaks with in the reference video, using <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>. Dorian's voice is the SAME deep, low, calm General American baritone he speaks with in the reference video: not a different man, not lighter, not higher.
+
+AUDIO: only these lines, plus soft morning room tone. No music, no score, no voice-over.
+
+Skin photographed, never cartoonish, waxy or airbrushed. Correct five-finger hands. No subtitles, captions or on-screen text, and no legible lettering anywhere.
+```
+
 ## Render log
 
 | Segment | Job ID |
 |---|---|
 | 1 | `f078ccbb-b911-486d-85c7-43d382fdfbd2` (20 s, 1080p, 1 Oct 2026) |
-| 2 | `a7f9c99a-512d-40ec-998b-f916c1d710ff` (30 s, 1080p, 1 Oct 2026; half-second beat) |
+| 2 | `a7f9c99a-512d-40ec-998b-f916c1d710ff` (30 s, 1080p, 1 Oct 2026) **REJECTED:** wrong Dorian outfit and voice, odd sequencing, zooms into faces |
+| 2 v2 | `83543884-9a21-4a37-b892-b68a1a3f4bda` (30 s, 1080p, 1 Oct 2026; Segment 1 attached as video reference, Dorian in Segment 1's black outfit, no zooms) |
