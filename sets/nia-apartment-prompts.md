@@ -126,3 +126,14 @@ I'll save each approved image as a Higgsfield **environment** element, or a **pr
 | 1 | `cae433c1-2093-4ced-aece-296612782bc2` |
 | 2 | `8991c407-b78b-4c3c-bfd7-19c033ae70cc` |
 | 3 | `e01184e7-2344-41d0-800c-0086f1b050f6` |
+
+**1 Oct 2026, Prompt 2 (foyer / front door from inside) and Prompt 4 (corridor outside the door):** 3 options each at 2k and 16:9, with `Nia-Bedroom-Night` as the style reference. Run on Nano Banana 2.
+
+| Set | Option | Job ID |
+|---|---|---|
+| Foyer (inside) | F1 | `97a25930-e7f3-4e18-b9e0-b7fa0563be8f` |
+| Foyer (inside) | F2 | `97cf39cd-2498-4ff8-92e9-d4652dda1200` |
+| Foyer (inside) | F3 | `bdf95b1d-7211-48cc-851a-d5b09ec7707b` |
+| Corridor (outside) | C1 | `2699a1b8-8eb9-4bbe-993f-d975266dfda6` |
+| Corridor (outside) | C2 | `fd9d28ae-8021-4c63-810e-743d3cc96caf` |
+| Corridor (outside) | C3 | `a797477e-477e-4216-990c-2d998d96ce61` |
