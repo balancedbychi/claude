@@ -151,7 +151,7 @@ WHAT EVERYONE IS DOING (nobody ever stands or sits frozen like a prop):
 - TAY: animated and playful while flirting, leaning in, small hand gestures; after seeing Dorian, arms folded, jaw set, glancing between Nia and the counter.
 - DORIAN (background, after he enters): ordering at the register, nodding to the barista, then looking over the pastry case. He keeps facing the counter the whole time.
 - BARISTA: working the espresso machine; says her one line to Dorian, then takes a pastry from the case for him, mouth closed.
-- CUSTOMERS (far back): sipping drinks, reading, scrolling; mouths closed, never speaking, never looking at the main three.
+- CUSTOMERS (far back): sipping drinks, reading a book or a newspaper (NO phones); mouths closed, never speaking, never looking at the main three.
 
 LINE OWNERSHIP, NEVER SWAPPED: Tay says "I don't want to seem like I'm stalking you...", "Nah, I think that's what you're trying to do." and "I guess your boo thing has a GPS tracker on you, huh?" Nia says "I guess you're trying to wife me up now?" and "I guess so." The barista says only "What can I get you?" The final spoken line is Nia's "I guess so." Dorian and the customers say nothing.
 
