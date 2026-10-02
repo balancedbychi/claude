@@ -1,0 +1,112 @@
+# EXCLUSIVE with Nia and Chi: "Say Less"
+
+**Format:** scripted short, vertical 9:16
+**Runtime:** about 60 seconds, **2 segments of 30 s each**. Each segment is one render with cuts inside it. Film one at a time, and approve each one before the next (rule 9).
+**Cast:** Nia · Tay (first appearance) · Dorian · Simone
+**Set:** an upscale city gym in bright daytime. *(Set element pending your upload.)*
+
+---
+
+## Logline
+
+Nia walks into the gym and sees Simone hugging Dorian. She turns to leave and collides with Tay, who's turning around at the same moment. Fate. Nia "rents" him to make Dorian jealous. Dorian comes over, gets "She taken care of", and walks away. Nia shrugs Tay off, because she still wants Dorian. Tay grins: "This could be fun."
+
+---
+
+## The gym map (it stays fixed across both segments)
+
+- **Camera position:** just inside the entrance, looking into the gym.
+- **Entrance:** the open doorway on the **LEFT edge of frame**. There's no door action (rule 5): it's an open archway.
+- **Dumbbell rack:** **RIGHT side, just inside the entrance.** Tay is here, with his back to the entrance.
+- **Water station and windows:** the far back of the gym, centre. **Dorian and Simone are here,** clearly visible but small in the background.
+- **Heights:** Nia (shortest, about 5'2") < Simone (about 5'6") < Tay (about 5'10") < Dorian (about 6'3"). Next to Tay, the top of Nia's head is level with his chin. Next to Dorian, it reaches his chest.
+
+## The collision (your note on "Ran Into Me")
+
+In "Ran Into Me", DB stood still and unnaturally before ChiChi walked into him. This time **both of them are moving.** Nia spins on her heel to leave, and at the same moment Tay finishes re-racking a dumbbell, turns around and steps toward the exit. They walk straight into each other mid-stride: her shoulder meets his chest, and he catches her lightly by the upper arms. **Neither of them is standing still and waiting.**
+
+---
+
+## Script
+
+### SEGMENT 1 — "SAY LESS" (0:00–0:30)
+
+*INT. GYM — DAY. NIA walks in through the open entrance on the left. She stops. At the far end, by the water station, SIMONE is hugging DORIAN, warm and easy.*
+
+*Nia's jaw sets. She's about to lose it. She exhales and spins on her heel to leave.*
+
+*At the same moment, TAY, re-racking a dumbbell by the entrance, sets it down, turns and steps out. They walk straight into each other. He catches her by the arms.*
+
+> **TAY**
+> *(slow grin, looking down at her)*
+> Wow. My, my, my. Look what God has dropped into my lap.
+
+*Nia rolls her eyes. She glances back over her shoulder: Dorian and Simone are laughing together. They haven't seen her. Half a beat. She turns back to Tay.*
+
+> **NIA**
+> Can I rent you for a moment?
+
+> **TAY**
+> *(laughs)*
+> Rent me? I've never heard that before.
+
+> **NIA**
+> Listen. I want to make someone jealous.
+
+> **TAY**
+> *(easy grin)*
+> Say less.
+
+---
+
+### SEGMENT 2 — "THIS COULD BE FUN" (0:30–1:00)
+
+*Nia and Tay stand by the dumbbell rack. Across the gym, DORIAN notices them, says a word to Simone, and walks over. SIMONE stays by the water station, pleasantly watching.*
+
+> **DORIAN**
+> Hey, Nia. How are you?
+
+> **NIA**
+> Just working out.
+
+*Tay slides his arm around Nia's shoulders.*
+
+> **TAY**
+> She taken care of.
+
+*Dorian looks from one to the other, confused (half a beat). Nia looks a little uncomfortable, because she wasn't expecting that, but she's satisfied too.*
+
+> **DORIAN**
+> Hey, I was just saying hello.
+> *(then, to Nia)*
+> Are we good?
+
+> **NIA**
+> We're good.
+
+*Dorian stands there. He opens his mouth to say something, then doesn't (half a beat). He turns and walks back to Simone.*
+
+*Nia exhales: relief. Then she shrugs Tay's arm off her shoulders, because she really wants Dorian.*
+
+> **TAY**
+> *(low laugh)*
+> This could be fun.
+
+*CUT TO BLACK.* **END CARD:** *EXCLUSIVE with Nia and Chi*
+
+---
+
+## What's needed before filming (rule 8: your uploads)
+
+1. **The gym:** pick one of the gym options (G1–G3) and upload it.
+2. **Gym outfits:** one each for **Nia**, **Tay**, **Dorian** and **Simone**. Tay's should leave his arm and neck tattoos visible if you want them seen.
+
+## Set generation log
+
+**2 Oct 2026, gym options:** text-only, 16:9.
+
+| Option | Description | Job ID |
+|---|---|---|
+| G1 | Upscale modern gym: wood accents, windows | `89b1ddce-8d04-449c-92d7-c14094197fe0` |
+| G2 | Same brief, second take | `c89c31de-e636-4498-9ad4-f08bf7125ec0` |
+| G3 | Industrial-loft gym: exposed brick | `e672b3d2-66c1-408b-90b4-a4041ee9ac02` |
