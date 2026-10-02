@@ -106,3 +106,16 @@ No text, no numbers, no labels, no watermark, no logos, no other people, no prop
 1. **Approve the face and body sheets,** then save them as `Dorian-Face` and `Dorian-Body`.
 2. **Lock his voice:** once you approve a take where he sounds right (Segment 1, or Segment 2 v2), create `Dorian-Canon-Voice-v1` from it and attach it to every clip he speaks in.
 3. **Optional: a wardrobe sheet** of his episode looks side by side.
+
+---
+
+## Generation log
+
+**2 Oct 2026, casting sheets, round 1:** `Dorian` image `887050a4…` as the face reference. Requested as Nano Banana Pro; Higgsfield ran them on Nano Banana 2.
+
+| Sheet | Option | Job ID |
+|---|---|---|
+| Face / expressions | F1 | `24e69f17-e048-4e1e-8a2d-cb4e3a31827f` |
+| Face / expressions | F2 | `117141e8-45a5-40bd-ba9c-40e477c092f4` |
+| Body turnaround | B1 | `470c9978-c328-48dd-8eff-3be4550aaecf` |
+| Body turnaround | B2 | `e409dd09-8361-4825-86c7-57682214b854` |
