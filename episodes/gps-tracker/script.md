@@ -17,7 +17,7 @@
 | `[Dorian-Full]` | DORIAN | `Dorian-Say-Less-Full` `606734b1-423b-469c-a95b-c98743b1ccde` (image `b5f1682c…`): correct in v1, kept | Written description (rule 3b), word for word, American | Segment 2 only |
 | `[Nia-Phone]` | Nia's phone (prop) | `Nia-Phone` `c9e91260-9ef3-4d7f-ab7c-94498fed5e5c` (image `ad3a5a8b…`) | — | — |
 | `[Sucre]` | The café (set) | `Sucre-Day` `7f9a4d83-44b7-470f-a1ec-73740c0630d0` (image `a1ab5da3…`) | — | — |
-| `[Barista]` | BARISTA (extra) | None (generic) | **Your choice needed:** (a) silent, mouth closed, or (b) a written line | **Pending** |
+| `[Barista]` | BARISTA (extra) | None (generic): a woman behind the counter, clearly not Nia | Friendly, natural General American voice | **Yes, one line only** (your choice (b), 2 Oct 2026): "What can I get you?" |
 | `[Customers]` | 2–3 customers (extras) | None (generic) | None | **No.** Silent, mouths closed. |
 
 ---
@@ -37,7 +37,12 @@
 > **TAY** `[Tay-GPS]` *(laughs)*
 > Nah, I think that's what you're trying to do. Period.
 
-*They share a quick, cute moment. Tay looks up and notices that DORIAN `[Dorian-Full]` has just walked in. He immediately sits back in his seat, annoyed.*
+*They share a quick, cute moment. Tay looks up and notices that DORIAN `[Dorian-Full]` has just walked in. He immediately sits back in his seat, annoyed. In the background, Dorian reaches the register.*
+
+> **BARISTA** `[Barista]` *(to Dorian, friendly, in the background)*
+> What can I get you?
+
+*Dorian nods and points at the pastry case. He doesn't speak.*
 
 > **TAY** `[Tay-GPS]` *(to Nia)*
 > I guess your boo thing has a GPS tracker on you, huh?
