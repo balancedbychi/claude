@@ -33,7 +33,7 @@ The series rules in `/CLAUDE.md` apply. **This file wins** over any Higgsfield e
 
 | Asset | ID | Use |
 |---|---|---|
-| `DB-Face` | *(pending your upload)* | Face, hair, beard and skin tone only |
+| `DB-Face` | `1023755a-b704-4c10-b0f4-bf9887d2558c` | Face, hair, beard and skin tone only. Your upload of sheet F2 (media `59a6dfb3…`). |
 | `DB-Body` | *(made after you pick a face)* | Height and build only. Fitting clothes are never his costume. |
 
 ---
@@ -46,3 +46,12 @@ The series rules in `/CLAUDE.md` apply. **This file wins** over any Higgsfield e
 |---|---|---|
 | Face / expressions | F1 | `5191ef13-990c-4bdc-bb98-b67d7b27e0b2` |
 | Face / expressions | F2 | `2b187ec4-c027-4fb4-919f-22da57af7dbe` |
+
+**2 Oct 2026, the user's upload:** F2 → `DB-Face` `1023755a…`.
+
+**2 Oct 2026, body sheets (from `DB-Face`):** about 6'1", fit and well-kept, no rings.
+
+| Sheet | Option | Job ID |
+|---|---|---|
+| Body turnaround | B1 | `a86fd7a7-8035-4f19-8f40-62dd624bf480` |
+| Body turnaround | B2 | `e193d563-7139-4985-a809-ad060aeba988` |

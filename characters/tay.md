@@ -35,7 +35,7 @@ The series rules in `/CLAUDE.md` apply. **This file wins** over any Higgsfield e
 
 | Asset | ID | Use |
 |---|---|---|
-| `Tay-Face` | *(pending your upload)* | Face, eyes, hair, neck tattoos and skin tone only |
+| `Tay-Face` | `288d8911-4b45-4246-aac4-0ec3a69003c2` | Face, eyes, hair, neck tattoos and skin tone only. Your upload of sheet F2 (media `62537189…`). |
 | `Tay-Body` | *(made after you pick a face)* | Height, build and tattoos only. Fitting clothes are never his costume. |
 
 ---
@@ -48,3 +48,12 @@ The series rules in `/CLAUDE.md` apply. **This file wins** over any Higgsfield e
 |---|---|---|
 | Face / expressions | F1 | `81c403e7-e2e1-4e79-b974-bbef8425fddb` |
 | Face / expressions | F2 | `44d567b2-cc12-4fc0-8434-729e0e6890b8` |
+
+**2 Oct 2026, the user's upload:** F2 → `Tay-Face` `288d8911…`.
+
+**2 Oct 2026, body sheets (from `Tay-Face`):** skinny, about 5'10", tattooed from the neck down with full sleeves; charcoal fitting shorts.
+
+| Sheet | Option | Job ID |
+|---|---|---|
+| Body turnaround | B1 | `6d2b0aed-55b8-49c0-bad2-d64654126329` |
+| Body turnaround | B2 | `03c414e3-5fe1-439b-8d64-007c4db0b697` |

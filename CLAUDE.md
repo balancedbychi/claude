@@ -91,6 +91,9 @@ These are the user's standing rulings. **They override anything an older Higgsfi
   - Dorian: `Dorian-Face` `33308979-0153-430b-a68e-df947e3a710d`, `Dorian-Body` `e7d019d8-f645-400e-bd66-ccb33bea41e6`
   - Simone: `Simone-Face-v5` `b2ab2ec6-2469-4b6b-9208-4f5b0eb02c09`, `Simone-Body-v2` `e35f19e8-bfa1-45fb-bb2d-81de7915be9c`
   - Kel: `Kel-Face-v2` `32d2d7f4-6b6f-49c9-84d7-ddf0a7873384`, `Kel-Body-v2` `195554e3-1430-4f6d-aa78-ab7fb79d101d`
+  - ChiChi: `ChiChi-Face` `b03240bd-4562-4d2f-8b14-de32c018e346`, `ChiChi-Body` `46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc`
+  - Tay (new): `Tay-Face` `288d8911-4b45-4246-aac4-0ec3a69003c2`, `Tay-Body` pending
+  - DB (new): `DB-Face` `1023755a-b704-4c10-b0f4-bf9887d2558c`, `DB-Body` pending
   - Profiles live in `characters/`.
 - Dorian, Kel and Simone have no saved voice. Use the written descriptions in `episodes/double-booked/prompts.md`.
 - Decline Higgsfield's suggested preset ("IN THE DARK" `24bae836-2c4a-48e0-89b6-49fcc0b21612`).

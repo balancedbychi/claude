@@ -37,8 +37,8 @@ This is the single source of truth for who ChiChi is on screen. The series rules
 |---|---|---|
 | `ChiChi-the-Influencer` | `8a8e8eeb-d41e-4d91-b245-fa0caa8801b6` | Original identity (images `ea89bdd0…`, `43d0f3f0…`). Reference for the casting sheets. |
 | `ChiChi-Face-Photoreal` | `54b60e1c-2c1e-4258-bc4e-219bf5d0ea13` | Skin-rendering reference (image `b822725a…`). Reference for the casting sheets. |
-| `ChiChi-Face` | *(pending your upload)* | Face, hair and skin tone only |
-| `ChiChi-Body` | *(pending your upload)* | Height and build only. The taupe bodysuit is **never** her costume. |
+| `ChiChi-Face` | `b03240bd-4562-4d2f-8b14-de32c018e346` | **Current face.** Face, hair and skin tone only. Your upload of sheet F2 (media `7af2905b…`). |
+| `ChiChi-Body` | `46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc` | Height and build only. The taupe bodysuit is **never** her costume. Your upload of sheet B2 (media `03584942…`). |
 
 ---
 
@@ -52,3 +52,5 @@ This is the single source of truth for who ChiChi is on screen. The series rules
 | Face / expressions | F2 | `7916cb35-455b-4f6a-b265-d8d3d5da6a68` |
 | Body turnaround | B1 | `8f276da9-b287-4f59-adbb-43310bf01436` |
 | Body turnaround | B2 | `0ffb119a-0cbd-485b-9326-438330da0051` |
+
+**2 Oct 2026, the user's uploads:** F2 → `ChiChi-Face` `b03240bd…`, B2 → `ChiChi-Body` `46074b6d…`.
