@@ -62,7 +62,7 @@ This is the single source of truth for who Nia is on screen. The series rules in
 | `Nia-Double-Booked-Look` | `38c8cb48-d342-4143-85f2-9eb5ba462544` | Wardrobe for "Double Booked" and "Exclusive to Me" |
 | `Nia-Miscommunication-Look` | `f65d7c8e-3249-4424-9d75-534a72e3a312` | Wardrobe for "Miscommunication" |
 
-**Approved footage of Nia, for video references:** "Miscommunication" Segment 1 `f078ccbb-b911-486d-85c7-43d382fdfbd2`.
+**Approved footage of Nia, for video references:** "Miscommunication" Segment 1 `f078ccbb-b911-486d-85c7-43d382fdfbd2` and Segment 2 v2 `83543884-9a21-4a37-b892-b68a1a3f4bda`.
 
 ---
 

@@ -3,6 +3,7 @@
 **Format:** scripted short, vertical 9:16
 **Runtime:** about 50 seconds, **2 segments** of 20 s and 30 s. Each segment is one render with cuts inside it.
 **When:** the next morning, after "Exclusive to Me"
+**Status:** ✅ **Complete** (2 Oct 2026). Seg 1 `f078ccbb…` + Seg 2 v2 `83543884…`, both approved.
 **Cast:** Nia · Dorian
 **Sets (approved 1 Oct 2026):**
 - `Nia-Corridor-Morning` `ffd138c9-eb9e-4b8f-9b6f-1a5fe2d40e8f`: outside her door, Dorian's side.

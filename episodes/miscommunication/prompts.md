@@ -163,4 +163,4 @@ Skin photographed, never cartoonish, waxy or airbrushed. Correct five-finger han
 |---|---|
 | 1 | `f078ccbb-b911-486d-85c7-43d382fdfbd2` (20 s, 1080p, 1 Oct 2026) |
 | 2 | `a7f9c99a-512d-40ec-998b-f916c1d710ff` (30 s, 1080p, 1 Oct 2026) **REJECTED:** wrong Dorian outfit and voice, odd sequencing, zooms into faces |
-| 2 v2 | `83543884-9a21-4a37-b892-b68a1a3f4bda` (30 s, 1080p, 1 Oct 2026; Segment 1 attached as video reference, Dorian in Segment 1's black outfit, no zooms) |
+| 2 v2 | `83543884-9a21-4a37-b892-b68a1a3f4bda` (30 s, 1080p, 1 Oct 2026; Segment 1 attached as video reference, Dorian in Segment 1's black outfit, no zooms) — **APPROVED by the user, 2 Oct 2026. Episode complete.** |

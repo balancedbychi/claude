@@ -63,7 +63,7 @@ This is the single source of truth for who Dorian is on screen. The series rules
 | `Dorian-Body` (casting turnaround) | `e7d019d8-f645-400e-bd66-ccb33bea41e6` | Height, build and tattoo only. The fitting garments are **never** his costume. Image `11aa68a0-a1be-4601-9200-8f629f00b7c9` (sheet B4). Approved 2 Oct 2026. |
 | *(no voice element)* | — | By the user's ruling, Dorian has no voice element. Use the written description, plus Miscommunication Seg 1 `f078ccbb…` as a video reference. |
 
-**Approved footage of Dorian, for video references:** "Miscommunication" Segment 1 `f078ccbb-b911-486d-85c7-43d382fdfbd2`. Segment 2 v2 (`83543884…`) is awaiting your approval.
+**Approved footage of Dorian, for video references:** "Miscommunication" Segment 1 `f078ccbb-b911-486d-85c7-43d382fdfbd2`. Segment 2 v2 `83543884-9a21-4a37-b892-b68a1a3f4bda` (approved 2 Oct 2026).
 
 ---
 
