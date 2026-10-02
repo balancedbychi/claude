@@ -2,6 +2,7 @@
 
 **Format:** scripted short, vertical 9:16
 **Runtime:** about 60 seconds, **2 segments of 30 s each**. Each segment is one render with cuts inside it. Film one at a time, and approve each one before the next (rule 9).
+**Status:** ✅ Complete (2 Oct 2026). Seg 1 `b9d339ff` + Seg 2 v4 `1fe038f6` (trim the extra "Say less" at the very end).
 **Cast:** Nia · Tay (first appearance) · Dorian · Simone
 **Set:** `Gym-Day`, option **G3**: an industrial-loft boutique gym (exposed brick, steel beams, factory windows) in bright daytime.
 
