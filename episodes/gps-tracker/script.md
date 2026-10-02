@@ -134,3 +134,22 @@ The camera always shoots from the same side of the café, so left and right neve
 3. Tay's outfit
 4. Dorian's outfit
 5. Nia's phone in its beige/tan case
+
+---
+
+## Elements and options log
+
+| Use | Element | ID | Image |
+|---|---|---|---|
+| Nia's phone (locked prop) | `Nia-Phone` | `c9e91260-9ef3-4d7f-ab7c-94498fed5e5c` | `ad3a5a8b-3c7a-44f7-8895-7f154b41057f` (the user's upload) |
+| Nia's outfit | `Nia-Say-Less-Look` (same as the gym; user, 2 Oct 2026) | `f7d303df-2f64-4a64-ae3e-761a21b865cd` | `0fe8fd02…` |
+| Tay's outfit | `Tay-Say-Less-Look` (same as the gym) | `261210f2-283f-4e6b-9140-d237b81f4741` | `4e5164dc…` |
+| Dorian (original, gym outfit with shoes) | `Dorian-Say-Less-Full` (same as the gym) | `606734b1-423b-469c-a95b-c98743b1ccde` | `b5f1682c…` |
+
+**Sucre set options (2 Oct 2026),** text-only, 16:9, built to match the floor plan:
+
+| Option | Style | Job ID |
+|---|---|---|
+| C1 | Warm cream, blush and wood patisserie, marble counter | `68844e41-e9b1-426a-94d1-825e717f4bb7` |
+| C2 | Parisian-industrial: green tile counter, brick, bentwood chairs | `805b6087-386b-43c2-97b8-84baef8742de` |
+| C3 | Bright minimalist luxury: white oak and terrazzo, beige | `5cd352ef-e6f6-495a-9bfe-0258e161a62a` |
