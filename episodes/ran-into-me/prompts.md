@@ -1,6 +1,6 @@
 # "Ran Into Me": production notes and prompts (FOR REVIEW)
 
-**Status:** Segment 1 v2 approved for filming and submitted as job `96ccbe40-024b-462c-bd43-ba7435447d75`. Segments 2 and 3 still need your review.
+**Status:** Segment 1 v2 (`96ccbe40…`) is filmed; you said it's "much better". **Segment 2's prompt is below for your review** (rule 9). Nothing is filmed until you say "film".
 
 ---
 
@@ -78,12 +78,79 @@ AUDIO: only these lines, plus soft park ambience, footsteps, distant birds. No m
 
 ---
 
-## SEGMENTS 2 and 3 — drafts (finalised after Segment 1 is approved)
+## SEGMENT 2 — "That's that" (30 s) — FOR REVIEW
 
-**Segment 2, "That's that" (30 s):** the same setup, plus **Segment 1 attached as a video reference**. "Everyone looks, dresses and sounds exactly as in the reference video." The one staging change is scripted: **Nia stops dead** at "doesn't want to have children"; ChiChi takes one step, turns back to her, and then they **resume walking together in the same direction**. The same accent block and height block are used.
+### Continuity lock (from your frame of Segment 1 v2, `96ccbe40…`)
 
-**Segment 3, "Ran into me" (12 s):** Segment 1 or 2 is attached as a video reference, plus DB's face, body and suit.
-- **DB stands still near the iron railing, facing away,** on ChiChi's side of the path. Mid-laugh, ChiChi glances at Nia and walks **shoulder-first into DB**, a light, natural bump.
-- He turns around. He's about 6'1" and clearly taller than ChiChi.
-- **DB** (his written Dominican voice, word for word): "Oh — I'm so sorry." Then, looking at her properly and smiling: "But I'm so glad you ran into me."
+Segment 1 v2 is attached as a **video reference**, so the model copies the people, outfits, voices, place and light directly from the approved footage instead of rebuilding them. The prompt also writes out what's on screen, so the two can't disagree.
+
+| | Locked from Segment 1 v2 |
+|---|---|
+| **Positions** | **Nia on the LEFT of frame, ChiChi on the RIGHT.** v2 swapped the planned sides, so Segment 2 keeps the sides as filmed. Flipping them now would break continuity. |
+| **Nia's outfit** | Fitted black short-sleeve top, black running shorts, white sneakers, blush-pink smartwatch on her left wrist, diamond studs. Long black curls worn down. |
+| **ChiChi's outfit** | Oatmeal baseball cap, oversized cream quarter-zip sweatshirt over a pale-yellow top, cream shorts, white sneakers. Honey-blonde hair under the cap. |
+| **Place and light** | The same park sidewalk, iron railing on the left and brownstones on the right, the same golden afternoon sun. They keep walking in the **same direction**, toward camera. |
+| **Camera** | The same front-on steadicam moving backward ahead of them, from mid-thigh up. |
+| **Voices** | The same voices as in the reference: Nia British, ChiChi American. |
+| **Start** | It picks up straight after Segment 1: still walking, still smiling from "Don't we all?" |
+
+**One thing to check in your frame:** Nia and ChiChi look close in height, with ChiChi's cap making her read taller. The prompt keeps the "top of Nia's head at ChiChi's eyes" cue. If v2 shows Nia as tall as ChiChi without the cap, tell me and I'll strengthen it.
+
+**Attached:** **video reference `96ccbe40` (Segment 1 v2)**; set `cdd792fc`; Nia-Face `3497a052`, Nia-Body `9b1d610c`, Nia look `e2685e2d`; ChiChi-Face `b03240bd`, ChiChi-Body `46074b6d`, ChiChi look `4f6cbc5e`; voices `b3d2fc9b` and `de50f37f`.
+
+```
+30 SECONDS. SUNNY AFTERNOON. Photoreal cinematic drama, vertical 9:16. THIS CLIP CONTINUES DIRECTLY FROM THE REFERENCE VIDEO: the same two women, the same walk, the same sidewalk, a moment later.
+
+*** THE REFERENCE VIDEO IS THE AUTHORITY FOR EVERYTHING ON SCREEN. *** Both women look, dress, move and SOUND EXACTLY as they do in the reference video. The same place, the same golden afternoon light, the same camera style. Nothing changes from the reference video: no new clothes, no colour changes, no new accessories, no different hair.
+
+POSITIONS, EXACTLY AS IN THE REFERENCE VIDEO: NIA is on the LEFT of frame, CHICHI is on the RIGHT of frame, for the whole clip. They never swap sides.
+
+NIA (left), exactly as in the reference video: face, hair and skin from <<<3497a052-ed61-4fbc-babe-c9f7fc11bf77>>>, body from <<<9b1d610c-f6e6-421b-a801-89e22827e1bf>>>, outfit from <<<e2685e2d-fd72-4ffa-b6f4-3a44de390fd7>>>: a fitted black short-sleeve top, black running shorts, white sneakers, a blush-pink smartwatch on her left wrist, diamond stud earrings, long jet-black curls worn down. Never a green sweatshirt. PETITE AND CURVY: the shorter of the two, with an hourglass figure. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
+
+CHICHI (right), exactly as in the reference video: face, hair and skin from <<<b03240bd-4562-4d2f-8b14-de32c018e346>>>, body from <<<46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc>>>, outfit from <<<4f6cbc5e-6a29-43b1-ad16-1a6ccd327761>>>: an oatmeal baseball cap, an oversized cream quarter-zip sweatshirt over a pale-yellow top, cream shorts, white sneakers. HONEY-BLONDE hair under the cap. Full-figured. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no bracelets.
+
+HEIGHT: ChiChi is A BIT TALLER than Nia, about three inches: the TOP OF NIA'S HEAD is level with CHICHI'S EYES. Not towering. Nia is never the taller one.
+
+SET: the park sidewalk <<<cdd792fc-0e59-4b15-b24e-9864cea52044>>>, exactly as in the reference video: the low black iron railing and park trees on the LEFT of frame, brownstones on the RIGHT, pale paving, dappled shade, warm golden afternoon sun.
+
+WALKING: they walk TOGETHER, side by side, straight down the sidewalk TOWARD THE CAMERA, in the SAME DIRECTION and at the SAME relaxed pace as in the reference video. They NEVER split up, never walk in different directions, never leave the frame. The ONLY change is scripted: Nia stops for a moment (below), ChiChi stops one step later and turns back to her, and then they start walking again TOGETHER, in the same direction as before.
+
+CAMERA: exactly the reference video's camera: a smooth steadicam moving BACKWARD ahead of them at walking pace, eye level, front-on, medium shot from about mid-thigh up, with a few clean cuts to waist-up singles. NO ZOOMS. NO PUSH-INS. NO EXTREME CLOSE-UPS.
+
+VOICES, EXACTLY AS IN THE REFERENCE VIDEO:
+- NIA IS BRITISH: <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>, warm, low, dry and deadpan. The same voice as in the reference video.
+- CHICHI IS AMERICAN, NOT BRITISH: <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>, a warm, smooth, mid-to-low Black American woman's voice with a GENERAL AMERICAN ACCENT, calm authority, dry humour. The same voice as in the reference video. ChiChi NEVER has a British accent and never sounds like Nia.
+
+TIMING: one fast, natural conversation; gaps between lines never longer than two tenths of a second. The only beats are the two marked HALF-SECOND beats. No dead air at the start or end.
+
+SEQUENCE AND DIALOGUE, IN ORDER (opens mid-walk, both still smiling from the last clip):
+NIA (British), curious, glancing at ChiChi: "So what happened with you and Kel?"
+[HALF-SECOND BEAT: ChiChi looks away, ahead down the path, still walking.]
+NIA (British), with a knowing look: "You know Kel called me, right?"
+CHICHI (American), turning her head to Nia, surprised, still walking: "Wait — what?"
+NIA (British): "Yeah. Kel called me."
+CHICHI (American), dry: "Yeah, well, Kel also should've told you when he called that he doesn't want to have children."
+NIA STOPS walking. ChiChi takes ONE more step, stops, and turns back to face her. They stand facing each other on the path for these two lines, in a waist-up two-shot:
+NIA (British), stunned: "He told you he didn't want kids?"
+CHICHI (American), flat: "Yep. He doesn't want kids."
+They START WALKING AGAIN, TOGETHER, side by side, the SAME DIRECTION AS BEFORE, toward the camera, Nia LEFT and ChiChi RIGHT:
+NIA (British): "Okay. Well... I guess that's that, then."
+CHICHI (American): "Yep. That's that."
+NIA (British), incredulous, turning to her: "Are you serious? That's it? You're not even gonna fight for your man?"
+CHICHI (American), laughing: "Well, he would've had to become my man first."
+The clip ends on ChiChi's laugh as they keep walking together toward camera. Cut out immediately.
+
+LINE OWNERSHIP, NEVER SWAPPED: Nia says "So what happened with you and Kel?", "You know Kel called me, right?", "Yeah. Kel called me.", "He told you he didn't want kids?", "Okay. Well... I guess that's that, then." and "Are you serious?...". ChiChi says every other line.
+
+AUDIO: only these lines, plus soft park ambience, footsteps and distant birds, matching the reference video. No music, no narration.
+```
+
+---
+
+## SEGMENT 3 — draft (finalised after Segment 2 is approved)
+
+**"Ran into me" (12 s):** Segment 2 is attached as a video reference, plus DB's face, body and suit.
+- **DB stands still near the iron railing (left of frame), facing away.** Mid-laugh, ChiChi glances at Nia and walks **shoulder-first into DB**, a light, natural bump. Because the women swapped sides in v2, the bump happens on the railing side, with ChiChi crossing slightly toward him; the exact staging will be written into the final prompt for your review.
+- He turns around. He's about 6'1", clearly taller than ChiChi.
+- **DB** (his written Dominican voice, word for word): "Oh — I'm so sorry." Then, smiling: "But I'm so glad you ran into me."
 - It ends on a waist-up shot of Nia, deadpan: *you've got to be kidding me.* No rings on DB.
