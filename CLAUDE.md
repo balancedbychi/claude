@@ -78,6 +78,16 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - **Never pick for the user.** Never save an element straight from a generated job, and never default to "option 1", even if the user answers "ok". (User ruling, 2 Oct 2026.)
 - The Simone and Kel elements saved on 2 Oct 2026 without an upload (`Simone-Face-v4`, `Simone-Body`, `Kel-Face`, `Kel-Body`) are **retired**, replaced by the user's uploads (`Simone-Face-v5`, `Simone-Body-v2`, `Kel-Face-v2`, `Kel-Body-v2`).
 
+### 9. Review before filming (user ruling, 2 Oct 2026)
+- **Before any video render, send the user the production notes and the full prompt(s)** for review, and wait for an explicit go-ahead ("film", "go", "approved"). Never submit a render without it, including re-films.
+- Save the notes and prompts in the episode's `prompts.md` and send that file.
+
+### 10. Accents
+- **Only Nia has a British accent.** ChiChi, and everyone else unless their profile says otherwise, speaks with an **American** accent. Every prompt with ChiChi says in writing: *"ChiChi is AMERICAN: General American accent, NEVER British, never Nia's voice."* Saved voice elements alone have let ChiChi pick up Nia's accent.
+
+### 11. Walking scenes
+- People walking together **walk side by side in the SAME direction, straight along the path, at the same pace, staying together** for the whole shot. They never split up, turn away from each other or head off in different directions unless the script says so.
+
 ## How to render (Seedance 2.5 through the Higgsfield tools)
 
 - Pass elements in `reference_elements` **and** each element's image in `medias` as `image_references`. The API rejects element-only requests.
