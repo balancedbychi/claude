@@ -82,7 +82,7 @@
 - **Continuity:** Segment 2 attaches the approved Segment 1 as its reference video. The reference is never dropped. Segment 1's final line is not quoted in the Segment 2 prompt; Nia says "I guess so" once, at the end of Segment 2.
 
 ### What everyone is doing (rule 12)
-- **Nia:** sipping her latte and scrolling nothing; her hands are free because her phone is with Tay. In Segment 2, after Dorian leaves, she stands frozen for half a second, then her shoulders drop.
+- **Nia:** sipping her latte and looking out of the window; she has no phone in her hand, because Tay has it. In Segment 2, after Dorian leaves, she stands frozen for half a second, then her shoulders drop.
 - **Tay:** easy and playful at the table. When Dorian walks in he sits back with his arms folded. In Segment 2 he watches from the table, then gets up and walks over.
 - **Dorian:** walks in relaxed, heads to the counter and glances at the menu board until Nia reaches him.
 - **Barista and customers:** working and chatting quietly, never looking at the main three.
