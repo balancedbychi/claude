@@ -19,11 +19,15 @@ The series rules in `/CLAUDE.md` apply. **This file wins** over any Higgsfield e
 | **Build** | **Skinny.** Lean and narrow, **taller than Nia.** *(About 5'10" by default; the user hasn't given an exact height.)* |
 | **Tattoos** | **Fully tattooed from the neck down:** neck, chest, torso, and both arms in full sleeves. No face tattoos. |
 | **Rings** | **None, ever.** He's single, and the fourth finger of his left hand is bare skin. |
-| **Voice** | Not yet defined. A written description is to be agreed before his first scene. |
+| **Voice** | Written description below, **pasted word for word into every clip he speaks in.** (No voice element can be attached.) |
+
+## Voice (locked 2 Oct 2026: urban, slang, smooth, young, deep, a player)
+
+> TAY'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A young Black American man of twenty-six with an URBAN, contemporary Black American accent and cadence. His voice is DEEP for his age: a smooth, low baritone with a relaxed chest resonance and a soft, slightly husky edge. He talks SMOOTH and LAID-BACK, like a player who knows he's charming: an unhurried, easy rhythm, words sliding into each other, relaxed consonant endings, a little melodic lift at the end of a flirty line, a low half-laugh in his throat. He speaks in natural modern slang and says it with full confidence; never forced, never a caricature. Even when he's excited about business, the voice stays low and smooth. Never high-pitched, never nasal, never squeaky or boyish, never nervous, never rushed, never shouting, never a radio announcer. Clearly younger and lighter in energy than Dorian, but just as deep.
 
 ## Personality and performance
 
-- Eager, playful and a little nerdy: the guy who's building something *and* knows where the party is. He's openly smitten with Nia and doesn't play it cool.
+- Smooth and confident, a player: he talks slang and he talks easy. Underneath, he's a little nerdy about his business: the guy who's building something *and* knows where the party is. He's into Nia and lets her know it, smoothly.
 
 ## Wardrobe rules
 

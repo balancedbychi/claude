@@ -95,5 +95,5 @@ These are the user's standing rulings. **They override anything an older Higgsfi
   - Tay (new): `Tay-Face` `288d8911-4b45-4246-aac4-0ec3a69003c2`, `Tay-Body` `fe030a7d-7a8c-4fef-9596-50a213e15201`
   - DB (new): `DB-Face` `1023755a-b704-4c10-b0f4-bf9887d2558c`, `DB-Body` `952f3fb0-ed54-4551-a07c-c56934939a44`
   - Profiles live in `characters/`.
-- Dorian, Kel, Simone, Tay and DB have no saved voice. Tay's and DB's voice descriptions are still to be written and approved before their first scene. Use the written descriptions in `episodes/double-booked/prompts.md`.
+- Dorian, Kel, Simone, Tay and DB have no saved voice. Their voices are written descriptions, pasted **word for word** into every clip they speak in: Dorian in rule 3b, Kel and Simone in `episodes/double-booked/prompts.md`, Tay in `characters/tay.md`, DB in `characters/db.md`. Never paraphrase or shorten them. Once a take is approved, attach it as a video reference for later scenes (rule 7) to hold the voice. Use the written descriptions in `episodes/double-booked/prompts.md`.
 - Decline Higgsfield's suggested preset ("IN THE DARK" `24bae836-2c4a-48e0-89b6-49fcc0b21612`).

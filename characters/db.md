@@ -17,7 +17,13 @@ The series rules in `/CLAUDE.md` apply. **This file wins** over any Higgsfield e
 | **Height / build** | **Tall, clearly taller than ChiChi.** About 6'1", fit and well-kept. |
 | **Style** | Very put-together: tailored and polished |
 | **Rings** | **None, ever, and no wedding ring.** He's divorced and single, and the fourth finger of his left hand is bare skin, with no tan line from an old band. |
-| **Voice** | Not yet defined. A written description is to be agreed before his first scene. |
+| **Voice** | Written description below, **pasted word for word into every clip he speaks in.** (No voice element can be attached.) |
+
+## Voice (locked 2 Oct 2026: Dominican, Hispanic flair, mature, calm, calming)
+
+> DB'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A Dominican man of forty-eight speaking fluent English with a NATURAL HISPANIC ACCENT: a warm Caribbean Spanish flair in the vowels, lightly tapped r's, softened word endings, and the occasional Spanish rhythm in a phrase. His voice is LOW, WARM and CALMING: a soft-spoken, slightly husky baritone, mature and composed, with a gentle gravel at the bottom and a quiet intimacy, as if he never needs to raise his voice to be heard. He speaks SLOWLY and DELIBERATELY, with thoughtful pauses inside a sentence (never between lines), a reassuring tone, and a faint, knowing warmth, like a smile you can hear. A lawyer's clear, precise diction under the accent. Never loud, never fast, never slick or salesy, never cartoonish or exaggerated, never a heavy stereotype; the accent is real and natural, never put on.
+
+*The user's touchstone for the feel is Pedro's voice in* Narcos. *Prompts describe the qualities only and never name a real actor.*
 
 ## Personality and performance
 
