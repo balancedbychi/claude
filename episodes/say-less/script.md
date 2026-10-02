@@ -126,4 +126,4 @@ In "Ran Into Me", DB stood still and unnaturally before ChiChi walked into him. 
 | Segment | Job ID | Notes |
 |---|---|---|
 | 1 v1 | `b9d339ff-147b-4f56-aaf6-882e5105f2a3` | 30 s, 1080p. Filmed after your "film" (2 Oct 2026), using the exact prompt in `prompts.md`. **APPROVED (2 Oct 2026):** "It looks good"; a couple of small things off but accepted. Used as the reference video for Segment 2. |
-| 2 v1 | `8436559d-3e13-41c6-bdb0-21c7c580dd41` | 30 s, 1080p. Filmed 2 Oct 2026 after your go-ahead ("we can go on and film the next segment"), with Segment 1 as the reference video and a strengthened British-accent block for Nia. **Rendered and sent to the gallery; awaiting your review.** |
+| 2 v1 | `8436559d-3e13-41c6-bdb0-21c7c580dd41` | 30 s, 1080p. Filmed 2 Oct 2026 after your go-ahead ("we can go on and film the next segment"), with Segment 1 as the reference video and a strengthened British-accent block for Nia. **Needs a re-shoot (your notes, 2 Oct 2026):** Dorian did not look like the original character, and he said "Naya" instead of "Nia". Fix: a new face-only Dorian element from your upload, plus the name spelled out phonetically in the prompt. |
