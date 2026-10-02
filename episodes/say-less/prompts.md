@@ -190,7 +190,7 @@ AUDIO: only these lines, plus quiet gym ambience. No narration.
 
 ---
 
-## SEGMENT 2 v3 — NEW SCRIPT (15 s) — PROMPT FOR REVIEW
+## SEGMENT 2 v3 — NEW SCRIPT (30 s) — PROMPT FOR REVIEW
 
 **Your rewrite (2 Oct 2026):** Dorian is smoother. He walks over and asks Nia if she's decided. Tay puts his arm around her: "She's good over here." Nia makes a face, then fixes it to look like she wants Tay. Dorian, confused: "Aight," and walks away. Nia brushes off Tay's arm. "I'm Tay." / "I'm Nia." / "I guess we go together now." Nia rolls her eyes.
 
@@ -198,14 +198,15 @@ AUDIO: only these lines, plus quiet gym ambience. No narration.
 - **Dorian:** `Dorian-Say-Less-Original` (your G2), the original Dorian in his Segment 1 gym outfit, with his gym-outfit photo for the bottoms and shoes. His written voice is pasted word for word, plus a delivery note: smooth, relaxed, confident.
 - **Reference video:** Segment 1 `b9d339ff…` for the gym, outfits, camera and Nia's and Tay's voices. No line from it is repeated.
 - **Nia:** British, and "I'm Nia" is said "I'm NEE-uh".
-- **Length: 15 seconds** (180 credits). This version has 6 short lines plus two walks. At 30 seconds the model would have to fill about 12 seconds of dead air, which breaks rule 4. Your balance is 2,252.
+- **Length: 30 seconds** (360 credits; balance 2,252). **Your call (2 Oct 2026):** pauses don't have to be cut if the scene needs them. The extra time goes to natural reactions and movement (Dorian's unhurried walk over and back, Nia's face and recovery, the arm brush-off), never frozen dead air.
+- **Confirmed:** Tay says "I'm Tay"; Nia answers "I'm Nia".
 - **Final line:** Tay's "I guess we go together now." The clip ends on Nia's eye roll.
 - The rest is unchanged: no rings on anyone, Dorian's skin never lightened, heights Nia < Simone < Tay < Dorian, no zooms.
 
 **Attached:** reference video = Segment 1. Elements: gym, `Nia-Face`, `Nia-Body`, Nia's look, `Tay-Face`, `Tay-Body`, Tay's look, `Dorian-Say-Less-Original`, Dorian's look, `Simone-Face-v5`, `Simone-Body-v2`, Simone's look, `Nia-Canon-Voice-v2`.
 
 ```
-15 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16. THIS CLIP CONTINUES DIRECTLY FROM THE REFERENCE VIDEO (Segment 1): the same gym, the same people, moments later.
+30 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16. THIS CLIP CONTINUES DIRECTLY FROM THE REFERENCE VIDEO (Segment 1): the same gym, the same people, moments later.
 
 *** THE REFERENCE VIDEO IS THE AUTHORITY FOR OUTFITS, PLACE, CAMERA AND THE VOICES OF NIA AND TAY. *** Nia, Tay, Dorian and Simone dress EXACTLY as in it: DORIAN WEARS EXACTLY THE SAME GYM OUTFIT HE WEARS IN THE REFERENCE VIDEO. Nothing changes. Dorian's voice comes ONLY from his written description below. The reference video is NEVER used for dialogue: nobody repeats any line from it, and "Say less" is NEVER said in this clip. The reference video ends on Tay saying "Say less."
 
@@ -229,7 +230,7 @@ VOICES:
 NAME: "Nia" is pronounced "NEE-uh" (rhymes with "Mia"), NEVER "Naya", "NAY-uh" or "NIGH-uh". When Nia says "I'm Nia", she says "I'm NEE-uh".
 
 SEQUENCE, IN ORDER:
-1. (0-3 s) Nia and Tay stand by the dumbbell rack just inside the entrance, facing each other, exactly where the reference video ended. At the far back, DORIAN leaves Simone and walks across the gym toward them at a natural, unhurried pace, smooth and relaxed. SIMONE stays by the water station. Dorian stops a comfortable step from Nia.
+1. (0-6 s) Nia and Tay stand by the dumbbell rack just inside the entrance, facing each other, exactly where the reference video ended. At the far back, DORIAN leaves Simone and walks across the gym toward them at a natural, unhurried pace, smooth and relaxed. SIMONE stays by the water station. Dorian stops a comfortable step from Nia.
 2. Three-shot from mid-thigh up, Dorian towering over Nia, with clean waist-up cuts for key lines:
 DORIAN (American), smooth and easy, to Nia: "So... you decided?"
 Tay slides his arm around Nia's shoulders, relaxed and possessive.
@@ -247,7 +248,7 @@ LINE OWNERSHIP, NEVER SWAPPED: Dorian says "So... you decided?" and "Aight." Tay
 
 CAMERA: steady, eye level, following Dorian's walk smoothly, otherwise holding still. NO ZOOMS. NO PUSH-INS. NO EXTREME CLOSE-UPS: faces never tighter than waist-up.
 
-TIMING: gaps between lines never longer than two tenths of a second. The only beat is the one marked, half a second. No dead air at the start or end.
+TIMING: let the scene breathe naturally. Natural pauses are fine where the moment needs them: Dorian's unhurried walk over, Nia's quick face and recovery, Dorian's confused look before "Aight.", his walk back to Simone, and the arm brush-off. Every pause is filled with movement or a reaction, never frozen or dead air. No long pause at the very start, and the clip ends within a second of Nia's eye roll.
 
 AUDIO: only these lines, plus quiet gym ambience. No narration.
 ```
