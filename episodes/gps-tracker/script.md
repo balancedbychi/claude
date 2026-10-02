@@ -194,3 +194,12 @@ The camera always shoots from the same side of the café, so left and right neve
 | Segment | Job ID | Notes |
 |---|---|---|
 | 1 v1 | `c9024010-2d2e-409f-98e2-5418f6bf7c6f` | 30 s, 1080p. Filmed 2 Oct 2026 after your "film", with the exact prompt in `prompts.md`. No reference video (new scene). **Rejected (your notes, 2 Oct 2026):** Nia's character was wrong, Tay's outfit was wrong, and the barista talked gibberish. Dorian was right: he came from one full-length image of the original Dorian in his outfit with shoes. Link: https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_215205_c9024010-2d2e-409f-98e2-5418f6bf7c6f.mp4 |
+
+**Full-length single-picture previews (2 Oct 2026, rule 14),** built from the same cast pictures and outfits as "Say Less" Segment 1. The user picks one of each and uploads it.
+
+| Option | Who | Job ID |
+|---|---|---|
+| N1 | Nia | `a7fb1a24-117d-4acf-9f1c-1fb3e18d7570` |
+| N2 | Nia | `75b2c99b-a555-4269-99fe-9979e253ae6e` |
+| T1 | Tay | `cf7aa81a-bb43-4aee-b9a2-02d66c26aceb` |
+| T2 | Tay | `c64971fc-03f6-4019-a95d-a5ee2985e61d` |
