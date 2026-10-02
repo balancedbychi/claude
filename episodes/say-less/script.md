@@ -59,38 +59,39 @@ In "Ran Into Me", DB stood still and unnaturally before ChiChi walked into him. 
 
 ---
 
-### SEGMENT 2 — "THIS COULD BE FUN" (0:30–1:00)
+### SEGMENT 2 — "WE GO TOGETHER NOW" (rewritten by the user, 2 Oct 2026)
 
-*Nia and Tay stand by the dumbbell rack. Across the gym, DORIAN notices them, says a word to Simone, and walks over. SIMONE stays by the water station, pleasantly watching.*
+*Nia and Tay stand by the dumbbell rack. Across the gym, DORIAN leaves Simone and walks over, smooth and unhurried. SIMONE stays by the water station.*
 
 > **DORIAN**
-> Hey, Nia. How are you?
-
-> **NIA**
-> Just working out.
+> *(smooth, easy, to Nia)*
+> So… you decided?
 
 *Tay slides his arm around Nia's shoulders.*
 
 > **TAY**
-> She taken care of.
+> She's good over here.
 
-*Dorian looks from one to the other, confused (half a beat). Nia looks a little uncomfortable, because she wasn't expecting that, but she's satisfied too.*
+*Nia makes a face, caught off guard, then quickly fixes it: she leans into Tay as if she wants to be with him. Dorian looks from one to the other, confused (half a beat).*
 
 > **DORIAN**
-> Hey, I was just saying hello.
-> *(then, to Nia)*
-> Are we good?
+> Aight.
 
-> **NIA**
-> We're good.
+*He turns and walks back across the gym toward Simone.*
 
-*Dorian stands there. He opens his mouth to say something, then doesn't (half a beat). He turns and walks back to Simone.*
-
-*Nia exhales: relief. Then she shrugs Tay's arm off her shoulders, because she really wants Dorian.*
+*Nia brushes Tay's arm off her shoulders.*
 
 > **TAY**
-> *(low laugh)*
-> This could be fun.
+> I'm Tay.
+
+> **NIA**
+> I'm Nia.
+
+> **TAY**
+> *(grinning)*
+> I guess we go together now.
+
+*Nia rolls her eyes.*
 
 *CUT TO BLACK.* **END CARD:** *EXCLUSIVE with Nia and Chi*
 
