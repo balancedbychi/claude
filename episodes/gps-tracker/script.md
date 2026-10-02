@@ -8,29 +8,43 @@
 
 ---
 
+## CAST AND TAGS (rule 15)
+
+| Tag | Who | Element(s) attached | Voice | Speaks? |
+|---|---|---|---|---|
+| `[Nia-GPS]` | NIA | **Pending your upload:** one full-length picture of Nia in her outfit (rule 14). It replaces `Nia-Face` + `Nia-Body` + `Nia-Say-Less-Look`, which gave the wrong look in v1. | `Nia-Canon-Voice-v2` `b3d2fc9b…`, British | Yes |
+| `[Tay-GPS]` | TAY | **Pending your upload:** one full-length picture of Tay in his outfit (rule 14). It replaces `Tay-Face` + `Tay-Body` + `Tay-Say-Less-Look`. | Written description (`characters/tay.md`), word for word, American | Yes |
+| `[Dorian-Full]` | DORIAN | `Dorian-Say-Less-Full` `606734b1-423b-469c-a95b-c98743b1ccde` (image `b5f1682c…`): correct in v1, kept | Written description (rule 3b), word for word, American | Segment 2 only |
+| `[Nia-Phone]` | Nia's phone (prop) | `Nia-Phone` `c9e91260-9ef3-4d7f-ab7c-94498fed5e5c` (image `ad3a5a8b…`) | — | — |
+| `[Sucre]` | The café (set) | `Sucre-Day` `7f9a4d83-44b7-470f-a1ec-73740c0630d0` (image `a1ab5da3…`) | — | — |
+| `[Barista]` | BARISTA (extra) | None (generic) | **Your choice needed:** (a) silent, mouth closed, or (b) a written line | **Pending** |
+| `[Customers]` | 2–3 customers (extras) | None (generic) | None | **No.** Silent, mouths closed. |
+
+---
+
 ## SEGMENT 1 (0:00–0:30)
 
-*INT. SUCRE, DAY. NIA sits at a small table, drinking her latte. TAY walks in and acts like he's surprised to see her. Nia rolls her eyes. Tay pulls out the chair across from her and sits down, facing her and the entrance. He's seated before he speaks, and stays seated for the rest of the segment.*
+*INT. SUCRE `[Sucre]`, DAY. NIA `[Nia-GPS]` sits at a small table, drinking her latte. TAY `[Tay-GPS]` walks in and acts like he's surprised to see her. Nia rolls her eyes. Tay pulls out the chair across from her and sits down, facing her and the entrance. He's seated before he speaks, and stays seated for the rest of the segment.*
 
-> **TAY**
+> **TAY** `[Tay-GPS]`
 > I don't want to seem like I'm stalking you or anything, but I think you left your phone.
 
-*He hands Nia her phone (beige/tan case) and puts it on the table. Nia smiles.*
+*He hands Nia her phone `[Nia-Phone]` (beige/tan case) and puts it on the table. Nia smiles.*
 
-> **NIA**
+> **NIA** `[Nia-GPS]`
 > I guess you're trying to wife me up now?
 
-> **TAY** *(laughs)*
+> **TAY** `[Tay-GPS]` *(laughs)*
 > Nah, I think that's what you're trying to do. Period.
 
-*They share a quick, cute moment. Tay looks up and notices that DORIAN has just walked in. He immediately sits back in his seat, annoyed.*
+*They share a quick, cute moment. Tay looks up and notices that DORIAN `[Dorian-Full]` has just walked in. He immediately sits back in his seat, annoyed.*
 
-> **TAY** *(to Nia)*
+> **TAY** `[Tay-GPS]` *(to Nia)*
 > I guess your boo thing has a GPS tracker on you, huh?
 
 *Nia looks around and sees Dorian. She kind of smiles, but at the same time she feels weird, because she's also feeling Tay now.*
 
-> **NIA**
+> **NIA** `[Nia-GPS]`
 > I guess so.
 
 *(End of Segment 1. Final line: Nia's "I guess so.")*
@@ -41,21 +55,21 @@
 
 *Nia gets up and walks over to Dorian, who's at the counter. He looks at her. He looks up and sees Tay in the background, then looks back at her.*
 
-> **DORIAN**
+> **DORIAN** `[Dorian-Full]`
 > Oh, what? Whatcha walking over here for?
 
-> **NIA** *(confused)*
+> **NIA** `[Nia-GPS]` *(confused)*
 > What's your problem?
 
-> **DORIAN**
+> **DORIAN** `[Dorian-Full]`
 > I guess you.
 
 *He walks out. In that moment, Nia is crushed. Tay walks over.*
 
-> **TAY**
+> **TAY** `[Tay-GPS]`
 > Everything okay?
 
-> **NIA**
+> **NIA** `[Nia-GPS]`
 > I guess so.
 
 *(End of episode. Final line: Nia's "I guess so." After it: silence, nobody speaks.)*

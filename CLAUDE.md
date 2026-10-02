@@ -117,6 +117,14 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - **One full-length image per character works best.** Dorian came out right from a single full-length image of him in his outfit with shoes (`Dorian-Say-Less-Full`). Nia and Tay came out wrong from three separate elements each (face, body, outfit). Where possible, each character gets **one full-length "character in costume" image from the user's upload** for the episode.
 - **Extras never speak unless the script gives them lines.** The barista talked gibberish. Every prompt says background people's mouths stay closed and the only voices are the scripted lines; or the extra gets a written line the user approved.
 
+### 15. Scripts tag every character with their element, and nobody speaks unscripted (user, 2 Oct 2026)
+- **Every script opens with a CAST AND TAGS table** listing every person who appears, extras included. Each row has the person's **tag**, the element(s) attached for them (name and ID), their voice source, and whether they speak.
+- **The tag goes in the script wherever the person appears:** in every dialogue heading (e.g. **NIA** `[Nia-GPS]`) and in action lines. Anyone reading the script can see which image is attached to whom.
+- **Extras are cast too.** A barista, a waiter or a passer-by is either:
+  - **SILENT**, written in the script and the prompt as *"mouth closed, never speaks"*; or
+  - given **written lines in English**, approved by the user before filming.
+- **Raise it at script review.** If a scene would naturally make someone talk (a barista taking an order, say), the script review asks the user for that person's lines or for confirmation that they're silent. Never leave it to the model.
+
 ## How to render (Seedance 2.5 through the Higgsfield tools)
 
 - Pass elements in `reference_elements` **and** each element's image in `medias` as `image_references`. The API rejects element-only requests.
