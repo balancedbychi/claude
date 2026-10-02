@@ -1,6 +1,6 @@
 # "Ran Into Me": production notes and prompts (FOR REVIEW)
 
-**Status:** Segment 1 v2 (`96ccbe40…`) is filmed; you said it's "much better". Segment 2 was approved and submitted as job `98e438d4-e834-4387-aadc-86cc01d6ec28`. Segment 3 will come to you for review next.
+**Status:** Segment 1 v2 (`96ccbe40…`) is filmed; you said it's "much better". Segment 2 is filmed (`98e438d4…`) and awaiting your review. **Segment 3's prompt is below for your review** (rule 9).
 
 ---
 
@@ -147,10 +147,50 @@ AUDIO: only these lines, plus soft park ambience, footsteps and distant birds, m
 
 ---
 
-## SEGMENT 3 — draft (finalised after Segment 2 is approved)
+## SEGMENT 3 — "Ran into me" (12 s) — FOR REVIEW
 
-**"Ran into me" (12 s):** Segment 2 is attached as a video reference, plus DB's face, body and suit.
-- **DB stands still near the iron railing (left of frame), facing away.** Mid-laugh, ChiChi glances at Nia and walks **shoulder-first into DB**, a light, natural bump. Because the women swapped sides in v2, the bump happens on the railing side, with ChiChi crossing slightly toward him; the exact staging will be written into the final prompt for your review.
-- He turns around. He's about 6'1", clearly taller than ChiChi.
-- **DB** (his written Dominican voice, word for word): "Oh — I'm so sorry." Then, smiling: "But I'm so glad you ran into me."
-- It ends on a waist-up shot of Nia, deadpan: *you've got to be kidding me.* No rings on DB.
+**Status:** waiting for (1) your approval of Segment 2 (`98e438d4…`), which this segment uses as its reference video, and (2) your "film".
+
+### Production notes
+
+- **Reference video:** Segment 2 `98e438d4`, so Nia and ChiChi carry over exactly: Nia on the LEFT in black, ChiChi on the RIGHT in cream with a cap, the same voices, the same light.
+- **DB's position:** he stands still on the **RIGHT side of the sidewalk** (ChiChi's side, by the brownstones), **facing away from the women**, waiting at the edge of the path. ChiChi walks into him without needing to cross her friend's path, so nobody swaps sides.
+- **The bump:** light and natural. Her right shoulder meets his upper arm at walking speed, so she stops short and he turns. Nobody falls, nothing is dropped, and there's no slow motion.
+- **DB:** `DB-Face` + `DB-Body` + `DB-Ran-Into-Me-Look`. About 6'1", clearly taller than ChiChi; ChiChi's eyes are level with his chin. He has no rings and no tan line. His voice is the written Dominican description, word for word.
+- **Camera:** the same front-on steadicam as Segments 1–2, settling to a still medium two-shot of ChiChi and DB, then one cut to a waist-up single of Nia for the ending. No zooms.
+- **Ending:** Nia's deadpan *"you've got to be kidding me"* look. She doesn't say it out loud; the script has it as a reaction only. Then a quick cut out.
+- **Cost:** about 150 credits.
+
+**Attached:** **video reference `98e438d4` (Segment 2)**; set `cdd792fc`; Nia-Face `3497a052`, Nia-Body `9b1d610c`, Nia look `e2685e2d`; ChiChi-Face `b03240bd`, ChiChi-Body `46074b6d`, ChiChi look `4f6cbc5e`; DB-Face `1023755a`, DB-Body `952f3fb0`, DB look `e758bbb5`; voices `b3d2fc9b` and `de50f37f`.
+
+```
+12 SECONDS. SUNNY AFTERNOON. Photoreal cinematic drama, vertical 9:16. THIS CLIP CONTINUES DIRECTLY FROM THE REFERENCE VIDEO: the same two women, the same walk, the same sidewalk, seconds later.
+
+*** THE REFERENCE VIDEO IS THE AUTHORITY FOR NIA AND CHICHI. *** They look, dress, move and sound EXACTLY as in the reference video: NIA on the LEFT of frame in her fitted black short-sleeve top, black running shorts, white sneakers and blush-pink smartwatch; CHICHI on the RIGHT of frame in her oatmeal baseball cap, oversized cream quarter-zip over a pale-yellow top, cream shorts and white sneakers, honey-blonde hair. The same place and golden afternoon light. Nothing about them changes. Nia is the shorter of the two; ChiChi is a bit taller.
+
+NIA: face <<<3497a052-ed61-4fbc-babe-c9f7fc11bf77>>>, body <<<9b1d610c-f6e6-421b-a801-89e22827e1bf>>>, outfit <<<e2685e2d-fd72-4ffa-b6f4-3a44de390fd7>>>. Petite and curvy. NO RINGS on any finger; the fourth finger of the left hand is bare skin.
+CHICHI: face <<<b03240bd-4562-4d2f-8b14-de32c018e346>>>, body <<<46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc>>>, outfit <<<4f6cbc5e-6a29-43b1-ad16-1a6ccd327761>>>. NO RINGS on any finger; the fourth finger of the left hand is bare skin.
+
+DB — A NEW MAN: face, hair and skin from <<<1023755a-b704-4c10-b0f4-bf9887d2558c>>>; height and build from <<<952f3fb0-ed54-4551-a07c-c56934939a44>>>; HIS CLOTHES COME ONLY FROM <<<e758bbb5-6bd8-4a91-a2f8-0152856f9e93>>>, exactly as that image shows, polished and expensive; nothing from the face or body references is worn. Forty-eight, Dominican, warm golden-tan complexion, thick dark wavy hair with silver at the temples, neatly trimmed short beard. TALL: about 6'1", clearly taller than ChiChi; her eyes are level with his chin. NO RINGS on any finger of either hand; NO wedding ring; the fourth finger of the left hand is bare skin with no tan line.
+
+SET: the park sidewalk <<<cdd792fc-0e59-4b15-b24e-9864cea52044>>>, exactly as in the reference video: iron railing and park trees on the LEFT of frame, brownstones on the RIGHT.
+
+SEQUENCE, IN ORDER:
+1. (0-3 s) The women walk TOGETHER toward the camera exactly as in the reference video, still laughing from the last line. DB stands still on the RIGHT side of the sidewalk, ahead of them, near the brownstones, FACING AWAY from them, as if waiting.
+2. (3-4 s) Still laughing, ChiChi glances at Nia and, not looking ahead, walks into DB: her right shoulder lightly bumps his upper arm at walking speed. A light, natural bump: she stops short; nobody stumbles or falls; nothing is dropped; no slow motion. Nia stops beside her, on the LEFT.
+3. (4-9 s) DB turns around to face ChiChi. Still medium two-shot of ChiChi and DB, from about mid-thigh up, both in profile and three-quarter view.
+DB, sincerely apologetic: "Oh — I'm so sorry."
+He looks at her properly; a slow, warm smile.
+DB: "But I'm so glad you ran into me."
+ChiChi, caught off guard, starts to smile back.
+4. (9-12 s) CUT to a still waist-up single of NIA, on the left, looking from DB to ChiChi with a flat, deadpan, you-have-GOT-to-be-kidding-me expression: eyebrows up, lips pressed. She says nothing. Cut out immediately after a beat of under one second.
+
+CAMERA: the reference video's front-on steadicam for step 1, settling into still framings for steps 3 and 4. NO ZOOMS. NO PUSH-INS. NO EXTREME CLOSE-UPS: faces never tighter than waist-up.
+
+VOICE — DB'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A Dominican man of forty-eight speaking fluent English with a NATURAL HISPANIC ACCENT: a warm Caribbean Spanish flair in the vowels, lightly tapped r's, softened word endings, and the occasional Spanish rhythm in a phrase. His voice is LOW, WARM and CALMING: a soft-spoken, slightly husky baritone, mature and composed, with a gentle gravel at the bottom and a quiet intimacy, as if he never needs to raise his voice to be heard. He speaks SLOWLY and DELIBERATELY, with thoughtful pauses inside a sentence (never between lines), a reassuring tone, and a faint, knowing warmth, like a smile you can hear. A lawyer's clear, precise diction under the accent. Never loud, never fast, never slick or salesy, never cartoonish or exaggerated, never a heavy stereotype; the accent is real and natural, never put on.
+DB has the only two lines. Nia and ChiChi say nothing in this clip.
+
+TIMING: no dead air. DB's second line follows his first within half a second. The ending beat on Nia lasts under one second.
+
+AUDIO: DB's two lines, soft park ambience, footsteps, a light bump of fabric. No music, no narration.
+```
