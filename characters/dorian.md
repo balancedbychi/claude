@@ -153,3 +153,10 @@ No text, no numbers, no labels, no watermark, no logos, no other people, no prop
 | G6 | `ff3c6e78-abac-427c-9c14-5cdfee6eb779` | https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_044100_ff3c6e78-abac-427c-9c14-5cdfee6eb779.png |
 
 **2 Oct 2026, the user picked G2** ("2") and uploaded it (media `8055a9b5-1535-49f7-98fb-12fa409f3789`). Saved as **`Dorian-Say-Less-Original` `7fbf0688-7a7a-4b63-9c15-a0fe2e3362d3`**: the original Dorian in the "Say Less" Segment 1 gym outfit, for the Segment 2 re-shoot.
+
+**2 Oct 2026, full-length outfit check** for `Dorian-Say-Less-Original`: G2 upload `8055a9b5…` + `Dorian-Say-Less-Look` `82c104ba…` (lower half and shoes). Preview only.
+
+| Option | Job ID | Link |
+|---|---|---|
+| G7 | `c8820d5b-5edd-419c-8042-8326cb92279b` | https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_050856_c8820d5b-5edd-419c-8042-8326cb92279b.png |
+| G8 | `5e866abc-aa9f-42b8-828d-1bca6bdacaf0` | https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_050856_5e866abc-aa9f-42b8-828d-1bca6bdacaf0.png |
