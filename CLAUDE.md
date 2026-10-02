@@ -30,6 +30,7 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 
 ### 2b. Dorian's skin tone
 - **Dorian has a deep, dark brown complexion.** Match his reference photo exactly and **never lighten him** (user ruling, 2 Oct 2026). Every prompt with Dorian says so, and lighting must never lift his skin tone. See `characters/dorian.md`.
+- **Dorian's references (2 Oct 2026):** attach `Dorian-Face` (`33308979-0153-430b-a68e-df947e3a710d`, image `2ee473c0-3481-47a7-8258-195a407edcdd`) and `Dorian-Body` (`e7d019d8-f645-400e-bd66-ccb33bea41e6`, image `11aa68a0-a1be-4601-9200-8f629f00b7c9`) in place of the old `Dorian` element. `Dorian-Body`'s grey T-shirt and trousers are never his costume.
 
 ### 3a. Every character is single: no wedding rings, ever
 - **Nia, ChiChi, Dorian, Simone, Kel, and anyone else in the series are all single.**
