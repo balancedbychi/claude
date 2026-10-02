@@ -43,7 +43,8 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 ### 3b. Dorian's voice must not drift
 - Dorian has no saved voice element, so his voice is rebuilt from a written description each time and can drift between renders.
 - Always paste his full description word for word: *a deep, low, calm adult male voice, an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly.*
-- **Lasting fix (needs the user's pick):** once the user approves a take where Dorian sounds right, save his voice from it as a voice element, e.g. `Dorian-Canon-Voice-v1`, and attach that element from then on.
+- **Canon take (user, 2 Oct 2026):** his voice in **"Miscommunication" Segment 1** (`f078ccbb-b911-486d-85c7-43d382fdfbd2`, knocking at Nia's door with the flowers) is correct. Until a voice element exists, **attach Segment 1 as a video reference in every clip Dorian speaks in**, and say his voice matches that clip exactly.
+- **Lasting fix (needs the user's upload):** a clip of Dorian's lines alone from Segment 1, uploaded by the user, saved as the voice element `Dorian-Canon-Voice-v1` and attached from then on.
 
 ### 4. Pacing
 - No long pauses. Replies land on the end of the previous line, with no gap longer than about two tenths of a second.

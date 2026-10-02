@@ -104,7 +104,7 @@ No text, no numbers, no labels, no watermark, no logos, no other people, no prop
 ## Next steps toward a complete profile
 
 1. ~~Approve the face and body sheets~~ **Done 2 Oct 2026:** F3 saved as `Dorian-Face`, B4 saved as `Dorian-Body`.
-2. **Lock his voice:** once you approve a take where he sounds right (Segment 1, or Segment 2 v2), create `Dorian-Canon-Voice-v1` from it and attach it to every clip he speaks in.
+2. **Lock his voice:** the user picked **Miscommunication Segment 1** (`f078ccbb…`) as his correct voice (2 Oct 2026). Pending: your upload of his lines from that clip, to save as `Dorian-Canon-Voice-v1`. Until then, attach Segment 1 as a video reference whenever he speaks.
 3. **Optional: a wardrobe sheet** of his episode looks side by side.
 
 ---
