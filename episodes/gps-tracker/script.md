@@ -213,3 +213,5 @@ The camera always shoots from the same side of the café, so left and right neve
 **User (2 Oct 2026): none of N1/N2/T1/T2 is Nia or Tay as they appear in "Say Less" Segment 1.** The cast elements don't reproduce the on-screen look. Next: screenshots taken from the Segment 1 clip itself become the `[Nia-GPS]` and `[Tay-GPS]` pictures.
 
 **2 Oct 2026, the user's frame from Segment 1 v2:** "this isn't Nia". The woman in the pink top from the `Nia-GPS` screenshot is the wrong face. **Next:** a preview from the ORIGINAL cast character `Nia` (`bcd528d3…`, image `362ecc5e…`) plus her gym outfit: job `04311461-0dff-4b4a-8c4e-7ffd0a14d8c7` (two earlier attempts were blocked by the safety filter or failed, and weren't charged as results). It's for the user to judge before any video.
+
+**2 Oct 2026:** the user confirmed the original cast `Nia` (`bcd528d3…`) **is Nia's face**. They uploaded the correct outfit, `niagymoutfit.jpg` (media `57a54083-860c-44fe-bb43-55c59f6dbafc`). Preview of the original Nia in that outfit at a café table: job `f9688b17-46e6-4087-8d3a-3d2a11aba7d9`. Awaiting the user's check.
