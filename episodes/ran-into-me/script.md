@@ -152,3 +152,20 @@ On a walk, Nia tells ChiChi about Dorian's "year and a half." ChiChi tells her t
 | S1 | Upscale downtown sidewalk with trees and storefronts | `ad7bcc2f-1048-4f49-9980-b4830af0f1ee` |
 | S2 | Same brief, second take | `b4cd8eea-43c3-42d1-819f-f103e4f84d28` |
 | S3 | Sidewalk beside a park, with iron railing and brownstones | `23e1d26c-21d3-4b33-876d-9daaf1c03d39` |
+
+## Elements (saved 2 Oct 2026 from the user's uploads)
+
+| Use | Element | ID | Image |
+|---|---|---|---|
+| Set | `Park-Sidewalk-Afternoon` (S3) | `cdd792fc-0e59-4b15-b24e-9864cea52044` | `c92ccfbe-470e-430a-b139-46b45cd07e97` |
+| Nia wardrobe | `Nia-Ran-Into-Me-Look` | `e2685e2d-fd72-4ffa-b6f4-3a44de390fd7` | `3f75e303-7935-4944-ac3b-d0c2919657d1` |
+| ChiChi wardrobe | `ChiChi-Ran-Into-Me-Look` | `4f6cbc5e-6a29-43b1-ad16-1a6ccd327761` | `18430ad2-4d40-4ae2-b498-2e0ebad8428f` |
+| DB wardrobe | `DB-Ran-Into-Me-Look` | `e758bbb5-6bd8-4a91-a2f8-0152856f9e93` | `cc854fdd-b9ad-49de-8e63-a0783915f380` |
+
+Each render also attaches the casting elements (face and body) and the two voice elements.
+
+## Render log
+
+| Segment | Job ID | Notes |
+|---|---|---|
+| 1 v1 | `0b4cbc8b-a4e2-41c5-a9f5-77e488759652` | 30 s, 1080p, 9:16, Seedance 2.5. Awaiting your review. |
