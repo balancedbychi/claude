@@ -3,6 +3,7 @@
 **Format:** scripted short, vertical 9:16
 **Runtime:** about 70 seconds, **3 segments** (30 s, 30 s, 12 s). Each segment is one render with cuts inside it. Film one segment at a time.
 **When:** a few days after "Miscommunication"
+**Status:** ✅ Complete (2 Oct 2026). Seg 1 v2 `96ccbe40` + Seg 2 v1 `98e438d4` (trim the repeated last line) + Seg 3 `1e3b8bd6`.
 **Cast:** Nia · ChiChi · DB (first appearance)
 **Set:** an upscale city sidewalk, sunny afternoon. *(Set element pending your upload.)*
 
@@ -171,4 +172,4 @@ Each render also attaches the casting elements (face and body) and the two voice
 | 1 v1 | `0b4cbc8b-a4e2-41c5-a9f5-77e488759652` | **Rejected:** ChiChi had a British accent, she wasn't taller than Nia, and they split up while walking. |
 | 1 v2 | `96ccbe40-024b-462c-bd43-ba7435447d75` | Filmed 2 Oct 2026. You said "much better"; it's used as the continuity reference for Segment 2. On screen: Nia LEFT in black, ChiChi RIGHT in cream with a cap. |
 | 2 v1 | `98e438d4-e834-4387-aadc-86cc01d6ec28` | Filmed 2 Oct 2026. **Problem:** it ended with Segment 1's "Don't we all?". **Accepted (2 Oct 2026):** the user trims the repeated ending in the edit, so it ends on "become my man first". |
-| 3 v1 | `1e3b8bd6-4f51-4d15-8ecd-3313b19c1d98` | 12 s. Filmed after "move to segment 3", with Segment 2 v1 as the video reference. Awaiting your review. |
+| 3 v1 | `1e3b8bd6-4f51-4d15-8ecd-3313b19c1d98` | 12 s. Filmed after "move to segment 3", with Segment 2 v1 as the video reference. **APPROVED ("looks good", 2 Oct 2026). Episode complete.** Note for next time: DB stood still and unnaturally before the bump. The user wants both people moving. |
