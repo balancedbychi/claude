@@ -38,7 +38,7 @@ This is the single source of truth for who Kel is on screen. The series rules in
 | `Kel-The-Cousin` (identity) | `3ad69411-e32c-44bd-b797-a93ec0d4b52c` | Original identity (image `d3d7f70e-6d9f-45aa-ab19-a6d8a2df4529`). It shows his polo outfit, so it's **retired for new work**; use `Kel-Face`. |
 | `Kel-Double-Booked-Look` | `0bac4ba5-b61d-411c-98a9-f26c16967200` | "Double Booked" wardrobe |
 | `Kel-Face` | `7f36c594-5024-47f0-b087-49d73ad55c81` | **Current face.** Sheet F1 (job `de62dfba…`). | Face, beard and skin tone only, no clothing |
-| `Kel-Body` | `1365d2bb-7042-4ad2-b660-1bff6cf0d33b` | Sheet B1 (job `6721e3c9…`). | Height and build only. The grey T-shirt and trousers are **never** his costume. |
+| `Kel-Body` | `1365d2bb-7042-4ad2-b660-1bff6cf0d33b` | Height and build only. The grey T-shirt and trousers are **never** his costume. Sheet B1 (job `6721e3c9…`). |
 
 ---
 

@@ -38,7 +38,7 @@ This is the single source of truth for who Simone is on screen. The series rules
 | `Simone-Face-v3` | `66ab4872-3bbf-4ce0-8e0d-267753f00c37` | Previous face crop (image `0044fb54…`). Superseded by `Simone-Face-v4`. |
 | `Simone-Double-Booked-Look` | `2a042d0e-64b9-477f-bc2d-2ad8cda38335` | "Double Booked" wardrobe |
 | `Simone-Face-v4` | `7d3479c9-2777-4fba-84de-a308855b2b1b` | **Current face.** Face, hair and skin tone only. Sheet F1 (job `cba676fa…`). Replaces `Simone-Face-v3`. |
-| `Simone-Body` | `c963ab2e-fdf8-48c7-9bb1-7e7a2ab391aa` | Sheet B1 (job `b1e18d81…`). | Height and build only. The grey-taupe bodysuit is **never** her costume. |
+| `Simone-Body` | `c963ab2e-fdf8-48c7-9bb1-7e7a2ab391aa` | Height and build only. The grey-taupe bodysuit is **never** her costume. Sheet B1 (job `b1e18d81…`). |
 
 ---
 
