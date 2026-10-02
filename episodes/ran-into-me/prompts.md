@@ -1,6 +1,6 @@
 # "Ran Into Me": production notes and prompts (FOR REVIEW)
 
-**Status:** Segment 1 v2 (`96ccbe40…`) is filmed; you said it's "much better". **Segment 2's prompt is below for your review** (rule 9). Nothing is filmed until you say "film".
+**Status:** Segment 1 v2 (`96ccbe40…`) is filmed; you said it's "much better". Segment 2 was approved and submitted as job `98e438d4-e834-4387-aadc-86cc01d6ec28`. Segment 3 will come to you for review next.
 
 ---
 
