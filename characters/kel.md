@@ -35,10 +35,12 @@ This is the single source of truth for who Kel is on screen. The series rules in
 
 | Asset | ID | Use |
 |---|---|---|
-| `Kel-The-Cousin` (identity) | `3ad69411-e32c-44bd-b797-a93ec0d4b52c` | Original identity (image `d3d7f70e-6d9f-45aa-ab19-a6d8a2df4529`). It shows his polo outfit, so it's **retired for new work**; use `Kel-Face`. |
+| `Kel-The-Cousin` (identity) | `3ad69411-e32c-44bd-b797-a93ec0d4b52c` | Original identity (image `d3d7f70e-6d9f-45aa-ab19-a6d8a2df4529`). It shows his polo outfit, so it's **retired for new work**; use `Kel-Face-v2`. |
 | `Kel-Double-Booked-Look` | `0bac4ba5-b61d-411c-98a9-f26c16967200` | "Double Booked" wardrobe |
-| `Kel-Face` | `7f36c594-5024-47f0-b087-49d73ad55c81` | **Current face.** Face, beard and skin tone only, no clothing. Sheet F1 (job `de62dfba…`). |
-| `Kel-Body` | `1365d2bb-7042-4ad2-b660-1bff6cf0d33b` | Height and build only. The grey T-shirt and trousers are **never** his costume. Sheet B1 (job `6721e3c9…`). |
+| `Kel-Face-v2` | `32d2d7f4-6b6f-49c9-84d7-ddf0a7873384` | **Current face.** Face, beard and skin tone only. Your upload of sheet F2 (media `20fe9bb0…`). |
+| `Kel-Body-v2` | `195554e3-1430-4f6d-aa78-ab7fb79d101d` | **Current body.** Height and build only; the T-shirt and trousers are **never** his costume. Your upload of sheet B2 (media `ab82b2cb…`). |
+| `Kel-Face` | `7f36c594…` | Retired (saved without your upload). |
+| `Kel-Body` | `1365d2bb…` | Retired (saved without your upload). |
 
 ---
 
@@ -54,3 +56,5 @@ This is the single source of truth for who Kel is on screen. The series rules in
 | Body turnaround | B2 | `a4d87546-a6a5-402b-99de-bb887b86347e` |
 
 **2 Oct 2026, saved after the user's "ok":** F1 → `Kel-Face`, B1 → `Kel-Body`. **Provisional:** the first option was saved by default, against rule 8. It will be replaced by the user's uploaded picks.
+
+**2 Oct 2026, the user's uploads:** F2 → `Kel-Face-v2` `32d2d7f4…`, B2 → `Kel-Body-v2` `195554e3…`. These replace the provisional `Kel-Face`/`Kel-Body`.
