@@ -35,7 +35,7 @@
 > I guess you're trying to wife me up now?
 
 > **TAY** `[Tay-GPS]` *(laughs)*
-> Nah, I think that's what you're trying to do. Period.
+> Nah, I think that's what you're trying to do.
 
 *They share a quick, cute moment. Tay looks up and notices that DORIAN `[Dorian-Full]` has just walked in. He immediately sits back in his seat, annoyed. In the background, Dorian reaches the register.*
 

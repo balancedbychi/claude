@@ -96,7 +96,8 @@ AUDIO: only these lines, plus soft cafe ambience (espresso machine, cups, quiet 
 **Fixes:**
 1. **Nia and Tay each come from one picture:** your screenshots from "Say Less" Segment 1, saved as `Nia-GPS` `ca79ebfe…` and `Tay-GPS` `d49370d7…`. That's the same single-picture setup that worked for Dorian. The old face, body and outfit elements are no longer attached.
 2. **The barista has one scripted line** (your choice (b)): "What can I get you?" in clear English. Dorian nods and points at the pastry case without speaking. Otherwise she's silent with her mouth closed. **The customers are silent**, and there's no background murmur in the audio.
-3. **Unchanged:**
+3. **"Period." removed** from Tay's line (your note). It's now "Nah, I think that's what you're trying to do."
+4. **Unchanged:**
    - Dorian (`Dorian-Say-Less-Full`), the set, the phone, the floor plan and every line.
    - Tay sits down before he speaks.
    - The "What everyone is doing" block, no rings, Nia British, the ending on "I guess so."
@@ -134,7 +135,7 @@ TAY (American), easy and smooth: "I don't want to seem like I'm stalking you or 
 He hands it across and SETS IT ON THE TABLE beside her latte. It stays there.
 Nia smiles despite herself.
 NIA (British), dry and teasing: "I guess you're trying to wife me up now?"
-TAY (American), laughing: "Nah, I think that's what you're trying to do. Period."
+TAY (American), laughing: "Nah, I think that's what you're trying to do."
 They share a quick, cute moment: both laughing, Nia shaking her head, Tay grinning.
 3. Over Nia's shoulder, behind her in the background: DORIAN walks in through the open entrance and goes STRAIGHT to the register. He stands FACING THE BARISTA (facing left), his back and side to the table, ordering. He does NOT look toward the table and does NOT see Nia or Tay.
 BARISTA (General American, friendly, in the background, to Dorian): "What can I get you?"
@@ -152,7 +153,7 @@ WHAT EVERYONE IS DOING (nobody ever stands or sits frozen like a prop):
 - BARISTA: working the espresso machine; says her one line to Dorian, then takes a pastry from the case for him, mouth closed.
 - CUSTOMERS (far back): sipping drinks, reading, scrolling; mouths closed, never speaking, never looking at the main three.
 
-LINE OWNERSHIP, NEVER SWAPPED: Tay says "I don't want to seem like I'm stalking you...", "Nah, I think that's what you're trying to do. Period." and "I guess your boo thing has a GPS tracker on you, huh?" Nia says "I guess you're trying to wife me up now?" and "I guess so." The barista says only "What can I get you?" The final spoken line is Nia's "I guess so." Dorian and the customers say nothing.
+LINE OWNERSHIP, NEVER SWAPPED: Tay says "I don't want to seem like I'm stalking you...", "Nah, I think that's what you're trying to do." and "I guess your boo thing has a GPS tracker on you, huh?" Nia says "I guess you're trying to wife me up now?" and "I guess so." The barista says only "What can I get you?" The final spoken line is Nia's "I guess so." Dorian and the customers say nothing.
 
 CAMERA: steady, eye level, always from the right side of the room looking left. NO ZOOMS. NO PUSH-INS. NO EXTREME CLOSE-UPS: faces never tighter than waist-up.
 
