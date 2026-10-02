@@ -72,7 +72,7 @@ AUDIO: only these lines, plus gym ambience (distant weights, a low hum, faint mu
 
 ## SEGMENT 2 — "This could be fun" (30 s) — PROMPT
 
-This is filmed only after you approve Segment 1.
+**Segment 1 v1 `b9d339ff` APPROVED (2 Oct 2026): "It looks good… we can go on and film the next segment."** Your note: make sure Nia stays British, so her voice block below is strengthened. Filmed on your go-ahead.
 
 **Attached:** **reference video = Segment 1 (the approved job)**, plus the same elements as Segment 1. There's no second reference video: Dorian's voice comes from his written description only (your ruling, 2 Oct 2026).
 
@@ -92,7 +92,7 @@ DORIAN: face from <<<33308979-0153-430b-a68e-df947e3a710d>>>; build from <<<e7d0
 SIMONE: face and hair from <<<b2ab2ec6-2469-4b6b-9208-4f5b0eb02c09>>>; build from <<<e35f19e8-bfa1-45fb-bb2d-81de7915be9c>>>; HER CLOTHES COME ONLY FROM <<<b80e2725-b11b-447d-acf3-f5b5a760be74>>>, unchanged. Early thirties, warm mid-brown skin, a COPPER-AUBURN shoulder-length blunt bob with a deep side part. About 5'6": taller than Nia, shorter than Dorian. Cheerful and friendly, never smug. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
 
 VOICES:
-- NIA IS BRITISH: <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>, warm, low, dry and deadpan. Every one of her lines is in a British accent.
+- *** NIA IS BRITISH. EVERY WORD SHE SAYS IS IN A BRITISH ACCENT. *** Her voice is <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>> and matches her voice in the reference video exactly: a warm, low, dry, deadpan London British accent with British vowels, crisp consonants and NO hard R ("working" and "We're" are said the British way, soft and non-rhotic). Nia is the ONLY British speaker in the clip. Her accent NEVER turns American, never picks up Tay's or Dorian's accent, and never drifts mid-line. Both of her lines, "Just working out." and "We're good.", are spoken in a clear British accent.
 - TAY'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A young Black American man of twenty-six with an URBAN, contemporary Black American accent and cadence. His voice is DEEP for his age: a smooth, low baritone with a relaxed chest resonance and a soft, slightly husky edge. He talks SMOOTH and LAID-BACK, like a player who knows he's charming: an unhurried, easy rhythm, words sliding into each other, relaxed consonant endings, a little melodic lift at the end of a flirty line, a low half-laugh in his throat. He speaks in natural modern slang and says it with full confidence; never forced, never a caricature. Even when he's excited about business, the voice stays low and smooth. Never high-pitched, never nasal, never squeaky or boyish, never nervous, never rushed, never shouting, never a radio announcer. Clearly younger and lighter in energy than Dorian, but just as deep.
 - Tay is AMERICAN, never British. Nia and Tay never sound alike and never swap lines.
 - DORIAN'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY: a deep, low, calm adult male voice, an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly. Never British, never a light or boyish tenor.
