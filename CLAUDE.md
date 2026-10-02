@@ -31,6 +31,7 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 ### 2b. Dorian's skin tone
 - **Dorian has a deep, dark brown complexion.** Match his reference photo exactly and **never lighten him** (user ruling, 2 Oct 2026). Every prompt with Dorian says so, and lighting must never lift his skin tone. See `characters/dorian.md`.
 - **Dorian's references (updated 2 Oct 2026, user ruling: "use the original model"):** his face and body come from the **ORIGINAL `Dorian` element** (`5deb4ada-665f-4894-8d16-2a9f34c0248f`, image `887050a4-172b-4740-a826-c4e1c7d552d8`): face, hair and body only, and any clothing in that image is never reproduced. `Dorian-Face` (`33308979…`) and `Dorian-Body` (`e7d019d8…`) drifted from the original and are **retired**; don't attach them. His clothes come from the episode's wardrobe and, once a segment is approved, from that segment as the video reference (rule 7).
+- **"Say Less" (user's pick, 2 Oct 2026):** Dorian is `Dorian-Say-Less-Original` (`7fbf0688-7a7a-4b63-9c15-a0fe2e3362d3`, image `8055a9b5-1535-49f7-98fb-12fa409f3789`, the user's upload of preview G2): the original Dorian in his Segment 1 gym outfit.
 
 ### 3a. Every character is single: no wedding rings, ever
 - **Nia, ChiChi, Dorian, Simone, Kel, Tay, DB, and anyone else in the series are all single.** DB is divorced: still no ring, and no tan line.

@@ -130,14 +130,14 @@ AUDIO: only these lines, plus quiet gym ambience. No narration.
 **Why:** your notes on v1 (`8436559d`): Dorian didn't look like the original character, and he said "Naya" instead of "Nia".
 
 **What changes from v1 (everything else is word for word the same):**
-- **Dorian's face and body come from his ORIGINAL element** `Dorian` `5deb4ada…` (image `887050a4…`), the one used in "Miscommunication" and "Double Booked". `Dorian-Face` and `Dorian-Body` are removed from the request.
-- **His outfit stays the one from Segment 1:** Segment 1 is still the reference video, and the prompt says he wears exactly the gym outfit he wears in it. `Dorian-Say-Less-Look` stays attached as a backup.
+- **Dorian is your upload G2:** saved as `Dorian-Say-Less-Original` `7fbf0688…` (image `8055a9b5…`). That's the original Dorian (built from his original picture) already wearing the Segment 1 gym outfit. It replaces `Dorian-Face` and `Dorian-Body`.
+- **His outfit is the one from Segment 1:** Segment 1 is still the reference video, and the prompt says he wears exactly that outfit. G2 is waist-up, so `Dorian-Say-Less-Look` stays attached for his lower half and shoes. Never the black outfit.
 - **Nia's name:** a pronunciation line, "NEE-uh" (rhymes with "Mia"), never "Naya", plus a note on Dorian's line.
 - **Nia's British accent block:** unchanged from v1.
 
-**Attached:** reference video = Segment 1 `b9d339ff…`. Elements: gym, `Nia-Face`, `Nia-Body`, Nia's look, `Tay-Face`, `Tay-Body`, Tay's look, **`Dorian` (original)**, Dorian's look, `Simone-Face-v5`, `Simone-Body-v2`, Simone's look, `Nia-Canon-Voice-v2`.
+**Attached:** reference video = Segment 1 `b9d339ff…`. Elements: gym, `Nia-Face`, `Nia-Body`, Nia's look, `Tay-Face`, `Tay-Body`, Tay's look, **`Dorian-Say-Less-Original` (G2)**, Dorian's look, `Simone-Face-v5`, `Simone-Body-v2`, Simone's look, `Nia-Canon-Voice-v2`.
 
-**Cost:** 360 credits. **Balance about 264**, so it needs a top-up before filming.
+**Cost:** 360 credits. **Balance about 256**, so it needs a top-up before filming.
 
 ```
 30 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16. THIS CLIP CONTINUES DIRECTLY FROM THE REFERENCE VIDEO (Segment 1): the same gym, the same people, moments later.
@@ -150,7 +150,7 @@ NIA: face, hair and skin from <<<3497a052-ed61-4fbc-babe-c9f7fc11bf77>>>; body f
 
 TAY: face, eyes, hair and skin from <<<288d8911-4b45-4246-aac4-0ec3a69003c2>>>; build and tattoos from <<<fe030a7d-7a8c-4fef-9596-50a213e15201>>>; HIS CLOTHES COME ONLY FROM <<<261210f2-283f-4e6b-9140-d237b81f4741>>>, unchanged in every shot; the fitting-room shorts in the body reference are never worn. Twenty-six, caramel brown skin, striking LIGHT GREY eyes, low-cut fade with a sharp lineup, a pretty-boy face. SKINNY, about 5'10": next to him, the top of Nia's head is level with his chin. Tattooed from the neck down, with dense dark-ink tattoos on his neck and full sleeves on both arms wherever the outfit leaves skin bare; no face tattoos. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
 
-DORIAN: <<<5deb4ada-665f-4894-8d16-2a9f34c0248f>>> is the ORIGINAL DORIAN and supplies his FACE, HAIR AND BODY ONLY: reproduce that man's exact facial identity, bone structure, hairline, short cropped hair with a crisp lineup and full short black beard. He must look like THAT man and nobody else. ANY CLOTHING IN THAT IMAGE IS NEVER REPRODUCED: no black outfit, no black shirt. HIS CLOTHES are the gym outfit he wears in the reference video, which is <<<98b667eb-7e9f-4a28-8859-448f15efa9d8>>>, unchanged in every shot. DEEP, DARK BROWN complexion, exactly as the reference: NEVER lightened, and lighting never lifts his skin tone. TALL AND HEAVILY BUILT, about 6'3": the tallest person on screen; next to him, Nia's head reaches his chest. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
+DORIAN: <<<7fbf0688-7a7a-4b63-9c15-a0fe2e3362d3>>> IS DORIAN: the ORIGINAL Dorian, already in his Say Less gym outfit. Reproduce that man's exact face, bone structure, hairline, short cropped hair with a crisp lineup, full short black beard and build. He must look like THAT man and nobody else. HIS OUTFIT IS EXACTLY THE GYM OUTFIT HE WEARS IN THE REFERENCE VIDEO (Segment 1), which is the outfit in <<<7fbf0688-7a7a-4b63-9c15-a0fe2e3362d3>>>; for the parts that image doesn't show (trousers or shorts, shoes), follow <<<98b667eb-7e9f-4a28-8859-448f15efa9d8>>> and the reference video. Unchanged in every shot. NEVER a black outfit. DEEP, DARK BROWN complexion, exactly as the reference: NEVER lightened, and lighting never lifts his skin tone. TALL AND HEAVILY BUILT, about 6'3": the tallest person on screen; next to him, Nia's head reaches his chest. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
 
 SIMONE: face and hair from <<<b2ab2ec6-2469-4b6b-9208-4f5b0eb02c09>>>; build from <<<e35f19e8-bfa1-45fb-bb2d-81de7915be9c>>>; HER CLOTHES COME ONLY FROM <<<b80e2725-b11b-447d-acf3-f5b5a760be74>>>, unchanged. Early thirties, warm mid-brown skin, a COPPER-AUBURN shoulder-length blunt bob with a deep side part. About 5'6": taller than Nia, shorter than Dorian. Cheerful and friendly, never smug. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
 

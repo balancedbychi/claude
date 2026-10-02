@@ -151,3 +151,5 @@ No text, no numbers, no labels, no watermark, no logos, no other people, no prop
 |---|---|---|
 | G5 | `6ea6028f-4d27-4005-95a1-941b76101428` | https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_044100_6ea6028f-4d27-4005-95a1-941b76101428.png |
 | G6 | `ff3c6e78-abac-427c-9c14-5cdfee6eb779` | https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_044100_ff3c6e78-abac-427c-9c14-5cdfee6eb779.png |
+
+**2 Oct 2026, the user picked G2** ("2") and uploaded it (media `8055a9b5-1535-49f7-98fb-12fa409f3789`). Saved as **`Dorian-Say-Less-Original` `7fbf0688-7a7a-4b63-9c15-a0fe2e3362d3`**: the original Dorian in the "Say Less" Segment 1 gym outfit, for the Segment 2 re-shoot.
