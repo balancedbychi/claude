@@ -1,6 +1,6 @@
 # "Ran Into Me": production notes and prompts (FOR REVIEW)
 
-**Status:** waiting for your go-ahead (rule 9). Nothing is filmed until you say "film".
+**Status:** Segment 1 v2 approved for filming and submitted as job `96ccbe40-024b-462c-bd43-ba7435447d75`. Segments 2 and 3 still need your review.
 
 ---
 

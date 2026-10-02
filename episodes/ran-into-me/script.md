@@ -169,4 +169,4 @@ Each render also attaches the casting elements (face and body) and the two voice
 | Segment | Job ID | Notes |
 |---|---|---|
 | 1 v1 | `0b4cbc8b-a4e2-41c5-a9f5-77e488759652` | **Rejected:** ChiChi had a British accent, she wasn't taller than Nia, and they split up while walking. |
-| 1 v2 | — | Prompt in `prompts.md`, awaiting your review (rule 9). |
+| 1 v2 | `96ccbe40-024b-462c-bd43-ba7435447d75` | Filmed after your "film" (2 Oct 2026), using the exact prompt in `prompts.md`. Awaiting your review. |
