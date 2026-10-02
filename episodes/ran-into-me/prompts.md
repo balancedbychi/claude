@@ -213,7 +213,7 @@ AUDIO: only these lines, plus soft park ambience, footsteps and distant birds, m
 
 ## SEGMENT 3 — "Ran into me" (12 s) — FOR REVIEW
 
-**Status:** waiting for (1) your approval of Segment 2 (`98e438d4…`), which this segment uses as its reference video, and (2) your "film".
+**Status:** you said "move to segment 3" (2 Oct 2026). Segment 2 v1 is accepted, and you'll trim its repeated last line in the edit. A no-repeated-dialogue line was added under rule 9.
 
 ### Production notes
 
@@ -253,6 +253,8 @@ CAMERA: the reference video's front-on steadicam for step 1, settling into still
 
 VOICE — DB'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A Dominican man of forty-eight speaking fluent English with a NATURAL HISPANIC ACCENT: a warm Caribbean Spanish flair in the vowels, lightly tapped r's, softened word endings, and the occasional Spanish rhythm in a phrase. His voice is LOW, WARM and CALMING: a soft-spoken, slightly husky baritone, mature and composed, with a gentle gravel at the bottom and a quiet intimacy, as if he never needs to raise his voice to be heard. He speaks SLOWLY and DELIBERATELY, with thoughtful pauses inside a sentence (never between lines), a reassuring tone, and a faint, knowing warmth, like a smile you can hear. A lawyer's clear, precise diction under the accent. Never loud, never fast, never slick or salesy, never cartoonish or exaggerated, never a heavy stereotype; the accent is real and natural, never put on.
 DB has the only two lines. Nia and ChiChi say nothing in this clip.
+
+DIALOGUE — NEW LINES ONLY. The reference video is for LOOKS, VOICES, PLACE AND CAMERA ONLY, NEVER for dialogue. NOBODY repeats ANY line from the reference video: no "become my man first", no "Don't we all?", nothing from earlier. The ONLY words spoken in this clip are DB's two lines, each said once. The final spoken line is DB's "But I'm so glad you ran into me."
 
 TIMING: no dead air. DB's second line follows his first within half a second. The ending beat on Nia lasts under one second.
 
