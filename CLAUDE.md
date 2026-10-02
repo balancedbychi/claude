@@ -28,6 +28,9 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 ### 3. ChiChi's hair is always honey-blonde
 - Never dark brown. `ChiChi-Series-Look` (`bc1bd310…`) says dark brown and is retired; never attach it.
 
+### 2b. Dorian's skin tone
+- **Dorian has a deep, dark brown complexion.** Match his reference photo exactly and **never lighten him** (user ruling, 2 Oct 2026). Every prompt with Dorian says so, and lighting must never lift his skin tone. See `characters/dorian.md`.
+
 ### 3a. Every character is single: no wedding rings, ever
 - **Nia, ChiChi, Dorian, Simone, Kel, and anyone else in the series are all single.**
 - **No wedding ring, engagement ring or band of any kind, on anyone.** The **fourth finger of the left hand is always bare skin**, on every character, in every shot.
