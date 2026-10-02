@@ -53,7 +53,7 @@ VOICES:
 
 SEQUENCE, IN ORDER:
 FIRST FRAME: Nia sits alone at the table on the left chair, facing right, both hands around a latte cup, taking a sip. Tay and Dorian are NOT in frame.
-1. (0-4 s) Medium-wide two-shot of the table with the open entrance and the counter visible behind Nia. TAY walks in through the open entrance BEHIND Nia, at a natural pace, Nia's phone in his hand. He comes round the RIGHT side of the table into her view and stops, putting on an exaggerated "oh, it's you, what a surprise" face. Nia looks up and rolls her eyes. Tay pulls out the right chair and sits down facing left, toward her.
+1. (0-4 s) Medium-wide two-shot of the table with the open entrance and the counter visible behind Nia. TAY walks in through the open entrance BEHIND Nia, at a natural pace, Nia's phone in his hand. He comes round the RIGHT side of the table into her view and stops, putting on an exaggerated "oh, it's you, what a surprise" face. Nia looks up and rolls her eyes. Tay pulls out the RIGHT chair with his free hand, sits down in it naturally (real weight, the chair scraping back slightly) and settles in, FACING LEFT toward Nia and the entrance. HE IS FULLY SEATED BEFORE HE SAYS HIS FIRST LINE, and he STAYS SEATED in that chair for the rest of the clip: he never stands up, never moves to the other side of the table, and never sits beside Nia.
 2. Two-shot across the table, with clean waist-up over-the-shoulder cuts for key lines:
 TAY (American), easy and smooth: "I don't want to seem like I'm stalking you or anything, but I think you left your phone."
 He hands it across and SETS IT ON THE TABLE beside her latte. It stays there.

@@ -10,7 +10,7 @@
 
 ## SEGMENT 1 (0:00–0:30)
 
-*INT. SUCRE, DAY. NIA sits at a small table, drinking her latte. TAY walks in and acts like he's surprised to see her. Nia rolls her eyes. Tay sits down across from her.*
+*INT. SUCRE, DAY. NIA sits at a small table, drinking her latte. TAY walks in and acts like he's surprised to see her. Nia rolls her eyes. Tay pulls out the chair across from her and sits down, facing her and the entrance. He's seated before he speaks, and stays seated for the rest of the segment.*
 
 > **TAY**
 > I don't want to seem like I'm stalking you or anything, but I think you left your phone.
