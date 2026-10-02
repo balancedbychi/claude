@@ -170,4 +170,4 @@ Each render also attaches the casting elements (face and body) and the two voice
 |---|---|---|
 | 1 v1 | `0b4cbc8b-a4e2-41c5-a9f5-77e488759652` | **Rejected:** ChiChi had a British accent, she wasn't taller than Nia, and they split up while walking. |
 | 1 v2 | `96ccbe40-024b-462c-bd43-ba7435447d75` | Filmed 2 Oct 2026. You said "much better"; it's used as the continuity reference for Segment 2. On screen: Nia LEFT in black, ChiChi RIGHT in cream with a cap. |
-| 2 v1 | `98e438d4-e834-4387-aadc-86cc01d6ec28` | Filmed after your "film" (2 Oct 2026), with Segment 1 v2 as the video reference and the exact prompt in `prompts.md`. Awaiting your review. |
+| 2 v1 | `98e438d4-e834-4387-aadc-86cc01d6ec28` | Filmed 2 Oct 2026. **Problem:** it ended with Segment 1's "Don't we all?". The v2 fix prompt is up for review; trimming the ending in the edit is an alternative. |

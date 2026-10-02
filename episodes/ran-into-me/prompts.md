@@ -1,6 +1,6 @@
 # "Ran Into Me": production notes and prompts (FOR REVIEW)
 
-**Status:** Segment 1 v2 (`96ccbe40…`) is filmed; you said it's "much better". Segment 2 is filmed (`98e438d4…`) and awaiting your review. **Segment 3's prompt is below for your review** (rule 9).
+**Status:** Segment 1 v2 (`96ccbe40…`) is filmed; you said it's "much better". Segment 2 v1 (`98e438d4…`) repeated Segment 1's "Don't we all?" at the end. **Segment 2 v2's prompt (the fix) and Segment 3's prompt are below for your review** (rule 9).
 
 ---
 
@@ -141,6 +141,70 @@ CHICHI (American), laughing: "Well, he would've had to become my man first."
 The clip ends on ChiChi's laugh as they keep walking together toward camera. Cut out immediately.
 
 LINE OWNERSHIP, NEVER SWAPPED: Nia says "So what happened with you and Kel?", "You know Kel called me, right?", "Yeah. Kel called me.", "He told you he didn't want kids?", "Okay. Well... I guess that's that, then." and "Are you serious?...". ChiChi says every other line.
+
+AUDIO: only these lines, plus soft park ambience, footsteps and distant birds, matching the reference video. No music, no narration.
+```
+
+---
+
+### Segment 2 v2 — fix for the repeated line (FOR REVIEW)
+
+**The problem:** v1 (`98e438d4…`) ended with Segment 1's line, "Don't we all?". The v1 prompt opened with "still smiling from the last clip" and ended "on ChiChi's laugh", which matched how Segment 1 ended, so the model copied that ending from the reference video.
+
+**The fix:**
+- The reference video is now limited to **looks, voices, place and camera, never dialogue**.
+- "Don't we all?" is banned by name.
+- Every line is said exactly once.
+- ChiChi's "become my man first" is locked as the **last line**, with a cut half a second after it.
+- The "smiling from the last clip" and "ends on ChiChi's laugh" wording is gone.
+
+**Cheaper alternative:** if everything else in v1 is right, you can **trim the last couple of seconds off v1** in your editor so it ends on "become my man first". That costs nothing, and you'd skip the re-film (about 360 credits).
+
+```
+30 SECONDS. SUNNY AFTERNOON. Photoreal cinematic drama, vertical 9:16. THIS CLIP CONTINUES DIRECTLY FROM THE REFERENCE VIDEO: the same two women, the same walk, the same sidewalk, a moment later.
+
+*** THE REFERENCE VIDEO IS THE AUTHORITY FOR EVERYTHING ON SCREEN. *** Both women look, dress, move and SOUND EXACTLY as they do in the reference video. The same place, the same golden afternoon light, the same camera style. Nothing changes from the reference video: no new clothes, no colour changes, no new accessories, no different hair.
+
+POSITIONS, EXACTLY AS IN THE REFERENCE VIDEO: NIA is on the LEFT of frame, CHICHI is on the RIGHT of frame, for the whole clip. They never swap sides.
+
+NIA (left), exactly as in the reference video: face, hair and skin from <<<3497a052-ed61-4fbc-babe-c9f7fc11bf77>>>, body from <<<9b1d610c-f6e6-421b-a801-89e22827e1bf>>>, outfit from <<<e2685e2d-fd72-4ffa-b6f4-3a44de390fd7>>>: a fitted black short-sleeve top, black running shorts, white sneakers, a blush-pink smartwatch on her left wrist, diamond stud earrings, long jet-black curls worn down. Never a green sweatshirt. PETITE AND CURVY: the shorter of the two, with an hourglass figure. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
+
+CHICHI (right), exactly as in the reference video: face, hair and skin from <<<b03240bd-4562-4d2f-8b14-de32c018e346>>>, body from <<<46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc>>>, outfit from <<<4f6cbc5e-6a29-43b1-ad16-1a6ccd327761>>>: an oatmeal baseball cap, an oversized cream quarter-zip sweatshirt over a pale-yellow top, cream shorts, white sneakers. HONEY-BLONDE hair under the cap. Full-figured. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no bracelets.
+
+HEIGHT: ChiChi is A BIT TALLER than Nia, about three inches: the TOP OF NIA'S HEAD is level with CHICHI'S EYES. Not towering. Nia is never the taller one.
+
+SET: the park sidewalk <<<cdd792fc-0e59-4b15-b24e-9864cea52044>>>, exactly as in the reference video: the low black iron railing and park trees on the LEFT of frame, brownstones on the RIGHT, pale paving, dappled shade, warm golden afternoon sun.
+
+WALKING: they walk TOGETHER, side by side, straight down the sidewalk TOWARD THE CAMERA, in the SAME DIRECTION and at the SAME relaxed pace as in the reference video. They NEVER split up, never walk in different directions, never leave the frame. The ONLY change is scripted: Nia stops for a moment (below), ChiChi stops one step later and turns back to her, and then they start walking again TOGETHER, in the same direction as before.
+
+CAMERA: exactly the reference video's camera: a smooth steadicam moving BACKWARD ahead of them at walking pace, eye level, front-on, medium shot from about mid-thigh up, with a few clean cuts to waist-up singles. NO ZOOMS. NO PUSH-INS. NO EXTREME CLOSE-UPS.
+
+VOICES, EXACTLY AS IN THE REFERENCE VIDEO:
+- NIA IS BRITISH: <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>, warm, low, dry and deadpan. The same voice as in the reference video.
+- CHICHI IS AMERICAN, NOT BRITISH: <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>, a warm, smooth, mid-to-low Black American woman's voice with a GENERAL AMERICAN ACCENT, calm authority, dry humour. The same voice as in the reference video. ChiChi NEVER has a British accent and never sounds like Nia.
+
+TIMING: one fast, natural conversation; gaps between lines never longer than two tenths of a second. The only beats are the two marked HALF-SECOND beats. No dead air at the start or end.
+
+DIALOGUE — NEW LINES ONLY. The reference video is for LOOKS, VOICES, PLACE AND CAMERA ONLY, NEVER for dialogue. NOBODY repeats ANY line from the reference video. In particular, "Don't we all?" is NEVER said in this clip, not at the start, not at the end, not by anyone. The ONLY words spoken are the lines listed below, each said exactly ONCE, in this order.
+
+SEQUENCE AND DIALOGUE, IN ORDER (opens mid-walk):
+NIA (British), curious, glancing at ChiChi: "So what happened with you and Kel?"
+[HALF-SECOND BEAT: ChiChi looks away, ahead down the path, still walking.]
+NIA (British), with a knowing look: "You know Kel called me, right?"
+CHICHI (American), turning her head to Nia, surprised, still walking: "Wait — what?"
+NIA (British): "Yeah. Kel called me."
+CHICHI (American), dry: "Yeah, well, Kel also should've told you when he called that he doesn't want to have children."
+NIA STOPS walking. ChiChi takes ONE more step, stops, and turns back to face her. They stand facing each other on the path for these two lines, in a waist-up two-shot:
+NIA (British), stunned: "He told you he didn't want kids?"
+CHICHI (American), flat: "Yep. He doesn't want kids."
+They START WALKING AGAIN, TOGETHER, side by side, the SAME DIRECTION AS BEFORE, toward the camera, Nia LEFT and ChiChi RIGHT:
+NIA (British): "Okay. Well... I guess that's that, then."
+CHICHI (American): "Yep. That's that."
+NIA (British), incredulous, turning to her: "Are you serious? That's it? You're not even gonna fight for your man?"
+CHICHI (American), with a dry little smile: "Well, he would've had to become my man first."
+THIS IS THE LAST LINE OF THE CLIP. Nobody speaks after it. Within half a second, the clip cuts out as they keep walking together toward camera. NO extra line, NO "Don't we all?", NO repeated dialogue, NO added laugh line.
+
+LINE OWNERSHIP, NEVER SWAPPED: Nia says "So what happened with you and Kel?", "You know Kel called me, right?", "Yeah. Kel called me.", "He told you he didn't want kids?", "Okay. Well... I guess that's that, then." and "Are you serious?...". ChiChi says every other line. Final spoken line: ChiChi's "Well, he would've had to become my man first."
 
 AUDIO: only these lines, plus soft park ambience, footsteps and distant birds, matching the reference video. No music, no narration.
 ```
