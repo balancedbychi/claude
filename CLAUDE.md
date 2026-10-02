@@ -95,6 +95,12 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 ### 11. Walking scenes
 - People walking together **walk side by side in the SAME direction, straight along the path, at the same pace, staying together** for the whole shot. They never split up, turn away from each other or head off in different directions unless the script says so.
 
+### 12. Nobody stands like a prop (user ruling, 2 Oct 2026)
+- **Every person in frame always has something purposeful and natural to do**, including when the camera isn't on them, in the background, and while a scene is setting up. That means talking with each other with natural movement and gestures, standing close the way real people do, doing an activity that fits the place (re-racking a weight, sipping water, stretching), or reacting to what's happening.
+- **No one stands frozen, staring or waiting for a cue.** Two people waiting together are chatting; a person who has just finished a line keeps moving and reacting.
+- **Every prompt has a "WHAT EVERYONE IS DOING" block** that gives each character, and any background extras, an action for every stretch of the clip, especially the off-camera and setup moments.
+- **Before filming, if it isn't clear what a character should be doing, ask the user** and include the proposed actions in the production notes for review.
+
 ## How to render (Seedance 2.5 through the Higgsfield tools)
 
 - Pass elements in `reference_elements` **and** each element's image in `medias` as `image_references`. The API rejects element-only requests.

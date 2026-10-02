@@ -266,6 +266,11 @@ AUDIO: only these lines, plus quiet gym ambience. No narration.
 
    The prompt also says his outfit is the same from the front, side and back, the whole time he walks away, and never a grey T-shirt or charcoal trousers.
 
+4. **Nobody stands like a prop (your new rule):** a "What everyone is doing" block gives each person an action for the whole clip:
+   - **Nia and Tay** chat close together by the rack before she spots Dorian.
+   - **Simone** refills her bottle and stretches while Dorian is away, then greets him when he gets back.
+   - **The gym-goers** in the background keep working out.
+
 **Unchanged:** the rest of your script, Dorian's smooth delivery, Nia British and saying "NEE-uh", natural pauses allowed, no rings, Dorian's skin never lightened, heights Nia < Simone < Tay < Dorian, no zooms.
 
 **Attached:** reference video = Segment 1 `b9d339ff…` (gym, camera, Nia's, Tay's and Simone's outfits, Nia's and Tay's voices). Elements: gym, `Nia-Face`, `Nia-Body`, Nia's look, `Tay-Face`, `Tay-Body`, Tay's look, **`Dorian-Say-Less-Full`**, `Simone-Face-v5`, `Simone-Body-v2`, Simone's look, `Nia-Canon-Voice-v2`.
@@ -312,6 +317,13 @@ TAY (American), easy grin: "I'm Tay."
 NIA (British), dry: "I'm Nia." (said "I'm NEE-uh")
 TAY (American), grinning: "I guess we go together now."
 Nia rolls her eyes. The clip ends on her eye roll. Nobody speaks after it.
+
+WHAT EVERYONE IS DOING (nobody ever stands frozen like a prop, on or off camera):
+- NIA, before she spots Dorian: chatting quietly with Tay, close together by the rack, natural small gestures, her water bottle in one hand; she takes a sip. Throughout the scene she keeps holding the bottle.
+- TAY, before the cue: leaning easily on the dumbbell rack, chatting and smiling at Nia, half-laughing at something she says. After the cue he straightens up, ready. After "Aight" he watches Dorian go with a satisfied grin, then turns his full attention back to Nia. When she brushes his arm off he lifts both hands, playful, and grins.
+- DORIAN, walking over and back: an easy, unhurried stride, shoulders relaxed, arms swinging naturally, never stiff. Walking back, he rolls his shoulders once and glances back at Nia over his shoulder for a split second before rejoining Simone.
+- SIMONE, the whole time Dorian is away: at the water station refilling her water bottle, then doing a light shoulder and arm stretch, glancing over now and then with pleasant curiosity, never staring. When Dorian gets back she smiles and says something inaudible to him, and they turn toward the training floor together.
+- BACKGROUND GYM-GOERS (a few, far back): working out (lifting, using a bench, walking between machines), never looking at the main characters.
 
 LINE OWNERSHIP, NEVER SWAPPED: Nia says "Okay, he's coming." and "I'm Nia." Dorian says "So... you decided?" and "Aight." Tay says "She's good over here.", "I'm Tay." and "I guess we go together now." The final spoken line is Tay's "I guess we go together now." Simone does not speak.
 
