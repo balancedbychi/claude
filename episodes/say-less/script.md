@@ -3,7 +3,7 @@
 **Format:** scripted short, vertical 9:16
 **Runtime:** about 60 seconds, **2 segments of 30 s each**. Each segment is one render with cuts inside it. Film one at a time, and approve each one before the next (rule 9).
 **Cast:** Nia · Tay (first appearance) · Dorian · Simone
-**Set:** an upscale city gym in bright daytime. *(Set element pending your upload.)*
+**Set:** `Gym-Day`, option **G3**: an industrial-loft boutique gym (exposed brick, steel beams, factory windows) in bright daytime.
 
 ---
 
@@ -16,8 +16,8 @@ Nia walks into the gym and sees Simone hugging Dorian. She turns to leave and co
 ## The gym map (it stays fixed across both segments)
 
 - **Camera position:** just inside the entrance, looking into the gym.
-- **Entrance:** the open doorway on the **LEFT edge of frame**. There's no door action (rule 5): it's an open archway.
-- **Dumbbell rack:** **RIGHT side, just inside the entrance.** Tay is here, with his back to the entrance.
+- **Entrance:** right behind or beside the camera. Nia walks in past the camera. There's no door action (rule 5).
+- **Dumbbell rack:** just inside the entrance, **on whichever side your G3 image shows it.** Tay is here, with his back to the entrance.
 - **Water station and windows:** the far back of the gym, centre. **Dorian and Simone are here,** clearly visible but small in the background.
 - **Heights:** Nia (shortest, about 5'2") < Simone (about 5'6") < Tay (about 5'10") < Dorian (about 6'3"). Next to Tay, the top of Nia's head is level with his chin. Next to Dorian, it reaches his chest.
 

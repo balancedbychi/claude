@@ -1,6 +1,6 @@
 # "Say Less": production notes and prompts (FOR REVIEW)
 
-**Status:** for your review (rule 9). Your uploads are saved, and their element IDs are now filled into the prompts. **Nothing else changed.** Nothing is filmed until you say "film".
+**Status:** for your review (rule 9). Your uploads are saved, and their IDs are filled in. **Update 2 Oct 2026:** you picked **G3, the industrial-loft gym**, so the set description now says exposed brick, steel beams and factory windows, and **the reference image decides the layout**. I removed the fixed "entrance on the LEFT, rack on the RIGHT" because I can't see your image to confirm which side things are on. Nothing is filmed until you say "film".
 
 ## Production notes
 
@@ -32,7 +32,7 @@
 ```
 30 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16.
 
-SET AND GEOGRAPHY: the gym <<<897f65a6-9fd6-4518-b5f2-dea720a0af88>>>, exactly as the reference shows, bright daytime. FIXED MAP, the same in every shot: the camera is just inside the entrance, looking into the gym. The ENTRANCE is an open doorway on the LEFT edge of frame (no door is opened or closed). A DUMBBELL RACK runs along the RIGHT side, just inside the entrance. The WATER STATION and big windows are at the FAR BACK, in the centre. No text, logos, numbers or signage anywhere, including on equipment and weight plates. A few distant gym-goers far in the background only.
+SET AND GEOGRAPHY: the gym <<<897f65a6-9fd6-4518-b5f2-dea720a0af88>>>, an INDUSTRIAL-LOFT boutique gym in bright DAYTIME, exactly as the reference image shows: exposed brick walls, high ceilings with black steel beams, large factory windows with daylight, black rubber flooring. THE REFERENCE IMAGE DECIDES THE LAYOUT. Where it disagrees with any left/right wording, the image wins. FIXED MAP, the same in every shot: the camera stands just inside the entrance, looking into the gym, with the entrance right behind or beside the camera. The DUMBBELL RACK is just inside the entrance, along the side where the reference image shows it. The open training floor with squat racks and benches is beyond it, and the WATER STATION is at the FAR BACK. No door is opened or closed. No text, logos, numbers or signage anywhere, including on equipment and weight plates. A few distant gym-goers far in the background only.
 
 NIA: face, hair and skin from <<<3497a052-ed61-4fbc-babe-c9f7fc11bf77>>>; body from <<<9b1d610c-f6e6-421b-a801-89e22827e1bf>>>; HER CLOTHES COME ONLY FROM <<<f7d303df-2f64-4a64-ae3e-761a21b865cd>>>: ONE outfit, unchanged in every shot; nothing from the face or body references is worn; never a green sweatshirt. Thirty, Black British, deep warm brown skin, jet-black waist-length water-wave curls, diamond stud earrings. PETITE AND CURVY: the SHORTEST person on screen (about 5'2"), with an hourglass figure: small defined waist, fuller bust, full rounded hips and thighs; never tall, never slim-hipped. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
 
@@ -49,7 +49,7 @@ VOICES:
 Dorian and Simone do NOT speak in this clip. They are seen at the far back only.
 
 SEQUENCE, IN ORDER (simple and clear: where people are, how they move, then the conversation):
-1. (0-4 s) Medium-wide shot from just inside the entrance. NIA walks in through the open entrance on the LEFT at a natural pace, a water bottle in one hand. TAY is at the dumbbell rack on the RIGHT, his back to the entrance, re-racking a dumbbell. Nia slows and stops. At the FAR BACK, by the water station, SIMONE is hugging DORIAN, warm and easy, clearly visible but small in frame.
+1. (0-4 s) Medium-wide shot from just inside the entrance. NIA walks in through the entrance, past the camera and into frame, at a natural pace, a water bottle in one hand. TAY is at the dumbbell rack just inside the entrance, his back to the entrance, re-racking a dumbbell. Nia slows and stops. At the FAR BACK, by the water station, SIMONE is hugging DORIAN, warm and easy, clearly visible but small in frame.
 2. (4-7 s) Waist-up on Nia: her jaw sets, her eyes harden, and she's about to lose it. A sharp exhale. She spins on her heel to leave, stepping back toward the entrance.
 3. (7-9 s) THE COLLISION: BOTH ARE MOVING. At the SAME moment, Tay sets the dumbbell down on the rack, turns around and steps toward the entrance. They walk straight into each other mid-stride: her shoulder meets his chest, they both stop short, and he catches her lightly by the upper arms to steady her. Natural and simultaneous, at real walking speed. NEITHER of them is standing still and waiting; nobody stumbles or falls; the water bottle stays in her hand; no slow motion.
 4. (9-30 s) Two-shot by the rack, from mid-thigh up, with clean cuts to waist-up singles for key lines. Nia looks up at Tay; he looks down at her.
@@ -83,7 +83,7 @@ This is filmed only after you approve Segment 1.
 
 *** THE FIRST REFERENCE VIDEO IS THE AUTHORITY FOR LOOKS, OUTFITS, PLACE, CAMERA AND THE VOICES OF NIA AND TAY. *** Nia, Tay, Dorian and Simone look and dress EXACTLY as in it. Nothing changes. THE SECOND REFERENCE VIDEO is used ONLY for DORIAN'S VOICE; nothing else is taken from it: not his clothes, not the room, not anyone else in it. Reference videos are NEVER used for dialogue: nobody repeats any line from either reference video, and "Say less" is NEVER said in this clip.
 
-SET AND GEOGRAPHY: the gym <<<897f65a6-9fd6-4518-b5f2-dea720a0af88>>>, exactly as the reference shows, bright daytime. FIXED MAP, the same in every shot: the camera is just inside the entrance, looking into the gym. The ENTRANCE is an open doorway on the LEFT edge of frame (no door is opened or closed). A DUMBBELL RACK runs along the RIGHT side, just inside the entrance. The WATER STATION and big windows are at the FAR BACK, in the centre. No text, logos, numbers or signage anywhere, including on equipment and weight plates. A few distant gym-goers far in the background only.
+SET AND GEOGRAPHY: the gym <<<897f65a6-9fd6-4518-b5f2-dea720a0af88>>>, an INDUSTRIAL-LOFT boutique gym in bright DAYTIME, exactly as the reference image shows: exposed brick walls, high ceilings with black steel beams, large factory windows with daylight, black rubber flooring. THE REFERENCE IMAGE DECIDES THE LAYOUT. Where it disagrees with any left/right wording, the image wins. FIXED MAP, the same in every shot: the camera stands just inside the entrance, looking into the gym, with the entrance right behind or beside the camera. The DUMBBELL RACK is just inside the entrance, along the side where the reference image shows it. The open training floor with squat racks and benches is beyond it, and the WATER STATION is at the FAR BACK. No door is opened or closed. No text, logos, numbers or signage anywhere, including on equipment and weight plates. A few distant gym-goers far in the background only.
 
 NIA: face, hair and skin from <<<3497a052-ed61-4fbc-babe-c9f7fc11bf77>>>; body from <<<9b1d610c-f6e6-421b-a801-89e22827e1bf>>>; HER CLOTHES COME ONLY FROM <<<f7d303df-2f64-4a64-ae3e-761a21b865cd>>>: ONE outfit, unchanged in every shot; nothing from the face or body references is worn; never a green sweatshirt. Thirty, Black British, deep warm brown skin, jet-black waist-length water-wave curls, diamond stud earrings. PETITE AND CURVY: the SHORTEST person on screen (about 5'2"), with an hourglass figure: small defined waist, fuller bust, full rounded hips and thighs; never tall, never slim-hipped. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
 
@@ -101,7 +101,7 @@ VOICES:
 - Simone does not speak in this clip.
 
 SEQUENCE, IN ORDER:
-1. (0-5 s) Nia and Tay stand by the dumbbell rack on the RIGHT, facing each other, exactly where Segment 1 ended. At the far back, DORIAN notices them, says a quiet word to Simone, and walks across the gym toward them at a natural pace. SIMONE stays by the water station, pleasantly watching. Dorian stops a comfortable step from Nia.
+1. (0-5 s) Nia and Tay stand by the dumbbell rack just inside the entrance, facing each other, exactly where Segment 1 ended. At the far back, DORIAN notices them, says a quiet word to Simone, and walks across the gym toward them at a natural pace. SIMONE stays by the water station, pleasantly watching. Dorian stops a comfortable step from Nia.
 2. Three-shot from mid-thigh up, Dorian towering over Nia, with clean waist-up cuts for key lines:
 DORIAN (American): "Hey, Nia. How are you?"
 NIA (British), cool: "Just working out."
