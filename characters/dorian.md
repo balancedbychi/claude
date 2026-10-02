@@ -137,3 +137,10 @@ No text, no numbers, no labels, no watermark, no logos, no other people, no prop
 |---|---|---|
 | G1 | Full length | `2414f33e-1f2a-4388-b923-f3a4991d3b7b` |
 | G2 | Waist-up | `dae5d325-5372-46fe-9d75-8ac5db27f762` |
+
+**2 Oct 2026, gym-outfit preview round 2:** ORIGINAL `Dorian` image `887050a4…` (face and body) + `Dorian-Say-Less-Look` `82c104ba…` (the outfit he wears in "Say Less" Segment 1) only; no casting-sheet elements.
+
+| Option | Job ID | Link |
+|---|---|---|
+| G3 | `4b10dbaa-29b1-4036-a894-22d9443e1359` | https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_042044_4b10dbaa-29b1-4036-a894-22d9443e1359.png |
+| G4 | `bb619e32-cf9e-4132-80c0-69e4bc3a158f` | https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_042044_bb619e32-cf9e-4132-80c0-69e4bc3a158f.png |
