@@ -1,6 +1,6 @@
 # EXCLUSIVE with Nia and Chi: "GPS Tracker"
 
-**Status:** script for your review (2 Oct 2026). Nothing is filmed until you approve the script, then each segment's prompt, with "film" (rule 9).
+**Status:** script and floor plan APPROVED (2 Oct 2026). Confirmed: Dorian uses his written voice only; his line is "Oh, what? Whatcha walking over here for?"; the phone stays on the table. Next: your photo uploads. Nothing is filmed until you approve the script, then each segment's prompt, with "film" (rule 9).
 **Format:** scripted short, vertical 9:16, 1080p. About 60 seconds: **2 segments of 30 seconds each**. Each segment is one render with cuts inside it.
 **Cast:** Nia · Tay · Dorian. **Nobody else speaks.** Simone is **not** in this episode.
 **Set:** Sucre, a café. Nia is already seated when the episode opens.
@@ -68,11 +68,11 @@
 - **Nia:** `Nia-Face` + `Nia-Body`, with her clothes only from her GPS Tracker outfit (your upload). Petite and curvy, the shortest person on screen. **British**, saved voice `Nia-Canon-Voice-v2`. Her name is said "NEE-uh" (not spoken in this script).
 - **Tay:** `Tay-Face` + `Tay-Body`, with his clothes only from his GPS Tracker outfit (your upload). About 5'10", skinny, tattooed. **American**, voice from his written description, word for word.
 - **Dorian:** the **original `Dorian` element** (face and body only), with his clothes only from his GPS Tracker outfit (your upload), shoes on. Deep, dark brown skin, never lightened. About 6'3", the tallest person on screen. **American.**
-- **Dorian's voice:** your answer came through as "Dorian's voice is a…", so I've read it as **(a): his written description only**, word for word, with no "Miscommunication" clip attached. Please confirm.
+- **Dorian's voice (confirmed):** his written description only, word for word. No "Miscommunication" clip.
 - **No rings on anyone.** The fourth finger of every left hand is bare skin.
 
 ### Locked prop: Nia's phone
-- A phone in a **beige/tan case**, the same in every shot and every future episode. It never changes colour, size, model or position. It goes from Tay's hand to the table and stays on the table in Segment 1.
+- A phone in a **beige/tan case**, the same in every shot and every future episode. It never changes colour, size, model or position. It goes from Tay's hand to the table and **stays on the table** (confirmed), next to Nia's latte, for the rest of the episode.
 - **Needs your upload:** a photo of the phone. It becomes the element `Nia-Phone` and is attached whenever the phone appears.
 
 ### Floor plan and sightlines (the map the AI must follow)
