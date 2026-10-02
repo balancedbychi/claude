@@ -72,6 +72,11 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - This carries over the voices, Dorian's especially, and the outfits. It works better than rebuilding them from elements each time.
 - If an approved segment and a wardrobe upload disagree, **the approved segment wins**, unless the user says otherwise. In "Miscommunication", Dorian wears the black outfit from Segment 1, not `Dorian-Miscommunication-Look`.
 
+### 8. Photos always come from the user's upload
+- **Whenever a photo is needed** (a casting sheet, wardrobe, set, prop, or any image that becomes an element or reference), **ask the user which photo to upload, then open the upload widget.** The user uploads it themselves.
+- **Never pick for the user.** Never save an element straight from a generated job, and never default to "option 1", even if the user answers "ok". (User ruling, 2 Oct 2026.)
+- The Simone and Kel elements saved on 2 Oct 2026 from F1/B1 by default are **provisional** until the user uploads their own picks; they'll be replaced then.
+
 ## How to render (Seedance 2.5 through the Higgsfield tools)
 
 - Pass elements in `reference_elements` **and** each element's image in `medias` as `image_references`. The API rejects element-only requests.

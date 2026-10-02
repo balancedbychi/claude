@@ -53,4 +53,4 @@ This is the single source of truth for who Kel is on screen. The series rules in
 | Body turnaround | B1 | `6721e3c9-3a93-4746-b7f1-d97ae3c12fdc` |
 | Body turnaround | B2 | `a4d87546-a6a5-402b-99de-bb887b86347e` |
 
-**2 Oct 2026, saved after the user's "ok":** F1 → `Kel-Face`, B1 → `Kel-Body`. The first option was saved by default; swap to F2/B2 on request.
+**2 Oct 2026, saved after the user's "ok":** F1 → `Kel-Face`, B1 → `Kel-Body`. **Provisional:** the first option was saved by default, against rule 8. It will be replaced by the user's uploaded picks.

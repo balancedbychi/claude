@@ -53,4 +53,4 @@ This is the single source of truth for who Simone is on screen. The series rules
 | Body turnaround | B1 | `b1e18d81-c394-4305-941a-aa858c6de197` |
 | Body turnaround | B2 | `8dd94106-d543-45cf-9ca0-e1f27add28ca` |
 
-**2 Oct 2026, saved after the user's "ok":** F1 → `Simone-Face-v4`, B1 → `Simone-Body`. The first option was saved by default; swap to F2/B2 on request.
+**2 Oct 2026, saved after the user's "ok":** F1 → `Simone-Face-v4`, B1 → `Simone-Body`. **Provisional:** the first option was saved by default, against rule 8. It will be replaced by the user's uploaded picks.
