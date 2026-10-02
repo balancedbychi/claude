@@ -172,3 +172,11 @@ The camera always shoots from the same side of the café, so left and right neve
 | C1 | Warm cream, blush and wood patisserie, marble counter | `68844e41-e9b1-426a-94d1-825e717f4bb7` |
 | C2 | Parisian-industrial: green tile counter, brick, bentwood chairs | `805b6087-386b-43c2-97b8-84baef8742de` |
 | C3 | Bright minimalist luxury: white oak and terrazzo, beige | `5cd352ef-e6f6-495a-9bfe-0258e161a62a` |
+
+| Set | `Sucre-Day` (option C1, the user's upload) | `7f9a4d83-44b7-470f-a1ec-73740c0630d0` | `a1ab5da3-733f-4180-9dc2-6d403f7cf5fd` |
+
+## Render log
+
+| Segment | Job ID | Notes |
+|---|---|---|
+| 1 v1 | `c9024010-2d2e-409f-98e2-5418f6bf7c6f` | 30 s, 1080p. Filmed 2 Oct 2026 after your "film", with the exact prompt in `prompts.md`. No reference video (new scene). Awaiting your review. |
