@@ -162,3 +162,4 @@ No text, no numbers, no labels, no watermark, no logos, no other people, no prop
 | G8 | `5e866abc-aa9f-42b8-828d-1bca6bdacaf0` | https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_050856_5e866abc-aa9f-42b8-828d-1bca6bdacaf0.png |
 
 **2 Oct 2026, the user's full-length upload** (media `b5f1682c-6a32-4194-a177-8d5867df8307`), saved as **`Dorian-Say-Less-Full` `606734b1-423b-469c-a95b-c98743b1ccde`**: the original Dorian head to toe in the gym outfit with shoes. It fixes v3's missing shoes and the switch into casting clothes.
+- **Footwear (user, 2 Oct 2026):** Dorian can wear socks in general; in "Say Less" he wears shoes.
