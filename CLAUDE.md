@@ -18,6 +18,9 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - The same rule applies to every character: a face or identity element supplies the face, never the clothes.
 - **Lasting fix, done 2 Oct 2026:** use `Nia-Face` (`3497a052-ed61-4fbc-babe-c9f7fc11bf77`, image `f6cb34ea-d129-47b0-b9ed-3543a76c6177`) in place of `Nia` for her face, race and hair, and `Nia-Body` (`9b1d610c-f6e6-421b-a801-89e22827e1bf`, image `1d11160f-f3a9-4bad-997b-1432bf839f7e`) for her proportions. `Nia-Body`'s sand bodysuit is never her costume. Never attach the old `Nia` element again. This is the same fix that stopped Simone's grey T-shirt (see `Simone-Face-v3`).
 
+### 2-update. Nia's face (user, 2 Oct 2026)
+- **The ORIGINAL cast character `Nia` (`bcd528d3…`, image `362ecc5e…`) is Nia's true face** (user: "yes that's Nia"). `Nia-Face`/`Nia-Body` and screenshot-based elements produced the wrong woman. Build each episode's Nia as **one approved still**: the original Nia + the episode outfit. Make a cheap image preview, have the user approve it, then the user uploads it as a single element. GPS Tracker: `Nia-GPS-v2` `709f0a07-14b6-4d1f-8d36-e2a7c8092782`. Her clothes still never come from the original image (no green sweatshirt).
+
 ### 2a. Nia's body: petite but curvy, never drifting
 - **Nia is PETITE and CURVY.** She's short and small-framed, clearly shorter than ChiChi and much shorter than Dorian, with an hourglass figure: a small, defined waist, a fuller bust, and full, rounded hips and thighs. Healthy and toned at thirty.
 - **Never** tall, long-legged or model-proportioned. **Never** straight up and down, boxy or thick through the waist. **Never** slim-hipped, flat or boyish. **Never** heavier or larger-framed than she is.

@@ -12,7 +12,7 @@
 
 | Tag | Who | Element(s) attached | Voice | Speaks? |
 |---|---|---|---|---|
-| `[Nia-GPS]` | NIA | `Nia-GPS` `ca79ebfe-7f2e-4ce6-aa25-78fd1d992557` (image `7f3a3bce…`): your screenshot of Nia from "Say Less" Segment 1. Her face, body and outfit all come from this one picture. | `Nia-Canon-Voice-v2` `b3d2fc9b…`, British | Yes |
+| `[Nia-GPS]` | NIA | `Nia-GPS-v2` `709f0a07-14b6-4d1f-8d36-e2a7c8092782` (image `7bb4d088…`): the still you approved, showing the original cast Nia in your uploaded outfit. Face, body and outfit in one picture. | `Nia-Canon-Voice-v2` `b3d2fc9b…`, British | Yes |
 | `[Tay-GPS]` | TAY | `Tay-GPS` `d49370d7-9378-4394-b1f8-01ea3127a3b2` (image `c1eaf28d…`): your screenshot of Tay from "Say Less" Segment 1. His face, body and outfit all come from this one picture. | Written description (`characters/tay.md`), word for word, American | Yes |
 | `[Dorian-Full]` | DORIAN | `Dorian-Say-Less-Full` `606734b1-423b-469c-a95b-c98743b1ccde` (image `b5f1682c…`): correct in v1, kept | Written description (rule 3b), word for word, American | Segment 2 only |
 | `[Nia-Phone]` | Nia's phone (prop) | `Nia-Phone` `c9e91260-9ef3-4d7f-ab7c-94498fed5e5c` (image `ad3a5a8b…`) | — | — |
