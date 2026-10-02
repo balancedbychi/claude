@@ -252,3 +252,72 @@ TIMING: let the scene breathe naturally. Natural pauses are fine where the momen
 
 AUDIO: only these lines, plus quiet gym ambience. No narration.
 ```
+
+---
+
+## SEGMENT 2 v4 — RE-SHOOT (30 s) — PROMPT FOR REVIEW
+
+**Your notes on v3 (`a84e85a4`) and the fixes:**
+1. **Nia and Tay just stood staring while Dorian walked over.** Now Nia spots him coming and turns to Tay: **"Okay, he's coming."** That's Tay's cue: he gives a small nod and gets ready, then puts his arm around her when Dorian arrives.
+2. **Dorian had no shoes.** He now comes only from **your full-length upload**, saved as `Dorian-Say-Less-Full` `606734b1…` (image `b5f1682c…`), shoes included. The prompt says he wears his shoes in every shot.
+3. **His outfit switched to the casting clothes when he walked away.** Two causes are removed:
+   - The old outfit element `Dorian-Say-Less-Look` is dropped. Its saved description named the retired casting elements.
+   - Dorian no longer takes his look from the Segment 1 reference video; only your image counts for him.
+
+   The prompt also says his outfit is the same from the front, side and back, the whole time he walks away, and never a grey T-shirt or charcoal trousers.
+
+**Unchanged:** the rest of your script, Dorian's smooth delivery, Nia British and saying "NEE-uh", natural pauses allowed, no rings, Dorian's skin never lightened, heights Nia < Simone < Tay < Dorian, no zooms.
+
+**Attached:** reference video = Segment 1 `b9d339ff…` (gym, camera, Nia's, Tay's and Simone's outfits, Nia's and Tay's voices). Elements: gym, `Nia-Face`, `Nia-Body`, Nia's look, `Tay-Face`, `Tay-Body`, Tay's look, **`Dorian-Say-Less-Full`**, `Simone-Face-v5`, `Simone-Body-v2`, Simone's look, `Nia-Canon-Voice-v2`.
+
+**Cost:** 360 credits.
+
+```
+30 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16. THIS CLIP CONTINUES DIRECTLY FROM THE REFERENCE VIDEO (Segment 1): the same gym, the same people, moments later.
+
+*** THE REFERENCE VIDEO IS THE AUTHORITY FOR PLACE, CAMERA, THE OUTFITS OF NIA, TAY AND SIMONE, AND THE VOICES OF NIA AND TAY. *** Nia, Tay and Simone dress EXACTLY as in it. Nothing changes. DORIAN IS THE EXCEPTION: his face, body, outfit and shoes come ONLY from <<<606734b1-423b-469c-a95b-c98743b1ccde>>>, never from the reference video or any other image. Dorian's voice comes ONLY from his written description below. The reference video is NEVER used for dialogue: nobody repeats any line from it, and "Say less" is NEVER said in this clip. The reference video ends on Tay saying "Say less."
+
+SET AND GEOGRAPHY: the gym <<<897f65a6-9fd6-4518-b5f2-dea720a0af88>>>, an INDUSTRIAL-LOFT boutique gym in bright DAYTIME, exactly as the reference image shows: exposed brick walls, high ceilings with black steel beams, large factory windows with daylight, black rubber flooring. THE REFERENCE IMAGE DECIDES THE LAYOUT. Where it disagrees with any left/right wording, the image wins. FIXED MAP, the same in every shot: the camera stands just inside the entrance, looking into the gym, with the entrance right behind or beside the camera. The DUMBBELL RACK is just inside the entrance, along the side where the reference image shows it. The open training floor with squat racks and benches is beyond it, and the WATER STATION is at the FAR BACK. No door is opened or closed. No text, logos, numbers or signage anywhere, including on equipment and weight plates. A few distant gym-goers far in the background only.
+
+NIA: face, hair and skin from <<<3497a052-ed61-4fbc-babe-c9f7fc11bf77>>>; body from <<<9b1d610c-f6e6-421b-a801-89e22827e1bf>>>; HER CLOTHES COME ONLY FROM <<<f7d303df-2f64-4a64-ae3e-761a21b865cd>>>: ONE outfit, unchanged in every shot; nothing from the face or body references is worn; never a green sweatshirt. Thirty, Black British, deep warm brown skin, jet-black waist-length water-wave curls, diamond stud earrings. PETITE AND CURVY: the SHORTEST person on screen (about 5'2"), with an hourglass figure: small defined waist, fuller bust, full rounded hips and thighs; never tall, never slim-hipped. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
+
+TAY: face, eyes, hair and skin from <<<288d8911-4b45-4246-aac4-0ec3a69003c2>>>; build and tattoos from <<<fe030a7d-7a8c-4fef-9596-50a213e15201>>>; HIS CLOTHES COME ONLY FROM <<<261210f2-283f-4e6b-9140-d237b81f4741>>>, unchanged in every shot; the fitting-room shorts in the body reference are never worn. Twenty-six, caramel brown skin, striking LIGHT GREY eyes, low-cut fade with a sharp lineup, a pretty-boy face. SKINNY, about 5'10": next to him, the top of Nia's head is level with his chin. Tattooed from the neck down, with dense dark-ink tattoos on his neck and full sleeves on both arms wherever the outfit leaves skin bare; no face tattoos. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
+
+DORIAN: <<<606734b1-423b-469c-a95b-c98743b1ccde>>> IS DORIAN, HEAD TO TOE: the ORIGINAL Dorian, in his full gym outfit WITH SHOES. Reproduce that man's exact face, bone structure, hairline, short cropped hair with a crisp lineup, full short black beard and build, and EXACTLY the outfit and shoes in that image. HE WEARS HIS SHOES IN EVERY SHOT: never barefoot, never in socks. HIS OUTFIT NEVER CHANGES: the same top, the same bottoms and the same shoes from the front, from the side and FROM BEHIND, including the whole time he turns and walks away back to Simone. Never a grey T-shirt, never charcoal trousers, never a black outfit, never any clothing that isn't in that image. DEEP, DARK BROWN complexion, exactly as the reference: NEVER lightened, and lighting never lifts his skin tone. TALL AND HEAVILY BUILT, about 6'3": the tallest person on screen; next to him, Nia's head reaches his chest. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
+
+SIMONE: face and hair from <<<b2ab2ec6-2469-4b6b-9208-4f5b0eb02c09>>>; build from <<<e35f19e8-bfa1-45fb-bb2d-81de7915be9c>>>; HER CLOTHES COME ONLY FROM <<<b80e2725-b11b-447d-acf3-f5b5a760be74>>>, unchanged. Early thirties, warm mid-brown skin, a COPPER-AUBURN shoulder-length blunt bob with a deep side part. About 5'6": taller than Nia, shorter than Dorian. Cheerful and friendly, never smug. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
+
+VOICES:
+- *** NIA IS BRITISH. EVERY WORD SHE SAYS IS IN A BRITISH ACCENT. *** Her voice is <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>> and matches her voice in the reference video exactly: a warm, low, dry, deadpan London British accent with British vowels, crisp consonants and NO hard R. Nia is the ONLY British speaker in the clip. Her accent NEVER turns American, never picks up Tay's or Dorian's accent, and never drifts mid-line. Her lines "Okay, he's coming." and "I'm Nia." are spoken in a clear British accent.
+- TAY'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A young Black American man of twenty-six with an URBAN, contemporary Black American accent and cadence. His voice is DEEP for his age: a smooth, low baritone with a relaxed chest resonance and a soft, slightly husky edge. He talks SMOOTH and LAID-BACK, like a player who knows he's charming: an unhurried, easy rhythm, words sliding into each other, relaxed consonant endings, a little melodic lift at the end of a flirty line, a low half-laugh in his throat. He speaks in natural modern slang and says it with full confidence; never forced, never a caricature. Even when he's excited about business, the voice stays low and smooth. Never high-pitched, never nasal, never squeaky or boyish, never nervous, never rushed, never shouting, never a radio announcer. Clearly younger and lighter in energy than Dorian, but just as deep.
+- Tay is AMERICAN, never British. Nia and Tay never sound alike and never swap lines.
+- DORIAN'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY: a deep, low, calm adult male voice, an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly. Never British, never a light or boyish tenor. DELIVERY: SMOOTH. Dorian is cool, relaxed and confident, with an easy, unbothered swagger in how he walks and talks: never nervous, never stiff, never pushy.
+- Simone does not speak in this clip.
+
+NAME: "Nia" is pronounced "NEE-uh" (rhymes with "Mia"), NEVER "Naya", "NAY-uh" or "NIGH-uh". When Nia says "I'm Nia", she says "I'm NEE-uh".
+
+SEQUENCE, IN ORDER:
+1. (0-6 s) Two-shot of Nia and Tay standing by the dumbbell rack just inside the entrance, exactly where the reference video ended. Nia glances past Tay across the gym and SPOTS DORIAN: at the far back he has left Simone and is walking toward them at a natural, unhurried pace, smooth and relaxed. SIMONE stays by the water station. Nia turns back to Tay and leans in.
+NIA (British), low and quick, to Tay: "Okay, he's coming."
+That is Tay's cue: he gives a tiny nod, straightens up and gets ready to play his part, a relaxed half-smile. Dorian keeps walking, visible over Nia's shoulder, and stops a comfortable step from Nia.
+2. Three-shot from mid-thigh up, Dorian towering over Nia, with clean waist-up cuts for key lines:
+DORIAN (American), smooth and easy, to Nia: "So... you decided?"
+Tay slides his arm around Nia's shoulders, relaxed and possessive.
+TAY (American), smooth: "She's good over here."
+Nia makes a quick face, caught off guard by the arm, then instantly fixes it and leans into Tay with a small smile, as if she wants to be with him. [HALF-SECOND BEAT: Dorian looks from Tay to Nia, confused.]
+DORIAN (American), short and cool: "Aight." (said "ite")
+He turns and walks back across the gym toward Simone at a natural, unhurried pace, in exactly the same outfit and shoes.
+3. Waist-up two-shot of Nia and Tay, starting while Dorian is still walking away in the background: Nia brushes Tay's arm off her shoulders.
+TAY (American), easy grin: "I'm Tay."
+NIA (British), dry: "I'm Nia." (said "I'm NEE-uh")
+TAY (American), grinning: "I guess we go together now."
+Nia rolls her eyes. The clip ends on her eye roll. Nobody speaks after it.
+
+LINE OWNERSHIP, NEVER SWAPPED: Nia says "Okay, he's coming." and "I'm Nia." Dorian says "So... you decided?" and "Aight." Tay says "She's good over here.", "I'm Tay." and "I guess we go together now." The final spoken line is Tay's "I guess we go together now." Simone does not speak.
+
+CAMERA: steady, eye level, following Dorian's walk smoothly, otherwise holding still. NO ZOOMS. NO PUSH-INS. NO EXTREME CLOSE-UPS: faces never tighter than waist-up.
+
+TIMING: let the scene breathe naturally. Natural pauses are fine where the moment needs them: Dorian's unhurried walk over (Nia and Tay react to it; they never just stand and stare), Nia's quick face and recovery, Dorian's confused look before "Aight.", his walk back to Simone, and the arm brush-off. Every pause is filled with movement or a reaction, never frozen or dead air. No long pause at the very start, and the clip ends within a second of Nia's eye roll.
+
+AUDIO: only these lines, plus quiet gym ambience. No narration.
+```
