@@ -112,6 +112,25 @@ The camera always shoots from the same side of the café, so left and right neve
 | Dorian leaves | He walks a few steps left, straight out through the open entrance. |
 | Tay comes over | From his seat he watches the whole thing. He gets up and walks left to Nia at the counter. |
 
+### Beat-by-beat positions (who is where, facing which way)
+
+**Spots:** the **ENTRANCE** (back left, propped open); the **REGISTER**, the middle of the counter, about five steps from the table and in clear view of Tay over Nia's shoulder; **THE TABLE** (centre-right, near the camera).
+
+| # | Beat | Nia | Tay | Dorian |
+|---|---|---|---|---|
+| 1 | Opening | Seated, left chair, facing right; latte in hand | Not in frame yet (outside) | Not in frame |
+| 2 | Tay arrives | Seated; looks up as he comes round the table; rolls her eyes | Walks in through the entrance behind Nia, round the table, sits in the right chair facing left | Not in frame |
+| 3 | Phone and flirting | Seated; smiles; the phone is on the table by her latte | Seated, facing left (toward the entrance) | Not in frame |
+| 4 | **Dorian walks in** | Seated, her back to him, so she doesn't see him | Looks up past Nia's shoulder and sees him come through the entrance; sits back, annoyed | Walks in through the entrance and straight to the **REGISTER**. He stands **facing the barista (facing left), his back and side to the table**, ordering. **He doesn't see Nia or Tay.** |
+| 5 | "I guess your boo thing…" / "I guess so." | Turns round in her chair and looks over her left shoulder at Dorian at the register | Seated, arms folded | At the register, ordering, then waiting by the pastry case, still facing the counter. **He never looks toward the table in Segment 1.** |
+| 6 | **Segment 2 opens:** Nia walks over | Gets up and walks left to the register, stopping at Dorian's right side | Seated, watching | At the register. As Nia reaches him he turns to his right to face her. Now **he faces right: Nia is in front of him, and Tay is behind her at the table** |
+| 7 | "Whatcha walking over here for?" | Facing Dorian (facing left) | Seated, watching | Looks at Nia, **looks up over her head at Tay**, looks back at Nia |
+| 8 | "What's your problem?" / "I guess you." | Facing Dorian | Seated, watching | Says his line, then turns and walks a few steps left, **out through the open entrance** |
+| 9 | "Everything okay?" / "I guess so." | At the register, looking at the entrance where Dorian left; crushed | Gets up and walks left to Nia | Gone |
+
+- **Props:** Dorian carries nothing: no drink, and no phone in his hand, so nothing can be mixed up with Nia's phone. Nia's phone stays on the table the whole time, even after she walks away.
+- **Segment 1 ends at beat 5** with everyone in place: Nia turned in her chair, Tay seated with his arms folded, and Dorian at the register with his back to them. **Segment 2 opens from exactly that frame.** Dorian is already in Segment 1 in the same look, so only one Dorian exists (rule 9).
+
 - **The set photo has to fit this map:** an entrance and a counter on the same side, and space for a two-seat table. If your café photo is laid out differently, I'll redraw the map to match it before writing any prompt. **The photo always wins.**
 - **Headcount:** exactly three main people, one each of Nia, Tay and Dorian, never two of anyone. A barista and a few customers in the background never speak.
 - **Continuity:** Segment 2 attaches the approved Segment 1 as its reference video, and the reference is never dropped. Segment 1's final line is not quoted in the Segment 2 prompt.
