@@ -81,6 +81,8 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 ### 9. Review before filming (user ruling, 2 Oct 2026)
 - **Before any video render, send the user the production notes and the full prompt(s)** for review, and wait for an explicit go-ahead ("film", "go", "approved"). Never submit a render without it, including re-films.
 - Save the notes and prompts in the episode's `prompts.md` and send that file.
+- **Never film the next segment until the user has seen and approved the current one.** Send each finished clip (gallery) and wait for approval first.
+- **A reference video is for looks, voices, place and camera only, never dialogue.** Every prompt that attaches one says no line from the reference is repeated, and names the clip's final line. Segment 2 v1 of "Ran Into Me" repeated Segment 1's last line.
 
 ### 10. Accents
 - **Only Nia has a British accent.** ChiChi, and everyone else unless their profile says otherwise, speaks with an **American** accent. Every prompt with ChiChi says in writing: *"ChiChi is AMERICAN: General American accent, NEVER British, never Nia's voice."* Saved voice elements alone have let ChiChi pick up Nia's accent.
