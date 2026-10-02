@@ -33,7 +33,7 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - **Dorian's references (2 Oct 2026):** attach `Dorian-Face` (`33308979-0153-430b-a68e-df947e3a710d`, image `2ee473c0-3481-47a7-8258-195a407edcdd`) and `Dorian-Body` (`e7d019d8-f645-400e-bd66-ccb33bea41e6`, image `11aa68a0-a1be-4601-9200-8f629f00b7c9`) in place of the old `Dorian` element. `Dorian-Body`'s grey T-shirt and trousers are never his costume.
 
 ### 3a. Every character is single: no wedding rings, ever
-- **Nia, ChiChi, Dorian, Simone, Kel, and anyone else in the series are all single.**
+- **Nia, ChiChi, Dorian, Simone, Kel, Tay, DB, and anyone else in the series are all single.** DB is divorced: still no ring, and no tan line.
 - **No wedding ring, engagement ring or band of any kind, on anyone.** The **fourth finger of the left hand is always bare skin**, on every character, in every shot.
 - Default for every character: **no rings on any finger.** Dorian's old "one silver ring" from "The Caterer" is retired.
 - **Every prompt must say this for each person on screen,** for example: *"NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring."* State it explicitly for the men as well as the women.
