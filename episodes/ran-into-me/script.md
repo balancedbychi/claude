@@ -168,4 +168,5 @@ Each render also attaches the casting elements (face and body) and the two voice
 
 | Segment | Job ID | Notes |
 |---|---|---|
-| 1 v1 | `0b4cbc8b-a4e2-41c5-a9f5-77e488759652` | 30 s, 1080p, 9:16, Seedance 2.5. Awaiting your review. |
+| 1 v1 | `0b4cbc8b-a4e2-41c5-a9f5-77e488759652` | **Rejected:** ChiChi had a British accent, she wasn't taller than Nia, and they split up while walking. |
+| 1 v2 | — | Prompt in `prompts.md`, awaiting your review (rule 9). |
