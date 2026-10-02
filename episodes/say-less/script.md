@@ -110,3 +110,13 @@ In "Ran Into Me", DB stood still and unnaturally before ChiChi walked into him. 
 | G1 | Upscale modern gym: wood accents, windows | `89b1ddce-8d04-449c-92d7-c14094197fe0` |
 | G2 | Same brief, second take | `c89c31de-e636-4498-9ad4-f08bf7125ec0` |
 | G3 | Industrial-loft gym: exposed brick | `e672b3d2-66c1-408b-90b4-a4041ee9ac02` |
+
+## Elements (saved 2 Oct 2026 from the user's uploads)
+
+| Use | Element | ID | Image |
+|---|---|---|---|
+| Set | `Gym-Day` | `897f65a6-9fd6-4518-b5f2-dea720a0af88` | `a615722c-80e8-40a8-92b6-9ba0dbddcd84` |
+| Nia wardrobe | `Nia-Say-Less-Look` | `f7d303df-2f64-4a64-ae3e-761a21b865cd` | `0fe8fd02-859b-46ef-b017-05d42acbab1c` |
+| Tay wardrobe | `Tay-Say-Less-Look` | `261210f2-283f-4e6b-9140-d237b81f4741` | `4e5164dc-a4a6-4d56-87ab-e07c1ad4cb5c` |
+| Dorian wardrobe | `Dorian-Say-Less-Look` | `98b667eb-7e9f-4a28-8859-448f15efa9d8` | `82c104ba-3740-4397-ae50-0eaea33b6dd8` |
+| Simone wardrobe | `Simone-Say-Less-Look` | `b80e2725-b11b-447d-acf3-f5b5a760be74` | `580a5247-157c-4057-863c-761d09f7100e` |
