@@ -17,7 +17,7 @@ This is the single source of truth for who Dorian is on screen. The series rules
 | **Facial hair** | A full, well-groomed short black beard and moustache |
 | **Distinguishing mark** | A tattoo on his **left forearm** |
 | **Rings** | **None, ever.** He's single, and the fourth finger of his left hand is bare skin. His old "one silver ring" is retired. |
-| **Voice** | No saved voice element yet. *A deep, low, calm adult male voice: an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly.* |
+| **Voice** | No voice element (user's ruling). Canon take: Miscommunication Seg 1. *A deep, low, calm adult male voice: an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly.* |
 | **Signature look** | **Black.** The black outfit from "Miscommunication" Segment 1 is his current approved look. |
 
 ---
@@ -61,7 +61,7 @@ This is the single source of truth for who Dorian is on screen. The series rules
 | `Dorian-Miscommunication-Look` | `6a797aec-4d2c-4fac-97bf-b3c515b12f6b` | **Not used**, by the user's ruling |
 | `Dorian-Face` (casting face sheet) | `33308979-0153-430b-a68e-df947e3a710d` | Face, skin tone, hair and beard only, no clothing in frame. Image `2ee473c0-3481-47a7-8258-195a407edcdd` (sheet F3). Approved 2 Oct 2026. |
 | `Dorian-Body` (casting turnaround) | `e7d019d8-f645-400e-bd66-ccb33bea41e6` | Height, build and tattoo only. The fitting garments are **never** his costume. Image `11aa68a0-a1be-4601-9200-8f629f00b7c9` (sheet B4). Approved 2 Oct 2026. |
-| `Dorian-Canon-Voice-v1` | *(not yet created)* | To be made from an approved take where he sounds right, so his voice stops drifting |
+| *(no voice element)* | — | By the user's ruling, Dorian has no voice element. Use the written description, plus Miscommunication Seg 1 `f078ccbb…` as a video reference. |
 
 **Approved footage of Dorian, for video references:** "Miscommunication" Segment 1 `f078ccbb-b911-486d-85c7-43d382fdfbd2`. Segment 2 v2 (`83543884…`) is awaiting your approval.
 
@@ -104,7 +104,7 @@ No text, no numbers, no labels, no watermark, no logos, no other people, no prop
 ## Next steps toward a complete profile
 
 1. ~~Approve the face and body sheets~~ **Done 2 Oct 2026:** F3 saved as `Dorian-Face`, B4 saved as `Dorian-Body`.
-2. **Lock his voice:** the user picked **Miscommunication Segment 1** (`f078ccbb…`) as his correct voice (2 Oct 2026). Pending: your upload of his lines from that clip, to save as `Dorian-Canon-Voice-v1`. Until then, attach Segment 1 as a video reference whenever he speaks.
+2. **Lock his voice:** the user picked **Miscommunication Segment 1** (`f078ccbb…`) as his correct voice (2 Oct 2026). No voice element will be made: use the written description, and attach Segment 1 as a video reference whenever he speaks.
 3. **Optional: a wardrobe sheet** of his episode looks side by side.
 
 ---

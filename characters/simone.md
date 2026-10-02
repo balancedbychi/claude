@@ -12,7 +12,7 @@ This is the single source of truth for who Simone is on screen. The series rules
 |---|---|
 | **Age** | Early thirties |
 | **Skin** | Warm mid-brown complexion |
-| **Height / build** | **Average height**, about 5'6": taller than Nia, never towering. Slim-to-medium, natural build with soft curves. *(Default set 2 Oct 2026; the user hasn't ruled on it yet.)* |
+| **Height / build** | **Average height**, about 5'6": taller than Nia, never towering. Slim-to-medium, natural build with soft curves. **Confirmed by the user, 2 Oct 2026: taller than Nia; Nia is the shortest of everyone.** |
 | **Hair** | **Copper-auburn, shoulder-length blunt bob:** straight and glossy, ends turning slightly under, a deep side part with a sweep across the forehead. **The part is never mirrored.** Never long, curly, tied up, dark brown or black. |
 | **Rings** | **None, ever.** She's single, and the fourth finger of her left hand is bare skin. |
 | **Voice** | No saved voice element. *Warm, low-pitched, chesty and unhurried, with a soft landing on the ends of her sentences; clearly deeper and slower than Nia; cheerful and pleasant.* (Full wording in `episodes/double-booked/prompts.md`.) |

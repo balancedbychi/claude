@@ -23,7 +23,7 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - **Never** tall, long-legged or model-proportioned. **Never** straight up and down, boxy or thick through the waist. **Never** slim-hipped, flat or boyish. **Never** heavier or larger-framed than she is.
 - **Every prompt with Nia must state this body description**, because the identity image alone has let her shape drift between renders.
 - Clothes always fit her real shape: the clothing adapts to her body, never the reverse.
-- Height relationships stay constant: Nia is the shortest, then ChiChi, with Dorian much taller than both.
+- Height relationships stay constant: **Nia is the shortest of everyone.** Simone and ChiChi are both taller than her, and Dorian is much taller than all of them (Kel is a little shorter than Dorian). Confirmed by the user, 2 Oct 2026: Simone is taller than Nia. Older elements that say Simone and Nia are level (e.g. `Simone-Party-Look-POST-ENTRY`) are overruled.
 
 ### 3. ChiChi's hair is always honey-blonde
 - Never dark brown. `ChiChi-Series-Look` (`bc1bd310…`) says dark brown and is retired; never attach it.
@@ -41,10 +41,10 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - Reject any take with a ring on the left ring finger.
 
 ### 3b. Dorian's voice must not drift
-- Dorian has no saved voice element, so his voice is rebuilt from a written description each time and can drift between renders.
+- Dorian has **no voice element and won't get one** (user, 2 Oct 2026: a voice can't be attached for him). His voice always comes from the written description below.
 - Always paste his full description word for word: *a deep, low, calm adult male voice, an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly.*
-- **Canon take (user, 2 Oct 2026):** his voice in **"Miscommunication" Segment 1** (`f078ccbb-b911-486d-85c7-43d382fdfbd2`, knocking at Nia's door with the flowers) is correct. Until a voice element exists, **attach Segment 1 as a video reference in every clip Dorian speaks in**, and say his voice matches that clip exactly.
-- **Lasting fix (needs the user's upload):** a clip of Dorian's lines alone from Segment 1, uploaded by the user, saved as the voice element `Dorian-Canon-Voice-v1` and attached from then on.
+- **Canon take (user, 2 Oct 2026):** his voice in **"Miscommunication" Segment 1** (`f078ccbb-b911-486d-85c7-43d382fdfbd2`, knocking at Nia's door with the flowers) is correct. **Attach Segment 1 as a video reference in every clip Dorian speaks in**, and say his voice matches that clip exactly.
+- Don't ask the user for a voice upload for Dorian. The written description, plus Segment 1 as a video reference, is the method.
 
 ### 4. Pacing
 - No long pauses. Replies land on the end of the previous line, with no gap longer than about two tenths of a second.
