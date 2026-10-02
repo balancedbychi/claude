@@ -119,3 +119,12 @@ No text, no numbers, no labels, no watermark, no logos, no other people, no prop
 | Face / expressions | F2 | `117141e8-45a5-40bd-ba9c-40e477c092f4` |
 | Body turnaround | B1 | `470c9978-c328-48dd-8eff-3be4550aaecf` |
 | Body turnaround | B2 | `e409dd09-8361-4825-86c7-57682214b854` |
+
+**2 Oct 2026, casting sheets, round 2 (darker skin, per the user):** same reference. The prompts now require his deep, dark brown complexion and forbid lightening.
+
+| Sheet | Option | Job ID |
+|---|---|---|
+| Face / expressions | F3 | `66900798-b81e-45fa-88cc-bac15f2a7247` |
+| Face / expressions | F4 | `4a711401-0afa-4dd2-b4bc-4671e709c065` |
+| Body turnaround | B3 | `40e4da6b-fdb7-4bf9-8c83-b4a232008a7e` |
+| Body turnaround | B4 | `c3f4fdc5-ab27-49e3-8170-55d371a34f73` (was still rendering when logged) |
