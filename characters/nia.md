@@ -55,10 +55,10 @@ This is the single source of truth for who Nia is on screen. The series rules in
 
 | Asset | ID | Use |
 |---|---|---|
-| `Nia` (original identity) | `bcd528d3-9756-4190-ba80-4aaae881f2b2` | Face only. **The image shows a green sweatshirt.** It's being replaced by `Nia-Face`, below. |
+| `Nia` (original identity) | `bcd528d3-9756-4190-ba80-4aaae881f2b2` | **Retired for new work.** The image shows a green sweatshirt. Use `Nia-Face` instead. |
 | `Nia-Canon-Voice-v2` (voice) | `b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c` | Her voice. Attach to every clip she speaks in. |
-| `Nia-Face` (casting face sheet) | *(being built, see below)* | **Face and hair only, no clothing in frame.** Replaces `Nia` in prompts. |
-| `Nia-Body` (casting turnaround) | *(being built, see below)* | Proportions and height only. Its neutral bodysuit is **never** her costume. |
+| `Nia-Face` (casting face sheet) | `3497a052-ed61-4fbc-babe-c9f7fc11bf77` | **Face, hair, race and skin tone only, no clothing in frame.** Replaces `Nia` in prompts. Image `f6cb34ea-d129-47b0-b9ed-3543a76c6177` (sheet F1). Approved 2 Oct 2026. |
+| `Nia-Body` (casting turnaround) | `9b1d610c-f6e6-421b-a801-89e22827e1bf` | Proportions and height only. Its sand bodysuit is **never** her costume. Image `1d11160f-f3a9-4bad-997b-1432bf839f7e` (sheet B2). Approved 2 Oct 2026. |
 | `Nia-Double-Booked-Look` | `38c8cb48-d342-4143-85f2-9eb5ba462544` | Wardrobe for "Double Booked" and "Exclusive to Me" |
 | `Nia-Miscommunication-Look` | `f65d7c8e-3249-4424-9d75-534a72e3a312` | Wardrobe for "Miscommunication" |
 
@@ -102,7 +102,7 @@ No green sweatshirt, no hoodie. No text, no numbers, no labels, no watermark, no
 
 ## Next steps toward a complete profile
 
-1. **Approve the face and body sheets,** then save them as `Nia-Face` and `Nia-Body`.
+1. ~~Approve the face and body sheets~~ **Done 2 Oct 2026:** F1 saved as `Nia-Face`, B2 saved as `Nia-Body`.
 2. **Optional: a Soul identity for stills.** Train a Higgsfield Soul from 5–20 approved images of her face. This gives the strongest face lock for images (posters, thumbnails, promo stills). It **doesn't** work in Seedance video, which keeps using the elements.
 3. **Optional: a wardrobe sheet.** Show her in each episode's outfit side by side, for continuity checks.
 
@@ -125,3 +125,5 @@ No green sweatshirt, no hoodie. No text, no numbers, no labels, no watermark, no
 |---|---|
 | W1 | `3476ab77-2b16-45c4-9f08-d21b35c4c2e9` |
 | W2 | `98b9a7f1-75c3-4e65-9d5d-1ecacdc55bff` |
+
+**2 Oct 2026, approved by the user ("Nia's race and body"):** F1 → `Nia-Face` `3497a052…`, B2 → `Nia-Body` `9b1d610c…`.

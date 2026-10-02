@@ -16,7 +16,7 @@ These are the user's standing rulings. **They override anything an older Higgsfi
   - Her clothes come only from the wardrobe element, and she wears one outfit, unchanged, in every shot.
 - **If an episode has no wardrobe element for Nia yet, stop and ask the user for one.** Never render her without it.
 - The same rule applies to every character: a face or identity element supplies the face, never the clothes.
-- **Lasting fix (needs the user):** upload a face-only crop of Nia with no clothing visible. Save it as a new element, e.g. `Nia-Face`, and use it in place of `Nia`. This is the same fix that stopped Simone's grey T-shirt (see `Simone-Face-v3`).
+- **Lasting fix, done 2 Oct 2026:** use `Nia-Face` (`3497a052-ed61-4fbc-babe-c9f7fc11bf77`, image `f6cb34ea-d129-47b0-b9ed-3543a76c6177`) in place of `Nia` for her face, race and hair, and `Nia-Body` (`9b1d610c-f6e6-421b-a801-89e22827e1bf`, image `1d11160f-f3a9-4bad-997b-1432bf839f7e`) for her proportions. `Nia-Body`'s sand bodysuit is never her costume. Never attach the old `Nia` element again. This is the same fix that stopped Simone's grey T-shirt (see `Simone-Face-v3`).
 
 ### 2a. Nia's body: petite but curvy, never drifting
 - **Nia is PETITE and CURVY.** She's short and small-framed, clearly shorter than ChiChi and much shorter than Dorian, with an hourglass figure: a small, defined waist, a fuller bust, and full, rounded hips and thighs. Healthy and toned at thirty.
