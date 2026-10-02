@@ -125,4 +125,4 @@ In "Ran Into Me", DB stood still and unnaturally before ChiChi walked into him. 
 
 | Segment | Job ID | Notes |
 |---|---|---|
-| 1 v1 | `b9d339ff-147b-4f56-aaf6-882e5105f2a3` | 30 s, 1080p. Filmed after your "film" (2 Oct 2026), using the exact prompt in `prompts.md`. Awaiting your review. |
+| 1 v1 | `b9d339ff-147b-4f56-aaf6-882e5105f2a3` | 30 s, 1080p. Filmed after your "film" (2 Oct 2026), using the exact prompt in `prompts.md`. **Rendered and sent to the gallery; awaiting your review.** Segment 2 is not filmed until this is approved. |
