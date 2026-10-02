@@ -203,3 +203,5 @@ The camera always shoots from the same side of the café, so left and right neve
 | N2 | Nia | `75b2c99b-a555-4269-99fe-9979e253ae6e` |
 | T1 | Tay | `cf7aa81a-bb43-4aee-b9a2-02d66c26aceb` |
 | T2 | Tay | `c64971fc-03f6-4019-a95d-a5ee2985e61d` |
+
+**User (2 Oct 2026): none of N1/N2/T1/T2 is Nia or Tay as they appear in "Say Less" Segment 1.** The cast elements don't reproduce the on-screen look. Next: screenshots taken from the Segment 1 clip itself become the `[Nia-GPS]` and `[Tay-GPS]` pictures.
