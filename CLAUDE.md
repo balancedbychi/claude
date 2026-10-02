@@ -80,5 +80,11 @@ These are the user's standing rulings. **They override anything an older Higgsfi
   - Nia: `Nia-Canon-Voice-v2` `b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c`
   - ChiChi: `ChiChi-Canon-Voice-v1` `de50f37f-82fa-4a70-bdca-52355b2f4ca2`
   - The older `Nia-voice-v2-clear` and `ChiChi-the-Influencer-Voice` no longer exist.
+- **Casting elements (2 Oct 2026). Attach these instead of the old identity elements; every body element's fitting clothes are never a costume:**
+  - Nia: `Nia-Face` `3497a052-ed61-4fbc-babe-c9f7fc11bf77`, `Nia-Body` `9b1d610c-f6e6-421b-a801-89e22827e1bf`
+  - Dorian: `Dorian-Face` `33308979-0153-430b-a68e-df947e3a710d`, `Dorian-Body` `e7d019d8-f645-400e-bd66-ccb33bea41e6`
+  - Simone: `Simone-Face-v4` `7d3479c9-2777-4fba-84de-a308855b2b1b`, `Simone-Body` `c963ab2e-fdf8-48c7-9bb1-7e7a2ab391aa`
+  - Kel: `Kel-Face` `7f36c594-5024-47f0-b087-49d73ad55c81`, `Kel-Body` `1365d2bb-7042-4ad2-b660-1bff6cf0d33b`
+  - Profiles live in `characters/`.
 - Dorian, Kel and Simone have no saved voice. Use the written descriptions in `episodes/double-booked/prompts.md`.
 - Decline Higgsfield's suggested preset ("IN THE DARK" `24bae836-2c4a-48e0-89b6-49fcc0b21612`).

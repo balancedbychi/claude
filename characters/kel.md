@@ -35,10 +35,10 @@ This is the single source of truth for who Kel is on screen. The series rules in
 
 | Asset | ID | Use |
 |---|---|---|
-| `Kel-The-Cousin` (identity) | `3ad69411-e32c-44bd-b797-a93ec0d4b52c` | Original identity (image `d3d7f70e-6d9f-45aa-ab19-a6d8a2df4529`). It shows his polo outfit, so it's being replaced by `Kel-Face`. |
+| `Kel-The-Cousin` (identity) | `3ad69411-e32c-44bd-b797-a93ec0d4b52c` | Original identity (image `d3d7f70e-6d9f-45aa-ab19-a6d8a2df4529`). It shows his polo outfit, so it's **retired for new work**; use `Kel-Face`. |
 | `Kel-Double-Booked-Look` | `0bac4ba5-b61d-411c-98a9-f26c16967200` | "Double Booked" wardrobe |
-| `Kel-Face` | *(pending your pick)* | Face, beard and skin tone only, no clothing |
-| `Kel-Body` | *(pending your pick)* | Height and build only. The grey T-shirt and trousers are **never** his costume. |
+| `Kel-Face` | `7f36c594-5024-47f0-b087-49d73ad55c81` | **Current face.** Sheet F1 (job `de62dfba…`). | Face, beard and skin tone only, no clothing |
+| `Kel-Body` | `1365d2bb-7042-4ad2-b660-1bff6cf0d33b` | Sheet B1 (job `6721e3c9…`). | Height and build only. The grey T-shirt and trousers are **never** his costume. |
 
 ---
 
@@ -52,3 +52,5 @@ This is the single source of truth for who Kel is on screen. The series rules in
 | Face / expressions | F2 | `d92cff1a-cf56-4ed3-a2df-ef1a075ffc60` |
 | Body turnaround | B1 | `6721e3c9-3a93-4746-b7f1-d97ae3c12fdc` |
 | Body turnaround | B2 | `a4d87546-a6a5-402b-99de-bb887b86347e` |
+
+**2 Oct 2026, saved after the user's "ok":** F1 → `Kel-Face`, B1 → `Kel-Body`. The first option was saved by default; swap to F2/B2 on request.

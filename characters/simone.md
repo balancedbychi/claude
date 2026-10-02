@@ -35,10 +35,10 @@ This is the single source of truth for who Simone is on screen. The series rules
 
 | Asset | ID | Use |
 |---|---|---|
-| `Simone-Face-v3` | `66ab4872-3bbf-4ce0-8e0d-267753f00c37` | Current face crop (image `0044fb54-1244-4920-bb7b-df99b2016abe`), no clothing. Reference for the casting sheets. |
+| `Simone-Face-v3` | `66ab4872-3bbf-4ce0-8e0d-267753f00c37` | Previous face crop (image `0044fb54…`). Superseded by `Simone-Face-v4`. |
 | `Simone-Double-Booked-Look` | `2a042d0e-64b9-477f-bc2d-2ad8cda38335` | "Double Booked" wardrobe |
-| `Simone-Face-v4` | *(pending your pick)* | Face, hair and skin tone only. Will replace `Simone-Face-v3`. |
-| `Simone-Body` | *(pending your pick)* | Height and build only. The grey-taupe bodysuit is **never** her costume. |
+| `Simone-Face-v4` | `7d3479c9-2777-4fba-84de-a308855b2b1b` | **Current face.** Face, hair and skin tone only. Sheet F1 (job `cba676fa…`). Replaces `Simone-Face-v3`. |
+| `Simone-Body` | `c963ab2e-fdf8-48c7-9bb1-7e7a2ab391aa` | Sheet B1 (job `b1e18d81…`). | Height and build only. The grey-taupe bodysuit is **never** her costume. |
 
 ---
 
@@ -52,3 +52,5 @@ This is the single source of truth for who Simone is on screen. The series rules
 | Face / expressions | F2 | `fd0fde65-ba97-4a07-bab8-c1a810ae5f3e` |
 | Body turnaround | B1 | `b1e18d81-c394-4305-941a-aa858c6de197` |
 | Body turnaround | B2 | `8dd94106-d543-45cf-9ca0-e1f27add28ca` |
+
+**2 Oct 2026, saved after the user's "ok":** F1 → `Simone-Face-v4`, B1 → `Simone-Body`. The first option was saved by default; swap to F2/B2 on request.
