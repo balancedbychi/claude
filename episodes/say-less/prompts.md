@@ -16,10 +16,8 @@
 - **Heights:** Nia < Simone < Tay < Dorian, with visual cues written into both prompts.
 - **No rings** on anyone, all four of them.
 - **The collision:** both of them are moving at once. Nia spins to leave just as Tay turns from the rack. Neither stands still (your note on "Ran Into Me").
-- **Continuity:** Segment 2 attaches **Segment 1 as reference video 1**, which carries over the looks, outfits, location, and Nia's and Tay's voices.
-- **Dorian's voice (rule 3b):** Segment 2 also attaches **"Miscommunication" Segment 1 (`f078ccbb`) as reference video 2, for his voice only.**
-  - **Risk:** the model could pull in his black outfit or Nia's apartment from that clip. The prompt says, in capitals, that only his voice is taken from it.
-  - If you'd rather not take the risk, I'll drop it and rely on his written voice alone.
+- **Continuity:** Segment 2 attaches **Segment 1 as its reference video**, which carries over the looks, outfits, location, and Nia's and Tay's voices.
+- **Dorian's voice:** his **written description only**, pasted word for word (your ruling, 2 Oct 2026). The "Miscommunication" clip is not attached, so his black outfit can't carry over.
 - **No repeated lines:** each prompt names its final line and says nothing from a reference video is repeated (rule 9).
 - **No dead air:** each clip cuts within half a second of its last line.
 
@@ -76,12 +74,12 @@ AUDIO: only these lines, plus gym ambience (distant weights, a low hum, faint mu
 
 This is filmed only after you approve Segment 1.
 
-**Attached:** **reference video 1 = Segment 1 (approved job)**; **reference video 2 = "Miscommunication" Segment 1 `f078ccbb` (Dorian's voice only)**; plus the same elements as Segment 1.
+**Attached:** **reference video = Segment 1 (the approved job)**, plus the same elements as Segment 1. There's no second reference video: Dorian's voice comes from his written description only (your ruling, 2 Oct 2026).
 
 ```
-30 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16. THIS CLIP CONTINUES DIRECTLY FROM THE FIRST REFERENCE VIDEO (Segment 1): the same gym, the same people, moments later.
+30 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16. THIS CLIP CONTINUES DIRECTLY FROM THE REFERENCE VIDEO (Segment 1): the same gym, the same people, moments later.
 
-*** THE FIRST REFERENCE VIDEO IS THE AUTHORITY FOR LOOKS, OUTFITS, PLACE, CAMERA AND THE VOICES OF NIA AND TAY. *** Nia, Tay, Dorian and Simone look and dress EXACTLY as in it. Nothing changes. THE SECOND REFERENCE VIDEO is used ONLY for DORIAN'S VOICE; nothing else is taken from it: not his clothes, not the room, not anyone else in it. Reference videos are NEVER used for dialogue: nobody repeats any line from either reference video, and "Say less" is NEVER said in this clip.
+*** THE REFERENCE VIDEO IS THE AUTHORITY FOR LOOKS, OUTFITS, PLACE, CAMERA AND THE VOICES OF NIA AND TAY. *** Nia, Tay, Dorian and Simone look and dress EXACTLY as in it. Nothing changes. Dorian's voice comes ONLY from his written description below. The reference video is NEVER used for dialogue: nobody repeats any line from it, and "Say less" is NEVER said in this clip.
 
 SET AND GEOGRAPHY: the gym <<<897f65a6-9fd6-4518-b5f2-dea720a0af88>>>, an INDUSTRIAL-LOFT boutique gym in bright DAYTIME, exactly as the reference image shows: exposed brick walls, high ceilings with black steel beams, large factory windows with daylight, black rubber flooring. THE REFERENCE IMAGE DECIDES THE LAYOUT. Where it disagrees with any left/right wording, the image wins. FIXED MAP, the same in every shot: the camera stands just inside the entrance, looking into the gym, with the entrance right behind or beside the camera. The DUMBBELL RACK is just inside the entrance, along the side where the reference image shows it. The open training floor with squat racks and benches is beyond it, and the WATER STATION is at the FAR BACK. No door is opened or closed. No text, logos, numbers or signage anywhere, including on equipment and weight plates. A few distant gym-goers far in the background only.
 
@@ -97,7 +95,7 @@ VOICES:
 - NIA IS BRITISH: <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>, warm, low, dry and deadpan. Every one of her lines is in a British accent.
 - TAY'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A young Black American man of twenty-six with an URBAN, contemporary Black American accent and cadence. His voice is DEEP for his age: a smooth, low baritone with a relaxed chest resonance and a soft, slightly husky edge. He talks SMOOTH and LAID-BACK, like a player who knows he's charming: an unhurried, easy rhythm, words sliding into each other, relaxed consonant endings, a little melodic lift at the end of a flirty line, a low half-laugh in his throat. He speaks in natural modern slang and says it with full confidence; never forced, never a caricature. Even when he's excited about business, the voice stays low and smooth. Never high-pitched, never nasal, never squeaky or boyish, never nervous, never rushed, never shouting, never a radio announcer. Clearly younger and lighter in energy than Dorian, but just as deep.
 - Tay is AMERICAN, never British. Nia and Tay never sound alike and never swap lines.
-- DORIAN'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY: a deep, low, calm adult male voice, an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly. His voice matches the SECOND reference video (his canon voice) exactly. Never British, never a light or boyish tenor.
+- DORIAN'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY: a deep, low, calm adult male voice, an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly. Never British, never a light or boyish tenor.
 - Simone does not speak in this clip.
 
 SEQUENCE, IN ORDER:

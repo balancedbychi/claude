@@ -44,6 +44,7 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - Dorian has **no voice element and won't get one** (user, 2 Oct 2026: a voice can't be attached for him). His voice always comes from the written description below.
 - Always paste his full description word for word: *a deep, low, calm adult male voice, an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly.*
 - **Canon take (user, 2 Oct 2026):** his voice in **"Miscommunication" Segment 1** (`f078ccbb-b911-486d-85c7-43d382fdfbd2`, knocking at Nia's door with the flowers) is correct. **Attach Segment 1 as a video reference in every clip Dorian speaks in**, and say his voice matches that clip exactly.
+- **Exception, "Say Less" (user, 2 Oct 2026):** Dorian's voice uses the written description only, and the "Miscommunication" clip is not attached, so his black outfit can't carry over. In future episodes, ask the user which method to use when Dorian wears a different outfit.
 - Don't ask the user for a voice upload for Dorian. The written description, plus Segment 1 as a video reference, is the method.
 
 ### 4. Pacing
