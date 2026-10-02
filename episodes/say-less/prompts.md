@@ -122,3 +122,68 @@ TIMING: gaps between lines never longer than two tenths of a second. The only be
 
 AUDIO: only these lines, plus quiet gym ambience. No narration.
 ```
+
+---
+
+## SEGMENT 2 v2 — RE-SHOOT (30 s) — PROMPT FOR REVIEW
+
+**Why:** your notes on v1 (`8436559d`): Dorian didn't look like the original character, and he said "Naya" instead of "Nia".
+
+**What changes from v1 (everything else is word for word the same):**
+- **Dorian's face and body come from his ORIGINAL element** `Dorian` `5deb4ada…` (image `887050a4…`), the one used in "Miscommunication" and "Double Booked". `Dorian-Face` and `Dorian-Body` are removed from the request.
+- **His outfit stays the one from Segment 1:** Segment 1 is still the reference video, and the prompt says he wears exactly the gym outfit he wears in it. `Dorian-Say-Less-Look` stays attached as a backup.
+- **Nia's name:** a pronunciation line, "NEE-uh" (rhymes with "Mia"), never "Naya", plus a note on Dorian's line.
+- **Nia's British accent block:** unchanged from v1.
+
+**Attached:** reference video = Segment 1 `b9d339ff…`. Elements: gym, `Nia-Face`, `Nia-Body`, Nia's look, `Tay-Face`, `Tay-Body`, Tay's look, **`Dorian` (original)**, Dorian's look, `Simone-Face-v5`, `Simone-Body-v2`, Simone's look, `Nia-Canon-Voice-v2`.
+
+**Cost:** 360 credits. **Balance about 264**, so it needs a top-up before filming.
+
+```
+30 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16. THIS CLIP CONTINUES DIRECTLY FROM THE REFERENCE VIDEO (Segment 1): the same gym, the same people, moments later.
+
+*** THE REFERENCE VIDEO IS THE AUTHORITY FOR OUTFITS, PLACE, CAMERA AND THE VOICES OF NIA AND TAY. *** Nia, Tay, Dorian and Simone dress EXACTLY as in it: DORIAN WEARS EXACTLY THE SAME GYM OUTFIT HE WEARS IN THE REFERENCE VIDEO. Nothing changes. Dorian's voice comes ONLY from his written description below. The reference video is NEVER used for dialogue: nobody repeats any line from it, and "Say less" is NEVER said in this clip.
+
+SET AND GEOGRAPHY: the gym <<<897f65a6-9fd6-4518-b5f2-dea720a0af88>>>, an INDUSTRIAL-LOFT boutique gym in bright DAYTIME, exactly as the reference image shows: exposed brick walls, high ceilings with black steel beams, large factory windows with daylight, black rubber flooring. THE REFERENCE IMAGE DECIDES THE LAYOUT. Where it disagrees with any left/right wording, the image wins. FIXED MAP, the same in every shot: the camera stands just inside the entrance, looking into the gym, with the entrance right behind or beside the camera. The DUMBBELL RACK is just inside the entrance, along the side where the reference image shows it. The open training floor with squat racks and benches is beyond it, and the WATER STATION is at the FAR BACK. No door is opened or closed. No text, logos, numbers or signage anywhere, including on equipment and weight plates. A few distant gym-goers far in the background only.
+
+NIA: face, hair and skin from <<<3497a052-ed61-4fbc-babe-c9f7fc11bf77>>>; body from <<<9b1d610c-f6e6-421b-a801-89e22827e1bf>>>; HER CLOTHES COME ONLY FROM <<<f7d303df-2f64-4a64-ae3e-761a21b865cd>>>: ONE outfit, unchanged in every shot; nothing from the face or body references is worn; never a green sweatshirt. Thirty, Black British, deep warm brown skin, jet-black waist-length water-wave curls, diamond stud earrings. PETITE AND CURVY: the SHORTEST person on screen (about 5'2"), with an hourglass figure: small defined waist, fuller bust, full rounded hips and thighs; never tall, never slim-hipped. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
+
+TAY: face, eyes, hair and skin from <<<288d8911-4b45-4246-aac4-0ec3a69003c2>>>; build and tattoos from <<<fe030a7d-7a8c-4fef-9596-50a213e15201>>>; HIS CLOTHES COME ONLY FROM <<<261210f2-283f-4e6b-9140-d237b81f4741>>>, unchanged in every shot; the fitting-room shorts in the body reference are never worn. Twenty-six, caramel brown skin, striking LIGHT GREY eyes, low-cut fade with a sharp lineup, a pretty-boy face. SKINNY, about 5'10": next to him, the top of Nia's head is level with his chin. Tattooed from the neck down, with dense dark-ink tattoos on his neck and full sleeves on both arms wherever the outfit leaves skin bare; no face tattoos. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
+
+DORIAN: <<<5deb4ada-665f-4894-8d16-2a9f34c0248f>>> is the ORIGINAL DORIAN and supplies his FACE, HAIR AND BODY ONLY: reproduce that man's exact facial identity, bone structure, hairline, short cropped hair with a crisp lineup and full short black beard. He must look like THAT man and nobody else. ANY CLOTHING IN THAT IMAGE IS NEVER REPRODUCED: no black outfit, no black shirt. HIS CLOTHES are the gym outfit he wears in the reference video, which is <<<98b667eb-7e9f-4a28-8859-448f15efa9d8>>>, unchanged in every shot. DEEP, DARK BROWN complexion, exactly as the reference: NEVER lightened, and lighting never lifts his skin tone. TALL AND HEAVILY BUILT, about 6'3": the tallest person on screen; next to him, Nia's head reaches his chest. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
+
+SIMONE: face and hair from <<<b2ab2ec6-2469-4b6b-9208-4f5b0eb02c09>>>; build from <<<e35f19e8-bfa1-45fb-bb2d-81de7915be9c>>>; HER CLOTHES COME ONLY FROM <<<b80e2725-b11b-447d-acf3-f5b5a760be74>>>, unchanged. Early thirties, warm mid-brown skin, a COPPER-AUBURN shoulder-length blunt bob with a deep side part. About 5'6": taller than Nia, shorter than Dorian. Cheerful and friendly, never smug. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin.
+
+VOICES:
+- *** NIA IS BRITISH. EVERY WORD SHE SAYS IS IN A BRITISH ACCENT. *** Her voice is <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>> and matches her voice in the reference video exactly: a warm, low, dry, deadpan London British accent with British vowels, crisp consonants and NO hard R ("working" and "We're" are said the British way, soft and non-rhotic). Nia is the ONLY British speaker in the clip. Her accent NEVER turns American, never picks up Tay's or Dorian's accent, and never drifts mid-line. Both of her lines, "Just working out." and "We're good.", are spoken in a clear British accent.
+- TAY'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A young Black American man of twenty-six with an URBAN, contemporary Black American accent and cadence. His voice is DEEP for his age: a smooth, low baritone with a relaxed chest resonance and a soft, slightly husky edge. He talks SMOOTH and LAID-BACK, like a player who knows he's charming: an unhurried, easy rhythm, words sliding into each other, relaxed consonant endings, a little melodic lift at the end of a flirty line, a low half-laugh in his throat. He speaks in natural modern slang and says it with full confidence; never forced, never a caricature. Even when he's excited about business, the voice stays low and smooth. Never high-pitched, never nasal, never squeaky or boyish, never nervous, never rushed, never shouting, never a radio announcer. Clearly younger and lighter in energy than Dorian, but just as deep.
+- Tay is AMERICAN, never British. Nia and Tay never sound alike and never swap lines.
+- DORIAN'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY: a deep, low, calm adult male voice, an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly. Never British, never a light or boyish tenor.
+- Simone does not speak in this clip.
+
+NAME: "Nia" is pronounced "NEE-uh" (rhymes with "Mia"). Dorian says "NEE-uh", NEVER "Naya", "NAY-uh" or "NIGH-uh".
+
+SEQUENCE, IN ORDER:
+1. (0-5 s) Nia and Tay stand by the dumbbell rack just inside the entrance, facing each other, exactly where Segment 1 ended. At the far back, DORIAN notices them, says a quiet word to Simone, and walks across the gym toward them at a natural pace. SIMONE stays by the water station, pleasantly watching. Dorian stops a comfortable step from Nia.
+2. Three-shot from mid-thigh up, Dorian towering over Nia, with clean waist-up cuts for key lines:
+DORIAN (American): "Hey, Nia. How are you?" (he says her name "NEE-uh")
+NIA (British), cool: "Just working out."
+Tay slides his arm around Nia's shoulders, relaxed and possessive.
+TAY (American), smooth: "She taken care of."
+[HALF-SECOND BEAT: Dorian looks from Tay to Nia, confused. Nia looks a little uncomfortable, because she wasn't expecting the arm, but there's a flicker of satisfaction too.]
+DORIAN (American), hands raised slightly, easy: "Hey, I was just saying hello."
+DORIAN (American), quieter, to Nia: "Are we good?"
+NIA (British): "We're good."
+[HALF-SECOND BEAT: Dorian stands there, opens his mouth as if to say something more, and doesn't.] He turns and walks back across the gym toward Simone at a natural pace.
+3. Waist-up two-shot of Nia and Tay: Nia exhales in relief, then shrugs Tay's arm off her shoulders.
+TAY (American), a low laugh: "This could be fun."
+The clip ends on "This could be fun." Cut out within half a second. Nobody speaks after it.
+
+LINE OWNERSHIP, NEVER SWAPPED: Dorian says "Hey, Nia. How are you?", "Hey, I was just saying hello." and "Are we good?" Nia says "Just working out." and "We're good." Tay says "She taken care of." and "This could be fun." The final spoken line is Tay's "This could be fun."
+
+CAMERA: steady, eye level, following Dorian's walk smoothly, otherwise holding still. NO ZOOMS. NO PUSH-INS. NO EXTREME CLOSE-UPS: faces never tighter than waist-up.
+
+TIMING: gaps between lines never longer than two tenths of a second. The only beats are the two marked, half a second each. No dead air at the start or end.
+
+AUDIO: only these lines, plus quiet gym ambience. No narration.
+```

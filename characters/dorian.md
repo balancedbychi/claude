@@ -55,12 +55,12 @@ This is the single source of truth for who Dorian is on screen. The series rules
 
 | Asset | ID | Use |
 |---|---|---|
-| `Dorian` (identity) | `5deb4ada-665f-4894-8d16-2a9f34c0248f` | **Retired for new work.** Original image `887050a4…`; use `Dorian-Face` instead. |
+| `Dorian` (identity) | `5deb4ada-665f-4894-8d16-2a9f34c0248f` | **CURRENT (user ruling, 2 Oct 2026: "use the original model").** Face, hair and body only; image `887050a4…`. Clothing in it is never reproduced. |
 | `Dorian-Series-Look` | `51c0cbaa-2fbe-4918-bb91-a29307caca09` | "The Caterer" black camp-collar set. Old episode only; it carries the retired ring. |
 | `Dorian-Double-Booked-Look` | `f44003af-4374-4d5c-acbf-d4f2aad1f9b3` | "Double Booked" / "Exclusive to Me" wardrobe |
 | `Dorian-Miscommunication-Look` | `6a797aec-4d2c-4fac-97bf-b3c515b12f6b` | **Not used**, by the user's ruling |
-| `Dorian-Face` (casting face sheet) | `33308979-0153-430b-a68e-df947e3a710d` | Face, skin tone, hair and beard only, no clothing in frame. Image `2ee473c0-3481-47a7-8258-195a407edcdd` (sheet F3). Approved 2 Oct 2026. |
-| `Dorian-Body` (casting turnaround) | `e7d019d8-f645-400e-bd66-ccb33bea41e6` | Height, build and tattoo only. The fitting garments are **never** his costume. Image `11aa68a0-a1be-4601-9200-8f629f00b7c9` (sheet B4). Approved 2 Oct 2026. |
+| `Dorian-Face` (casting face sheet) | `33308979-0153-430b-a68e-df947e3a710d` | **Retired 2 Oct 2026:** drifted from the original Dorian ("Say Less" Seg 2 v1). Image `2ee473c0…` (sheet F3). |
+| `Dorian-Body` (casting turnaround) | `e7d019d8-f645-400e-bd66-ccb33bea41e6` | **Retired 2 Oct 2026** with `Dorian-Face`. Image `11aa68a0…` (sheet B4). |
 | *(no voice element)* | — | By the user's ruling, Dorian has no voice element. Use the written description, plus Miscommunication Seg 1 `f078ccbb…` as a video reference. |
 
 **Approved footage of Dorian, for video references:** "Miscommunication" Segment 1 `f078ccbb-b911-486d-85c7-43d382fdfbd2`. Segment 2 v2 `83543884-9a21-4a37-b892-b68a1a3f4bda` (approved 2 Oct 2026).

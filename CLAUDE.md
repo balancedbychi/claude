@@ -30,7 +30,7 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 
 ### 2b. Dorian's skin tone
 - **Dorian has a deep, dark brown complexion.** Match his reference photo exactly and **never lighten him** (user ruling, 2 Oct 2026). Every prompt with Dorian says so, and lighting must never lift his skin tone. See `characters/dorian.md`.
-- **Dorian's references (2 Oct 2026):** attach `Dorian-Face` (`33308979-0153-430b-a68e-df947e3a710d`, image `2ee473c0-3481-47a7-8258-195a407edcdd`) and `Dorian-Body` (`e7d019d8-f645-400e-bd66-ccb33bea41e6`, image `11aa68a0-a1be-4601-9200-8f629f00b7c9`) in place of the old `Dorian` element. `Dorian-Body`'s grey T-shirt and trousers are never his costume.
+- **Dorian's references (updated 2 Oct 2026, user ruling: "use the original model"):** his face and body come from the **ORIGINAL `Dorian` element** (`5deb4ada-665f-4894-8d16-2a9f34c0248f`, image `887050a4-172b-4740-a826-c4e1c7d552d8`): face, hair and body only, and any clothing in that image is never reproduced. `Dorian-Face` (`33308979…`) and `Dorian-Body` (`e7d019d8…`) drifted from the original and are **retired**; don't attach them. His clothes come from the episode's wardrobe and, once a segment is approved, from that segment as the video reference (rule 7).
 
 ### 3a. Every character is single: no wedding rings, ever
 - **Nia, ChiChi, Dorian, Simone, Kel, Tay, DB, and anyone else in the series are all single.** DB is divorced: still no ring, and no tan line.
@@ -88,6 +88,9 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 ### 10. Accents
 - **Only Nia has a British accent.** ChiChi, and everyone else unless their profile says otherwise, speaks with an **American** accent. Every prompt with ChiChi says in writing: *"ChiChi is AMERICAN: General American accent, NEVER British, never Nia's voice."* Saved voice elements alone have let ChiChi pick up Nia's accent.
 
+### 10a. Saying Nia's name
+- **Nia is pronounced "NEE-uh"** (rhymes with "Mia"), never "Naya", "NAY-uh" or "NIGH-uh". Dorian said "Naya" in "Say Less" Segment 2 v1. Every line that says her name gets this pronunciation note.
+
 ### 11. Walking scenes
 - People walking together **walk side by side in the SAME direction, straight along the path, at the same pace, staying together** for the whole shot. They never split up, turn away from each other or head off in different directions unless the script says so.
 
@@ -101,7 +104,7 @@ These are the user's standing rulings. **They override anything an older Higgsfi
   - The older `Nia-voice-v2-clear` and `ChiChi-the-Influencer-Voice` no longer exist.
 - **Casting elements (2 Oct 2026). Attach these instead of the old identity elements; every body element's fitting clothes are never a costume:**
   - Nia: `Nia-Face` `3497a052-ed61-4fbc-babe-c9f7fc11bf77`, `Nia-Body` `9b1d610c-f6e6-421b-a801-89e22827e1bf`
-  - Dorian: `Dorian-Face` `33308979-0153-430b-a68e-df947e3a710d`, `Dorian-Body` `e7d019d8-f645-400e-bd66-ccb33bea41e6`
+  - Dorian: the ORIGINAL `Dorian` element `5deb4ada-665f-4894-8d16-2a9f34c0248f` (image `887050a4…`), per rule 2b. `Dorian-Face` and `Dorian-Body` are retired.
   - Simone: `Simone-Face-v5` `b2ab2ec6-2469-4b6b-9208-4f5b0eb02c09`, `Simone-Body-v2` `e35f19e8-bfa1-45fb-bb2d-81de7915be9c`
   - Kel: `Kel-Face-v2` `32d2d7f4-6b6f-49c9-84d7-ddf0a7873384`, `Kel-Body-v2` `195554e3-1430-4f6d-aa78-ab7fb79d101d`
   - ChiChi: `ChiChi-Face` `b03240bd-4562-4d2f-8b14-de32c018e346`, `ChiChi-Body` `46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc`
