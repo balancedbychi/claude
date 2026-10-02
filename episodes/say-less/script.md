@@ -120,3 +120,9 @@ In "Ran Into Me", DB stood still and unnaturally before ChiChi walked into him. 
 | Tay wardrobe | `Tay-Say-Less-Look` | `261210f2-283f-4e6b-9140-d237b81f4741` | `4e5164dc-a4a6-4d56-87ab-e07c1ad4cb5c` |
 | Dorian wardrobe | `Dorian-Say-Less-Look` | `98b667eb-7e9f-4a28-8859-448f15efa9d8` | `82c104ba-3740-4397-ae50-0eaea33b6dd8` |
 | Simone wardrobe | `Simone-Say-Less-Look` | `b80e2725-b11b-447d-acf3-f5b5a760be74` | `580a5247-157c-4057-863c-761d09f7100e` |
+
+## Render log
+
+| Segment | Job ID | Notes |
+|---|---|---|
+| 1 v1 | `b9d339ff-147b-4f56-aaf6-882e5105f2a3` | 30 s, 1080p. Filmed after your "film" (2 Oct 2026), using the exact prompt in `prompts.md`. Awaiting your review. |
