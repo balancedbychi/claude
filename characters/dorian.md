@@ -130,3 +130,10 @@ No text, no numbers, no labels, no watermark, no logos, no other people, no prop
 | Body turnaround | B4 | `c3f4fdc5-ab27-49e3-8170-55d371a34f73` |
 
 **2 Oct 2026, approved by the user:** F3 → `Dorian-Face` `33308979…`, B4 → `Dorian-Body` `e7d019d8…`.
+
+**2 Oct 2026, gym-outfit preview ("Say Less"):** after the user said Segment 2's Dorian "didn't look like the original character". Face from the ORIGINAL `Dorian` image `887050a4…` (face only), outfit from `Dorian-Say-Less-Look` `82c104ba…`, build from `Dorian-Body` `11aa68a0…`. Preview only; nothing saved as an element (rule 8).
+
+| Option | Framing | Job ID |
+|---|---|---|
+| G1 | Full length | `2414f33e-1f2a-4388-b923-f3a4991d3b7b` |
+| G2 | Waist-up | `dae5d325-5372-46fe-9d75-8ac5db27f762` |
