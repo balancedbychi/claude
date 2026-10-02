@@ -75,11 +75,47 @@
 - A phone in a **beige/tan case**, the same in every shot and every future episode. It never changes colour, size, model or position. It goes from Tay's hand to the table and stays on the table in Segment 1.
 - **Needs your upload:** a photo of the phone. It becomes the element `Nia-Phone` and is attached whenever the phone appears.
 
-### Staging
-- **Segment 1:** Nia's table is near the café entrance, with the counter in view behind her. Tay comes in through the entrance, sits across from her, and gives the phone back. Dorian comes in through the same entrance and stops near the counter.
-- **Segment 2:** Nia crosses to the counter, and Dorian glances past her to Tay, who is still at the table in the background. Dorian walks out through the entrance (no door action on screen, or the door written out handle-side per rule 5), and Tay walks over to Nia.
-- **Headcount:** exactly three main people, one each of Nia, Tay and Dorian, never two of anyone. A barista behind the counter and a few customers in the background never speak.
-- **Continuity:** Segment 2 attaches the approved Segment 1 as its reference video. The reference is never dropped. Segment 1's final line is not quoted in the Segment 2 prompt; Nia says "I guess so" once, at the end of Segment 2.
+### Floor plan and sightlines (the map the AI must follow)
+
+The camera always shoots from the same side of the café, so left and right never flip.
+
+```
+            BACK WALL
+ +------------------------------------------------+
+ | [ENTRANCE]                                     |
+ |  (open,                                        |
+ |  propped)    [ COUNTER ]                       |
+ |              [ barista ]                       |
+ |                                                |
+ |                    NIA  [table]  TAY           |
+ |                   (faces →)    (faces ←)       |
+ |                                                |
+ +------------------------------------------------+
+                  ^ CAMERA (fixed side)
+```
+
+- **Entrance:** back LEFT of frame. **It stays propped open the whole time, so there's no door action** (rule 5). People walk straight in and out.
+- **Counter:** LEFT side of the room, just inside the entrance. The barista is behind it.
+- **The table:** a small two-seat table, CENTRE-RIGHT, nearer the camera.
+  - **Nia sits on the LEFT chair, facing right.** Her back is to the entrance and the counter.
+  - **Tay sits on the RIGHT chair, facing left.** He looks straight past Nia's shoulder at the entrance and the counter.
+
+**Why this works for every "sees" moment:**
+
+| Moment | Who sees what, and how |
+|---|---|
+| Tay walks in | He comes through the entrance behind Nia and walks round the table into her view. She looks up, he puts on his "oh, it's you" face, and she rolls her eyes. |
+| Dorian walks in | **Tay is facing the entrance**, so he sees Dorian over Nia's shoulder without moving his head. He sits back, annoyed. |
+| Nia sees Dorian | Her back is to the entrance, so she **turns round in her chair** and looks over her left shoulder. Dorian is at the counter. |
+| Nia goes to Dorian | She gets up and walks LEFT to the counter, a few steps. |
+| Dorian sees Tay | At the counter Dorian faces right, toward Nia. **Tay is directly behind her at the table**, so Dorian looks over her head at him, then back at her. |
+| Dorian leaves | He walks a few steps left, straight out through the open entrance. |
+| Tay comes over | From his seat he watches the whole thing. He gets up and walks left to Nia at the counter. |
+
+- **The set photo has to fit this map:** an entrance and a counter on the same side, and space for a two-seat table. If your café photo is laid out differently, I'll redraw the map to match it before writing any prompt. **The photo always wins.**
+- **Headcount:** exactly three main people, one each of Nia, Tay and Dorian, never two of anyone. A barista and a few customers in the background never speak.
+- **Continuity:** Segment 2 attaches the approved Segment 1 as its reference video, and the reference is never dropped. Segment 1's final line is not quoted in the Segment 2 prompt.
+- **Segment 2's first frame:** Nia is getting up from the table, Tay is seated in the same place, and Dorian is at the counter. Everyone is exactly where Segment 1 left them.
 
 ### What everyone is doing (rule 12)
 - **Nia:** sipping her latte and looking out of the window; she has no phone in her hand, because Tay has it. In Segment 2, after Dorian leaves, she stands frozen for half a second, then her shoulders drop.

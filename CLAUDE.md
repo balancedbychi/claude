@@ -104,6 +104,15 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - **Every prompt has a "WHAT EVERYONE IS DOING" block** that gives each character, and any background extras, an action for every stretch of the clip, especially the off-camera and setup moments.
 - **Before filming, if it isn't clear what a character should be doing, ask the user** and include the proposed actions in the production notes for review.
 
+### 13. Every episode gets a floor plan with sightlines (user, 2 Oct 2026)
+- Before any prompt is written, the episode's `script.md` has a **floor plan** covering:
+  - the fixed camera side;
+  - where the entrance, counter and furniture are, using left and right from the camera;
+  - **who sits or stands where and which way each person faces**.
+- **Every moment where someone sees, notices or looks at someone** has a sightline check: that person must already be facing that way, or the script says they turn.
+- The set photo must fit the map, or the map is redrawn to match the photo before prompting. The photo wins.
+- The prompt repeats the map in plain words: where everyone is in the first frame, which way they face, and which way they move.
+
 ## How to render (Seedance 2.5 through the Higgsfield tools)
 
 - Pass elements in `reference_elements` **and** each element's image in `medias` as `image_references`. The API rejects element-only requests.
