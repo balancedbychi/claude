@@ -144,3 +144,10 @@ No text, no numbers, no labels, no watermark, no logos, no other people, no prop
 |---|---|---|
 | G3 | `4b10dbaa-29b1-4036-a894-22d9443e1359` | https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_042044_4b10dbaa-29b1-4036-a894-22d9443e1359.png |
 | G4 | `bb619e32-cf9e-4132-80c0-69e4bc3a158f` | https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_042044_bb619e32-cf9e-4132-80c0-69e4bc3a158f.png |
+
+**2 Oct 2026, the user's uploads of the original Dorian** (three images from 14 Sep 2026): `5adea04f-78b6-436d-9d3c-79743748a19b`, `89150075-6d2d-4d8a-b889-205a512084f1`, `62dda9ac-0876-40ab-a39a-bb9d1647116a`. Previews made from those three (face and body) + `Dorian-Say-Less-Look` `82c104ba…` (outfit):
+
+| Option | Job ID | Link |
+|---|---|---|
+| G5 | `6ea6028f-4d27-4005-95a1-941b76101428` | https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_044100_6ea6028f-4d27-4005-95a1-941b76101428.png |
+| G6 | `ff3c6e78-abac-427c-9c14-5cdfee6eb779` | https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_044100_ff3c6e78-abac-427c-9c14-5cdfee6eb779.png |
