@@ -12,8 +12,8 @@
 
 | Tag | Who | Element(s) attached | Voice | Speaks? |
 |---|---|---|---|---|
-| `[Nia-GPS]` | NIA | **Pending your upload:** one full-length picture of Nia in her outfit (rule 14). It replaces `Nia-Face` + `Nia-Body` + `Nia-Say-Less-Look`, which gave the wrong look in v1. | `Nia-Canon-Voice-v2` `b3d2fc9b…`, British | Yes |
-| `[Tay-GPS]` | TAY | **Pending your upload:** one full-length picture of Tay in his outfit (rule 14). It replaces `Tay-Face` + `Tay-Body` + `Tay-Say-Less-Look`. | Written description (`characters/tay.md`), word for word, American | Yes |
+| `[Nia-GPS]` | NIA | `Nia-GPS` `ca79ebfe-7f2e-4ce6-aa25-78fd1d992557` (image `7f3a3bce…`): your screenshot of Nia from "Say Less" Segment 1. Her face, body and outfit all come from this one picture. | `Nia-Canon-Voice-v2` `b3d2fc9b…`, British | Yes |
+| `[Tay-GPS]` | TAY | `Tay-GPS` `d49370d7-9378-4394-b1f8-01ea3127a3b2` (image `c1eaf28d…`): your screenshot of Tay from "Say Less" Segment 1. His face, body and outfit all come from this one picture. | Written description (`characters/tay.md`), word for word, American | Yes |
 | `[Dorian-Full]` | DORIAN | `Dorian-Say-Less-Full` `606734b1-423b-469c-a95b-c98743b1ccde` (image `b5f1682c…`): correct in v1, kept | Written description (rule 3b), word for word, American | Segment 2 only |
 | `[Nia-Phone]` | Nia's phone (prop) | `Nia-Phone` `c9e91260-9ef3-4d7f-ab7c-94498fed5e5c` (image `ad3a5a8b…`) | — | — |
 | `[Sucre]` | The café (set) | `Sucre-Day` `7f9a4d83-44b7-470f-a1ec-73740c0630d0` (image `a1ab5da3…`) | — | — |
