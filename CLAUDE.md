@@ -113,6 +113,10 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - The set photo must fit the map, or the map is redrawn to match the photo before prompting. The photo wins.
 - The prompt repeats the map in plain words: where everyone is in the first frame, which way they face, and which way they move.
 
+### 14. Lessons from "GPS Tracker" Segment 1 v1 (2 Oct 2026)
+- **One full-length image per character works best.** Dorian came out right from a single full-length image of him in his outfit with shoes (`Dorian-Say-Less-Full`). Nia and Tay came out wrong from three separate elements each (face, body, outfit). Where possible, each character gets **one full-length "character in costume" image from the user's upload** for the episode.
+- **Extras never speak unless the script gives them lines.** The barista talked gibberish. Every prompt says background people's mouths stay closed and the only voices are the scripted lines; or the extra gets a written line the user approved.
+
 ## How to render (Seedance 2.5 through the Higgsfield tools)
 
 - Pass elements in `reference_elements` **and** each element's image in `medias` as `image_references`. The API rejects element-only requests.

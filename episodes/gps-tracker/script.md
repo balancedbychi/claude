@@ -179,4 +179,4 @@ The camera always shoots from the same side of the café, so left and right neve
 
 | Segment | Job ID | Notes |
 |---|---|---|
-| 1 v1 | `c9024010-2d2e-409f-98e2-5418f6bf7c6f` | 30 s, 1080p. Filmed 2 Oct 2026 after your "film", with the exact prompt in `prompts.md`. No reference video (new scene). **Rendered; sent for your review.** Link: https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_215205_c9024010-2d2e-409f-98e2-5418f6bf7c6f.mp4 |
+| 1 v1 | `c9024010-2d2e-409f-98e2-5418f6bf7c6f` | 30 s, 1080p. Filmed 2 Oct 2026 after your "film", with the exact prompt in `prompts.md`. No reference video (new scene). **Rejected (your notes, 2 Oct 2026):** Nia's character was wrong, Tay's outfit was wrong, and the barista talked gibberish. Dorian was right: he came from one full-length image of the original Dorian in his outfit with shoes. Link: https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_215205_c9024010-2d2e-409f-98e2-5418f6bf7c6f.mp4 |
