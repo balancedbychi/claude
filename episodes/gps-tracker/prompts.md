@@ -175,13 +175,12 @@ AUDIO: only these lines, plus soft cafe ambience (espresso machine, cups clinkin
 
 **Your edits (2 Oct 2026):**
 - **The barista's line is removed.** She has no audible words, but she isn't frozen: her mouth moves naturally as she chats with Dorian while taking his order (your note: her mouth should move when she's acting like she's talking to him). Her words are inaudible, so there's no gibberish audio. Dorian nods and points at the pastry case. Customers stay silent.
-- **Café sound is back (your note, 3 Oct 2026):** a soft, natural murmur of people talking in the café, like there was before: quiet, well under Nia and Tay, and never a clear word. The customers chat quietly in pairs with their mouths moving. The only clear voices are Nia and Tay.
 - **Tay's reaction to Dorian is shorter:** one quick glance, his smile drops, he sits back, and he goes straight into "I guess your boo thing has a GPS tracker on you, huh?" There's no held reaction.
 
 **Unchanged from v2:**
 - Tay (`Tay-GPS`, right in v2), Dorian, the café, the phone and the floor plan.
 - Every line, including Tay's line without "Period".
-- Customers with no phones.
+- Silent customers with no phones.
 - No rings, Nia British, the ending on "I guess so."
 
 **Attached:** `Sucre-Day`, `Nia-GPS-v2`, `Tay-GPS`, `Dorian-Say-Less-Full`, `Nia-Phone`, `Nia-Canon-Voice-v2`. **Cost:** 360 credits.
@@ -189,7 +188,7 @@ AUDIO: only these lines, plus soft cafe ambience (espresso machine, cups clinkin
 ```
 30 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16.
 
-*** HEADCOUNT: EXACTLY THREE MAIN PEOPLE IN THIS CLIP: ONE NIA, ONE TAY, ONE DORIAN. NEVER TWO OF ANYONE. *** One BARISTA (a woman behind the counter, clearly not Nia) and two or three customers at the back tables only; none looks like Nia, Tay or Dorian, and none comes near the main table. The customers sit in pairs and chat quietly with each other, mouths moving naturally, but none of them ever says a clear, scripted or understandable line. THE BARISTA chats briefly and warmly with Dorian as she takes his order: her mouth moves naturally as she talks, but her words are NOT audible. No individual words from her or any extra are ever made out. BACKGROUND SOUND: a soft, natural, low murmur of people talking in the cafe, like a real coffee shop, quiet and well under the dialogue, never loud, never a clear voice or a word you can make out. The only clear voices are Nia and Tay.
+*** HEADCOUNT: EXACTLY THREE MAIN PEOPLE IN THIS CLIP: ONE NIA, ONE TAY, ONE DORIAN. NEVER TWO OF ANYONE. *** One BARISTA (a woman behind the counter, clearly not Nia) and two or three customers at the back tables only; none looks like Nia, Tay or Dorian, and none comes near the main table. THE CUSTOMERS NEVER SPEAK: mouths closed the whole clip. THE BARISTA chats briefly and warmly with Dorian as she takes his order: her mouth moves naturally as she talks, but her words are NOT audible. There is no spoken audio from her at all, no gibberish, no words. Only Nia and Tay are heard. No other voices, no background chatter.
 
 SET AND FLOOR PLAN, FIXED FOR THE WHOLE CLIP: the cafe <<<7f9a4d83-44b7-470f-a1ec-73740c0630d0>>>, SUCRE, exactly as the reference image shows; nothing is restyled or moved. The camera is always on the RIGHT side of the room looking LEFT, so left and right never flip. The ENTRANCE is at the BACK LEFT: a glass door already PROPPED FULLY OPEN; nobody touches it. The COUNTER runs along the LEFT side just inside the entrance, with the REGISTER in the middle of it, about five steps from the table. THE TABLE is a small two-seat table CENTRE-RIGHT, near the camera. NIA sits on the table's LEFT chair, FACING RIGHT: her back is to the entrance and the counter. TAY will sit on the RIGHT chair, FACING LEFT: he looks straight past Nia's shoulder at the entrance and the counter. No text, logos or signage anywhere.
 
@@ -218,7 +217,7 @@ NIA (British), dry and teasing: "I guess you're trying to wife me up now?"
 TAY (American), laughing: "Nah, I think that's what you're trying to do."
 They share a quick, cute moment: both laughing, Nia shaking her head, Tay grinning.
 3. Over Nia's shoulder, behind her in the background: DORIAN walks in through the open entrance and goes STRAIGHT to the register. He stands FACING THE BARISTA (facing left), his back and side to the table, ordering. He does NOT look toward the table and does NOT see Nia or Tay.
-The barista smiles and chats with him as she takes his order, her mouth moving naturally, but her words can't be heard (her voice blends into the soft cafe murmur, never a clear word); Dorian nods and points at the pastry case. Dorian says nothing.
+The barista smiles and chats with him as she takes his order, her mouth moving naturally, but her words can't be heard (no audio from her, only the soft cafe ambience); Dorian nods and points at the pastry case. Dorian says nothing.
 Tay, facing the entrance, glances up and sees Dorian over Nia's shoulder: ONE QUICK BEAT, his smile drops and he sits back, and he says his line straight away, with no long look or held reaction.
 TAY (American), flat, to Nia: "I guess your boo thing has a GPS tracker on you, huh?"
 Nia turns round in her chair and looks back over her LEFT shoulder toward the counter: she sees Dorian at the register. A small smile flickers, then she looks unsure and a little torn, glancing back at Tay.
@@ -230,9 +229,9 @@ WHAT EVERYONE IS DOING (nobody ever stands or sits frozen like a prop):
 - TAY: animated and playful while flirting, leaning in, small hand gestures; after his quick glance at Dorian, sitting back, jaw set.
 - DORIAN (background, after he enters): ordering at the register, nodding to the barista, then looking over the pastry case. He keeps facing the counter the whole time.
 - BARISTA: working the espresso machine, then chatting with Dorian as she takes his order (mouth moving naturally, smiling, words inaudible), then takes a pastry from the case for him.
-- CUSTOMERS (far back, in pairs): sipping drinks and chatting quietly with each other, natural small gestures, one reading a book (NO phones); their talk is only the soft background murmur, never a clear word; never looking at the main three.
+- CUSTOMERS (far back): sipping drinks, reading a book or a newspaper (NO phones); mouths closed, never speaking, never looking at the main three.
 
-LINE OWNERSHIP, NEVER SWAPPED: Tay says "I don't want to seem like I'm stalking you...", "Nah, I think that's what you're trying to do." and "I guess your boo thing has a GPS tracker on you, huh?" Nia says "I guess you're trying to wife me up now?" and "I guess so." The barista's chat with Dorian and the customers' chat are only part of the soft background murmur, never clear words. The final spoken line is Nia's "I guess so." Dorian says nothing.
+LINE OWNERSHIP, NEVER SWAPPED: Tay says "I don't want to seem like I'm stalking you...", "Nah, I think that's what you're trying to do." and "I guess your boo thing has a GPS tracker on you, huh?" Nia says "I guess you're trying to wife me up now?" and "I guess so." The barista's chat with Dorian is visible but inaudible: no audio from her. The final spoken line is Nia's "I guess so." Dorian and the customers say nothing.
 
 CAMERA: steady, eye level, always from the right side of the room looking left. NO ZOOMS. NO PUSH-INS. NO EXTREME CLOSE-UPS: faces never tighter than waist-up.
 
@@ -240,5 +239,5 @@ PHYSICS: natural walking and sitting with real weight; chairs move naturally; no
 
 TIMING: replies land quickly; natural reactions fill every pause; no frozen dead air. The clip ends within half a second of Nia's "I guess so."
 
-AUDIO: only these lines are clear, over soft natural cafe ambience: a low murmur of people talking at the back tables and at the counter (quiet, well under the dialogue, never a clear or understandable word), the espresso machine, cups clinking. No music, no narration.
+AUDIO: only these lines, plus soft cafe ambience (espresso machine, cups clinking). No background voices or murmur, no music, no narration.
 ```
