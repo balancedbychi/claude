@@ -256,7 +256,7 @@ AUDIO: only these lines, plus soft cafe ambience (espresso machine, cups clinkin
 - **Dorian's voice:** his written description only, word for word, as agreed. No "Miscommunication" clip. The reference video also carries his look.
 - **Barista:** she isn't talking to anyone in this scene, so she works quietly behind the counter (wiping it down, the espresso machine) and doesn't speak. **Customers:** silent, sipping and reading, no phones. **No background murmur** (your call).
 - **Ending:** on Nia's "I guess so.", then the clip cuts within half a second. After that, silence.
-- **One thing to check:** I can't see the clip. If Dorian was holding a pastry or a bag at the end of Segment 1, tell me and I'll change "hands empty" so he walks out with it.
+- **Confirmed (your answers, 3 Oct 2026):** 20 seconds is OK, and Dorian's hands are empty at the end of Segment 1, so he walks out with nothing.
 
 **Floor plan for this clip (camera on the right, looking left):**
 1. Nia gets up from the LEFT chair and walks LEFT to the register, stopping at Dorian's right side. Her latte and phone stay on the table.
