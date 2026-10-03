@@ -17,7 +17,7 @@
 | `[Dorian-Full]` | DORIAN | `Dorian-Say-Less-Full` `606734b1-423b-469c-a95b-c98743b1ccde` (image `b5f1682c…`): correct in v1, kept | Written description (rule 3b), word for word, American | Segment 2 only |
 | `[Nia-Phone]` | Nia's phone (prop) | `Nia-Phone` `c9e91260-9ef3-4d7f-ab7c-94498fed5e5c` (image `ad3a5a8b…`) | — | — |
 | `[Sucre]` | The café (set) | `Sucre-Day` `7f9a4d83-44b7-470f-a1ec-73740c0630d0` (image `a1ab5da3…`) | — | — |
-| `[Barista]` | BARISTA (extra) | None (generic): a woman behind the counter, clearly not Nia | — | **No.** Silent, mouth closed (your edit, 2 Oct 2026: line removed). |
+| `[Barista]` | BARISTA (extra) | None (generic): a woman behind the counter, clearly not Nia | — | **No audible line.** Chats with Dorian on screen, mouth moving naturally, but her words are inaudible (your edits, 2 Oct 2026: line removed; her mouth moves when she talks to Dorian). |
 | `[Customers]` | 2–3 customers (extras) | None (generic) | None | **No.** Silent, mouths closed. |
 
 ---
@@ -40,7 +40,7 @@
 *They share a quick, cute moment. Tay looks up and notices that DORIAN `[Dorian-Full]` has just walked in. He glances up, his smile drops, and he sits back. It's one quick beat, then straight into his line. In the background, Dorian reaches the register.*
 
 
-*The barista silently smiles and nods; Dorian points at the pastry case. Nobody speaks.*
+*The barista smiles and chats with Dorian as she takes his order: her mouth moves, but her words can't be heard. Dorian points at the pastry case.*
 
 > **TAY** `[Tay-GPS]` *(to Nia)*
 > I guess your boo thing has a GPS tracker on you, huh?
@@ -149,7 +149,7 @@ The camera always shoots from the same side of the café, so left and right neve
 - **Segment 1 ends at beat 5** with everyone in place: Nia turned in her chair, Tay seated with his arms folded, and Dorian at the register with his back to them. **Segment 2 opens from exactly that frame.** Dorian is already in Segment 1 in the same look, so only one Dorian exists (rule 9).
 
 - **The set photo has to fit this map:** an entrance and a counter on the same side, and space for a two-seat table. If your café photo is laid out differently, I'll redraw the map to match it before writing any prompt. **The photo always wins.**
-- **Headcount:** exactly three main people, one each of Nia, Tay and Dorian, never two of anyone. A barista and a few customers in the background never speak.
+- **Headcount:** exactly three main people, one each of Nia, Tay and Dorian, never two of anyone. The customers never speak. The barista's mouth moves as she chats with Dorian, but she's never heard.
 - **Continuity:** Segment 2 attaches the approved Segment 1 as its reference video, and the reference is never dropped. Segment 1's final line is not quoted in the Segment 2 prompt.
 - **Segment 2's first frame:** Nia is getting up from the table, Tay is seated in the same place, and Dorian is at the counter. Everyone is exactly where Segment 1 left them.
 
