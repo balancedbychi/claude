@@ -128,6 +128,21 @@ These are the user's standing rulings. **They override anything an older Higgsfi
   - given **written lines in English**, approved by the user before filming.
 - **Raise it at script review.** If a scene would naturally make someone talk (a barista taking an order, say), the script review asks the user for that person's lines or for confirmation that they're silent. Never leave it to the model.
 
+### 16. Direct everything: the production workflow (user, 3 Oct 2026)
+- "GPS Tracker" was approved with no corrections ("the best take… perfectly done"). The workflow that got there is now the standard: **`.claude/skills/episode-production/SKILL.md`**. Follow it for every episode, segment and re-film.
+- In short:
+  1. Read the script first.
+  2. Write the production notes, cast and tags.
+  3. Photos are uploaded **one at a time**, each named and tagged.
+  4. Draw the floor plan and sightlines.
+  5. Write a play-by-play for every beat.
+  6. Get the angles right, with **consistent screen sides**: someone who comes up on a person's right stays on their right across every cut.
+  7. Call out every segment clearly.
+  8. Account for every possible scenario.
+  9. Nobody is idle.
+  10. Take the AI's call-outs seriously.
+  11. Review, then "film".
+
 ## How to render (Seedance 2.5 through the Higgsfield tools)
 
 - Pass elements in `reference_elements` **and** each element's image in `medias` as `image_references`. The API rejects element-only requests.
