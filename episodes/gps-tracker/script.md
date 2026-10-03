@@ -1,6 +1,6 @@
 # EXCLUSIVE with Nia and Chi: "GPS Tracker"
 
-**Status:** script and floor plan APPROVED (2 Oct 2026). Confirmed: Dorian uses his written voice only; his line is "Oh, what? Whatcha walking over here for?"; the phone stays on the table. Next: your photo uploads. Nothing is filmed until you approve the script, then each segment's prompt, with "film" (rule 9).
+**Status:** Segment 1 v3 `36c277c0` APPROVED (3 Oct 2026). Segment 2 prompt sent for review (`prompts.md`); waiting on your "film" (rule 9).
 **Format:** scripted short, vertical 9:16, 1080p. About 60 seconds: **2 segments of 30 seconds each**. Each segment is one render with cuts inside it.
 **Cast:** Nia · Tay · Dorian. **Nobody else speaks.** Simone is **not** in this episode.
 **Set:** Sucre, a café. Nia is already seated when the episode opens.
@@ -198,7 +198,7 @@ The camera always shoots from the same side of the café, so left and right neve
 |---|---|---|
 | 1 v1 | `c9024010-2d2e-409f-98e2-5418f6bf7c6f` | 30 s, 1080p. Filmed 2 Oct 2026 after your "film", with the exact prompt in `prompts.md`. No reference video (new scene). **Rejected (your notes, 2 Oct 2026):** Nia's character was wrong, Tay's outfit was wrong, and the barista talked gibberish. Dorian was right: he came from one full-length image of the original Dorian in his outfit with shoes. Link: https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261002_215205_c9024010-2d2e-409f-98e2-5418f6bf7c6f.mp4 |
 | 1 v2 | `31f91b00-6362-4e26-9e8b-198ecad7e5c2` | 30 s, 1080p. Filmed 2 Oct 2026 after your "film". Nia and Tay from your screenshots (`Nia-GPS`, `Tay-GPS`); the barista has one line; customers silent; "Period" removed. One small change before submitting: the customers "read a book or a newspaper (NO phones)" instead of "scrolling", so the only phone on screen is Nia's. **Rejected (your note, 2 Oct 2026): "the character doesn't look like Nia at all."** |
-| 1 v3 | `36c277c0-7cae-4a07-86d0-fc4866867d55` | 30 s, 1080p. Filmed 3 Oct 2026 after your "film", with the exact v3 prompt in `prompts.md`. Nia from `Nia-GPS-v2` (your approved still); Tay `Tay-GPS`; Dorian `Dorian-Say-Less-Full`. The barista chats with Dorian with her mouth moving but no audible words; customers silent; no background murmur (your call). Tay's reaction shortened. **Awaiting your review.** Link: https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261003_001221_36c277c0-7cae-4a07-86d0-fc4866867d55.mp4 |
+| 1 v3 | `36c277c0-7cae-4a07-86d0-fc4866867d55` | 30 s, 1080p. Filmed 3 Oct 2026 after your "film", with the exact v3 prompt in `prompts.md`. Nia from `Nia-GPS-v2` (your approved still); Tay `Tay-GPS`; Dorian `Dorian-Say-Less-Full`. The barista chats with Dorian with her mouth moving but no audible words; customers silent; no background murmur (your call). Tay's reaction shortened. **APPROVED (your "approved", 3 Oct 2026).** Link: https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261003_001221_36c277c0-7cae-4a07-86d0-fc4866867d55.mp4 |
 
 **Full-length single-picture previews (2 Oct 2026, rule 14),** built from the same cast pictures and outfits as "Say Less" Segment 1. The user picks one of each and uploads it.
 
