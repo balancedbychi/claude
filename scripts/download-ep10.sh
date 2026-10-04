@@ -18,8 +18,6 @@ dl "$BASE/stills/Tay-Rented-Look.png"       "$CDN/hf_20261004_170139_27b3fd85-d1
 dl "$BASE/stills/Park-Pond-Golden-Hour.png" "$CDN/hf_20261004_170138_78c608a4-9a55-40bf-83a9-22e0adb0b2d0.png"
 
 mkdir -p "$BASE/cover"
-dl "$BASE/cover/EP10-cover-A.png" "$CDN/hf_20261004_204104_0343037c-88c7-455b-91f0-deea1401d84c.png"
-dl "$BASE/cover/EP10-cover-A1-height-fix.png" "$CDN/hf_20261004_204346_049a799d-c9b8-47ea-bd10-7cb91a96dd61.png"
-dl "$BASE/cover/EP10-cover-A2-height-fix.png" "$CDN/hf_20261004_204346_d90f8604-8d0a-4d79-a276-5de55fa4a245.png"
+dl "$BASE/cover/EP10 Rented cover.png" "$CDN/hf_20261004_204346_049a799d-c9b8-47ea-bd10-7cb91a96dd61.png"
 
 echo; echo "Done:"; ls -la "$BASE" "$BASE/stills" "$BASE/cover"
