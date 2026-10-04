@@ -17,4 +17,8 @@ dl "$BASE/stills/Nia-Rented-Look.png"       "$CDN/hf_20261004_170140_17652b18-10
 dl "$BASE/stills/Tay-Rented-Look.png"       "$CDN/hf_20261004_170139_27b3fd85-d1d3-4798-9c13-afcd5da32e29.png"
 dl "$BASE/stills/Park-Pond-Golden-Hour.png" "$CDN/hf_20261004_170138_78c608a4-9a55-40bf-83a9-22e0adb0b2d0.png"
 
-echo; echo "Done:"; ls -la "$BASE" "$BASE/stills"
+mkdir -p "$BASE/cover"
+dl "$BASE/cover/EP10-cover-A.png" "$CDN/hf_20261004_203543_0e2f7f43-1ddc-41c3-ad96-9dd00da0c6c8.png"
+dl "$BASE/cover/EP10-cover-B.png" "$CDN/hf_20261004_203543_2a65ff32-9a13-4f86-bfb3-c34b87d55732.png"
+
+echo; echo "Done:"; ls -la "$BASE" "$BASE/stills" "$BASE/cover"
