@@ -284,7 +284,7 @@ PHYSICS: natural seated posture, five-finger hands, glasses behave normally, the
 AUDIO: only these seven lines, plus the same soft low piano and faint clink of cutlery as the reference video. No background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIP 05 · "Just As Important" · 21 s · 147 credits · v1 · RENDERED, AWAITING REVIEW (job `1a685bed`)
+## CLIP 05 · "Just As Important" · 21 s · 147 credits · v1 · APPROVED (job `1a685bed`)
 
 **First line:** ChiChi's "Which is more important? Work, or your relationships?" **Final line:** ChiChi's "So would I." The **silent server** is in the first 3 seconds only, at the far right edge, at least an arm's length clear of DB (your ruling on the start frame). A folded dessert menu is added at DB's edge of the table for Clip 06.
 
@@ -347,6 +347,47 @@ PHYSICS: natural seated posture, five-finger hands, the carafe pours naturally, 
 AUDIO: only these seven lines, plus the soft pour of water at the start, the same soft low piano and faint clink of cutlery as the reference video. No background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
+## CLIP 06 · "Three Things" · 6 s · 42 credits · v1 · FILMED (job `8123d75b`)
+
+**No dialogue** (ending a). No voice element attached; the prompt bans every voice sound, because a silent clip is where the model is most likely to invent a line (rule 9). Ends on a cut to black within half a second of ChiChi looking at her bare left hand.
+
+**Seedance 2.5 request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 6`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`; `medias`: `video_references` = `1a685bed-7301-4d05-b755-4928b3202078` (approved Clip 05). Declined the "IN THE DARK" preset.
+
+```
+6 SECONDS. Photoreal cinematic drama, vertical 9:16, NIGHT, an elegant top-floor restaurant high above Atlanta. A first dinner date between two grown adults. Wholesome, fully clothed.
+
+*** NO DIALOGUE. NOBODY SPEAKS AT ALL IN THIS CLIP. *** ChiChi's and DB's mouths stay closed for the whole clip: no words, no "mm", no sighs, no whispers, no laughs. No voice is heard. The only sounds are the low piano, the faint room tone and ONE short phone buzz.
+
+REFERENCE VIDEO: the attached video is the APPROVED previous clip of this same scene. It is THE AUTHORITY for LOOKS, PLACE, LIGHT AND CAMERA ONLY: the same woman CHICHI on the LEFT, the same man DB on the RIGHT, the same faces, hair, clothes, table, candle, window and skyline. NONE of its dialogue is repeated; nothing from it is said. This clip continues straight on from the reference video's final moment, with DB's hand on the dessert menu.
+
+TIMING: every second has an action. No frozen stares. The clip ends with a cut to black within half a second of ChiChi looking down at her hand.
+
+*** HEADCOUNT: EXACTLY TWO MAIN PEOPLE: ONE CHICHI, ONE DB. NEVER TWO OF ANYONE. *** Both are already seated in the first frame; nobody new arrives; no server. At most three or four other diners far in the background in deep soft focus, eating quietly, mouths closed.
+
+SET: the restaurant <<<769d1d48-36ca-44ec-bba6-468bea5af8b0>>>, exactly as in the reference video: one small square two-top table with a white tablecloth beside a floor-to-ceiling window over a glittering night skyline, cream upholstered chairs, cream, warm taupe and brass interior. On the table: ONE candle in a short glass holder in the centre, two plates of entrées half finished, a glass of red wine each, a water glass each. Warm low amber candle and practical light, deep warm shadows, clearly night; never blue-dominant. No text, logos, labels or signage anywhere.
+
+CHICHI, EXACTLY AS IN THE REFERENCE VIDEO: face, hair and skin <<<b03240bd-4562-4d2f-8b14-de32c018e346>>>, body <<<46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc>>>: forty, warm brown complexion, cheek beauty mark, freckles; HONEY-BLONDE shoulder-length layered blowout with darker roots, deep side part on the LEFT side of her head, never dark brown; small stud earrings. Full-figured, never slimmed. HER CLOTHES COME ONLY FROM <<<84f791a1-178a-4e36-8791-010e116f7e1e>>>: the form-fitting camel-caramel rib-knit off-the-shoulder long-sleeved dress. NO RINGS on any finger of either hand; THE FOURTH FINGER OF HER LEFT HAND IS BARE SKIN, clearly visible; no wedding band, no engagement ring; no bracelets, no watch.
+
+DB, EXACTLY AS IN THE REFERENCE VIDEO: face, hair, beard and skin <<<1023755a-b704-4c10-b0f4-bf9887d2558c>>>, build <<<952f3fb0-ed54-4551-a07c-c56934939a44>>>: forty-eight, Dominican, warm golden-tan complexion, thick dark softly wavy hair with silver at the temples, neatly trimmed short beard. TALL; seated, he sits clearly taller than ChiChi. HIS CLOTHES COME ONLY FROM <<<5208aa4f-6509-4b4f-9902-293b117d2092>>>: the tailored charcoal suit, black dress shirt open at the collar, NO tie, slim steel watch on his LEFT wrist. NO RINGS on any finger of either hand, NO wedding ring.
+
+PROPS: DB's phone, a plain black smartphone with no logo, lies FACE-DOWN on the tablecloth on the window side of his plate; it buzzes ONCE and DB never touches it. A plain cream dessert menu card, opened in DB's hands, with NO writing visible on it.
+
+BLOCKING: both SEATED across the small table, facing each other. CHICHI on frame LEFT facing RIGHT; DB on frame RIGHT facing LEFT. Nobody stands, changes seats or leaves. ChiChi is ALWAYS on the left of frame and DB ALWAYS on the right, in every shot and every cut.
+
+FIRST FRAME: a medium-wide two-shot. DB is opening the dessert menu, pleased; ChiChi holds her water glass near her lips with her right hand, a composed smile, her LEFT hand resting flat on the white tablecloth beside her plate.
+
+THE CLIP, SHOT BY SHOT (NO DIALOGUE):
+1. (0-1.5 s) Two-shot. ChiChi sips her water, watching DB over the rim. DB scans the dessert menu, pleased, relaxed.
+2. (1.5-2.5 s) Two-shot. DB's face-down phone buzzes ONCE against the tablecloth: a small visible vibration and one short soft buzz. DB's eyes flick down to it and straight back to the menu. He does not touch it.
+3. (2.5-4 s) Waist-up on ChiChi over DB's left shoulder. She saw it. Her smile fades a little as she sets her water glass down on the table. Mouth closed.
+4. (4-5.5 s) Waist-up on ChiChi. She lowers her eyes to her bare LEFT hand resting flat on the white tablecloth: no ring, bare fingers. A quiet, still realisation in her face. Mouth closed.
+5. (5.5-6 s) CUT TO BLACK.
+
+CAMERA: the same camera as the reference video: steady, eye level, always from the room side of the table. NO ZOOMS, NO PUSH-INS; faces never tighter than waist-up.
+PHYSICS: natural seated posture, five-finger hands, the glass is set down naturally, the phone vibrates in place without moving across the table, the candle flame flickers gently.
+AUDIO: NO VOICES AT ALL. Only the soft low piano, faint room tone and the single phone buzz; the room sound dips slightly so the piano carries the last seconds. No narration, no music swell. No subtitles, captions or on-screen text.
+```
+
 ### Render log
 
 | Clip | Version | Job ID | Duration | Credits | Verdict |
@@ -357,4 +398,5 @@ AUDIO: only these seven lines, plus the soft pour of water at the start, the sam
 | 03 | v1 | `685c3b89-1682-4f4f-8ad0-8b4c987bc193` | 14 s | 98 → refunded | **FAILED** about a minute in; no reason given; refunded (same pattern as Clip 02's first attempt). |
 | 03 | v1 retry | `fc894b33-bdb8-4ed2-96c5-2f9d0eb7cb84` | 14 s | 98 | **APPROVED** (5 Oct 2026). |
 | 04 | v1 | `687a5c19-2aa7-45d1-85c0-ad6885f96e64` | 16 s | 192 | **APPROVED** (5 Oct 2026). 1080p; scale to 720p in the edit. |
-| 05 | v1 | `1a685bed-7301-4d05-b755-4928b3202078` | 21 s | 147 | **Rendered** 5 Oct 2026 at 720p ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_013247_1a685bed-7301-4d05-b755-4928b3202078.mp4)). Worked first time. Awaiting your review. |
+| 05 | v1 | `1a685bed-7301-4d05-b755-4928b3202078` | 21 s | 147 | **APPROVED** (5 Oct 2026). |
+| 06 | v1 | `8123d75b-01ec-4f04-8ead-b36f1295bbd8` | 6 s | 42 | Filmed 5 Oct 2026 ("film clip 6"), 720p, no dialogue. Clip 05 attached as reference. Rendering. |
