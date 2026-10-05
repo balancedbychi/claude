@@ -21,7 +21,8 @@ Read `script.md` first: it has the story, the floor plan and the beat-by-beat fo
 | ChiChi's voice | ChiChi-Canon-Voice-v1 | `de50f37f-82fa-4a70-bdca-52355b2f4ca2` |
 | `[DB-JAI]` | DB-Face · DB-Body · DB-Just-As-Important-Look | `1023755a-b704-4c10-b0f4-bf9887d2558c` · `952f3fb0-ed54-4551-a07c-c56934939a44` · `5208aa4f-6509-4b4f-9902-293b117d2092` |
 | DB's voice | Written description, word for word (`characters/db.md`) | — |
-| Video reference | Clip 01: none. Clips 02–06: the approved clip before. | — |
+| Start image (`start_image`) | That clip's first-frame still (table below) | — |
+| Video reference (`video_references`) | Clip 01: none. Clips 02–06: the approved clip before. | — |
 
 ## Risks and guards (skill step 8)
 
@@ -41,9 +42,32 @@ Read `script.md` first: it has the story, the floor plan and the beat-by-beat fo
 
 ---
 
+## Start frames: one image per clip (5 Oct 2026)
+
+Seedance 2.5 takes an image in the **`start_image`** role and opens the clip on exactly that frame. Each still below is the **first frame** from the beat-by-beat in `script.md`, built from the locked elements (set + ChiChi Face/Body/Look + DB Face/Body/Look). GPT Image 2.5, 9:16, high quality, 2k, about 2.75 credits each.
+
+| Clip | Scene | First frame shows | Job ID | Image | Verdict |
+|---|---|---|---|---|---|
+| 01 | The Lawyer Story | ChiChi setting her fork down, smiling; DB lowering his wine glass | `0cc0247c-e512-4b46-a0a7-ba23c57c12c5` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_001529_0cc0247c-e512-4b46-a0a7-ba23c57c12c5.png) | Awaiting your OK |
+| 02 | Ten Cats | ChiChi sitting back with her wine, about to speak; DB leaning in on his forearms | `87d3c910-a897-4b3e-9e06-e75cf9f14cd4` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_001529_87d3c910-a897-4b3e-9e06-e75cf9f14cd4.png) | Awaiting your OK |
+| 03 | Always Wanted One | DB leaning in mid-sentence; ChiChi listening, hands together | `b9c1a03d-ad05-4583-a29d-3aa5759b203b` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_001530_b9c1a03d-ad05-4583-a29d-3aa5759b203b.png) | Awaiting your OK |
+| 04 | Why It Ended | ChiChi hands folded, about to ask; DB relaxed, hand by his water glass | `e53957b7-1cd0-44b8-adc1-2d327cebcab6` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_001530_e53957b7-1cd0-44b8-adc1-2d327cebcab6.png) | Awaiting your OK |
+| 05 | Just As Important | Server behind DB finishing the pour; ChiChi folding her hands, turning to DB | `0a57e692-a767-4c70-bb43-883040e879c2` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_001531_0a57e692-a767-4c70-bb43-883040e879c2.png) | Awaiting your OK |
+| 06 | Three Things | DB opening the dessert menu; ChiChi sipping water, bare left hand on the cloth | `049d3a5d-6f10-40fe-bb31-30717aa175fa` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_001530_049d3a5d-6f10-40fe-bb31-30717aa175fa.png) | Awaiting your OK |
+
+**What to check in each image:** ChiChi on the LEFT and DB on the RIGHT; honey-blonde hair parted on her left; the camel off-the-shoulder dress and the charcoal suit with a black shirt and no tie; **no rings**; **one** candle; the phone face-down by DB's plate; no text anywhere; DB clearly taller.
+
+**How each clip uses them (Seedance 2.5):**
+- **Clip 01:** `start_image` = frame 01, plus the elements in the prompt.
+- **Clips 02–06:** `start_image` = that clip's frame, **plus** the approved clip before it as a `video_references` entry, which carries the voices (rule 7). If an approved clip ends somewhere different from the next start frame (a glass in the other hand, say), the approved footage wins: we either regenerate that start frame from the clip's last frame or drop the start image for that clip. That gets decided at each review.
+
+---
+
 ## CLIP 01 · "The Lawyer Story" · 15 s · 105 credits · v1 · AWAITING YOUR "FILM"
 
 **First line:** ChiChi's "You owe me the lawyer story." **Final line:** DB's "Who is Chi?"
+
+**Seedance 2.5 request:** `model: seedance_2_5`, `duration: 15`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`; `medias`: `start_image` = `0cc0247c-e512-4b46-a0a7-ba23c57c12c5` (frame 01). Elements go in through their placeholders in the prompt.
 
 ```
 15 SECONDS. Photoreal cinematic drama, vertical 9:16, NIGHT, an elegant top-floor restaurant high above Atlanta. A first dinner date between two grown adults. Wholesome, fully clothed.
@@ -62,6 +86,7 @@ PROP: DB's phone, a plain black smartphone with no logo, lies FACE-DOWN on the t
 
 BLOCKING, IDENTICAL IN EVERY SHOT: both SEATED across the small table, facing each other. CHICHI on frame LEFT facing RIGHT; DB on frame RIGHT facing LEFT; the window and skyline behind the table. Nobody stands, changes seats or leaves. ChiChi is ALWAYS on the left of frame and DB ALWAYS on the right, in every shot and every cut.
 
+START IMAGE: the clip opens EXACTLY on the attached start image (same people, clothes, table, candle, window and framing) and moves on from it.
 FIRST FRAME: a medium-wide side-on two-shot, already in motion. ChiChi on the left, setting her fork down on her plate and smiling at him; DB on the right, lowering his wine glass from a sip, looking at her. ChiChi starts her first line immediately.
 
 THE CLIP, SHOT BY SHOT:
