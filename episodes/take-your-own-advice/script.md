@@ -226,13 +226,13 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 
 ---
 
-## CLIP 03 · "Rented" · 15 s · about 105 credits
+## CLIP 03 · "Rented" · 11 s · 77 credits (tightened from 15 s: no dead air)
 
 **Job:** turn the scene to Nia, and land the comic beat: she said it first.
 
 ### Script
 > **CHICHI** *(nodding at the phone)* Your turn. You haven't put that phone down since you walked in.
-> **NIA** *(turning it face-down)* Tay says he doesn't want to be rented.
+> **NIA** *(sliding the face-down phone away with one finger)* Tay says he doesn't want to be rented.
 > **CHICHI** *(a surprised laugh)* Rented?
 > **NIA** *(sheepish)* I might have said it first.
 > **CHICHI** Nia.
@@ -242,14 +242,16 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
-| **First frame** | TWO-SHOT | Palms flat on the marble, leaning slightly, nodding at Nia's phone | Glancing down at her phone by her hand |
+| **First frame** | TWO-SHOT (locked Still 03, matching Clip 02's last frame) | Palms flat on the marble, leaning slightly, nodding at Nia's phone | Glancing down at her face-down phone, one finger on it |
 | 0–3 s | ON CHICHI | Nods at the phone, knowing: **"Your turn. You haven't put that phone down since you walked in."** | (back to camera) |
-| 3–6 s | ON NIA | (back to camera) | Turns the phone face-down with one finger **as** she says: **"Tay says he doesn't want to be rented."** |
-| 6–7.5 s | ON CHICHI | A surprised laugh **into** the word: **"Rented?"** | (back to camera) |
-| 7.5–10 s | ON NIA | (back to camera) | Sideways look, sheepish: **"I might have said it first."** |
-| 10–11.5 s | ON CHICHI | Flat, the big-sister look: **"Nia."** *(NEE-uh)* | (back to camera) |
-| 11.5–15 s | TWO-SHOT | Arms folding, not buying it | Hands up, protesting: **"As a joke!"** |
+| 3–5.5 s | ON NIA | (back to camera) | The phone has been face-down since Clip 01, so instead she slides it a few inches away with one finger, to prove a point, **as** she says: **"Tay says he doesn't want to be rented."** |
+| 5.5–6.5 s | ON CHICHI | A surprised laugh **into** the word: **"Rented?"** | (back to camera) |
+| 6.5–8.5 s | ON NIA | (back to camera) | Sideways look, sheepish: **"I might have said it first."** |
+| 8.5–9.5 s | ON CHICHI | Flat, the big-sister look: **"Nia."** *(NEE-uh)* | (back to camera) |
+| 9.5–11 s | TWO-SHOT | Arms folding, not buying it | Hands up, protesting: **"As a joke!"** |
 | **Last frame** | TWO-SHOT | Arms folded | Hands still half up |
+
+**Pronunciation (your Clip 02 note):** Tay = TAY (rhymes with day), rented = REN-tid, Nia = NEE-uh. Every word is said as the standard English word.
 
 **Cut on "As a joke!"** *After that, silence.*
 
