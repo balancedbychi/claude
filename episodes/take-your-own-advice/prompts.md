@@ -10,8 +10,8 @@ Read `script.md` first: it has the story, the floor plan, the locked start-frame
 | 02 | Penciled In | `5839271e-0198-4488-b7bc-f647e98c5338` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_032900_5839271e-0198-4488-b7bc-f647e98c5338.mp4)) | 12 s | 720p | 84 | **Approved** (one flaw: Chi said "calendar invoit" instead of "invite") |
 | 03 | Rented | `303380c4-6691-487f-ac66-ddc85c2bb871` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_033519_303380c4-6691-487f-ac66-ddc85c2bb871.mp4)) | 11 s | 720p | 77 | **Approved** |
 | 04 | Asking For More | `38da786f-ca7a-43d7-92ee-daf4360f2a01` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_041820_38da786f-ca7a-43d7-92ee-daf4360f2a01.mp4)) (v3; three earlier attempts failed and were refunded) | 10 s | 720p | 70 | **Rejected**: a phantom coffee pot flies across the screen. Nothing in the script moves it. |
-| 04 v4 | Asking For More | `2c7c87de-97ab-4a5c-95f7-50e41ba15c56` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_042609_2c7c87de-97ab-4a5c-95f7-50e41ba15c56.mp4)) | 10 s | 720p | 70 | Ready for review |
-| 05 | Take Your Own Advice | — | 16 s | 720p | ~112 | — |
+| 04 v4 | Asking For More | `2c7c87de-97ab-4a5c-95f7-50e41ba15c56` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_042609_2c7c87de-97ab-4a5c-95f7-50e41ba15c56.mp4)) | 10 s | 720p | 70 | **Approved** |
+| 05 | Take Your Own Advice | `f57c5a80-9ee7-4af7-9cf0-66f8333fd4dc` | 13 s | 720p | 91 | Rendering |
 | 06 | Both Phones | — | 10 s | 720p | ~70 | — |
 
 ## Settings (every clip)
@@ -409,4 +409,70 @@ The two voices never sound alike and never swap.
 CAMERA: the same camera as the reference video: steady, eye level, always from the dining (camera) side of the island; it never crosses behind the island. A medium-wide two-shot plus waist-up over-the-shoulder singles. NO ZOOMS, NO PUSH-INS; faces never tighter than waist-up.
 PHYSICS: real-world physics only; objects move ONLY when a hand is holding them. Natural posture and weight, five-finger hands, ChiChi's arms full length, each mug lifted naturally as a single solid object, the French press and both phones stay perfectly still, steam rises gently from the mugs, no physical contact between them.
 AUDIO: only these three lines, plus the same soft morning kitchen room tone as the reference video and the light clink of a mug lifted from marble. No music swell, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
+```
+
+---
+
+## CLIP 05 · "Take Your Own Advice" · 13 s · 91 credits · v1 (job `f57c5a80`)
+
+**First line:** Nia's "Hold on. You want me to give Tay a chance, but you won't give DB one?" **Final line:** Nia's "I'm always right. I just never listen to myself."
+**Beat check:**
+- **Into Clip 05:** Clip 04 v4 ends with Chi upright, mug in her right hand, and Nia's mug at her lips. Still 05 opens with Chi upright holding her mug and Nia setting hers down to point, so they match.
+- **Props:** one mug moves at a time. Nia sets hers down at the start; Chi sets hers down on "I hate when you do that." Nobody picks a mug up. The French press and both phones stay exactly where they are in the start image.
+- **Out of Clip 05:** both mugs are down and both phones face-down, which matches Still 06 (both smiling, phones face-down).
+
+**Timing:** 13 s instead of 16 s.
+**Pronunciation:** Tay, DB ("DEE-BEE"), different, listen (silent t).
+**Request:** `duration: 13`, 9:16, 720p, `medias: [{start_image: e0825511-f01a-41c4-83a2-dc86c6d517b7} (locked Still 05), {video_references: 2c7c87de-97ab-4a5c-95f7-50e41ba15c56} (approved Clip 04 v4)]`.
+
+```
+13 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
+
+REFERENCE VIDEO: the attached video is the APPROVED previous clip of this same scene. It is THE AUTHORITY for LOOKS, VOICES, PLACE, LIGHT AND CAMERA ONLY: the same woman CHICHI standing on the LEFT, the same woman NIA seated on the RIGHT, the same faces, bodies, hair, clothes, island, set and light, and both voices exactly as they sound in it. NO LINE OF DIALOGUE from the reference video is repeated; none of its words are said again. This clip continues straight on from the reference video's final line. The FIRST line of this clip is Nia's "Hold on. You want me to give Tay a chance, but you won't give DB one?"
+
+START IMAGE: the clip opens EXACTLY on the attached start image: same two women, same faces, same bodies, same clothes, same kitchen island with the same shape and edge, same set, same light and same framing. It moves on from that frame. The island is a rigid fixed object: its marble top never changes shape, length or overhang in any shot.
+
+TIMING, READ THIS FIRST. NO PAUSES. NO DEAD AIR. Every line starts within two tenths of a second of the line before it. There are NO silent beats anywhere in this clip: every gesture and reaction happens WHILE someone is speaking. The clip opens with Nia already starting her first line and ends on the last spoken line. ChiChi's laugh runs straight INTO her line, never before it. Nobody sits frozen or stares.
+
+SPEECH: both women speak in smooth, fluent, continuous sentences: whole words, no stutters, no broken or clipped words, no restarts, no hesitations.
+
+PRONUNCIATION, EVERY WORD SAID CORRECTLY: every word is the ordinary, standard English word, said clearly and correctly, never blended, invented or mispronounced. Key words: "Tay" = TAY, one syllable, rhymes with "day". "DB" = DEE-BEE, two separate letters, a man's initials. "different" = DIF-rent. "listen" = LISS-en, silent t. "myself" = my-SELF. "chance" = CHANCE.
+
+*** HEADCOUNT: EXACTLY TWO PEOPLE: ONE CHICHI, ONE NIA. NEVER TWO OF ANYONE. NOBODY ELSE APPEARS, not in the room, not in the windows, not in reflections. ***
+
+SET: ChiChi's kitchen <<<37c64826-c6b8-4ea5-a4ca-6e7a2ed086ca>>>, exactly as in the start image and the reference video: cream shaker cabinets, a brass range hood, open oak shelves, a long white marble island with a bowl of lemons and a vase of white flowers, cream boucle bar stools, floor-to-ceiling windows on the RIGHT side of the frame with a city skyline. Bright, warm morning sun pours in from the windows on the right; clearly daytime, never night. No text, logos, labels or signage anywhere.
+
+CHICHI, EXACTLY AS IN THE START IMAGE AND THE REFERENCE VIDEO: face, hair and skin <<<b03240bd-4562-4d2f-8b14-de32c018e346>>>, body <<<46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc>>>: forty, warm brown complexion, cheek beauty mark, freckles; HONEY-BLONDE shoulder-length layered blowout with darker roots, deep side part on the LEFT side of her head, never dark brown; small stud earrings. About 5'5", full-figured, the same body shape and proportions as in the start image in every shot, never slimmed; arms full length and anatomically correct. HER CLOTHES COME ONLY FROM <<<759bc585-b31a-4dd0-b17a-1423c7db83ff>>>: a form-fitting black ribbed short-sleeved top and black ribbed wide-leg lounge trousers, barefoot, identical in every shot. Nothing is worn from the face or body references. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring; no bracelets, no watch.
+
+NIA, EXACTLY AS IN THE START IMAGE AND THE REFERENCE VIDEO: face, hair and skin <<<3497a052-ed61-4fbc-babe-c9f7fc11bf77>>>: thirty, Black British, deep warm brown skin, jet-black waist-length water-wave curls, diamond stud earrings. PETITE, about 5'2", SLIM-THICK: a small snatched waist, a flat toned stomach, slim toned arms and shoulders, full rounded hips and thighs, a fuller chest; a defined hourglass on a slim, fit frame; never heavy, never thick through the waist or arms. She is clearly smaller than ChiChi. HER CLOTHES COME ONLY FROM <<<9a7d7c6c-1ab8-4c4c-ae35-73ed09bb939f>>>: a fitted cream ribbed long-sleeved scoop-neck bodysuit tucked into high-waisted camel wide-leg trousers, a thin gold choker, tan slides, identical in every shot. NEVER a sweatshirt, nothing green. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no bracelets.
+
+PROPS ON THE ISLAND, LOCKED IN PLACE: the glass French press of coffee stands on the island EXACTLY where it is in the start image, and it is a FIXED, STATIONARY object for the whole clip: NOBODY touches it, it NEVER moves, lifts, slides, tips, floats or flies, and it never leaves its spot. There are EXACTLY TWO white mugs in the whole clip and they are the ONLY objects that move, ONE AT A TIME: first Nia sets HER OWN white mug down on the marble; later ChiChi sets HER OWN white mug down on the marble. Nobody picks a mug up in this clip. NO THIRD MUG, no extra pot, jug, cup or object ever appears or moves through the frame. Each object is one solid thing: it never duplicates, never merges with or passes through another object, a hand or the counter. Nia's smartphone in a beige-tan case and ChiChi's smartphone in a plain cream case each lie FACE-DOWN on the marble EXACTLY where they are in the start image, the whole time; nobody touches either phone. Nothing is thrown, tossed or falls.
+
+BLOCKING, IDENTICAL IN EVERY SHOT: CHICHI on frame LEFT, STANDING behind the island on the kitchen side, facing RIGHT toward Nia. NIA on frame RIGHT, SEATED on the right-hand cream boucle stool on the camera side of the island, turned three-quarters to face LEFT toward ChiChi, the bright windows behind her. Nobody walks away from the island, sits, stands up or swaps places. ChiChi is ALWAYS on the left of frame and Nia ALWAYS on the right, in every shot and every cut.
+
+FIRST FRAME: the start image. A medium-wide two-shot from the dining end. The French press stands exactly where the start image shows it. ChiChi stands upright holding her own white mug in her right hand, her left hand flat on the marble, eyebrows raised in a slightly smug look; Nia is setting her own white mug down on the marble with one hand and starting to point at ChiChi with the other, already starting her first line.
+
+THE CLIP, SHOT BY SHOT:
+1. (0-4.5 s) Waist-up on Nia past ChiChi's right edge. She finishes setting her mug down and points at ChiChi AS she speaks, sharp and knowing, in one smooth, unbroken delivery.
+  NIA (British), turning the tables: "Hold on. You want me to give Tay a chance, but you won't give DB one?"
+2. (4.5-6 s) Waist-up on ChiChi over Nia's left shoulder. Straight back, too fast, still holding her mug.
+  CHICHI (American), too quick: "That's different."
+3. (6-7 s) Waist-up on Nia. One eyebrow up, deadpan, her hands now resting on the marble.
+  NIA (British), deadpan: "Is it?"
+4. (7-9.5 s) Waist-up on ChiChi. Caught. A laugh breaks out of her despite herself and runs straight into her line; shaking her head, she sets her own white mug down on the marble AS she says it.
+  CHICHI (American), laughing: "I hate when you do that."
+5. (9.5-13 s) Two-shot. ChiChi, still smiling, shakes her head, both hands now resting on the marble; Nia, dry and smug on the first sentence, then softer and rueful on the second, says it straight away.
+  NIA (British), smug then soft: "I'm always right. I just never listen to myself."
+  END on this line: ChiChi smiling warmly at her friend; Nia with a small, rueful smile; both mugs resting on the marble, both phones face-down, the French press exactly where it started. After that, silence: nobody speaks.
+
+LINE OWNERSHIP, NEVER SWAPPED: "Hold on. You want me to give Tay a chance, but you won't give DB one?" = NIA. "That's different." = CHICHI. "Is it?" = NIA. "I hate when you do that." = CHICHI. "I'm always right. I just never listen to myself." = NIA. Only these five lines, in this order, each said once.
+
+VOICES, EXACTLY AS IN THE REFERENCE VIDEO, TWO DIFFERENT WOMEN, NEVER MIXED:
+- NIA IS BRITISH: her voice is <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>: warm, low, dry London accent, British vowels, no hard R, deadpan wit; never American. Her name is said "NEE-uh".
+- CHICHI IS AMERICAN: her voice is <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>, a warm, smooth, mid-to-low Black American woman's voice with a GENERAL AMERICAN ACCENT, calm authority and dry humour. ChiChi is AMERICAN: General American accent, NEVER British.
+The two voices never sound alike and never swap.
+
+CAMERA: the same camera as the reference video: steady, eye level, always from the dining (camera) side of the island; it never crosses behind the island. A medium-wide two-shot plus waist-up over-the-shoulder singles. NO ZOOMS, NO PUSH-INS; faces never tighter than waist-up.
+PHYSICS: real-world physics only; objects move ONLY when a hand is holding them. Natural posture and weight, five-finger hands, ChiChi's arms full length, each mug set down naturally as a single solid object, the French press and both phones stay perfectly still, steam rises gently from the mugs, no physical contact between them.
+AUDIO: only these five lines and ChiChi's short natural laugh, plus the same soft morning kitchen room tone as the reference video and the light clink of mugs set on marble. No music swell, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```

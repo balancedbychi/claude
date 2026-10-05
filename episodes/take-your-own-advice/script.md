@@ -286,7 +286,7 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 
 ---
 
-## CLIP 05 · "Take Your Own Advice" · 16 s · about 112 credits
+## CLIP 05 · "Take Your Own Advice" · 13 s · 91 credits (tightened from 16 s: no dead air)
 
 **Job:** the turn. Nia flips it, and ChiChi has no answer. It's the title moment.
 
@@ -301,13 +301,17 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
-| **First frame** | TWO-SHOT | Upright, mug in her right hand, left hand on the marble, smug | Setting her mug down, starting to point, already speaking |
-| 0–5 s | ON NIA | (back to camera) | Sets the mug down and points at ChiChi **as** she speaks: **"Hold on. You want me to give Tay a chance, but you won't give DB one?"** |
-| 5–6.5 s | ON CHICHI | Straight back, too fast: **"That's different."** | (back to camera) |
-| 6.5–8 s | ON NIA | (back to camera) | One eyebrow, deadpan: **"Is it?"** |
-| 8–11 s | ON CHICHI | Caught. She laughs despite herself, shaking her head: **"I hate when you do that."** | (back to camera) |
-| 11–16 s | TWO-SHOT | Still smiling, shaking her head | Dry and smug, then softer on the second line: **"I'm always right. I just never listen to myself."** |
+| **First frame** | TWO-SHOT (locked Still 05, matching Clip 04's last frame) | Upright, mug in her right hand, left hand on the marble, smug | Setting her mug down, starting to point, already speaking |
+| 0–4.5 s | ON NIA | (back to camera) | Sets the mug down and points at ChiChi **as** she speaks: **"Hold on. You want me to give Tay a chance, but you won't give DB one?"** |
+| 4.5–6 s | ON CHICHI | Straight back, too fast: **"That's different."** | (back to camera) |
+| 6–7 s | ON NIA | (back to camera) | One eyebrow, deadpan: **"Is it?"** |
+| 7–9.5 s | ON CHICHI | Caught. She laughs despite herself, shaking her head, and sets her mug down on the marble **as** she says: **"I hate when you do that."** (both mugs are then down, which matches Still 06) | (back to camera) |
+| 9.5–13 s | TWO-SHOT | Still smiling, shaking her head | Dry and smug, then softer on the second line: **"I'm always right. I just never listen to myself."** |
 | **Last frame** | TWO-SHOT | Smiling at her friend | A small, rueful smile |
+
+**Pronunciation:** Tay = TAY, DB = "DEE-BEE" (two letters), different = DIF-rent, listen = LISS-en (silent t).
+
+**Props:** one mug moves at a time: Nia sets hers down at the start, Chi sets hers down on "I hate when you do that." The French press and both phones never move.
 
 **Cut on "…listen to myself."** *After that, silence.*
 
