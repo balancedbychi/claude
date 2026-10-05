@@ -1,6 +1,6 @@
 # EXCLUSIVE with Nia and Chi: Episode 12, "Take Your Own Advice"
 
-**Status:** SCRIPT AND BEAT-BY-BEAT FOR REVIEW (5 Oct 2026). Nothing has been filmed.
+**Status:** LOOKS AND SET LOCKED (Nia N1-st, ChiChi C3, ChiChi's kitchen). SCRIPT AND BEAT-BY-BEAT FOR REVIEW (5 Oct 2026). Nothing has been filmed.
 **Format:** vertical 9:16, 720p, Seedance 2.5. **Six clips, one per scene**, about 82 seconds in total. From Clip 02 on, each clip attaches the approved clip before it as a video reference (rule 7).
 **Cast:** Nia · ChiChi. Nobody else is on screen.
 **Picks up from:** Episode 10, "Rented" (Tay: *"Maybe I ain't tryna be rented"*), and Episode 11, "Just As Important" (DB: *"Work is just as important"*). **This is the next morning.**
@@ -22,9 +22,9 @@ The morning after ChiChi's date, Nia comes over for coffee in ChiChi's kitchen. 
 | Item | Proposal | Status |
 |---|---|---|
 | Story | Nia & Chi debrief | **Your pick** (5 Oct 2026) |
-| Set | **ChiChi's kitchen in daytime**, the approved `ChiChi-Kitchen-Day` `37c64826-c6b8-4ea5-a4ca-6e7a2ed086ca` from "Tables Turned". No new set needed. | Needs your OK |
-| Nia's look | Four options (below), from `Nia-Face` + `Nia-Body`, as in "Rented" | Needs your pick |
-| ChiChi's look | Four at-home morning options (below), from `ChiChi-Face` + `ChiChi-Body` | Needs your pick |
+| Set | **ChiChi's kitchen in daytime**, the approved `ChiChi-Kitchen-Day` `37c64826-c6b8-4ea5-a4ca-6e7a2ed086ca` from "Tables Turned". No new set needed. | **Locked** ("use the kitchen", 5 Oct 2026) |
+| Nia's look | **N1-st**: cream ribbed bodysuit, camel wide-leg trousers, gold choker, tan slides. Saved as `Nia-Take-Your-Own-Advice-Look` `9a7d7c6c-1ab8-4c4c-ae35-73ed09bb939f` (from image job `568806bd…`) | **Your pick** (5 Oct 2026) |
+| ChiChi's look | **C3**: form-fitting black ribbed lounge set, short-sleeved top + wide-leg trousers, barefoot. Saved as `ChiChi-Take-Your-Own-Advice-Look` `759bc585-b31a-4dd0-b17a-1423c7db83ff` (from image job `2257370f…`) | **Your pick** (5 Oct 2026) |
 | Ending | Ends on a spoken line ("You first.") with no silent button, so there's no risk of invented dialogue | Needs your OK |
 
 ---
@@ -72,8 +72,8 @@ Built from the face and body elements only, the same way as the Episode 11 looks
 
 | Tag | Who | Elements | Voice | Speaks? |
 |---|---|---|---|---|
-| `[Nia-TYOA]` | NIA | `Nia-Face` `3497a052…` + her Episode 12 look (to pick). **No `Nia-Body`** (she's slim-thick now) | `Nia-Canon-Voice-v2` `b3d2fc9b…`, **British**, warm, low, dry, deadpan | Yes |
-| `[ChiChi-TYOA]` | CHICHI | `ChiChi-Face` `b03240bd…` + `ChiChi-Body` `46074b6d…` + her Episode 12 look (to pick) | `ChiChi-Canon-Voice-v1` `de50f37f…`, **American**, never British | Yes |
+| `[Nia-TYOA]` | NIA | `Nia-Face` `3497a052…` + `Nia-Take-Your-Own-Advice-Look` `9a7d7c6c…` (N1-st). **No `Nia-Body`** (she's slim-thick now) | `Nia-Canon-Voice-v2` `b3d2fc9b…`, **British**, warm, low, dry, deadpan | Yes |
+| `[ChiChi-TYOA]` | CHICHI | `ChiChi-Face` `b03240bd…` + `ChiChi-Body` `46074b6d…` + `ChiChi-Take-Your-Own-Advice-Look` `759bc585…` (C3) | `ChiChi-Canon-Voice-v1` `de50f37f…`, **American**, never British | Yes |
 | `[Kitchen]` | ChiChi's kitchen (set) | `ChiChi-Kitchen-Day` `37c64826-c6b8-4ea5-a4ca-6e7a2ed086ca` | — | — |
 | `[Nia-Phone]` | Nia's phone (prop) | In words only: a smartphone in a beige/tan case (the `Nia-Phone` element trips the content filter) | — | — |
 | `[Chi-Phone]` | ChiChi's phone (prop) | In words: a smartphone in a plain cream case, face-down on the island | — | — |
