@@ -1,10 +1,10 @@
 # EXCLUSIVE with Nia and Chi: Episode 13, "Read Receipts"
 
 **Status:** SCRIPT AND BEAT-BY-BEAT FOR REVIEW (5 Oct 2026). Story, texts and Dorian's return are your picks. Set and looks carry over from Episode 12. **Nothing has been filmed.**
-**Format:** vertical 9:16, 720p, Seedance 2.5. **Five clips, one per beat**, about 62 seconds in total. From Clip 02 on, each clip attaches the approved clip before it as a video reference (rule 7).
+**Format:** vertical 9:16, 720p, Seedance 2.5. **Five clips, one per beat**, about 51 seconds in total. From Clip 02 on, each clip attaches the approved clip before it as a video reference (rule 7).
 **Cast:** Nia · ChiChi. Nobody else is on screen. Tay, DB and Dorian appear only as texts, which the women read aloud.
 **Picks up from:** Episode 12, "Take Your Own Advice", **the same second**. Both phones have just buzzed: Tay texted Nia, DB texted ChiChi. *"Don't you dare." "You first."*
-**Estimated cost:** about **434 credits** if every clip works first time (7 credits a second at 720p).
+**Estimated cost:** about **357 credits** if every clip works first time (7 credits a second at 720p).
 **Working title alternatives:** "Saturday", "Cleared".
 
 ---
@@ -31,7 +31,8 @@ Nobody wants to read first. ChiChi gives in: DB writes, *"Saturday is completely
 | Nia's joke reply | *"Will there be snacks?"* (her deadpan, never sent) | **Needs your OK** |
 | Set and looks | Same as Episode 12, no new uploads: `ChiChi-Kitchen-Day`, Nia N1-st, ChiChi C3 | Carried over |
 | Ending | Ends on a spoken line ("Dorian."), with no silent button, so the model can't invent dialogue | **Needs your OK** |
-| **Filming order** | Clip 01 attaches Episode 12's **approved Clip 06** as its video reference. Episode 12 is still being filmed in the other session, so **Episode 13 can't film until Episode 12's Clip 06 is approved.** | Dependency |
+| Filming order | Clip 01 attaches Episode 12's **approved Clip 06** (`68a8a8a6-a26c-4198-a29d-851380d1e329`) as its video reference. | **Ready**: Episode 12 was fully approved on 5 Oct 2026 |
+| Clip 01 first line | *"No. You said it, so you go."* instead of "…You first.", so the model never replays Episode 12's final line | **Needs your OK** |
 
 ---
 
@@ -97,42 +98,62 @@ The same map as Episode 12, from the `ChiChi-Kitchen-Day` stage map. **If the se
 
 ---
 
-# THE CLIPS: SCRIPT AND BEAT-BY-BEAT
+# START-FRAME STILLS (to make before filming)
 
-**No unnecessary pauses** (your rule from Episode 11): every line starts within about 0.2 s of the one before, and reactions play under the dialogue. Every clip ends on a spoken line.
+Same method as Episode 12: one still per clip, the clip's **first frame**, shot as the TWO-SHOT from the dining end. Every still is an **edit of Episode 12's master plate** (Still 01 `6ba334b6-b6e2-4675-9e99-904c956bcd0e`), so the island, the set, the light and both bodies stay identical; only poses, hands, props in hand and expressions change. GPT Image 2.5, 9:16, high quality, 2k. The briefs and the full still prompt are in `prompts.md`. Each still is checked against Episode 12's eight-point drift checklist before its clip is filmed.
+
+| Clip | Still (first frame) | Job ID |
+|---|---|---|
+| 01 | Both holding their own phones, screens toward themselves, smiling (the end of Episode 12) | not made yet |
+| 02 | Chi's hands flat on the marble either side of her face-down phone; Nia's right hand resting on her face-down phone | not made yet |
+| 03 | Chi holding her white mug in her right hand; Nia lifting her phone, screen toward herself | not made yet |
+| 04 | Chi holding Nia's beige-tan phone in her right hand, screen toward herself; Nia's hands lowering | not made yet |
+| 05 | Both phones face-down, both women's hands empty on the marble, both smiling | not made yet |
 
 ---
 
-## CLIP 01 · "Cleared" · 12 s · about 84 credits
+# THE CLIPS: SCRIPT AND BEAT-BY-BEAT
+
+**No unnecessary pauses** (your rule from Episode 11): every line starts within about 0.2 s of the one before, and reactions play under the dialogue. Every clip ends on a spoken line. **Clip lengths match the speaking time** (Episode 12 lesson), so nothing is padded.
+
+**One object moves at a time** (Episode 12 lesson: a phantom coffee pot flew across Clip 04 v3 when both women grabbed mugs at once). The French press and any mug nobody is holding stay locked in place.
+
+---
+
+## CLIP 01 · "Cleared" · 10 s · 70 credits
 
 **Job:** pay off Episode 12's button straight away. ChiChi reads first, and DB has done the opposite of "penciled in".
 
 ### Script
-*INT. CHICHI'S KITCHEN `[Kitchen]`, MORNING. Seconds after Episode 12. CHICHI `[ChiChi-TYOA]` and NIA `[Nia-TYOA]` each hold their own phone, thumbs on the screen.*
+*INT. CHICHI'S KITCHEN `[Kitchen]`, MORNING. Seconds after Episode 12. CHICHI `[ChiChi-TYOA]` and NIA `[Nia-TYOA]` each hold their own phone, screens toward themselves, thumbs on them, smiling.*
 
-> **NIA** `[Nia-TYOA]` *(pointing her phone at her)* No. You said it. You first.
+> **NIA** `[Nia-TYOA]` *(nodding at ChiChi's phone)* No. You said it, so you go.
 > **CHICHI** `[ChiChi-TYOA]` *(reading, eyebrows rising)* "Saturday is completely cleared for you."
 > **NIA** *(sitting bolt upright)* Cleared!
 > **CHICHI** *(setting her phone face-down)* The whole day.
 > **NIA** *(dry)* So much for penciled in.
 
+**Why "so you go":** the first draft had Nia say "…You first." That repeats Episode 12's final line, and the reference video's last line is exactly what the model tends to replay in the wrong voice (rule 9).
+
 ### Beat-by-beat
 
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
-| **First frame** | TWO-SHOT (matches Episode 12 Clip 06's last frame) | Behind the island, phone in both hands, thumb on the screen, smiling | On the right stool, phone in both hands, already speaking |
-| 0–2.5 s | TWO-SHOT | Looks up at Nia, caught | Tips her phone toward ChiChi, insisting: **"No. You said it. You first."** |
-| 2.5–6 s | ON CHICHI | Looks down at her screen and reads it out, eyebrows rising: **"Saturday is completely cleared for you."** | (back to camera) |
-| 6–7.5 s | ON NIA | (back to camera) | Sits bolt upright, delighted: **"Cleared!"** |
-| 7.5–9.5 s | ON CHICHI | Sets her phone face-down on the marble by the French press **as** she says: **"The whole day."** | (back to camera) |
-| 9.5–12 s | TWO-SHOT | Both hands flat on the marble either side of her phone, unsettled | Dry, one eyebrow up: **"So much for penciled in."** |
-| **Last frame** | TWO-SHOT | Hands flat on the marble, phone face-down | Phone in her lap-side hand, resting on the island edge, eyebrow up |
+| **First frame** | TWO-SHOT (Still 01, matching Episode 12 Clip 06's last frame) | Behind the island, her own phone in her hands, screen toward herself, thumb on it, smiling | On the right stool, her own phone in her hands, screen toward herself, smiling, already speaking |
+| 0–2 s | TWO-SHOT | Looks up at Nia, caught | Lowers her phone to the marble with her right hand, screen down, and nods at ChiChi's phone: **"No. You said it, so you go."** |
+| 2–5 s | ON CHICHI | Looks down at her screen and reads it out, eyebrows rising: **"Saturday is completely cleared for you."** | (back to camera) |
+| 5–6 s | ON NIA | (back to camera) | Sits bolt upright, delighted: **"Cleared!"** |
+| 6–7.5 s | ON CHICHI | Lays her phone face-down on the marble by the French press **as** she says: **"The whole day."** | (back to camera) |
+| 7.5–10 s | TWO-SHOT | Both hands flat on the marble either side of her phone, unsettled | Right hand resting on her face-down phone, dry, one eyebrow up: **"So much for penciled in."** |
+| **Last frame** | TWO-SHOT | Hands flat on the marble, phone face-down | Right hand resting on her face-down phone, eyebrow up |
+
+**Props:** one phone moves at a time: Nia lowers hers first, ChiChi lays hers down later. Mugs and the French press never move.
 
 **Cut on "…penciled in."** *After that, silence: nobody speaks.*
 
 ---
 
-## CLIP 02 · "No Excuse" · 10 s · 70 credits
+## CLIP 02 · "No Excuse" · 8 s · 56 credits
 
 **Job:** ChiChi admits why the good news scares her, then turns it on Nia.
 
@@ -140,24 +161,26 @@ The same map as Episode 12, from the `ChiChi-Kitchen-Day` stage map. **If the se
 > **NIA** Why do you look worried?
 > **CHICHI** *(a short, honest laugh)* Because now I've got no excuse.
 > **NIA** Good. Say yes.
-> **CHICHI** *(nodding at Nia's phone)* Your turn. Read it.
+> **CHICHI** *(pointing her mug at Nia's phone)* Your turn. Read it.
 
 ### Beat-by-beat
 
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
-| **First frame** | TWO-SHOT (Clip 01's last frame) | Hands flat on the marble, phone face-down | Phone in her right hand on the island edge, already speaking |
-| 0–2 s | ON NIA | (back to camera) | Head tilted, reading her friend: **"Why do you look worried?"** |
-| 2–5 s | ON CHICHI | A short, honest laugh at herself: **"Because now I've got no excuse."** | (back to camera) |
-| 5–6.5 s | ON NIA | (back to camera) | Flat and certain: **"Good. Say yes."** |
-| 6.5–10 s | TWO-SHOT | Picks up her mug and points it at Nia's phone **as** she says: **"Your turn. Read it."** | Glances down at her phone, caught |
-| **Last frame** | TWO-SHOT | Mug in her right hand, nodding at Nia's phone | Looking down at the phone in her hands |
+| **First frame** | TWO-SHOT (Still 02, Clip 01's last frame) | Hands flat on the marble either side of her face-down phone | Right hand resting on her face-down phone, already speaking |
+| 0–1.5 s | ON NIA | (back to camera) | Head tilted, reading her friend: **"Why do you look worried?"** |
+| 1.5–4 s | ON CHICHI | A short, honest laugh at herself: **"Because now I've got no excuse."** | (back to camera) |
+| 4–5.5 s | ON NIA | (back to camera) | Flat and certain: **"Good. Say yes."** |
+| 5.5–8 s | TWO-SHOT | Picks up **her own** white mug in her right hand and points it at Nia's phone **as** she says: **"Your turn. Read it."** | Glances down at her phone, caught |
+| **Last frame** | TWO-SHOT | Mug in her right hand, nodding at Nia's phone | Looking down at her phone under her right hand |
+
+**Props:** only ChiChi's mug moves.
 
 **Cut on "Read it."** *After that, silence.*
 
 ---
 
-## CLIP 03 · "The Launch" · 14 s · about 98 credits
+## CLIP 03 · "The Launch" · 12 s · 84 credits
 
 **Job:** Tay's text, Nia's reflex to joke her way out of it, and ChiChi stopping her.
 
@@ -171,18 +194,20 @@ The same map as Episode 12, from the `ChiChi-Kitchen-Day` stage map. **If the se
 
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
-| **First frame** | TWO-SHOT (Clip 02's last frame) | Mug in her right hand | Phone in both hands, screen toward her face, already reading |
-| 0–4.5 s | ON NIA | (back to camera) | Reads it out, deadpan, hiding that she's pleased: **"I want you next to me at my business launch this Saturday."** |
-| 4.5–7.5 s | ON CHICHI | Sets her mug down on the marble, warm and pointed: **"Next to him. Not in the crowd."** | (back to camera) |
-| 7.5–10.5 s | ON NIA | (back to camera) | Thumbs already typing, not looking up: **"I'm sending 'Will there be snacks?'"** |
-| 10.5–14 s | TWO-SHOT | Reaches across the island corner with her **right** hand and slides the phone out of Nia's hands, screen still away from the camera, **as** she says: **"Absolutely not."** | Hands left open where the phone was, mouth open, outraged |
+| **First frame** | TWO-SHOT (Still 03, Clip 02's last frame) | Mug in her right hand | Lifting her phone, screen toward herself, already reading |
+| 0–4 s | ON NIA | (back to camera) | Reads it out, deadpan, hiding that she's pleased: **"I want you next to me at my business launch this Saturday."** |
+| 4–6.5 s | ON CHICHI | Sets her mug down on the marble, warm and pointed: **"Next to him. Not in the crowd."** | (back to camera) |
+| 6.5–9 s | ON NIA | (back to camera) | Thumbs already typing, not looking up: **"I'm sending 'Will there be snacks?'"** |
+| 9–12 s | TWO-SHOT | Reaches across the island corner with her **right** hand and slides the phone out of Nia's hands, screen still away from the camera, **as** she says: **"Absolutely not."** | Hands left open where the phone was, mouth open, outraged |
 | **Last frame** | TWO-SHOT | Holding Nia's phone in her right hand, screen toward herself | Hands still open above the island |
+
+**Props:** ChiChi's mug goes down first; only then does Nia's phone change hands.
 
 **Cut on "Absolutely not."** *After that, silence.*
 
 ---
 
-## CLIP 04 · "Saturday. Yes." · 15 s · 105 credits
+## CLIP 04 · "Saturday. Yes." · 13 s · 91 credits
 
 **Job:** the theme choice. Each makes the other answer honestly, and both say yes.
 
@@ -197,19 +222,21 @@ The same map as Episode 12, from the `ChiChi-Kitchen-Day` stage map. **If the se
 
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
-| **First frame** | TWO-SHOT (Clip 03's last frame) | Holding Nia's phone in her right hand, screen toward herself | Hands lowering from the outraged gesture |
+| **First frame** | TWO-SHOT (Still 04, Clip 03's last frame) | Holding Nia's phone in her right hand, screen toward herself | Hands lowering from the outraged gesture |
 | 0–2.5 s | ON CHICHI | Holds the phone up between them, screen toward herself, eyebrows up: **"That's not a man who wants to rent."** | (back to camera) |
 | 2.5–3.5 s | ON NIA | (back to camera) | Folds her arms, guarded, a warning: **"Don't."** |
-| 3.5–7 s | ON CHICHI | Hands the phone back across the island corner with her right hand **as** she says, gently: **"Then say yes, Nia. Like a grown woman."** *(NEE-uh)* | (back to camera) |
-| 7–10.5 s | ON NIA | (back to camera) | Unfolds her arms, takes the phone in her right hand, types with her thumb, deadpan: **"Fine."** then reading as she types: **"Yes."** |
-| 10.5–15 s | TWO-SHOT | Picks up her own phone from beside the French press, types, then turns it face-down on the marble **as** she says: **"'Saturday.' Sent."** | Sets her phone face-down by her right hand, watching ChiChi |
-| **Last frame** | TWO-SHOT | Phone face-down by the French press, a small proud smile | Phone face-down by her right hand, a small smile back |
+| 3.5–6.5 s | ON CHICHI | Hands the phone back across the island corner with her right hand **as** she says, gently: **"Then say yes, Nia. Like a grown woman."** *(NEE-uh)* | (back to camera) |
+| 6.5–9.5 s | ON NIA | (back to camera) | Unfolds her arms, takes the phone in her right hand, types with her thumb, deadpan: **"Fine."** then reading as she types: **"Yes."** She lays it face-down by her right hand |
+| 9.5–13 s | TWO-SHOT | Picks up her own phone from beside the French press, types, then lays it face-down again **as** she says: **"'Saturday.' Sent."** | Hands empty on the marble, watching her, a small smile |
+| **Last frame** | TWO-SHOT | Phone face-down by the French press, hands empty, a small proud smile | Phone face-down by her right hand, hands empty, a small smile back |
+
+**Props:** Nia's phone goes across and back, then down; only after that does ChiChi pick up her own.
 
 **Cut on "Sent."** *After that, silence.*
 
 ---
 
-## CLIP 05 · "Can I See You Saturday?" · 11 s · 77 credits
+## CLIP 05 · "Can I See You Saturday?" · 8 s · 56 credits
 
 **Job:** the button. The old pattern texts her within seconds of saying yes to more.
 
@@ -224,12 +251,14 @@ The same map as Episode 12, from the `ChiChi-Kitchen-Day` stage map. **If the se
 
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
-| **First frame** | TWO-SHOT (Clip 04's last frame) | Reaching for her mug, smiling | Reaching for her mug, smiling; both phones face-down |
-| 0–2 s | TWO-SHOT | Lifts her mug | **Nia's phone buzzes once** (one short buzz, a small visible vibration). Her hand stops before the mug. She turns the phone over, screen toward herself |
-| 2–5.5 s | ON NIA | (back to camera) | Reads it out, and the smile goes from her face as she says it: **"Can I see you Saturday?"** |
-| 5.5–8 s | ON CHICHI | Lowers her mug without drinking, watching Nia's face, no smile: **"Who is it?"** | (back to camera) |
-| 8–11 s | TWO-SHOT | Mug held still at chest height, eyes on Nia | Eyes still on the screen, quiet: **"Dorian."** |
-| **Last frame** | TWO-SHOT | Mug at chest height, watching her | Phone in both hands, screen toward herself, eyes down |
+| **First frame** | TWO-SHOT (Still 05, Clip 04's last frame) | Hands empty on the marble, smiling | Hands empty on the marble, smiling; both phones face-down |
+| 0–1.5 s | TWO-SHOT | Her smile starts to fade as she looks at Nia's phone | **Nia's phone buzzes once** (one short buzz, a small visible vibration; it doesn't slide). She picks it up and turns it over, screen toward herself |
+| 1.5–4 s | ON NIA | (back to camera) | Reads it out, and the smile goes from her face as she says it: **"Can I see you Saturday?"** |
+| 4–5.5 s | ON CHICHI | Watching Nia's face, no smile, brows together: **"Who is it?"** | (back to camera) |
+| 5.5–8 s | TWO-SHOT | Completely still, eyes on Nia | Eyes still on the screen, quiet: **"Dorian."** |
+| **Last frame** | TWO-SHOT | Hands on the marble, watching her | Phone in both hands, screen toward herself, eyes down |
+
+**Props:** only Nia's phone moves. ChiChi's phone, both mugs and the French press stay put.
 
 **Cut on "Dorian."** *After that, silence: nobody speaks.* No screen is ever visible to the camera.
 
