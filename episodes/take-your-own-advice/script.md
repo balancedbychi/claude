@@ -11,7 +11,7 @@
 
 ## THE STORY IN 30 SECONDS
 
-The morning after ChiChi's date, Nia comes over for coffee in ChiChi's kitchen. Nia wants the details, and ChiChi gives her the headline: DB wants a child, and he thinks work is just as important as love. ChiChi refuses to be "penciled in". Then it's Nia's turn. She admits Tay said he doesn't want to be "rented", and that she said it first, "as a joke". ChiChi tells her a 26-year-old asking for *more* is rare. Nia turns it straight back on her: *"You want me to give Tay a chance, but you won't give DB one?"* They each have the advice the other needs, and neither will take her own. Then both phones buzz at once: Tay and DB. *"Don't you dare." "You first."*
+The morning after ChiChi's date, Nia comes over for coffee in ChiChi's kitchen. Nia wants the details, and ChiChi gives her the headline: DB wants a child, and he thinks work is just as important as love. ChiChi refuses to be "penciled in". Then it's Nia's turn. She admits Tay said he doesn't want to be "rented", and that she said it first, "as a joke". ChiChi tells her a 25-year-old asking for *more* is rare. Nia turns it straight back on her: *"You want me to give Tay a chance, but you won't give DB one?"* They each have the advice the other needs, and neither will take her own. Then both phones buzz at once: Tay and DB. *"Don't you dare." "You first."*
 
 **What it's about:** the friend who always tells the truth can't hear it about herself. It mirrors both of their stories in one room.
 
@@ -65,6 +65,33 @@ Built from the face and body elements only, the same way as the Episode 11 looks
 | C2 | Form-fitting heather-grey ribbed lounge set (long-sleeved top + flared trousers), barefoot | `6fad8742-0cd5-466b-9f84-84f7850561da` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_023525_6fad8742-0cd5-466b-9f84-84f7850561da.png) |
 | C3 | Form-fitting black ribbed lounge set (short-sleeved top + wide-leg trousers), barefoot | `2257370f-a2a8-4d2a-8bb0-22121c8c096a` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_023525_2257370f-a2a8-4d2a-8bb0-22121c8c096a.png) |
 | C4 | Form-fitting dusty-rose satin cami and pyjama trousers under an open oatmeal knit cardigan, barefoot | `f14a957d-f742-4504-9ad4-f365054fc471` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_023524_f14a957d-f742-4504-9ad4-f365054fc471.png) |
+
+---
+
+## START-FRAME STILLS (5 Oct 2026, GPT Image 2.5, 9:16, high quality, 2k)
+
+One still per clip: the clip's **first frame**, shot as the TWO-SHOT from the dining end, so you can check before filming who stands where and whether the faces stay the same. All six use the **same** references: `ChiChi-Face` + `ChiChi-Body` + `ChiChi-Take-Your-Own-Advice-Look`, `Nia-Face` + `Nia-Take-Your-Own-Advice-Look`, and the `ChiChi-Kitchen-Day` set. Each one is checked against the list below before it's used.
+
+| Clip | Still | Job ID | Image |
+|---|---|---|---|
+| 01 | Chi pouring coffee; Nia, chin on hand, mid-question | `6ba334b6-b6e2-4675-9e99-904c956bcd0e` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030233_6ba334b6-b6e2-4675-9e99-904c956bcd0e.png) |
+| 02 | Chi lowering her mug; Nia, mug in both hands, sympathetic | `551e8a98-a72b-4f00-8a32-ecdb6c78cf65` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030235_551e8a98-a72b-4f00-8a32-ecdb6c78cf65.png) |
+| 03 | Chi leaning on the island, nodding at Nia's phone; Nia caught glancing at it | `55ebdf9a-6291-469d-9b5a-eb66cfea1032` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030235_55ebdf9a-6291-469d-9b5a-eb66cfea1032.png) |
+| 04 | Chi leaning in on her forearms, sincere; Nia's hands lowering to her mug | `36f4443d-82c9-493e-8ce1-c35367982611` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030233_36f4443d-82c9-493e-8ce1-c35367982611.png) |
+| 05 | Chi smug; Nia setting her mug down, starting to point | `66f705d9-99cd-4b53-88bb-6e16a53acb1e` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030234_66f705d9-99cd-4b53-88bb-6e16a53acb1e.png) |
+| 06 | Both smiling; both phones face-down in front of their owners | `8cb057ac-f5f4-4e36-b36c-3b5438951fa6` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030234_8cb057ac-f5f4-4e36-b36c-3b5438951fa6.png) |
+
+**Checklist for each still (drift and hallucination):**
+1. ChiChi is on the **LEFT**, standing behind the island. Nia is on the **RIGHT**, on the stool, with the windows behind her.
+2. ChiChi has the same face in all six: honey-blonde hair, deep side part on the left, beauty mark, freckles.
+3. Nia has the same face in all six: jet-black waist-length curls, diamond studs, petite and slim-thick, smaller than ChiChi.
+4. Clothes match the look elements: Chi in black ribbed, barefoot; Nia in the cream bodysuit and camel trousers. Nothing green, no sweatshirt.
+5. No rings, bracelets or watches.
+6. Exactly two people. No extra people and no reflections of people.
+7. It's the same kitchen: marble island, lemons, white flowers, brass hood, windows on the right. Daylight, not night.
+8. No text, and no phone screen facing the camera. Hands have five fingers.
+
+A still that fails any check gets remade before its clip is filmed. **When filming,** each still goes in as that clip's `start_image`, which pins the faces, sides and set from the first frame. From Clip 02 on, the approved clip before it goes in as the video reference (rule 7). If an approved clip ends somewhere different from the next still, the approved footage wins.
 
 ---
 
@@ -224,7 +251,7 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 **Job:** ChiChi gives Nia the advice. Nia deflects with Dorian and gets caught.
 
 ### Script
-> **CHICHI** He's twenty-six and he's asking for *more*. Most men his age are asking for less.
+> **CHICHI** He's twenty-five and he's asking for *more*. Most men his age are asking for less.
 > **NIA** *(looking away)* He's not exactly Dorian.
 > **CHICHI** *(one eyebrow up)* Nobody asked you to compare.
 
@@ -235,7 +262,7 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
 | **First frame** | TWO-SHOT | Arms unfolding, leaning in on the island, already speaking | Hands lowering to her mug |
-| 0–6 s | ON CHICHI | Leaning on her forearms, sincere: **"He's twenty-six and he's asking for more. Most men his age are asking for less."** | (back to camera) |
+| 0–6 s | ON CHICHI | Leaning on her forearms, sincere: **"He's twenty-five and he's asking for more. Most men his age are asking for less."** | (back to camera) |
 | 6–8.5 s | ON NIA | (back to camera) | Looks sideways out of the window, deflecting: **"He's not exactly Dorian."** |
 | 8.5–13 s | TWO-SHOT | One eyebrow up: **"Nobody asked you to compare."** | Busted. She hides behind a sip of coffee **while** ChiChi says it |
 | **Last frame** | TWO-SHOT | Eyebrow still up | Mug at her lips, eyes on ChiChi over the rim |
