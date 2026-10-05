@@ -66,7 +66,7 @@ Seedance 2.5 takes an image in the **`start_image`** role and opens the clip on 
 
 ---
 
-## CLIP 01 · "The Lawyer Story" · 15 s · 105 credits · v1 · FILMED (job `0afc3a1a`)
+## CLIP 01 · "The Lawyer Story" · 15 s · 105 credits · v1 · APPROVED (job `0afc3a1a`)
 
 **First line:** ChiChi's "You owe me the lawyer story." **Final line:** DB's "Who is Chi?"
 
@@ -120,8 +120,64 @@ PHYSICS: natural seated posture and weight, five-finger hands, cutlery and glass
 AUDIO: only these six lines, plus a soft low piano in the room and the faint clink of cutlery. No background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
+## CLIP 02 · "Ten Cats" · 14 s · 98 credits · v1 · FILMED (job `c7f1f25f`)
+
+**First line:** ChiChi's "Honestly? I've been single for a while." **Final line:** ChiChi's "I've done the math."
+
+**Seedance 2.5 request:** `model: seedance_2_5`, **`mode: omni_reference`** (required whenever reference media is attached; a plain request is rejected with a 422), `duration: 14`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`; `medias`: `video_references` = `0afc3a1a-aa7f-412f-bbb9-beb56980e64d` (approved Clip 01). No start image. Declined the "IN THE DARK" preset.
+
+> Note: the server's echo of the request listed Clip 01 under `reference_images`, not `video_references`. Check that the voices carried over from Clip 01.
+
+```
+14 SECONDS. Photoreal cinematic drama, vertical 9:16, NIGHT, an elegant top-floor restaurant high above Atlanta. A first dinner date between two grown adults. Wholesome, fully clothed.
+
+REFERENCE VIDEO: the attached video is the APPROVED previous clip of this same scene. It is THE AUTHORITY for LOOKS, VOICES, PLACE, LIGHT AND CAMERA ONLY: the same woman CHICHI on the LEFT, the same man DB on the RIGHT, the same faces, hair, clothes, table, candle, window and skyline, and their voices exactly as they sound in it. NO LINE OF DIALOGUE from the reference video is repeated; none of its words are said again. This clip continues straight on from the reference video's final line. The FIRST line of this clip is ChiChi's "Honestly? I've been single for a while."
+
+TIMING, READ THIS FIRST. NO PAUSES. NO DEAD AIR. Every line starts within two tenths of a second of the line before it. There are NO silent beats anywhere in this clip: every gesture and reaction happens WHILE someone is speaking. The clip opens with ChiChi already starting her first line, and ends on the last spoken line. Nobody sits frozen or stares.
+
+*** HEADCOUNT: EXACTLY TWO MAIN PEOPLE: ONE CHICHI, ONE DB. NEVER TWO OF ANYONE. *** Both are already seated at the table in the first frame; nobody new arrives. At most three or four other diners far in the background in deep soft focus, eating quietly, mouths closed, never speaking, never crossing in front of the two leads.
+
+SET: the restaurant <<<769d1d48-36ca-44ec-bba6-468bea5af8b0>>>, exactly as in the reference video: one small square two-top table with a white tablecloth beside a floor-to-ceiling window over a glittering night skyline, cream upholstered chairs, cream, warm taupe and brass interior. On the table: ONE candle in the centre, two plates of entrées half finished, a glass of red wine each, a water glass each. Warm low amber candle and practical light, deep warm shadows, clearly night; never blue-dominant. No text, logos, labels or signage anywhere.
+
+CHICHI, EXACTLY AS IN THE REFERENCE VIDEO: face, hair and skin <<<b03240bd-4562-4d2f-8b14-de32c018e346>>>, body <<<46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc>>>: forty, warm brown complexion, cheek beauty mark, freckles; HONEY-BLONDE shoulder-length layered blowout with darker roots, deep side part on the LEFT side of her head, never dark brown; small stud earrings. Full-figured, never slimmed. HER CLOTHES COME ONLY FROM <<<84f791a1-178a-4e36-8791-010e116f7e1e>>>: the form-fitting camel-caramel rib-knit off-the-shoulder long-sleeved dress, identical in every shot. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring; no bracelets, no watch.
+
+DB, EXACTLY AS IN THE REFERENCE VIDEO: face, hair, beard and skin <<<1023755a-b704-4c10-b0f4-bf9887d2558c>>>, build <<<952f3fb0-ed54-4551-a07c-c56934939a44>>>: forty-eight, Dominican, warm golden-tan complexion, thick dark softly wavy hair with silver at the temples, neatly trimmed short beard. TALL; seated, he sits clearly taller than ChiChi. HIS CLOTHES COME ONLY FROM <<<5208aa4f-6509-4b4f-9902-293b117d2092>>>: the tailored charcoal suit, black dress shirt open at the collar, NO tie, slim steel watch on his LEFT wrist, identical in every shot. NO RINGS on any finger of either hand, NO wedding ring; the fourth finger of the left hand is bare skin with no tan line.
+
+PROP: DB's phone, a plain black smartphone, lies FACE-DOWN by his plate for the whole clip. Nobody touches it.
+
+BLOCKING, IDENTICAL IN EVERY SHOT: both SEATED across the small table, facing each other. CHICHI on frame LEFT facing RIGHT; DB on frame RIGHT facing LEFT. Nobody stands, changes seats or leaves. ChiChi is ALWAYS on the left of frame and DB ALWAYS on the right, in every shot and every cut.
+
+FIRST FRAME: ChiChi holding her red wine glass, already setting it down on the table as she starts to speak; DB leaning forward on his forearms, attentive.
+
+THE CLIP, SHOT BY SHOT:
+1. (0-2.5 s) Waist-up on ChiChi over DB's left shoulder. She sets her wine glass down WHILE she speaks, candid.
+  CHICHI (American): "Honestly? I've been single for a while."
+2. (2.5-3.5 s) Waist-up on DB over ChiChi's right shoulder. He tilts his head, gentle, answering straight away.
+  DB (Dominican): "By choice?"
+3. (3.5-10 s) Waist-up on ChiChi. Straight in, a small shrug, then a dry, straight face for the last sentence.
+  CHICHI (American): "I'd like to say yes. My standards are high. Lately I wonder if they're why I'm still single. And I refuse to be the woman with ten cats."
+4. (10-12.5 s) Waist-up on DB. On her last word he BURSTS into a real, warm laugh from the chest, head tipping back, a hand to his chest, and says his line THROUGH the laugh, with no gap.
+  DB (Dominican), laughing: "Ten? That is very specific."
+5. (12.5-14 s) Two-shot. ChiChi, deadpan, a tiny shrug; DB still laughing softly, shaking his head, charmed.
+  CHICHI (American), deadpan: "I've done the math."
+  END on this line. After that, silence: nobody speaks.
+
+LINE OWNERSHIP, NEVER SWAPPED: "Honestly? I've been single for a while." = CHICHI. "By choice?" = DB. "I'd like to say yes. My standards are high. Lately I wonder if they're why I'm still single. And I refuse to be the woman with ten cats." = CHICHI. "Ten? That is very specific." = DB. "I've done the math." = CHICHI. Only these five lines, in this order, each said once.
+
+VOICES, EXACTLY AS IN THE REFERENCE VIDEO, TWO DIFFERENT PEOPLE, NEVER MIXED:
+- CHICHI IS AMERICAN: <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>, a warm, smooth, mid-to-low Black American woman's voice with a GENERAL AMERICAN ACCENT, calm authority and dry humour; the same voice as in the reference video. ChiChi is AMERICAN: General American accent, NEVER British.
+- DB'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY, AND MATCH HIS VOICE IN THE REFERENCE VIDEO. A Dominican man of forty-eight speaking fluent English with a NATURAL HISPANIC ACCENT: a warm Caribbean Spanish flair in the vowels, lightly tapped r's, softened word endings, and the occasional Spanish rhythm in a phrase. His voice is LOW, WARM and CALMING: a soft-spoken, slightly husky baritone, mature and composed, with a gentle gravel at the bottom and a quiet intimacy, as if he never needs to raise his voice to be heard. He speaks SLOWLY and DELIBERATELY, with thoughtful pauses inside a sentence (never between lines), a reassuring tone, and a faint, knowing warmth, like a smile you can hear. A lawyer's clear, precise diction under the accent. Never loud, never fast, never slick or salesy, never cartoonish or exaggerated, never a heavy stereotype; the accent is real and natural, never put on.
+DB'S PACING: his slow, deliberate quality is in his calm TONE, never in gaps. No pause inside or between his lines longer than two tenths of a second.
+The two voices never sound alike and never swap.
+
+CAMERA: the same camera as the reference video: steady, eye level, always from the room side of the table. Waist-up over-the-shoulder singles and a medium-wide two-shot. NO ZOOMS, NO PUSH-INS; faces never tighter than waist-up.
+PHYSICS: natural seated posture, five-finger hands, glasses behave normally, the candle flame flickers gently, no physical contact between them.
+AUDIO: only these five lines and DB's laugh, plus the same soft low piano and faint clink of cutlery as the reference video. No background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
+```
+
 ### Render log
 
 | Clip | Version | Job ID | Duration | Credits | Verdict |
 |---|---|---|---|---|---|
-| 01 | v1 | `0afc3a1a-aa7f-412f-bbb9-beb56980e64d` | 15 s | 105 | Filmed 5 Oct 2026 on your "film". **No start image** (you didn't like the frame angle). Declined the "IN THE DARK" preset. Rendering. |
+| 01 | v1 | `0afc3a1a-aa7f-412f-bbb9-beb56980e64d` | 15 s | 105 | **APPROVED** ("looks good", 5 Oct 2026). No start image. |
+| 02 | v1 | `c7f1f25f-6716-4df5-8677-755514e6580e` | 14 s | 98 | Filmed 5 Oct 2026 ("segment 2"). Clip 01 attached as reference (`mode: omni_reference`). Rendering. |
