@@ -40,7 +40,7 @@ ChiChi (40) and DB (48) are on their first real date, at a candlelit table high 
 | `[DB-JAI]` | DB | `DB-Face` `1023755a…` (face, hair, beard, skin) + `DB-Body` `952f3fb0…` (build) + `DB-Just-As-Important-Look` `5208aa4f…` (clothes) | Written Dominican description, word for word | Yes |
 | `[Restaurant]` | The restaurant (set) | `Restaurant-High-Rise-Night` `769d1d48…` | — | — |
 | `[DB-Phone]` | DB's phone (prop) | None. In words: a plain black smartphone, face-down, no logo | — | — |
-| `[Server]` | SERVER (extra) | None. A server in a black waistcoat over a white shirt, holding a clear glass water carafe | — | **No.** Clip 05 only |
+| `[Server]` | SERVER (extra) | None. A server in a black waistcoat over a white shirt, holding a clear glass water carafe | — | **No.** Clip 05 only. **Never overlaps ChiChi or DB** (user, 5 Oct 2026): he stands at the far right edge, at least an arm's length clear of DB; only his arm reaches in. |
 | `[Diners]` | 2–4 diners (extras) | None. Far tables, deep soft focus | — | **No.** Mouths closed |
 
 ---
@@ -52,10 +52,11 @@ ChiChi (40) and DB (48) are on their first real date, at a candlelit table high 
    ┌──────────────────────────────────────────────────────────────┐
    │   far tables, diners in deep soft focus                      │
    │                                                              │
-   │        [CHICHI] ──►   ┌──────────────┐   ◄── [DB]             │
-   │        cream chair    │ ONE candle   │   cream chair          │  ◄ server enters/exits
-   │        faces RIGHT    │ centre       │   faces LEFT           │    from frame RIGHT,
-   │        clutch on      │ his phone on │   watch on his left    │    behind DB, window side
+   │        [CHICHI] ──►   ┌──────────────┐   ◄── [DB]    [SERVER]│
+   │        cream chair    │ ONE candle   │   cream chair   far    │  ◄ server enters/exits
+   │        faces RIGHT    │ centre       │   faces LEFT    right  │    at the FAR RIGHT edge,
+   │        clutch on      │ his phone on │   watch on his  edge,  │    an arm's length clear of DB;
+   │        chair, R hip   │ window side  │   left wrist    clear  │    only his arm reaches in
    │        chair, R hip   │ window side  │   wrist (camera side)  │
    │                       │ of his plate │                        │
    │                       └──────────────┘                        │
@@ -262,8 +263,8 @@ Each clip has three parts:
 
 | Time | Shot | ChiChi | DB | Server |
 |---|---|---|---|---|
-| **First frame** | TWO-SHOT | Seated, a polite nod to the server, hands moving to fold on the table | Seated, a small nod of thanks to the server | Standing behind DB on the window side, **finishing** pouring DB's water |
-| 0–3 s | TWO-SHOT | Folds her hands and looks right at him **as the server steps away**: **"Which is more important? Work, or your relationships?"** | Listening | Steps back out of frame RIGHT **while she talks**. Silent, mouth closed, never faces the camera. |
+| **First frame** | TWO-SHOT, a little wider | Seated, a polite nod to the server, hands moving to fold on the table | Seated, a small nod of thanks to the server | Standing at the **far right edge of frame, an arm's length clear of DB**, never behind or in front of him. **Only his arm reaches in**, finishing pouring DB's water at the right front corner of the table. |
+| 0–3 s | TWO-SHOT | Folds her hands and looks right at him **as the server steps away**: **"Which is more important? Work, or your relationships?"** | Listening | Steps straight back out of frame RIGHT **while she talks**, away from DB. Never passes behind or in front of either lead. Silent, mouth closed, never faces the camera. |
 | 3–5.5 s | ON DB | (listening) | A short surprised laugh **into** the line, leaning back: **"Nobody has ever been that forward with me."** | Gone |
 | 5.5–7 s | ON CHICHI | Holds his gaze, small smile: **"I'm not twenty-five anymore."** | (back to camera) | — |
 | 7–11 s | ON DB | (listening) | Honest, straight in: **"Relationships are important. I believe that. But work is just as important…"** | — |
@@ -280,7 +281,7 @@ Each clip has three parts:
 ### What everyone is doing
 - **ChiChi:** a nod to the server, then folded hands for the question. The stillness is in her eyes, not a silence.
 - **DB:** a nod to the server, a laugh and a lean back, then a lean forward to answer, relief, a hand to the menu.
-- **Server:** finishes the pour and leaves to frame right in the first 3 seconds. Silent.
+- **Server:** finishes the pour from the far right edge, clear of DB, and leaves to frame right in the first 3 seconds. Silent. Never overlaps either lead.
 - **Diners:** quiet in the background.
 
 ---
