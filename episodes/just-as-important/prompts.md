@@ -31,6 +31,7 @@ Read `script.md` first: it has the story, the floor plan and the beat-by-beat fo
 | DB's accent drifting or turning into a caricature | His full written description, word for word, including "never a heavy stereotype". |
 | Extra lines, or the server or diners talking | "Only these lines, in this order"; extras' mouths closed; no background chatter. Room sound is the low piano and soft cutlery only. |
 | Dead air or invented lines at the end | Clip length matched to the action; end on the last line; "after that, silence: nobody speaks." |
+| Unnecessary pauses (user, 5 Oct 2026) | "NO silent beats": every reaction happens while someone is speaking; clips open mid-gesture with the first line already starting; DB's slowness is tone, never gaps. |
 | Two of anyone | "EXACTLY TWO MAIN PEOPLE: ONE CHICHI, ONE DB." |
 | Rings | NO RINGS, stated for both. |
 | Swapped sides | ChiChi always frame LEFT and DB always frame RIGHT, in every shot. |
@@ -40,14 +41,14 @@ Read `script.md` first: it has the story, the floor plan and the beat-by-beat fo
 
 ---
 
-## CLIP 01 · "The Lawyer Story" · 16 s · 112 credits · v1 · AWAITING YOUR "FILM"
+## CLIP 01 · "The Lawyer Story" · 15 s · 105 credits · v1 · AWAITING YOUR "FILM"
 
 **First line:** ChiChi's "You owe me the lawyer story." **Final line:** DB's "Who is Chi?"
 
 ```
-16 SECONDS. Photoreal cinematic drama, vertical 9:16, NIGHT, an elegant top-floor restaurant high above Atlanta. A first dinner date between two grown adults. Wholesome, fully clothed.
+15 SECONDS. Photoreal cinematic drama, vertical 9:16, NIGHT, an elegant top-floor restaurant high above Atlanta. A first dinner date between two grown adults. Wholesome, fully clothed.
 
-TIMING, READ THIS FIRST. NO DEAD AIR. NO LONG PAUSES. Every reply starts within three tenths of a second of the line before it. No beat anywhere lasts longer than one second. Nobody sits frozen or stares; every gap is filled with natural movement: eating, sipping, gestures, small reactions.
+TIMING, READ THIS FIRST. NO PAUSES. NO DEAD AIR. Every line starts within two tenths of a second of the line before it. There are NO silent beats anywhere in this clip: every gesture and reaction happens WHILE someone is speaking. The clip opens mid-gesture with the first line already starting, and ends on the last spoken line. Nobody sits frozen or stares.
 
 *** HEADCOUNT: EXACTLY TWO MAIN PEOPLE: ONE CHICHI, ONE DB. NEVER TWO OF ANYONE. *** At most three or four other diners far in the background in deep soft focus, eating quietly, mouths closed, never speaking, never crossing in front of the two leads.
 
@@ -61,21 +62,20 @@ PROP: DB's phone, a plain black smartphone with no logo, lies FACE-DOWN on the t
 
 BLOCKING, IDENTICAL IN EVERY SHOT: both SEATED across the small table, facing each other. CHICHI on frame LEFT facing RIGHT; DB on frame RIGHT facing LEFT; the window and skyline behind the table. Nobody stands, changes seats or leaves. ChiChi is ALWAYS on the left of frame and DB ALWAYS on the right, in every shot and every cut.
 
-FIRST FRAME: a medium-wide side-on two-shot. ChiChi on the left with her fork resting on her plate, smiling at him; DB on the right with his wine glass in his right hand, mid-sip, looking at her.
+FIRST FRAME: a medium-wide side-on two-shot, already in motion. ChiChi on the left, setting her fork down on her plate and smiling at him; DB on the right, lowering his wine glass from a sip, looking at her. ChiChi starts her first line immediately.
 
 THE CLIP, SHOT BY SHOT:
-1. (0-3 s) Two-shot. ChiChi sets her fork down and points a playful finger at him, one eyebrow up.
+1. (0-3 s) Two-shot. As she speaks, ChiChi points a playful finger at him, one eyebrow up, while DB sets his glass down, caught out, a smile spreading.
   CHICHI (American), playful: "You owe me the lawyer story. You said over dinner."
-  DB lowers his glass, caught out, a smile spreading.
-2. (3-5 s) Waist-up on DB over ChiChi's right shoulder. He sets the glass down and opens his palms.
+2. (3-4.5 s) Waist-up on DB over ChiChi's right shoulder. He opens his palms as he answers, no gap.
   DB (Dominican), smiling: "I did say that."
-3. (5-7 s) Waist-up on ChiChi over DB's left shoulder. She leans in, chin resting on her hand.
+3. (4.5-6.5 s) Waist-up on ChiChi over DB's left shoulder. She leans in, chin resting on her hand.
   CHICHI (American): "So how long have you been a lawyer?"
-4. (7-10 s) Waist-up on DB. He shakes his head slowly, warm.
+4. (6.5-9.5 s) Waist-up on DB. He shakes his head slowly as he speaks, warm.
   DB (Dominican): "Long enough that I'd rather hear about you."
-5. (10-11 s) Waist-up on ChiChi, amused, one eyebrow up.
+5. (9.5-10.5 s) Waist-up on ChiChi, amused, one eyebrow up.
   CHICHI (American): "Mm. Smooth."
-6. (11-16 s) Two-shot. ChiChi laughs softly, sits back and picks up her wine glass. DB leans forward on his forearms with a small smile.
+6. (10.5-15 s) Two-shot. DB leans forward on his forearms with a small smile and answers straight away; WHILE he talks, ChiChi laughs softly, sits back and picks up her wine glass.
   DB (Dominican): "Honest. I've done all the talking. Who is Chi?"
   END on this line: ChiChi holding her glass, about to answer; DB leaning in, waiting. After that, silence: nobody speaks.
 
@@ -84,6 +84,7 @@ LINE OWNERSHIP, NEVER SWAPPED: "You owe me the lawyer story. You said over dinne
 VOICES, TWO DIFFERENT PEOPLE, NEVER MIXED:
 - CHICHI IS AMERICAN: <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>, a warm, smooth, mid-to-low Black American woman's voice with a GENERAL AMERICAN ACCENT, calm authority and dry humour. ChiChi is AMERICAN: General American accent, NEVER British.
 - DB'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A Dominican man of forty-eight speaking fluent English with a NATURAL HISPANIC ACCENT: a warm Caribbean Spanish flair in the vowels, lightly tapped r's, softened word endings, and the occasional Spanish rhythm in a phrase. His voice is LOW, WARM and CALMING: a soft-spoken, slightly husky baritone, mature and composed, with a gentle gravel at the bottom and a quiet intimacy, as if he never needs to raise his voice to be heard. He speaks SLOWLY and DELIBERATELY, with thoughtful pauses inside a sentence (never between lines), a reassuring tone, and a faint, knowing warmth, like a smile you can hear. A lawyer's clear, precise diction under the accent. Never loud, never fast, never slick or salesy, never cartoonish or exaggerated, never a heavy stereotype; the accent is real and natural, never put on.
+DB'S PACING: his slow, deliberate quality is in his calm TONE, never in gaps. No pause inside or between his lines longer than two tenths of a second.
 The two voices never sound alike and never swap.
 
 CAMERA: steady, eye level, always from the room side of the table (it never crosses to the window side). A medium-wide two-shot plus waist-up over-the-shoulder singles. NO ZOOMS, NO PUSH-INS; faces never tighter than waist-up.
@@ -95,4 +96,4 @@ AUDIO: only these six lines, plus a soft low piano in the room and the faint cli
 
 | Clip | Version | Job ID | Duration | Credits | Verdict |
 |---|---|---|---|---|---|
-| 01 | v1 | — | 16 s | 112 | Awaiting "film" |
+| 01 | v1 | — | 15 s | 105 | Awaiting "film" |

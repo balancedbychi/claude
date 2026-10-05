@@ -1,10 +1,10 @@
 # EXCLUSIVE with Nia and Chi: Episode 11, "Just As Important"
 
 **Status:** SCRIPT AND BEAT-BY-BEAT FOR REVIEW (5 Oct 2026). Set and wardrobe are locked. **Nothing has been filmed.** Clip 01 is filmed only after your "film".
-**Format:** vertical 9:16, 720p, Seedance 2.5. **Six clips, one per scene**, about 99 seconds in total. Each clip is one render. From Clip 02 on, each clip attaches the clip before it, once approved, as a video reference (rule 7).
+**Format:** vertical 9:16, 720p, Seedance 2.5. **Six clips, one per scene**, about 86 seconds in total. Each clip is one render. From Clip 02 on, each clip attaches the clip before it, once approved, as a video reference (rule 7).
 **Cast:** ChiChi · DB · one silent server. Nobody else speaks.
 **Picks up from:** "Tables Turned". DB called from his law office and promised to explain the lawyer story "over dinner." ChiChi: "Okay. I'll see you tonight." **This is that dinner.**
-**Estimated cost:** about **693 credits** if every clip works first time (7 credits a second at 720p).
+**Estimated cost:** about **602 credits** if every clip works first time (7 credits a second at 720p).
 
 ---
 
@@ -26,7 +26,8 @@ ChiChi (40) and DB (48) are on their first real date, at a candlelit table high 
 | DB's voice | Written description from `characters/db.md`, word for word: Dominican, natural Hispanic accent | — |
 | ChiChi's voice | `ChiChi-Canon-Voice-v1` `de50f37f…` plus the written note: American, never British (rule 10) | — |
 | Server | Silent: mouth closed, never speaks, never faces the lens | — |
-| Ending | **(a)**, wordless and short: menu, buzz, glance, her hand, then cut to black within half a second | — |
+| Ending | **(a)**, wordless and short (6 s): menu, buzz, glance, her hand, then cut to black within half a second | — |
+| Pauses | **No unnecessary pauses** (5 Oct 2026): reactions play under dialogue; every clip but 06 ends on a line | — |
 | Clips | **Six clips, one per scene** (your call, 5 Oct 2026) | — |
 
 ---
@@ -83,9 +84,8 @@ ChiChi is always on the left of frame and DB on the right, in every shot.
 | Moment | Check |
 |---|---|
 | ChiChi's eyes flick to his phone (Clip 03) | She already faces him and the phone is by his plate: eyes only, no head turn. ✔ |
-| DB looks down at the candle (Clip 04) | The candle is centre-table between them: eyes drop, no head turn. ✔ |
-| ChiChi looks down at the candle (Clip 05) | Same candle, same downward glance. ✔ |
-| DB's eyes flick to the buzzing phone (Clip 06) | It's beside his own plate: half a second, eyes only. ✔ |
+| DB looks down at the candle while he answers (Clip 04) | The candle is centre-table between them: eyes drop, no head turn. ✔ |
+| DB's eyes flick to the buzzing phone (Clip 06) | It's beside his own plate: eyes only, straight back to the menu. ✔ |
 | ChiChi sees him glance (Clip 06) | She's facing him and sees it without moving. ✔ |
 | ChiChi looks at her bare left hand (Clip 06) | Her left hand rests flat on the tablecloth beside her plate, in plain view. ✔ |
 
@@ -98,9 +98,11 @@ Each clip has three parts:
 - **Beat-by-beat:** second by second, what the camera shows and what each person does.
 - **What everyone is doing:** so nobody is ever idle (rule 12).
 
+**No unnecessary pauses (user, 5 Oct 2026).** Every line starts within about 0.2 s of the one before. **Reactions play UNDER the dialogue**, on a cut to the listener while the other person is still talking. They never get a silent beat of their own. Clips 01–05 each end on a spoken line. Only Clip 06, the wordless ending you chose, has no dialogue, and it's cut as short as the action allows.
+
 ---
 
-## CLIP 01 · "The Lawyer Story" · 16 s · about 112 credits
+## CLIP 01 · "The Lawyer Story" · 15 s · about 105 credits
 
 **Job:** open on a happy, flirty date and set up the promise from "Tables Turned".
 
@@ -118,96 +120,91 @@ Each clip has three parts:
 
 | Time | Shot | ChiChi `[ChiChi-JAI]` | DB `[DB-JAI]` |
 |---|---|---|---|
-| **First frame** | TWO-SHOT | Seated LEFT, fork resting on her plate, smiling at him | Seated RIGHT, wine glass in his right hand, mid-sip, looking at her |
-| 0–3 s | TWO-SHOT | Sets her fork down, points a playful finger at him: **"You owe me the lawyer story. You said over dinner."** | Lowers his glass, caught out, a smile spreading |
-| 3–5 s | ON DB | Listening | Puts the glass down, palms open: **"I did say that."** |
-| 5–7 s | ON CHICHI | Leans in, chin on her hand: **"So how long have you been a lawyer?"** | (back to camera, listening) |
-| 7–10 s | ON DB | (listening) | Shakes his head slowly, warm: **"Long enough that I'd rather hear about you."** |
-| 10–11 s | ON CHICHI | One eyebrow up, amused: **"Mm. Smooth."** | (back to camera) |
-| 11–16 s | TWO-SHOT | Laughs softly, sits back, picks up her wine glass | Leans forward on his forearms, a small smile: **"Honest. I've done all the talking. Who is Chi?"** |
-| **Last frame** | TWO-SHOT | Glass in hand, about to answer | Leaning in, waiting, warm |
+| **First frame** | TWO-SHOT | Seated LEFT, already mid-gesture: setting her fork down, smiling at him | Seated RIGHT, lowering his wine glass from a sip, looking at her |
+| 0–3 s | TWO-SHOT | Points a playful finger at him as she speaks: **"You owe me the lawyer story. You said over dinner."** | Glass down, caught out, smiling |
+| 3–4.5 s | ON DB | Listening | Opens his palms: **"I did say that."** |
+| 4.5–6.5 s | ON CHICHI | Leans in, chin on her hand: **"So how long have you been a lawyer?"** | (back to camera) |
+| 6.5–9.5 s | ON DB | (listening) | Shakes his head slowly, warm: **"Long enough that I'd rather hear about you."** |
+| 9.5–10.5 s | ON CHICHI | Eyebrow up, amused: **"Mm. Smooth."** | (back to camera) |
+| 10.5–15 s | TWO-SHOT | Laughs softly, sits back and picks up her wine glass **while he talks** | Leans forward on his forearms: **"Honest. I've done all the talking. Who is Chi?"** |
+| **Last frame** | TWO-SHOT | Glass in hand, about to answer | Leaning in, waiting |
 
-**Cut on DB's last line.** *After that, silence: nobody speaks.*
+**Cut on "Who is Chi?"** *After that, silence: nobody speaks.*
 
 ### What everyone is doing
-- **ChiChi:** fork down, a pointing finger, chin on her hand, then sitting back with her wine. Never frozen.
-- **DB:** sipping, putting the glass down, open palms, then leaning in on his forearms.
+- **ChiChi:** fork down, a pointing finger, chin on her hand, then sitting back with her wine.
+- **DB:** lowering his glass, open palms, a slow head shake, then leaning in.
 - **Diners:** eating and sipping quietly at the far tables, mouths closed.
 
 ---
 
-## CLIP 02 · "Ten Cats" · 16 s · about 112 credits
+## CLIP 02 · "Ten Cats" · 14 s · about 98 credits
 
 **Job:** ChiChi is honest and funny about being single, and DB's real laugh makes him likeable.
 
 ### Script
-> **CHICHI** *(sets her glass down; decides to be honest)* Honestly? I've been single for a while.
+> **CHICHI** *(setting her glass down as she speaks)* Honestly? I've been single for a while.
 > **DB** By choice?
 > **CHICHI** I'd like to say yes. My standards are high. Lately I wonder if they're why I'm still single. *(dry)* And I refuse to be the woman with ten cats.
-
-*DB laughs, a real one from the chest, head tipping back.*
-
-> **DB** Ten? That is very specific.
+> **DB** *(laughing as he says it)* Ten? That is very specific.
 > **CHICHI** *(deadpan)* I've done the math.
 
 ### Beat-by-beat
 
 | Time | Shot | ChiChi | DB |
 |---|---|---|---|
-| **First frame** | TWO-SHOT | Same as Clip 01's last frame: wine glass in hand | Leaning in on his forearms |
-| 0–3 s | ON CHICHI | Sets her glass down, a half-second decision, then: **"Honestly? I've been single for a while."** | (back to camera) |
-| 3–4 s | ON DB | (listening) | Tilts his head, gentle: **"By choice?"** |
-| 4–11 s | ON CHICHI | A small shrug: **"I'd like to say yes. My standards are high."** Glances at the candle, then back: **"Lately I wonder if they're why I'm still single."** Dry, straight face: **"And I refuse to be the woman with ten cats."** | (back to camera) |
-| 11–13 s | ON DB | (listening) | **A real laugh** from the chest, head tipping back, a hand to his chest |
-| 13–15 s | ON DB | (listening) | Still grinning: **"Ten? That is very specific."** |
-| 15–16 s | TWO-SHOT | Deadpan, a tiny shrug: **"I've done the math."** | Laughing again, softer |
+| **First frame** | TWO-SHOT | Wine glass in hand, as in Clip 01's last frame | Leaning in on his forearms |
+| 0–2.5 s | ON CHICHI | Sets the glass down **while** she speaks: **"Honestly? I've been single for a while."** | (back to camera) |
+| 2.5–3.5 s | ON DB | (listening) | Tilts his head, gentle: **"By choice?"** |
+| 3.5–10 s | ON CHICHI | Straight in, a small shrug: **"I'd like to say yes. My standards are high. Lately I wonder if they're why I'm still single."** Dry, straight face: **"And I refuse to be the woman with ten cats."** | (back to camera) |
+| 10–12.5 s | ON DB | (listening) | **Bursts into a real laugh on her last word**, head tipping back, a hand to his chest, and says it **through the laugh**: **"Ten? That is very specific."** |
+| 12.5–14 s | TWO-SHOT | Deadpan, a tiny shrug: **"I've done the math."** | Still laughing softly |
 | **Last frame** | TWO-SHOT | Small satisfied smile | Shaking his head, charmed |
 
 **Cut on "I've done the math."** *After that, silence: nobody speaks.*
 
+*Cut from the first draft:* the "half-second decision" before her first line, the glance at the candle in the middle of her speech, and DB's two-second laugh before his line. The laugh now runs under his line.
+
 ### What everyone is doing
-- **ChiChi:** setting her glass down, a shrug, a glance at the candle, a deadpan face.
-- **DB:** a head tilt, then a full laugh with his hand to his chest. The laugh is the most important moment in the clip.
+- **ChiChi:** setting her glass down, a shrug, a deadpan face.
+- **DB:** a head tilt, then a full laugh with his hand to his chest. The laugh is still the most important moment in the clip; it just doesn't stop the scene.
 - **Diners:** quiet in the background.
 
 ---
 
-## CLIP 03 · "Always Wanted One" · 16 s · about 112 credits
+## CLIP 03 · "Always Wanted One" · 14 s · about 98 credits
 
-**Job:** two things land in four lines. **He wants a child** (the box Kel couldn't tick), but **"my life is busy"** (a warning label). Both play in her face, not in words.
+**Job:** two things land. **He wants a child** (the box Kel couldn't tick), but **"my life is busy"** (a warning label). Both play in her face, **on cuts to her while he keeps talking.**
 
 ### Script
-*DB settles. Warmer now, leaning in a little on his forearms.*
-
-> **DB** If it helps, I'm in a similar boat. No children. And I have always wanted one.
-
-*ChiChi's brows lift a fraction and she goes still. That one landed.*
-
+> **DB** *(leaning in, warm)* If it helps, I'm in a similar boat. No children. And I have always wanted one.
 > **DB** But work always got in the way of my relationships. I want someone who understands my life is busy.
 
-*Half a second on ChiChi: her pleasant smile holds, then adjusts slightly. Her eyes flick once to his face-down phone, then back to him.*
+*Both of ChiChi's reactions play over DB's voice: her brows lift on "always wanted one", and her smile adjusts and her eyes flick to his phone on "my life is busy".*
 
 ### Beat-by-beat
 
 | Time | Shot | ChiChi | DB |
 |---|---|---|---|
-| **First frame** | TWO-SHOT | Small smile, hands loosely together on the table | Leaning in on his forearms, warm |
-| 0–6 s | ON DB | (listening) | Sincere: **"If it helps, I'm in a similar boat. No children. And I have always wanted one."** |
-| 6–7 s | ON CHICHI | **Her brows lift a fraction; she goes still**, lips parting slightly. Hopeful. | (back to camera) |
-| 7–15 s | ON DB | (listening) | A small rueful exhale, honest: **"But work always got in the way of my relationships. I want someone who understands my life is busy."** |
-| 15–16 s | ON CHICHI | Her smile holds, then **adjusts slightly**. **Her eyes flick once down to his face-down phone and straight back up to him.** | (back to camera) |
+| **First frame** | TWO-SHOT | Small smile, hands loosely together on the table | Leaning in on his forearms, already starting to speak |
+| 0–4 s | ON DB | (listening) | Sincere: **"If it helps, I'm in a similar boat. No children. And I have always wanted one."** |
+| 4–5.5 s | ON CHICHI | **Reaction under his next words:** her brows lift a fraction, lips part. Hopeful. | (heard, off camera) **"But work always got in the way…"** |
+| 5.5–11 s | ON DB | (listening) | A small rueful shrug as he goes on, no gap: **"…of my relationships. I want someone who understands my life is busy."** |
+| 11–14 s | ON CHICHI | **Reaction under his last words** ("…my life is busy"): her smile holds, then adjusts slightly; **her eyes flick once to his face-down phone and straight back to him.** | (heard, off camera, finishing the line) |
 | **Last frame** | ON CHICHI | Gracious, a thought behind her eyes | — |
 
-**Cut within half a second of her eyes returning to him.** *After that, silence: nobody speaks.* The next clip opens on her line.
+**Cut the instant his line ends.** *After that, silence: nobody speaks.* The next clip opens on her line.
+
+*Cut from the first draft:* the silent "she goes still" beat between his two lines, and the silent half-second at the end. Both reactions now play under his voice.
 
 ### What everyone is doing
 - **ChiChi:** listening actively: a small nod, the lift of her brows, then the glance at the phone.
-- **DB:** forearms on the table, a hand gesturing gently as he talks, a rueful exhale.
+- **DB:** forearms on the table, a hand gesturing gently as he talks, a rueful shrug.
 - **Diners:** quiet in the background.
 
 ---
 
-## CLIP 04 · "Why It Ended" · 18 s · about 126 credits
+## CLIP 04 · "Why It Ended" · 16 s · about 112 credits
 
 **Job:** DB at his most attractive: self-aware, no excuses, doing the work. A good man telling the truth.
 
@@ -215,11 +212,8 @@ Each clip has three parts:
 > **CHICHI** Can I ask you something?
 > **DB** Anything.
 > **CHICHI** Is that why your marriage ended?
-
-*DB's smile fades. Not defensive, just honest. He looks down at the candle.*
-
-> **DB** Yes. She wanted a lot of time. I couldn't give it.
-> **DB** *(looking back up at her)* I've been working on that. I'm in therapy.
+> **DB** *(his smile fading as he answers, eyes dropping to the candle)* Yes. She wanted a lot of time. I couldn't give it.
+> **DB** *(eyes back up to her, straight on)* I've been working on that. I'm in therapy.
 > **CHICHI** *(surprised, a little impressed)* Therapy.
 > **DB** It's helped. More than I expected.
 
@@ -227,94 +221,95 @@ Each clip has three parts:
 
 | Time | Shot | ChiChi | DB |
 |---|---|---|---|
-| **First frame** | TWO-SHOT | Hands folded on the table, looking at him | Leaning back slightly, relaxed |
-| 0–2 s | TWO-SHOT | Gently: **"Can I ask you something?"** | Opens a hand: **"Anything."** |
-| 2–4 s | ON CHICHI | Direct but kind: **"Is that why your marriage ended?"** | (back to camera) |
-| 4–10 s | ON DB | (listening) | His smile fades, not defensive. **Eyes drop to the candle.** Quiet: **"Yes. She wanted a lot of time. I couldn't give it."** |
-| 10–14 s | ON DB | (listening) | **Looks back up at her**, steady: **"I've been working on that. I'm in therapy."** |
-| 14–15 s | ON CHICHI | Brows up, surprised and a little impressed: **"Therapy."** | (back to camera) |
-| 15–18 s | TWO-SHOT | A small, respectful nod | A modest half smile, a slight shrug: **"It's helped. More than I expected."** |
+| **First frame** | TWO-SHOT | Hands folded on the table, already speaking | Relaxed, looking at her |
+| 0–2 s | TWO-SHOT | Gently: **"Can I ask you something?"** | Opens a hand, straight away: **"Anything."** |
+| 2–3.5 s | ON CHICHI | Direct but kind: **"Is that why your marriage ended?"** | (back to camera) |
+| 3.5–8.5 s | ON DB | (listening) | Answers **immediately**, his smile fading as he speaks and his eyes dropping to the candle: **"Yes. She wanted a lot of time. I couldn't give it."** |
+| 8.5–12 s | ON DB | (listening) | Eyes come back up to her **as he keeps talking**: **"I've been working on that. I'm in therapy."** |
+| 12–13 s | ON CHICHI | Brows up, surprised and a little impressed: **"Therapy."** | (back to camera) |
+| 13–16 s | TWO-SHOT | A small, respectful nod **while he answers** | A modest half smile, a slight shrug: **"It's helped. More than I expected."** |
 | **Last frame** | TWO-SHOT | Looking at him, warm, reassessing | Settled, open |
 
 **Cut on DB's last line.** *After that, silence: nobody speaks.*
 
+*Cut from the first draft:* the silent beat where his smile fades and he looks at the candle **before** saying "Yes." Now it happens **while** he says it.
+
 ### What everyone is doing
 - **ChiChi:** hands folded, leaning in for the question, a nod at the end.
-- **DB:** eyes on the candle, then back up. He might turn the stem of his water glass while he talks about his ex-wife (his hands stay away from the phone).
+- **DB:** eyes to the candle and back up while he talks, turning the stem of his water glass (his hands stay away from the phone).
 - **Diners:** quiet in the background.
 
 ---
 
-## CLIP 05 · "Just As Important" · 25 s · about 175 credits
+## CLIP 05 · "Just As Important" · 21 s · about 147 credits
 
 **Job:** the turn. She asks for the truth and he gives it. Nobody wins. On screen it's a lovely date; the sting is inside her.
 
 ### Script
-*The SERVER `[Server]` steps in from frame right, refills both water glasses without a word and leaves. ChiChi waits until they're alone, folds her hands on the tablecloth and looks right at him.*
+*The SERVER `[Server]` is finishing topping up both water glasses as the clip opens, and steps away to frame right **while ChiChi starts her question.***
 
-> **CHICHI** Which is more important? Work, or your relationships?
-
-*DB blinks, lets out a short surprised laugh and leans back.*
-
-> **DB** Nobody has ever been that forward with me.
+> **CHICHI** *(hands folding on the tablecloth, looking right at him)* Which is more important? Work, or your relationships?
+> **DB** *(a short surprised laugh into the line, leaning back)* Nobody has ever been that forward with me.
 > **CHICHI** *(not backing down, small smile)* I'm not twenty-five anymore.
-> **DB** *(he respects that; a breath)* Relationships are important. I believe that. But work is just as important. I won't pretend otherwise.
-
-*ChiChi's smile holds, but her eyes go still. A half-second glance down at the candle, then back up, gracious.*
-
-> **CHICHI** *(lightly)* I appreciate the honesty.
+> **DB** *(he respects that)* Relationships are important. I believe that. But work is just as important. I won't pretend otherwise.
+> **CHICHI** *(lightly, straight back)* I appreciate the honesty.
 > **DB** *(relieved)* I'd rather you know now.
 > **CHICHI** So would I.
+
+*Her eyes go still on "just as important". The reaction plays on a cut to her while he finishes the sentence, and she answers the moment he stops.*
 
 ### Beat-by-beat
 
 | Time | Shot | ChiChi | DB | Server |
 |---|---|---|---|---|
-| **First frame** | TWO-SHOT | Seated, smoothing her napkin on her lap | Seated, nodding toward the arriving server | Stepping in from frame RIGHT, behind DB on the window side, carafe in hand |
-| 0–3 s | TWO-SHOT | A polite smile to the server, straightens her napkin | A small nod of thanks | **Silently** fills ChiChi's water glass, then DB's, and steps back out to frame RIGHT. Mouth closed. Never faces the camera. |
-| 3–6 s | ON CHICHI | Folds her hands on the tablecloth and looks right at him: **"Which is more important? Work, or your relationships?"** | (back to camera) | Gone |
-| 6–9 s | ON DB | (listening) | Blinks, a short surprised laugh, leans back in his chair: **"Nobody has ever been that forward with me."** | — |
-| 9–11 s | ON CHICHI | Holds his gaze, small smile: **"I'm not twenty-five anymore."** | (back to camera) | — |
-| 11–18 s | ON DB | (listening) | A breath, then honest: **"Relationships are important. I believe that."** Leans forward: **"But work is just as important. I won't pretend otherwise."** | — |
-| 18–19 s | ON CHICHI | **Her smile holds but her eyes go still.** A half-second glance down at the candle, then back up. | (back to camera) | — |
-| 19–21 s | ON CHICHI | Gracious, light: **"I appreciate the honesty."** | (back to camera) | — |
-| 21–23 s | ON DB | (listening) | Relieved, a small exhale and a smile: **"I'd rather you know now."** | — |
-| 23–25 s | TWO-SHOT | A small smile that doesn't reach her eyes: **"So would I."** | Smiling, relaxed, unaware | — |
-| **Last frame** | TWO-SHOT | Composed smile, still eyes | Content, reaching toward the dessert menu at the edge of the table | — |
+| **First frame** | TWO-SHOT | Seated, a polite nod to the server, hands moving to fold on the table | Seated, a small nod of thanks to the server | Standing behind DB on the window side, **finishing** pouring DB's water |
+| 0–3 s | TWO-SHOT | Folds her hands and looks right at him **as the server steps away**: **"Which is more important? Work, or your relationships?"** | Listening | Steps back out of frame RIGHT **while she talks**. Silent, mouth closed, never faces the camera. |
+| 3–5.5 s | ON DB | (listening) | A short surprised laugh **into** the line, leaning back: **"Nobody has ever been that forward with me."** | Gone |
+| 5.5–7 s | ON CHICHI | Holds his gaze, small smile: **"I'm not twenty-five anymore."** | (back to camera) | — |
+| 7–11 s | ON DB | (listening) | Honest, straight in: **"Relationships are important. I believe that. But work is just as important…"** | — |
+| 11–13 s | ON CHICHI | **Reaction under his words:** her smile holds but her eyes go still. | (heard, off camera) **"…I won't pretend otherwise."** | — |
+| 13–15 s | ON CHICHI | Answers **the moment he stops**, gracious, light: **"I appreciate the honesty."** | (back to camera) | — |
+| 15–17.5 s | ON DB | (listening) | Relieved, a small smile: **"I'd rather you know now."** | — |
+| 17.5–21 s | TWO-SHOT | A small smile that doesn't reach her eyes: **"So would I."** | Smiling, relaxed, unaware, reaching toward the dessert menu at the edge of the table | — |
+| **Last frame** | TWO-SHOT | Composed smile, still eyes | Hand on the dessert menu | — |
 
 **Cut on "So would I."** *After that, silence: nobody speaks.*
 
+*Cut from the first draft:* the three-second silent pour before the dialogue (the pour now finishes under her first line), "ChiChi waits until they're alone", DB's "breath" before his answer, and her silent glance down at the candle.
+
 ### What everyone is doing
-- **ChiChi:** a smile for the server and her napkin, then folded hands for the question. Stillness in her eyes, not her body.
-- **DB:** a nod to the server, a laugh and a lean back, then a lean forward to answer, then relief.
-- **Server:** pours both waters in about 3 seconds and leaves to frame right. Silent.
+- **ChiChi:** a nod to the server, then folded hands for the question. The stillness is in her eyes, not a silence.
+- **DB:** a nod to the server, a laugh and a lean back, then a lean forward to answer, relief, a hand to the menu.
+- **Server:** finishes the pour and leaves to frame right in the first 3 seconds. Silent.
 - **Diners:** quiet in the background.
 
 ---
 
-## CLIP 06 · "Three Things" · 8 s · about 56 credits · NO DIALOGUE
+## CLIP 06 · "Three Things" · 6 s · about 42 credits · NO DIALOGUE
 
-**Job:** the turn plays in silence. Nobody says the theme out loud. You read it in her face, his phone and her hand.
+**Job:** the turn plays without words, as you chose (ending a). Nobody says the theme out loud. You read it in her face, his phone and her hand. It's cut to the bone: every second has an action.
 
 ### Script
-*DB opens the dessert menu, pleased; for him, the date is going well. His face-down phone buzzes once against the tablecloth. He doesn't pick it up, but his eyes flick to it for half a second. ChiChi sees it. Her smile fades a little. She looks down at her bare left hand resting on the white tablecloth. The room sound dips to the low piano. CUT TO BLACK.*
+*DB opens the dessert menu, pleased. His face-down phone buzzes once. His eyes flick to it and straight back to the menu. ChiChi sees it; her smile fades a little. She looks down at her bare left hand on the white tablecloth. CUT TO BLACK.*
 
 ### Beat-by-beat
 
 | Time | Shot | ChiChi | DB |
 |---|---|---|---|
-| **First frame** | TWO-SHOT | Composed smile, as in Clip 05's last frame | Picking up the dessert menu |
-| 0–2 s | TWO-SHOT | Watching him, sipping her water | Opens the menu, pleased, scanning it |
-| 2–3 s | TWO-SHOT | (watching) | **His phone buzzes once** against the tablecloth (a visible small vibration and a soft buzz). **His eyes flick to it for half a second**, then back to the menu. He doesn't touch it. |
-| 3–5 s | ON CHICHI | **She saw it.** Her smile fades a little. She sets her water glass down. | (back to camera, reading the menu) |
-| 5–7.5 s | ON CHICHI | **She looks down at her bare left hand**, resting flat on the white tablecloth. Stillness. | (back to camera) |
-| 7.5–8 s | — | **CUT TO BLACK** | — |
+| **First frame** | TWO-SHOT | Composed smile, glass of water at her lips | Already opening the dessert menu |
+| 0–1.5 s | TWO-SHOT | Sipping her water, watching him | Scanning the menu, pleased |
+| 1.5–2.5 s | TWO-SHOT | (watching) | **His phone buzzes once** (a small visible vibration and a soft buzz). **His eyes flick to it and straight back to the menu.** He doesn't touch it. |
+| 2.5–4 s | ON CHICHI | **She saw it.** Her smile fades a little as she sets her water glass down. | (back to camera, reading) |
+| 4–5.5 s | ON CHICHI | **She looks down at her bare left hand**, resting flat on the white tablecloth. | (back to camera) |
+| 5.5–6 s | — | **CUT TO BLACK** | — |
 
-**No dialogue. Nobody speaks; mouths closed.** Audio is the low piano and the single phone buzz. The cut to black lands within half a second of her looking at her hand.
+**No dialogue. Nobody speaks; mouths closed.** Audio: the low piano and the single phone buzz. The cut to black lands within half a second of her look.
+
+*Cut from the first draft:* 8 s down to 6 s. The "stillness" hold on her hand is now 1.5 s, the length of the look itself.
 
 ### What everyone is doing
-- **ChiChi:** sipping her water, seeing the glance, setting the glass down, looking at her hand.
-- **DB:** reading the menu happily; one half-second glance at the phone.
+- **ChiChi:** sipping, seeing the glance, setting the glass down, looking at her hand.
+- **DB:** reading the menu happily; one quick glance at the phone.
 - **Diners:** quiet in the background.
 
 ---
@@ -326,7 +321,7 @@ Each clip has three parts:
 3. **ChiChi is American**, never British (rule 10). **DB is Dominican**, with the written voice word for word.
 4. **Light:** warm amber candle and practical light, deep warm shadows, clearly night. Never blue-dominant.
 5. **Diners:** never more than four in frame, in deep soft focus, mouths closed, and they never cross in front of the leads.
-6. **Pacing:** replies land within about 0.2 s of the line before. Reactions last half a second, one second at most (rule 4).
+6. **Pacing, no unnecessary pauses:** replies land within about 0.2 s of the line before. No silent beats: reactions play under the other person's line, on a cut to the listener. DB's calm, unhurried delivery is in his tone, never in gaps. The only wordless stretch in the episode is Clip 06.
 7. **Emotion carries over.** After "just as important", ChiChi never goes back to the Clip 02 glow.
 8. **No subtitles, captions or on-screen text.**
 
