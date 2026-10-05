@@ -2,7 +2,9 @@
 
 Read `script.md` first: it has the story, the floor plan and the beat-by-beat for all six clips. This file holds what's sent to Seedance 2.5, one clip at a time. **Each clip is filmed only after your "film"** (rule 9). Each clip's prompt is written and sent for review only after the clip before it is approved, because it attaches that clip as its video reference (rule 7).
 
-## FINAL CUT LIST (5 Oct 2026)
+## FINAL CUT LIST (5 Oct 2026): ALL SIX CLIPS APPROVED
+
+**Export:** run `bash scripts/download-ep11.sh` on your Mac. It saves every clip and still to `~/Desktop/Exclusive the Series/episode 11 just as important/` and builds `EP11 just as important (full episode).mp4` at 720p.
 
 Put these together in this order. Total runtime about **86 s**. Export the episode at **720p**: Clip 04 was rendered at 1080p and scales down to match.
 
@@ -13,7 +15,7 @@ Put these together in this order. Total runtime about **86 s**. Export the episo
 | 03 | Always Wanted One | `fc894b33-bdb8-4ed2-96c5-2f9d0eb7cb84` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_005851_fc894b33-bdb8-4ed2-96c5-2f9d0eb7cb84.mp4) | 14 s | 720p | 98 | Approved |
 | 04 | Why It Ended | `687a5c19-2aa7-45d1-85c0-ad6885f96e64` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_011319_687a5c19-2aa7-45d1-85c0-ad6885f96e64.mp4) | 16 s | **1080p** (scale to 720p in the edit) | 192 | Approved |
 | 05 | Just As Important | `1a685bed-7301-4d05-b755-4928b3202078` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_013247_1a685bed-7301-4d05-b755-4928b3202078.mp4) | 21 s | 720p | 147 | Approved |
-| 06 | Three Things | `8123d75b-01ec-4f04-8ead-b36f1295bbd8` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_014754_8123d75b-01ec-4f04-8ead-b36f1295bbd8.mp4) | 6 s | 720p | 42 | Awaiting review |
+| 06 | Three Things | `8123d75b-01ec-4f04-8ead-b36f1295bbd8` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_014754_8123d75b-01ec-4f04-8ead-b36f1295bbd8.mp4) | 6 s | 720p | 42 | Approved |
 
 **Credits spent on the six final clips: 682.** The two failed first attempts (Clips 02 and 03) were refunded in full. Stills cost a little more on top: six start frames plus two frame-05 variants at about 2.75 each (about 22), and low-quality previews for the sets and wardrobe.
 
@@ -364,7 +366,7 @@ PHYSICS: natural seated posture, five-finger hands, the carafe pours naturally, 
 AUDIO: only these seven lines, plus the soft pour of water at the start, the same soft low piano and faint clink of cutlery as the reference video. No background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIP 06 · "Three Things" · 6 s · 42 credits · v1 · RENDERED, AWAITING REVIEW (job `8123d75b`)
+## CLIP 06 · "Three Things" · 6 s · 42 credits · v1 · APPROVED (job `8123d75b`)
 
 **No dialogue** (ending a). No voice element attached; the prompt bans every voice sound, because a silent clip is where the model is most likely to invent a line (rule 9). Ends on a cut to black within half a second of ChiChi looking at her bare left hand.
 
@@ -416,4 +418,4 @@ AUDIO: NO VOICES AT ALL. Only the soft low piano, faint room tone and the single
 | 03 | v1 retry | `fc894b33-bdb8-4ed2-96c5-2f9d0eb7cb84` | 14 s | 98 | **APPROVED** (5 Oct 2026). |
 | 04 | v1 | `687a5c19-2aa7-45d1-85c0-ad6885f96e64` | 16 s | 192 | **APPROVED** (5 Oct 2026). 1080p; scale to 720p in the edit. |
 | 05 | v1 | `1a685bed-7301-4d05-b755-4928b3202078` | 21 s | 147 | **APPROVED** (5 Oct 2026). |
-| 06 | v1 | `8123d75b-01ec-4f04-8ead-b36f1295bbd8` | 6 s | 42 | **Rendered** 5 Oct 2026 at 720p ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_014754_8123d75b-01ec-4f04-8ead-b36f1295bbd8.mp4)). Worked first time. Awaiting your review. |
+| 06 | v1 | `8123d75b-01ec-4f04-8ead-b36f1295bbd8` | 6 s | 42 | Rendered 5 Oct 2026 at 720p ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_014754_8123d75b-01ec-4f04-8ead-b36f1295bbd8.mp4)). Worked first time. **APPROVED** (5 Oct 2026). |
