@@ -31,6 +31,15 @@ The morning after ChiChi's date, Nia comes over for coffee in ChiChi's kitchen. 
 
 ### Wardrobe options (5 Oct 2026, GPT Image 2.5, 9:16, low quality)
 
+**Refined (5 Oct 2026): "Nia is thin, but thick. Think slim thick."** The "slim" options above are superseded too. Nia's build from Episode 12 on: *PETITE, about 5'2", SLIM-THICK: a small snatched waist, a flat toned stomach, slim toned arms and shoulders, and full, rounded hips and thighs with a fuller bust; a defined hourglass on a slim, fit frame. Never heavy, never thick through the waist or arms, never straight up and down, never slim-hipped.* Still `Nia-Face` only, with no `Nia-Body`.
+
+| Option | Nia, slim thick | Job ID | Image |
+|---|---|---|---|
+| N1-st | Cream bodysuit, camel wide-leg trousers | `568806bd-3de0-47a5-aa67-eaf556f2815b` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_024011_568806bd-3de0-47a5-aa67-eaf556f2815b.png) |
+| N2-st | Chocolate ribbed co-ord | `d377b93b-654f-4b59-9141-7f352b7ec56e` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_024011_d377b93b-654f-4b59-9141-7f352b7ec56e.png) |
+| N3-st | Cream blazer, white tee, straight jeans | `c49cccf3-274d-4068-86e7-220cd940426f` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_024011_c49cccf3-274d-4068-86e7-220cd940426f.png) |
+| N4-st | Taupe knit polo, black satin midi skirt | `efe127b7-4636-4b29-847f-bb10c1de27db` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_024011_efe127b7-4636-4b29-847f-bb10c1de27db.png) |
+
 **Your ruling (5 Oct 2026): "Nia should be slimmer."** The first four Nia options are superseded. The remakes use `Nia-Face` only, with **no `Nia-Body` image**, because that image has been pushing her fuller. Her build is written instead: *petite, about 5'2", slim, slender and toned, narrow waist, slim arms and legs, gentle natural curves; light-framed, not full-figured, not thick, not voluptuous.* This replaces the "curvy hourglass" wording (old rule 2a) from Episode 12 on. She stays the shortest person on screen.
 
 | Option | Nia, slimmer | Job ID | Image |
@@ -63,7 +72,7 @@ Built from the face and body elements only, the same way as the Episode 11 looks
 
 | Tag | Who | Elements | Voice | Speaks? |
 |---|---|---|---|---|
-| `[Nia-TYOA]` | NIA | `Nia-Face` `3497a052…` + her Episode 12 look (to pick). **No `Nia-Body`** (she's slimmer now) | `Nia-Canon-Voice-v2` `b3d2fc9b…`, **British**, warm, low, dry, deadpan | Yes |
+| `[Nia-TYOA]` | NIA | `Nia-Face` `3497a052…` + her Episode 12 look (to pick). **No `Nia-Body`** (she's slim-thick now) | `Nia-Canon-Voice-v2` `b3d2fc9b…`, **British**, warm, low, dry, deadpan | Yes |
 | `[ChiChi-TYOA]` | CHICHI | `ChiChi-Face` `b03240bd…` + `ChiChi-Body` `46074b6d…` + her Episode 12 look (to pick) | `ChiChi-Canon-Voice-v1` `de50f37f…`, **American**, never British | Yes |
 | `[Kitchen]` | ChiChi's kitchen (set) | `ChiChi-Kitchen-Day` `37c64826-c6b8-4ea5-a4ca-6e7a2ed086ca` | — | — |
 | `[Nia-Phone]` | Nia's phone (prop) | In words only: a smartphone in a beige/tan case (the `Nia-Phone` element trips the content filter) | — | — |
@@ -297,7 +306,7 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 
 1. **No rings on either of them.** *NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring* (rule 3a). No bracelets, no watch on ChiChi. Nia wears her diamond studs.
 2. **ChiChi's hair is honey-blonde**, parted deep on the left. **Nia's hair** is jet-black, waist-length water-wave curls.
-3. **Nia is PETITE and SLIM** (your ruling, 5 Oct 2026: slender and toned, gentle curves, not full-figured), the shorter of the two. Her clothes come only from her look element; never a green sweatshirt.
+3. **Nia is PETITE and SLIM-THICK** (your ruling, 5 Oct 2026): small snatched waist, flat toned stomach, slim arms, full rounded hips and thighs, fuller bust. Never heavy, never thick through the waist or arms. The shorter of the two. Her clothes come only from her look element; never a green sweatshirt.
 4. **Voices:** Nia is **British** (her saved voice), ChiChi is **American** (her saved voice, never British). Nia is "NEE-uh".
 5. **Speech:** smooth, whole sentences for both, with no stutters (your note from Episode 11).
 6. **Pacing:** no silent beats; reactions play under dialogue; every clip ends on a line.
