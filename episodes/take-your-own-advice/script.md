@@ -76,12 +76,17 @@ One still per clip: the clip's **first frame**, shot as the TWO-SHOT from the di
 |---|---|---|---|
 | 01 | **MASTER PLATE.** Chi pouring coffee; Nia, chin on hand, mid-question | `6ba334b6-b6e2-4675-9e99-904c956bcd0e` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030233_6ba334b6-b6e2-4675-9e99-904c956bcd0e.png) |
 | 02 | Chi lowering her mug; Nia, mug in both hands, sympathetic | `dd31ff10-8dab-4d7b-a944-7620330e0a36` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030603_dd31ff10-8dab-4d7b-a944-7620330e0a36.png) |
-| 03 | Chi leaning on the island, nodding at Nia's phone; Nia caught glancing at it | `eb19ea9f-9207-4359-b824-b36b9baa7d11` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030603_eb19ea9f-9207-4359-b824-b36b9baa7d11.png) |
+| 03 | Chi, palms flat on the marble, leaning slightly, nodding at Nia's phone; Nia caught glancing at it | `7ff1b264-f80f-4ba1-9d27-072f82e67067` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_031619_7ff1b264-f80f-4ba1-9d27-072f82e67067.png) |
 | 04 | Chi leaning in on her forearms, sincere; Nia's hands lowering to her mug | `abec9f0f-ac77-43b4-83b2-40df2f448078` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030604_abec9f0f-ac77-43b4-83b2-40df2f448078.png) |
-| 05 | Chi smug; Nia setting her mug down, starting to point | `f47b0e09-3362-4e56-a15b-1547e04a620d` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030604_f47b0e09-3362-4e56-a15b-1547e04a620d.png) |
+| 05 | Chi upright, mug in her right hand, left hand on the marble, smug; Nia setting her mug down, starting to point | `e0825511-f01a-41c4-83a2-dc86c6d517b7` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_031619_e0825511-f01a-41c4-83a2-dc86c6d517b7.png) |
 | 06 | Both smiling; both phones face-down in front of their owners | `d9d558ee-8768-4a88-a0c6-293e1398f355` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030604_d9d558ee-8768-4a88-a0c6-293e1398f355.png) |
 
 **Consistency lock (5 Oct 2026). Your note: "The counter shape and Chi's body shape change between the stills."** The first six stills were each generated from scratch, so the island and Chi's build drifted from one to the next. **Still 01 is now the master plate.** Stills 02–06 were remade as **edits of Still 01** (it's attached as the image reference), with orders to keep the camera, the island's exact shape and position, every set detail, the light, and both women's faces, bodies and clothes identical, and to change only poses, hands and expressions. The superseded from-scratch stills 02–06 were `551e8a98…`, `55ebdf9a…`, `36f4443d…`, `66f705d9…` and `8cb057ac…`. **The same rule carries into filming:** every clip's `start_image` is its locked still, so every clip opens on the same island and the same bodies. If you'd rather a different still be the master, the other five get re-derived from that one.
+
+**Fixes (5 Oct 2026), both re-derived from the Still 01 master:**
+- **03:** your note was "the counter over-extends where Chi leans on it". The island is now locked as a rigid object that never stretches toward her. Chi leans only slightly, palms flat inside the existing edge, instead of on her forearms. Superseded: `eb19ea9f…`.
+- **05:** your note was "Chi's arms look short". Her arms are now written as full-length and anatomically correct. The pose was changed to upright, mug in her right hand, left hand on the marble, so both arms show at full length. Superseded: `f47b0e09…`.
+- **Rule for filming:** the island never changes shape, and Chi's arms are always full-length. Where Chi leans, the prompts keep the counter edge exactly where the start still has it. Still 04 (forearms) passed your review, so it stays. 
 
 **Checklist for each still (drift and hallucination):**
 1. ChiChi is on the **LEFT**, standing behind the island. Nia is on the **RIGHT**, on the stool, with the windows behind her.
@@ -235,7 +240,7 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
-| **First frame** | TWO-SHOT | Leaning on the island, nodding at Nia's phone | Glancing down at her phone by her hand |
+| **First frame** | TWO-SHOT | Palms flat on the marble, leaning slightly, nodding at Nia's phone | Glancing down at her phone by her hand |
 | 0–3 s | ON CHICHI | Nods at the phone, knowing: **"Your turn. You haven't put that phone down since you walked in."** | (back to camera) |
 | 3–6 s | ON NIA | (back to camera) | Turns the phone face-down with one finger **as** she says: **"Tay says he doesn't want to be rented."** |
 | 6–7.5 s | ON CHICHI | A surprised laugh **into** the word: **"Rented?"** | (back to camera) |
@@ -263,8 +268,8 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
-| **First frame** | TWO-SHOT | Arms unfolding, leaning in on the island, already speaking | Hands lowering to her mug |
-| 0–6 s | ON CHICHI | Leaning on her forearms, sincere: **"He's twenty-five and he's asking for more. Most men his age are asking for less."** | (back to camera) |
+| **First frame** | TWO-SHOT | Leaning in on her forearms on the marble, already speaking | Hands lowering to her mug |
+| 0–6 s | ON CHICHI | Leaning in on her forearms, sincere: **"He's twenty-five and he's asking for more. Most men his age are asking for less."** | (back to camera) |
 | 6–8.5 s | ON NIA | (back to camera) | Looks sideways out of the window, deflecting: **"He's not exactly Dorian."** |
 | 8.5–13 s | TWO-SHOT | One eyebrow up: **"Nobody asked you to compare."** | Busted. She hides behind a sip of coffee **while** ChiChi says it |
 | **Last frame** | TWO-SHOT | Eyebrow still up | Mug at her lips, eyes on ChiChi over the rim |
@@ -288,7 +293,7 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
-| **First frame** | TWO-SHOT | Leaning on the island | Lowering her mug, already speaking |
+| **First frame** | TWO-SHOT | Upright, mug in her right hand, left hand on the marble, smug | Setting her mug down, starting to point, already speaking |
 | 0–5 s | ON NIA | (back to camera) | Sets the mug down and points at ChiChi **as** she speaks: **"Hold on. You want me to give Tay a chance, but you won't give DB one?"** |
 | 5–6.5 s | ON CHICHI | Straight back, too fast: **"That's different."** | (back to camera) |
 | 6.5–8 s | ON NIA | (back to camera) | One eyebrow, deadpan: **"Is it?"** |
