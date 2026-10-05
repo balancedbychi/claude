@@ -226,7 +226,7 @@ PHYSICS: natural seated posture, five-finger hands, glasses behave normally, the
 AUDIO: only DB's lines, plus the same soft low piano and faint clink of cutlery as the reference video. No background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIP 04 · "Why It Ended" · 16 s · 192 credits · v1 · FILMED IN 1080p (job `687a5c19`)
+## CLIP 04 · "Why It Ended" · 16 s · 192 credits · v1 · RENDERED IN 1080p, AWAITING REVIEW (job `687a5c19`)
 
 **First line:** ChiChi's "Can I ask you something?" **Final line:** DB's "It's helped. More than I expected."
 
@@ -293,4 +293,4 @@ AUDIO: only these seven lines, plus the same soft low piano and faint clink of c
 | 02 | v1 retry | `36ee51ca-f51e-4d85-9682-b56eb90cc574` | 14 s | 98 | **APPROVED** (5 Oct 2026). Note: "Chi's speech was a little broken, but nothing too noticeable." → smooth-speech guard added for her speaking clips (04, 05). |
 | 03 | v1 | `685c3b89-1682-4f4f-8ad0-8b4c987bc193` | 14 s | 98 → refunded | **FAILED** about a minute in; no reason given; refunded (same pattern as Clip 02's first attempt). |
 | 03 | v1 retry | `fc894b33-bdb8-4ed2-96c5-2f9d0eb7cb84` | 14 s | 98 | **APPROVED** (5 Oct 2026). |
-| 04 | v1 | `687a5c19-2aa7-45d1-85c0-ad6885f96e64` | 16 s | 192 | Filmed 5 Oct 2026 ("begin segment 4… in 1080p"). **1080p** (12 credits/s). Clip 03 attached as reference. Rendering. |
+| 04 | v1 | `687a5c19-2aa7-45d1-85c0-ad6885f96e64` | 16 s | 192 | **Rendered** 5 Oct 2026 in 1080p ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_011319_687a5c19-2aa7-45d1-85c0-ad6885f96e64.mp4)). Worked first time. Awaiting your review. |
