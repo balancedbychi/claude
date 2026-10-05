@@ -72,14 +72,16 @@ Built from the face and body elements only, the same way as the Episode 11 looks
 
 One still per clip: the clip's **first frame**, shot as the TWO-SHOT from the dining end, so you can check before filming who stands where and whether the faces stay the same. All six use the **same** references: `ChiChi-Face` + `ChiChi-Body` + `ChiChi-Take-Your-Own-Advice-Look`, `Nia-Face` + `Nia-Take-Your-Own-Advice-Look`, and the `ChiChi-Kitchen-Day` set. Each one is checked against the list below before it's used.
 
-| Clip | Still | Job ID | Image |
+| Clip | Still (LOCKED set) | Job ID | Image |
 |---|---|---|---|
-| 01 | Chi pouring coffee; Nia, chin on hand, mid-question | `6ba334b6-b6e2-4675-9e99-904c956bcd0e` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030233_6ba334b6-b6e2-4675-9e99-904c956bcd0e.png) |
-| 02 | Chi lowering her mug; Nia, mug in both hands, sympathetic | `551e8a98-a72b-4f00-8a32-ecdb6c78cf65` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030235_551e8a98-a72b-4f00-8a32-ecdb6c78cf65.png) |
-| 03 | Chi leaning on the island, nodding at Nia's phone; Nia caught glancing at it | `55ebdf9a-6291-469d-9b5a-eb66cfea1032` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030235_55ebdf9a-6291-469d-9b5a-eb66cfea1032.png) |
-| 04 | Chi leaning in on her forearms, sincere; Nia's hands lowering to her mug | `36f4443d-82c9-493e-8ce1-c35367982611` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030233_36f4443d-82c9-493e-8ce1-c35367982611.png) |
-| 05 | Chi smug; Nia setting her mug down, starting to point | `66f705d9-99cd-4b53-88bb-6e16a53acb1e` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030234_66f705d9-99cd-4b53-88bb-6e16a53acb1e.png) |
-| 06 | Both smiling; both phones face-down in front of their owners | `8cb057ac-f5f4-4e36-b36c-3b5438951fa6` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030234_8cb057ac-f5f4-4e36-b36c-3b5438951fa6.png) |
+| 01 | **MASTER PLATE.** Chi pouring coffee; Nia, chin on hand, mid-question | `6ba334b6-b6e2-4675-9e99-904c956bcd0e` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030233_6ba334b6-b6e2-4675-9e99-904c956bcd0e.png) |
+| 02 | Chi lowering her mug; Nia, mug in both hands, sympathetic | `dd31ff10-8dab-4d7b-a944-7620330e0a36` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030603_dd31ff10-8dab-4d7b-a944-7620330e0a36.png) |
+| 03 | Chi leaning on the island, nodding at Nia's phone; Nia caught glancing at it | `eb19ea9f-9207-4359-b824-b36b9baa7d11` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030603_eb19ea9f-9207-4359-b824-b36b9baa7d11.png) |
+| 04 | Chi leaning in on her forearms, sincere; Nia's hands lowering to her mug | `abec9f0f-ac77-43b4-83b2-40df2f448078` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030604_abec9f0f-ac77-43b4-83b2-40df2f448078.png) |
+| 05 | Chi smug; Nia setting her mug down, starting to point | `f47b0e09-3362-4e56-a15b-1547e04a620d` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030604_f47b0e09-3362-4e56-a15b-1547e04a620d.png) |
+| 06 | Both smiling; both phones face-down in front of their owners | `d9d558ee-8768-4a88-a0c6-293e1398f355` | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_030604_d9d558ee-8768-4a88-a0c6-293e1398f355.png) |
+
+**Consistency lock (5 Oct 2026). Your note: "The counter shape and Chi's body shape change between the stills."** The first six stills were each generated from scratch, so the island and Chi's build drifted from one to the next. **Still 01 is now the master plate.** Stills 02–06 were remade as **edits of Still 01** (it's attached as the image reference), with orders to keep the camera, the island's exact shape and position, every set detail, the light, and both women's faces, bodies and clothes identical, and to change only poses, hands and expressions. The superseded from-scratch stills 02–06 were `551e8a98…`, `55ebdf9a…`, `36f4443d…`, `66f705d9…` and `8cb057ac…`. **The same rule carries into filming:** every clip's `start_image` is its locked still, so every clip opens on the same island and the same bodies. If you'd rather a different still be the master, the other five get re-derived from that one.
 
 **Checklist for each still (drift and hallucination):**
 1. ChiChi is on the **LEFT**, standing behind the island. Nia is on the **RIGHT**, on the stool, with the windows behind her.
