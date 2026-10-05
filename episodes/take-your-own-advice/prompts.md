@@ -9,7 +9,7 @@ Read `script.md` first: it has the story, the floor plan, the locked start-frame
 | 01 | The Morning After | `b8403218-ae10-4a40-9e69-c6edbbad68e0` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_032038_b8403218-ae10-4a40-9e69-c6edbbad68e0.mp4)) | 12 s | 720p | 84 | **Approved** (one glitch: a mug was already in front of Nia and the slid mug looked like it passed through it) |
 | 02 | Penciled In | `5839271e-0198-4488-b7bc-f647e98c5338` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_032900_5839271e-0198-4488-b7bc-f647e98c5338.mp4)) | 12 s | 720p | 84 | **Approved** (one flaw: Chi said "calendar invoit" instead of "invite") |
 | 03 | Rented | `303380c4-6691-487f-ac66-ddc85c2bb871` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_033519_303380c4-6691-487f-ac66-ddc85c2bb871.mp4)) | 11 s | 720p | 77 | **Approved** |
-| 04 | Asking For More | `43abe300-621c-4c9e-9a30-cef3b670fea8` (v2, no start image; v1 `9828303b` and its identical resubmit `d1a812e6` both failed) | 10 s | 720p | 70 | Rendering |
+| 04 | Asking For More | `38da786f-ca7a-43d7-92ee-daf4360f2a01` (v3, reworded; three earlier attempts `9828303b`, `d1a812e6`, `43abe300` failed within about a minute and were refunded) | 10 s | 720p | 70 | Rendering |
 | 05 | Take Your Own Advice | — | 16 s | 720p | ~112 | — |
 | 06 | Both Phones | — | 10 s | 720p | ~70 | — |
 
@@ -39,6 +39,7 @@ Read `script.md` first: it has the story, the floor plan, the locked start-frame
 | Risk | Guard in the prompt |
 |---|---|
 | A mug passing through another mug (user, Clip 01) | "EXACTLY TWO white mugs in the whole clip… NO THIRD MUG… never duplicates, never merges with or passes through" anything. |
+| Fast failures on the content check (Clip 04, three attempts refunded) | Avoid words a filter could misread: no "busted" (alongside the body descriptions), no ages written as numerals. Nia's build now says "a fuller chest". |
 | Mispronounced words (user, Clip 02: "invoit" for "invite") | From Clip 03 on, every prompt has a PRONUNCIATION block: "every word is the ordinary, standard English word, said clearly and correctly, never blended, invented or mispronounced", plus phonetic spellings for the clip's names and any risky words. |
 | The counter changing shape (user, stills review) | Start image = the locked still; "the island is a rigid fixed object: its marble top never changes shape, length or overhang in any shot." |
 | Chi's body drifting, short arms (user, stills review) | "the same body shape and proportions as in the start image in every shot, never slimmed; arms full length and anatomically correct." |
@@ -344,3 +345,8 @@ CAMERA: the same camera as the reference video: steady, eye level, always from t
 PHYSICS: natural posture and weight, five-finger hands, ChiChi's arms full length as she straightens up, each mug lifted naturally as a single solid object, the phones stay face-down and still, steam rises gently from the mugs, no physical contact between them.
 AUDIO: only these three lines, plus the same soft morning kitchen room tone as the reference video and the light clink of a mug lifted from marble. No music swell, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
+
+### Clip 04 v3: reworded, start image back (job `38da786f`)
+
+**Why:** v2 (`43abe300`) also failed within about a minute, even without the start image, so the still wasn't the cause. All three failures were refunded (balance 617.89; three 70-credit refunds). A failure that fast, with the same text every time, points to the content check on the prompt. Compared with Clip 03's prompt, the new words were "busted" (next to "fuller bust" in Nia's build) and "the number 25". v3 changes only those: "busted" becomes "caught out", Nia's build says "a fuller chest", and "the number 25, said clearly" is dropped. Still 04 is back as the start image.
+**Request:** as v1: `medias: [{start_image: abec9f0f-…} (Still 04), {video_references: 303380c4-…} (Clip 03)]`.
