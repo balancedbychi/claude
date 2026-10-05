@@ -9,7 +9,7 @@ Read `script.md` first: it has the story, the floor plan, the locked start-frame
 | 01 | The Morning After | `b8403218-ae10-4a40-9e69-c6edbbad68e0` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_032038_b8403218-ae10-4a40-9e69-c6edbbad68e0.mp4)) | 12 s | 720p | 84 | **Approved** (one glitch: a mug was already in front of Nia and the slid mug looked like it passed through it) |
 | 02 | Penciled In | `5839271e-0198-4488-b7bc-f647e98c5338` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_032900_5839271e-0198-4488-b7bc-f647e98c5338.mp4)) | 12 s | 720p | 84 | **Approved** (one flaw: Chi said "calendar invoit" instead of "invite") |
 | 03 | Rented | `303380c4-6691-487f-ac66-ddc85c2bb871` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_033519_303380c4-6691-487f-ac66-ddc85c2bb871.mp4)) | 11 s | 720p | 77 | **Approved** |
-| 04 | Asking For More | `d1a812e6-f3ad-403e-80d1-8a0bb2ddd9ad` (resubmit; first try `9828303b` failed with no reason given) | 10 s | 720p | 70 | Rendering |
+| 04 | Asking For More | `43abe300-621c-4c9e-9a30-cef3b670fea8` (v2, no start image; v1 `9828303b` and its identical resubmit `d1a812e6` both failed) | 10 s | 720p | 70 | Rendering |
 | 05 | Take Your Own Advice | — | 16 s | 720p | ~112 | — |
 | 06 | Both Phones | — | 10 s | 720p | ~70 | — |
 
@@ -270,6 +270,59 @@ PROPS ON THE ISLAND: a glass French press of coffee resting on the island, and E
 BLOCKING, IDENTICAL IN EVERY SHOT: CHICHI on frame LEFT, STANDING behind the island on the kitchen side, facing RIGHT toward Nia. NIA on frame RIGHT, SEATED on the right-hand cream boucle stool on the camera side of the island, turned three-quarters to face LEFT toward ChiChi, the bright windows behind her. Nobody walks away from the island, sits, stands up or swaps places. ChiChi is ALWAYS on the left of frame and Nia ALWAYS on the right, in every shot and every cut.
 
 FIRST FRAME: the start image. A medium-wide two-shot from the dining end. ChiChi leans in on her forearms on the marble, sincere and warm, already starting her first line; Nia's hands are lowering to her mug on the island, listening, slightly guarded.
+
+THE CLIP, SHOT BY SHOT:
+1. (0-4.5 s) Waist-up on ChiChi over Nia's left shoulder. Leaning in on her forearms, sincere, in one smooth, unbroken delivery.
+  CHICHI (American), sincere: "He's twenty-five and he's asking for more. Most men his age are asking for less."
+2. (4.5-6.5 s) Waist-up on Nia past ChiChi's right edge. She looks sideways out of the window, deflecting, both hands around her mug on the marble, and answers straight away.
+  NIA (British), deflecting: "He's not exactly Dorian."
+3. (6.5-10 s) Two-shot. ChiChi straightens up and picks up her mug in her right hand, her left hand resting on the marble, one eyebrow up, AS she says it; WHILE she says it, Nia, busted, lifts her mug and hides behind a sip, eyes on ChiChi over the rim.
+  CHICHI (American), one eyebrow up: "Nobody asked you to compare."
+  END on this line: ChiChi upright, mug in her right hand, left hand on the marble, eyebrow still up; Nia with her mug at her lips, eyes on ChiChi over the rim. After that, silence: nobody speaks.
+
+LINE OWNERSHIP, NEVER SWAPPED: "He's twenty-five and he's asking for more. Most men his age are asking for less." = CHICHI. "He's not exactly Dorian." = NIA. "Nobody asked you to compare." = CHICHI. Only these three lines, in this order, each said once.
+
+VOICES, EXACTLY AS IN THE REFERENCE VIDEO, TWO DIFFERENT WOMEN, NEVER MIXED:
+- NIA IS BRITISH: her voice is <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>: warm, low, dry London accent, British vowels, no hard R, deadpan wit; never American. Her name is said "NEE-uh".
+- CHICHI IS AMERICAN: her voice is <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>, a warm, smooth, mid-to-low Black American woman's voice with a GENERAL AMERICAN ACCENT, calm authority and dry humour. ChiChi is AMERICAN: General American accent, NEVER British.
+The two voices never sound alike and never swap.
+
+CAMERA: the same camera as the reference video: steady, eye level, always from the dining (camera) side of the island; it never crosses behind the island. A medium-wide two-shot plus waist-up over-the-shoulder singles. NO ZOOMS, NO PUSH-INS; faces never tighter than waist-up.
+PHYSICS: natural posture and weight, five-finger hands, ChiChi's arms full length as she straightens up, each mug lifted naturally as a single solid object, the phones stay face-down and still, steam rises gently from the mugs, no physical contact between them.
+AUDIO: only these three lines, plus the same soft morning kitchen room tone as the reference video and the light clink of a mug lifted from marble. No music swell, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
+```
+
+### Clip 04 v2: no start image (job `43abe300`)
+
+**Why:** the request with Still 04 (`abec9f0f`) as `start_image` failed twice in a row. Clips 01–03 each worked with their own stills, so Still 04 is the likely cause. v2 attaches only the approved Clip 03 as the video reference. The prompt's START IMAGE paragraph is replaced with one line keeping the island rigid "exactly as in the reference video", and the FIRST FRAME now describes the pose in words. Everything else is unchanged.
+**Request:** `duration: 10`, 9:16, 720p, `medias: [{video_references: 303380c4-6691-487f-ac66-ddc85c2bb871}]`.
+
+```
+10 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
+
+REFERENCE VIDEO: the attached video is the APPROVED previous clip of this same scene. It is THE AUTHORITY for LOOKS, VOICES, PLACE, LIGHT AND CAMERA ONLY: the same woman CHICHI standing on the LEFT, the same woman NIA seated on the RIGHT, the same faces, bodies, hair, clothes, island, set and light, and both voices exactly as they sound in it. NO LINE OF DIALOGUE from the reference video is repeated; none of its words are said again. This clip continues straight on from the reference video's final line. The FIRST line of this clip is ChiChi's "He's twenty-five and he's asking for more."
+
+CONTINUITY: the kitchen island is a rigid fixed object exactly as in the reference video: its marble top never changes shape, length or overhang in any shot.
+
+TIMING, READ THIS FIRST. NO PAUSES. NO DEAD AIR. Every line starts within two tenths of a second of the line before it. There are NO silent beats anywhere in this clip: every gesture and reaction happens WHILE someone is speaking. The clip opens with ChiChi already starting her first line and ends on the last spoken line. Nia's sip happens WHILE ChiChi is speaking, never after. Nobody sits frozen or stares.
+
+SPEECH: both women speak in smooth, fluent, continuous sentences: whole words, no stutters, no broken or clipped words, no restarts, no hesitations.
+
+PRONUNCIATION, EVERY WORD SAID CORRECTLY: every word is the ordinary, standard English word, said clearly and correctly, never blended, invented or mispronounced. Key words: "twenty-five" = TWEN-tee FIVE, the number 25, said clearly. "asking" = AS-king. "more" and "less" clearly stressed. "Dorian" = DOR-ee-un, three syllables, a man's name. "compare" = kum-PAIR. "Nobody" = NOH-bod-ee.
+
+*** HEADCOUNT: EXACTLY TWO PEOPLE: ONE CHICHI, ONE NIA. NEVER TWO OF ANYONE. NOBODY ELSE APPEARS, not in the room, not in the windows, not in reflections. ***
+
+SET: ChiChi's kitchen <<<37c64826-c6b8-4ea5-a4ca-6e7a2ed086ca>>>, exactly as in the reference video: cream shaker cabinets, a brass range hood, open oak shelves, a long white marble island with a bowl of lemons and a vase of white flowers, cream boucle bar stools, floor-to-ceiling windows on the RIGHT side of the frame with a city skyline. Bright, warm morning sun pours in from the windows on the right; clearly daytime, never night. No text, logos, labels or signage anywhere.
+
+CHICHI, EXACTLY AS IN THE REFERENCE VIDEO: face, hair and skin <<<b03240bd-4562-4d2f-8b14-de32c018e346>>>, body <<<46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc>>>: forty, warm brown complexion, cheek beauty mark, freckles; HONEY-BLONDE shoulder-length layered blowout with darker roots, deep side part on the LEFT side of her head, never dark brown; small stud earrings. About 5'5", full-figured, the same body shape and proportions as in the reference video in every shot, never slimmed; arms full length and anatomically correct. HER CLOTHES COME ONLY FROM <<<759bc585-b31a-4dd0-b17a-1423c7db83ff>>>: a form-fitting black ribbed short-sleeved top and black ribbed wide-leg lounge trousers, barefoot, identical in every shot. Nothing is worn from the face or body references. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring; no bracelets, no watch.
+
+NIA, EXACTLY AS IN THE REFERENCE VIDEO: face, hair and skin <<<3497a052-ed61-4fbc-babe-c9f7fc11bf77>>>: thirty, Black British, deep warm brown skin, jet-black waist-length water-wave curls, diamond stud earrings. PETITE, about 5'2", SLIM-THICK: a small snatched waist, a flat toned stomach, slim toned arms and shoulders, full rounded hips and thighs, a fuller bust; a defined hourglass on a slim, fit frame; never heavy, never thick through the waist or arms. She is clearly smaller than ChiChi. HER CLOTHES COME ONLY FROM <<<9a7d7c6c-1ab8-4c4c-ae35-73ed09bb939f>>>: a fitted cream ribbed long-sleeved scoop-neck bodysuit tucked into high-waisted camel wide-leg trousers, a thin gold choker, tan slides, identical in every shot. NEVER a sweatshirt, nothing green. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no bracelets.
+
+PROPS ON THE ISLAND: a glass French press of coffee resting on the island, and EXACTLY TWO white mugs in the whole clip: ChiChi's mug resting on the marble in front of her until she picks it up, and Nia's mug on the marble beside Nia's phone until she lifts it to sip. NO THIRD MUG ever appears. Each mug and phone is one solid object: it never duplicates, never merges with or passes through another object, a hand or the counter. Nia's smartphone in a beige-tan case lies FACE-DOWN on the marble the whole time; nobody touches it. ChiChi's smartphone in a plain cream case lies FACE-DOWN by the French press; nobody touches it.
+
+BLOCKING, IDENTICAL IN EVERY SHOT: CHICHI on frame LEFT, STANDING behind the island on the kitchen side, facing RIGHT toward Nia. NIA on frame RIGHT, SEATED on the right-hand cream boucle stool on the camera side of the island, turned three-quarters to face LEFT toward ChiChi, the bright windows behind her. Nobody walks away from the island, sits, stands up or swaps places. ChiChi is ALWAYS on the left of frame and Nia ALWAYS on the right, in every shot and every cut.
+
+FIRST FRAME: a medium-wide two-shot from the dining end, the same framing as the reference video's two-shot. ChiChi leans in on her forearms on the marble, sincere and warm, already starting her first line; Nia's hands are lowering to her mug on the island, listening, slightly guarded.
 
 THE CLIP, SHOT BY SHOT:
 1. (0-4.5 s) Waist-up on ChiChi over Nia's left shoulder. Leaning in on her forearms, sincere, in one smooth, unbroken delivery.
