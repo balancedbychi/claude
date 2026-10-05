@@ -284,7 +284,7 @@ PHYSICS: natural seated posture, five-finger hands, glasses behave normally, the
 AUDIO: only these seven lines, plus the same soft low piano and faint clink of cutlery as the reference video. No background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIP 05 · "Just As Important" · 21 s · 147 credits · v1 · FILMED (job `1a685bed`)
+## CLIP 05 · "Just As Important" · 21 s · 147 credits · v1 · RENDERED, AWAITING REVIEW (job `1a685bed`)
 
 **First line:** ChiChi's "Which is more important? Work, or your relationships?" **Final line:** ChiChi's "So would I." The **silent server** is in the first 3 seconds only, at the far right edge, at least an arm's length clear of DB (your ruling on the start frame). A folded dessert menu is added at DB's edge of the table for Clip 06.
 
@@ -357,4 +357,4 @@ AUDIO: only these seven lines, plus the soft pour of water at the start, the sam
 | 03 | v1 | `685c3b89-1682-4f4f-8ad0-8b4c987bc193` | 14 s | 98 → refunded | **FAILED** about a minute in; no reason given; refunded (same pattern as Clip 02's first attempt). |
 | 03 | v1 retry | `fc894b33-bdb8-4ed2-96c5-2f9d0eb7cb84` | 14 s | 98 | **APPROVED** (5 Oct 2026). |
 | 04 | v1 | `687a5c19-2aa7-45d1-85c0-ad6885f96e64` | 16 s | 192 | **APPROVED** (5 Oct 2026). 1080p; scale to 720p in the edit. |
-| 05 | v1 | `1a685bed-7301-4d05-b755-4928b3202078` | 21 s | 147 | Filmed 5 Oct 2026 ("begin segment 5"), 720p. Clip 04 attached as reference. Silent server kept at the far right edge. Rendering. |
+| 05 | v1 | `1a685bed-7301-4d05-b755-4928b3202078` | 21 s | 147 | **Rendered** 5 Oct 2026 at 720p ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_013247_1a685bed-7301-4d05-b755-4928b3202078.mp4)). Worked first time. Awaiting your review. |
