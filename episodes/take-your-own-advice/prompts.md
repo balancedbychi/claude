@@ -12,7 +12,7 @@ Read `script.md` first: it has the story, the floor plan, the locked start-frame
 | 04 | Asking For More | `38da786f-ca7a-43d7-92ee-daf4360f2a01` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_041820_38da786f-ca7a-43d7-92ee-daf4360f2a01.mp4)) (v3; three earlier attempts failed and were refunded) | 10 s | 720p | 70 | **Rejected**: a phantom coffee pot flies across the screen. Nothing in the script moves it. |
 | 04 v4 | Asking For More | `2c7c87de-97ab-4a5c-95f7-50e41ba15c56` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_042609_2c7c87de-97ab-4a5c-95f7-50e41ba15c56.mp4)) | 10 s | 720p | 70 | **Approved** |
 | 05 | Take Your Own Advice | `f57c5a80-9ee7-4af7-9cf0-66f8333fd4dc` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_044040_f57c5a80-9ee7-4af7-9cf0-66f8333fd4dc.mp4)) | 13 s | 720p | 91 | **Approved** |
-| 06 | Both Phones | `68a8a8a6-a26c-4198-a29d-851380d1e329` | 9 s | 720p | 63 | Rendering |
+| 06 | Both Phones | `68a8a8a6-a26c-4198-a29d-851380d1e329` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_044853_68a8a8a6-a26c-4198-a29d-851380d1e329.mp4)) | 9 s | 720p | 63 | Ready for review |
 
 ## Settings (every clip)
 
