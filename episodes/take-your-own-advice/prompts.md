@@ -2,7 +2,14 @@
 
 Read `script.md` first: it has the story, the floor plan, the locked start-frame stills and the beat-by-beat. This file holds what's sent to Seedance 2.5, one clip at a time. Each clip is filmed only after the one before it is approved (rule 9). From Clip 02 on, each prompt attaches the approved clip before it as a video reference (rule 7).
 
-## CUT LIST
+## FINAL CUT LIST (5 Oct 2026): ALL SIX CLIPS APPROVED
+
+**Export:** run `bash ~/Downloads/download-ep12.sh` on your Mac, with `EP12.0 opening.mp4` in the same folder. It saves every clip, the six locked stills and both look images to `~/Desktop/Exclusive the Series/episode 12 take your own advice/`, and builds `EP12 take your own advice (full episode).mp4` at 720p (opening card + clips 01–06, in order).
+
+**Running time:** about 67 s of clips plus the 4 s opening card. **Credits:** 469 for the six approved clips, plus 70 for the rejected Clip 04 v3. The four failed renders were all refunded. Stills cost about 30 extra.
+
+**In the edit, use 04 v4** (`2c7c87de`), not the rejected v3.
+
 
 | # | Scene | Job ID | Length | Resolution | Credits | Status |
 |---|---|---|---|---|---|---|
@@ -12,7 +19,7 @@ Read `script.md` first: it has the story, the floor plan, the locked start-frame
 | 04 | Asking For More | `38da786f-ca7a-43d7-92ee-daf4360f2a01` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_041820_38da786f-ca7a-43d7-92ee-daf4360f2a01.mp4)) (v3; three earlier attempts failed and were refunded) | 10 s | 720p | 70 | **Rejected**: a phantom coffee pot flies across the screen. Nothing in the script moves it. |
 | 04 v4 | Asking For More | `2c7c87de-97ab-4a5c-95f7-50e41ba15c56` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_042609_2c7c87de-97ab-4a5c-95f7-50e41ba15c56.mp4)) | 10 s | 720p | 70 | **Approved** |
 | 05 | Take Your Own Advice | `f57c5a80-9ee7-4af7-9cf0-66f8333fd4dc` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_044040_f57c5a80-9ee7-4af7-9cf0-66f8333fd4dc.mp4)) | 13 s | 720p | 91 | **Approved** |
-| 06 | Both Phones | `68a8a8a6-a26c-4198-a29d-851380d1e329` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_044853_68a8a8a6-a26c-4198-a29d-851380d1e329.mp4)) | 9 s | 720p | 63 | Ready for review |
+| 06 | Both Phones | `68a8a8a6-a26c-4198-a29d-851380d1e329` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_044853_68a8a8a6-a26c-4198-a29d-851380d1e329.mp4)) | 9 s | 720p | 63 | **Approved** |
 
 ## Settings (every clip)
 

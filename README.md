@@ -2,6 +2,7 @@
 ## Exclusive the Series
 
 - `scripts/download-ep11.sh` — downloads the episode 11 ("Just As Important") clips and stills to `~/Desktop/Exclusive the Series/episode 11 just as important/`, then joins the opening card and the six clips into one 720p full-episode file if ffmpeg is installed (`brew install ffmpeg`). Keep `EP11.0 opening.mp4` next to the script.
+- `scripts/download-ep12.sh` — the same for episode 12 ("Take Your Own Advice"): clips, locked stills and look images go to `~/Desktop/Exclusive the Series/episode 12 take your own advice/`, plus a 720p full-episode file. Keep `EP12.0 opening.mp4` next to the script.
 - `opening/index.html` — the episode opening card, in the same style as the end card. Edit the episode number and title, then re-render:
 
 ```bash
