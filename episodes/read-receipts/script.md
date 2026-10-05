@@ -1,17 +1,17 @@
 # EXCLUSIVE with Nia and Chi: Episode 13, "Read Receipts"
 
 **Status:** SCRIPT AND BEAT-BY-BEAT FOR REVIEW (5 Oct 2026). Story, texts and Dorian's return are your picks. Set and looks carry over from Episode 12. **Nothing has been filmed.**
-**Format:** vertical 9:16, 720p, Seedance 2.5. **Five clips, one per beat**, about 61 seconds in total. From Clip 02 on, each clip attaches the approved clip before it as a video reference (rule 7).
+**Format:** vertical 9:16, 720p, Seedance 2.5. **Five clips, one per beat**, about 62 seconds in total. From Clip 02 on, each clip attaches the approved clip before it as a video reference (rule 7).
 **Cast:** Nia · ChiChi. Nobody else is on screen. Tay, DB and Dorian appear only as texts, which the women read aloud.
 **Picks up from:** Episode 12, "Take Your Own Advice", **the same second**. Both phones have just buzzed: Tay texted Nia, DB texted ChiChi. *"Don't you dare." "You first."*
-**Estimated cost:** about **427 credits** if every clip works first time (7 credits a second at 720p).
+**Estimated cost:** about **434 credits** if every clip works first time (7 credits a second at 720p).
 **Working title alternatives:** "Saturday", "Cleared".
 
 ---
 
 ## THE STORY IN 30 SECONDS
 
-Nobody wants to read first. ChiChi gives in: DB writes, *"Saturday is completely cleared for you."* So much for penciled in, and now she has no excuse. Then it's Nia's turn: Tay writes, *"I want you at my business launch party."* Nia starts typing a joke and ChiChi takes the phone off her. The party is Saturday. Each makes the other answer honestly: ChiChi sends "Saturday." Nia sends "Yes." They set the phones down, pleased with themselves. Nia's phone buzzes once more. *"Can I see you Saturday?"* "Who is it?" "…Dorian."
+Nobody wants to read first. ChiChi gives in: DB writes, *"Saturday is completely cleared for you."* So much for penciled in, and now she has no excuse. Then it's Nia's turn: Tay writes, *"I want you next to me at my business launch this Saturday."* Not in the crowd: next to him. Nia starts typing a joke and ChiChi takes the phone off her. Each makes the other answer honestly: ChiChi sends "Saturday." Nia sends "Yes." They set the phones down, pleased with themselves. Nia's phone buzzes once more. *"Can I see you Saturday?"* "Who is it?" "…Dorian."
 
 **What it's about:** both women finally say yes to a man asking for *more*, and the first test arrives within seconds. Theme check: Nia has just chosen what she wants (Tay, Saturday), and the man she always settles for asks for the same day.
 
@@ -23,9 +23,9 @@ Nobody wants to read first. ChiChi gives in: DB writes, *"Saturday is completely
 |---|---|---|
 | Story | Option A, "Read Receipts" | **Your pick** (5 Oct 2026) |
 | DB's text | *"Saturday is completely cleared for you."* (read aloud by ChiChi) | **Your line** (5 Oct 2026) |
-| Tay's text | *"I want you at my business launch party."* (read aloud by Nia) | **Your line** (5 Oct 2026) |
+| Tay's text | *"I want you next to me at my business launch this Saturday."* (read aloud by Nia) | **Your line** (5 Oct 2026, updated) |
 | Dorian's text | *"Can I see you Saturday?"* (read aloud by Nia) | **Your line** (5 Oct 2026) |
-| **Tay's party is on Saturday** | Proposed so that Dorian's text lands on the same day as Tay's party and DB's cleared day. Tay's text doesn't name the day, so Nia says it in Clip 04. | **Needs your OK** |
+| Tay's launch is on Saturday | His text now says so, so Dorian's text lands on the same day as Tay's launch and DB's cleared day. | **Settled by your line** (5 Oct 2026) |
 | Texts are read aloud | Each woman reads her own text in her own voice. Tay, DB and Dorian are never heard, and no screen ever faces the camera, so no text is rendered. | **Needs your OK** |
 | ChiChi takes Nia's phone (Clip 03) and hands it back (Clip 04) | A short reach across the island corner. It's the riskiest physical moment in the episode, because hands and props can drift. If you'd rather avoid it, ChiChi puts her hand flat over Nia's phone instead. | **Needs your OK** |
 | Nia's joke reply | *"Will there be snacks?"* (her deadpan, never sent) | **Needs your OK** |
@@ -157,13 +157,13 @@ The same map as Episode 12, from the `ChiChi-Kitchen-Day` stage map. **If the se
 
 ---
 
-## CLIP 03 · "The Launch" · 13 s · about 91 credits
+## CLIP 03 · "The Launch" · 14 s · about 98 credits
 
 **Job:** Tay's text, Nia's reflex to joke her way out of it, and ChiChi stopping her.
 
 ### Script
-> **NIA** *(reading, deadpan)* "I want you at my business launch party."
-> **CHICHI** *(setting her mug down)* He wants you there. With his people.
+> **NIA** *(reading, deadpan)* "I want you next to me at my business launch this Saturday."
+> **CHICHI** *(setting her mug down)* Next to him. Not in the crowd.
 > **NIA** *(already typing)* I'm sending "Will there be snacks?"
 > **CHICHI** *(reaching across and taking the phone)* Absolutely not.
 
@@ -172,10 +172,10 @@ The same map as Episode 12, from the `ChiChi-Kitchen-Day` stage map. **If the se
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
 | **First frame** | TWO-SHOT (Clip 02's last frame) | Mug in her right hand | Phone in both hands, screen toward her face, already reading |
-| 0–3.5 s | ON NIA | (back to camera) | Reads it out, deadpan, hiding that she's pleased: **"I want you at my business launch party."** |
-| 3.5–6.5 s | ON CHICHI | Sets her mug down on the marble, warm and pointed: **"He wants you there. With his people."** | (back to camera) |
-| 6.5–9.5 s | ON NIA | (back to camera) | Thumbs already typing, not looking up: **"I'm sending 'Will there be snacks?'"** |
-| 9.5–13 s | TWO-SHOT | Reaches across the island corner with her **right** hand and slides the phone out of Nia's hands, screen still away from the camera, **as** she says: **"Absolutely not."** | Hands left open where the phone was, mouth open, outraged |
+| 0–4.5 s | ON NIA | (back to camera) | Reads it out, deadpan, hiding that she's pleased: **"I want you next to me at my business launch this Saturday."** |
+| 4.5–7.5 s | ON CHICHI | Sets her mug down on the marble, warm and pointed: **"Next to him. Not in the crowd."** | (back to camera) |
+| 7.5–10.5 s | ON NIA | (back to camera) | Thumbs already typing, not looking up: **"I'm sending 'Will there be snacks?'"** |
+| 10.5–14 s | TWO-SHOT | Reaches across the island corner with her **right** hand and slides the phone out of Nia's hands, screen still away from the camera, **as** she says: **"Absolutely not."** | Hands left open where the phone was, mouth open, outraged |
 | **Last frame** | TWO-SHOT | Holding Nia's phone in her right hand, screen toward herself | Hands still open above the island |
 
 **Cut on "Absolutely not."** *After that, silence.*
@@ -187,8 +187,8 @@ The same map as Episode 12, from the `ChiChi-Kitchen-Day` stage map. **If the se
 **Job:** the theme choice. Each makes the other answer honestly, and both say yes.
 
 ### Script
-> **CHICHI** *(holding the phone up between them)* When's the party?
-> **NIA** *(folding her arms)* Saturday.
+> **CHICHI** *(holding the phone up between them)* That's not a man who wants to rent.
+> **NIA** *(folding her arms)* Don't.
 > **CHICHI** *(handing it back)* Then say yes, Nia. Like a grown woman.
 > **NIA** *(taking it, typing)* Fine. *(reading as she types)* "Yes."
 > **CHICHI** *(picking up her own phone, typing)* "Saturday." Sent.
@@ -198,8 +198,8 @@ The same map as Episode 12, from the `ChiChi-Kitchen-Day` stage map. **If the se
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
 | **First frame** | TWO-SHOT (Clip 03's last frame) | Holding Nia's phone in her right hand, screen toward herself | Hands lowering from the outraged gesture |
-| 0–2 s | ON CHICHI | Holds the phone up between them, screen toward herself, eyebrows up: **"When's the party?"** | (back to camera) |
-| 2–3.5 s | ON NIA | (back to camera) | Folds her arms, guarded: **"Saturday."** |
+| 0–2.5 s | ON CHICHI | Holds the phone up between them, screen toward herself, eyebrows up: **"That's not a man who wants to rent."** | (back to camera) |
+| 2.5–3.5 s | ON NIA | (back to camera) | Folds her arms, guarded, a warning: **"Don't."** |
 | 3.5–7 s | ON CHICHI | Hands the phone back across the island corner with her right hand **as** she says, gently: **"Then say yes, Nia. Like a grown woman."** *(NEE-uh)* | (back to camera) |
 | 7–10.5 s | ON NIA | (back to camera) | Unfolds her arms, takes the phone in her right hand, types with her thumb, deadpan: **"Fine."** then reading as she types: **"Yes."** |
 | 10.5–15 s | TWO-SHOT | Picks up her own phone from beside the French press, types, then turns it face-down on the marble **as** she says: **"'Saturday.' Sent."** | Sets her phone face-down by her right hand, watching ChiChi |
@@ -254,7 +254,7 @@ The same map as Episode 12, from the `ChiChi-Kitchen-Day` stage map. **If the se
 ## LEDGER AT THE END OF THE EPISODE
 
 - **ChiChi knows:** DB cleared his whole Saturday for her, and she said yes. Nia said yes to Tay. Dorian just asked Nia for Saturday.
-- **Nia knows:** the same. She has said yes to Tay's launch party on Saturday and hasn't answered Dorian.
+- **Nia knows:** the same. She has said yes to standing next to Tay at his launch on Saturday and hasn't answered Dorian.
 - **Tay knows:** Nia said "Yes."
 - **DB knows:** ChiChi said "Saturday."
 - **Dorian:** waiting for an answer.
