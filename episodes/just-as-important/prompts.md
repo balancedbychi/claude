@@ -176,7 +176,7 @@ PHYSICS: natural seated posture, five-finger hands, glasses behave normally, the
 AUDIO: only these five lines and DB's laugh, plus the same soft low piano and faint clink of cutlery as the reference video. No background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIP 03 · "Always Wanted One" · 14 s · 98 credits · v1 · RENDERED, AWAITING REVIEW (job `fc894b33`; first attempt `685c3b89` failed and was refunded)
+## CLIP 03 · "Always Wanted One" · 14 s · 98 credits · v1 · APPROVED (job `fc894b33`; first attempt `685c3b89` failed and was refunded)
 
 **First line:** DB's "If it helps, I'm in a similar boat." **Final line:** DB's "…my life is busy." **ChiChi has no lines**, so her voice element is left off and the prompt says she says nothing.
 
@@ -226,6 +226,64 @@ PHYSICS: natural seated posture, five-finger hands, glasses behave normally, the
 AUDIO: only DB's lines, plus the same soft low piano and faint clink of cutlery as the reference video. No background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
+## CLIP 04 · "Why It Ended" · 16 s · 192 credits · v1 · FILMED IN 1080p (job `687a5c19`)
+
+**First line:** ChiChi's "Can I ask you something?" **Final line:** DB's "It's helped. More than I expected."
+
+**Seedance 2.5 request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 16`, `aspect_ratio: 9:16`, **`resolution: 1080p`** (your call, 5 Oct 2026; Clips 01–03 are 720p), `generate_audio: true`; `medias`: `video_references` = `fc894b33-bdb8-4ed2-96c5-2f9d0eb7cb84` (approved Clip 03). Smooth-speech guard for ChiChi included. Declined the "IN THE DARK" preset.
+
+```
+16 SECONDS. Photoreal cinematic drama, vertical 9:16, NIGHT, an elegant top-floor restaurant high above Atlanta. A first dinner date between two grown adults. Wholesome, fully clothed.
+
+REFERENCE VIDEO: the attached video is the APPROVED previous clip of this same scene. It is THE AUTHORITY for LOOKS, VOICES, PLACE, LIGHT AND CAMERA ONLY: the same woman CHICHI on the LEFT, the same man DB on the RIGHT, the same faces, hair, clothes, table, candle, window and skyline, and DB's voice exactly as it sounds in it. NO LINE OF DIALOGUE from the reference video is repeated; none of its words are said again. This clip continues straight on from the reference video's final line. The FIRST line of this clip is ChiChi's "Can I ask you something?"
+
+TIMING, READ THIS FIRST. NO PAUSES. NO DEAD AIR. Every line starts within two tenths of a second of the line before it. There are NO silent beats anywhere in this clip: every gesture and reaction happens WHILE someone is speaking. DB answers "Yes" IMMEDIATELY after her question; his smile fades and his eyes drop WHILE he answers, never before. The clip opens with ChiChi already starting her first line and ends on the last spoken line. Nobody sits frozen or stares.
+
+CHICHI'S SPEECH: smooth, fluent, continuous sentences: whole words, no stutters, no broken or clipped words, no restarts, no hesitations.
+
+*** HEADCOUNT: EXACTLY TWO MAIN PEOPLE: ONE CHICHI, ONE DB. NEVER TWO OF ANYONE. *** Both are already seated at the table in the first frame; nobody new arrives. At most three or four other diners far in the background in deep soft focus, eating quietly, mouths closed, never speaking, never crossing in front of the two leads.
+
+SET: the restaurant <<<769d1d48-36ca-44ec-bba6-468bea5af8b0>>>, exactly as in the reference video: one small square two-top table with a white tablecloth beside a floor-to-ceiling window over a glittering night skyline, cream upholstered chairs, cream, warm taupe and brass interior. On the table: ONE candle in a short glass holder in the centre, two plates of entrées half finished, a glass of red wine each, a water glass each. Warm low amber candle and practical light, deep warm shadows, clearly night; never blue-dominant. No text, logos, labels or signage anywhere.
+
+CHICHI, EXACTLY AS IN THE REFERENCE VIDEO: face, hair and skin <<<b03240bd-4562-4d2f-8b14-de32c018e346>>>, body <<<46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc>>>: forty, warm brown complexion, cheek beauty mark, freckles; HONEY-BLONDE shoulder-length layered blowout with darker roots, deep side part on the LEFT side of her head, never dark brown; small stud earrings. Full-figured, never slimmed. HER CLOTHES COME ONLY FROM <<<84f791a1-178a-4e36-8791-010e116f7e1e>>>: the form-fitting camel-caramel rib-knit off-the-shoulder long-sleeved dress, identical in every shot. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring; no bracelets, no watch.
+
+DB, EXACTLY AS IN THE REFERENCE VIDEO: face, hair, beard and skin <<<1023755a-b704-4c10-b0f4-bf9887d2558c>>>, build <<<952f3fb0-ed54-4551-a07c-c56934939a44>>>: forty-eight, Dominican, warm golden-tan complexion, thick dark softly wavy hair with silver at the temples, neatly trimmed short beard. TALL; seated, he sits clearly taller than ChiChi. HIS CLOTHES COME ONLY FROM <<<5208aa4f-6509-4b4f-9902-293b117d2092>>>: the tailored charcoal suit, black dress shirt open at the collar, NO tie, slim steel watch on his LEFT wrist, identical in every shot. NO RINGS on any finger of either hand, NO wedding ring; the fourth finger of the left hand is bare skin with no tan line.
+
+PROP: DB's phone, a plain black smartphone with no logo, lies FACE-DOWN on the tablecloth on the window side of his plate for the whole clip. Nobody touches it.
+
+BLOCKING, IDENTICAL IN EVERY SHOT: both SEATED across the small table, facing each other. CHICHI on frame LEFT facing RIGHT; DB on frame RIGHT facing LEFT. Nobody stands, changes seats or leaves. ChiChi is ALWAYS on the left of frame and DB ALWAYS on the right, in every shot and every cut.
+
+FIRST FRAME: a medium-wide two-shot. ChiChi with her hands folded on the tablecloth, leaning in slightly, already starting to speak, gently curious; DB sitting relaxed, a little back in his chair, looking at her openly, one hand by the stem of his water glass.
+
+THE CLIP, SHOT BY SHOT:
+1. (0-2 s) Two-shot. ChiChi asks gently; DB opens one hand and answers straight away.
+  CHICHI (American): "Can I ask you something?"
+  DB (Dominican): "Anything."
+2. (2-3.5 s) Waist-up on ChiChi over DB's left shoulder. Direct but kind.
+  CHICHI (American): "Is that why your marriage ended?"
+3. (3.5-8.5 s) Waist-up on DB over ChiChi's right shoulder. He answers IMMEDIATELY; his smile fades as he speaks, not defensive, just honest, and his eyes drop to the candle WHILE he talks. His fingers turn the stem of his water glass.
+  DB (Dominican), quiet: "Yes. She wanted a lot of time. I couldn't give it."
+4. (8.5-12 s) Waist-up on DB. His eyes come back up to her AS he keeps talking, steady and open.
+  DB (Dominican): "I've been working on that. I'm in therapy."
+5. (12-13 s) Waist-up on ChiChi. Brows up, surprised and a little impressed.
+  CHICHI (American): "Therapy."
+6. (13-16 s) Two-shot. DB gives a modest half smile and a slight shrug as he answers; WHILE he talks, ChiChi gives a small, respectful nod, warm, reassessing him.
+  DB (Dominican): "It's helped. More than I expected."
+  END on this line. After that, silence: nobody speaks.
+
+LINE OWNERSHIP, NEVER SWAPPED: "Can I ask you something?" = CHICHI. "Anything." = DB. "Is that why your marriage ended?" = CHICHI. "Yes. She wanted a lot of time. I couldn't give it." = DB. "I've been working on that. I'm in therapy." = DB. "Therapy." = CHICHI. "It's helped. More than I expected." = DB. Only these lines, in this order, each said once.
+
+VOICES, TWO DIFFERENT PEOPLE, NEVER MIXED:
+- CHICHI IS AMERICAN: <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>, a warm, smooth, mid-to-low Black American woman's voice with a GENERAL AMERICAN ACCENT, calm authority and dry humour. ChiChi is AMERICAN: General American accent, NEVER British. Smooth, whole words; never broken or stuttered.
+- DB'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY, AND MATCH HIS VOICE IN THE REFERENCE VIDEO. A Dominican man of forty-eight speaking fluent English with a NATURAL HISPANIC ACCENT: a warm Caribbean Spanish flair in the vowels, lightly tapped r's, softened word endings, and the occasional Spanish rhythm in a phrase. His voice is LOW, WARM and CALMING: a soft-spoken, slightly husky baritone, mature and composed, with a gentle gravel at the bottom and a quiet intimacy, as if he never needs to raise his voice to be heard. He speaks SLOWLY and DELIBERATELY, with thoughtful pauses inside a sentence (never between lines), a reassuring tone, and a faint, knowing warmth, like a smile you can hear. A lawyer's clear, precise diction under the accent. Never loud, never fast, never slick or salesy, never cartoonish or exaggerated, never a heavy stereotype; the accent is real and natural, never put on.
+DB'S PACING: his slow, deliberate quality is in his calm TONE, never in gaps. No pause inside or between his lines longer than two tenths of a second.
+The two voices never sound alike and never swap.
+
+CAMERA: the same camera as the reference video: steady, eye level, always from the room side of the table. A medium-wide two-shot plus waist-up over-the-shoulder singles. NO ZOOMS, NO PUSH-INS; faces never tighter than waist-up.
+PHYSICS: natural seated posture, five-finger hands, glasses behave normally, the candle flame flickers gently, no physical contact between them.
+AUDIO: only these seven lines, plus the same soft low piano and faint clink of cutlery as the reference video. No background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
+```
+
 ### Render log
 
 | Clip | Version | Job ID | Duration | Credits | Verdict |
@@ -234,4 +292,5 @@ AUDIO: only DB's lines, plus the same soft low piano and faint clink of cutlery 
 | 02 | v1 | `c7f1f25f-6716-4df5-8677-755514e6580e` | 14 s | 98 → refunded | **FAILED** about a minute after submission; no reason given by Higgsfield; 98 credits refunded. |
 | 02 | v1 retry | `36ee51ca-f51e-4d85-9682-b56eb90cc574` | 14 s | 98 | **APPROVED** (5 Oct 2026). Note: "Chi's speech was a little broken, but nothing too noticeable." → smooth-speech guard added for her speaking clips (04, 05). |
 | 03 | v1 | `685c3b89-1682-4f4f-8ad0-8b4c987bc193` | 14 s | 98 → refunded | **FAILED** about a minute in; no reason given; refunded (same pattern as Clip 02's first attempt). |
-| 03 | v1 retry | `fc894b33-bdb8-4ed2-96c5-2f9d0eb7cb84` | 14 s | 98 | **Rendered** 5 Oct 2026 ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_005851_fc894b33-bdb8-4ed2-96c5-2f9d0eb7cb84.mp4)). Awaiting your review. |
+| 03 | v1 retry | `fc894b33-bdb8-4ed2-96c5-2f9d0eb7cb84` | 14 s | 98 | **APPROVED** (5 Oct 2026). |
+| 04 | v1 | `687a5c19-2aa7-45d1-85c0-ad6885f96e64` | 16 s | 192 | Filmed 5 Oct 2026 ("begin segment 4… in 1080p"). **1080p** (12 credits/s). Clip 03 attached as reference. Rendering. |
