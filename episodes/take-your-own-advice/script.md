@@ -274,11 +274,13 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 |---|---|---|---|
 | **First frame** | TWO-SHOT (locked Still 04; Clip 03 ended with her arms folded, which unfold into the lean) | Leaning in on her forearms on the marble, already speaking | Hands lowering to her mug |
 | 0–4.5 s | ON CHICHI | Leaning in on her forearms, sincere: **"He's twenty-five and he's asking for more. Most men his age are asking for less."** | (back to camera) |
-| 4.5–6.5 s | ON NIA | (back to camera) | Looks sideways out of the window, deflecting: **"He's not exactly Dorian."** |
-| 6.5–10 s | TWO-SHOT | Straightens up and picks up her mug, one eyebrow up, **as** she says: **"Nobody asked you to compare."** (this sets up Still 05: upright, mug in her right hand) | Busted. She hides behind a sip of coffee **while** ChiChi says it |
+| 4.5–6.5 s | ON NIA | Off camera: straightens up and picks up **her own** mug | Looks sideways out of the window, deflecting: **"He's not exactly Dorian."** |
+| 6.5–10 s | TWO-SHOT | Already upright with her mug in her right hand, one eyebrow up: **"Nobody asked you to compare."** (this sets up Still 05) | Busted. She hides behind a sip of coffee **while** ChiChi says it |
 | **Last frame** | TWO-SHOT | Upright, mug in her right hand, left hand on the marble, eyebrow still up | Mug at her lips, eyes on ChiChi over the rim |
 
 **Pronunciation:** twenty-five = TWEN-tee FIVE, Dorian = DOR-ee-un, compare = kum-PAIR.
+
+**Props (after the v3 phantom coffee pot):** the French press never moves. Only the two mugs move, one pickup at a time.
 
 **Cut on "…compare."** *After that, silence.*
 
