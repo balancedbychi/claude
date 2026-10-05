@@ -197,7 +197,7 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 
 ---
 
-## CLIP 02 · "Penciled In" · 14 s · about 98 credits
+## CLIP 02 · "Penciled In" · 12 s · 84 credits (tightened from 14 s: no dead air)
 
 **Job:** ChiChi's honest position, in one clear line.
 
@@ -212,13 +212,15 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
-| **First frame** | TWO-SHOT | Lowering her mug | Both hands around her mug, already speaking |
+| **First frame** | TWO-SHOT (locked Still 02, matching Clip 01's last frame) | Lowering her mug | Both hands around her mug, already speaking |
 | 0–2 s | ON NIA | (back to camera) | Gentle, trying: **"At least he was honest."** |
 | 2–4 s | ON CHICHI | A small nod: **"He was. I asked him straight out."** | (back to camera) |
 | 4–5.5 s | ON NIA | (back to camera) | Head tilted: **"So what's the problem?"** |
-| 5.5–12 s | ON CHICHI | Sets her mug down on the marble **while** she speaks, calm and certain: **"I don't want to be penciled in, Nia. I've waited too long to be a calendar invite."** | (back to camera) |
-| 12–14 s | TWO-SHOT | Wiping a drip off the island with her thumb | A sympathetic wince, a nod: **"Fair."** |
-| **Last frame** | TWO-SHOT | Leaning on the island | Mug raised |
+| 5.5–10.5 s | ON CHICHI | Sets her mug down on the marble **while** she speaks, calm and certain: **"I don't want to be penciled in, Nia. I've waited too long to be a calendar invite."** | (back to camera) |
+| 10.5–12 s | TWO-SHOT | Rests both palms flat on the marble, leaning slightly (sets up Clip 03) | A sympathetic wince and a nod **as** she sets her mug down by her phone: **"Fair."** |
+| **Last frame** | TWO-SHOT | Palms on the marble, leaning slightly | Mug on the island, right hand resting near her face-down phone |
+
+**Mug continuity (your Clip 01 note):** exactly two mugs exist, Chi's and Nia's. No third mug appears, and no mug passes through another object.
 
 **Cut on "Fair."** *After that, silence.*
 
