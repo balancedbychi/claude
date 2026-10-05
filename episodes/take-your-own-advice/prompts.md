@@ -9,7 +9,7 @@ Read `script.md` first: it has the story, the floor plan, the locked start-frame
 | 01 | The Morning After | `b8403218-ae10-4a40-9e69-c6edbbad68e0` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_032038_b8403218-ae10-4a40-9e69-c6edbbad68e0.mp4)) | 12 s | 720p | 84 | **Approved** (one glitch: a mug was already in front of Nia and the slid mug looked like it passed through it) |
 | 02 | Penciled In | `5839271e-0198-4488-b7bc-f647e98c5338` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_032900_5839271e-0198-4488-b7bc-f647e98c5338.mp4)) | 12 s | 720p | 84 | **Approved** (one flaw: Chi said "calendar invoit" instead of "invite") |
 | 03 | Rented | `303380c4-6691-487f-ac66-ddc85c2bb871` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_033519_303380c4-6691-487f-ac66-ddc85c2bb871.mp4)) | 11 s | 720p | 77 | **Approved** |
-| 04 | Asking For More | `9828303b-f87e-4712-bfce-46c0b9fab5b4` | 10 s | 720p | 70 | Rendering |
+| 04 | Asking For More | `d1a812e6-f3ad-403e-80d1-8a0bb2ddd9ad` (resubmit; first try `9828303b` failed with no reason given) | 10 s | 720p | 70 | Rendering |
 | 05 | Take Your Own Advice | — | 16 s | 720p | ~112 | — |
 | 06 | Both Phones | — | 10 s | 720p | ~70 | — |
 
@@ -234,7 +234,7 @@ AUDIO: only these six lines, plus the same soft morning kitchen room tone as the
 
 ---
 
-## CLIP 04 · "Asking For More" · 10 s · 70 credits · v1 (job `9828303b`)
+## CLIP 04 · "Asking For More" · 10 s · 70 credits · v1 (job `d1a812e6`; first try `9828303b` failed with no reason given and was resubmitted unchanged)
 
 **First line:** ChiChi's "He's twenty-five and he's asking for more…" **Final line:** ChiChi's "Nobody asked you to compare."
 **Beat check:**
