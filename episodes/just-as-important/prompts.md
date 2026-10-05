@@ -125,7 +125,7 @@ AUDIO: only these six lines, plus a soft low piano in the room and the faint cli
 
 **First line:** ChiChi's "Honestly? I've been single for a while." **Final line:** ChiChi's "I've done the math."
 
-**Seedance 2.5 request:** `model: seedance_2_5`, **`mode: omni_reference`** (required whenever reference media is attached; a plain request is rejected with a 422), `duration: 14`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`; `medias`: `video_references` = `0afc3a1a-aa7f-412f-bbb9-beb56980e64d` (approved Clip 01). No start image. Declined the "IN THE DARK" preset.
+**Seedance 2.5 request:** `model: seedance_2_5`, **`mode: omni_reference`** (required whenever reference media is attached; a plain request is rejected with a 422). **Known flake:** the first submission of a clip with a reference video has twice failed about a minute in with no reason and a full refund; the identical resubmission went through both times, `duration: 14`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`; `medias`: `video_references` = `0afc3a1a-aa7f-412f-bbb9-beb56980e64d` (approved Clip 01). No start image. Declined the "IN THE DARK" preset.
 
 > Note: the server's echo of the request listed Clip 01 under `reference_images`, not `video_references`. Check that the voices carried over from Clip 01.
 
@@ -176,7 +176,7 @@ PHYSICS: natural seated posture, five-finger hands, glasses behave normally, the
 AUDIO: only these five lines and DB's laugh, plus the same soft low piano and faint clink of cutlery as the reference video. No background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIP 03 · "Always Wanted One" · 14 s · 98 credits · v1 · FILMED (job `685c3b89`)
+## CLIP 03 · "Always Wanted One" · 14 s · 98 credits · v1 · RETRY RENDERING (job `fc894b33`; first attempt `685c3b89` failed and was refunded)
 
 **First line:** DB's "If it helps, I'm in a similar boat." **Final line:** DB's "…my life is busy." **ChiChi has no lines**, so her voice element is left off and the prompt says she says nothing.
 
@@ -233,4 +233,5 @@ AUDIO: only DB's lines, plus the same soft low piano and faint clink of cutlery 
 | 01 | v1 | `0afc3a1a-aa7f-412f-bbb9-beb56980e64d` | 15 s | 105 | **APPROVED** ("looks good", 5 Oct 2026). No start image. |
 | 02 | v1 | `c7f1f25f-6716-4df5-8677-755514e6580e` | 14 s | 98 → refunded | **FAILED** about a minute after submission; no reason given by Higgsfield; 98 credits refunded. |
 | 02 | v1 retry | `36ee51ca-f51e-4d85-9682-b56eb90cc574` | 14 s | 98 | **APPROVED** (5 Oct 2026). Note: "Chi's speech was a little broken, but nothing too noticeable." → smooth-speech guard added for her speaking clips (04, 05). |
-| 03 | v1 | `685c3b89-1682-4f4f-8ad0-8b4c987bc193` | 14 s | 98 | Filmed 5 Oct 2026 ("begin segment 3"). Clip 02 attached as reference. Rendering. |
+| 03 | v1 | `685c3b89-1682-4f4f-8ad0-8b4c987bc193` | 14 s | 98 → refunded | **FAILED** about a minute in; no reason given; refunded (same pattern as Clip 02's first attempt). |
+| 03 | v1 retry | `fc894b33-bdb8-4ed2-96c5-2f9d0eb7cb84` | 14 s | 98 | Same request resubmitted unchanged (5 Oct 2026). Rendering. |
