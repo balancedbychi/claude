@@ -8,7 +8,7 @@ Read `script.md` first: it has the story, the floor plan and the beat-by-beat fo
 |---|---|
 | Model | Seedance 2.5 |
 | Aspect | 9:16 |
-| Resolution | 720p |
+| Resolution | **720p** for every clip (user, 5 Oct 2026: "let's do 720p"). Clip 04 alone was filmed in 1080p before this ruling; it is scaled down to 720p in the edit so the episode matches. |
 | Audio | generated (on) |
 | Cost | 7 credits a second (checked 5 Oct 2026: 20 s = 140 credits) |
 
