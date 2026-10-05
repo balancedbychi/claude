@@ -317,7 +317,7 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 
 ---
 
-## CLIP 06 · "Both Phones" · 10 s · about 70 credits
+## CLIP 06 · "Both Phones" · 9 s · 63 credits
 
 **Job:** the button. Their men reach out at the same moment, and both women are tempted.
 
@@ -336,13 +336,17 @@ ChiChi stays on the left of frame and Nia on the right in every shot.
 
 | Time | Shot | ChiChi | Nia |
 |---|---|---|---|
-| **First frame** | TWO-SHOT | Smiling at Nia | Rueful smile; both phones lie face-down on the island |
-| 0–2 s | TWO-SHOT | **Both phones buzz at once** (two short buzzes, small visible vibrations). She glances down | She glances down at the same moment |
-| 2–4 s | TWO-SHOT | Turns her phone over, screen toward herself | Turns her phone over, screen toward herself, **as** she reads: **"It's Tay."** |
-| 4–5.5 s | ON CHICHI | Reading: **"DB."** | (back to camera) |
-| 5.5–8 s | TWO-SHOT | Looks up at Nia | Looks up at ChiChi **as** she says, warning: **"Don't you dare."** |
-| 8–10 s | TWO-SHOT | Already smiling, thumb moving to her screen: **"You first."** | A guilty half smile as her thumb moves to her own screen |
-| **Last frame** | TWO-SHOT | Thumb on her phone, smiling | Thumb on her phone, smiling |
+| **First frame** | TWO-SHOT (locked Still 06, matching Clip 05's last frame) | Smiling at Nia, mug and phone on the marble | Rueful smile, mug and phone on the marble |
+| 0–1.5 s | TWO-SHOT | **Both phones buzz at once** (one short buzz each, a small visible vibration). She glances down | She glances down at the same moment |
+| 1.5–3.5 s | TWO-SHOT | Still looking down at hers | Picks up **her own** phone and tilts the screen toward herself (the back of the case faces the camera) **as** she reads: **"It's Tay."** |
+| 3.5–5 s | ON CHICHI | Picks up **her own** phone, screen toward herself: **"DB."** | (back to camera) |
+| 5–7 s | TWO-SHOT | Looks up at Nia | Looks up at ChiChi **as** she says, warning: **"Don't you dare."** |
+| 7–9 s | TWO-SHOT | Already smiling, thumb moving to her screen: **"You first."** | A guilty half smile as her thumb moves to her own screen |
+| **Last frame** | TWO-SHOT | Phone in hand, thumb on it, smiling | Phone in hand, thumb on it, smiling |
+
+**Changes from the first draft (beat check):** 9 s instead of 10. The phones are picked up one at a time (Nia first, then Chi) rather than both at once, to avoid the Clip 04 "phantom object" problem. Mugs and the French press stay put.
+
+**Pronunciation:** Tay = TAY, DB = DEE-BEE, dare = DAIR.
 
 **Cut on "You first."** *After that, silence.* No screen is ever visible to the camera.
 

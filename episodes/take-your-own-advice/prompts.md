@@ -11,8 +11,8 @@ Read `script.md` first: it has the story, the floor plan, the locked start-frame
 | 03 | Rented | `303380c4-6691-487f-ac66-ddc85c2bb871` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_033519_303380c4-6691-487f-ac66-ddc85c2bb871.mp4)) | 11 s | 720p | 77 | **Approved** |
 | 04 | Asking For More | `38da786f-ca7a-43d7-92ee-daf4360f2a01` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_041820_38da786f-ca7a-43d7-92ee-daf4360f2a01.mp4)) (v3; three earlier attempts failed and were refunded) | 10 s | 720p | 70 | **Rejected**: a phantom coffee pot flies across the screen. Nothing in the script moves it. |
 | 04 v4 | Asking For More | `2c7c87de-97ab-4a5c-95f7-50e41ba15c56` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_042609_2c7c87de-97ab-4a5c-95f7-50e41ba15c56.mp4)) | 10 s | 720p | 70 | **Approved** |
-| 05 | Take Your Own Advice | `f57c5a80-9ee7-4af7-9cf0-66f8333fd4dc` | 13 s | 720p | 91 | Rendering |
-| 06 | Both Phones | — | 10 s | 720p | ~70 | — |
+| 05 | Take Your Own Advice | `f57c5a80-9ee7-4af7-9cf0-66f8333fd4dc` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_044040_f57c5a80-9ee7-4af7-9cf0-66f8333fd4dc.mp4)) | 13 s | 720p | 91 | **Approved** |
+| 06 | Both Phones | `68a8a8a6-a26c-4198-a29d-851380d1e329` | 9 s | 720p | 63 | Rendering |
 
 ## Settings (every clip)
 
@@ -475,4 +475,70 @@ The two voices never sound alike and never swap.
 CAMERA: the same camera as the reference video: steady, eye level, always from the dining (camera) side of the island; it never crosses behind the island. A medium-wide two-shot plus waist-up over-the-shoulder singles. NO ZOOMS, NO PUSH-INS; faces never tighter than waist-up.
 PHYSICS: real-world physics only; objects move ONLY when a hand is holding them. Natural posture and weight, five-finger hands, ChiChi's arms full length, each mug set down naturally as a single solid object, the French press and both phones stay perfectly still, steam rises gently from the mugs, no physical contact between them.
 AUDIO: only these five lines and ChiChi's short natural laugh, plus the same soft morning kitchen room tone as the reference video and the light clink of mugs set on marble. No music swell, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
+```
+
+---
+
+## CLIP 06 · "Both Phones" · 9 s · 63 credits · v1 (job `68a8a8a6`)
+
+**First line:** Nia's "It's Tay." (after the phones buzz). **Final line:** ChiChi's "You first."
+**Beat check:**
+- **Into Clip 06:** Clip 05 ends with both women smiling, both mugs down and both phones face-down. Still 06 opens on the same.
+- **Props:** the phones are picked up one at a time, each by its owner (Nia, then Chi). The mugs and the French press are locked. The phones vibrate in place on the buzz without sliding.
+- **Screens:** the screens face the women. The camera only sees the backs of the cases, so no text is ever shown.
+
+**Timing:** 9 s instead of 10.
+**Request:** `duration: 9`, 9:16, 720p, `medias: [{start_image: d9d558ee-8768-4a88-a0c6-293e1398f355} (locked Still 06), {video_references: f57c5a80-9ee7-4af7-9cf0-66f8333fd4dc} (approved Clip 05)]`.
+
+```
+9 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
+
+REFERENCE VIDEO: the attached video is the APPROVED previous clip of this same scene. It is THE AUTHORITY for LOOKS, VOICES, PLACE, LIGHT AND CAMERA ONLY: the same woman CHICHI standing on the LEFT, the same woman NIA seated on the RIGHT, the same faces, bodies, hair, clothes, island, set and light, and both voices exactly as they sound in it. NO LINE OF DIALOGUE from the reference video is repeated; none of its words are said again. This clip continues straight on from the reference video's final line. This clip opens with BOTH PHONES BUZZING; the FIRST line of this clip is Nia's "It's Tay."
+
+START IMAGE: the clip opens EXACTLY on the attached start image: same two women, same faces, same bodies, same clothes, same kitchen island with the same shape and edge, same set, same light and same framing. It moves on from that frame. The island is a rigid fixed object: its marble top never changes shape, length or overhang in any shot.
+
+TIMING, READ THIS FIRST. NO PAUSES. NO DEAD AIR. Every line starts within two tenths of a second of the line before it. There are NO silent beats anywhere in this clip: every gesture and reaction happens WHILE someone is speaking. The phones buzz in the very first second and Nia's first line starts by 1.5 seconds; the clip ends on the last spoken line. Nobody sits frozen or stares.
+
+SPEECH: both women speak in smooth, fluent, continuous sentences: whole words, no stutters, no broken or clipped words, no restarts, no hesitations.
+
+PRONUNCIATION, EVERY WORD SAID CORRECTLY: every word is the ordinary, standard English word, said clearly and correctly, never blended, invented or mispronounced. Key words: "Tay" = TAY, one syllable, rhymes with "day". "DB" = DEE-BEE, two separate letters, a man's initials. "dare" = DAIR. "first" = FURST.
+
+*** HEADCOUNT: EXACTLY TWO PEOPLE: ONE CHICHI, ONE NIA. NEVER TWO OF ANYONE. NOBODY ELSE APPEARS, not in the room, not in the windows, not in reflections. ***
+
+SET: ChiChi's kitchen <<<37c64826-c6b8-4ea5-a4ca-6e7a2ed086ca>>>, exactly as in the start image and the reference video: cream shaker cabinets, a brass range hood, open oak shelves, a long white marble island with a bowl of lemons and a vase of white flowers, cream boucle bar stools, floor-to-ceiling windows on the RIGHT side of the frame with a city skyline. Bright, warm morning sun pours in from the windows on the right; clearly daytime, never night. No text, logos, labels or signage anywhere.
+
+CHICHI, EXACTLY AS IN THE START IMAGE AND THE REFERENCE VIDEO: face, hair and skin <<<b03240bd-4562-4d2f-8b14-de32c018e346>>>, body <<<46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc>>>: forty, warm brown complexion, cheek beauty mark, freckles; HONEY-BLONDE shoulder-length layered blowout with darker roots, deep side part on the LEFT side of her head, never dark brown; small stud earrings. About 5'5", full-figured, the same body shape and proportions as in the start image in every shot, never slimmed; arms full length and anatomically correct. HER CLOTHES COME ONLY FROM <<<759bc585-b31a-4dd0-b17a-1423c7db83ff>>>: a form-fitting black ribbed short-sleeved top and black ribbed wide-leg lounge trousers, barefoot, identical in every shot. Nothing is worn from the face or body references. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring; no bracelets, no watch.
+
+NIA, EXACTLY AS IN THE START IMAGE AND THE REFERENCE VIDEO: face, hair and skin <<<3497a052-ed61-4fbc-babe-c9f7fc11bf77>>>: thirty, Black British, deep warm brown skin, jet-black waist-length water-wave curls, diamond stud earrings. PETITE, about 5'2", SLIM-THICK: a small snatched waist, a flat toned stomach, slim toned arms and shoulders, full rounded hips and thighs, a fuller chest; a defined hourglass on a slim, fit frame; never heavy, never thick through the waist or arms. She is clearly smaller than ChiChi. HER CLOTHES COME ONLY FROM <<<9a7d7c6c-1ab8-4c4c-ae35-73ed09bb939f>>>: a fitted cream ribbed long-sleeved scoop-neck bodysuit tucked into high-waisted camel wide-leg trousers, a thin gold choker, tan slides, identical in every shot. NEVER a sweatshirt, nothing green. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no bracelets.
+
+PROPS ON THE ISLAND: the glass French press and BOTH white mugs stand on the island EXACTLY where they are in the start image and are FIXED, STATIONARY objects for the whole clip: NOBODY touches them, they NEVER move, lift, slide, tip, float or fly. The ONLY objects that move are the two phones, ONE AT A TIME, each picked up only by its owner: first Nia picks up HER OWN smartphone in a beige-tan case; then ChiChi picks up HER OWN smartphone in a plain cream case. Before that, both phones lie FACE-DOWN on the marble exactly where they are in the start image. NO extra phone, mug, pot or object ever appears or moves through the frame. Each object is one solid thing: it never duplicates, never merges with or passes through another object, a hand or the counter. Nothing is thrown, tossed or falls.
+
+PHONE SCREENS ARE NEVER SEEN: each woman holds her phone with the screen facing HERSELF; the camera only ever sees the BACK of each phone case. No screen, no glow, no text, no names, no messages, no notifications are ever visible to the camera.
+
+BLOCKING, IDENTICAL IN EVERY SHOT: CHICHI on frame LEFT, STANDING behind the island on the kitchen side, facing RIGHT toward Nia. NIA on frame RIGHT, SEATED on the right-hand cream boucle stool on the camera side of the island, turned three-quarters to face LEFT toward ChiChi, the bright windows behind her. Nobody walks away from the island, sits, stands up or swaps places. ChiChi is ALWAYS on the left of frame and Nia ALWAYS on the right, in every shot and every cut.
+
+FIRST FRAME: the start image. A medium-wide two-shot from the dining end. ChiChi smiles warmly at Nia; Nia has a small, rueful smile; both mugs and both face-down phones rest on the marble exactly as the start image shows, the French press exactly where it stands.
+
+THE CLIP, SHOT BY SHOT:
+1. (0-1.5 s) Two-shot. BOTH phones buzz at the same moment: one short soft buzz each and a small visible vibration on the marble. Both women glance down at their own phones at once. No words.
+2. (1.5-3.5 s) Two-shot. Nia picks up HER OWN beige-tan phone and tilts the screen toward herself, the back of the case to the camera, and reads it AS she says:
+  NIA (British), reading: "It's Tay."
+3. (3.5-5 s) Waist-up on ChiChi over Nia's left shoulder. ChiChi picks up HER OWN cream-case phone, screen toward herself, the back of the case to the camera, and reads it straight away.
+  CHICHI (American), reading: "DB."
+4. (5-7 s) Two-shot. Both look up from their phones at each other; Nia, phone still in hand, warns her AS she looks up.
+  NIA (British), warning: "Don't you dare."
+5. (7-9 s) Two-shot. ChiChi, already smiling, her thumb moving to her screen, answers straight away; WHILE she says it, Nia gives a guilty half smile and her thumb moves to her own screen.
+  CHICHI (American), already smiling: "You first."
+  END on this line: both women holding their own phones, screens toward themselves, thumbs on them, smiling at each other; mugs and French press exactly where they started. After that, silence: nobody speaks.
+
+LINE OWNERSHIP, NEVER SWAPPED: "It's Tay." = NIA. "DB." = CHICHI. "Don't you dare." = NIA. "You first." = CHICHI. Only these four lines, in this order, each said once.
+
+VOICES, EXACTLY AS IN THE REFERENCE VIDEO, TWO DIFFERENT WOMEN, NEVER MIXED:
+- NIA IS BRITISH: her voice is <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>: warm, low, dry London accent, British vowels, no hard R, deadpan wit; never American. Her name is said "NEE-uh".
+- CHICHI IS AMERICAN: her voice is <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>, a warm, smooth, mid-to-low Black American woman's voice with a GENERAL AMERICAN ACCENT, calm authority and dry humour. ChiChi is AMERICAN: General American accent, NEVER British.
+The two voices never sound alike and never swap.
+
+CAMERA: the same camera as the reference video: steady, eye level, always from the dining (camera) side of the island; it never crosses behind the island. A medium-wide two-shot plus waist-up over-the-shoulder singles. NO ZOOMS, NO PUSH-INS; faces never tighter than waist-up.
+PHYSICS: real-world physics only; objects move ONLY when a hand is holding them (the only exception: each phone vibrates in place for its one buzz, without sliding). Natural posture and weight, five-finger hands, ChiChi's arms full length, each phone picked up naturally by its owner as a single solid object, the French press and both mugs stay perfectly still, steam rises gently from the mugs, no physical contact between them.
+AUDIO: two short soft phone buzzes at the start, then only these four lines, plus the same soft morning kitchen room tone as the reference video. No music swell, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
