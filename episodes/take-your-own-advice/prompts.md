@@ -10,7 +10,7 @@ Read `script.md` first: it has the story, the floor plan, the locked start-frame
 | 02 | Penciled In | `5839271e-0198-4488-b7bc-f647e98c5338` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_032900_5839271e-0198-4488-b7bc-f647e98c5338.mp4)) | 12 s | 720p | 84 | **Approved** (one flaw: Chi said "calendar invoit" instead of "invite") |
 | 03 | Rented | `303380c4-6691-487f-ac66-ddc85c2bb871` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_033519_303380c4-6691-487f-ac66-ddc85c2bb871.mp4)) | 11 s | 720p | 77 | **Approved** |
 | 04 | Asking For More | `38da786f-ca7a-43d7-92ee-daf4360f2a01` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_041820_38da786f-ca7a-43d7-92ee-daf4360f2a01.mp4)) (v3; three earlier attempts failed and were refunded) | 10 s | 720p | 70 | **Rejected**: a phantom coffee pot flies across the screen. Nothing in the script moves it. |
-| 04 v4 | Asking For More | `2c7c87de-97ab-4a5c-95f7-50e41ba15c56` | 10 s | 720p | 70 | Rendering |
+| 04 v4 | Asking For More | `2c7c87de-97ab-4a5c-95f7-50e41ba15c56` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_042609_2c7c87de-97ab-4a5c-95f7-50e41ba15c56.mp4)) | 10 s | 720p | 70 | Ready for review |
 | 05 | Take Your Own Advice | — | 16 s | 720p | ~112 | — |
 | 06 | Both Phones | — | 10 s | 720p | ~70 | — |
 
