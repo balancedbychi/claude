@@ -66,11 +66,11 @@ Seedance 2.5 takes an image in the **`start_image`** role and opens the clip on 
 
 ---
 
-## CLIP 01 · "The Lawyer Story" · 15 s · 105 credits · v1 · AWAITING YOUR "FILM"
+## CLIP 01 · "The Lawyer Story" · 15 s · 105 credits · v1 · FILMED (job `0afc3a1a`)
 
 **First line:** ChiChi's "You owe me the lawyer story." **Final line:** DB's "Who is Chi?"
 
-**Seedance 2.5 request:** `model: seedance_2_5`, `duration: 15`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`; `medias`: `start_image` = `0cc0247c-e512-4b46-a0a7-ba23c57c12c5` (frame 01). Elements go in through their placeholders in the prompt.
+**Seedance 2.5 request:** `model: seedance_2_5`, `duration: 15`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`; Elements go in through their placeholders in the prompt. **As filmed: no start image.** You didn't like the frame angle (5 Oct 2026), so the `START IMAGE` line was removed and the camera follows the prompt's shot list instead.
 
 ```
 15 SECONDS. Photoreal cinematic drama, vertical 9:16, NIGHT, an elegant top-floor restaurant high above Atlanta. A first dinner date between two grown adults. Wholesome, fully clothed.
@@ -124,4 +124,4 @@ AUDIO: only these six lines, plus a soft low piano in the room and the faint cli
 
 | Clip | Version | Job ID | Duration | Credits | Verdict |
 |---|---|---|---|---|---|
-| 01 | v1 | — | 15 s | 105 | Awaiting "film" |
+| 01 | v1 | `0afc3a1a-aa7f-412f-bbb9-beb56980e64d` | 15 s | 105 | Filmed 5 Oct 2026 on your "film". **No start image** (you didn't like the frame angle). Declined the "IN THE DARK" preset. Rendering. |
