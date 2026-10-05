@@ -1,6 +1,6 @@
 # EXCLUSIVE with Nia and Chi: Episode 13, story options
 
-**Status:** STORY OPTIONS FOR YOUR PICK (5 Oct 2026). Nothing locked, nothing filmed, no credits spent.
+**Status:** DECIDED (5 Oct 2026): **Option A, "Read Receipts"**, with your text lines and Dorian back. Script in `script.md`.
 **Picks up from:** Episode 12, "Take Your Own Advice". Both phones buzz at once: Tay texts Nia, DB texts ChiChi. *"Don't you dare." "You first."*
 **Open threads from the Episode 12 ledger:** What does Tay say? What does DB say? Who replies first?
 **Depends on:** Episode 12's ending ("You first.", no silent button) is still waiting for your OK. If it changes, these options get re-pointed.
