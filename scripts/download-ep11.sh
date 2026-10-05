@@ -1,13 +1,17 @@
 #!/usr/bin/env bash
 # Downloads Exclusive the Series, episode 11 ("just as important") clips and stills
-# to the Desktop, then (if ffmpeg is installed) joins the six clips into one
-# full-episode file at 720x1280. Clip 4 was rendered at 1080p and is scaled down
-# so the whole episode matches.
+# to the Desktop, then (if ffmpeg is installed) joins the opening card and the six
+# clips into one full-episode file at 720x1280. Clip 4 was rendered at 1080p and is
+# scaled down so the whole episode matches.
 #
-#   bash scripts/download-ep11.sh
+# Save "EP11.0 opening.mp4" in the same folder as this script (e.g. both in
+# Downloads), then run:
+#
+#   bash ~/Downloads/download-ep11.sh
 #
 # Joining needs ffmpeg (brew install ffmpeg). Without it you still get every clip.
 set -euo pipefail
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BASE="$HOME/Desktop/Exclusive the Series/episode 11 just as important"
 CDN="https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9"
 mkdir -p "$BASE/stills"
@@ -28,18 +32,28 @@ dl "$BASE/stills/Restaurant-High-Rise-Night.png"     "$CDN/hf_20261004_234730_8c
 dl "$BASE/stills/ChiChi-Just-As-Important-Look.png"  "$CDN/hf_20261004_235145_d45375e5-6fec-4a79-bc10-46cd569db075.png"
 dl "$BASE/stills/DB-Just-As-Important-Look.png"      "$CDN/hf_20261004_235144_2ed6c35f-b392-434b-8e90-0e184906d858.png"
 
+# Opening card: copy it in from next to this script (or the repo's opening/out folder).
+OPENING="$BASE/EP11.0 opening.mp4"
+for src in "$HERE/EP11.0 opening.mp4" "$HERE/../opening/out/EP11.0 opening.mp4"; do
+  if [ ! -f "$OPENING" ] && [ -f "$src" ]; then cp "$src" "$OPENING"; echo "-> $OPENING"; fi
+done
+[ -f "$OPENING" ] || echo "note: EP11.0 opening.mp4 not found next to this script; the full episode will start without the opening."
+
 if command -v ffmpeg >/dev/null; then
   OUT="$BASE/EP11 just as important (full episode).mp4"
   echo "-> $OUT"
+  PARTS=()
+  [ -f "$OPENING" ] && PARTS+=("$OPENING")
+  for c in "${CLIPS[@]}"; do PARTS+=("$BASE/${c%%|*}"); done
   inputs=(); filters=""; concat=""
-  for i in "${!CLIPS[@]}"; do
-    inputs+=(-i "$BASE/${CLIPS[$i]%%|*}")
+  for i in "${!PARTS[@]}"; do
+    inputs+=(-i "${PARTS[$i]}")
     filters+="[$i:v]scale=720:1280:flags=lanczos,setsar=1,fps=24,format=yuv420p[v$i];"
     filters+="[$i:a]aformat=sample_rates=48000:channel_layouts=stereo[a$i];"
     concat+="[v$i][a$i]"
   done
   ffmpeg -y -loglevel error -stats "${inputs[@]}" \
-    -filter_complex "${filters}${concat}concat=n=${#CLIPS[@]}:v=1:a=1[v][a]" \
+    -filter_complex "${filters}${concat}concat=n=${#PARTS[@]}:v=1:a=1[v][a]" \
     -map "[v]" -map "[a]" -c:v libx264 -crf 18 -preset medium -c:a aac -b:a 192k \
     -movflags +faststart "$OUT"
 else
