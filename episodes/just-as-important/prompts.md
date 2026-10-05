@@ -120,7 +120,7 @@ PHYSICS: natural seated posture and weight, five-finger hands, cutlery and glass
 AUDIO: only these six lines, plus a soft low piano in the room and the faint clink of cutlery. No background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIP 02 · "Ten Cats" · 14 s · 98 credits · v1 · RETRY RENDERING (job `36ee51ca`; first attempt `c7f1f25f` failed and was refunded)
+## CLIP 02 · "Ten Cats" · 14 s · 98 credits · v1 · RENDERED, AWAITING REVIEW (job `36ee51ca`; first attempt `c7f1f25f` failed and was refunded)
 
 **First line:** ChiChi's "Honestly? I've been single for a while." **Final line:** ChiChi's "I've done the math."
 
@@ -181,4 +181,4 @@ AUDIO: only these five lines and DB's laugh, plus the same soft low piano and fa
 |---|---|---|---|---|---|
 | 01 | v1 | `0afc3a1a-aa7f-412f-bbb9-beb56980e64d` | 15 s | 105 | **APPROVED** ("looks good", 5 Oct 2026). No start image. |
 | 02 | v1 | `c7f1f25f-6716-4df5-8677-755514e6580e` | 14 s | 98 → refunded | **FAILED** about a minute after submission; no reason given by Higgsfield; 98 credits refunded. |
-| 02 | v1 retry | `36ee51ca-f51e-4d85-9682-b56eb90cc574` | 14 s | 98 | Same request resubmitted unchanged (5 Oct 2026). Rendering. |
+| 02 | v1 retry | `36ee51ca-f51e-4d85-9682-b56eb90cc574` | 14 s | 98 | **Rendered** 5 Oct 2026 ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261005_003640_36ee51ca-f51e-4d85-9682-b56eb90cc574.mp4)). Awaiting your review. |
