@@ -131,5 +131,5 @@ submitted until the user signs off the prompt.
 | Boys staging stills (for user approval before clip B/C) | 52d78f41 (camera looking along the bar), 34e16b73 (camera backed against the bar looking out), 944bb156 (three-quarter diagonal bar) | 0.75, user picked 34e16b73 (camera at the bar looking out, horseshoe); boys staggered around the bar, Nia and Tay right in front of them |
 
 Topaz rule (user, 6 Oct): NO Topaz on any clip until the whole episode is complete and approved.
-| B "Nice building", 14 s | 2be82143-fd50-49b3-b766-43b21354dd1f | 98, rendering; Rented format; blocking written from staging still 34e16b73 (not attached); six lines ending "I heard her." |
-| C "We're walking now", 10 s | e28bf90a-246b-4af4-b946-a60ac9758d36 | 70, rendering; Rented format; same staging; Tay walks her away from the bar through the horseshoe |
+| B "Nice building", 14 s | 2be82143-fd50-49b3-b766-43b21354dd1f | 98, RENDERED 720p (gallery 16:57), awaiting user review; Rented format; blocking written from staging still 34e16b73 (not attached); six lines ending "I heard her." |
+| C "We're walking now", 10 s | e28bf90a-246b-4af4-b946-a60ac9758d36 | 70, RENDERED 720p (gallery 16:57), awaiting user review; Rented format; same staging; Tay walks her away from the bar through the horseshoe |
