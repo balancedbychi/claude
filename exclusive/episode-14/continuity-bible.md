@@ -46,13 +46,13 @@ stage map, then one FIRST FRAME still per clip, and continuity edits off each ma
   height, screen toward her. Her RIGHT hand holds the wine glass by the bowl, not the stem.
 - American accent.
 
-**ZARYA** (new this episode; face and look to be picked from options, then saved as an
-element. Proposed spec below; nothing is locked until the pick.)
-- Early thirties. Black American. Rich bronze-brown skin. Sleek jet-black bone-straight
-  middle-part hair to the waist (deliberately the opposite of Nia's curls). Strong
-  cheekbones, cat-eye liner, nude glossy lip.
-- About 5'8". Slim, long-limbed, model build. Clearly taller than Nia.
-- NO RINGS. One pair of long thin gold drop earrings. Nothing else on her hands or wrists.
+**ZARYA** — LOCKED 6 Oct 2026 (element Zarya-Nice-Building-Look; the image is her master
+for face, hair, build and look)
+- Early thirties. Black American. Deep brown skin with a warm glow. Honey-brown hair in a
+  SLEEK LOW BUN with a sharp centre part (deliberately the opposite of Nia's loose curls).
+  Long oval face, high cheekbones, full lips in a deep wine-red matte lipstick.
+- About 5'9". Slim, long-limbed, model build. Clearly taller than Nia, about Tay's height.
+- NO RINGS. Small diamond huggie earrings. Nothing on her hands or wrists.
 - Resting hands: she touches people. Hand flat on Tay's chest, hand to the back of his neck,
   her glass tapped against Nia's without asking. Her hands are always the first thing in a
   frame with her.
@@ -97,10 +97,10 @@ the background ever looks at camera.
 - At home, night, wine. Proposed options: (1) an emerald silk wrap top and black wide-leg
   lounge trousers; (2) an oversized cream cashmere lounge set. Barefoot either way.
 
-**ZARYA**
-- An ivory silk column gown, high neck, low open back, floor length. Gold heeled sandals.
-  No bag; she never carries anything but a glass. She should look like the opposite of
-  Nia: long, pale, still, and already at home.
+**ZARYA** — LOCKED 6 Oct 2026
+- A champagne satin bias-cut slip gown, thin straps, cowl back, floor length. Gold heeled
+  sandals. No bag; she never carries anything but a champagne flute. She should look like
+  the opposite of Nia: long, pale, still, and already at home.
 
 ---
 

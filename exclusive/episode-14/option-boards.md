@@ -14,12 +14,10 @@ gold chain for a DIAMOND ICED-OUT CUBAN LINK (variant 2, job 111741c2-d0d7-4051-
 Saved as element **Tay-Nice-Building-Look 35062476-f6a3-4467-bf93-1547537854ef**.
 Options 4 and 6 retired.
 
-## Zarya (new character, text-only)
-| # | Job | Option |
-|---|-----|--------|
-| 7 | 64acf523-3c9c-499f-9106-8d8a9c840b6d | A: bronze-brown, waist-length bone-straight centre part, ivory halter column gown |
-| 8 | d0c511ea-8a01-4066-9fb2-10157130211f | B: deep brown, honey-brown sleek low bun, wine lip, champagne satin slip gown |
-| 9 | 5588c8c1-a2f2-49d2-a147-4282ab4dddb9 | C: medium-deep brown, waist-length knotless braids, white tuxedo jumpsuit |
+## Zarya — DECIDED 6 Oct 2026
+Option B (sleek low bun, wine lip, champagne satin slip gown), re-uploaded by the user as
+media dc4779ad. Saved as element **Zarya-Nice-Building-Look 37733607-b364-4fce-b281-84749863b043**.
+This image is her master for face, hair, build and look. Options A and C retired.
 
 ## ChiChi at home (ChiChi-Face b03240bd + ChiChi-Body 46074b6d)
 | # | Job | Option |
