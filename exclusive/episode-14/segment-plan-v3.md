@@ -186,3 +186,4 @@ KISS/LIPSTICK RULE (user, 6 Oct): Zarya's kiss is one firm kiss of about a secon
 transfer is a faint dry mark wiped clean in one pass; never wet, shiny, running or blood-like. In any shot with two
 women, each is named against the other (hair, dress, height) and the one who touches Tay is named.
 | Zarya voice | user picked MAYA preset b0f766b7; Maya sample wav imported as audio media 40dd2f57 | clone blocked: "Voice limit reached, delete a voice to add a new one" (the workspace holds three custom voices: Soraya-1 088477a7, Nia-Canon-Voice-v2, ChiChi-Canon-Voice-v1). Awaiting the user's call: delete Soraya-1 to make room, or use Soraya-1 as is. No clone charge found in 1,300 transactions. |
+| Zarya voice, final | WORDS ONLY: the block in continuity-bible.md "Zarya's voice (words only)" is carried verbatim in every prompt with a Zarya line; no element, no clone, no deletion. Modelled on the Maya sample the user picked (warm medium-low alto, calm, kind, sure). |

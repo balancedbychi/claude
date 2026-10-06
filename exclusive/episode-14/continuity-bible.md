@@ -859,3 +859,25 @@ shrinking in the glass behind her. Cut to black.
 - A character's FIRST appearance in the episode is referenced to an episode 13 clip in which THEY SPEAK (Tay: bar clip 55e9dca5). Describing a voice in words does not reproduce it.
 - Never stage a greeting as "walks into the camera where the other character stands". The arriving character's walk is its own shot with the other character OUT of frame; the greeting itself is a SIDE TWO-SHOT, waist up, eye level, on the fixed blocking side. Faces that have to warp to accommodate a lens-walk come out distorted.
 - Add the proportion lock to every prompt: "face and body keep the same proportions in every frame: never stretched, widened, melted or warped; the same face at the start and at the end."
+
+### Zarya's voice (words only, user ruling 6 Oct 2026)
+Zarya has no saved voice element (the workspace voice cap is full). Every prompt with a Zarya
+line carries this block verbatim, the way DB's voice was carried in the restaurant scene:
+
+ZARYA'S VOICE — SHE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY AND
+KEEP IT IDENTICAL IN EVERY CLIP. A young Black American woman of twenty-eight with a GENERAL
+AMERICAN accent and a light, contemporary Black American cadence: unhurried, polished, every
+word finished. Pitch a warm medium-low alto, lower than Nia's and fuller than it, with a smooth,
+velvety chest tone, no rasp, no breathiness, no vocal fry. She speaks SLOWLY and EVENLY, as if
+she has never once had to raise her voice to be heard, with a faint knowing smile you can hear
+on the ends of her lines. Her tone is calm, kind and completely sure of herself; the kindness
+is the point, she is never sharp, never catty, never sarcastic, never a villain. Small musical
+lifts on a question ("Did he tell you about the space heater?"), a soft downward settle on a
+statement ("Yeah. He does that."). She says "Nia" as NEE-uh. Never British, never girlish or
+high, never fast, never nasal, never older than thirty. Her voice never sounds like Nia's (low,
+dry, British) or ChiChi's (warm, mid-low, American, forty): three different women.
+
+Delivery notes by line: "You must be Nia." light, friendly, as if greeting a guest. "Zarya.
+Tay's girlfriend." the same warmth, the second sentence a shade slower. "Three years..." an
+easy story told to a friend. "He didn't mention me, did he." not a question, soft. "Yeah. He
+does that." gentle, almost sympathetic, which is worse.
