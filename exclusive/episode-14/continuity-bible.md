@@ -82,8 +82,11 @@ the background ever looks at camera.
 - "The safe dress": plain black sleeveless midi. Seen only lying over the sofa arm. Never
   worn.
 - "The not-safe dress": the user's own upload of Nia in a GREEN SATIN DRESS, saved as
-  element Nia-Nice-Building-Dress-v2. The image is the authority for cut, hem, straps and
-  slit. Gold strappy heeled sandals and the small gold clutch from "Almost Too Good".
+  element Nia-Nice-Building-Dress-v3. The image is the authority for cut, hem, straps and
+  slit, AND for the accessories: BROWN SHOES and a BROWN BAG, exactly as in that image.
+  Never gold shoes, never a brown bag (that was a carry-over error from "Almost Too Good"
+  and caused the drift seen in the first pass). The upload is attached as a picture to every
+  generation that shows the bag or shoes, and they are named in words as brown.
 - Worn identically from 14.2 to the end. The hem, slit and neckline never change between
   clips.
 
@@ -162,7 +165,7 @@ vinyl wall in brass-framed shelves with warm LED strips, a walnut console with a
 two tall matte-black speakers, one brass floor lamp, a low glass table with two whisky
 glasses that stay untouched. Camera inside looking toward the door. STAGE MAP: Tay pushes
 the door with his LEFT hand in C33; he sits on the ARM of the nearest chair at frame LEFT
-for C34 to C38; Nia stands at frame RIGHT and sets her clutch on the seat of the chair
+for C34 to C38; Nia stands at frame RIGHT and sets her bag on the seat of the chair
 beside her.
 
 **SET G — The Roof, night.** LOCKED 6 Oct 2026, element Ledger-Roof-Night. A LARGE modern
@@ -173,7 +176,7 @@ olive trees in black planters, dozens of guests in soft focus. Camera near the r
 STAGE MAP: the door is behind camera, rear LEFT; the party fills the middle; the QUIET
 STRETCH of glass railing at the FAR RIGHT, past the DJ, is where the fight plays. Nia nearer
 the glass, Tay nearer the party. Guests never come within ten feet of them. Where the beats
-below say "parapet", read "glass railing", and the clutch sits on its stone ledge.
+below say "parapet", read "glass railing", and the bag sits on its stone ledge.
 
 ---
 
@@ -285,7 +288,7 @@ smooths the dress once at her hip. FACE: one breath. She keeps the dress on. Hol
 ### SCENE 14.2 — Car, night (SET C)
 
 **C21 — Nia, back seat, texts.** CAMERA: from the driver's-side rear seat, medium. Nia on
-the passenger side, dress on, the gold clutch on the seat beside her at her LEFT hip. HANDS:
+the passenger side, dress on, the brown bag on the seat beside her at her LEFT hip. HANDS:
 phone in both hands in her lap, thumbs on the screen, screen tilted toward her and away from
 camera, its glow on her face. FACE: reading. Then she fights a smile. The still is the fight:
 lips pressed together, eyes down. (The text thread is shown as on-screen graphics in the
@@ -303,7 +306,7 @@ the line, the photographers, the brass letters. No principal characters in frame
 
 **C24 — The host at the car door.** CAMERA: street level, medium, the open car door at
 frame LEFT. Nia has just stood up out of the car. HANDS: Nia's RIGHT hand holds the gold
-clutch at her hip; LEFT hand smooths the dress at her thigh once. THE HOST stands a step
+bag at her hip; LEFT hand smooths the dress at her thigh once. THE HOST stands a step
 away at frame RIGHT, tablet flat against her LEFT forearm, RIGHT hand open toward the doors.
 FACE: Nia uncertain, the host amused. LINE: "Ms. Keynes? He said you'd be the one who looked
 like she was trying real hard not to be impressed." / "He said that?" / "Four times. You
@@ -311,16 +314,16 @@ don't do the line."
 
 **C25 — Past the line.** CAMERA: from the brass doors looking back down the steps, wide. The
 host walks a step ahead at frame LEFT; Nia follows at frame RIGHT, up the steps toward
-camera. HANDS: Nia's clutch in her RIGHT hand, LEFT arm straight at her side. The line of
+camera. HANDS: Nia's bag in her RIGHT hand, LEFT arm straight at her side. The line of
 guests along the left edge turning to look at her. FACE: chin up, eyes forward, not looking
 at anyone. Hold.
 
 ### SCENE 14.4 — Main floor (SET E)
 
 **C26 — Nia in the doorway, wide.** CAMERA: from inside the hall, low and wide, Nia small in
-the tall doorway at centre, the whole hall around and above her. HANDS: clutch in RIGHT
+the tall doorway at centre, the whole hall around and above her. HANDS: bag in RIGHT
 hand; LEFT arm comes across her stomach and her LEFT hand takes her RIGHT elbow (the guard
-pose, mirrored because the clutch is in the right hand; from here on this is how she holds
+pose, mirrored because the bag is in the right hand; from here on this is how she holds
 it). FACE: looking up and around. She is impressed. Hold on that for one beat before she
 flattens it.
 
@@ -337,7 +340,7 @@ control.
 
 **C29 — "That's not the safe one," two-shot.** CAMERA: medium two-shot, profile-ish, Nia at
 frame LEFT, Tay at frame RIGHT, a foot of air between them. Height: Tay 5'10", Nia 5'2" in
-heels, so he looks down and she looks up. HANDS: Nia in the guard pose, clutch in right hand,
+heels, so he looks down and she looks up. HANDS: Nia in the guard pose, bag in right hand,
 left hand on right elbow. Tay's hands: RIGHT hand half-raised, fingers open, like he wants to
 touch her and hasn't decided where; LEFT hand at his side. FACE: Tay's eyes go dress, face,
 dress. Nia fighting a smile and losing. LINES: "Yo. Yo." / "Hi." / "That's not the safe
@@ -360,7 +363,7 @@ six grinning. LINES: "She said nice, bro." / "I heard her." / "Two years. Space 
 **C32 — Walking two-shot.** CAMERA: tracking backward ahead of them, medium, Nia at frame
 LEFT and Tay at frame RIGHT, moving toward camera through the crowd. HANDS: Tay's RIGHT hand
 hovers at Nia's LEFT elbow without quite holding it; his LEFT hand gestures up at the teller
-cages. Nia: clutch in RIGHT hand, LEFT arm loose now (the guard pose is down while she's
+cages. Nia: bag in RIGHT hand, LEFT arm loose now (the guard pose is down while she's
 walking). A guest at frame right reaching to shake Tay's hand; he gives them two fingers and
 keeps walking. FACE: Tay talking, animated. Nia looking where he points and refusing to
 react. LINES: the whole "bought it at twenty-three" exchange through "That's a club with a
@@ -371,14 +374,14 @@ nice." / "Come on. Vault."
 
 **C33 — Into the vault.** CAMERA: from inside the vault, the round door at frame LEFT. Tay
 has his LEFT hand flat on the inside of the door, pushing it most of the way closed. Nia
-stands a step inside at frame RIGHT, clutch in RIGHT hand, looking at the wall of records.
+stands a step inside at frame RIGHT, bag in RIGHT hand, looking at the wall of records.
 FACE: Nia genuinely taking it in. Tay watching her, not the door. LINES: "Okay. This is where
 you tell me the real thing." / "What real thing?" / "You walked me past two hundred people
 to get me alone in a bank vault. There's a real thing."
 
 **C34 — Tay sits, doesn't look at her.** CAMERA: medium, Tay at frame LEFT sitting on the ARM
 of the nearest leather chair, Nia standing at frame RIGHT. HANDS: Tay's forearms on his
-thighs, hands hanging between his knees, fingers laced. Nia: she sets the clutch on the seat
+thighs, hands hanging between his knees, fingers laced. Nia: she sets the bag on the seat
 of the chair beside her with her RIGHT hand and leaves both arms at her sides. FACE: Tay
 looking at the floor between his sneakers. Nia looking at him. LINE: the "deposits" speech.
 
@@ -417,7 +420,7 @@ the crowd at frame right is visible. HANDS: Tay's LEFT hand off the bar and poin
 crowd. The crowd's arms up. LINE: "Three names. Three checks. First deposit."
 
 **C41 — Nia's face.** CAMERA: close on Nia at the edge of the floor, the crowd soft behind
-her. HANDS: her guard pose is GONE; clutch in RIGHT hand, LEFT hand flat on her own
+her. HANDS: her guard pose is GONE; bag in RIGHT hand, LEFT hand flat on her own
 collarbone. FACE: open, lit up, her face doing exactly what he wanted. No line.
 
 **C42 — The toast.** CAMERA: Tay in the cage, medium, from Nia's eyeline. HANDS: mic lifted a
@@ -439,7 +442,7 @@ from her collarbone to her side. FACE: the light goes out. Mouth closes. No line
 
 **C46 — The bar.** CAMERA: medium two-shot at the brass bar, Nia at frame LEFT facing the
 bar, Zarya sliding in at frame RIGHT, facing the bar too, not looking at Nia yet. HANDS:
-Nia's RIGHT hand flat on the bar, not steady; clutch under her LEFT arm. Zarya's LEFT hand
+Nia's RIGHT hand flat on the bar, not steady; bag under her LEFT arm. Zarya's LEFT hand
 rests on the bar; RIGHT hand raised one finger to the bartender. Six boys NOT in this frame
 (they're further down). FACE: Nia staring at nothing. Zarya calm. LINE: "You must be Nia."
 
@@ -463,7 +466,7 @@ RIGHT.
 
 **C50 — Nia alone.** CAMERA: from the roof door, wide. Nia at the parapet, frame RIGHT,
 back three-quarters to camera, city beyond. HANDS: both forearms resting on the stone
-parapet, clutch set on the stone under her RIGHT hand. FACE: turned out to the city. No
+parapet, bag set on the stone under her RIGHT hand. FACE: turned out to the city. No
 line. Hold.
 
 **C51 — Tay comes through the door.** CAMERA: reverse, from the parapet, the lit door at
@@ -473,7 +476,7 @@ are. I been looking—"
 
 **C52 — "Your girlfriend introduced herself."** CAMERA: two-shot, profile, Nia at frame
 RIGHT by the parapet, Tay at frame LEFT, two paces between them. HANDS: Nia has turned to
-face him, arms crossed in the guard pose, the clutch still on the parapet behind her. Tay's
+face him, arms crossed in the guard pose, the bag still on the parapet behind her. Tay's
 hands: both open at his sides, palms slightly toward her. FACE: Nia cold. Tay stopped
 mid-step. LINES: "Your girlfriend introduced herself." / "She's not my—" / "Don't."
 
@@ -505,16 +508,16 @@ wanted one thing that was just—" / "Just what." / "Just you."
 she wants to believe it. Then she doesn't. LINES: "That's a really nice thing to say." /
 (Tay, off) "I mean it." / "I'm sure you do. Right now. On your roof. On your big night."
 
-**C58 — The clutch.** CAMERA: two-shot, wider. Nia turns to the parapet and picks up the
-clutch with her RIGHT hand. Tay's LEFT hand reaches halfway toward her shoulder and stops.
-HANDS exactly so: her right hand on the clutch, his left hand in the air six inches from her
+**C58 — The bag.** CAMERA: two-shot, wider. Nia turns to the parapet and picks up the
+bag with her RIGHT hand. Tay's LEFT hand reaches halfway toward her shoulder and stops.
+HANDS exactly so: her right hand on the bag, his left hand in the air six inches from her
 shoulder. LINES: "Nia. Don't leave like this. Just let me explain the whole—" / "That's the
 thing, Tay. I don't want the whole thing. I came here tonight trying not to like you. I was
 trying so hard. And I was losing. You were winning. You had me in that vault." Beat. "And
 then she popped up. Like I knew somebody would."
 
 **C59 — At the door.** CAMERA: from the parapet, the door at frame LEFT. Nia at the door,
-back to camera and to Tay, RIGHT hand on the door handle, clutch in LEFT hand. Tay at frame
+back to camera and to Tay, RIGHT hand on the door handle, bag in LEFT hand. Tay at frame
 RIGHT, facing her back, hands at his sides. FACE: hers unseen; she doesn't turn. LINE: "I do
 like you. That's the problem."
 
@@ -525,7 +528,7 @@ kid. Hold.
 ### SCENE 14.9 — Car, night (SET C)
 
 **C61 — Texts.** CAMERA: same as C21 exactly. Nia on the passenger side, lipstick gone, the
-clutch on the seat. HANDS: phone in both hands in her lap, screen toward her. The screen
+bag on the seat. HANDS: phone in both hands in her lap, screen toward her. The screen
 glow on her face is the only light moving. FACE: reading. Not crying. Nothing. (Tay's texts
 are on-screen graphics in the edit.)
 
@@ -545,7 +548,7 @@ shrinking in the glass behind her. Cut to black.
 2. Nia's guard pose: arms crossed low, hand on elbow. It is UP in C05, C12, C14, C26, C29,
    C30, C52, C53. It is DOWN in C32 (walking), C34 onward in the vault, C41 (announcement).
    It comes back up at C52. It never appears in the car.
-3. The clutch: RIGHT hand on the way in, under her LEFT arm at the bar, on the parapet in
+3. The bag: RIGHT hand on the way in, under her LEFT arm at the bar, on the parapet in
    C50 through C57, back in her RIGHT hand in C58, LEFT hand at the door in C59.
 4. Tay's chain visible in every shot. Sneakers in every full-length shot. No watch.
 5. Tay's hand near Nia: never fully touching her until C31 (small of her back) and C38 (the

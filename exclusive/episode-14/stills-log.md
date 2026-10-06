@@ -30,6 +30,16 @@ each master approved, then build every clip in that setup as a continuity EDIT o
 - Car master E locked: job **848f2d08-ec58-4b07-894e-a5f393531d80** (user's pick of two), built
   with the car plate attached; Nia sits upright on the bench with the seat belt on.
 
+## Ruling 6 Oct 2026 (third review): BROWN bag and shoes
+The dress upload shows a BROWN bag and BROWN shoes. v1/v2 element text said gold, inherited
+from "Almost Too Good", and every first-pass still followed the words, not the picture.
+New element **Nia-Nice-Building-Dress-v3 62615e58-aba0-49ff-8fd7-a70089fee959** corrects it.
+Rule: attach the upload (media 244e2ef0) to every generation that shows the bag or shoes and
+say "brown" in words.
+
+Masters locked: A 376b8dbe, B 79f6b827 (pull-back from D), C e14efbba (waist-up, hair
+forward), D b43f21a6, E (car) 848f2d08.
+
 ## Scene 14.1 master plates
 | Plate | Setup | Job |
 |---|---|---|
