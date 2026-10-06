@@ -176,3 +176,7 @@ allowed, then the hand comes back down. V3 d96213dd REJECTED for this (hand on h
 175 cr, awaiting the user's go. V2 c0496d12 ends with the same "hand to neck and stays there" beat (19-25 s) and
 should be checked for it.
 | V3 v2 "I'm feeling you" + "Tay-" + the hand, HANDS ON THIGHS, 25 s | 634db095-e421-471d-b354-83b1b9c1f85d | 175, RENDERED 720p (gallery 18:09), awaiting user review; hands rest on his thighs, small gestures on the words, one brief rub of the back of the head on "nervous right now" then back down |
+| Zarya voice samples (user to pick by ear) | 49909a85 = existing element Soraya-1 088477a7; f74a92d5 = preset Soraya 5c1d2f7f; 86125bca = preset Kayla 5c615d8a; cd1eb809 = preset Maya b0f766b7 | 0.7 each, 2.8 total; same line in all four. If a PRESET is picked it must be cloned into a voice element before it can be used in a video prompt (clone cost to be quoted). If Soraya-1 is picked it is usable as is. |
+| N1 announcement, cage, 20 s | 4a814a29-ac79-49e9-a897-ec20e1f663ed | 140 (user approved 490 for N1-N3); rendering; low shot up at the cage, mic in right hand, Nia's face, the toast |
+| N2 the kiss, 20 s | be35f7e7-02a7-4244-b2db-5ef70438b5a4 | 140; rendering; Zarya from her look element 37733607, flute in left hand, right hand to his neck, thumb, walks off frame right; Nia sees it; no lines |
+| N3 Zarya at the bar, 30 s | NOT YET SUBMITTED | 210 approved; waits on the voice pick |
