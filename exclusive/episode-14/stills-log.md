@@ -264,3 +264,14 @@ one man for a different friend.
 C35 (Nia's vault close-up): three filter rejections (7ce3b009, 3ed261fa, fbaf50ba). Not
 retried further; the C37 two-shot (6db81c66) is the coverage, the editor punches in on her.
 All 63 clips now have a still or a covering still.
+
+## Zarya bar restage, 6 Oct 2026 (eighth review)
+User notes on 365/47/48/49: Nia taller than Zarya, Nia's head twisted off her body, no eye
+contact in the handshake. Cause: the from-behind staging. Rules added to bible 1a (Zarya a
+half head taller than Nia; heads turn no more than a quarter turn; handshakes face to face
+with eye contact). Plate O 365 and clips 47/48/49 are retired.
+| Take | Job |
+|---|---|
+| O2 take 1, waist-up 45-degree from the floor side | 391 9a8eada4-5851-4d26-99b4-65e16f61c897 |
+| O2 take 2, knees-up | 392 aebd0642-2181-44f0-844a-3054eb93aed7 |
+C47–C49 rebuild as edits of the pick.
