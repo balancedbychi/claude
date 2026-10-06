@@ -175,4 +175,4 @@ hands resting on his thighs; natural small gestures that match the line; one bri
 allowed, then the hand comes back down. V3 d96213dd REJECTED for this (hand on his ear the whole clip); refilm cost
 175 cr, awaiting the user's go. V2 c0496d12 ends with the same "hand to neck and stays there" beat (19-25 s) and
 should be checked for it.
-| V3 v2 "I'm feeling you" + "Tay-" + the hand, HANDS ON THIGHS, 25 s | 634db095-e421-471d-b354-83b1b9c1f85d | 175, user approved the cost; rendering; hands rest on his thighs, small gestures on the words, one brief rub of the back of the head on "nervous right now" then back down |
+| V3 v2 "I'm feeling you" + "Tay-" + the hand, HANDS ON THIGHS, 25 s | 634db095-e421-471d-b354-83b1b9c1f85d | 175, RENDERED 720p (gallery 18:09), awaiting user review; hands rest on his thighs, small gestures on the words, one brief rub of the back of the head on "nervous right now" then back down |
