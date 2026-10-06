@@ -37,31 +37,31 @@ funding. Nia does not know that part yet.
 ## SCENE 14.1 — INT. NIA'S APARTMENT — EVENING
 
 *Golden hour through the blinds. Nia in a robe, half-ready. Two dresses on the bed: one safe,
-one not. Her phone propped against the mirror on a FaceTime with `[BEST FRIEND NAME]`.*
+one not. Her phone propped against the mirror on a FaceTime with `CHI`.*
 
-**[BEST FRIEND]** (V.O., phone)
+**CHI** (V.O., phone)
 Which one.
 
 **NIA**
 I'm leaning safe.
 
-**[BEST FRIEND]** (V.O.)
+**CHI** (V.O.)
 Safe for who? He said "come see what I built." That's not a safe invitation.
 
 *Nia picks up the second dress. Holds it against herself. Looks at the mirror a beat too long.*
 
 **NIA**
-He's never once told me what he actually does. Thirteen weeks, Jada. I know how he takes his
+He's never once told me what he actually does. Two weeks, Chi. I know how he takes his
 coffee and I don't know what he does for a living.
 
-**[BEST FRIEND]** (V.O.)
+**CHI** (V.O.)
 So go find out. In the dress.
 
 *Nia puts the phone face down. Puts on the dress.*
 
 > **Beat note:** this is the only quiet moment in the episode. Let it breathe. Her hesitation
-> is about more than the dress. `[If Nia has a trust wound from an earlier episode, this is
-> where it echoes.]`
+> is about more than the dress. Two weeks is fast, and the last man who moved this fast was
+> Dre. She doesn't say his name. Chi doesn't either. It sits in the room anyway.
 
 ---
 
@@ -98,7 +98,7 @@ exactly where they are. She doesn't.*
 *A WOMAN with a headset and a tablet appears at her elbow before she's taken three steps.*
 
 **HOST**
-Ms. `[NIA'S LAST NAME]`? He said you'd be the one who looked like she wasn't sure she had the
+Ms. Keynes? He said you'd be the one who looked like she wasn't sure she had the
 right address.
 
 **NIA**
@@ -219,7 +219,7 @@ I call them deposits. Tonight's the first three. I'm announcing them in twenty m
 *Nia looks at him for a long moment.*
 
 **NIA**
-Thirteen weeks and you never said a word.
+Two weeks. You've had two weeks to say one sentence.
 
 **TAY**
 I wanted you to like me before you knew.
@@ -263,7 +263,17 @@ film photographer.]` Each one steps forward from the crowd. The room loses its m
 *Then Tay, still in the cage, finds her across the room with his eyes. Doesn't say her name.
 Just lifts the mic a half inch, like a toast, and sets it down.*
 
-*The music drops back in.*
+*The music drops back in. The crowd closes around the three names.*
+
+*And in the middle of it, shaking hands with the suits Tay was talking to when she walked in,
+is a face Nia knows. DRE. Her ex. He's not looking at the stage. He's looking at her. He
+smiles like he's been waiting all night to be seen.*
+
+*She turns away first.*
+
+> **Dre note:** he is the antagonist for this arc. He should look like he belongs here, which
+> is the problem. Whether he's an investor, a member, or someone who sold Tay the building is
+> for a later episode. Tonight he only needs to be in the room.
 
 ---
 
@@ -311,20 +321,33 @@ It doesn't fit anywhere.
 **TAY**
 Good.
 
-*He takes her glass out of her hand. Sets it on the ledge. And for the first time all night,
-he's the one who looks unsure.*
+*He takes her glass out of her hand. Sets it on the ledge.*
+
+*And here is the thing. All night he has been untouchable. Every room in that building is
+his. Every person downstairs came because he asked. Nothing about tonight was left to chance.
+Except her. She is the one thing in the building he can't build, buy, or plan for. So when
+he leans in, he stops an inch short. For the first time all night, Tay is asking instead of
+telling.*
 
 **TAY (CONT'D)**
 Can I—
 
-> **Hook option A (romance):** She kisses him first. Cut to black on the city lights.
->
-> **Hook option B (drama):** Her phone lights up on the ledge between them. A name she hasn't
-> seen in weeks. `[EX / ANTAGONIST NAME]`. One line of text: *"Nice building. Ask him who
-> really paid for it."* Nia looks at the phone. Tay looks at the phone. Cut to black.
->
-> **Hook option C (slow burn):** She puts a hand flat on his chest. Stops him. "Not here. Not
-> where everybody can see." Beat. "Take me home." Cut to black.
+*Her phone lights up on the ledge between them.*
+
+**DRE:** *Nice building. Ask him who really paid for it.*
+
+*Nia looks at the phone. Tay looks at the phone. Tay looks at her.*
+
+*She doesn't pick it up. She doesn't kiss him either.*
+
+**NIA**
+Who's Dre to you?
+
+*Cut to black.*
+
+> **Alternate endings, if the drama lands better in 15:** (A) she kisses him first and the
+> text arrives after, on the ride home; (C) she stops him with a hand on his chest, says
+> "Take me home," and the text is waiting on her nightstand.
 
 ---
 
@@ -340,11 +363,16 @@ Can I—
 - **Camera note for the arrival:** one long push-in from the car door to the brass doors
   without a cut. Nia walking into his world.
 
-## Things to confirm against episodes 1–13
+## Locked details
 
-1. How long Nia and Tay have known each other (I used thirteen weeks).
-2. Nia's best friend's name (I used Jada as a placeholder).
-3. Whether Nia has an ex or an antagonist who could send the Hook B text.
-4. Nia's last name, for the host line.
-5. Whether anything earlier contradicts Tay sleeping upstairs during the rebuild or buying the
+- Nia and Tay have known each other **two weeks**.
+- Nia's best friend is **Chi**.
+- Nia's full name is **Nia Keynes**.
+- Nia's ex and the arc's antagonist is **Dre** (name is a placeholder, rename freely). He is
+  in the room at the launch and sends the closing text.
+
+## Still to confirm against episodes 1–13
+
+1. Whether anything earlier contradicts Tay sleeping upstairs during the rebuild or buying the
    building in 2021.
+2. How Dre and Nia ended, so his smile in the crowd reads the right way.
