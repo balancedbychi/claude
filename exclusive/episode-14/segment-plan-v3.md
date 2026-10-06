@@ -133,3 +133,29 @@ submitted until the user signs off the prompt.
 Topaz rule (user, 6 Oct): NO Topaz on any clip until the whole episode is complete and approved.
 | B "Nice building", 14 s | 2be82143-fd50-49b3-b766-43b21354dd1f | 98, RENDERED 720p (gallery 16:57), awaiting user review; Rented format; blocking written from staging still 34e16b73 (not attached); six lines ending "I heard her." |
 | C "We're walking now", 10 s | e28bf90a-246b-4af4-b946-a60ac9758d36 | 70, RENDERED 720p (gallery 16:57), awaiting user review; Rented format; same staging; Tay walks her away from the bar through the horseshoe |
+
+CLIP LENGTH RULING (user, 6 Oct): 20-second clips by default, 30 seconds where a beat needs it.
+Line density stays about one line per three seconds (the approved bar clip was 26 s / 8 lines).
+
+## Remaining clips re-planned at 20-30 s (Rented format, 720p, 7 cr/s)
+| Clip | Scene | Length | Content | Cost |
+|---|---|---|---|---|
+| W1 | 14.5 walk | 25 | "So. Bank built it in 1926" through "sleeping upstairs with a space heater." (7 lines) | 175 |
+| W2 | 14.5 walk | 25 | "Why would you do that?" through "Come on. Vault." (8 lines) | 175 |
+| V1 | 14.6 vault | 20 | Door pushed to; "real thing" x3; he sits, feet on the rug; the first half of the deposits speech | 140 |
+| V2 | 14.6 vault | 25 | Rest of the deposits speech; "Two weeks" / "I wanted you to like me before you knew" / "Why?" / "'Cause everybody out there likes me because they know." | 175 |
+| V3 | 14.6 vault | 25 | "I'm feeling you, Nia..." speech; "Tay-" / "You don't gotta say nothing back..." / stands, hand out: "Come watch me do the thing." | 175 |
+| N1 | 14.7 cage | 20 | Tay in the cage: "I'm not gonna talk long..." / "Three names. Three checks. First deposit." / Nia lit up / the private smile | 140 |
+| N2 | 14.7 kiss | 20 | Tay steps down; Zarya's kiss; thumb to his lip; Nia's light goes out | 140 |
+| N3 | 14.7 bar | 30 | Zarya and Nia at the bar, the whole exchange to "Yeah. He does that." (voice for Zarya to be chosen first) | 210 |
+| R1 | 14.8 roof | 20 | Nia at the railing; the door; "There you are" through "Don't." | 140 |
+| R2 | 14.8 roof | 25 | "Three years, Tay?" through "I know I'm not him." | 175 |
+| R3 | 14.8 roof | 30 | "You texted me good morning..." through "Just you." | 210 |
+| R4 | 14.8 roof | 30 | "That's a really nice thing to say" through "Like I knew somebody would." | 210 |
+| R5 | 14.8 roof | 20 | "I do like you. That's the problem." She goes; Tay alone | 140 |
+| X1 | 14.9 car | 20 | Back seat, the texts on screen, Dorian's thread, phone face down | 140 |
+| 14.1 | FaceTime | pending Option A (about 110 s) or B (about 70 s) | | 770 / 490 |
+Total from here, excluding 14.1: 2,345 cr. With 14.1 Option B: about 2,835. Balance after W1/W2: about 3,694.
+
+| W1 walk-and-talk, 25 s | 15c9642e-0171-4aec-ad14-7375b991d534 | 175, rendering; Rented format; tracking back ahead of them, Tay on Nia's left, guest gets two fingers |
+| W2 walk-and-talk, 25 s | 246504a7-7dbe-4dd5-98db-8153453cb2ac | 175, rendering; Rented format; ends "Come on. Vault." |
