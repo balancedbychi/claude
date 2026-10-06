@@ -8,6 +8,17 @@ Read `script.md` first: it has the story, the floor plan, the locked start-frame
 
 **Running time:** about 67 s of clips plus the 4 s opening card. **Credits:** 469 for the six approved clips, plus 70 for the rejected Clip 04 v3. The four failed renders were all refunded. Stills cost about 30 extra.
 
+**1080p (Topaz) upscales, 6 Oct 2026: 33 credits.** The download script now pulls these and builds the full episode at 1080x1920 with the 1080p opening card (`EP12.0 opening 1080p.mp4`). If a Topaz file has no audio track, the script restores the soundtrack from the approved 720p take.
+
+| # | Topaz job | Credits |
+|---|---|---|
+| 01 | `fc5fc48b-ad19-444b-8e24-75f4c9cd0206` | 6 |
+| 02 | `279d9616-43c2-4cf6-b0e3-68c375ae6c03` | 6 |
+| 03 | `10874fec-fd9a-4743-9068-1432e98a8418` | 5 |
+| 04 (v4) | `11436733-02ae-4347-916e-a5adc01a21a3` | 5 |
+| 05 | `44892b91-1b6d-4076-ab83-9e121c2f620b` | 6 |
+| 06 | `5c442dfc-06ff-43f1-bce5-48d63a7e1a55` | 5 |
+
 **In the edit, use 04 v4** (`2c7c87de`), not the rejected v3.
 
 
