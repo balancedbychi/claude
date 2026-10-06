@@ -251,3 +251,13 @@ one man for a different friend.
 | C47 | O | 90bf7eb5-4d0f-4c0b-a077-8e34fcc35c2d |
 | C48 | O | 8d6f26d1-c515-4e5d-b18f-189534cce797 |
 | C49 | O | 04cbee31-91f9-46c4-b5e9-0fcd94c0f087 |
+| C35 retry (edit of C37; 7ce3b009 filter-rejected) | V2 | 3ed261fa-d538-4efc-b8d1-65b6997b4e27 |
+| C51 | R1 | 708b7071-095b-4c22-aa7f-068a32c6081f |
+| C53 | R2 | 6f857acc-093d-45b1-99c5-245f7cd440cc |
+| C54 | R2 | 39962a8c-564a-4032-87b9-daeb62066ad0 |
+| C55 | R2 | a12abd29-da4d-4e8b-8a2b-92981ee16d9a |
+| C56 | R2 | e40fe4d9-bf92-4873-8d4f-f84142faee21 |
+| C57 | R2 | 5522c0f5-078b-42aa-82de-ad97933f9f37 |
+| C58 | R2 | 2d37c117-2130-40fd-8ca4-6a908e47c68b |
+| C59 | R1 | 98382a55-4535-452c-997d-2208ef430481 |
+| C60 | R1 | d0964779-110d-4915-8c14-d02395b10950 |
