@@ -35,6 +35,29 @@ allowance of 30% reflects today's still-generation hit rate (about one in four n
 second pass, mostly filter rejections and hand or prop errors). Upscaling to 1080p later is a
 separate pass and is not in these figures.
 
+
+## 1b. Measured on 6 Oct 2026: Seedance 2.5 + Topaz route (the show's look)
+The user films in Seedance 2.5 for its look; Kling is not used. Test clip C05 (6 s) was
+generated at 480p and 720p and both were upscaled to 1080p with Topaz Video.
+
+| Step | Measured | Per second |
+|---|---|---|
+| Seedance 2.5, 480p, 6 s | 18 credits | 3.0 |
+| Seedance 2.5, 720p, 6 s | 42 credits | 7.0 |
+| Topaz to 1080p from the 480p clip | 3 credits | 0.5 |
+| Topaz to 1080p from the 720p clip | 5 credits | 0.83 |
+
+Episode at 434 s, 66 clips:
+
+| Route | Generate | Topaz | One pass | Generate retakes at 30% |
+|---|---|---|---|---|
+| 480p + Topaz | 1,302 | 217 | 1,519 | 1,910 |
+| 720p + Topaz | 3,038 | 362 | 3,400 | 4,311 |
+| Mixed: 720p for the 13 close-ups and 3 inserts (89 s), 480p for the rest | 1,658 | about 250 | about 1,910 | about 2,400 |
+
+Test jobs: 480p ce6b3b01 → Topaz 4d96779d; 720p a271e86a → Topaz f3fabe54. One 480p
+attempt (b74ea641) was filter-rejected and refunded; neutral wording passed.
+
 ## 2. Production rules for the animation pass
 
 - One clip = one start frame = one prompt. Never chain a clip from another clip's last frame;
