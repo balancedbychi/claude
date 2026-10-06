@@ -150,11 +150,16 @@ by the banquettes; the DJ cage is centre-FAR; Zarya's kiss is at the foot of the
 the Zarya bar exchange is at the LEFT bar, further down from the boys. Two hundred guests
 in soft focus, nobody overlapping a principal.
 
-**SET F — The Vault.** NEW. The old walk-in bank vault as a listening room. The round steel
-vault door open at frame LEFT, swung most of the way shut. Inside: twelve dark leather
-armchairs in a loose horseshoe, a full wall of vinyl at the back, two tall speakers, one low
-brass floor lamp, dim warm light. Camera inside the vault looking toward the door so the
-party glow leaks in around the edge.
+**SET F — The Vault.** LOCKED 6 Oct 2026, element Ledger-Vault-Night. The old walk-in bank
+vault as a modern listening room. The round polished-steel door with brass bolts at frame
+LEFT, swung most of the way shut, amber party light leaking around its edge. Inside: twelve
+low black leather lounge chairs in a loose horseshoe on a dark green rug, a floor-to-ceiling
+vinyl wall in brass-framed shelves with warm LED strips, a walnut console with a turntable,
+two tall matte-black speakers, one brass floor lamp, a low glass table with two whisky
+glasses that stay untouched. Camera inside looking toward the door. STAGE MAP: Tay pushes
+the door with his LEFT hand in C33; he sits on the ARM of the nearest chair at frame LEFT
+for C34 to C38; Nia stands at frame RIGHT and sets her clutch on the seat of the chair
+beside her.
 
 **SET G — The Roof, night.** NEW. Open rooftop, string lights overhead on two crossing
 lines, a waist-high stone parapet along the far edge, the city skyline beyond. A single door

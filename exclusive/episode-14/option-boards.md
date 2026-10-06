@@ -47,8 +47,8 @@ Saved as element **ChiChi-Nice-Building-Look 2cdea43b-4964-44c2-be5c-1b6a7d5a137
 | 33 | **Exterior 2 — DECIDED 6 Oct 2026.** Re-uploaded as media 6875822c. Saved as element **Ledger-Exterior-Night a5c9f90f-4e6a-48b8-ad9e-9e9dd2835526** |
 | 34 | Main floor 1: retired |
 | 35 | **Main floor 2 — DECIDED 6 Oct 2026.** Re-uploaded as media 878e54a0. Saved as element **Ledger-Main-Floor-Night 02fe15f7-d8a5-45fd-8a54-1956abfc770d** |
-| 36 | Vault 1: black leather horseshoe, vinyl wall, walnut console, two whisky glasses |
-| 37 | Vault 2: green velvet sofa, safe-deposit wall, black marble table |
+| 36 | **Vault 1 — DECIDED 6 Oct 2026.** Re-uploaded as media 6c68fac2. Saved as element **Ledger-Vault-Night 389a62cf-1ade-4e45-860d-22fdc5c045c0** |
+| 37 | Vault 2: retired |
 | 38 | Roof 1: LARGE, amber-lit pool, glass balustrades, onyx bar, fire pits, guests |
 | 39 | Roof 2: LARGE, stone pavers, glass edge over river, long bar, DJ under string lights, guests |
 | 40 | Roof 3: LARGE, two levels, cabanas and daybeds, fire pits, glass edge, guests |
