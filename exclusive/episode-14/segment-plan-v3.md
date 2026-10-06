@@ -191,4 +191,4 @@ women, each is named against the other (hair, dress, height) and the one who tou
 | R2 roof, "I didn't let her" through "She just won't let go.", 30 s | 57f80555-4e41-4334-bbf5-d6b0351cc248 | 210; rendering; hands rule applied (one brief head rub, otherwise open at sides) |
 | R3 roof, "I'm not him" through "Just you.", 30 s | 3d500d14-a41e-4ab0-8da7-a76bafc8e291 | 210; rendering; Nia's one point at his chest; his hands stop before touching |
 | R4 roof, "That's a really nice thing to say" through "Like I knew somebody would.", 25 s | 67f57055-1ed6-4ef6-ac90-9d4852fce748 | 175; rendering; bag picked up with her right hand; his left hand stops six inches from her shoulder |
-| R5 roof, exit + "I do like you. That's the problem." + Tay alone, 20 s | 4a21e8d9-6cf3-4aa4-b2fe-f0a8eaddd5d5 | 140; rendering; hands on the back of his neck only in the final four seconds |
+| R5 roof, exit + "I do like you. That's the problem." + Tay alone, 20 s | 4a21e8d9-6cf3-4aa4-b2fe-f0a8eaddd5d5 | 140; RENDERED 720p (gallery 20:36), awaiting user review; hands on the back of his neck only in the final four seconds |
