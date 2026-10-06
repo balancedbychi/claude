@@ -145,6 +145,12 @@ In any handshake, greeting or exchange of lines, the two people FACE EACH OTHER 
 EACH OTHER IN THE FACE; the prompt says so. Any neck or head that does not sit naturally on
 its body is rejected.
 
+**Hands and props (user ruling 6 Oct 2026).** An offered handshake is described in full: arm
+extended at waist height, hand vertical, thumb on top, palm facing the other person. Every
+glass, bottle, phone or bag is either IN a named hand or RESTING on a named surface, and the
+prompt says which; nothing hovers. A still with a floating prop or a backwards hand is
+rejected.
+
 **Perspective / floor level.** Everyone in a room stands on the same floor. Camera at eye
 level (about 5 feet) unless a beat says low or high. Nia is 5'2": in any frame with guests
 or Tay behind her, their heads sit at or above hers in the depth, never below. No steps,

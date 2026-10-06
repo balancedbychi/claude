@@ -286,3 +286,7 @@ attached). Retired: 98382a55, 90bf7eb5, 8d6f26d1, 04cbee31.
 | C47 | O2 | f1530263-c9d5-49eb-96a2-02205c300fe1 |
 | C48 | O2 | 7ca8abca-df1a-4246-99ba-67179901dd23 |
 | C49 | O2 | ad82bbcd-6468-44e9-8894-e5d80e4e1272 |
+Tenth review: C47 hand offered backwards, C49 glasses floating. Rule added (hands and props).
+| C47 retake | O2 | e58c5d6b-4474-4ee1-bfca-2587e012b4d8 |
+| C49 retake | O2 | 0309abc2-c6d3-487a-a3c6-ccf8b628aa44 |
+Retired: f1530263, ad82bbcd.
