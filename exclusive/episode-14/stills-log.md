@@ -33,10 +33,10 @@ each master approved, then build every clip in that setup as a continuity EDIT o
 ## Scene 14.1 master plates
 | Plate | Setup | Job |
 |---|---|---|
-| A (night) | Nia living room, wide, Nia in the dress on the rug, phone leaning on the lamp | 376b8dbe-cb67-4c73-aca7-3ecee1c666b1 |
-| B | ChiChi on her sofa, medium, looking into the phone | 157dc803-1968-4964-9c88-6dd888d21632 |
-| C (night) | Nia medium, chest-up | 3970b226-3a33-403d-a41c-e78a67ebd9b2 |
-| D | ChiChi close, chest-up, looking into the phone | b43f21a6-133e-48e6-8918-785f5024ed59 |
+| A (night) | Nia living room, wide, Nia in the dress on the rug, phone leaning on the lamp | 376b8dbe-cb67-4c73-aca7-3ecee1c666b1 **APPROVED** |
+| B | ChiChi on her sofa, medium, looking into the phone | 157dc803 rejected; retakes 79f6b827 (pull-back from D) and 5559a79a (fresh, room attached) |
+| C (night) | Nia medium, chest-up | 3970b226 rejected; retakes b65f4794 (push-in on A) and 2f5449db (fresh, room attached) |
+| D | ChiChi close, chest-up, looking into the phone | b43f21a6-133e-48e6-8918-785f5024ed59 **APPROVED** |
 | E | Car back seat, Nia upright, phone at chest height (LOCKED) | 848f2d08-ec58-4b07-894e-a5f393531d80 |
 
 Clips per plate: A → C01 (robe), C03 (robe), C05, C08, C16, C18, C20. B → C02, C04, C06, C07.
