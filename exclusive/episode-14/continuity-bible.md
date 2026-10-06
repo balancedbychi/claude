@@ -287,6 +287,62 @@ end the call, phone lowered, and she turns toward the mirror as the clip ends.
 Twelve shots, about 104 s. Lines that were split across C01/C03, C07/C09, C10/C12, C11/C13,
 C16 and C17 are now spoken in sequence inside one shot. C04, C08, C14 are absorbed.
 
+
+## 1c. THE CANON RECIPE (read from the approved Episode 13 clips, 6 Oct 2026). Supersedes 1b.
+
+How the episodes that look right were actually made (Seedance 2.5 jobs b8403218, 5839271e,
+55e9dca5 in the account history):
+
+1. **Seedance 2.5, 720p, 9:16, generate_audio ON, 8 to 26 seconds, one job per segment.**
+   No separate text-to-speech, no imported audio file. Voices come from the VOICE ELEMENTS
+   written into the prompt as placeholders: Nia <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>
+   (Nia-Canon-Voice-v2), ChiChi <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>
+   (ChiChi-Canon-Voice-v1). The prompt also describes each voice in words and says NEVER
+   American for Nia, NEVER British for ChiChi, and "NEE-uh".
+2. **Identity comes from ELEMENT PLACEHOLDERS in the prompt, not from attached images.**
+   Face element, body element, clothes element, set element, each as <<<id>>>, with the
+   sentence "HER CLOTHES COME ONLY FROM <<<look>>>. Nothing is worn from the face or body
+   references." Episode 14 ids: Nia face 3497a052-ed61-4fbc-babe-c9f7fc11bf77, Nia dress
+   62615e58-aba0-49ff-8fd7-a70089fee959; ChiChi face b03240bd-4562-4d2f-8b14-de32c018e346,
+   body 46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc, look 2cdea43b-4964-44c2-be5c-1b6a7d5a137d;
+   Tay face 288d8911-4b45-4246-aac4-0ec3a69003c2, look 35062476-f6a3-4467-bf93-1547537854ef;
+   Zarya look 37733607-b364-4fce-b281-84749863b043; sets: Nia living room night
+   67647bad-c232-4311-a131-750100ce3bd3, ChiChi living room night
+   9c43c008-b953-4dac-9ab2-9b77929580c3, car 3b8fc14c-c8a7-485d-b87b-263697c6c6ce,
+   exterior a5c9f90f-4e6a-48b8-ad9e-9e9dd2835526, main floor
+   02fe15f7-d8a5-45fd-8a54-1956abfc770d, vault 389a62cf-1ade-4e45-860d-22fdc5c045c0,
+   roof 57b68bf6-0963-4fc5-99e1-fc8a7589b4a8.
+3. **The approved still is the START IMAGE** (role start_image), with the sentence "the clip
+   opens EXACTLY on the attached start image ... and moves on from that frame".
+4. **The previous approved clip is attached as a VIDEO reference** (role "video") and the
+   prompt names it THE AUTHORITY for looks, voices, place, light and camera, and says no line
+   from it is repeated. The first segment of a scene references the last approved clip that
+   has the same characters (for Nia and ChiChi: Episode 13 kitchen clip e354ea5a; for Tay:
+   Episode 13 bar clip 55e9dca5, the authority for his voice). Each later segment references
+   the segment before it. This chain is what keeps voices and faces identical for an episode.
+5. **One segment can hold several shots and both characters.** The prompt is written SHOT BY
+   SHOT with timestamps, each line tagged with its speaker and accent, cuts between angles
+   allowed ("TWO CAMERA ANGLES WITH ONE HARD CUT"). A FaceTime scene intercuts Nia and ChiChi
+   inside one segment; it is never one clip per character.
+6. **Prompt structure, in this order, every time:** "N SECONDS." + genre, orientation, time
+   of day, one-line scene summary, "Wholesome, fully clothed." / REFERENCE VIDEO paragraph /
+   START IMAGE paragraph / TIMING: NO PAUSES, NO DEAD AIR, every line within two tenths of a
+   second of the one before, gestures happen WHILE someone speaks, opens on the first line
+   and ends on the last / SPEECH: fluent, whole words / HEADCOUNT: exactly N people, never
+   two of anyone / SET with element / each CHARACTER with face, body, clothes elements,
+   height, build, no rings / PROPS, each one solid, counted / BLOCKING identical in every
+   shot, who is frame left and right / FIRST FRAME / THE CLIP, SHOT BY SHOT with timestamps,
+   camera, action during the line, the line with speaker and accent / LINE OWNERSHIP, NEVER
+   SWAPPED / VOICES with the two voice elements / CAMERA (steady, no zooms, faces never
+   tighter than waist-up) / PHYSICS / AUDIO (only these lines, room tone, no music, no
+   subtitles).
+7. Rules from 1a (height, sides, props, limbs, furniture) are carried into those sections.
+
+What went wrong on 6 Oct: the Episode 14 video pass used attached face images and a
+start frame with no element placeholders, no voice elements, no reference-video chain, and
+later a separately generated voice track. That is why Nia's face, dress and voice drifted
+and why the clips did not look or sound like Episode 13. All 6 Oct video clips are retired.
+
 ## 2. Wardrobe for Episode 14 (to pick from generated options)
 
 **NIA** — LOCKED 6 Oct 2026
