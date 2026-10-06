@@ -179,3 +179,6 @@ test clip a271e86a (Topaz f3fabe54).
 | C18 | 480 | 1e215ae7-e9f7-493a-935b-7786d841517f |
 | C19 | 720 | 6ff6be88-955a-49d1-9a1e-49ad02c5f635 |
 | C20 | 480 | 1f70642d-24e9-4f11-9732-301df85065ee |
+Filter retakes (neutral wording): C01 → 51ef7dd4-f2e8-497d-ab09-2d17b4111bc3; C08 →
+(see below); C10 → a6256036-1dd8-4f99-8638-308d8e6179f7; C20 → 998f2ff6-775d-4f8f-8221-703240ab97f9.
+Rejected and refunded: 47c49e5a, f63b448f, 00407b2e, 1f70642d.
