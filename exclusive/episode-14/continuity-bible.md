@@ -108,7 +108,8 @@ EVERY frame that holds both, Tay is a full head taller: the top of Nia's head re
 SHOULDER, her eyes are level with his chest, and she looks UP at him. The prompt states this
 in words every time ("he is a full head taller, the top of her head at his shoulder"). A
 still in which they read the same height is rejected, whatever else is right about it. Same
-rule for Zarya and Tay (Zarya 5'7" in heels, her head at his chin) and for the host and Nia
+rule for Zarya and Tay (Zarya 5'7" in heels, her head at his chin), for ZARYA AND NIA (Zarya
+is a half head taller: the top of Nia's head at Zarya's eye line) and for the host and Nia
 (the host is taller, Nia's head at the host's chin).
 
 **Extras and the boys (user ruling 6 Oct 2026).** A principal's face or look image is NEVER
@@ -133,6 +134,12 @@ holds for the living rooms (plates A and B), the car (E) and the roof (R1).
 **Side by side (user ruling 6 Oct 2026).** When a beat says a hand is on someone's back,
 elbow or shoulder, the two people are on the SAME LINE, shoulder to shoulder, neither ahead
 of the other, and the prompt says so. A hand that reaches a back from in front is rejected.
+
+**Heads, necks and eye lines (user ruling 6 Oct 2026).** A head turns no more than a
+quarter turn from the chest; a face is never seen from behind a shoulder that faces camera.
+In any handshake, greeting or exchange of lines, the two people FACE EACH OTHER and LOOK
+EACH OTHER IN THE FACE; the prompt says so. Any neck or head that does not sit naturally on
+its body is rejected.
 
 **Perspective / floor level.** Everyone in a room stands on the same floor. Camera at eye
 level (about 5 feet) unless a beat says low or high. Nia is 5'2": in any frame with guests
@@ -518,27 +525,30 @@ He isn't. No line.
 **C45 — Nia sees it.** CAMERA: close on Nia, same position as C41. HANDS: LEFT hand drops
 from her collarbone to her side. FACE: the light goes out. Mouth closes. No line.
 
-**C46 — The bar.** CAMERA: medium two-shot at the brass bar, Nia at frame LEFT facing the
-bar, Zarya sliding in at frame RIGHT, facing the bar too, not looking at Nia yet. HANDS:
-Nia's RIGHT hand flat on the bar, not steady; bag under her LEFT arm. Zarya's LEFT hand
-rests on the bar; RIGHT hand raised one finger to the bartender. Six boys NOT in this frame
-(they're further down). FACE: Nia staring at nothing. Zarya calm. LINE: "You must be Nia."
+**C46 — The bar.** CAMERA: on the floor side of the brass bar at a 45-degree angle, eye level,
+medium two-shot, so both faces read in three-quarter. Nia at frame LEFT, leaning on the bar;
+Zarya at frame RIGHT on NIA'S RIGHT, sliding in beside her, also facing the bar. HEIGHT:
+Zarya a half head taller, the top of Nia's head at Zarya's eye line. HANDS: Nia's RIGHT hand
+flat on the bar, not steady; bag under her LEFT arm. Zarya's LEFT hand rests on the bar;
+RIGHT hand raised one finger to the bartender. FACE: Nia staring at nothing. Zarya calm.
+LINE: "You must be Nia."
 
-**C47 — "Tay's girlfriend."** CAMERA: same. Zarya has turned to face Nia. HANDS: Zarya's
-RIGHT hand extended for a handshake, palm sideways, held in the air. Nia's RIGHT hand still
-flat on the bar, not taking it. FACE: Zarya smiling. Nia's face blank. LINES: "...I'm
-sorry?" / "Zarya. Tay's girlfriend."
+**C47 — "Tay's girlfriend."** CAMERA: same. Zarya has turned to face Nia; Nia has turned her
+head to Zarya; they look each other in the face. HANDS: Zarya's RIGHT hand extended for a
+handshake, palm sideways, held in the air. Nia's RIGHT hand still flat on the bar, not taking
+it. FACE: Zarya smiling. Nia's face blank. LINES: "...I'm sorry?" / "Zarya. Tay's girlfriend."
 
-**C48 — The handshake.** CAMERA: same, tighter on the hands and faces. HANDS: Nia's RIGHT
-hand finally in Zarya's, a brief, correct shake. FACE: Nia's eyes on Zarya. LINES:
-"Girlfriend." / "Three years. I was here when this was a hole with no roof. Did he tell you
-about the space heater? He loves that story."
+**C48 — The handshake.** CAMERA: same, tighter. Both women have turned their bodies to FACE
+EACH OTHER, square on, eyes on each other's faces. HANDS: Nia's RIGHT hand in Zarya's RIGHT
+hand, a brief, correct shake between them at waist height. FACE: Nia's eyes on Zarya's.
+LINES: "Girlfriend." / "Three years. I was here when this was a hole with no roof. Did he tell
+you about the space heater? He loves that story."
 
-**C49 — "He does that."** CAMERA: same two-shot. HANDS: Zarya's drink has arrived; she holds
-it in her RIGHT hand and taps it once against the glass that has appeared in front of Nia on
-the bar. Nia's hands: both flat on the bar now. FACE: Zarya kind, which is worse. Nia says
-nothing. LINES: "He didn't mention me, did he." Beat. "Yeah. He does that." Zarya exits frame
-RIGHT.
+**C49 — "He does that."** CAMERA: same two-shot, both turned back to the bar. HANDS: Zarya's
+drink has arrived; she holds it in her RIGHT hand and taps it once against the glass that has
+appeared in front of Nia on the bar. Nia's hands: both flat on the bar now. FACE: Zarya kind,
+which is worse. Nia says nothing. LINES: "He didn't mention me, did he." Beat. "Yeah. He does
+that." Zarya exits frame RIGHT.
 
 ### SCENE 14.8 — The Roof (SET G)
 
