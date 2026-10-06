@@ -8,7 +8,7 @@ Read `script.md` first: it has the story, the floor plan and the beat-by-beat. T
 
 | # | Scene | Job ID | Length | Resolution | Credits | Status |
 |---|---|---|---|---|---|---|
-| 01 | Cleared | `66dcd657-33c0-427e-aae1-1cff873654e7` | 10 s | 720p | 70 | Rendering |
+| 01 | Cleared | `66dcd657…` blocked by the content check (refunded) | 10 s | 720p | 70 | v2 waiting for your OK |
 | 02 | No Excuse | — | 8 s | 720p | 56 | Not filmed |
 | 03 | The Launch | — | 12 s | 720p | 84 | Not filmed |
 | 04 | Saturday. Yes. | — | 13 s | 720p | 91 | Not filmed |
@@ -55,6 +55,7 @@ Tay, DB and Dorian are **not** attached: they're never seen or heard.
 | **Nia's face drifting in side profile** (your review of the first stills, 6 Oct 2026) | Stills rebuilt from the `Nia-Face` sheet (your pick, A). Every prompt pastes her face description, points at `Nia-Face`, and keeps her face in a three-quarter view, never a flat profile. |
 | **Nia's phone turning into ChiChi's colour** (your review of Still 04 v2) | Words alone weren't enough ("beige" drifted to cream, then a guessed caramel was wrong too). Every still and clip now attaches **your `Nia-Phone` photo** (`ad3a5a8b-3c7a-44f7-8895-7f154b41057f`) and the TWO DIFFERENT PHONES block points at it. |
 | **ChiChi's skin looking patchy** (your review of Still 04 v4) | Every prompt now says her skin is one even, uniform warm brown everywhere, never patchy or blotchy, with only a few subtle freckles. |
+| **Content-check block** (Clip 01 v1, "nsfw") | The `Nia-Phone` photo stays out of every VIDEO request (stills only). Each clip's phone colour comes from its start still. |
 | **Patchy, uneven skin** (your review of all the stills) | Your Appearance Lock skin block, word for word, in every clip prompt: even, clear, luminous, pores visible; negates blotchy, mottled, patchy, soft and the named age markers. And no more edit-of-an-edit stills. |
 | **Smiling in the wrong place** (reaction rule) | Clip 05: "NO SMILING from the buzz on", with face cues for both women. |
 | Counter shape, Chi's arms, Nia's build, accents, rings, sides | Carried over word for word from Episode 12's approved prompts. |
@@ -91,7 +92,7 @@ POSE: <pose line>
 
 ---
 
-## CLIP 01 · "Cleared" · 10 s · 70 credits · v1 (job `66dcd657`, rendering)
+## CLIP 01 · "Cleared" · 10 s · 70 credits · v2 (v1 `66dcd657` blocked by the content check)
 
 **First line:** Nia's "No. You said it, so you go." **Final line:** Nia's "So much for penciled in."
 **Beat check:**
@@ -100,7 +101,7 @@ POSE: <pose line>
 - **Out of Clip 01:** ChiChi's hands flat either side of her face-down phone; Nia's right hand resting on her face-down phone. Still 02 opens on the same.
 - **Reference line:** Episode 12's last line is never quoted in this prompt (rule 9). Nia's first line was changed so it doesn't echo it.
 
-**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 10`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: 994ca420-c676-4f08-a712-faba3249a79d}, {role: video_references, value: `68a8a8a6-a26c-4198-a29d-851380d1e329` (Episode 12, approved Clip 06)}, + element images as image_references, + Nia's phone photo `ad3a5a8b-3c7a-44f7-8895-7f154b41057f` as an image_reference]`.
+**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 10`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: 994ca420-c676-4f08-a712-faba3249a79d}, {role: video_references, value: `68a8a8a6-a26c-4198-a29d-851380d1e329` (Episode 12, approved Clip 06)}, + element images as image_references]` (NO phone photo: it trips the video content check; the phone comes from the start still).
 
 ```
 10 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
@@ -127,9 +128,9 @@ NIA, EXACTLY AS IN THE START IMAGE AND THE REFERENCE VIDEO: face, hair and skin 
 
 SKIN, BOTH WOMEN (from your Appearance Lock guide): even, healthy, clear, luminous skin with natural visible pore texture and fine skin detail, sharply in focus, fully resolved, the light falling evenly across both faces. ONE uniform tone per woman across face, neck, chest, arms and hands. NOT blotchy, NOT mottled, NOT patchy, NOT waxy, NOT plastic, NOT muddy, NOT grainy, NOT over-smoothed into a flat featureless mask; NOT soft, NOT blurred, NOT out of focus. NO wrinkles, NO fine lines, NO crow's feet, NO forehead lines, NO nasolabial creases, NO sagging, NO crepey or papery texture, NO age spots, NO dullness, NO sallowness, NO under-eye shadows, NO hollowing. Their ages read in their composure, never in their skin.
 
-PROPS ON THE ISLAND: the glass French press and BOTH white mugs stand on the island EXACTLY where they are in the start image and are FIXED, STATIONARY objects for the whole clip: NOBODY touches them, they NEVER move, lift, slide, tip, float or fly. The ONLY objects that move are the two phones, ONE AT A TIME, each only by its owner: first Nia lowers HER OWN smartphone in its beige/tan case, exactly as in the attached phone photo, onto the marble, FACE-DOWN, under her right hand; later ChiChi lays HER OWN smartphone in a PALE CREAM (off-white) case FACE-DOWN on the marble beside the French press. NO extra phone, mug, pot or object ever appears or moves through the frame. Each object is one solid thing: it never duplicates, never merges with or passes through another object, a hand or the counter. Nothing is thrown, tossed or falls.
+PROPS ON THE ISLAND: the glass French press and BOTH white mugs stand on the island EXACTLY where they are in the start image and are FIXED, STATIONARY objects for the whole clip: NOBODY touches them, they NEVER move, lift, slide, tip, float or fly. The ONLY objects that move are the two phones, ONE AT A TIME, each only by its owner: first Nia lowers HER OWN smartphone in its beige/tan case, exactly as in the start image, onto the marble, FACE-DOWN, under her right hand; later ChiChi lays HER OWN smartphone in a PALE CREAM (off-white) case FACE-DOWN on the marble beside the French press. NO extra phone, mug, pot or object ever appears or moves through the frame. Each object is one solid thing: it never duplicates, never merges with or passes through another object, a hand or the counter. Nothing is thrown, tossed or falls.
 
-TWO DIFFERENT PHONES, NEVER CONFUSED: NIA'S phone is EXACTLY the phone in the attached image of her phone (the user's photo): the same beige/tan case, colour, finish, size and model. CHICHI'S phone has a PALE CREAM (off-white) case. The two colours never swap, never match, and each phone keeps its own colour in every hand and every shot, including when ChiChi holds Nia's phone.
+TWO DIFFERENT PHONES, NEVER CONFUSED: NIA'S phone is EXACTLY her phone as it appears in the start image: the same beige/tan case, colour, finish, size and model. CHICHI'S phone has a PALE CREAM (off-white) case. The two colours never swap, never match, and each phone keeps its own colour in every hand and every shot, including when ChiChi holds Nia's phone.
 
 PHONE SCREENS ARE NEVER SEEN: whoever holds a phone holds it with the screen facing HERSELF; the camera only ever sees the BACK of each phone case, and a phone lying on the marble lies FACE-DOWN. No screen, no glow, no text, no names, no messages, no notifications are ever visible to the camera.
 
@@ -172,7 +173,7 @@ AUDIO: only these five lines, plus the same soft morning kitchen room tone as th
 - **Props:** only ChiChi's mug moves (5.5–8 s).
 - **Out of Clip 02:** ChiChi holding her mug in her right hand; Nia looking down at her phone. Still 03 opens with Nia lifting it.
 
-**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 8`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: 716edc5e-6e1e-4547-8ceb-a8ddc8d9b076}, {role: video_references, value: approved Clip 01}, + element images as image_references, + Nia's phone photo `ad3a5a8b-3c7a-44f7-8895-7f154b41057f` as an image_reference]`.
+**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 8`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: 716edc5e-6e1e-4547-8ceb-a8ddc8d9b076}, {role: video_references, value: approved Clip 01}, + element images as image_references]` (NO phone photo: it trips the video content check; the phone comes from the start still).
 
 ```
 8 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
@@ -201,7 +202,7 @@ SKIN, BOTH WOMEN (from your Appearance Lock guide): even, healthy, clear, lumino
 
 PROPS ON THE ISLAND: the glass French press, NIA'S white mug and BOTH phones (Nia's beige/tan phone FACE-DOWN under her right hand, ChiChi's cream-case phone FACE-DOWN beside the French press) stay EXACTLY where they are in the start image and are FIXED, STATIONARY objects for the whole clip: they NEVER move, lift, slide, tip, float or fly. The ONLY object that moves is CHICHI'S OWN white mug, picked up once by ChiChi in her right hand near the end. NO extra phone, mug, pot or object ever appears or moves through the frame. Each object is one solid thing: it never duplicates, never merges with or passes through another object, a hand or the counter. Nothing is thrown, tossed or falls.
 
-TWO DIFFERENT PHONES, NEVER CONFUSED: NIA'S phone is EXACTLY the phone in the attached image of her phone (the user's photo): the same beige/tan case, colour, finish, size and model. CHICHI'S phone has a PALE CREAM (off-white) case. The two colours never swap, never match, and each phone keeps its own colour in every hand and every shot, including when ChiChi holds Nia's phone.
+TWO DIFFERENT PHONES, NEVER CONFUSED: NIA'S phone is EXACTLY her phone as it appears in the start image: the same beige/tan case, colour, finish, size and model. CHICHI'S phone has a PALE CREAM (off-white) case. The two colours never swap, never match, and each phone keeps its own colour in every hand and every shot, including when ChiChi holds Nia's phone.
 
 PHONE SCREENS ARE NEVER SEEN: whoever holds a phone holds it with the screen facing HERSELF; the camera only ever sees the BACK of each phone case, and a phone lying on the marble lies FACE-DOWN. No screen, no glow, no text, no names, no messages, no notifications are ever visible to the camera.
 
@@ -243,7 +244,7 @@ AUDIO: only these four lines, plus the same soft morning kitchen room tone as th
 - **The take:** ChiChi's right hand slides the phone out of Nia's hands; the screen stays away from the camera the whole time. This is the riskiest moment in the episode. If it fails, the fallback is ChiChi laying her hand flat over the phone in Nia's hands.
 - **Out of Clip 03:** ChiChi holding Nia's phone in her right hand; Nia's hands open. Still 04 opens on the same.
 
-**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 12`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: c9e324ba-e469-4abd-b16c-a85008fb33da}, {role: video_references, value: approved Clip 02}, + element images as image_references, + Nia's phone photo `ad3a5a8b-3c7a-44f7-8895-7f154b41057f` as an image_reference]`.
+**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 12`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: c9e324ba-e469-4abd-b16c-a85008fb33da}, {role: video_references, value: approved Clip 02}, + element images as image_references]` (NO phone photo: it trips the video content check; the phone comes from the start still).
 
 ```
 12 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
@@ -272,7 +273,7 @@ SKIN, BOTH WOMEN (from your Appearance Lock guide): even, healthy, clear, lumino
 
 PROPS ON THE ISLAND: the glass French press, NIA'S white mug and CHICHI'S cream-case phone (FACE-DOWN beside the French press) stay EXACTLY where they are in the start image and are FIXED, STATIONARY objects for the whole clip: they NEVER move, lift, slide, tip, float or fly. Only TWO objects move, ONE AT A TIME: first ChiChi sets HER OWN white mug down on the marble; only after that, ChiChi takes NIA'S beige/tan phone out of Nia's hands with her right hand. NO extra phone, mug, pot or object ever appears or moves through the frame. Each object is one solid thing: it never duplicates, never merges with or passes through another object, a hand or the counter. Nothing is thrown, tossed or falls.
 
-TWO DIFFERENT PHONES, NEVER CONFUSED: NIA'S phone is EXACTLY the phone in the attached image of her phone (the user's photo): the same beige/tan case, colour, finish, size and model. CHICHI'S phone has a PALE CREAM (off-white) case. The two colours never swap, never match, and each phone keeps its own colour in every hand and every shot, including when ChiChi holds Nia's phone.
+TWO DIFFERENT PHONES, NEVER CONFUSED: NIA'S phone is EXACTLY her phone as it appears in the start image: the same beige/tan case, colour, finish, size and model. CHICHI'S phone has a PALE CREAM (off-white) case. The two colours never swap, never match, and each phone keeps its own colour in every hand and every shot, including when ChiChi holds Nia's phone.
 
 PHONE SCREENS ARE NEVER SEEN: whoever holds a phone holds it with the screen facing HERSELF; the camera only ever sees the BACK of each phone case, and a phone lying on the marble lies FACE-DOWN. No screen, no glow, no text, no names, no messages, no notifications are ever visible to the camera.
 
@@ -313,7 +314,7 @@ AUDIO: only these four lines, plus the same soft morning kitchen room tone as th
 - **Props:** Nia's phone goes back to her (3.5–6.5 s), she types and lays it face-down (6.5–9.5 s); only then does ChiChi pick up her own phone (9.5–13 s).
 - **Out of Clip 04:** both phones face-down, both women's hands empty, small smiles. Still 05 opens on the same.
 
-**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 13`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: 069bcf84-1838-49e7-8712-3fc5b1fdbd46}, {role: video_references, value: approved Clip 03}, + element images as image_references, + Nia's phone photo `ad3a5a8b-3c7a-44f7-8895-7f154b41057f` as an image_reference]`.
+**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 13`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: 069bcf84-1838-49e7-8712-3fc5b1fdbd46}, {role: video_references, value: approved Clip 03}, + element images as image_references]` (NO phone photo: it trips the video content check; the phone comes from the start still).
 
 ```
 13 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
@@ -342,7 +343,7 @@ SKIN, BOTH WOMEN (from your Appearance Lock guide): even, healthy, clear, lumino
 
 PROPS ON THE ISLAND: the glass French press and BOTH white mugs stand on the island EXACTLY where they are in the start image and are FIXED, STATIONARY objects for the whole clip: NOBODY touches them, they NEVER move, lift, slide, tip, float or fly. Only the two phones move, ONE AT A TIME: first NIA'S beige/tan phone, which ChiChi holds at the start, hands it back to Nia, and Nia lays FACE-DOWN by her right hand after typing; only after that, ChiChi picks up HER OWN cream-case phone from beside the French press, types, and lays it FACE-DOWN again in the same place. NO extra phone, mug, pot or object ever appears or moves through the frame. Each object is one solid thing: it never duplicates, never merges with or passes through another object, a hand or the counter. Nothing is thrown, tossed or falls.
 
-TWO DIFFERENT PHONES, NEVER CONFUSED: NIA'S phone is EXACTLY the phone in the attached image of her phone (the user's photo): the same beige/tan case, colour, finish, size and model. CHICHI'S phone has a PALE CREAM (off-white) case. The two colours never swap, never match, and each phone keeps its own colour in every hand and every shot, including when ChiChi holds Nia's phone.
+TWO DIFFERENT PHONES, NEVER CONFUSED: NIA'S phone is EXACTLY her phone as it appears in the start image: the same beige/tan case, colour, finish, size and model. CHICHI'S phone has a PALE CREAM (off-white) case. The two colours never swap, never match, and each phone keeps its own colour in every hand and every shot, including when ChiChi holds Nia's phone.
 
 PHONE SCREENS ARE NEVER SEEN: whoever holds a phone holds it with the screen facing HERSELF; the camera only ever sees the BACK of each phone case, and a phone lying on the marble lies FACE-DOWN. No screen, no glow, no text, no names, no messages, no notifications are ever visible to the camera.
 
@@ -385,7 +386,7 @@ AUDIO: only these lines, plus the same soft morning kitchen room tone as the ref
 - **Props:** only Nia's phone moves. It buzzes in place without sliding, then she picks it up.
 - **Expression:** from the buzz on, no smiling for either woman (reaction rule).
 
-**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 8`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: ed0e6bab-21ff-4051-bdd4-d9d24b76088c}, {role: video_references, value: approved Clip 04}, + element images as image_references, + Nia's phone photo `ad3a5a8b-3c7a-44f7-8895-7f154b41057f` as an image_reference]`.
+**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 8`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: ed0e6bab-21ff-4051-bdd4-d9d24b76088c}, {role: video_references, value: approved Clip 04}, + element images as image_references]` (NO phone photo: it trips the video content check; the phone comes from the start still).
 
 ```
 8 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
@@ -414,7 +415,7 @@ SKIN, BOTH WOMEN (from your Appearance Lock guide): even, healthy, clear, lumino
 
 PROPS ON THE ISLAND: the glass French press, BOTH white mugs and CHICHI'S cream-case phone (FACE-DOWN beside the French press) stay EXACTLY where they are in the start image and are FIXED, STATIONARY objects for the whole clip: NOBODY touches them, they NEVER move, lift, slide, tip, float or fly. The ONLY object that moves is NIA'S OWN beige/tan phone: it buzzes once in place, then Nia picks it up and turns it over, screen toward herself. NO extra phone, mug, pot or object ever appears or moves through the frame. Each object is one solid thing: it never duplicates, never merges with or passes through another object, a hand or the counter. Nothing is thrown, tossed or falls.
 
-TWO DIFFERENT PHONES, NEVER CONFUSED: NIA'S phone is EXACTLY the phone in the attached image of her phone (the user's photo): the same beige/tan case, colour, finish, size and model. CHICHI'S phone has a PALE CREAM (off-white) case. The two colours never swap, never match, and each phone keeps its own colour in every hand and every shot, including when ChiChi holds Nia's phone.
+TWO DIFFERENT PHONES, NEVER CONFUSED: NIA'S phone is EXACTLY her phone as it appears in the start image: the same beige/tan case, colour, finish, size and model. CHICHI'S phone has a PALE CREAM (off-white) case. The two colours never swap, never match, and each phone keeps its own colour in every hand and every shot, including when ChiChi holds Nia's phone.
 
 PHONE SCREENS ARE NEVER SEEN: whoever holds a phone holds it with the screen facing HERSELF; the camera only ever sees the BACK of each phone case, and a phone lying on the marble lies FACE-DOWN. No screen, no glow, no text, no names, no messages, no notifications are ever visible to the camera.
 
@@ -460,4 +461,5 @@ AUDIO: one short soft phone buzz at the start, then only these three lines, plus
 | 6 Oct 2026 | Still 04 v5: edit of v4 + your phone photo; only ChiChi's skin changed to one even, uniform warm brown | `4c9adcf5-059f-4c77-b59d-9f16a9af1865` | gpt_image_2_5, 9:16, high, 2k | 2.75 | **Rejected:** "the images look terrible, the skin tone is uneven" |
 | 6 Oct 2026 | **Diagnosis:** each still was an edit of the one before (Episode 12 master → Still 01 → 04 v2 → v3 → v4 → v5), and every pass repaints the skin; your Appearance Lock guide measured the same compounding on Episode 3 and found image models don't hold this cast's faces. The guide's two-sided skin block is now in every clip prompt. | — | — | — | Stills on hold |
 | 6 Oct 2026 | **Your call: remake the stills cleanly.** Stills 01–05, each ONE edit straight from Episode 12's master `6ba334b6…` (no chaining) + `Nia-Face` image `f6cb34ea…` + your phone photo `ad3a5a8b…`, with the Appearance Lock skin block and Nia's three-quarter angle | `994ca420…` `716edc5e…` `c9e324ba…` `069bcf84…` `ed0e6bab…` | gpt_image_2_5, 9:16, high, 2k | 5 × 2.75 = 13.75 | Approved ("film clip 1") |
-| 6 Oct 2026 | **Clip 01 v1** "Cleared": your "film clip 1" (also approves the first line "No. You said it, so you go."). start_image Still 01 `994ca420…`, video reference Episode 12 Clip 06 `68a8a8a6…`, image reference your phone photo `ad3a5a8b…` | `66dcd657-33c0-427e-aae1-1cff873654e7` | seedance_2_5, omni_reference, 10 s, 9:16, 720p, audio on, preset declined | 70 | Rendering |
+| 6 Oct 2026 | **Clip 01 v1** "Cleared": your "film clip 1" (also approves the first line "No. You said it, so you go."). start_image Still 01 `994ca420…`, video reference Episode 12 Clip 06 `68a8a8a6…`, image reference your phone photo `ad3a5a8b…` | `66dcd657-33c0-427e-aae1-1cff873654e7` | seedance_2_5, omni_reference, 10 s, 9:16, 720p, audio on, preset declined | 70 | **Blocked by the content check** ("nsfw") within seconds; refunded |
+| 6 Oct 2026 | **Diagnosis:** the one attachment Episode 12 never sent to video was the `Nia-Phone` photo, and Episode 12's notes say that image trips the content filter. Clip 01 v2 drops it (Still 01 already shows her real phone) and changes nothing else. All five clip requests updated the same way. | — | — | — | v2 waiting for your OK |
