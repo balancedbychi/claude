@@ -197,7 +197,7 @@ in the vault Tay is on NIA'S RIGHT (door side); recorded as a row in the blockin
 Rules added to bible 1a (furniture lock per set, side-by-side for any hand-on-back beat).
 | Item | Job | Note |
 |---|---|---|
-| Vault V2 take 3 (C34), EDIT of V1 351 | 354 d2f923a5-5b5f-4c08-894e-bc1be1fe009b | furniture identical to V1 |
+| Vault V2 take 3 (C34), EDIT of V1 351 | 354 d2f923a5 | filter-rejected |
 | Vault V2 take 4 (C34), EDIT of V1 351, slight push-in | 355 97bcbd15-c5dd-47ce-b1c8-f7375c8e944f | furniture identical to V1 |
 | Boys at the bar J take 5 (C31), EDIT of 347 | 349 ed4bc0d9-cf4b-49b3-b80f-06bc1d59e4b1 | Tay beside Nia, hand on the small of her back |
 | Roof R1 take 2 (C50), EDIT of 371 | 374 71dad054-17ca-4f6c-9fa4-8c0270278e04 | eye level, same pavers as guests |
