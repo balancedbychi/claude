@@ -235,7 +235,7 @@ Girl, I am not being your friend right now. I'm being honest. That man is going 
 walk in and fall in love with you on the spot. In front of everybody. He's not gonna be able
 to help it."
 
-**C10 — Nia looks down at herself.** CAMERA: medium, from the sideboard end, tighter than
+**C10 — Nia looks down at herself.** CAMERA: WIDE, same as C05 (the waist-up crop trips the output filter; not tighter than
 C05. Nia faces camera-ish, chin down. HANDS: both hands run once down the dress from her
 waist to her hips and stop on her hips. FACE: eyes down at the dress. LINE: "It's been two
 weeks, Chi."
@@ -244,7 +244,7 @@ weeks, Chi."
 from the table and holds it up beside her face like a toast. FACE: wry. LINE: "And he's
 texted you good morning every single one of those fourteen days."
 
-**C12 — Nia, "Dorian texts me too."** CAMERA: same as C10. HANDS: arms back into the guard
+**C12 — Nia, "Dorian texts me too."** CAMERA: medium waist-up, plate C. HANDS: arms back into the guard
 pose, right hand on left elbow. FACE: chin up, defensive. LINE: "Dorian texts me too."
 
 **C13 — ChiChi, "wyd."** CAMERA: same as C11. HANDS: glass comes down to her thigh; LEFT
