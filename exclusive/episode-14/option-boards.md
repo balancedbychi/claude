@@ -8,12 +8,11 @@ The user uploaded their own picture of Nia in the dress (media 244e2ef0-1aee-471
 The dress is GREEN SATIN. Saved as element **Nia-Nice-Building-Dress-v2** (supersedes 32ccbc03, whose description still carried the old no-green rule). The three
 generated options (jobs 769756d2, 8b07f648, b6be52be) are retired.
 
-## Tay's launch-night look (Tay-Face 288d8911 + Tay-Body fe030a7d)
-| # | Job | Option |
-|---|-----|--------|
-| 4 | d9eba32a-8e70-456b-88d7-4359061c0ad6 | black double-breasted suit, black silk tee, black-and-white sneakers |
-| 5 | 31561ac5-f770-4871-ba1e-8df6579514f8 | black leather overshirt open over black tee, black trousers, black sneakers |
-| 6 | e56d4540-e92f-4b4f-97c2-da097610ef10 | black satin shirt open at the chest, black pleated trousers, chunky sneakers |
+## Tay's launch-night look — DECIDED 6 Oct 2026
+Option 5 (leather overshirt), re-uploaded by the user as media f5bda4fb, then edited to swap the
+gold chain for a DIAMOND ICED-OUT CUBAN LINK (variant 2, job 111741c2-d0d7-4051-81b3-f8a29910095d).
+Saved as element **Tay-Nice-Building-Look 35062476-f6a3-4467-bf93-1547537854ef**.
+Options 4 and 6 retired.
 
 ## Zarya (new character, text-only)
 | # | Job | Option |

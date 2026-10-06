@@ -87,12 +87,11 @@ the background ever looks at camera.
 - Worn identically from 14.2 to the end. The hem, slit and neckline never change between
   clips.
 
-**TAY**
-- Black on black, no tie. Proposed options: (1) a black double-breasted suit over a black
-  silk tee, black-and-white low-top sneakers; (2) a black leather overshirt open over a
-  black tee, black tailored trousers, black low-top sneakers; (3) a black satin camp-collar
-  shirt with the top two buttons open, black tailored trousers, chunky black sneakers.
-- One gold chain, visible at the neck in every shot. No watch.
+**TAY** — LOCKED 6 Oct 2026 (element Tay-Nice-Building-Look)
+- Black on black, no tie: a black leather overshirt worn OPEN over a fitted black tee, black
+  tailored tapered trousers, black leather low-top sneakers.
+- A DIAMOND ICED-OUT CUBAN LINK necklace at the base of his neck, visible in every shot.
+  Not a gold chain. No watch, no bracelets, no earrings.
 
 **CHICHI**
 - At home, night, wine. Proposed options: (1) an emerald silk wrap top and black wide-leg
