@@ -1,0 +1,131 @@
+# Episode 14 "Nice Building": production plan and 720p cost
+
+Status 6 Oct 2026: every clip has an approved start frame (see stills-log.md). The sheet below
+is what the animation pass runs from. All video at 720p, 9:16, image-to-video from the
+listed start frame, with the plate's face/look images attached where the model takes
+references. Dialogue is on-screen lines from scene-tays-event.md; the text thread is
+rendered on the phone in the inserts.
+
+## 1. Cost at 720p
+
+Clips: 65. Running time: 434 s (7.2 min). Dialogue clips: 324 s. Silent holds and inserts: 110 s.
+
+Per-second rates measured today with get_cost (9:16, 720p, start frame attached):
+
+| Model | Credits per second | 5 s clip | 10 s clip |
+|---|---|---|---|
+| Kling 3.0 Turbo (no audio) | 1.5 | 7.5 | 15 |
+| Kling 3.0 (audio) | 2.0 | 10 | 20 |
+| Grok Video 1.5 | 4.5 | 22.5 | 45 |
+| Seedance 2.5 | 7.0 | 35 | 70 |
+
+| Plan | Model mix | One pass | With 30% retakes |
+|---|---|---|---|
+| A, cheapest | Kling 3.0 Turbo for everything, dialogue dubbed in post | 651 | 846.3 |
+| B, recommended | Kling 3.0 (audio, lip sync) for dialogue; Turbo for holds and inserts | 813 | 1056.9 |
+| C, all Kling 3.0 | Kling 3.0 for everything | 868 | 1128.4 |
+| D, Grok | Grok Video 1.5 for everything | 1953 | 2538.9 |
+| E, Seedance | Seedance 2.5 omni-reference for everything | 3038 | 3949.4 |
+
+Balance today: 1,138 credits (Ultra). Plan B at one pass is 813 credits and fits with room for retakes; plans D and E do not fit without a top-up.
+
+Notes on the numbers: durations are the lengths each line needs at a natural pace plus a
+beat; trimming any dialogue clip to the next lower second saves its per-second rate. Retake
+allowance of 30% reflects today's still-generation hit rate (about one in four needed a
+second pass, mostly filter rejections and hand or prop errors). Upscaling to 1080p later is a
+separate pass and is not in these figures.
+
+## 2. Production rules for the animation pass
+
+- One clip = one start frame = one prompt. Never chain a clip from another clip's last frame;
+  always from the approved still, so faces and props reset every cut.
+- The prompt for each clip is: the bible beat (hands, movement, face) + the direction column
+  below + "no new people, no new objects, nothing enters or leaves frame, the camera does
+  only what is stated". Camera moves are static unless the direction says push, dolly or track.
+- Dialogue clips: attach the face image(s) as references where the model accepts them, give
+  the exact line in quotes, and say who speaks. Off-screen lines are added in the edit, not
+  generated. Keep each clip to one speaker where possible; two-speaker clips are the
+  two-shots only (C29, C30, C47, C48, C52, C53, C56, C58).
+- Height, sides and props carry over from the bible: Tay a head taller than Nia, Zarya half a
+  head taller, the host on Nia's left, Tay on Nia's left on the main floor and roof, Tay on
+  Nia's right in the vault, every glass on a surface or in a named hand.
+- Phone inserts (C21b, C61b, C62): the screen stays legible; motion is the thread moving, not
+  the phone. Generate at 720p and hold still enough to read.
+- Reject and re-run any clip where a face drifts from the still, a hand swaps, a prop floats,
+  a head turns past a quarter turn, or a person's height changes mid-clip. Same rule as stills.
+- Audio: Kling 3.0 generates dialogue audio from the line in the prompt; keep it as a guide
+  track and replace with the recorded VO in the edit if the voice does not hold between clips.
+
+## 3. Beat by beat with video direction
+
+Type: D = dialogue (Kling 3.0 with audio), S = silent hold (Turbo), I = phone insert (Turbo).
+
+| Clip | Start frame (job) | s | Type | Video direction |
+|---|---|---|---|---|
+| C01 | ce89a36f | 6 | D | Nia in the robe, hands on hips, turns her head to the phone and speaks. Camera locked. No walk. |
+| C02 | c645ef6b | 6 | D | ChiChi into the phone, eyebrows up, firm line. Phone stays up in LEFT hand, glass on thigh. Micro head motion only. |
+| C03 | 9c8b8b27 | 6 | D | Nia lifts the green dress off the sofa by the straps with RIGHT hand, eye roll toward the phone. Dress sways once. |
+| C04 | 60e3a1f9 | 5 | D | ChiChi sips over the rim, eyes on the phone. One sip, glass back to thigh. |
+| C05 | 596879a8 | 6 | D | Nia in the dress, arms folded, looks toward the phone, unsure. Breath, no step. |
+| C06 | 51d6dbd0 | 5 | D | ChiChi sets the glass down and leans in with a gasp. Glass lands on the table, not in the air. |
+| C07 | f0ce3ced | 8 | D | ChiChi's 'not being your friend, being honest' speech; RIGHT index finger circles once. Phone steady in LEFT hand. |
+| C08 | b1820539 | 5 | S | Nia completes a slow turn on the rug, looks back over her RIGHT shoulder. Arms down. Quarter turn only. |
+| C09 | 9456393b | 6 | D | ChiChi dead serious into the phone. Locked. Lips only. |
+| C10 | 9124aad2 | 5 | D | Nia chin down, hands run waist to hips and stop. 'It's been two weeks, Chi.' |
+| C11 | e4593231 | 6 | D | ChiChi lifts the glass beside her face like a toast. 'fourteen days.' |
+| C12 | 1e401d8c | 5 | D | Nia chin up, defensive, 'Dorian texts me too.' Arms stay folded. |
+| C13 | 5baba209 | 6 | D | ChiChi tilts the phone down, one eyebrow, the 'wyd' line. Glass comes down to thigh. |
+| C14 | c48080b5 | 5 | S | Nia looks away to the window, jaw tight, then back to the phone. Head only. |
+| C15 | 1bd86860 | 6 | D | ChiChi, open palm 'so?' gesture, plain and direct. |
+| C16 | b5c8be33 | 8 | D | Nia sits on the sofa arm, hands gripping it, looks at the floor, the 'I don't know what he does' lines. |
+| C17 | 03150b7d | 6 | D | ChiChi soft, no joke, steady on the phone. |
+| C18 | 89316020 | 5 | D | Nia laughs behind her LEFT hand, shoulders up, eyes closing. Stays seated on the arm. |
+| C19 | 7d67890d | 6 | D | ChiChi warm, brings the phone a little closer, small smile. |
+| C20 | 706a5ea1 | 5 | S | Nia lifts the phone off the lamp, one breath, faint smile. Back of phone to camera. |
+| C21 | a1e0e0c5 | 6 | S | Car. Nia reads, thumbs on the glass, fights a smile and loses. City light moves across the window. Phone screen tilted away. |
+| C21b | 75977c1a | 5 | I | Phone insert. The Tay thread scrolls up by one message; her thumb moves once. Screen stays legible. |
+| C22 | dd03451e | 6 | D | Nia turns to the window, eyes widen, lips part, then she closes her mouth. 'Okay. It's a building.' |
+| C23 | 197429e1 | 5 | S | POV through the car window as the car slows at the kerb. Slight forward drift, then stop. No people in focus. |
+| C24 | 3891bf20 | 8 | D | Nia out of the car, host beside the open door on Nia's LEFT. Host speaks and gestures to the doors with RIGHT hand. Nia smooths the dress once. 'Ms. Keynes?' exchange. |
+| C25 | 1daf62b4 | 6 | S | Both walk up the carpet toward camera, host a step ahead on Nia's LEFT. The line turns to look. Nia chin up. Slow dolly back. |
+| C26 | 6103af4c | 6 | S | Nia in the doorway facing in, eyes travel up the hall. Slow push in. Crowd in soft focus, same floor. |
+| C27 | 6fbf35ba | 5 | S | Tay mid-handshake, sees her past camera; mouth opens, eyebrows up. Hold, no cut. |
+| C28 | 298a8e0d | 6 | S | Tay walks straight at camera through the crowd, RIGHT hand slightly ahead, grin. Guests turn. Camera static. |
+| C29 | ea4d0185 | 10 | D | Two-shot. 'Yo. Yo.' / 'Hi.' / 'That's not the safe one.' exchange. Tay's RIGHT hand half-raised, undecided. Nia fighting a smile. He is a head taller. |
+| C30 | 93241774 | 10 | D | 'It's a nice building, Tay.' / 'Nice. She said nice.' Tay looks up at the ceiling. Nia looks past him, flat. |
+| C31 | 6d13305e | 8 | D | From behind the couple: the boys toast and clown ('She said nice, bro'). Tay's RIGHT hand stays on the small of her back. 'Okay. We're walking now.' |
+| C32 | df2f4bbc | 12 | D | Walk-and-talk, camera tracking back. Tay's LEFT hand gestures at the cages, RIGHT hand near her LEFT elbow. The 'bought it at twenty-three' exchange. A guest reaches in, two fingers, keep walking. |
+| C33 | ee20880a | 8 | D | Tay pushes the vault door most of the way shut with LEFT hand. Nia takes in the records. 'There's a real thing.' exchange. |
+| C34 | 78c3a0ab | 10 | D | Tay seated, feet on the rug, fingers laced, eyes on the floor. The 'deposits' speech. Nia sets the bag on the chair beside her. |
+| C35 | 6db81c66 | 6 | D | Punch in on Nia from the two-shot in post. 'Two weeks. You had two weeks to say one sentence.' / 'Why?' |
+| C36 | 5687f659 | 12 | D | Tay looks up, RIGHT hand on the back of his neck. 'I'm feeling you, Nia' through 'In my own vault.' Lip sync priority. |
+| C37 | 6db81c66 | 6 | D | Nia one step closer, hands together, mouth opens and nothing comes out. 'Tay—' / 'You don't gotta say nothing back.' |
+| C38 | d60bcb79 | 6 | D | Tay stands out of the chair and offers RIGHT hand palm up, low. 'Come watch me do the thing.' Hold on the hand. |
+| C39 | 4cb89565 | 6 | D | Low angle, Tay in the cage with the mic. 'I don't like talking. I like building.' Crowd heads along the bottom. |
+| C40 | bb45d9b0 | 6 | D | Tay points into the crowd, arms go up. 'Three names. Three checks. First deposit.' |
+| C41 | 06863fa6 | 5 | S | Nia, LEFT hand on her collarbone, face open and lit up. Breath only. |
+| C42 | edead467 | 5 | S | Tay lifts the mic half an inch toward the lens, private smile. Hold. |
+| C43 | b764bb8e | 5 | S | Zarya's RIGHT hand around the back of Tay's neck pulls him down; the frame ends the instant before the kiss. His eyes open. No further contact shown. |
+| C44 | a796760f | 5 | S | Zarya's thumb wipes his lip, she laughs, he does not. Hands half raised, frozen. |
+| C45 | 7a2ff4d8 | 5 | S | Nia's LEFT hand drops from her collarbone. The light goes out of her face. Mouth closes. |
+| C46 | aebd0642 | 6 | D | Nia at the bar, RIGHT hand flat, not steady. Zarya slides in on her RIGHT, one finger to the bartender. 'You must be Nia.' |
+| C47 | 9c1abc70 | 6 | D | Zarya quarter-turns to face Nia, offers her RIGHT hand from the bar side, thumb up. Nia turns her head only. '...I'm sorry?' / 'Zarya. Tay's girlfriend.' |
+| C48 | af3a3708 | 10 | D | Right hand to right hand, square on, eye contact. 'Girlfriend.' / 'Three years... space heater' lines. |
+| C49 | 5900943c | 8 | D | Both back to the bar. Zarya lifts her own glass with her frame-right hand, taps Nia's glass on the counter. 'He does that.' Zarya exits frame RIGHT. |
+| C50 | 71dad054 | 5 | S | Roof wide. Nia at the railing, forearms on the ledge, bag under RIGHT hand. Wind in the hair. Hold. |
+| C51 | 708b7071 | 5 | D | Tay through the door fast, RIGHT hand on the handle, LEFT hand out. Slows as he sees her. 'There you are. I been looking—' |
+| C52 | 119c85cc | 8 | D | Two-shot, Nia at the railing frame RIGHT, arms crossed. 'Your girlfriend introduced herself.' / 'She's not my—' / 'Don't.' |
+| C53 | 6f857acc | 10 | D | Tay one step closer, RIGHT palm out, LEFT hand on his neck. 'Three years, Tay?' through 'She's moving out.' |
+| C54 | 39962a8c | 10 | D | Close on Tay, hands open at chest height. 'It's complicated' through 'I know I'm not him.' |
+| C55 | a12abd29 | 12 | D | Close on Nia, RIGHT hand points once at his chest and drops. The 'You texted me good morning every day' speech. Eyes wet. |
+| C56 | e40fe4d9 | 8 | D | Tay within arm's reach, hands half-raised and stopped. 'Every room I been in for three years' / 'Just what.' / 'Just you.' |
+| C57 | 5522c0f5 | 8 | D | Close on Nia. Wants to believe it, then puts it away. 'That's a really nice thing to say' through 'On your big night.' |
+| C58 | 2d37c117 | 12 | D | Nia picks up the bag with RIGHT hand; Tay's LEFT hand stops six inches from her shoulder. 'I came here tonight trying not to like you' speech. |
+| C59 | 9a0ad174 | 6 | D | Nia at the door, back to him, RIGHT hand on the handle. 'I do like you. That's the problem.' She does not turn. Door opens on the last word. |
+| C60 | d0964779 | 5 | S | Tay alone at the railing, both hands on the back of his neck. Hold. City lights. |
+| C61 | 5f1d290e | 5 | S | Car. Nia reads, face blank. Phone buzzes three times (sound only). Screen tilted away. |
+| C61b | 3e817791 | 5 | I | Phone insert. Tay's five texts arrive one by one, bubble by bubble. Her thumb hovers, does not touch. |
+| C62 | 39330e11 | 5 | I | Phone insert. The Dorian thread, 'wyd'. 'You still up?' sits in the field; thumb taps send; the bubble turns green and rises. |
+| C63 | 7ef7092b | 6 | S | Phone face down under her RIGHT hand. Face to the window. The lit building shrinks in the glass behind her. Cut to black. |
+
+Totals: 434 s. Plan B cost per clip = seconds × 2.0 (D) or × 1.5 (S, I).
