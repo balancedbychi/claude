@@ -106,8 +106,11 @@ the background ever looks at camera.
 
 ## 3. Sets and stage maps
 
-**SET A — Nia's living room, sunset.** EXISTING element Nia-Living-Room-Sunset 25c094eb.
-Reproduce it exactly; nothing added, moved or recoloured. Camera for this scene sits where
+**SET A — Nia's living room, NIGHT.** User ruling 6 Oct 2026: Scene 14.1 is the same hour
+as ChiChi's side, about eight in the evening, so Nia's room is relit to night (lamp and
+paper lantern on, lit city outside, no sun). A new element Nia-Living-Room-Night is being
+made as a relight of the approved sunset room; until it's saved, the stage map below is
+unchanged. Reproduce it exactly; nothing added, moved or recoloured. Camera for this scene sits where
 the sideboard is (frame LEFT in the master) looking across the jute rug at the cream boucle
 sofa (frame RIGHT) and the windows behind it. Nia plays the scene standing on the rug
 between the coffee table and the sofa. The safe dress lies across the sofa arm nearest
@@ -122,7 +125,10 @@ the table in front of her. Reproduce the set exactly.
 **SET C — Car back seat, night.** LOCKED 6 Oct 2026, element Car-Back-Seat-Night. Black
 leather rear bench, Nia on the passenger side (frame RIGHT), the window beside her showing
 moving city lights, the driver's headrest soft at frame LEFT, amber dash glow. Camera from
-the driver's-side rear seat. Used twice with the same camera: 14.2 and 14.9.
+the driver's-side rear seat. Used twice with the same camera: 14.2 and 14.9. GEOMETRY RULE
+(user note 6 Oct 2026): a conventional sedan, a flat bench with a vertical seat back and a
+separate headrest; Nia sits UPRIGHT on the seat cushion, back against the seat back, seat
+belt on, knees forward, the door and window to her right. The seat never wraps around her.
 
 > **Venue direction (user note, 6 Oct 2026):** The Ledger is a 1920s bank on the outside and
 > a MODERN, SEXY, HIGH-END club on the inside. Keep the bones (columns, brass teller cages,
@@ -179,7 +185,7 @@ Format per clip: CAMERA / WHO IS WHERE / HANDS AND BODY / FACE AND EYES / PROPS 
 "Hold" means the still and the clip start from that exact position. Everything not listed
 as moving stays exactly where the previous clip left it.
 
-### SCENE 14.1 — Nia's living room, sunset (SET A) intercut with ChiChi's living room, night (SET B)
+### SCENE 14.1 — Nia's living room, night (SET A) intercut with ChiChi's living room, night (SET B)
 
 **C01 — Nia, robe, wide.** CAMERA: medium-wide from the sideboard end. Nia stands on the
 rug, body square to the sofa, back three-quarters to camera. HANDS: both hands on her hips,
