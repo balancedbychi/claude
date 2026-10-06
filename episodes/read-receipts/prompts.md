@@ -10,8 +10,8 @@ Read `script.md` first: it has the story, the floor plan and the beat-by-beat. T
 |---|---|---|---|---|---|---|
 | 01 | Cleared | v3 `83a44abe-128e-49c0-83cf-ee088c8d72f1` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_023521_83a44abe-128e-49c0-83cf-ee088c8d72f1.mp4)) (v1 `66dcd657…` blocked, v2 `1df343b2…` failed; both refunded) | 10 s | 720p | 70 | **Approved** |
 | 02 | No Excuse | `6907be7a-490f-479d-98b2-24e7e7f031b6` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_024417_6907be7a-490f-479d-98b2-24e7e7f031b6.mp4)) | 8 s | 720p | 56 | **Approved** |
-| 03 | The Launch | `b4a7166c-4f9d-43eb-86b9-8d4707423771` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_025214_b4a7166c-4f9d-43eb-86b9-8d4707423771.mp4)) | 12 s | 720p | 84 | **For your review** |
-| 04 | Saturday. Yes. | — | 13 s | 720p | 91 | Not filmed |
+| 03 | The Launch | `b4a7166c-4f9d-43eb-86b9-8d4707423771` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_025214_b4a7166c-4f9d-43eb-86b9-8d4707423771.mp4)) | 12 s | 720p | 84 | **Approved** |
+| 04 | Saturday. Yes. | `c684b687-ac85-479c-89ea-088f4eacc2c9` | 13 s | 720p | 91 | Rendering |
 | 05 | Can I See You Saturday? | — | 8 s | 720p | 56 | Not filmed |
 
 **Total if every clip works first time:** 51 s, **357 credits**, plus about 15 for the five stills. Episode 12 needed one re-film (Clip 04, 70 credits), so budget about **450**.
@@ -307,7 +307,7 @@ AUDIO: only these four lines, plus the same soft morning kitchen room tone as th
 
 ---
 
-## CLIP 04 · "Saturday. Yes." · 13 s · 91 credits · v1 (not filmed)
+## CLIP 04 · "Saturday. Yes." · 13 s · 91 credits · v1 (job `c684b687`)
 
 **First line:** ChiChi's "That's not a man who wants to rent." **Final line:** ChiChi's "'Saturday.' Sent."
 **Beat check:**
@@ -342,7 +342,7 @@ NIA, EXACTLY AS IN THE START IMAGE AND THE REFERENCE VIDEO: face, hair and skin 
 
 SKIN, BOTH WOMEN: even, healthy, clear, luminous skin with natural visible pore texture and fine skin detail, sharply in focus, fully resolved, the light falling evenly across both faces. ONE uniform tone per woman across face, neck, chest, arms and hands. NOT blotchy, NOT mottled, NOT patchy, NOT waxy, NOT plastic, NOT muddy, NOT grainy, NOT over-smoothed into a flat featureless mask; NOT soft, NOT blurred, NOT out of focus. NO wrinkles, NO fine lines, NO age spots, NO dullness, NO under-eye shadows.
 
-PROPS ON THE ISLAND: the glass French press and BOTH white mugs stand on the island EXACTLY where they are in the start image and are FIXED, STATIONARY objects for the whole clip: NOBODY touches them, they NEVER move, lift, slide, tip, float or fly. Only the two phones move, ONE AT A TIME: first NIA'S beige/tan phone, which ChiChi holds at the start, hands it back to Nia, and Nia lays FACE-DOWN by her right hand after typing; only after that, ChiChi picks up HER OWN cream-case phone from beside the French press, types, and lays it FACE-DOWN again in the same place. NO extra phone, mug, pot or object ever appears or moves through the frame. Each object is one solid thing: it never duplicates, never merges with or passes through another object, a hand or the counter. Nothing is thrown, tossed or falls.
+PROPS ON THE ISLAND: the glass French press and BOTH white mugs stand on the island EXACTLY where they are in the start image and are FIXED, STATIONARY objects for the whole clip: NOBODY touches them, they NEVER move, lift, slide, tip, float or fly. Only the two phones move, ONE AT A TIME: first NIA'S beige/tan phone: ChiChi holds it at the start and hands it back to Nia, and Nia types on it and lays it FACE-DOWN by her right hand; only after that, ChiChi picks up HER OWN cream-case phone from beside the French press, types, and lays it FACE-DOWN again in the same place. NO extra phone, mug, pot or object ever appears or moves through the frame. Each object is one solid thing: it never duplicates, never merges with or passes through another object, a hand or the counter. Nothing is thrown, tossed or falls.
 
 TWO DIFFERENT PHONES, NEVER CONFUSED: NIA'S phone is EXACTLY her phone as it appears in the start image: the same beige/tan case, colour, finish, size and model. CHICHI'S phone has a PALE CREAM (off-white) case. The two colours never swap, never match, and each phone keeps its own colour in every hand and every shot, including when ChiChi holds Nia's phone.
 
@@ -467,4 +467,5 @@ AUDIO: one short soft phone buzz at the start, then only these three lines, plus
 | 6 Oct 2026 | **Clip 01 v2**: same as v1 minus the phone photo (start_image Still 01 `994ca420…`, video reference Episode 12 Clip 06 `68a8a8a6…`). Passed the content check | `1df343b2-753f-4732-b79f-ab6c1c1e5b1c` | seedance_2_5, omni_reference, 10 s, 9:16, 720p, audio on | 70 | **Failed** after ~45 s, no reason given; refunded |
 | 6 Oct 2026 | **Clip 01 v3**: same still and reference clip; filter-risk words removed from the prompt ("nude" lip tone, "babyfaced", "doll-like", "adult/mature", the long age-marker list) | `83a44abe-128e-49c0-83cf-ee088c8d72f1` | seedance_2_5, omni_reference, 10 s, 9:16, 720p, audio on | 70 | **Rendered** ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_023521_83a44abe-128e-49c0-83cf-ee088c8d72f1.mp4)); **Approved** ("approved, clip 2") |
 | 6 Oct 2026 | **Clip 02 v1** "No Excuse": start_image Still 02 `716edc5e…`, video reference approved Clip 01 `83a44abe…` | `6907be7a-490f-479d-98b2-24e7e7f031b6` | seedance_2_5, omni_reference, 8 s, 9:16, 720p, audio on | 56 | **Rendered** ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_024417_6907be7a-490f-479d-98b2-24e7e7f031b6.mp4)); **Approved** ("approved, clip 3") |
-| 6 Oct 2026 | **Clip 03 v1** "The Launch": start_image Still 03 `c9e324ba…`, video reference approved Clip 02 `6907be7a…` | `b4a7166c-4f9d-43eb-86b9-8d4707423771` | seedance_2_5, omni_reference, 12 s, 9:16, 720p, audio on | 84 | **Rendered** ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_025214_b4a7166c-4f9d-43eb-86b9-8d4707423771.mp4)); for your review |
+| 6 Oct 2026 | **Clip 03 v1** "The Launch": start_image Still 03 `c9e324ba…`, video reference approved Clip 02 `6907be7a…` | `b4a7166c-4f9d-43eb-86b9-8d4707423771` | seedance_2_5, omni_reference, 12 s, 9:16, 720p, audio on | 84 | **Rendered** ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_025214_b4a7166c-4f9d-43eb-86b9-8d4707423771.mp4)); **Approved** ("approved, clip 4") |
+| 6 Oct 2026 | **Clip 04 v1** "Saturday. Yes.": start_image Still 04 `069bcf84…`, video reference approved Clip 03 `b4a7166c…`; one garbled props sentence reworded before filming | `c684b687-ac85-479c-89ea-088f4eacc2c9` | seedance_2_5, omni_reference, 13 s, 9:16, 720p, audio on | 91 | Rendering |
