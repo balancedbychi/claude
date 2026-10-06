@@ -75,6 +75,40 @@ the background ever looks at camera.
 
 ---
 
+## 1a. Blocking, faces and perspective (user rulings 6 Oct 2026, apply to every clip)
+
+**Screen direction / who stands where.** A character's side is fixed in NIA'S OWN LEFT AND
+RIGHT for the whole scene, and is never allowed to flip when the camera moves. Frame-left /
+frame-right is only the translation for that camera position. Every prompt names the side
+in Nia's terms AND in frame terms for that camera. Locked sides:
+
+| Scene | Who | Side of Nia (her own left/right) | Facing Nia (camera in front of her) | Behind Nia (camera at her back) |
+|---|---|---|---|---|
+| 14.3 exterior | The host, and the open car door | Nia's LEFT | frame RIGHT | frame LEFT |
+| 14.3 C25 up the carpet | The host, a step ahead | Nia's LEFT | frame RIGHT | frame LEFT |
+| 14.4–14.5 main floor | Tay (walk-and-talk, bar, two-shots) | Nia's RIGHT | frame LEFT | frame RIGHT |
+| 14.4 C31 the boys | The bar and the six boys | Nia's LEFT | frame RIGHT | frame LEFT |
+| 14.7 the bar | Zarya | Nia's RIGHT | frame LEFT | frame RIGHT |
+| 14.8 the roof | Tay at the parapet | Nia's LEFT | frame RIGHT | frame LEFT |
+| 14.1 FaceTime | The phone on the lamp | Nia's LEFT (sideboard side) | frame RIGHT | frame LEFT |
+
+Profile two-shots (C29, C30, C47–C49, C53–C58): the camera stays on the SAME side of the
+pair for the whole scene, and the master plate for that scene fixes which. Reverses are
+over-the-shoulder edits of that plate, never fresh generations, so nobody swaps sides.
+
+**Faces.** The face image is attached to EVERY generation in which that face is visible,
+clip edits included, not only to master plates (Nia f6cb34ea, Tay 62537189, ChiChi
+7af2905b, Zarya dc4779ad). The prompt says "her face matches the attached face reference
+exactly" in addition to "reproduce the master". A clip whose face has drifted from the
+master is rejected and re-run, never approved to save time.
+
+**Perspective / floor level.** Everyone in a room stands on the same floor. Camera at eye
+level (about 5 feet) unless a beat says low or high. Nia is 5'2": in any frame with guests
+or Tay behind her, their heads sit at or above hers in the depth, never below. No steps,
+plinths, mezzanines or raised thresholds under a principal unless the set map has one. The
+prompt states "eye-level camera, she stands on the same marble floor as the guests, their
+heads level with or above hers" in every main-floor shot.
+
 ## 2. Wardrobe for Episode 14 (to pick from generated options)
 
 **NIA** — LOCKED 6 Oct 2026
@@ -318,11 +352,11 @@ toward the doors. FACE: Nia uncertain, the host amused. LINE: "Ms. Keynes? He sa
 the one who looked like she was trying real hard not to be impressed." / "He said that?" /
 "Four times. You don't do the line."
 
-**C25 — Past the line.** CAMERA: from the brass doors looking back down the steps, wide. The
-host walks a step ahead at frame LEFT; Nia follows at frame RIGHT, up the steps toward
-camera. HANDS: Nia's bag in her RIGHT hand, LEFT arm straight at her side. The line of
-guests along the left edge turning to look at her. FACE: chin up, eyes forward, not looking
-at anyone. Hold.
+**C25 — Past the line.** CAMERA: from the brass doors looking back down the carpet, wide,
+eye level. They walk toward camera: the host a step ahead on Nia's LEFT, so the host is at
+frame RIGHT and Nia at frame LEFT. HANDS: Nia's bag in her RIGHT hand, LEFT arm straight at
+her side. The line of guests along the rope at the frame-left edge turning to look at her.
+FACE: chin up, eyes forward, not looking at anyone. Hold.
 
 ### SCENE 14.4 — Main floor (SET E)
 
