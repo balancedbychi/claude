@@ -221,3 +221,33 @@ one man for a different friend.
 |---|---|
 | C31 fix, from 381 | 383 9976adca-fb1d-4cf3-8dd9-ac6c2f71ac55 |
 | C31 fix, from 382 | 384 6d13305e-1261-487b-9a45-6dab5de9ffb1 |
+
+## Picks locked 6 Oct 2026 (second round): J 384, V2 357, K 346, M 363, R2 373
+| Plate | Job | Is also the still for |
+|---|---|---|
+| J boys at the bar | 6d13305e-1261-487b-9a45-6dab5de9ffb1 | C31 |
+| K walk-and-talk | df2f4bbc-1416-4acb-ab6c-eb9455c2b4f0 | C32 |
+| V1 vault entry | ee20880a-12e5-4bfb-82d1-998062da659e | C33 |
+| V2 vault seated | 78c3a0ab-bd92-4048-b426-3dbfc3a444d6 | C34 |
+| L cage | 4cb89565-e2d4-4ca7-883a-352d6a378e2e | C39 |
+| N Nia at the edge | 06863fa6-b18f-438e-9f4c-58c65a215c8f | C41 |
+| M Zarya kiss | b764bb8e-c2b4-499c-ad15-a50033e89bbc | C43 |
+| O bar with Zarya | c25cd74d-2901-4a98-8a0e-f0e18d8c42ee | C46 |
+| R1 roof wide | 71dad054-17ca-4f6c-9fa4-8c0270278e04 | C50 |
+| R2 roof two-shot | 119c85cc-1aad-41d9-93a1-af278c89f333 | C52 |
+| I two-shot (height-corrected) | ea4d0185-4d0c-467f-95f3-2573dfe2df51 | C29 |
+
+## Remaining clips, submitted 6 Oct 2026 (edits of the plates above, faces attached)
+| Clip | Plate | Job |
+|---|---|---|
+| C35 | V2 | 7ce3b009-5bbb-4cc0-94b2-145918fff021 |
+| C36 | V2 | 5687f659-1006-4b00-bd62-f0c75e934f27 |
+| C37 | V2 | 6db81c66-6689-49c4-833e-8f17ed39e4c6 |
+| C38 | V2 | d60bcb79-3aee-40f2-8983-afc562d111b2 |
+| C40 | L | bb45d9b0-c9d2-4993-9bc6-361bc513847b |
+| C42 | L | edead467-e124-486f-a0cd-2143e0638157 |
+| C44 | M | a796760f-e57a-4c1a-a98f-8a708ea41558 |
+| C45 | N | 7a2ff4d8-1729-43a1-bcb4-e9d00ddedf72 |
+| C47 | O | 90bf7eb5-4d0f-4c0b-a077-8e34fcc35c2d |
+| C48 | O | 8d6f26d1-c515-4e5d-b18f-189534cce797 |
+| C49 | O | 04cbee31-91f9-46c4-b5e9-0fcd94c0f087 |
