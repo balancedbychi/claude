@@ -20,7 +20,8 @@ stage map, then one FIRST FRAME still per clip, and continuity edits off each ma
 - Resting hands: when she's guarding herself, her arms cross low over her stomach, right
   hand holding her left elbow. That is her "unimpressed" pose and it repeats all night until
   the vault.
-- Nothing green, ever. Never a sweatshirt or hoodie.
+- Never a sweatshirt or hoodie. (The usual "nothing green" rule is lifted for this
+  episode: her dress is green satin, by the user's ruling on 6 Oct 2026.)
 - British accent in dialogue.
 
 **TAY** (Tay-Face 288d8911, Tay-Body fe030a7d)
@@ -76,14 +77,13 @@ the background ever looks at camera.
 
 ## 2. Wardrobe for Episode 14 (to pick from generated options)
 
-**NIA**
+**NIA** — LOCKED 6 Oct 2026
 - Scene 14.1 start: a champagne silk robe, tied at the waist, barefoot. Hair down.
 - "The safe dress": plain black sleeveless midi. Seen only lying over the sofa arm. Never
   worn.
-- "The not-safe dress" (the pick): proposed options are (1) a liquid-gold satin cowl-neck
-  slip gown, floor length, high left slit; (2) a black long-sleeved crystal-mesh mini over a
-  black slip; (3) a deep burgundy velvet corset midi with a sweetheart neckline. Gold strappy
-  heeled sandals and the small gold clutch from "Almost Too Good" with any of them.
+- "The not-safe dress": the user's own upload of Nia in a GREEN SATIN DRESS, saved as
+  element Nia-Nice-Building-Dress-v2. The image is the authority for cut, hem, straps and
+  slit. Gold strappy heeled sandals and the small gold clutch from "Almost Too Good".
 - Worn identically from 14.2 to the end. The hem, slit and neckline never change between
   clips.
 
@@ -124,6 +124,12 @@ the table in front of her. Reproduce the set exactly.
 Nia on the passenger side (frame RIGHT), the window beside her showing moving city lights.
 Camera from the driver's-side rear seat looking across at her. Driver's headrest in soft
 focus at frame left. Used twice: 14.2 (she's holding it together) and 14.9 (she isn't).
+
+> **Venue direction (user note, 6 Oct 2026):** The Ledger is a 1920s bank on the outside and
+> a MODERN, SEXY, HIGH-END club on the inside. Keep the bones (columns, brass teller cages,
+> the vault) but the design is contemporary: black marble, backlit onyx bars, modern art,
+> velvet lounge seating, haze and amber light beams. The roof is LARGE, with a pool or a
+> full bar and DJ, glass balustrades, and a quiet stretch of railing for the fight.
 
 **SET D — The Ledger, exterior, night.** NEW. A 1920s neoclassical bank facade: four stone
 columns, tall brass double doors lit from inside, THE LEDGER in warm backlit brass letters

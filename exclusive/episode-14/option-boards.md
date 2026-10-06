@@ -5,7 +5,7 @@ reference element and every still is built from it.
 
 ## Nia's launch-night dress — DECIDED 6 Oct 2026
 The user uploaded their own picture of Nia in the dress (media 244e2ef0-1aee-4711-80d4-7e20d629b182).
-Saved as element **Nia-Nice-Building-Dress 32ccbc03-3848-4750-a926-53b85a57e396**. The three
+The dress is GREEN SATIN. Saved as element **Nia-Nice-Building-Dress-v2** (supersedes 32ccbc03, whose description still carried the old no-green rule). The three
 generated options (jobs 769756d2, 8b07f648, b6be52be) are retired.
 
 ## Tay's launch-night look (Tay-Face 288d8911 + Tay-Body fe030a7d)
@@ -28,7 +28,7 @@ generated options (jobs 769756d2, 8b07f648, b6be52be) are retired.
 | 10 | b39d3c10-c511-4402-9b6b-2f724e5a5aa3 | emerald silk wrap blouse, black wide-leg lounge trousers |
 | 11 | e17337fa-c389-4ea8-90ab-3cd33ae0b997 | oversized cream cashmere lounge set |
 
-## Sets (no people)
+## Sets, first pass (no people) — RETIRED 6 Oct 2026: read as empty and too old-bank; see second pass below
 | # | Job | Set |
 |---|-----|-----|
 | 21 | d9b93246-1221-45d0-85d1-ffc164698665 | Car back seat, night (only option) |
@@ -44,3 +44,17 @@ generated options (jobs 769756d2, 8b07f648, b6be52be) are retired.
 ## Reused as-is
 - Nia's living room at sunset: Nia-Living-Room-Sunset 25c094eb (scene 14.1)
 - ChiChi's living room at night: ChiChi-Living-Room-Night-v2 9c43c008 (scene 14.1 FaceTime side)
+
+## Sets, second pass (modern, sexy, high-end, with the party in them)
+| # | Set |
+|---|-----|
+| 32 | Exterior 1: restored limestone, black steel and smoked glass ground floor, black carpet, line |
+| 33 | Exterior 2: dark stone uplit, towering arch, line, roof terrace visible at top |
+| 34 | Main floor 1: black marble, brass-cage bar with amber glass, DJ cage, abstract art, 200 guests |
+| 35 | Main floor 2: white marble, uplit columns, brass ring chandelier, onyx bar, 200 guests |
+| 36 | Vault 1: black leather horseshoe, vinyl wall, walnut console, two whisky glasses |
+| 37 | Vault 2: green velvet sofa, safe-deposit wall, black marble table |
+| 38 | Roof 1: LARGE, amber-lit pool, glass balustrades, onyx bar, fire pits, guests |
+| 39 | Roof 2: LARGE, stone pavers, glass edge over river, long bar, DJ under string lights, guests |
+| 40 | Roof 3: LARGE, two levels, cabanas and daybeds, fire pits, glass edge, guests |
+| 21 | Car back seat (unchanged) |
