@@ -118,12 +118,25 @@ FLOOR side of it in a line, full length, glasses in hand, shoulder to shoulder, 
 overlapping. Wider framing and fewer extras over a crowded frame. Any clip with a limb,
 torso or face that does not belong to a complete body is rejected.
 
+**Furniture and set dressing (user ruling 6 Oct 2026).** Inside a set, nothing moves between
+clips: every chair, table, lamp, bottle and glass sits where the scene's FIRST approved plate
+put it. For the vault, plate V1 (C33, job ee20880a) is the furniture authority: the chair Tay
+sits on is the one nearest the door at frame LEFT, the chair Nia's bag goes on is the one
+immediately beside her at frame RIGHT, both already visible in V1. Every vault clip is an
+EDIT of V1 (or of a clip that was itself an edit of V1) with the words "not one piece of
+furniture moves, appears or disappears"; never a fresh generation of the room. The same
+holds for the living rooms (plates A and B), the car (E) and the roof (R1).
+
+**Side by side (user ruling 6 Oct 2026).** When a beat says a hand is on someone's back,
+elbow or shoulder, the two people are on the SAME LINE, shoulder to shoulder, neither ahead
+of the other, and the prompt says so. A hand that reaches a back from in front is rejected.
+
 **Perspective / floor level.** Everyone in a room stands on the same floor. Camera at eye
 level (about 5 feet) unless a beat says low or high. Nia is 5'2": in any frame with guests
 or Tay behind her, their heads sit at or above hers in the depth, never below. No steps,
 plinths, mezzanines or raised thresholds under a principal unless the set map has one. The
-prompt states "eye-level camera, she stands on the same marble floor as the guests, their
-heads level with or above hers" in every main-floor shot.
+prompt states "eye-level camera, she stands on the same floor as the guests, their heads
+level with or above hers" in every main-floor AND roof shot.
 
 ## 2. Wardrobe for Episode 14 (to pick from generated options)
 
