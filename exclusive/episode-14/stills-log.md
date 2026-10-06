@@ -295,4 +295,4 @@ Bible C46–C49 rewritten with quarter-turn choreography, every hand named by ow
 frame side, glasses planted on the counter. Retired: e58c5d6b, 7ca8abca, 0309abc2.
 | C47 retake 3 | O2 | 9c1abc70-b0cc-4d81-a046-340c3b768c5d |
 | C48 retake 2 | O2 | af3a3708-baf7-4a11-883e-e9b87247083c |
-| C49 retake 3 | O2 | 76795b7d-9c1f-47f1-a2e5-a63bc64306a4 |
+| C49 retake 3 | O2 | 5900943c-7f94-4ae2-bbbc-dc1fe0b9a51c (76795b7d filter-rejected) |
