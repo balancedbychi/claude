@@ -140,3 +140,15 @@ attached to every generation; eye-level camera, everyone on the same floor.
 | G | 323, eye level from inside the hall, full length, same floor as guests | 6103af4c-b982-4645-b57a-cf7b57b8ea63 |
 | G | 324, eye level, waist-up, guests' heads level with hers | 1b60994a-4499-487e-add3-c45fd1a50834 |
 311–314 are retired in favour of 321–324.
+
+## Plate F redo, 6 Oct 2026 (board 331–332)
+User notes on 321/322: Nia's profile wrong; car must be parallel with the kerb; host must
+stay on the same side. Rebuilt with the car side-on along the kerb, Nia's face in
+three-quarter toward camera (never profile), the host on Nia's LEFT = frame RIGHT, and the
+approved waist-up master C (e14efbba) attached alongside the face image as a second face
+anchor. 333 (waist-up) was filter-rejected.
+| Take | Job |
+|---|---|
+| 331 medium, from the carpet facing Nia | 8216d4fd-a1c9-464c-a3db-26de60d02ef0 |
+| 332 full length, shoes visible | 3891bf20-50a1-4c0c-907a-311ae84731b8 |
+321/322 retired.
