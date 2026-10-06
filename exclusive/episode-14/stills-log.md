@@ -202,3 +202,13 @@ Rules added to bible 1a (furniture lock per set, side-by-side for any hand-on-ba
 | Boys at the bar J take 5 (C31), EDIT of 347 | 349 ed4bc0d9-cf4b-49b3-b80f-06bc1d59e4b1 | Tay beside Nia, hand on the small of her back |
 | Roof R1 take 2 (C50), EDIT of 371 | 374 71dad054-17ca-4f6c-9fa4-8c0270278e04 | eye level, same pavers as guests |
 352, 353, 347 and 371 are retired.
+
+## Fix pass, 6 Oct 2026 (sixth review): bar arrival restaged, Tay seated in the vault
+| Item | Job | Note |
+|---|---|---|
+| Boys at the bar J take 6 (C31), EDIT of 348, couple added from behind | 381 e0ffc9c4-fe84-4db1-81f4-3c32edc47f8a | Tay frame LEFT beside Nia, right hand on her lower back |
+| Boys at the bar J take 7 (C31), same, pulled back full length | 382 92025e08-2753-46f2-8803-33f6d3ba8136 | |
+| Vault V2 take 5 (C34), EDIT of V1 351 | 356 c12561e8-705b-49b8-b5bd-dbb1bbcbdf49 | Tay IN the chair, feet flat on the rug |
+| Vault V2 take 6 (C34), EDIT of V1 351, slight push-in | 357 78c3a0ab-bd92-4048-b426-3dbfc3a444d6 | |
+349 and 355 are retired. Bible C34–C38 now say Tay sits IN the chair on its seat, feet on the
+rug; C31 is staged from behind the couple so the hand on her back is unambiguous.
