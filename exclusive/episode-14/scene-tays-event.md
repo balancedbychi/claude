@@ -1,48 +1,35 @@
 # EXCLUSIVE — Episode 14
-## Scene Build-Out: Nia at Tay's Launch Night
+## Nia at Tay's Launch Night
 
-> **Continuity note.** Written without access to episodes 1–13 (The Set connector needs to be
-> reconnected). Locked details are at the bottom. Anything in `[brackets]` is a placeholder.
+> Written without access to episodes 1–13 (The Set connector needs to be reconnected).
+> Locked details are at the bottom. Anything in `[brackets]` is a placeholder.
 
 ---
 
-## Tay
+## Where everyone is at
 
-Twenty-seven. A young boss, with the stress on both words. He started a streetwear brand out
-of his mom's garage at nineteen, sold it at twenty-three for more money than anyone in his
-family had ever seen in one place, and put every dollar of it into a condemned bank building
-downtown. He is used to being the smartest person in the room and the youngest. He has never
-once been nervous about money. He has never once had to chase a woman.
+**Nia Keynes.** Two weeks into Tay. Also still seeing `[OTHER GUY]`, the safe one, the one
+who never surprises her. She got played before, badly, by a man who had someone else the
+whole time. So she has a rule now: don't fall. Every time Tay does something that makes her
+want to, she looks for a reason not to. Tonight she walks into his building determined to be
+unimpressed.
 
-Two weeks ago he met Nia Keynes. He has texted her good morning every single day since. He is
-not playing it cool because he does not know how. This is the first thing in his life he can't
-build his way into.
+**Tay.** Twenty-five. A young boss. Started a streetwear brand out of his mom's garage at
+nineteen, sold it at twenty-two, bought a condemned bank building with the money, and spent
+two years rebuilding it with six of his boys. He has never had to chase a woman. He is
+chasing Nia. He texts her good morning every day, he sent a car, and tonight he wants her to
+see him at his best. He has not mentioned Zarya. Not once.
 
-## Tay's Business: THE LEDGER
+**Zarya.** Tay's girlfriend. Three years. She was there through the whole build. Whether Tay
+thinks it's over is a different question from whether she does, and from whether he ever
+told Nia. He didn't.
 
-**What it is.** A private creative house in a restored 1920s bank building. Tay bought it
-condemned and rebuilt it with six of his boys over two years. He slept upstairs for most of it.
-
-**The layout.**
-- **The Floor** — the old banking hall. Marble, brass teller cages kept intact and turned into
-  the bar and the DJ booth. Gallery and main event space.
-- **The Vault** — the original walk-in vault, now a twelve-seat listening room. Four-ton door.
-  It still closes.
-- **Upstairs** — three recording studios and a photo studio, rented at cost to members.
-- **The Roof** — open air, string lights, the whole city.
-
-**Why it's boss.** It's also a fund. Dues and event money go into one pool, and Tay writes
-real checks to Black-owned creative businesses that can't get a meeting with a bank. He calls
-the checks "deposits." Tonight is the launch, called **FIRST DEPOSIT**, and he announces the
-first three.
-
-## Zarya
-
-Tay's ex. They were together for most of the build. When the money ran out eight months
-before opening, her family bridged the gap. Tay paid every dollar back with interest before
-the doors opened and had the paperwork framed. She still thinks of the building as half hers.
-She is beautiful, she is polished, she knows every one of Tay's boys by name, and she has
-been waiting all night to meet the girl.
+**The Ledger.** Tay's business. A private creative house in a restored 1920s bank downtown.
+The old banking hall is the main floor: gallery, bar, DJ booth built into the brass teller
+cages. The old vault is a listening room. Studios upstairs. A rooftop. And it's also a fund:
+membership money and event money go into one pot, and Tay writes real checks to Black-owned
+creative businesses that can't get a bank to call them back. He calls the checks deposits.
+Tonight is the launch. It's called First Deposit.
 
 ---
 
@@ -52,34 +39,30 @@ been waiting all night to meet the girl.
 Two dresses on the bed: one safe, one not. Her phone is propped against the mirror on
 FaceTime with CHI, who is in her own kitchen with a glass of wine and nowhere to be.*
 
-**CHI** (V.O., phone)
+**CHI**
 Put on the other one.
 
 **NIA**
-I haven't even tried the safe one yet.
+I haven't tried the safe one yet.
 
-**CHI** (V.O.)
-Because you already know what the safe one looks like. Put on the other one. For me.
+**CHI**
+You already know what the safe one looks like. Put on the other one. For me.
 
-*Nia sighs. Takes the second dress into the bathroom. The camera stays on the phone propped
-against the mirror, Chi's face sipping wine, waiting.*
+*Nia sighs. Takes the second dress into the bathroom. The camera stays on the phone, Chi
+sipping wine, waiting. Nia comes back out. Chi puts the wine down.*
 
-*Nia comes back out.*
-
-*Chi puts the wine down.*
-
-**CHI** (V.O.)
+**CHI**
 Girl.
 
 **NIA**
 It's too much.
 
-**CHI** (V.O.)
+**CHI**
 Turn around.
 
 *Nia turns around.*
 
-**CHI** (V.O.)
+**CHI**
 Nia Keynes. You look absolutely drop dead gorgeous. I'm not being cute. I'm not being your
 friend right now. I'm being honest. That man is going to see you walk in and fall in love
 with you on the spot. In front of everybody. He is not going to be able to help it.
@@ -88,29 +71,45 @@ with you on the spot. In front of everybody. He is not going to be able to help 
 *(looking at herself)*
 It's been two weeks, Chi.
 
-**CHI** (V.O.)
-And he's been texting you good morning every one of those fourteen days. In that dress he's
-going to text you good morning *and* good night.
-
-*Nia laughs despite herself. Then the laugh fades and she's just looking at the mirror.*
+**CHI**
+And he's texted you good morning every one of those fourteen days.
 
 **NIA**
-I don't even know what he does. I know how he takes his coffee. I know he texts in all
+`[OTHER GUY]` texts me too.
+
+**CHI**
+`[OTHER GUY]` texts you "wyd." That's not the same thing and you know it.
+
+*Nia doesn't answer that. She's looking at the dress in the mirror.*
+
+**NIA**
+I don't even know what Tay does. I know how he takes his coffee. I know he texts in all
 lowercase. I don't know what he does for a living.
 
-**CHI** (V.O.)
-He said come see what I built. So go see what he built. In the dress.
+**CHI**
+He said come see what I built. So go see it.
 
-*Nia picks up her phone. Looks at Chi.*
+**NIA**
+And if I go and it's amazing and he's amazing and then—
 
-**CHI** (V.O.)
-And Nia. When he looks at you tonight? Let him.
+**CHI**
+Then what.
 
-*Nia hangs up. Takes one more look in the mirror. Keeps the dress on.*
+**NIA**
+Then somebody pops up. Like last time.
 
-> **Beat note:** the only quiet moment in the episode. Chi is the audience here. She says
-> what everyone watching is thinking about the dress, and she names the thing Nia is scared
-> of, which is being looked at like that by someone moving this fast.
+*Beat. Chi's voice goes softer.*
+
+**CHI**
+Nia. Not every man is him.
+
+**NIA**
+I know that.
+
+**CHI**
+Then go. In the dress. And when Tay looks at you tonight? Let him.
+
+*Nia picks up the phone. Hangs up. One more look in the mirror. Keeps the dress on.*
 
 ---
 
@@ -124,39 +123,34 @@ texts: too many, too fast.*
 > **TAY:** i know you said you'd drive
 > **NIA:** You sent a car, Tay.
 > **TAY:** i sent THE car. don't play
+> **NIA:** It's a car.
+> **TAY:** 😐
+> **TAY:** ok. wait till you see the building then
 > **NIA:** What am I walking into.
 > **TAY:** something i been building since before i met you
-> **TAY:** wanted you to see it done
-> **TAY:** also you about to be the best thing in the building and i built the building so
+> **TAY:** also you about to be the best thing in it and i built it so
 
-*She reads the last one twice. Fights a smile. Loses.*
-
-> **NIA:** Confident.
-> **TAY:** nah
-> **TAY:** just know what i'm looking at
-
-*She puts the phone down. Looks out the window.*
+*She reads the last one twice. Fights a smile. Almost loses. Doesn't reply.*
 
 *The car turns a corner and the street is full. A line down the block. Photographers. A
-building lit from inside like a lantern, columns, brass doors, one word in warm light:*
+building lit from inside, columns, brass doors, one word in warm light above the entrance:*
 
 **THE LEDGER**
 
-**NIA** (quiet)
-...Oh.
+*Nia stares at it. Her face does a thing. Then she catches herself doing it and stops.*
+
+**NIA** *(to no one)*
+Okay. It's a building.
 
 ---
 
 ## SCENE 14.3 — EXT. THE LEDGER — NIGHT — CONTINUOUS
 
 *The driver opens the door. Nia steps out into a wall of people who know exactly where they
-are. She doesn't.*
-
-*A HOST with a headset is at her elbow before she's taken three steps.*
+are. A HOST with a headset is at her elbow before she's taken three steps.*
 
 **HOST**
-Ms. Keynes? He said you'd be the one who looked like she wasn't sure she had the right
-address.
+Ms. Keynes? He said you'd be the one who looked like she was trying not to be impressed.
 
 **NIA**
 He said that?
@@ -168,19 +162,19 @@ He said it four times. You don't do the line.
 
 ---
 
-## SCENE 14.4 — INT. THE LEDGER — THE FLOOR — NIGHT — CONTINUOUS
+## SCENE 14.4 — INT. THE LEDGER — THE MAIN FLOOR — NIGHT — CONTINUOUS
 
-*The banking hall opens up around her. Marble. Height. Brass cages glowing as a bar on one
-side and a DJ booth on the other. Art on every wall. Two hundred people, all of them
-beautiful. A low, expensive bass under everything.*
+*The old banking hall opens up around her. Marble floors. Ceilings forty feet up. The brass
+teller cages along one wall glow as a bar, and one on the far end is a DJ booth. Art on every
+wall. Two hundred people, all of them beautiful. A low, expensive bass under everything.*
 
-*Nia stops in the doorway.*
+*Nia stops in the doorway. She's impressed. She is not going to let anyone see that.*
 
-*Across the room, in the middle of a conversation with three men in suits, TAY looks up.*
+*Across the room, mid-conversation with three men in suits, TAY looks up.*
 
-*And he does not play it cool. His whole face changes. He says something to the suits
-without looking at them and he's already moving. Not walking. Moving. People turn to watch
-him cross the floor because they've never seen him do that for anybody.*
+*He does not play it cool. His whole face changes. He says something to the suits without
+looking at them and he's already moving. People turn to watch him cross the floor because
+they've never seen him do that for anybody.*
 
 **TAY**
 Yo. *Yo.*
@@ -198,36 +192,43 @@ How would you know which one was the safe one.
 **TAY**
 'Cause that's not it.
 
-*She tries not to smile. Doesn't make it.*
+*She tries not to smile. Doesn't make it. Then she looks past him at the room.*
 
 **NIA**
-Tay. What *is* this.
+So this is it.
 
 **TAY**
-*(grinning, can't help it)*
-Hold on. Hold on. You gotta meet my boys first.
-
-*He puts a hand at the small of her back and steers her toward the bar, where SIX GUYS in
-various stages of dressed-up are already grinning at her like they've heard about her every
-day for two weeks. Because they have.*
-
-**TAY (CONT'D)**
-This is Nia. Everybody be normal.
-
-**BOY #1** (`[NAME]`)
-*So* you're Nia.
+This is it.
 
 **NIA**
-Why'd you say it like that.
-
-**BOY #1**
-No reason. He's just been real annoying about it.
+*(a beat, flat)*
+It's nice.
 
 **TAY**
-Aight. We're walking away now.
+Nice?
 
-> **Beat note:** this is the young in "young boss." Every grown man in the building takes him
-> seriously and his boys still clown him. Let the audience see both.
+**NIA**
+It's a nice building, Tay.
+
+**TAY**
+*(to the ceiling)*
+Nice. She said nice.
+
+*His boys are at the bar and they heard it. SIX GUYS in various stages of dressed-up, already
+grinning at her like they've heard about her every day for two weeks. Because they have.*
+
+**BOY AT THE BAR**
+She said nice, bro.
+
+**TAY**
+I heard her.
+
+**BOY AT THE BAR**
+Two years. Space heater. "Nice."
+
+**TAY**
+*(hand at the small of her back, steering her away)*
+Aight. We're walking now.
 
 ---
 
@@ -238,13 +239,13 @@ enough and comes right back to her. He keeps touching her elbow to make sure she
 there.*
 
 **TAY**
-Bank built it in 1926. Closed in '09. City condemned it in '19. I bought it in '21.
+Bank built it in 1926. Closed in '09. City condemned it in '19. I bought it at twenty-three.
 
 **NIA**
 With what?
 
 **TAY**
-I had a clothing brand. Started it in my mom's garage at nineteen. Sold it at twenty-three.
+I had a clothing brand. Started it in my mom's garage at nineteen. Sold it at twenty-two.
 
 **NIA**
 Sold it for what?
@@ -253,62 +254,69 @@ Sold it for what?
 *(shrugs)*
 Enough to buy a bank.
 
-*Beat. She looks at him differently.*
-
-**TAY (CONT'D)**
-Everybody told me to buy a house. Buy some rental property. Be smart. I bought a condemned
-building with no roof and slept in it for two years with six dudes and a space heater.
+*She looks at him. He can see her trying to find the hole in it.*
 
 **NIA**
-That's not smart.
+And then what, you hired somebody?
 
 **TAY**
-Nah. But look at it.
+Nah. Me and six dudes. Two years. No roof the first winter. I slept upstairs with a space
+heater.
 
-*He nods at the teller cages.*
+**NIA**
+Why?
 
-**TAY (CONT'D)**
-Kept the cages. People told me rip 'em out. Felt wrong. Somebody stood in those for forty
-years handing out other people's money.
+**TAY**
+'Cause everybody told me to buy a house. Be smart. Buy some rental property. And I was like,
+nah, I'm gonna buy the bank.
+
+*She almost laughs. Covers it.*
 
 **NIA**
 So it's a club.
 
 **TAY**
-It's a house. Studios upstairs. Listening room in the vault.
+It's a house. Studios upstairs for members. Gallery down here. Listening room in the old
+vault.
 
 **NIA**
 That's a club with a nice vocabulary.
 
 **TAY**
 *(laughs, really laughs)*
-Okay. Fair. Come see the vault.
+You're not gonna give me nothing tonight, huh.
+
+**NIA**
+I said it was nice.
+
+**TAY**
+Come on. Vault.
 
 ---
 
 ## SCENE 14.6 — INT. THE LEDGER — THE VAULT — NIGHT
 
-*Dim, warm. Twelve leather seats. A wall of records. The party is a murmur through the
-four-ton door. He swings it halfway closed and the sound drops to almost nothing.*
+*The old bank vault, now a listening room. Dim, warm. Twelve leather seats. A wall of vinyl.
+He pulls the door most of the way closed and the party drops to a murmur.*
 
 **NIA**
 Okay. This is where you tell me the real thing.
 
 **TAY**
-What makes you think there's a real thing?
+What real thing?
 
 **NIA**
-Because you built a four-ton door to say it behind.
+You walked me past two hundred people to get me alone in a bank vault. There's a real thing.
 
 *He laughs. Then he sits on the arm of a chair and for the first time he doesn't look at her.*
 
 **TAY**
 Every member pays dues. Every event pays. All of it goes in one account. And out of that
-account I write checks to people who look like us and build like us and can't get a meeting
-with a bank. Real money. No equity. They pay it back when they can and it goes to the next
-one. I call 'em deposits. Tonight's the first three. I'm announcing in twenty minutes.
+account I write checks to people who look like us and build like us and can't get a bank to
+call them back. Real money. No equity. They pay it back when they can and it goes to the
+next one. I call 'em deposits. Tonight's the first three. I'm announcing in twenty minutes.
 
-*Nia looks at him a long time.*
+*Nia looks at him a long time. This is the one she can't find a hole in.*
 
 **NIA**
 Two weeks. You had two weeks to say one sentence.
@@ -321,37 +329,31 @@ Why.
 
 **TAY**
 *(finally looks at her)*
-'Cause everybody out there likes me *because* they know. And I'm not—
+'Cause everybody out there likes me *because* they know.
 
-*He stops. Starts over. He's bad at this.*
-
-**TAY (CONT'D)**
-I'm feeling you, Nia. Like, a lot. It's been two weeks and I'm texting you good morning like
-a crazy person and my boys are clowning me and I don't care. I built all this and I've never
-been nervous one day about any of it and I'm nervous right now. In my own vault.
-
-*Silence. The bass through the door.*
-
-**NIA**
-That's fast.
+*Beat.*
 
 **TAY**
-I know.
+I'm feeling you, Nia. Like, a lot. I'm texting you good morning like a crazy person and my
+boys are clowning me and I don't care. I built all this and I wasn't nervous one day of it
+and I'm nervous right now. In my own vault.
+
+*Silence. She is not acting unimpressed anymore. She just can't say it.*
 
 **NIA**
-I don't do fast.
+Tay—
 
 **TAY**
-I know. I'm not asking you to. I'm just telling you where I'm at so you don't have to guess.
+You don't gotta say nothing. I'm just telling you where I'm at so you don't have to guess.
 
-*She doesn't answer. He stands, offers his hand.*
+*He stands. Offers his hand.*
 
-**TAY (CONT'D)**
+**TAY**
 Come watch me do the thing. I want to see your face.
 
 ---
 
-## SCENE 14.7 — INT. THE LEDGER — THE FLOOR — NIGHT — LATER
+## SCENE 14.7 — INT. THE LEDGER — THE MAIN FLOOR — NIGHT — LATER
 
 *The music cuts. Tay is in the DJ booth, inside the brass cage, mic in hand. The nervous is
 gone. This part he knows.*
@@ -361,128 +363,147 @@ I'm not gonna talk long. I don't like talking. I like building.
 
 *(laughter)*
 
-**TAY (CONT'D)**
+**TAY**
 This building held money for ninety years. None of it was ours. So tonight we're changing
 whose money it holds. Three names. Three checks. First deposit.
 
-*He reads the three names. `[NAME 1 — a designer.]` `[NAME 2 — a producer.]` `[NAME 3 — a
-film photographer.]` Each one steps out of the crowd. The room loses its mind.*
+*He reads three names. A designer. A producer. A film photographer. Each one steps out of the
+crowd. The room loses its mind.*
 
-*Nia at the edge of the floor. Her face is doing exactly what he wanted.*
+*Nia at the edge of the floor. Her face is doing exactly what he wanted. She's not hiding it.*
 
-*Tay, still in the cage, finds her across the room. Lifts the mic a half inch, like a toast.
-Sets it down. The music drops back in.*
+*Tay finds her across the room. Lifts the mic a half inch, like a toast. Sets it down. The
+music drops back in.*
 
 *He steps out of the booth into a crush of people. And a WOMAN is there first. Stunning,
 polished, dressed like she knew exactly what the marble would look like under these lights.
-She puts a hand flat on his chest, goes up on her toes, says something into his ear. He
-stiffens. She laughs, pats his chest twice, and walks away before he can answer.*
+She slides a hand around the back of his neck, pulls him down, and kisses him. On the mouth.
+In front of everybody. Then she laughs, wipes her lipstick off his lip with her thumb, and
+walks away.*
+
+*Tay stands there a second too long before he moves.*
 
 *Nia sees all of it.*
 
-*Two minutes later, Nia is at the bar and the same woman slides in next to her. Doesn't look
-at her. Orders a drink.*
+*She turns to the bar. Orders something. Her hands aren't steady. And the same woman slides
+in next to her.*
 
 **ZARYA**
-You must be the new one.
+You must be Nia.
 
 **NIA**
-I'm sorry?
+...I'm sorry?
 
 **ZARYA**
 *(turns, smiles, offers a hand)*
-Zarya. I helped him pick the marble.
+Zarya. Tay's girlfriend.
 
-*Nia shakes the hand because she was raised right.*
+*Nia doesn't take the hand right away. Then she does, because she was raised right.*
 
 **NIA**
-Nia.
+Girlfriend.
 
 **ZARYA**
-I know. The boys have been saying your name all week. They were saying mine for three years.
+Three years. I was here when it was just a hole with no roof. He tell you about the space
+heater? He loves that story.
 
-*Her drink arrives. She picks it up. Clinks it against Nia's without asking.*
+*Her drink arrives. She picks it up.*
 
-**ZARYA (CONT'D)**
-It's a beautiful building. You should ask him who really paid for it.
+**ZARYA**
+He didn't mention me, did he.
 
-*And she's gone into the crowd.*
+*Nia says nothing. Which is an answer.*
+
+**ZARYA**
+*(not even mean about it, which is worse)*
+Yeah. He does that.
+
+*She clinks her glass against Nia's and is gone into the crowd.*
 
 ---
 
 ## SCENE 14.8 — EXT. THE LEDGER — THE ROOF — NIGHT
 
-*String lights. The city below. The party is a warm roar from inside. Nia alone at the edge,
-no drink. Tay comes through the door fast, looking for her, and slows down when he sees her
-face.*
+*String lights. The city below. The party is a warm roar from inside. Nia alone at the edge.
+She's not crying. She's past that and into something colder.*
+
+*Tay comes through the door fast, looking for her. Slows down when he sees her face.*
 
 **TAY**
 There you are. I been—
 
 **NIA**
-Who's Zarya.
+Your girlfriend introduced herself.
 
 *He stops.*
 
 **TAY**
-...She found you.
+She's not my—
 
 **NIA**
-She found me. She bought me a drink. She told me she picked the marble. Who is she, Tay.
+Don't.
 
 **TAY**
-My ex.
+Nia—
 
 **NIA**
-For how long.
+Don't say "she's not my girlfriend." She just kissed you in front of two hundred people and
+you let her.
 
 **TAY**
-Three years. Through the build. We ended eight months ago.
+I didn't *let* her, she—
 
 **NIA**
-Eight *months.*
+Three years, Tay?
+
+*Beat.*
 
 **TAY**
-It was done way before that.
+It's over.
 
 **NIA**
-She told me to ask you who really paid for this building.
+Does she know that?
 
-*Beat. His jaw tightens. This one lands.*
-
-**TAY**
-Her family put money in. Eight months before we opened. I was out. I'd have lost the whole
-thing. Her people bridged it.
+*He doesn't answer fast enough.*
 
 **NIA**
-So she's right.
+Does she live with you?
 
 **TAY**
-*No.* I paid every dollar back. With interest. Before the doors opened. I got the paperwork
-framed in my office. This building got my name on it and nobody else's.
+She's moving out.
 
 **NIA**
-Then why is she still in it?
+*(a laugh with nothing in it)*
+She's *moving out.*
 
 **TAY**
-'Cause I invited two hundred people and she knows a hundred of them. I can't—
+It's complicated. We been done for months, she just—
 
 **NIA**
-You had two weeks, Tay. Two weeks of good morning texts. You told me about the vault. You
-told me about the space heater. You stood in there and told me you were nervous and you
-never once said her name.
+Do you know how many times I've heard that sentence? Word for word? "It's complicated." "We
+been done." "She just won't let go."
 
 **TAY**
-*(loud, before he can stop it)*
-Because I didn't want her in the room with us!
+I'm not him.
 
-*It echoes. He hears himself. Pulls it back.*
+**NIA**
+You don't even know who him is.
 
-**TAY (CONT'D)**
-I didn't want her in the room. Every room I been in for three years she was in it. The vault
-was supposed to be the one room that was just—
+**TAY**
+I know I'm not him.
 
-*He doesn't finish it.*
+*She turns on him.*
+
+**NIA**
+You texted me good morning every day for two weeks. You sent a car. You walked me past the
+line. You took me in that vault and told me you were *nervous*. And the whole time there was
+a woman at home who thinks she's your girlfriend. And you never said her name. Not once.
+
+**TAY**
+'Cause I didn't want her in it! Every room I been in for three years she was in it. I wanted
+one thing that was just—
+
+*He stops himself.*
 
 **NIA**
 Just what.
@@ -490,114 +511,98 @@ Just what.
 **TAY**
 Just you.
 
-*She looks away. At the city. Her eyes are wet and she's furious about it.*
+*She looks at him. For a second you can see her want to believe it. Then she puts it away.*
 
 **NIA**
-I told you I don't do fast.
+That's a nice thing to say.
 
 **TAY**
-I know.
+I mean it.
 
 **NIA**
-This is what fast gets you. Some girl at the bar with your whole history.
+I'm sure you do. Right now. On your roof. On your big night.
+
+*She picks up her clutch.*
 
 **TAY**
-*(closer now, quieter)*
-Nia. I been a boss since I was nineteen. I've had grown men try to take this building from
-me. Lawyers. Her daddy. The city. I ain't been scared of none of it. Not one day.
+Nia. Don't leave like this. Let me explain the whole—
+
+**NIA**
+That's the thing, Tay. I don't want to hear the whole thing. I came here tonight *trying* not
+to like you. I was trying so hard. And I was losing. You were winning. You had me in that
+vault.
 
 *Beat.*
 
-**TAY (CONT'D)**
-I'm scared of you.
+**NIA**
+And then she popped up. Like I knew somebody would.
+
+*She walks past him toward the door. Stops. Doesn't turn around.*
 
 **NIA**
-Don't say that to me if you don't mean it.
+I do like you. That's the problem.
 
-**TAY**
-I built a bank. I don't say things I don't mean.
-
-*She turns to him. Long beat. He doesn't move. He's learned, in the last ten minutes, to let
-her come to him.*
-
-*She does.*
-
-*She kisses him. It's not sweet. It's two weeks of good morning texts and a fight and a
-four-ton door. His hands find her face like he's been waiting all night to be allowed. When
-she pulls back, he's the one who looks wrecked.*
-
-**NIA**
-*(forehead against his)*
-I'm still mad.
-
-**TAY**
-Okay.
-
-**NIA**
-I'm leaving. Alone.
-
-**TAY**
-Okay.
-
-**NIA**
-Text me good morning.
-
-**TAY**
-*(almost laughs, almost doesn't)*
-Every day.
-
-*She walks to the door. Doesn't look back. He lets her.*
+*She goes. He doesn't follow. He knows better. He stands on his roof on his launch night with
+the whole city in front of him, and he looks like a kid.*
 
 ---
 
 ## SCENE 14.9 — INT. CAR — NIGHT — MOVING
 
-*Nia in the back of the car. Lipstick gone. Staring at nothing. Her phone buzzes.*
+*Nia in the back of the car. Staring at nothing. The building shrinking in the back window.
+Her phone buzzes. Then again. Then again.*
 
-> **CHI:** GIRL
-> **CHI:** [screenshot]
+> **TAY:** nia
+> **TAY:** please
+> **TAY:** it's not what it looks like i swear
+> **TAY:** let me explain the whole thing
+> **TAY:** i'm not him
 
-*A screenshot of an Instagram story. Posted four minutes ago. A photo of the vault, the
-four-ton door, the twelve leather seats. Taken from the exact spot Nia was sitting an hour
-ago. Caption:*
+*She reads them. Doesn't answer. Her thumb hovers.*
 
-> *our vault. launch night. 🖤* — **@zarya.`[handle]`**
+*Then she backs out of the thread. Scrolls. Opens a different one.*
 
-*Nia looks at the phone. Looks out the back window at the building getting smaller.*
+> **`[OTHER GUY]`:** wyd
+
+*Sent three hours ago. Unanswered until now.*
+
+*She types.*
+
+> **NIA:** You still up?
+
+*She hits send. Puts the phone face down in her lap. Looks out the window.*
 
 *Cut to black.*
 
 ---
 
-## Visual + Tone Notes
+## Notes
 
-- **Palette:** warm brass, deep marble green, black, candle-gold. Old money that finally
-  belongs to the right people.
-- **Nia's look:** the not-safe dress. `[Color TBD against her established wardrobe.]`
-- **Tay's look:** no tie. Black on black, tailored but not stiff. Fresh sneakers with the
-  suit, because he's twenty-seven and he can. One chain with a story.
-- **Zarya's look:** the opposite of Nia. Everything about her says she's been here before.
-- **Tay's energy:** he's the boss everywhere except around Nia. Let him be too eager, too
-  fast, too honest. He texts in lowercase and too many bubbles. His boys clown him. That's
-  the point.
-- **Sound:** minimal score. Bass through walls. The vault is the quietest moment in the
-  series so far. The rooftop fight should have no score at all until the kiss.
-- **Camera:** one long push-in from the car door to the brass doors, no cut. Nia walking into
-  his world. Mirror it in 14.9 with the building shrinking in the back window.
+- **The push and pull.** Every scene before the kiss is Tay trying to impress her and Nia
+  refusing to give him the win. The car, the line, "it's nice," "a club with a nice
+  vocabulary." She's losing the whole time and the audience can see it. The vault is where
+  she stops pretending. The announcement is where she lets it show on her face. That's what
+  makes Zarya's kiss land: Nia had finally dropped her guard, for about ninety seconds.
+- **Zarya.** Don't play her as a villain. She's calm and she's sure. "He does that" should
+  sound like a woman who's been through it, not one who's trying to hurt Nia. That's what
+  makes Nia believe her.
+- **Tay on the roof.** He's probably telling the truth about it being over. It doesn't
+  matter. He hid it, and Nia's whole fear just walked up and kissed him. Let him be young
+  here. He's a boss in every room but this one.
+- **The last text.** "You still up?" to the other guy is Nia running back to safe. It
+  should feel like a loss, not a win.
+- **Look:** warm brass, marble, candle-gold. Tay in black on black with fresh sneakers,
+  because he's twenty-five and he can. Zarya is the opposite of Nia: she looks like she's
+  been here before, because she has.
 
 ## Locked details
 
 - Nia and Tay have known each other **two weeks**.
 - Nia's best friend is **Chi**.
 - Nia's full name is **Nia Keynes**.
-- Tay is **twenty-seven**. Started a streetwear brand at nineteen, sold it at twenty-three,
-  bought the building with the money.
-- **Zarya** is Tay's ex of three years, ended eight months ago. Her family bridged the build
-  financially. Tay paid it back in full. She's the antagonist for this arc.
-- Tay has texted Nia good morning every day for two weeks.
-
-## Still to confirm against episodes 1–13
-
-1. Whether anything earlier contradicts Tay's age, the brand, or the 2021 purchase.
-2. Why Nia doesn't do fast, so the rooftop lands with the right history behind it.
-3. The six boys' names, if any were introduced before.
+- Nia is also seeing **`[OTHER GUY]`**, the safe option. He needs a name.
+- Nia was played before by a man who had someone else the whole time.
+- Tay is **twenty-five**. Brand at nineteen, sold at twenty-two, bought the bank at
+  twenty-three, two years rebuilding.
+- **Zarya** is Tay's girlfriend of three years. He says it's over. She's still in his house.
+- Tay's six boys stay unnamed until one matters.
