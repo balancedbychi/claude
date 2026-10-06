@@ -227,8 +227,8 @@ low black leather lounge chairs in a loose horseshoe on a dark green rug, a floo
 vinyl wall in brass-framed shelves with warm LED strips, a walnut console with a turntable,
 two tall matte-black speakers, one brass floor lamp, a low glass table with two whisky
 glasses that stay untouched. Camera inside looking toward the door. STAGE MAP: Tay pushes
-the door with his LEFT hand in C33; he sits on the ARM of the nearest chair at frame LEFT
-for C34 to C38; Nia stands at frame RIGHT and sets her bag on the seat of the chair
+the door with his LEFT hand in C33; he sits IN the nearest chair at frame LEFT, on its seat,
+feet flat on the rug, for C34 to C38; Nia stands at frame RIGHT and sets her bag on the seat of the chair
 beside her.
 
 **SET G — The Roof, night.** LOCKED 6 Oct 2026, element Ledger-Roof-Night. A LARGE modern
@@ -422,9 +422,12 @@ RIGHT hand has dropped. FACE: Nia looks past him at the room, flat, and back to 
 looks up at the ceiling. LINES: "So this is it." / "This is it." / "It's nice." / "Nice?" /
 "It's a nice building, Tay." / "Nice. She said nice."
 
-**C31 — The boys at the bar.** CAMERA: medium-wide from the floor side of the bar, the six
-boys along the bar in the glowing brass cage, glasses in hand. Nia and Tay at frame RIGHT
-edge, backs half to camera, Tay's hand now at the small of Nia's back. HANDS: the boy
+**C31 — The boys at the bar.** CAMERA: from BEHIND Nia and Tay, eye level, looking past them
+at the bar: the two of them in the near foreground side by side with their backs to camera,
+the six boys ahead of them along the floor side of the counter, facing camera, glasses in
+hand. Tay on NIA'S LEFT (frame LEFT from behind), a full head taller; his RIGHT arm goes
+behind her and his RIGHT hand rests flat on the small of her back, clearly visible from
+behind. Neither is ahead of the other. HANDS: the boy
 nearest Tay has his glass raised toward them; another has both elbows on the bar. FACE: all
 six grinning. LINES: "She said nice, bro." / "I heard her." / "Two years. Space heater.
 'Nice.'" / "Okay. We're walking now."
@@ -450,9 +453,10 @@ FACE: Nia genuinely taking it in. Tay watching her, not the door. LINES: "Okay. 
 you tell me the real thing." / "What real thing?" / "You walked me past two hundred people
 to get me alone in a bank vault. There's a real thing."
 
-**C34 — Tay sits, doesn't look at her.** CAMERA: medium, Tay at frame LEFT sitting on the ARM
-of the nearest leather chair, Nia standing at frame RIGHT. HANDS: Tay's forearms on his
-thighs, hands hanging between his knees, fingers laced. Nia: she sets the bag on the seat
+**C34 — Tay sits, doesn't look at her.** CAMERA: medium, Tay at frame LEFT sitting IN the
+nearest leather chair, on its SEAT, both feet flat on the rug (never on the arm, never with
+his feet on a cushion), Nia standing at frame RIGHT. HANDS: Tay's forearms on his thighs,
+hands hanging between his knees, fingers laced. Nia: she sets the bag on the seat
 of the chair beside her with her RIGHT hand and leaves both arms at her sides. FACE: Tay
 looking at the floor between his sneakers. Nia looking at him. LINE: the "deposits" speech.
 
@@ -474,7 +478,7 @@ around her LEFT thumb. Tay's hand still at his neck. FACE: Nia's mouth opens and
 comes out. LINES: "Tay—" / "You don't gotta say nothing back. I'm just telling you where I'm
 at so you don't have to guess."
 
-**C38 — The hand.** CAMERA: same as C37. Tay stands and offers his RIGHT hand, palm up, low,
+**C38 — The hand.** CAMERA: same as C37. Tay stands up out of the chair and offers his RIGHT hand, palm up, low,
 between them. Nia's hands still together in front of her. FACE: he's looking at her; she's
 looking at the hand. LINE: "Come watch me do the thing. I wanna see your face." Hold on the
 open hand. (Whether she takes it is the cut.)
