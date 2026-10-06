@@ -290,3 +290,9 @@ Tenth review: C47 hand offered backwards, C49 glasses floating. Rule added (hand
 | C47 retake | O2 | e58c5d6b-4474-4ee1-bfca-2587e012b4d8 |
 | C49 retake | O2 | 0309abc2-c6d3-487a-a3c6-ccf8b628aa44 |
 Retired: f1530263, ad82bbcd.
+Eleventh review: Zarya offered one hand and shook with the other; three floating glasses.
+Bible C46–C49 rewritten with quarter-turn choreography, every hand named by own side AND
+frame side, glasses planted on the counter. Retired: e58c5d6b, 7ca8abca, 0309abc2.
+| C47 retake 3 | O2 | 9c1abc70-b0cc-4d81-a046-340c3b768c5d |
+| C48 retake 2 | O2 | af3a3708-baf7-4a11-883e-e9b87247083c |
+| C49 retake 3 | O2 | 76795b7d-9c1f-47f1-a2e5-a63bc64306a4 |
