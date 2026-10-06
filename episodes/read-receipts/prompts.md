@@ -2,7 +2,7 @@
 
 Read `script.md` first: it has the story, the floor plan and the beat-by-beat. This file holds what's sent to Higgsfield: first the five start-frame stills, then the five Seedance 2.5 clips. **Nothing is generated or filmed until you say so** (rule 9). Each clip is filmed only after the one before it is approved. Clip 01 attaches Episode 12's approved Clip 06 as its video reference; from Clip 02 on, each prompt attaches the approved clip before it (rule 7).
 
-**Status (5 Oct 2026):** FOR REVIEW. Nothing generated, nothing filmed, no credits spent.
+**Status (6 Oct 2026):** STILLS MADE, FOR YOUR REVIEW (13.75 credits). No clip filmed.
 
 ## CUT LIST
 
@@ -77,11 +77,11 @@ POSE: <pose line>
 
 | Still | Pose line | Job ID | Verdict |
 |---|---|---|---|
-| 01 | Both women hold their own phones in their hands, screens toward themselves (the camera sees only the backs of the cases), thumbs on them, smiling at each other. Both white mugs and the French press stand on the marble as in the master plate. | — | Not made |
-| 02 | ChiChi rests both hands flat on the marble either side of her cream-case phone, which lies face-down beside the French press; she looks slightly unsettled. Nia's right hand rests on her beige-tan phone, face-down on the marble; one eyebrow up, mid-word. | — | Not made |
-| 03 | ChiChi holds her white mug in her right hand at chest height, nodding at Nia's phone. Nia is lifting her beige-tan phone, screen toward herself, looking down at it, lips just parting. ChiChi's phone lies face-down beside the French press; Nia's mug stands on the marble. | — | Not made |
-| 04 | ChiChi holds Nia's beige-tan phone up in her right hand, screen toward herself, eyebrows up; her own mug stands on the marble. Nia's hands are lowering from an outraged gesture, mouth closing. ChiChi's cream-case phone lies face-down beside the French press. | — | Not made |
-| 05 | Both phones lie face-down on the marble (Nia's by her right hand, ChiChi's beside the French press). Both women's hands rest empty on the marble; both have small, pleased smiles. | — | Not made |
+| 01 | Both women hold their own phones in their hands, screens toward themselves (the camera sees only the backs of the cases), thumbs on them, smiling at each other. Both white mugs and the French press stand on the marble as in the master plate. | `183d5936-8441-4404-8b71-5607281a72b3` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_005209_183d5936-8441-4404-8b71-5607281a72b3.png)) | **For your review** |
+| 02 | ChiChi rests both hands flat on the marble either side of her cream-case phone, which lies face-down beside the French press; she looks slightly unsettled. Nia's right hand rests on her beige-tan phone, face-down on the marble; one eyebrow up, mid-word. | `d05693a5-7191-4cde-8bd9-6b82cd589b63` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_005209_d05693a5-7191-4cde-8bd9-6b82cd589b63.png)) | **For your review** |
+| 03 | ChiChi holds her white mug in her right hand at chest height, nodding at Nia's phone. Nia is lifting her beige-tan phone, screen toward herself, looking down at it, lips just parting. ChiChi's phone lies face-down beside the French press; Nia's mug stands on the marble. | `f377b43c-cb9d-420b-abe1-e204f8e23949` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_005210_f377b43c-cb9d-420b-abe1-e204f8e23949.png)) | **For your review** |
+| 04 | ChiChi holds Nia's beige-tan phone up in her right hand, screen toward herself, eyebrows up; her own mug stands on the marble. Nia's hands are lowering from an outraged gesture, mouth closing. ChiChi's cream-case phone lies face-down beside the French press. | `773c21c0-3022-4524-9837-b7c1863afa6d` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_005209_773c21c0-3022-4524-9837-b7c1863afa6d.png)) | **For your review** |
+| 05 | Both phones lie face-down on the marble (Nia's by her right hand, ChiChi's beside the French press). Both women's hands rest empty on the marble; both have small, pleased smiles. | `3d7e0a93-4012-4926-b4d0-be5cd84f3025` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_005210_3d7e0a93-4012-4926-b4d0-be5cd84f3025.png)) | **For your review** |
 
 **Check each still** against Episode 12's eight-point list (sides, both faces, clothes, no rings, exactly two people, same kitchen in daylight, no text or screens, five fingers). A still that fails is remade before its clip is filmed.
 
@@ -96,7 +96,7 @@ POSE: <pose line>
 - **Out of Clip 01:** ChiChi's hands flat either side of her face-down phone; Nia's right hand resting on her face-down phone. Still 02 opens on the same.
 - **Reference line:** Episode 12's last line is never quoted in this prompt (rule 9). Nia's first line was changed so it doesn't echo it.
 
-**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 10`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: <Episode 13 Still 01 job ID>}, {role: video_references, value: `68a8a8a6-a26c-4198-a29d-851380d1e329` (Episode 12, approved Clip 06)}, + element images as image_references]`.
+**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 10`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: 183d5936-8441-4404-8b71-5607281a72b3}, {role: video_references, value: `68a8a8a6-a26c-4198-a29d-851380d1e329` (Episode 12, approved Clip 06)}, + element images as image_references]`.
 
 ```
 10 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
@@ -164,7 +164,7 @@ AUDIO: only these five lines, plus the same soft morning kitchen room tone as th
 - **Props:** only ChiChi's mug moves (5.5–8 s).
 - **Out of Clip 02:** ChiChi holding her mug in her right hand; Nia looking down at her phone. Still 03 opens with Nia lifting it.
 
-**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 8`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: <Episode 13 Still 02 job ID>}, {role: video_references, value: approved Clip 01}, + element images as image_references]`.
+**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 8`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: d05693a5-7191-4cde-8bd9-6b82cd589b63}, {role: video_references, value: approved Clip 01}, + element images as image_references]`.
 
 ```
 8 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
@@ -231,7 +231,7 @@ AUDIO: only these four lines, plus the same soft morning kitchen room tone as th
 - **The take:** ChiChi's right hand slides the phone out of Nia's hands; the screen stays away from the camera the whole time. This is the riskiest moment in the episode. If it fails, the fallback is ChiChi laying her hand flat over the phone in Nia's hands.
 - **Out of Clip 03:** ChiChi holding Nia's phone in her right hand; Nia's hands open. Still 04 opens on the same.
 
-**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 12`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: <Episode 13 Still 03 job ID>}, {role: video_references, value: approved Clip 02}, + element images as image_references]`.
+**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 12`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: f377b43c-cb9d-420b-abe1-e204f8e23949}, {role: video_references, value: approved Clip 02}, + element images as image_references]`.
 
 ```
 12 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
@@ -297,7 +297,7 @@ AUDIO: only these four lines, plus the same soft morning kitchen room tone as th
 - **Props:** Nia's phone goes back to her (3.5–6.5 s), she types and lays it face-down (6.5–9.5 s); only then does ChiChi pick up her own phone (9.5–13 s).
 - **Out of Clip 04:** both phones face-down, both women's hands empty, small smiles. Still 05 opens on the same.
 
-**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 13`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: <Episode 13 Still 04 job ID>}, {role: video_references, value: approved Clip 03}, + element images as image_references]`.
+**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 13`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: 773c21c0-3022-4524-9837-b7c1863afa6d}, {role: video_references, value: approved Clip 03}, + element images as image_references]`.
 
 ```
 13 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
@@ -365,7 +365,7 @@ AUDIO: only these lines, plus the same soft morning kitchen room tone as the ref
 - **Props:** only Nia's phone moves. It buzzes in place without sliding, then she picks it up.
 - **Expression:** from the buzz on, no smiling for either woman (reaction rule).
 
-**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 8`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: <Episode 13 Still 05 job ID>}, {role: video_references, value: approved Clip 04}, + element images as image_references]`.
+**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 8`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`, `medias: [{role: start_image, value: 3d7e0a93-4012-4926-b4d0-be5cd84f3025}, {role: video_references, value: approved Clip 04}, + element images as image_references]`.
 
 ```
 8 SECONDS. Photoreal cinematic comedy-drama, vertical 9:16, BRIGHT MORNING, a sunny modern kitchen. Two best friends, both grown women, talk over coffee the morning after a date. Wholesome, fully clothed.
@@ -426,4 +426,4 @@ AUDIO: one short soft phone buzz at the start, then only these three lines, plus
 
 | Date | Item | Job ID | Settings | Credits | Verdict |
 |---|---|---|---|---|---|
-| — | — | — | — | — | Nothing generated yet |
+| 6 Oct 2026 | Stills 01–05 | `183d5936…` `d05693a5…` `f377b43c…` `773c21c0…` `3d7e0a93…` | gpt_image_2_5, 9:16, high, 2k, master plate `6ba334b6…` as image reference | 5 × 2.75 = 13.75 | For your review |
