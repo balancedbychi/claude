@@ -157,5 +157,10 @@ Line density stays about one line per three seconds (the approved bar clip was 2
 | 14.1 | FaceTime | pending Option A (about 110 s) or B (about 70 s) | | 770 / 490 |
 Total from here, excluding 14.1: 2,345 cr. With 14.1 Option B: about 2,835. Balance after W1/W2: about 3,694.
 
-| W1 walk-and-talk, 25 s | 15c9642e-0171-4aec-ad14-7375b991d534 | 175, RENDERED 720p (gallery 17:09), awaiting user review; Rented format; tracking back ahead of them, Tay on Nia's left, guest gets two fingers |
-| W2 walk-and-talk, 25 s | 246504a7-7dbe-4dd5-98db-8153453cb2ac | 175, RENDERED 720p (gallery 17:09), awaiting user review; Rented format; ends "Come on. Vault." |
+| W1 walk-and-talk, 25 s | 15c9642e-0171-4aec-ad14-7375b991d534 | 175, APPROVED by user ("on par, perfect"); Rented format; tracking back ahead of them, Tay on Nia's left, guest gets two fingers |
+| W2 walk-and-talk, 25 s | 246504a7-7dbe-4dd5-98db-8153453cb2ac | 175, liked but TO BE REFILMED: Tay's arm looked threaded through Nia's arm "like he's the woman"; user wants him holding her hand or her arm lovingly; staging stills first; Rented format; ends "Come on. Vault." |
+| W2 hold staging stills | 75396ede (hand in hand, fingers interlaced), 1b951c51 (his right hand on the outside of her left upper arm), 3d24d6be (his right arm around her waist) | 0.75, for user pick before the W2 refilm |
+
+Touch rule (user, 6 Oct): Tay's touch on Nia while walking is HIS hand holding HER hand, or his hand on her arm or
+waist. Never his arm threaded through hers (reads as him holding on to her). The still the user picks becomes the
+blocking words; it is not attached to the video job.
