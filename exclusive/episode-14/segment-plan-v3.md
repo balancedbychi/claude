@@ -168,3 +168,10 @@ blocking words; it is not attached to the video job.
 | V1 vault door + "real thing" + deposits speech part 1, 20 s | 5f4762ce-e7c2-4d18-809b-011db3a0544c | 140, RENDERED 720p (gallery 17:45), awaiting user review; Rented format, vault set element 389a62cf, Tay frame LEFT by the door (Nia's own right), sits IN the nearest chair feet on the rug, bag on the chair beside Nia; first submission bounced on a preset suggestion (declined f1821f84) |
 | V2 deposits speech part 2 + "Two weeks" + "because they know", 25 s | c0496d12-19f4-4d1c-82fa-cd121323eb28 | 175, rendering |
 | V3 "I'm feeling you" + "Tay-" + the hand, 25 s | d96213dd-dbfd-4c54-856f-9510e9235d5e | 175, RENDERED 720p (gallery 17:44), awaiting user review |
+
+CREDIT RULE (user, 6 Oct): before ANY submission, state the credit cost and wait for the user's go. No exceptions.
+HANDS RULE (user, 6 Oct, from V3): Tay's hand never parks on his ear or neck for a whole clip. Default while seated:
+hands resting on his thighs; natural small gestures that match the line; one brief rub of the back of the head is
+allowed, then the hand comes back down. V3 d96213dd REJECTED for this (hand on his ear the whole clip); refilm cost
+175 cr, awaiting the user's go. V2 c0496d12 ends with the same "hand to neck and stays there" beat (19-25 s) and
+should be checked for it.
