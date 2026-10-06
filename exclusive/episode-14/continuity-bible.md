@@ -145,7 +145,11 @@ In any handshake, greeting or exchange of lines, the two people FACE EACH OTHER 
 EACH OTHER IN THE FACE; the prompt says so. Any neck or head that does not sit naturally on
 its body is rejected.
 
-**Hands and props (user ruling 6 Oct 2026).** An offered handshake is described in full: arm
+**Hands and props (user ruling 6 Oct 2026).** Every hand is named TWICE: the character's own
+left/right AND where it sits in frame for that camera ("her RIGHT hand, the hand nearer the
+bar"). A handshake is right hand to right hand, and the hand that is offered in one clip is
+the hand that shakes in the next; the prompt says which shoulder faces the bar after each
+turn so the model cannot swap hands. An offered handshake is described in full: arm
 extended at waist height, hand vertical, thumb on top, palm facing the other person. Every
 glass, bottle, phone or bag is either IN a named hand or RESTING on a named surface, and the
 prompt says which; nothing hovers. A still with a floating prop or a backwards hand is
@@ -536,29 +540,40 @@ He isn't. No line.
 from her collarbone to her side. FACE: the light goes out. Mouth closes. No line.
 
 **C46 — The bar.** CAMERA: on the floor side of the brass bar at a 45-degree angle, eye level,
-medium two-shot, so both faces read in three-quarter. Nia at frame LEFT, leaning on the bar;
-Zarya at frame RIGHT on NIA'S RIGHT, sliding in beside her, also facing the bar. HEIGHT:
-Zarya a half head taller, the top of Nia's head at Zarya's eye line. HANDS: Nia's RIGHT hand
-flat on the bar, not steady; bag under her LEFT arm. Zarya's LEFT hand rests on the bar;
-RIGHT hand raised one finger to the bartender. FACE: Nia staring at nothing. Zarya calm.
-LINE: "You must be Nia."
+medium two-shot, so both faces read in three-quarter. The bar runs along the LEFT and FAR
+side of frame. Nia at frame LEFT, leaning on the bar; Zarya at frame RIGHT on NIA'S RIGHT,
+sliding in beside her, also facing the bar. HEIGHT: Zarya a half head taller, the top of
+Nia's head at Zarya's eye line. HANDS (own side = frame side for this camera): Nia's RIGHT
+hand (the hand nearer Zarya) flat on the bar, not steady; bag under her LEFT arm (the arm at
+the frame-left edge). Zarya's LEFT hand (the hand nearer Nia) rests on the bar; her RIGHT
+hand (the hand at the frame-right edge) raised one finger to the bartender. TWO GLASSES ARE
+NOT YET ON THE BAR. FACE: Nia staring at nothing. Zarya calm. LINE: "You must be Nia."
 
-**C47 — "Tay's girlfriend."** CAMERA: same. Zarya has turned to face Nia; Nia has turned her
-head to Zarya; they look each other in the face. HANDS: Zarya's RIGHT hand extended for a
-handshake, palm sideways, held in the air. Nia's RIGHT hand still flat on the bar, not taking
-it. FACE: Zarya smiling. Nia's face blank. LINES: "...I'm sorry?" / "Zarya. Tay's girlfriend."
+**C47 — "Tay's girlfriend."** CAMERA: same. HANDSHAKE CHOREOGRAPHY: Zarya makes a quarter
+turn to her LEFT so her body faces Nia; her RIGHT shoulder is now the shoulder nearer the
+bar; she extends her RIGHT hand toward Nia from the bar side, at waist height, hand
+vertical, thumb on top, palm toward Nia. Nia turns her head (not yet her body) to Zarya and
+looks her in the face; Nia's RIGHT hand still flat on the bar, not taking it. In frame: the
+offered hand is Zarya's far hand, on the bar side. FACE: Zarya smiling. Nia's face blank.
+LINES: "...I'm sorry?" / "Zarya. Tay's girlfriend."
 
-**C48 — The handshake.** CAMERA: same, tighter. Both women have turned their bodies to FACE
-EACH OTHER, square on, eyes on each other's faces. HANDS: Nia's RIGHT hand in Zarya's RIGHT
-hand, a brief, correct shake between them at waist height. FACE: Nia's eyes on Zarya's.
-LINES: "Girlfriend." / "Three years. I was here when this was a hole with no roof. Did he tell
-you about the space heater? He loves that story."
+**C48 — The handshake.** CAMERA: same, tighter. Nia now makes a quarter turn to her RIGHT so
+the two women face each other square on, the bar beside them; Nia's RIGHT shoulder is now
+the shoulder nearer the camera. Nia's RIGHT hand (her near hand, from the floor side) meets
+Zarya's RIGHT hand (her far hand, from the bar side) in a brief, correct shake at waist
+height, thumbs on top, the same hand Zarya offered in C47. Nia's LEFT hand holds the bag at
+her side. They look each other in the face, Nia slightly up, Zarya slightly down. LINES:
+"Girlfriend." / "Three years. I was here when this was a hole with no roof. Did he tell you
+about the space heater? He loves that story."
 
-**C49 — "He does that."** CAMERA: same two-shot, both turned back to the bar. HANDS: Zarya's
-drink has arrived; she holds it in her RIGHT hand and taps it once against the glass that has
-appeared in front of Nia on the bar. Nia's hands: both flat on the bar now. FACE: Zarya kind,
-which is worse. Nia says nothing. LINES: "He didn't mention me, did he." Beat. "Yeah. He does
-that." Zarya exits frame RIGHT.
+**C49 — "He does that."** CAMERA: same two-shot, both turned back to face the bar as in C46.
+PROPS: EXACTLY TWO short glasses stand on the bar top, bases flat on the counter: one
+directly in front of Nia, one directly in front of Zarya (nearer the frame-right edge,
+farther from Nia). HANDS: Zarya's RIGHT hand (her frame-right hand) reaches out and picks
+up HER glass; Nia's BOTH hands flat on the bar either side of her own glass, which stays on
+the counter. Nothing in the air except Zarya's glass in her hand. FACE: Zarya kind, which is
+worse. Nia says nothing, eyes down on her glass. LINES: "He didn't mention me, did he."
+Beat. "Yeah. He does that." Zarya exits frame RIGHT.
 
 ### SCENE 14.8 — The Roof (SET G)
 
