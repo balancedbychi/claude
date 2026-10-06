@@ -223,3 +223,10 @@ canon voices, continuous motivated movement with no dead air, realistic FaceTime
 fewer and longer shots. Scene 14.1 is re-planned as 12 shots (S1–S12, about 104 s). Cost at
 480p with the 720p close-ups kept: about 420 credits for one pass. Proposal: run S1 and S2
 first (about 60 credits) as the method test, then the rest only after the user approves.
+
+## 7. Method v2 test, 6 Oct 2026
+Audio must be imported as a media file for audio_references (a seed_audio job id is refused
+with 422 at submission even though the cost preflight passes). Imported: Nia S1 line
+b0f1ecb3-0234-42fc-8aa4-95adfd1234c5 (from dd72ec0e); ChiChi S2 line
+a1357169-52b0-4c8a-9178-10dda2666514 (from ecc2544d). generate_audio is set false when an
+audio reference is attached.
