@@ -101,4 +101,4 @@ walk up ("He's been checking the door every four minutes." / "Of course he has."
 the segment; cut them in the edit if unwanted.
 | Seg | Job | Cost |
 |---|---|---|
-| G9 | 77a0189c-9e59-4153-bd33-dd626ec310ee | 140 |
+| G9 | 77a0189c-9e59-4153-bd33-dd626ec310ee | 140, rendered, shown to the user |
