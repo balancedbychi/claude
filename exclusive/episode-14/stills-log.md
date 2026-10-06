@@ -261,3 +261,6 @@ one man for a different friend.
 | C58 | R2 | 2d37c117-2130-40fd-8ca4-6a908e47c68b |
 | C59 | R1 | 98382a55-4535-452c-997d-2208ef430481 |
 | C60 | R1 | d0964779-110d-4915-8c14-d02395b10950 |
+C35 (Nia's vault close-up): three filter rejections (7ce3b009, 3ed261fa, fbaf50ba). Not
+retried further; the C37 two-shot (6db81c66) is the coverage, the editor punches in on her.
+All 63 clips now have a still or a covering still.
