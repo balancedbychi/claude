@@ -160,6 +160,7 @@ test clip a271e86a (Topaz f3fabe54).
 | Clip | Res | Job |
 |---|---|---|
 | C01 | 480 | 47c49e5a-68fc-4293-96de-1780ee75281f |
+| C05 retake (test clip a271e86a had an extra arm, retired) | 480 | b02f4ccd-aa81-434d-8650-d7446168b116 |
 | C02 | 480 | 10e10d32-fb29-42c2-8d3f-a855978b6793 |
 | C03 | 480 | 3385c8ce-3525-42b7-8eaa-b03f0a03e1c0 |
 | C04 | 480 | f3a9b534-d857-4ea8-8dbd-5737dd817c78 |

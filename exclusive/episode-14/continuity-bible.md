@@ -155,6 +155,10 @@ glass, bottle, phone or bag is either IN a named hand or RESTING on a named surf
 prompt says which; nothing hovers. A still with a floating prop or a backwards hand is
 rejected.
 
+**Video prompts (6 Oct 2026).** Every animation prompt states the limb count and that limbs
+stay where the start frame has them ("exactly two arms and two hands, folded, for the whole
+clip; no limb appears, moves out or is added"). The first video test grew a third arm.
+
 **Perspective / floor level.** Everyone in a room stands on the same floor. Camera at eye
 level (about 5 feet) unless a beat says low or high. Nia is 5'2": in any frame with guests
 or Tay behind her, their heads sit at or above hers in the depth, never below. No steps,
