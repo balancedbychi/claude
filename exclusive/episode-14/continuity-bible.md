@@ -86,8 +86,8 @@ in Nia's terms AND in frame terms for that camera. Locked sides:
 |---|---|---|---|---|
 | 14.3 exterior | The host, and the open car door | Nia's LEFT | frame RIGHT | frame LEFT |
 | 14.3 C25 up the carpet | The host, a step ahead | Nia's LEFT | frame RIGHT | frame LEFT |
-| 14.4–14.5 main floor | Tay (walk-and-talk, bar, two-shots) | Nia's RIGHT | frame LEFT | frame RIGHT |
-| 14.4 C31 the boys | The bar and the six boys | Nia's LEFT | frame RIGHT | frame LEFT |
+| 14.4–14.5 main floor | Tay (walk-and-talk, bar, two-shots) | Nia's LEFT (his RIGHT hand at her LEFT elbow / the small of her back) | frame RIGHT | frame LEFT |
+| 14.4 C31 the boys | The bar and the six boys | Nia's LEFT, beyond Tay | frame RIGHT | frame LEFT |
 | 14.7 the bar | Zarya | Nia's RIGHT | frame LEFT | frame RIGHT |
 | 14.8 the roof | Tay at the parapet | Nia's LEFT | frame RIGHT | frame LEFT |
 | 14.1 FaceTime | The phone on the lamp | Nia's LEFT (sideboard side) | frame RIGHT | frame LEFT |

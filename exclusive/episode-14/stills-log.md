@@ -152,3 +152,13 @@ anchor. 333 (waist-up) was filter-rejected.
 | 331 medium, from the carpet facing Nia | 8216d4fd-a1c9-464c-a3db-26de60d02ef0 |
 | 332 full length, shoes visible | 3891bf20-50a1-4c0c-907a-311ae84731b8 |
 321/322 retired.
+
+## Picks locked 6 Oct 2026: F 332, G 323, H 306, I 308
+| Plate | Job | Is also the still for |
+|---|---|---|
+| F exterior, car door | 3891bf20-50a1-4c0c-907a-311ae84731b8 | C24 |
+| G doorway | 6103af4c-b982-4645-b57a-cf7b57b8ea63 | C26 |
+| H Tay + suits | 6fbf35ba-8032-494b-a3db-10b82e69d4f5 | C27 |
+| I two-shot | 54b56044-39d0-4a74-a2ba-d3245dd1662b | C29 |
+Blocking table corrected: Tay is on NIA'S LEFT on the main floor (C32 has his right hand at
+her left elbow), so he is frame RIGHT when the camera faces them and frame LEFT behind them.
