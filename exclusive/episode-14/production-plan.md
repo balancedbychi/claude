@@ -185,3 +185,6 @@ Rejected and refunded: 47c49e5a, f63b448f, 00407b2e, 1f70642d, 3994a7a3.
 Second-round retakes: C01 → 9a9e8015-fcf0-41c2-8d70-a969071cbc51 (51ef7dd4 also filter-rejected);
 C16 → 7dc28f7d-62e8-43ed-880e-5d03971d8b93; C20 → ebb87595-7ffc-4592-9d53-dac02a617ed8 (998f2ff6 failed).
 Third-round: C08 → a06e5195-328d-4ae9-918a-1096b67ac64b (3dc1f7da also filter-rejected; minimal wording, no audio).
+C01 → 888c20da-6d88-4747-aa94-95d240c976e1, line moved onto the C03 start frame (robe frame
+ce89a36f rejected three times: 47c49e5a, 51ef7dd4, 9a9e8015). C20 → 320 (ebb87595 also
+rejected; minimal wording, no audio).
