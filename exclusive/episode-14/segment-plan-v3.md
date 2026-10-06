@@ -180,7 +180,7 @@ should be checked for it.
 | N1 announcement, cage, 20 s | 4a814a29-ac79-49e9-a897-ec20e1f663ed | 140 (user approved 490 for N1-N3); RENDERED 720p (gallery 18:25), awaiting user review; low shot up at the cage, mic in right hand, Nia's face, the toast |
 | N2 v1 the kiss, 20 s | be35f7e7-02a7-4244-b2db-5ef70438b5a4 | 140; REJECTED by user: the kisser came out as Nia instead of Zarya, the lipstick read as a wet red drip, kiss too long; Zarya from her look element 37733607, flute in left hand, right hand to his neck, thumb, walks off frame right; Nia sees it; no lines |
 | N3 Zarya at the bar, 30 s | NOT YET SUBMITTED | 210 approved; waits on the voice pick |
-| N2 v2 the kiss, 20 s | 30298827-b851-4b2e-ab59-73e96ea77a77 | 140, user approved; Zarya named as NOT Nia at every mention (honey-brown bun, champagne gown, gold sandals, 5'7"); Nia only in the last shot, disappointment; kiss about ONE second then she pulls back; lipstick a faint dry smudge wiped in one pass, nothing wet or running |
+| N2 v2 the kiss, 20 s | 30298827-b851-4b2e-ab59-73e96ea77a77 | 140, RENDERED 720p (gallery 18:43), awaiting user review; Zarya named as NOT Nia at every mention (honey-brown bun, champagne gown, gold sandals, 5'7"); Nia only in the last shot, disappointment; kiss about ONE second then she pulls back; lipstick a faint dry smudge wiped in one pass, nothing wet or running |
 
 KISS/LIPSTICK RULE (user, 6 Oct): Zarya's kiss is one firm kiss of about a second, then she backs away. Lipstick
 transfer is a faint dry mark wiped clean in one pass; never wet, shiny, running or blood-like. In any shot with two
