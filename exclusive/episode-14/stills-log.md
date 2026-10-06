@@ -35,7 +35,7 @@ each master approved, then build every clip in that setup as a continuity EDIT o
 |---|---|---|
 | A (night) | Nia living room, wide, Nia in the dress on the rug, phone leaning on the lamp | 376b8dbe-cb67-4c73-aca7-3ecee1c666b1 **APPROVED** |
 | B | ChiChi on her sofa, medium, looking into the phone | 157dc803 rejected; retakes 79f6b827 (pull-back from D) and 5559a79a (fresh, room attached) |
-| C (night) | Nia medium, chest-up | 3970b226 rejected; retakes b65f4794 (push-in on A) and 2f5449db (fresh, room attached) |
+| C (night) | Nia medium, now WAIST-UP with hair forward (chest-up crops trip the output filter: b65f4794, 2f5449db, c13a3550 all rejected by the filter) | retakes 5456cdba (edit of A) and e14efbba (fresh, room attached) |
 | D | ChiChi close, chest-up, looking into the phone | b43f21a6-133e-48e6-8918-785f5024ed59 **APPROVED** |
 | E | Car back seat, Nia upright, phone at chest height (LOCKED) | 848f2d08-ec58-4b07-894e-a5f393531d80 |
 
