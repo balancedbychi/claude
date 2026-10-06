@@ -8,7 +8,7 @@ Read `script.md` first: it has the story, the floor plan and the beat-by-beat. T
 
 | # | Scene | Job ID | Length | Resolution | Credits | Status |
 |---|---|---|---|---|---|---|
-| 01 | Cleared | `66dcd657…` blocked by the content check (refunded) | 10 s | 720p | 70 | v2 waiting for your OK |
+| 01 | Cleared | v2 `1df343b2-753f-4732-b79f-ab6c1c1e5b1c` (v1 `66dcd657…` blocked, refunded) | 10 s | 720p | 70 | Rendering |
 | 02 | No Excuse | — | 8 s | 720p | 56 | Not filmed |
 | 03 | The Launch | — | 12 s | 720p | 84 | Not filmed |
 | 04 | Saturday. Yes. | — | 13 s | 720p | 91 | Not filmed |
@@ -92,7 +92,7 @@ POSE: <pose line>
 
 ---
 
-## CLIP 01 · "Cleared" · 10 s · 70 credits · v2 (v1 `66dcd657` blocked by the content check)
+## CLIP 01 · "Cleared" · 10 s · 70 credits · v2 (job `1df343b2`; v1 `66dcd657` blocked by the content check)
 
 **First line:** Nia's "No. You said it, so you go." **Final line:** Nia's "So much for penciled in."
 **Beat check:**
@@ -462,4 +462,5 @@ AUDIO: one short soft phone buzz at the start, then only these three lines, plus
 | 6 Oct 2026 | **Diagnosis:** each still was an edit of the one before (Episode 12 master → Still 01 → 04 v2 → v3 → v4 → v5), and every pass repaints the skin; your Appearance Lock guide measured the same compounding on Episode 3 and found image models don't hold this cast's faces. The guide's two-sided skin block is now in every clip prompt. | — | — | — | Stills on hold |
 | 6 Oct 2026 | **Your call: remake the stills cleanly.** Stills 01–05, each ONE edit straight from Episode 12's master `6ba334b6…` (no chaining) + `Nia-Face` image `f6cb34ea…` + your phone photo `ad3a5a8b…`, with the Appearance Lock skin block and Nia's three-quarter angle | `994ca420…` `716edc5e…` `c9e324ba…` `069bcf84…` `ed0e6bab…` | gpt_image_2_5, 9:16, high, 2k | 5 × 2.75 = 13.75 | Approved ("film clip 1") |
 | 6 Oct 2026 | **Clip 01 v1** "Cleared": your "film clip 1" (also approves the first line "No. You said it, so you go."). start_image Still 01 `994ca420…`, video reference Episode 12 Clip 06 `68a8a8a6…`, image reference your phone photo `ad3a5a8b…` | `66dcd657-33c0-427e-aae1-1cff873654e7` | seedance_2_5, omni_reference, 10 s, 9:16, 720p, audio on, preset declined | 70 | **Blocked by the content check** ("nsfw") within seconds; refunded |
-| 6 Oct 2026 | **Diagnosis:** the one attachment Episode 12 never sent to video was the `Nia-Phone` photo, and Episode 12's notes say that image trips the content filter. Clip 01 v2 drops it (Still 01 already shows her real phone) and changes nothing else. All five clip requests updated the same way. | — | — | — | v2 waiting for your OK |
+| 6 Oct 2026 | **Diagnosis:** the one attachment Episode 12 never sent to video was the `Nia-Phone` photo, and Episode 12's notes say that image trips the content filter. Clip 01 v2 drops it (Still 01 already shows her real phone) and changes nothing else. All five clip requests updated the same way. | — | — | — | Done |
+| 6 Oct 2026 | **Clip 01 v2**: same as v1 minus the phone photo (start_image Still 01 `994ca420…`, video reference Episode 12 Clip 06 `68a8a8a6…`). Passed the content check | `1df343b2-753f-4732-b79f-ab6c1c1e5b1c` | seedance_2_5, omni_reference, 10 s, 9:16, 720p, audio on | 70 | Rendering |
