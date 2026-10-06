@@ -110,4 +110,4 @@ in, after which their own approved segment carries it forward. Tay's first appea
 is referenced to G9 (Nia) with Tay's voice described in words; if his voice is off, G10 is
 re-run with the Episode 13 bar clip as the single reference instead.
 | G10 v1 | f9d996bd-6d62-41fa-b5b2-7b5107e4c369 | 140, REJECTED by user: Nia face and body distorted at the greeting (Tay walked into the lens where she stood); Tay voice wrong (described in words only, reference G9) |
-| G10 v2 | f774dbe6-9239-47ac-b38f-d6c0cd9a32aa | 140, rendering; same start plate G; single video reference = ep13 bar clip 55e9dca5 (Tay voice authority); greeting restaged as a side two-shot, waist up, Tay on Nia's LEFT, nobody walks into the lens; proportion lock wording added |
+| G10 v2 | f774dbe6-9239-47ac-b38f-d6c0cd9a32aa | 140, RENDERED 720p (gallery 16:06), awaiting user review; same start plate G; single video reference = ep13 bar clip 55e9dca5 (Tay voice authority); greeting restaged as a side two-shot, waist up, Tay on Nia's LEFT, nobody walks into the lens; proportion lock wording added |
