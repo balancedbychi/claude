@@ -102,6 +102,21 @@ clip edits included, not only to master plates (Nia f6cb34ea, Tay 62537189, ChiC
 exactly" in addition to "reproduce the master". A clip whose face has drifted from the
 master is rejected and re-run, never approved to save time.
 
+**Height (user ruling 6 Oct 2026).** Tay is 5'10". Nia is 5'2", about 5'5" in her heels. In
+EVERY frame that holds both, Tay is a full head taller: the top of Nia's head reaches his
+SHOULDER, her eyes are level with his chest, and she looks UP at him. The prompt states this
+in words every time ("he is a full head taller, the top of her head at his shoulder"). A
+still in which they read the same height is rejected, whatever else is right about it. Same
+rule for Zarya and Tay (Zarya 5'7" in heels, her head at his chin) and for the host and Nia
+(the host is taller, Nia's head at the host's chin).
+
+**Extras and the boys (user ruling 6 Oct 2026).** Every person in frame is a whole person
+standing on the floor with legs, feet and both arms where they belong. Nobody sits in, leans
+out of, or stands inside the brass bar cage: the bar is a COUNTER, the six boys stand on the
+FLOOR side of it in a line, full length, glasses in hand, shoulder to shoulder, nobody
+overlapping. Wider framing and fewer extras over a crowded frame. Any clip with a limb,
+torso or face that does not belong to a complete body is rejected.
+
 **Perspective / floor level.** Everyone in a room stands on the same floor. Camera at eye
 level (about 5 feet) unless a beat says low or high. Nia is 5'2": in any frame with guests
 or Tay behind her, their heads sit at or above hers in the depth, never below. No steps,
