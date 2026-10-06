@@ -155,6 +155,13 @@ glass, bottle, phone or bag is either IN a named hand or RESTING on a named surf
 prompt says which; nothing hovers. A still with a floating prop or a backwards hand is
 rejected.
 
+**Voices (user ruling 6 Oct 2026).** NIA IS BLACK BRITISH AND SPEAKS WITH A LONDON ACCENT.
+Every animation prompt with a Nia line says so in words ("she speaks in a natural Black
+British London accent, British vowels, never American"), and attaches her voice reference
+when one exists. ChiChi, Tay, Zarya and the host are American. A clip with the wrong accent
+is rejected before anything else is checked. The scene 14.1 pass on 6 Oct was generated
+without this line and is the reason the rule exists.
+
 **Video prompts (6 Oct 2026).** Every animation prompt states the limb count and that limbs
 stay where the start frame has them ("exactly two arms and two hands, folded, for the whole
 clip; no limb appears, moves out or is added"). The first video test grew a third arm.
