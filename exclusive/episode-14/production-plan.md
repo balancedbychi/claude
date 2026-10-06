@@ -234,3 +234,7 @@ S2 (ChiChi) method test: 6a690a41-7896-4a7b-9aac-9a5d8b7ef26b, 8 s 480p, voice a
 24 credits. S1 (Nia): two 422s and two 60 s timeouts with no charge when face + dress look +
 robe start frame + audio were all attached; retried with face + start frame + audio only.
 Slower S1 line: audio job 53542ca4, imported as 3eba8ad5-d3d0-4a4c-a207-d3f3df2b38d5.
+S1 (Nia) method test: 4f744e43-e189-44eb-be80-e656ab353f6a, 8 s 480p, face + start frame +
+slower canon-voice line (3eba8ad5), 24 credits. Lesson: the dress upload 244e2ef0 attached as
+an image reference makes the Seedance submission hang or 422; for video, Nia's look reference
+is the approved still itself plus the face image. Both method-test shots shown to the user.
