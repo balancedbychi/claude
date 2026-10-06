@@ -128,3 +128,15 @@ open door; (3) C26: Nia faces INTO the hall.
 | Plate G take 4, over her shoulder into the hall | 314 0ca79d57-62de-46ce-a962-656f0f3d3260 |
 Takes 301–304 are retired in favour of 311–314. The C21(a)/C61(a)/C63 back-of-phone shots
 stay as the wide coverage; the inserts cut in on them.
+
+## Blocking / face / perspective rebuild, 6 Oct 2026 (board 321–324)
+Rules now in bible section 1a: the host is on NIA'S LEFT in every exterior clip (frame RIGHT
+when the camera faces Nia, frame LEFT when the camera is behind her); the face image is
+attached to every generation; eye-level camera, everyone on the same floor.
+| Plate | Take | Job |
+|---|---|---|
+| F | 321, from the carpet facing Nia, host at frame RIGHT (Nia's left) | 640a8b08-af26-4853-aef1-05f13becc330 |
+| F | 322, from behind Nia's left, car + host at frame LEFT, building ahead | 04db9a2b-594e-4ccf-b2d5-eaac5ad2fe25 |
+| G | 323, eye level from inside the hall, full length, same floor as guests | 6103af4c-b982-4645-b57a-cf7b57b8ea63 |
+| G | 324, eye level, waist-up, guests' heads level with hers | 1b60994a-4499-487e-add3-c45fd1a50834 |
+311–314 are retired in favour of 321–324.
