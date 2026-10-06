@@ -93,9 +93,9 @@ the background ever looks at camera.
 - A DIAMOND ICED-OUT CUBAN LINK necklace at the base of his neck, visible in every shot.
   Not a gold chain. No watch, no bracelets, no earrings.
 
-**CHICHI**
-- At home, night, wine. Proposed options: (1) an emerald silk wrap top and black wide-leg
-  lounge trousers; (2) an oversized cream cashmere lounge set. Barefoot either way.
+**CHICHI** — LOCKED 6 Oct 2026 (element ChiChi-Nice-Building-Look)
+- At home, night, wine: an oversized cream cashmere crew-neck sweater with the sleeves
+  pushed up and matching cream cashmere wide-leg lounge trousers. Barefoot.
 
 **ZARYA** — LOCKED 6 Oct 2026
 - A champagne satin bias-cut slip gown, thin straps, cowl back, floor length. Gold heeled

@@ -19,11 +19,9 @@ Option B (sleek low bun, wine lip, champagne satin slip gown), re-uploaded by th
 media dc4779ad. Saved as element **Zarya-Nice-Building-Look 37733607-b364-4fce-b281-84749863b043**.
 This image is her master for face, hair, build and look. Options A and C retired.
 
-## ChiChi at home (ChiChi-Face b03240bd + ChiChi-Body 46074b6d)
-| # | Job | Option |
-|---|-----|--------|
-| 10 | b39d3c10-c511-4402-9b6b-2f724e5a5aa3 | emerald silk wrap blouse, black wide-leg lounge trousers |
-| 11 | e17337fa-c389-4ea8-90ab-3cd33ae0b997 | oversized cream cashmere lounge set |
+## ChiChi at home — DECIDED 6 Oct 2026
+Option 11 (cream cashmere lounge set), re-uploaded by the user as media e29f33f6.
+Saved as element **ChiChi-Nice-Building-Look 2cdea43b-4964-44c2-be5c-1b6a7d5a137d**. Option 10 retired.
 
 ## Sets, first pass (no people) — RETIRED 6 Oct 2026: read as empty and too old-bank; see second pass below
 | # | Job | Set |
