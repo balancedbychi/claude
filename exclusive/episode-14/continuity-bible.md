@@ -854,3 +854,8 @@ shrinking in the glass behind her. Cut to black.
 7. No rings on anyone. No phone screens to camera. No text anywhere in frame.
 8. Heights: Zarya taller than Nia even in heels. Tay taller than Nia. The host taller than
    Nia. Nia is the shortest person in every frame she's in.
+
+### 1c addendum (6 Oct, G10 lesson)
+- A character's FIRST appearance in the episode is referenced to an episode 13 clip in which THEY SPEAK (Tay: bar clip 55e9dca5). Describing a voice in words does not reproduce it.
+- Never stage a greeting as "walks into the camera where the other character stands". The arriving character's walk is its own shot with the other character OUT of frame; the greeting itself is a SIDE TWO-SHOT, waist up, eye level, on the fixed blocking side. Faces that have to warp to accommodate a lens-walk come out distorted.
+- Add the proportion lock to every prompt: "face and body keep the same proportions in every frame: never stretched, widened, melted or warped; the same face at the start and at the end."
