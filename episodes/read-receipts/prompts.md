@@ -8,7 +8,7 @@ Read `script.md` first: it has the story, the floor plan and the beat-by-beat. T
 
 | # | Scene | Job ID | Length | Resolution | Credits | Status |
 |---|---|---|---|---|---|---|
-| 01 | Cleared | — | 10 s | 720p | 70 | Not filmed |
+| 01 | Cleared | `66dcd657-33c0-427e-aae1-1cff873654e7` | 10 s | 720p | 70 | Rendering |
 | 02 | No Excuse | — | 8 s | 720p | 56 | Not filmed |
 | 03 | The Launch | — | 12 s | 720p | 84 | Not filmed |
 | 04 | Saturday. Yes. | — | 13 s | 720p | 91 | Not filmed |
@@ -91,7 +91,7 @@ POSE: <pose line>
 
 ---
 
-## CLIP 01 · "Cleared" · 10 s · 70 credits · v1 (not filmed)
+## CLIP 01 · "Cleared" · 10 s · 70 credits · v1 (job `66dcd657`, rendering)
 
 **First line:** Nia's "No. You said it, so you go." **Final line:** Nia's "So much for penciled in."
 **Beat check:**
@@ -459,4 +459,5 @@ AUDIO: one short soft phone buzz at the start, then only these three lines, plus
 | 6 Oct 2026 | Still 04 v4: edit of v2 + `Nia-Face` image + **your `Nia-Phone` photo** `ad3a5a8b-3c7a-44f7-8895-7f154b41057f`; the phone in ChiChi's hand copies the photo exactly | `64556711-9209-4635-b582-4ce754b45798` | gpt_image_2_5, 9:16, high, 2k | 2.75 | **Phone OK; rejected for ChiChi's skin:** "fix Chi's skin tone, it looks patchy" |
 | 6 Oct 2026 | Still 04 v5: edit of v4 + your phone photo; only ChiChi's skin changed to one even, uniform warm brown | `4c9adcf5-059f-4c77-b59d-9f16a9af1865` | gpt_image_2_5, 9:16, high, 2k | 2.75 | **Rejected:** "the images look terrible, the skin tone is uneven" |
 | 6 Oct 2026 | **Diagnosis:** each still was an edit of the one before (Episode 12 master → Still 01 → 04 v2 → v3 → v4 → v5), and every pass repaints the skin; your Appearance Lock guide measured the same compounding on Episode 3 and found image models don't hold this cast's faces. The guide's two-sided skin block is now in every clip prompt. | — | — | — | Stills on hold |
-| 6 Oct 2026 | **Your call: remake the stills cleanly.** Stills 01–05, each ONE edit straight from Episode 12's master `6ba334b6…` (no chaining) + `Nia-Face` image `f6cb34ea…` + your phone photo `ad3a5a8b…`, with the Appearance Lock skin block and Nia's three-quarter angle | `994ca420…` `716edc5e…` `c9e324ba…` `069bcf84…` `ed0e6bab…` | gpt_image_2_5, 9:16, high, 2k | 5 × 2.75 = 13.75 | For your review |
+| 6 Oct 2026 | **Your call: remake the stills cleanly.** Stills 01–05, each ONE edit straight from Episode 12's master `6ba334b6…` (no chaining) + `Nia-Face` image `f6cb34ea…` + your phone photo `ad3a5a8b…`, with the Appearance Lock skin block and Nia's three-quarter angle | `994ca420…` `716edc5e…` `c9e324ba…` `069bcf84…` `ed0e6bab…` | gpt_image_2_5, 9:16, high, 2k | 5 × 2.75 = 13.75 | Approved ("film clip 1") |
+| 6 Oct 2026 | **Clip 01 v1** "Cleared": your "film clip 1" (also approves the first line "No. You said it, so you go."). start_image Still 01 `994ca420…`, video reference Episode 12 Clip 06 `68a8a8a6…`, image reference your phone photo `ad3a5a8b…` | `66dcd657-33c0-427e-aae1-1cff873654e7` | seedance_2_5, omni_reference, 10 s, 9:16, 720p, audio on, preset declined | 70 | Rendering |
