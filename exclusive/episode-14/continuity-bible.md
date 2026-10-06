@@ -130,11 +130,14 @@ focus at frame left. Used twice: 14.2 (she's holding it together) and 14.9 (she 
 > velvet lounge seating, haze and amber light beams. The roof is LARGE, with a pool or a
 > full bar and DJ, glass balustrades, and a quiet stretch of railing for the fight.
 
-**SET D — The Ledger, exterior, night.** NEW. A 1920s neoclassical bank facade: four stone
-columns, tall brass double doors lit from inside, THE LEDGER in warm backlit brass letters
-above the doors. A velvet rope line running from the doors down the left side of the frame,
-two photographers near the rope, a black car at the curb at the bottom of frame. Camera
-across the street at eye level, slightly low, so the building towers.
+**SET D — The Ledger, exterior, night.** LOCKED 6 Oct 2026, element Ledger-Exterior-Night.
+A tall 1920s bank on a downtown corner, dark stone uplit amber, a towering arched entrance
+in black steel and glass, LEDGER in slim backlit brass letters above the arch, a wide black
+carpet from the kerb to the doors, black velvet ropes on brass stanchions along the LEFT
+side, the rooftop terrace glowing at the top of frame. Camera across the street, eye level,
+slightly low. STAGE MAP: the car at the kerb at the bottom of frame; Nia out on the kerb
+side; the line along the rope on the left; the host walks her up the carpet to the doors at
+centre; photographers by the doors.
 
 **SET E — The Ledger, main floor.** NEW. The old banking hall. Marble floor, forty-foot
 ceilings, brass teller cages along the LEFT wall now glowing as the bar, one cage at the far

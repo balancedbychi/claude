@@ -43,8 +43,8 @@ Saved as element **ChiChi-Nice-Building-Look 2cdea43b-4964-44c2-be5c-1b6a7d5a137
 ## Sets, second pass (modern, sexy, high-end, with the party in them)
 | # | Set |
 |---|-----|
-| 32 | Exterior 1: restored limestone, black steel and smoked glass ground floor, black carpet, line |
-| 33 | Exterior 2: dark stone uplit, towering arch, line, roof terrace visible at top |
+| 32 | Exterior 1: retired |
+| 33 | **Exterior 2 — DECIDED 6 Oct 2026.** Re-uploaded as media 6875822c. Saved as element **Ledger-Exterior-Night a5c9f90f-4e6a-48b8-ad9e-9e9dd2835526** |
 | 34 | Main floor 1: black marble, brass-cage bar with amber glass, DJ cage, abstract art, 200 guests |
 | 35 | Main floor 2: white marble, uplit columns, brass ring chandelier, onyx bar, 200 guests |
 | 36 | Vault 1: black leather horseshoe, vinyl wall, walnut console, two whisky glasses |
