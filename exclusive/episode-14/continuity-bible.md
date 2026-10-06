@@ -119,10 +119,10 @@ toward the rug, so the camera sees the back of the phone. No mirror is added: wh
 9c43c008. ChiChi sits on her sofa, phone up in her left hand, wine in her right, a bottle on
 the table in front of her. Reproduce the set exactly.
 
-**SET C — Car back seat, night.** NEW. Black car interior, rear bench seat in black leather,
-Nia on the passenger side (frame RIGHT), the window beside her showing moving city lights.
-Camera from the driver's-side rear seat looking across at her. Driver's headrest in soft
-focus at frame left. Used twice: 14.2 (she's holding it together) and 14.9 (she isn't).
+**SET C — Car back seat, night.** LOCKED 6 Oct 2026, element Car-Back-Seat-Night. Black
+leather rear bench, Nia on the passenger side (frame RIGHT), the window beside her showing
+moving city lights, the driver's headrest soft at frame LEFT, amber dash glow. Camera from
+the driver's-side rear seat. Used twice with the same camera: 14.2 and 14.9.
 
 > **Venue direction (user note, 6 Oct 2026):** The Ledger is a 1920s bank on the outside and
 > a MODERN, SEXY, HIGH-END club on the inside. Keep the bones (columns, brass teller cages,
@@ -161,10 +161,15 @@ the door with his LEFT hand in C33; he sits on the ARM of the nearest chair at f
 for C34 to C38; Nia stands at frame RIGHT and sets her clutch on the seat of the chair
 beside her.
 
-**SET G — The Roof, night.** NEW. Open rooftop, string lights overhead on two crossing
-lines, a waist-high stone parapet along the far edge, the city skyline beyond. A single door
-with a lit exit sign in the rear LEFT. Camera near the door looking out at the parapet so
-the city is behind whoever stands at the edge.
+**SET G — The Roof, night.** LOCKED 6 Oct 2026, element Ledger-Roof-Night. A LARGE modern
+rooftop terrace: pale stone pavers, a frameless GLASS balustrade along the far edge over the
+city, a lit river and bridge beyond, a long black-and-brass bar with bartenders on the LEFT,
+curved black sofas around fire tables, a DJ under a canopy of string lights on the RIGHT,
+olive trees in black planters, dozens of guests in soft focus. Camera near the rooftop door.
+STAGE MAP: the door is behind camera, rear LEFT; the party fills the middle; the QUIET
+STRETCH of glass railing at the FAR RIGHT, past the DJ, is where the fight plays. Nia nearer
+the glass, Tay nearer the party. Guests never come within ten feet of them. Where the beats
+below say "parapet", read "glass railing", and the clutch sits on its stone ledge.
 
 ---
 

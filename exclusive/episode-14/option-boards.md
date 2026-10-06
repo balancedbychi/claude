@@ -49,7 +49,27 @@ Saved as element **ChiChi-Nice-Building-Look 2cdea43b-4964-44c2-be5c-1b6a7d5a137
 | 35 | **Main floor 2 — DECIDED 6 Oct 2026.** Re-uploaded as media 878e54a0. Saved as element **Ledger-Main-Floor-Night 02fe15f7-d8a5-45fd-8a54-1956abfc770d** |
 | 36 | **Vault 1 — DECIDED 6 Oct 2026.** Re-uploaded as media 6c68fac2. Saved as element **Ledger-Vault-Night 389a62cf-1ade-4e45-860d-22fdc5c045c0** |
 | 37 | Vault 2: retired |
-| 38 | Roof 1: LARGE, amber-lit pool, glass balustrades, onyx bar, fire pits, guests |
-| 39 | Roof 2: LARGE, stone pavers, glass edge over river, long bar, DJ under string lights, guests |
-| 40 | Roof 3: LARGE, two levels, cabanas and daybeds, fire pits, glass edge, guests |
-| 21 | Car back seat (unchanged) |
+| 38 | Roof 1: retired |
+| 39 | **Roof 2 — DECIDED 6 Oct 2026.** Re-uploaded as media 3c6e6bcb. Saved as element **Ledger-Roof-Night 57b68bf6-0963-4fc5-99e1-fc8a7589b4a8** |
+| 40 | Roof 3: retired |
+| 21 | **Car back seat — accepted.** Saved as element **Car-Back-Seat-Night** from job d9b93246 |
+
+## Episode 14 element registry (all locked 6 Oct 2026)
+| Element | ID |
+|---|---|
+| Nia-Face (existing) | 3497a052-ed61-4fbc-babe-c9f7fc11bf77 |
+| Nia-Nice-Building-Dress-v2 | a000aa8d-26e0-42f9-b741-1d240cacfb9a |
+| Tay-Face (existing) | 288d8911-4b45-4246-aac4-0ec3a69003c2 |
+| Tay-Body (existing) | fe030a7d-7a8c-4fef-9596-50a213e15201 |
+| Tay-Nice-Building-Look | 35062476-f6a3-4467-bf93-1547537854ef |
+| ChiChi-Face (existing) | b03240bd-4562-4d2f-8b14-de32c018e346 |
+| ChiChi-Body (existing) | 46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc |
+| ChiChi-Nice-Building-Look | 2cdea43b-4964-44c2-be5c-1b6a7d5a137d |
+| Zarya-Nice-Building-Look (master) | 37733607-b364-4fce-b281-84749863b043 |
+| Nia-Living-Room-Sunset (existing) | 25c094eb-b2b7-4b4d-9c0f-575b0f5b6bcc |
+| ChiChi-Living-Room-Night-v2 (existing) | 9c43c008-b953-4dac-9ab2-9b77929580c3 |
+| Car-Back-Seat-Night | see Higgsfield (created 6 Oct 2026) |
+| Ledger-Exterior-Night | a5c9f90f-4e6a-48b8-ad9e-9e9dd2835526 |
+| Ledger-Main-Floor-Night | 02fe15f7-d8a5-45fd-8a54-1956abfc770d |
+| Ledger-Vault-Night | 389a62cf-1ade-4e45-860d-22fdc5c045c0 |
+| Ledger-Roof-Night | 57b68bf6-0963-4fc5-99e1-fc8a7589b4a8 |
