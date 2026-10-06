@@ -43,7 +43,7 @@ Nobody wants to read first. ChiChi gives in: DB writes, *"Saturday is completely
 | `[Nia-TYOA]` | NIA | `Nia-Face` `3497a052-ed61-4fbc-babe-c9f7fc11bf77` + `Nia-Take-Your-Own-Advice-Look` `9a7d7c6c-1ab8-4c4c-ae35-73ed09bb939f` (N1-st). **No `Nia-Body`** (slim-thick) | `Nia-Canon-Voice-v2` `b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c`, **British**, warm, low, dry, deadpan | Yes |
 | `[ChiChi-TYOA]` | CHICHI | `ChiChi-Face` `b03240bd-4562-4d2f-8b14-de32c018e346` + `ChiChi-Body` `46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc` + `ChiChi-Take-Your-Own-Advice-Look` `759bc585-b31a-4dd0-b17a-1423c7db83ff` (C3) | `ChiChi-Canon-Voice-v1` `de50f37f-82fa-4a70-bdca-52355b2f4ca2`, **American**, never British | Yes |
 | `[Kitchen]` | ChiChi's kitchen (set) | `ChiChi-Kitchen-Day` `37c64826-c6b8-4ea5-a4ca-6e7a2ed086ca` | — | — |
-| `[Nia-Phone]` | Nia's phone (prop) | In words only: a smartphone in a warm caramel-tan case (a medium golden-brown tan, clearly darker than ChiChi's pale cream case) | — | — |
+| `[Nia-Phone]` | Nia's phone (prop) | In words only: a smartphone in its beige/tan case, exactly as your `Nia-Phone` photo (image `ad3a5a8b-3c7a-44f7-8895-7f154b41057f`), attached to every clip as an image reference. (The `Nia-Phone` element itself tripped the content filter in Episode 12, so the photo goes in on its own.) | — | — |
 | `[Chi-Phone]` | ChiChi's phone (prop) | In words only: a smartphone in a PALE CREAM (off-white) case | — | — |
 | Tay · DB · Dorian | Texts only | **Never on screen, never heard.** No elements attached. | — | No |
 
@@ -107,7 +107,7 @@ Same method as Episode 12: one still per clip, the clip's **first frame**, shot 
 | 01 | Both holding their own phones, screens toward themselves, smiling (the end of Episode 12) | `65fd8ede-6971-4390-bed4-abbf5d70e6fb` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_011735_65fd8ede-6971-4390-bed4-abbf5d70e6fb.png)) |
 | 02 | Chi's hands flat on the marble either side of her face-down phone; Nia's right hand resting on her face-down phone | `f5197281-06d7-4b9b-9978-1b6b7905fac8` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_012558_f5197281-06d7-4b9b-9978-1b6b7905fac8.png)) |
 | 03 | Chi holding her white mug in her right hand; Nia lifting her phone, screen toward herself | `b3f4d3bf-3bcc-499a-b33e-b4e90159d1ef` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_012558_b3f4d3bf-3bcc-499a-b33e-b4e90159d1ef.png)) |
-| 04 | Chi holding Nia's caramel-tan phone in her right hand, screen toward herself; Nia's hands lowering | `37e0120b-853f-4819-83d0-9e8ffa45e55d` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_013423_37e0120b-853f-4819-83d0-9e8ffa45e55d.png)) |
+| 04 | Chi holding Nia's beige/tan phone in her right hand, screen toward herself; Nia's hands lowering | `64556711-9209-4635-b582-4ce754b45798` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_013533_64556711-9209-4635-b582-4ce754b45798.png)) |
 | 05 | Both phones face-down, both women's hands empty on the marble, both smiling | `44fdb7b9-1070-4df7-852d-6d3c56a545ba` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_012558_44fdb7b9-1070-4df7-852d-6d3c56a545ba.png)) |
 
 ---
