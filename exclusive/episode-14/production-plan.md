@@ -230,3 +230,7 @@ with 422 at submission even though the cost preflight passes). Imported: Nia S1 
 b0f1ecb3-0234-42fc-8aa4-95adfd1234c5 (from dd72ec0e); ChiChi S2 line
 a1357169-52b0-4c8a-9178-10dda2666514 (from ecc2544d). generate_audio is set false when an
 audio reference is attached.
+S2 (ChiChi) method test: 6a690a41-7896-4a7b-9aac-9a5d8b7ef26b, 8 s 480p, voice attached,
+24 credits. S1 (Nia): two 422s and two 60 s timeouts with no charge when face + dress look +
+robe start frame + audio were all attached; retried with face + start frame + audio only.
+Slower S1 line: audio job 53542ca4, imported as 3eba8ad5-d3d0-4a4c-a207-d3f3df2b38d5.
