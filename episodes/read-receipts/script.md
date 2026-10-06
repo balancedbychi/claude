@@ -104,11 +104,11 @@ Same method as Episode 12: one still per clip, the clip's **first frame**, shot 
 
 | Clip | Still (first frame) | Job ID |
 |---|---|---|
-| 01 | Both holding their own phones, screens toward themselves, smiling (the end of Episode 12) | `65fd8ede-6971-4390-bed4-abbf5d70e6fb` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_011735_65fd8ede-6971-4390-bed4-abbf5d70e6fb.png)) |
-| 02 | Chi's hands flat on the marble either side of her face-down phone; Nia's right hand resting on her face-down phone | `f5197281-06d7-4b9b-9978-1b6b7905fac8` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_012558_f5197281-06d7-4b9b-9978-1b6b7905fac8.png)) |
-| 03 | Chi holding her white mug in her right hand; Nia lifting her phone, screen toward herself | `b3f4d3bf-3bcc-499a-b33e-b4e90159d1ef` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_012558_b3f4d3bf-3bcc-499a-b33e-b4e90159d1ef.png)) |
-| 04 | Chi holding Nia's beige/tan phone in her right hand, screen toward herself; Nia's hands lowering | `4c9adcf5-059f-4c77-b59d-9f16a9af1865` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_013744_4c9adcf5-059f-4c77-b59d-9f16a9af1865.png)) |
-| 05 | Both phones face-down, both women's hands empty on the marble, both smiling | `44fdb7b9-1070-4df7-852d-6d3c56a545ba` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_012558_44fdb7b9-1070-4df7-852d-6d3c56a545ba.png)) |
+| 01 | Both holding their own phones, screens toward themselves, smiling (the end of Episode 12) | `994ca420-c676-4f08-a712-faba3249a79d` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_020910_994ca420-c676-4f08-a712-faba3249a79d.png)) |
+| 02 | Chi's hands flat on the marble either side of her face-down phone; Nia's right hand resting on her face-down phone | `716edc5e-6e1e-4547-8ceb-a8ddc8d9b076` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_020911_716edc5e-6e1e-4547-8ceb-a8ddc8d9b076.png)) |
+| 03 | Chi holding her white mug in her right hand; Nia lifting her phone, screen toward herself | `c9e324ba-e469-4abd-b16c-a85008fb33da` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_020910_c9e324ba-e469-4abd-b16c-a85008fb33da.png)) |
+| 04 | Chi holding Nia's beige/tan phone in her right hand, screen toward herself; Nia's hands lowering | `069bcf84-1838-49e7-8712-3fc5b1fdbd46` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_020911_069bcf84-1838-49e7-8712-3fc5b1fdbd46.png)) |
+| 05 | Both phones face-down, both women's hands empty on the marble, both smiling | `ed0e6bab-21ff-4051-bdd4-d9d24b76088c` ([view](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_020911_ed0e6bab-21ff-4051-bdd4-d9d24b76088c.png)) |
 
 ---
 
