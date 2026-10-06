@@ -190,3 +190,5 @@ ce89a36f rejected three times: 47c49e5a, 51ef7dd4, 9a9e8015). C20 → 320 (ebb87
 rejected; minimal wording, no audio).
 C08: three filter rejections (f63b448f, 3dc1f7da, a06e5195) on the back-to-camera turn frame.
 Not retried further; the still b1820539 is used as a hold with a slow push-in in the edit.
+C20: three rejections (1f70642d, ebb87595 nsfw; 998f2ff6 failed; 59a1d637 nsfw). Not retried
+further; the still 706a5ea1 is used as a hold in the edit.
