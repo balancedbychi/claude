@@ -123,3 +123,11 @@ plates attached to video jobs; ONE video reference 159822f7 (voices only); FACE 
 elements for each character; 3 to 6 lines per clip; movement under every line; extras never in
 a row facing the lens; the previous clip's last line named and never repeated. Nothing is
 submitted until the user signs off the prompt.
+
+## Rented-format clips (from 6 Oct, after the format reset)
+| Clip | Job | Status |
+|---|---|---|
+| A "The safe one", 15 s | 2823cccb-8c80-4e96-80e1-7eba8821b7bb | 105, rendering; Rented format: no start image, video ref 159822f7 (voices), elements set + Nia face/body/dress + Tay face/body/look + Nia voice |
+| Boys staging stills (for user approval before clip B/C) | 52d78f41 (camera looking along the bar), 34e16b73 (camera backed against the bar looking out), 944bb156 (three-quarter diagonal bar) | 0.75, rendering; boys staggered around the bar, Nia and Tay right in front of them |
+
+Topaz rule (user, 6 Oct): NO Topaz on any clip until the whole episode is complete and approved.
