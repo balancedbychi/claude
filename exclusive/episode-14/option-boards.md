@@ -3,12 +3,10 @@
 All generated in Higgsfield, 9:16, Nano Banana. Pick one per row; the pick gets saved as a
 reference element and every still is built from it.
 
-## Nia's launch-night dress (Nia-Face 3497a052 only, slim-thick)
-| # | Job | Option |
-|---|-----|--------|
-| 1 | 769756d2-6abb-4f65-afc2-1bd551d41eae | liquid-gold satin cowl slip gown, floor length, left-leg slit |
-| 2 | 8b07f648-b177-48c9-8330-542fab2f9864 | black long-sleeve crystal mesh mini over black slip |
-| 3 | b6be52be-cef5-48ea-9042-94f189bb0fe3 | burgundy velvet strapless corset midi |
+## Nia's launch-night dress — DECIDED 6 Oct 2026
+The user uploaded their own picture of Nia in the dress (media 244e2ef0-1aee-4711-80d4-7e20d629b182).
+Saved as element **Nia-Nice-Building-Dress 32ccbc03-3848-4750-a926-53b85a57e396**. The three
+generated options (jobs 769756d2, 8b07f648, b6be52be) are retired.
 
 ## Tay's launch-night look (Tay-Face 288d8911 + Tay-Body fe030a7d)
 | # | Job | Option |
