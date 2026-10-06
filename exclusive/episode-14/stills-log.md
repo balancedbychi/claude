@@ -162,3 +162,33 @@ anchor. 333 (waist-up) was filter-rejected.
 | I two-shot | 54b56044-39d0-4a74-a2ba-d3245dd1662b | C29 |
 Blocking table corrected: Tay is on NIA'S LEFT on the main floor (C32 has his right hand at
 her left elbow), so he is frame RIGHT when the camera faces them and frame LEFT behind them.
+
+## Rulings 6 Oct 2026 (fourth review): height and whole bodies
+Tay a full head taller than Nia in every two-shot (her head at his shoulder); every person
+in frame a complete body on the floor; the bar is a counter, the boys stand on the floor
+side of it. Rules in bible section 1a. 341–344 and the first C30 (8a7edbba) are retired.
+
+## Board after the F/G/H/I picks (6 Oct 2026)
+| Item | Job | Note |
+|---|---|---|
+| C25 up the carpet (edit of F) | 1daf62b4-fbe8-4c04-a65d-1c987b99b2dd | host on Nia's left = frame right |
+| C28 Tay crossing the floor (edit of H) | 298a8e0d-b6ec-45ee-92d4-ae07571bc5b5 | |
+| Plate I height-corrected (C29) | 329 ea4d0185-4d0c-467f-95f3-2573dfe2df51 | replaces 308 if approved |
+| C30 height-corrected (edit of I) | 330 93241774-6bd3-483e-80d5-8d17cce10369 | |
+| Plate K walk-and-talk, take 3 knees-up | 345 0eaa6c34-b000-455b-9e33-54001ee943d4 | height rule |
+| Plate K walk-and-talk, take 4 full length | 346 df2f4bbc-1416-4acb-ab6c-eb9455c2b4f0 | height rule |
+| Plate J boys at the bar, take 3 wide with Nia+Tay | 347 c9a1f2cc-7ef5-4c77-a8d4-114c77f06cfd | whole bodies, floor side |
+| Plate J boys at the bar, take 4 facing camera, no Nia/Tay | 348 537d614e-ad3e-43db-b8e8-db396a4e0a75 | reverse for C31 |
+| Vault V1 (C33) | 351 ee20880a-12e5-4bfb-82d1-998062da659e | |
+| Vault V2 (C34) take 1 medium | 352 94190b67-706a-4670-b2af-e9ce7893739e | |
+| Vault V2 (C34) take 2 wider | 353 b41b3d29-b5c2-4292-b2b0-e9108b5c9f4a | |
+| Cage L (C39) | 361 4cb89565-e2d4-4ca7-883a-352d6a378e2e | |
+| Zarya kiss M take 1 | 362 34ec611d-7610-4be4-bcd3-c1e8e41df2ff | |
+| Zarya kiss M take 2 | 363 b764bb8e-c2b4-499c-ad15-a50033e89bbc | |
+| Nia close N (C41), edit of G | 367 06863fa6-b18f-438e-9f4c-58c65a215c8f | 364 filter-rejected |
+| Bar O (C46) take 1, from behind | 365 c25cd74d-2901-4a98-8a0e-f0e18d8c42ee | 366 and 368 filter-rejected |
+| Roof R1 (C50) | 371 cdbd9dad-9bac-4b75-98ba-79b5a61b79db | |
+| Roof R2 (C52) take 1 profile | 372 f4d1b47c-7272-46b7-a96f-f662fc501b56 | |
+| Roof R2 (C52) take 2 three-quarter waist-up | 373 119c85cc-1aad-41d9-93a1-af278c89f333 | |
+Vault blocking: Tay sits at frame LEFT, Nia stands at frame RIGHT, as the set map has it, so
+in the vault Tay is on NIA'S RIGHT (door side); recorded as a row in the blocking table.
