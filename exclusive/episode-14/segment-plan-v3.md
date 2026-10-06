@@ -157,5 +157,5 @@ Line density stays about one line per three seconds (the approved bar clip was 2
 | 14.1 | FaceTime | pending Option A (about 110 s) or B (about 70 s) | | 770 / 490 |
 Total from here, excluding 14.1: 2,345 cr. With 14.1 Option B: about 2,835. Balance after W1/W2: about 3,694.
 
-| W1 walk-and-talk, 25 s | 15c9642e-0171-4aec-ad14-7375b991d534 | 175, rendering; Rented format; tracking back ahead of them, Tay on Nia's left, guest gets two fingers |
-| W2 walk-and-talk, 25 s | 246504a7-7dbe-4dd5-98db-8153453cb2ac | 175, rendering; Rented format; ends "Come on. Vault." |
+| W1 walk-and-talk, 25 s | 15c9642e-0171-4aec-ad14-7375b991d534 | 175, RENDERED 720p (gallery 17:09), awaiting user review; Rented format; tracking back ahead of them, Tay on Nia's left, guest gets two fingers |
+| W2 walk-and-talk, 25 s | 246504a7-7dbe-4dd5-98db-8153453cb2ac | 175, RENDERED 720p (gallery 17:09), awaiting user review; Rented format; ends "Come on. Vault." |
