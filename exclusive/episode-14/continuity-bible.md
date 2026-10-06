@@ -97,7 +97,11 @@ Profile two-shots (C29, C30, C47–C49, C53–C58): the camera stays on the SAME
 pair for the whole scene, and the master plate for that scene fixes which. Reverses are
 over-the-shoulder edits of that plate, never fresh generations, so nobody swaps sides.
 
-**Faces.** The face image is attached to EVERY generation in which that face is visible,
+**Faces and wardrobe.** The LOOK image (face + outfit) is attached to every generation in
+which a principal is visible, and the FACE image alongside it when the face reads (Tay look
+111741c2 + face 62537189; Nia dress upload 244e2ef0 + face f6cb34ea; ChiChi look e29f33f6 +
+face 7af2905b; Zarya look dc4779ad). Wardrobe described only in words drifts (C59 put Tay in
+a suit). The face image is attached to EVERY generation in which that face is visible,
 clip edits included, not only to master plates (Nia f6cb34ea, Tay 62537189, ChiChi
 7af2905b, Zarya dc4779ad). The prompt says "her face matches the attached face reference
 exactly" in addition to "reproduce the master". A clip whose face has drifted from the

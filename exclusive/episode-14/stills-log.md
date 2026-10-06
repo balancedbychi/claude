@@ -275,3 +275,14 @@ with eye contact). Plate O 365 and clips 47/48/49 are retired.
 | O2 take 1, waist-up 45-degree from the floor side | 391 9a8eada4-5851-4d26-99b4-65e16f61c897 |
 | O2 take 2, knees-up | 392 aebd0642-2181-44f0-844a-3054eb93aed7 |
 C47–C49 rebuild as edits of the pick.
+
+## Fix, 6 Oct 2026 (ninth review): O2 pick 392, C59 suit drift
+Plate O2 locked: 392 aebd0642-2181-44f0-844a-3054eb93aed7 (C46). C59 (98382a55) had Tay in a
+suit because only his face image was attached; rule tightened in bible 1a (look image always
+attached). Retired: 98382a55, 90bf7eb5, 8d6f26d1, 04cbee31.
+| Clip | Plate | Job |
+|---|---|---|
+| C59 retake, Tay look attached | R1 | 9a0ad174-b34d-4bab-837a-2d1c01a68e4b |
+| C47 | O2 | f1530263-c9d5-49eb-96a2-02205c300fe1 |
+| C48 | O2 | 7ca8abca-df1a-4246-99ba-67179901dd23 |
+| C49 | O2 | ad82bbcd-6468-44e9-8894-e5d80e4e1272 |
