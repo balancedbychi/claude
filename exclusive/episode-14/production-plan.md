@@ -197,3 +197,21 @@ Scene 14.1 result, 6 Oct 2026: 18 of 20 clips animated (C08 and C20 are stills a
 filter rejections each; both are silent holds). Shown to the user as one gallery of 18.
 Filter hit rate on this scene: 11 rejections across 29 submissions; all refunded. Next:
 user review, then Topaz on approved clips, then scenes 14.2 onward.
+
+## 5. Voice correction, 6 Oct 2026
+Scene 14.1 was animated without an accent instruction and Nia read American. Fix: her six
+lines are generated in the saved voice element Nia-Canon-Voice-v2 (b3d2fc9b) with seed_audio
+(0.2 credits a line), then each Nia dialogue clip is regenerated from the same start frame
+with that audio attached as audio_references so the lips follow the correct voice. ChiChi's
+clips keep their generated audio (she is American) or get ChiChi-Canon-Voice-v1 (de50f37f)
+by the same method if her voice drifts. From here every dialogue clip is made audio-first:
+line → canon voice → clip.
+| Line | Audio job |
+|---|---|
+| C01 | dd72ec0e-4f11-4a68-84ea-20b72155011b |
+| C05 | 69b6cbcd-966e-4157-bc2b-38b6192bf669 |
+| C10 | 91dd9416-0b00-4c84-b728-a27783d5d519 |
+| C12 | 614c1278-a626-4371-a4a7-9aab7bf3aa89 |
+| C16 | 4c1605fd-15a2-4708-9b09-6eed4be1da85 |
+| C18 | f15a8245-0232-4851-b9f2-a7b12eff3b60 |
+Regeneration cost for the six Nia clips at the mixed route: about 134 credits.
