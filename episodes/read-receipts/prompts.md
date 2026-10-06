@@ -2,7 +2,7 @@
 
 Read `script.md` first: it has the story, the floor plan and the beat-by-beat. This file holds what's sent to Higgsfield: first the five start-frame stills, then the five Seedance 2.5 clips. **Nothing is generated or filmed until you say so** (rule 9). Each clip is filmed only after the one before it is approved. Clip 01 attaches Episode 12's approved Clip 06 as its video reference; from Clip 02 on, each prompt attaches the approved clip before it (rule 7).
 
-**Status (6 Oct 2026):** STILLS MADE, FOR YOUR REVIEW (13.75 credits). No clip filmed.
+**Status (6 Oct 2026):** First five stills rejected (Nia's face drifted in side profile). Face test A/B on Still 01 waiting for your pick; then Stills 02–05 are remade with the winning face reference and a three-quarter head angle. No clip filmed. Stills so far: 19.25 credits.
 
 ## CUT LIST
 
@@ -427,3 +427,6 @@ AUDIO: one short soft phone buzz at the start, then only these three lines, plus
 | Date | Item | Job ID | Settings | Credits | Verdict |
 |---|---|---|---|---|---|
 | 6 Oct 2026 | Stills 01–05 | `183d5936…` `d05693a5…` `f377b43c…` `773c21c0…` `3d7e0a93…` | gpt_image_2_5, 9:16, high, 2k, master plate `6ba334b6…` as image reference | 5 × 2.75 = 13.75 | For your review |
+| 6 Oct 2026 | **Your review of Stills 01–05:** "None of the side-profile pictures of Nia look like her in the face." Her face drifted in profile. | — | — | — | **All five rejected** |
+| 6 Oct 2026 | Still 01 face test **A**: master plate + `Nia-Face` sheet image `f6cb34ea…` (the face Episode 12 was filmed with); Nia's head turned to a three-quarter view, never a flat profile | `65fd8ede-6971-4390-bed4-abbf5d70e6fb` | gpt_image_2_5, 9:16, high, 2k | 2.75 | For your pick |
+| 6 Oct 2026 | Still 01 face test **B**: master plate + the original `Nia` cast image `362ecc5e…` (your 2 Oct "that's Nia" image); same three-quarter view | `2721035d-3d62-4eab-a862-8034f3c9e9c6` | gpt_image_2_5, 9:16, high, 2k | 2.75 | For your pick |
