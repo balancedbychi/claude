@@ -65,3 +65,16 @@ Total 25 segments, 525 s (8.8 min).
 1. Pick preset voices for Tay, Zarya and the host (three short samples each, about 2 credits).
 2. Scene 14.1: generate all lines (Nia and ChiChi, on and off screen), import, then G1 to G7.
 3. Review, Topaz the keepers, then 14.2 to 14.9 scene by scene the same way.
+
+## Scene 14.1 voice tracks (6 Oct 2026)
+| Seg | Speaker | Audio job | Imported media |
+|---|---|---|---|
+| G1 | Nia | 53542ca4 | 3eba8ad5-d3d0-4a4c-a207-d3f3df2b38d5 |
+| G2 | ChiChi | f929f745 | 2e87deb9-d2c6-4879-ba41-545fbb540165 |
+| G3 | Nia | 76506844 | 2d27c808-6557-4e6a-b329-4e8d0b8968de |
+| G4 | ChiChi | 33aeeead | ae5250b7-ddc0-4b91-b1d3-43ce31199710 |
+| G5 | Nia | 26241c6b | 76c3a4ce-1e9f-4bca-a53d-f3dd58e59507 |
+| G6 | ChiChi | c3179136 | 436f0bb3-aef6-41bf-a0b1-af79c6844175 |
+| G7 | Nia | f15a8245 | 9bcd0010-d97e-44d0-8744-711704134f94 |
+Off-screen lines for the edit: ChiChi "Put on the other one." ee21bb5d; "Turn around."
+4ba393fc; "And then what." 6645532d; ChiChi G1 reply ecc2544d (a1357169); Nia "Wow." f15a8245.
