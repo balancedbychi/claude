@@ -109,4 +109,4 @@ authority from an earlier episode is used only on the first segment that charact
 in, after which their own approved segment carries it forward. Tay's first appearance (G10)
 is referenced to G9 (Nia) with Tay's voice described in words; if his voice is off, G10 is
 re-run with the Episode 13 bar clip as the single reference instead.
-| G10 | f9d996bd-6d62-41fa-b5b2-7b5107e4c369 | 140, rendering; start plate G 6103af4c, reference G9 |
+| G10 | f9d996bd-6d62-41fa-b5b2-7b5107e4c369 | 140, RENDERED 720p, awaiting user review; start plate G 6103af4c, reference G9 77a0189c; elements injected: main floor set, Tay-Face, Tay-Nice-Building-Look, Nia-Face, Dress-v3, Nia-Canon-Voice-v2; lines "Yo. Yo." (Tay) / "Hi." (Nia) at 11-20 s |
