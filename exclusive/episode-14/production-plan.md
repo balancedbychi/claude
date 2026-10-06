@@ -215,3 +215,11 @@ line → canon voice → clip.
 | C16 | 4c1605fd-15a2-4708-9b09-6eed4be1da85 |
 | C18 | f15a8245-0232-4851-b9f2-a7b12eff3b60 |
 Regeneration cost for the six Nia clips at the mixed route: about 134 credits.
+
+## 6. Method change after the scene 14.1 review (6 Oct 2026)
+The 18-clip pass is retired. See continuity-bible.md section 1b, Animation method v2: identity
+from the character references (face + look attached before the still), audio first in the
+canon voices, continuous motivated movement with no dead air, realistic FaceTime staging,
+fewer and longer shots. Scene 14.1 is re-planned as 12 shots (S1–S12, about 104 s). Cost at
+480p with the 720p close-ups kept: about 420 credits for one pass. Proposal: run S1 and S2
+first (about 60 credits) as the method test, then the rest only after the user approves.

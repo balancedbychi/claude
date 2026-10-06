@@ -173,6 +173,120 @@ plinths, mezzanines or raised thresholds under a principal unless the set map ha
 prompt states "eye-level camera, she stands on the same floor as the guests, their heads
 level with or above hers" in every main-floor AND roof shot.
 
+
+## 1b. Animation method v2 (user ruling 6 Oct 2026, after the scene 14.1 video pass)
+
+The first video pass leaned on the stills for identity and the stills alone. Nia drifted in
+face and voice, hands appeared, and every clip ended on a dead pause. From here:
+
+**1. Identity comes from the character references, not the still.** Every video generation
+attaches, in this order: the character's FACE image, the character's LOOK image, and only
+then the still as the start frame. The prompt names the references first ("the woman is the
+person in the first and second attached images, exactly that face, hair and outfit") and
+treats the still as "where she stands and what the room is". For Nia: face f6cb34ea, look
+244e2ef0, voice element Nia-Canon-Voice-v2 (b3d2fc9b). For ChiChi: face 7af2905b, look
+e29f33f6, voice ChiChi-Canon-Voice-v1 (de50f37f). For Tay: face 62537189, look 111741c2.
+For Zarya: look dc4779ad. A clip in which the face reads as a different person is rejected
+on sight, whatever else it got right.
+
+**2. Audio first.** Every line is generated in the character's canon voice BEFORE the clip,
+and attached to the clip as the audio reference, so the mouth follows the real voice. The
+model never invents a voice. Nia's lines are Black British, London; the canon voice carries
+that and the prompt says it too.
+
+**3. Fluid, motivated movement; no dead air.** A clip starts in motion and ends in motion.
+The last second of a clip is the first second of the next beat (a head already turning, a
+hand already reaching), never a frozen hold. Pace is quick and natural, no long dramatic
+pauses between lines; the scene has to move. Lines are spoken while doing, not instead of
+doing.
+
+**4. Realistic staging of a FaceTime call.** Nia's phone is propped against the lamp on the
+sideboard. When she talks to ChiChi she FACES THE PHONE, close enough to it that the
+conversation reads. She leaves the phone only for a motivated reason (to fetch the dress,
+to look in the mirror, to sit) and comes back to it. She never speaks a line to the room or
+to the camera. ChiChi holds her phone up in her LEFT hand and TALKS INTO IT; her eyes are on
+the screen. Her wine glass RESTS on the sofa arm or the table and is lifted only when she is
+about to drink, then goes back down; it is never raised as a gesture. Every prop movement
+has a reason the audience can see.
+
+**5. Fewer, longer clips.** Where two or three beats share a camera and a location, they are
+ONE clip of 8 to 15 seconds with the lines in sequence (Seedance takes up to 30 s), so the
+cut rate comes from the edit, not from the generator. Off-screen replies are added in the
+edit; a clip never waits for an answer it cannot hear.
+
+**6. Camera moves with intent.** Static only when the beat is a held look. Otherwise a slow
+push, a drift with her as she crosses, a small handheld settle: the camera is a person in
+the room, not a tripod.
+
+**7. The limb count, prop placement, height, side and floor rules from 1a all still apply,
+in words, in every prompt.**
+
+### Scene 14.1 shot list v2 (replaces C01–C20 for animation)
+
+Plates stay as approved. S = shot. Each shot lists start still, references, duration, line(s)
+in order, and the movement, written as a continuous action.
+
+**S1 (from C03 still, 10 s).** Nia in the robe at the sofa, the green dress in her hands.
+She lifts it, turns with it toward the phone on the sideboard, walks two steps to the phone
+and holds the dress up beside her face so ChiChi can see it. Line, to the phone, as she
+arrives: "I haven't even tried the safe one yet." She tilts her head at the screen, waiting.
+
+**S2 (from C02 still, 8 s).** ChiChi on the sofa, phone up in her LEFT hand, eyes on it,
+glass resting on the sofa arm under her RIGHT hand. Line into the phone, firm: "You don't
+need to try the safe one. You know what the safe one looks like. Put on the other one. For
+me." On "for me" she lifts the glass and takes a sip, eyes still on the screen.
+
+**S3 (from C05 still, 8 s).** Nia in the dress, standing at the phone, arms folded, facing
+the screen. Line: "It's too much." Then she does a slow half turn on the spot so the phone
+sees the back, looking at the screen over her shoulder, and turns back. Her hands stay
+folded until the turn; during the turn her arms drop to her sides; they fold again at the
+end. Exactly two arms.
+
+**S4 (from C06 still, 12 s).** ChiChi leaning in to the phone, glass on the table. "Girl."
+A beat. Then, grinning, fast: "Nia Keynes. You look absolutely drop dead gorgeous. Girl, I
+am not being your friend right now. I'm being honest. That man is going to see you walk in
+and fall in love with you on the spot. In front of everybody. He's not gonna be able to help
+it." Her RIGHT hand lifts once to point at the screen on "on the spot" and comes back to
+her lap. The phone never leaves her LEFT hand.
+
+**S5 (from C10 still, 8 s).** Nia at the phone, looking down at the dress, hands smoothing
+it from waist to hip. "It's been two weeks, Chi." Her eyes come up to the screen on "Chi".
+Then, chin up, straight at the phone: "Dorian texts me too."
+
+**S6 (from C11 still, 10 s).** ChiChi, phone up, glass in hand because she has just drunk;
+she sets it on the sofa arm as she speaks. "And he's texted you good morning every single
+one of those fourteen days." A beat, one eyebrow: "Dorian texts you 'wyd.' That's not the
+same thing and you know it."
+
+**S7 (from C16 still, 14 s).** Nia has carried the phone to the sofa and sits on the arm
+with the phone in her LEFT hand, looking into it. "I don't even know what Tay does. I know
+how he takes his coffee. I know he texts in all lowercase. But I don't know what he does
+for a living." She looks away to the window for one breath and back. "And if I go and it's
+amazing and he's amazing and then it turns into Dorian. He's amazing for a month and then
+one day it's 'I'm just not really trying to be exclusive right now.'"
+
+**S8 (from C15 still, 6 s).** ChiChi, open hand toward the screen: "Well, he did say 'come
+see what I built.' So go see." Hand back to her lap, eyes on the phone.
+
+**S9 (from C17 still, 10 s).** ChiChi, soft, no joke, leaning closer to the phone: "Nia.
+You're not gonna get surprised because you already know it's nothing. That's not safe.
+That's just sad." A beat. The smile comes back: "I said I'm not being your friend right
+now."
+
+**S10 (from C18 still, 6 s).** Nia on the sofa arm, phone in LEFT hand, laughing into it
+with her RIGHT hand over her mouth: "Wow." The hand drops, she shakes her head, still
+smiling at the screen.
+
+**S11 (from C19 still, 6 s).** ChiChi, warm, bringing the phone a little closer: "Go. In
+the dress. And when Tay looks at you tonight? Let him."
+
+**S12 (from C20 still, 6 s).** Nia standing at the sideboard with the phone in her RIGHT
+hand, looking at ChiChi on the screen one last second, a small smile, thumb to the screen to
+end the call, phone lowered, and she turns toward the mirror as the clip ends.
+
+Twelve shots, about 104 s. Lines that were split across C01/C03, C07/C09, C10/C12, C11/C13,
+C16 and C17 are now spoken in sequence inside one shot. C04, C08, C14 are absorbed.
+
 ## 2. Wardrobe for Episode 14 (to pick from generated options)
 
 **NIA** — LOCKED 6 Oct 2026
