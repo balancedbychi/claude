@@ -139,12 +139,16 @@ slightly low. STAGE MAP: the car at the kerb at the bottom of frame; Nia out on 
 side; the line along the rope on the left; the host walks her up the carpet to the doors at
 centre; photographers by the doors.
 
-**SET E — The Ledger, main floor.** NEW. The old banking hall. Marble floor, forty-foot
-ceilings, brass teller cages along the LEFT wall now glowing as the bar, one cage at the far
-end of the hall as the DJ booth. Gallery art on the right wall. Warm brass and candle light,
-deep marble green, black. STAGE MAP for this episode: the entrance doors are at the camera
-end; Nia stops just inside them; Tay starts with the suits at the far right; the bar with
-the six boys is mid-left; the DJ booth is centre far. Two hundred guests in soft focus.
+**SET E — The Ledger, main floor.** LOCKED 6 Oct 2026, element Ledger-Main-Floor-Night.
+The old banking hall as a modern club: white marble floor with black veining, tall fluted
+columns uplit amber, one enormous brass ring chandelier, the brass teller cages along the
+LEFT wall as a long bar with LED-lit onyx counters, a brass cage at the FAR END as the raised
+DJ booth, modern photography between the columns on the RIGHT, curved cream velvet
+banquettes, haze. Camera from just inside the entrance doors. STAGE MAP: Nia's first stop
+is centre-bottom; the bar with the six boys is mid-LEFT; Tay and the suits start far RIGHT
+by the banquettes; the DJ cage is centre-FAR; Zarya's kiss is at the foot of the DJ cage;
+the Zarya bar exchange is at the LEFT bar, further down from the boys. Two hundred guests
+in soft focus, nobody overlapping a principal.
 
 **SET F — The Vault.** NEW. The old walk-in bank vault as a listening room. The round steel
 vault door open at frame LEFT, swung most of the way shut. Inside: twelve dark leather
