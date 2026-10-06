@@ -84,7 +84,7 @@ the background ever looks at camera.
 - "The not-safe dress": the user's own upload of Nia in a GREEN SATIN DRESS, saved as
   element Nia-Nice-Building-Dress-v3. The image is the authority for cut, hem, straps and
   slit, AND for the accessories: BROWN SHOES and a BROWN BAG, exactly as in that image.
-  Never gold shoes, never a brown bag (that was a carry-over error from "Almost Too Good"
+  Never gold shoes, never a gold clutch (that was a carry-over error from "Almost Too Good"
   and caused the drift seen in the first pass). The upload is attached as a picture to every
   generation that shows the bag or shoes, and they are named in words as brown.
 - Worn identically from 14.2 to the end. The hem, slit and neckline never change between
@@ -305,7 +305,7 @@ the line, the photographers, the brass letters. No principal characters in frame
 ### SCENE 14.3 — Exterior (SET D)
 
 **C24 — The host at the car door.** CAMERA: street level, medium, the open car door at
-frame LEFT. Nia has just stood up out of the car. HANDS: Nia's RIGHT hand holds the gold
+frame LEFT. Nia has just stood up out of the car. HANDS: Nia's RIGHT hand holds the brown
 bag at her hip; LEFT hand smooths the dress at her thigh once. THE HOST stands a step
 away at frame RIGHT, tablet flat against her LEFT forearm, RIGHT hand open toward the doors.
 FACE: Nia uncertain, the host amused. LINE: "Ms. Keynes? He said you'd be the one who looked
