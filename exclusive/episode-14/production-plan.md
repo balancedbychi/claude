@@ -152,3 +152,29 @@ Type: D = dialogue (Kling 3.0 with audio), S = silent hold (Turbo), I = phone in
 | C63 | 7ef7092b | 6 | S | Phone face down under her RIGHT hand. Face to the window. The lit building shrinks in the glass behind her. Cut to black. |
 
 Totals: 434 s. Plan B cost per clip = seconds × 2.0 (D) or × 1.5 (S, I).
+
+## 4. Scene 14.1 animation pass, submitted 6 Oct 2026 (mixed route)
+720p for ChiChi's close plate (C09, C11, C13, C15, C17, C19) and Nia's waist-up plate (C12,
+C14); 480p for the rest; all to go through Topaz to 1080p after approval. C05 = the 720p
+test clip a271e86a (Topaz f3fabe54).
+| Clip | Res | Job |
+|---|---|---|
+| C01 | 480 | 47c49e5a-68fc-4293-96de-1780ee75281f |
+| C02 | 480 | 10e10d32-fb29-42c2-8d3f-a855978b6793 |
+| C03 | 480 | 3385c8ce-3525-42b7-8eaa-b03f0a03e1c0 |
+| C04 | 480 | f3a9b534-d857-4ea8-8dbd-5737dd817c78 |
+| C06 | 480 | daacf9d4-c453-4dd5-8a0c-cbf9bd7de2c9 |
+| C07 | 480 | 85a4d30f-6fa5-4b14-a614-930419552e95 |
+| C08 | 480 | f63b448f-b643-42f8-ae5d-b5f3129dee15 |
+| C09 | 720 | 7d3f3601-1177-4ede-bf88-b6371af58756 |
+| C10 | 480 | 00407b2e-6f2b-4a42-b824-4879d1bb0eac |
+| C11 | 720 | 24dc22c4-47a1-471b-abb8-44c98c281051 |
+| C12 | 720 | fce1b87e-6b6d-4495-a336-27e37d130c6a |
+| C13 | 720 | 11f88a77-9a8f-42ea-a4fb-43323fb1f428 |
+| C14 | 720 | 3038b00c-f4d0-435f-a00e-de55d50c8c4e |
+| C15 | 720 | c2663747-7d9d-425b-9a96-36f8b43035b8 |
+| C16 | 480 | 3994a7a3-39cb-4a82-bf6d-bb12da7dbb5a |
+| C17 | 720 | 8f339464-df7e-4292-8476-92664d93f2da |
+| C18 | 480 | 1e215ae7-e9f7-493a-935b-7786d841517f |
+| C19 | 720 | 6ff6be88-955a-49d1-9a1e-49ad02c5f635 |
+| C20 | 480 | 1f70642d-24e9-4f11-9732-301df85065ee |
