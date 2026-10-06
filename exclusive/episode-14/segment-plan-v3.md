@@ -127,7 +127,9 @@ submitted until the user signs off the prompt.
 ## Rented-format clips (from 6 Oct, after the format reset)
 | Clip | Job | Status |
 |---|---|---|
-| A "The safe one", 15 s | 2823cccb-8c80-4e96-80e1-7eba8821b7bb | 105, RENDERED 720p (gallery 16:42), awaiting user review; Rented format: no start image, video ref 159822f7 (voices), elements set + Nia face/body/dress + Tay face/body/look + Nia voice |
-| Boys staging stills (for user approval before clip B/C) | 52d78f41 (camera looking along the bar), 34e16b73 (camera backed against the bar looking out), 944bb156 (three-quarter diagonal bar) | 0.75, RENDERED (gallery 16:42), awaiting user pick; boys staggered around the bar, Nia and Tay right in front of them |
+| A "The safe one", 15 s | 2823cccb-8c80-4e96-80e1-7eba8821b7bb | 105, APPROVED by user (no Topaz until the episode is complete); Rented format: no start image, video ref 159822f7 (voices), elements set + Nia face/body/dress + Tay face/body/look + Nia voice |
+| Boys staging stills (for user approval before clip B/C) | 52d78f41 (camera looking along the bar), 34e16b73 (camera backed against the bar looking out), 944bb156 (three-quarter diagonal bar) | 0.75, user picked 34e16b73 (camera at the bar looking out, horseshoe); boys staggered around the bar, Nia and Tay right in front of them |
 
 Topaz rule (user, 6 Oct): NO Topaz on any clip until the whole episode is complete and approved.
+| B "Nice building", 14 s | 2be82143-fd50-49b3-b766-43b21354dd1f | 98, rendering; Rented format; blocking written from staging still 34e16b73 (not attached); six lines ending "I heard her." |
+| C "We're walking now", 10 s | e28bf90a-246b-4af4-b946-a60ac9758d36 | 70, rendering; Rented format; same staging; Tay walks her away from the bar through the horseshoe |
