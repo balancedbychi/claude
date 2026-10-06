@@ -287,12 +287,14 @@ smooths the dress once at her hip. FACE: one breath. She keeps the dress on. Hol
 
 ### SCENE 14.2 — Car, night (SET C)
 
-**C21 — Nia, back seat, texts.** CAMERA: from the driver's-side rear seat, medium. Nia on
-the passenger side, dress on, the brown bag on the seat beside her at her LEFT hip. HANDS:
-phone in both hands in her lap, thumbs on the screen, screen tilted toward her and away from
-camera, its glow on her face. FACE: reading. Then she fights a smile. The still is the fight:
-lips pressed together, eyes down. (The text thread is shown as on-screen graphics in the
-edit, never on the phone.)
+**C21 — Nia, back seat, texts.** TWO SHOTS. (a) CAMERA: from the driver's-side rear seat,
+medium. Nia on the passenger side, dress on, the brown bag on the seat beside her at her
+LEFT hip. HANDS: phone in both hands in her lap, thumbs on the screen, screen tilted toward
+her, its glow on her face. FACE: reading. Then she fights a smile. The still is the fight:
+lips pressed together, eyes down. (b) PHONE INSERT: tight over her RIGHT shoulder, the
+screen FACING CAMERA and legible. The thread is rendered on the phone (user ruling 6 Oct):
+contact "Tay", grey bubbles left / green bubbles right, the last six messages of the 14.2
+thread, ending on "also you're about to be the best thing in it and i built it. so."
 
 **C22 — Nia looks out.** CAMERA: same. HANDS: phone turned face down on her RIGHT thigh,
 RIGHT hand flat on top of it; LEFT hand at the window ledge. FACE: turned to the window,
@@ -304,13 +306,17 @@ the line, the photographers, the brass letters. No principal characters in frame
 
 ### SCENE 14.3 — Exterior (SET D)
 
-**C24 — The host at the car door.** CAMERA: street level, medium, the open car door at
-frame LEFT. Nia has just stood up out of the car. HANDS: Nia's RIGHT hand holds the brown
-bag at her hip; LEFT hand smooths the dress at her thigh once. THE HOST stands a step
-away at frame RIGHT, tablet flat against her LEFT forearm, RIGHT hand open toward the doors.
-FACE: Nia uncertain, the host amused. LINE: "Ms. Keynes? He said you'd be the one who looked
-like she was trying real hard not to be impressed." / "He said that?" / "Four times. You
-don't do the line."
+**C24 — The host at the car door.** GEOMETRY (user ruling 6 Oct): the black sedan is parked
+PARALLEL to the kerb; the rear kerb-side door opens OUT toward the pavement; Nia steps out
+onto the pavement and is FACING THE LEDGER; the host stands on the pavement BY THE OPEN
+DOOR, between the car and Nia, turned to her. CAMERA: either from the foot of the carpet
+looking back at the car (Nia faces camera, building behind camera) or three-quarter along
+the kerb with the car at frame LEFT and the building rising at frame RIGHT; the user picks
+the plate. HANDS: Nia's RIGHT hand holds the brown bag at her hip; LEFT hand smooths the
+dress at her thigh once. THE HOST: tablet flat against her LEFT forearm, RIGHT hand open
+toward the doors. FACE: Nia uncertain, the host amused. LINE: "Ms. Keynes? He said you'd be
+the one who looked like she was trying real hard not to be impressed." / "He said that?" /
+"Four times. You don't do the line."
 
 **C25 — Past the line.** CAMERA: from the brass doors looking back down the steps, wide. The
 host walks a step ahead at frame LEFT; Nia follows at frame RIGHT, up the steps toward
@@ -320,12 +326,14 @@ at anyone. Hold.
 
 ### SCENE 14.4 — Main floor (SET E)
 
-**C26 — Nia in the doorway, wide.** CAMERA: from inside the hall, low and wide, Nia small in
-the tall doorway at centre, the whole hall around and above her. HANDS: bag in RIGHT
-hand; LEFT arm comes across her stomach and her LEFT hand takes her RIGHT elbow (the guard
-pose, mirrored because the bag is in the right hand; from here on this is how she holds
-it). FACE: looking up and around. She is impressed. Hold on that for one beat before she
-flattens it.
+**C26 — Nia in the doorway, wide.** GEOMETRY (user ruling 6 Oct): the entrance is BEHIND
+her; she faces INTO the hall. CAMERA: from inside the hall looking back at the entrance, low
+and wide, Nia small in the tall doorway at centre, the hall around and above her (or the
+over-the-shoulder version looking into the hall with her; the user picks the plate). HANDS:
+bag in RIGHT hand; LEFT arm comes across her stomach and her LEFT hand takes her RIGHT elbow
+(the guard pose, mirrored because the bag is in the right hand; from here on this is how she
+holds it). FACE: looking up and around the hall. She is impressed. Hold on that for one beat
+before she flattens it.
 
 **C27 — Tay looks up.** CAMERA: medium, Tay at frame centre-right with THE SUITS in soft
 focus around him. HANDS: his RIGHT hand is mid-handshake with a suit; LEFT hand holds a
@@ -527,14 +535,16 @@ kid. Hold.
 
 ### SCENE 14.9 — Car, night (SET C)
 
-**C61 — Texts.** CAMERA: same as C21 exactly. Nia on the passenger side, lipstick gone, the
-bag on the seat. HANDS: phone in both hands in her lap, screen toward her. The screen
-glow on her face is the only light moving. FACE: reading. Not crying. Nothing. (Tay's texts
-are on-screen graphics in the edit.)
+**C61 — Texts.** TWO SHOTS. (a) CAMERA: same as C21(a) exactly. Nia on the passenger side,
+lipstick gone, the bag on the seat. HANDS: phone in both hands in her lap. FACE: reading.
+Not crying. Nothing. (b) PHONE INSERT: same framing as C21(b), screen facing camera: contact
+"Tay", five grey bubbles, no replies: nia / please / it's not what it looks like i swear /
+let me explain the whole thing / i'm not him. Empty message field. Her RIGHT thumb hovers
+above the glass.
 
-**C62 — Her thumb.** CAMERA: tight on her hands and the phone from over her shoulder, the
-back of the tan case to camera, the screen angled away. HANDS: RIGHT thumb hovering over the
-glass. Then it moves: one swipe. (Dorian's "wyd" and her "You still up?" are graphics.)
+**C62 — Dorian.** PHONE INSERT, same framing as C61(b), screen facing camera: contact
+"Dorian", one grey bubble "wyd" with a "3 hours ago" timestamp, the message field reads
+"You still up?" and her RIGHT thumb is on the send button. Then it moves: one tap.
 
 **C63 — Face down.** CAMERA: same as C61. HANDS: phone face down in her lap, RIGHT hand flat
 on top of it, LEFT hand at the window ledge. FACE: turned to the window, the building

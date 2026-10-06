@@ -111,3 +111,20 @@ References attached: exterior 6875822c / main floor 878e54a0; Nia face f6cb34ea 
 
 Phone rule (user confirmed 6 Oct): in every phone shot only the back of the tan case is seen;
 the texts are on-screen graphics in the edit, never rendered on the phone.
+
+## Fix pass, 6 Oct 2026 (user review of gallery 1 and the F/G board)
+Rulings: (1) phone inserts SHOW the thread on the screen, rendered in the image (the
+"graphics in post" rule is withdrawn); (2) car exit geometry: sedan parallel to the kerb,
+door opens out to the pavement, Nia steps out facing The Ledger, the host stands by the
+open door; (3) C26: Nia faces INTO the hall.
+| Item | Job |
+|---|---|
+| C21(b) phone insert, Tay thread | 75977c1a-0b12-4cea-bbdb-5beaeca844f8 |
+| C61(b) phone insert, Tay's five texts | 3e817791-b2e1-4d53-bb91-af93fb37ea59 |
+| C62 phone insert, Dorian "wyd" / "You still up?" | 39330e11-e5d5-4fef-9eac-11e393c3718f |
+| Plate F take 3, from the carpet, Nia faces camera | 311 2765321a-d83f-415c-a552-993e58f93b5f |
+| Plate F take 4, along the kerb, building at right | 312 652713c4-64bb-4c6e-987d-03c3ef9689da |
+| Plate G take 3, from inside the hall, she faces in | 313 c2a9201a-642a-4f52-86f9-54ca1681abbf |
+| Plate G take 4, over her shoulder into the hall | 314 0ca79d57-62de-46ce-a962-656f0f3d3260 |
+Takes 301–304 are retired in favour of 311–314. The C21(a)/C61(a)/C63 back-of-phone shots
+stay as the wide coverage; the inserts cut in on them.
