@@ -82,11 +82,12 @@ Off-screen lines for the edit: ChiChi "Put on the other one." ee21bb5d; "Turn ar
 ## Scene 14.1 segment pass, 6 Oct 2026, 720p
 | Seg | Job | Status |
 |---|---|---|
-| G1 | 7b43d1cf-7321-4ac5-9fd3-945efda0198f | rendering, 140 cr |
-| G2 | d695b07d-93e5-4f01-a141-16c7f4673a71 | rendering, 175 cr |
+| G1 | 7b43d1cf-7321-4ac5-9fd3-945efda0198f | done, 140 cr |
+| G2 | d695b07d-93e5-4f01-a141-16c7f4673a71 | done, 175 cr |
 | G3 | | not created: out of credits (175 needed) |
-| G4 | fa30be8e-8dd0-4b6c-8c7f-23ff3775793b | rendering, 140 cr |
+| G4 | fa30be8e-8dd0-4b6c-8c7f-23ff3775793b | done, 140 cr |
 | G5 | | not created: 422 then out of credits (175 needed) |
 | G6 | | not created: out of credits (105 needed) |
 | G7 | | not created: 422 then out of credits (105 needed) |
 Balance after this batch: 27 credits. Remaining for the scene: 560 to generate + about 120 Topaz.
+G1, G2, G4 shown to the user for review. G3, G5, G6, G7 wait on a top-up (560 credits).
