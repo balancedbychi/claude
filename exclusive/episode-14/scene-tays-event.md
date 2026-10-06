@@ -48,45 +48,69 @@ been waiting all night to meet the girl.
 
 ## SCENE 14.1 — INT. NIA'S APARTMENT — EVENING
 
-*Golden hour through the blinds. Nia in a robe, half-ready. Two dresses on the bed: one safe,
-one not. Her phone propped against the mirror, on FaceTime with CHI.*
+*Golden hour through the blinds. Nia in a robe, hair done, makeup done, nothing else decided.
+Two dresses on the bed: one safe, one not. Her phone is propped against the mirror on
+FaceTime with CHI, who is in her own kitchen with a glass of wine and nowhere to be.*
 
 **CHI** (V.O., phone)
-Which one.
+Put on the other one.
 
 **NIA**
-I'm leaning safe.
+I haven't even tried the safe one yet.
 
 **CHI** (V.O.)
-Safe for who? He said "come see what I built." That's not a safe invitation.
+Because you already know what the safe one looks like. Put on the other one. For me.
 
-*Nia picks up the second dress. Holds it against herself.*
+*Nia sighs. Takes the second dress into the bathroom. The camera stays on the phone propped
+against the mirror, Chi's face sipping wine, waiting.*
+
+*Nia comes back out.*
+
+*Chi puts the wine down.*
+
+**CHI** (V.O.)
+Girl.
 
 **NIA**
-Chi. It's been two weeks.
+It's too much.
 
 **CHI** (V.O.)
-And he's texted you good morning every day of those two weeks. Men don't do that unless
-they're gone. He's gone, Nia.
+Turn around.
+
+*Nia turns around.*
+
+**CHI** (V.O.)
+Nia Keynes. You look absolutely drop dead gorgeous. I'm not being cute. I'm not being your
+friend right now. I'm being honest. That man is going to see you walk in and fall in love
+with you on the spot. In front of everybody. He is not going to be able to help it.
 
 **NIA**
-He's twenty-seven.
+*(looking at herself)*
+It's been two weeks, Chi.
 
 **CHI** (V.O.)
-And? You're not thirty-five.
+And he's been texting you good morning every one of those fourteen days. In that dress he's
+going to text you good morning *and* good night.
+
+*Nia laughs despite herself. Then the laugh fades and she's just looking at the mirror.*
 
 **NIA**
-I don't even know what he does. I know how he takes his coffee and I don't know what he does
-for a living.
+I don't even know what he does. I know how he takes his coffee. I know he texts in all
+lowercase. I don't know what he does for a living.
 
 **CHI** (V.O.)
-So go find out. In the dress.
+He said come see what I built. So go see what he built. In the dress.
 
-*Nia puts the phone face down. Puts on the dress.*
+*Nia picks up her phone. Looks at Chi.*
 
-> **Beat note:** the only quiet moment in the episode. Her hesitation is about speed. He's
-> moving fast and she doesn't trust fast. `[If an earlier episode gave her a reason, echo it
-> here.]`
+**CHI** (V.O.)
+And Nia. When he looks at you tonight? Let him.
+
+*Nia hangs up. Takes one more look in the mirror. Keeps the dress on.*
+
+> **Beat note:** the only quiet moment in the episode. Chi is the audience here. She says
+> what everyone watching is thinking about the dress, and she names the thing Nia is scared
+> of, which is being looked at like that by someone moving this fast.
 
 ---
 
