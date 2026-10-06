@@ -164,3 +164,4 @@ Total from here, excluding 14.1: 2,345 cr. With 14.1 Option B: about 2,835. Bala
 Touch rule (user, 6 Oct): Tay's touch on Nia while walking is HIS hand holding HER hand, or his hand on her arm or
 waist. Never his arm threaded through hers (reads as him holding on to her). The still the user picks becomes the
 blocking words; it is not attached to the video job.
+| W2 v2 walk-and-talk HAND IN HAND, 25 s | 9cb679d9-ba6a-4837-821b-590de4d40328 | 175, rendering; user picked still 1b951c51 and asked for hand in hand: Tay's right hand holds Nia's left, fingers interlaced, whole clip; same lines and cuts as W2 v1 |
