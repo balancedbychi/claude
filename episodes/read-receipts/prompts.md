@@ -8,8 +8,8 @@ Read `script.md` first: it has the story, the floor plan and the beat-by-beat. T
 
 | # | Scene | Job ID | Length | Resolution | Credits | Status |
 |---|---|---|---|---|---|---|
-| 01 | Cleared | v3 `83a44abe-128e-49c0-83cf-ee088c8d72f1` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_023521_83a44abe-128e-49c0-83cf-ee088c8d72f1.mp4)) (v1 `66dcd657…` blocked, v2 `1df343b2…` failed; both refunded) | 10 s | 720p | 70 | **For your review** |
-| 02 | No Excuse | — | 8 s | 720p | 56 | Not filmed |
+| 01 | Cleared | v3 `83a44abe-128e-49c0-83cf-ee088c8d72f1` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_023521_83a44abe-128e-49c0-83cf-ee088c8d72f1.mp4)) (v1 `66dcd657…` blocked, v2 `1df343b2…` failed; both refunded) | 10 s | 720p | 70 | **Approved** |
+| 02 | No Excuse | `6907be7a-490f-479d-98b2-24e7e7f031b6` | 8 s | 720p | 56 | Rendering |
 | 03 | The Launch | — | 12 s | 720p | 84 | Not filmed |
 | 04 | Saturday. Yes. | — | 13 s | 720p | 91 | Not filmed |
 | 05 | Can I See You Saturday? | — | 8 s | 720p | 56 | Not filmed |
@@ -166,7 +166,7 @@ AUDIO: only these five lines, plus the same soft morning kitchen room tone as th
 
 ---
 
-## CLIP 02 · "No Excuse" · 8 s · 56 credits · v1 (not filmed)
+## CLIP 02 · "No Excuse" · 8 s · 56 credits · v1 (job `6907be7a`)
 
 **First line:** Nia's "Why do you look worried?" **Final line:** ChiChi's "Your turn. Read it."
 **Beat check:**
@@ -465,4 +465,5 @@ AUDIO: one short soft phone buzz at the start, then only these three lines, plus
 | 6 Oct 2026 | **Clip 01 v1** "Cleared": your "film clip 1" (also approves the first line "No. You said it, so you go."). start_image Still 01 `994ca420…`, video reference Episode 12 Clip 06 `68a8a8a6…`, image reference your phone photo `ad3a5a8b…` | `66dcd657-33c0-427e-aae1-1cff873654e7` | seedance_2_5, omni_reference, 10 s, 9:16, 720p, audio on, preset declined | 70 | **Blocked by the content check** ("nsfw") within seconds; refunded |
 | 6 Oct 2026 | **Diagnosis:** the one attachment Episode 12 never sent to video was the `Nia-Phone` photo, and Episode 12's notes say that image trips the content filter. Clip 01 v2 drops it (Still 01 already shows her real phone) and changes nothing else. All five clip requests updated the same way. | — | — | — | Done |
 | 6 Oct 2026 | **Clip 01 v2**: same as v1 minus the phone photo (start_image Still 01 `994ca420…`, video reference Episode 12 Clip 06 `68a8a8a6…`). Passed the content check | `1df343b2-753f-4732-b79f-ab6c1c1e5b1c` | seedance_2_5, omni_reference, 10 s, 9:16, 720p, audio on | 70 | **Failed** after ~45 s, no reason given; refunded |
-| 6 Oct 2026 | **Clip 01 v3**: same still and reference clip; filter-risk words removed from the prompt ("nude" lip tone, "babyfaced", "doll-like", "adult/mature", the long age-marker list) | `83a44abe-128e-49c0-83cf-ee088c8d72f1` | seedance_2_5, omni_reference, 10 s, 9:16, 720p, audio on | 70 | **Rendered** ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_023521_83a44abe-128e-49c0-83cf-ee088c8d72f1.mp4)); for your review |
+| 6 Oct 2026 | **Clip 01 v3**: same still and reference clip; filter-risk words removed from the prompt ("nude" lip tone, "babyfaced", "doll-like", "adult/mature", the long age-marker list) | `83a44abe-128e-49c0-83cf-ee088c8d72f1` | seedance_2_5, omni_reference, 10 s, 9:16, 720p, audio on | 70 | **Rendered** ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261006_023521_83a44abe-128e-49c0-83cf-ee088c8d72f1.mp4)); **Approved** ("approved, clip 2") |
+| 6 Oct 2026 | **Clip 02 v1** "No Excuse": start_image Still 02 `716edc5e…`, video reference approved Clip 01 `83a44abe…` | `6907be7a-490f-479d-98b2-24e7e7f031b6` | seedance_2_5, omni_reference, 8 s, 9:16, 720p, audio on | 56 | Rendering |
