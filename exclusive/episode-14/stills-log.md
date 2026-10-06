@@ -96,3 +96,18 @@ C12 and C14 stay on plate C.
 | C61 texts, blank | 5f1d290e-dcea-43a1-a22d-06f9e39f84b9 (edit of C21; 1075f6f0 and 5ce75bec filter-rejected) |
 | C62 thumb over the glass | b88eab86-003c-4b6d-8e50-57b36bd08f18 |
 | C63 face down, building behind | 7ef7092b-cecf-4e3a-8c2a-e46ba1c39cbe |
+
+## Master plates F–I, option board 301–308 (6 Oct 2026), awaiting the user's picks
+Built fresh with the set image + face image + outfit image attached as references.
+| Plate | Setup | Take 1 | Take 2 |
+|---|---|---|---|
+| F | Exterior, Nia + the host at the car door (C24; C25 is an edit) | 301 88840f3a-8aec-49d0-8204-9b333fa7948b (medium) | 302 703e8f48-6f8d-4717-818c-94db20508dbc (full length, shoes visible) |
+| G | Main floor, Nia in the doorway (C26) | 303 ff0df693-95a5-4dfa-848c-66be6ee18929 (low wide) | 304 109bba92-b79a-46d3-9497-726946eb929e (medium-wide, face readable) |
+| H | Tay with the suits (C27) | 305 a3d16eb0-68be-4896-a575-0653eba7c46c (medium) | 306 6fbf35ba-8032-494b-a3db-10b82e69d4f5 (waist-up) |
+| I | Nia + Tay two-shot (C29, C30; the walk-and-talk and roof two-shots re-use the pairing) | 307 b526d55a-83b9-4b23-9ae2-ec8be7c060f8 (profile) | 308 54b56044-39d0-4a74-a2ba-d3245dd1662b (three-quarter) |
+
+References attached: exterior 6875822c / main floor 878e54a0; Nia face f6cb34ea + dress upload
+244e2ef0; Tay face 62537189 + Tay look job 111741c2.
+
+Phone rule (user confirmed 6 Oct): in every phone shot only the back of the tan case is seen;
+the texts are on-screen graphics in the edit, never rendered on the phone.
