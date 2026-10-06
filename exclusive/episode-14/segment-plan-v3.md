@@ -102,3 +102,10 @@ the segment; cut them in the edit if unwanted.
 | Seg | Job | Cost |
 |---|---|---|
 | G9 | 77a0189c-9e59-4153-bd33-dd626ec310ee | 140, rendered, shown to the user |
+G9 approved by the user; Topaz 1080p job cd25da3a-141b-40ef-9f4a-c48462872716.
+Note: Seedance 2.5 accepts ONE video reference per job (two references → 422). The chain is
+therefore: each segment references the previous approved segment; a character's voice
+authority from an earlier episode is used only on the first segment that character appears
+in, after which their own approved segment carries it forward. Tay's first appearance (G10)
+is referenced to G9 (Nia) with Tay's voice described in words; if his voice is off, G10 is
+re-run with the Episode 13 bar clip as the single reference instead.
