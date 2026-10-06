@@ -106,11 +106,9 @@ the background ever looks at camera.
 
 ## 3. Sets and stage maps
 
-**SET A — Nia's living room, NIGHT.** User ruling 6 Oct 2026: Scene 14.1 is the same hour
-as ChiChi's side, about eight in the evening, so Nia's room is relit to night (lamp and
-paper lantern on, lit city outside, no sun). A new element Nia-Living-Room-Night is being
-made as a relight of the approved sunset room; until it's saved, the stage map below is
-unchanged. Reproduce it exactly; nothing added, moved or recoloured. Camera for this scene sits where
+**SET A — Nia's living room, NIGHT.** LOCKED 6 Oct 2026, element Nia-Living-Room-Night
+67647bad, a relight of the approved room: lamp and paper lantern on, lit city outside, no
+sun. Same hour as ChiChi's side. Reproduce it exactly; nothing added, moved or recoloured. Camera for this scene sits where
 the sideboard is (frame LEFT in the master) looking across the jute rug at the cream boucle
 sofa (frame RIGHT) and the windows behind it. Nia plays the scene standing on the rug
 between the coffee table and the sofa. The safe dress lies across the sofa arm nearest

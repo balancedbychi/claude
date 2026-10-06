@@ -23,16 +23,24 @@ each master approved, then build every clip in that setup as a continuity EDIT o
 | Tay look (job) | 111741c2-d0d7-4051-81b3-f8a29910095d |
 | Zarya master | dc4779ad-c2cc-4a43-aa27-f8a2843dd367 |
 
-## Scene 14.1 master plates (pending approval)
+## Rulings 6 Oct 2026 (second review)
+- Scene 14.1 is NIGHT. New element **Nia-Living-Room-Night 67647bad-c232-4311-a131-750100ce3bd3**
+  (job f5c634e5, the user's pick of two relights). Masters A and C are rebuilt in it; the sunset
+  masters c6398195 and 65dc19e7 are retired.
+- Car master E locked: job **848f2d08-ec58-4b07-894e-a5f393531d80** (user's pick of two), built
+  with the car plate attached; Nia sits upright on the bench with the seat belt on.
+
+## Scene 14.1 master plates
 | Plate | Setup | Job |
 |---|---|---|
-| A | Nia living room, wide, Nia in the dress on the rug, phone leaning on the lamp | c6398195-7c4f-421e-877c-e1a1111bb0d1 |
+| A (night) | Nia living room, wide, Nia in the dress on the rug, phone leaning on the lamp | 376b8dbe-cb67-4c73-aca7-3ecee1c666b1 |
 | B | ChiChi on her sofa, medium, looking into the phone | 157dc803-1968-4964-9c88-6dd888d21632 |
-| C | Nia medium, chest-up | 65dc19e7-15f4-4f86-843e-3357014d63f0 |
+| C (night) | Nia medium, chest-up | 3970b226-3a33-403d-a41c-e78a67ebd9b2 |
 | D | ChiChi close, chest-up, looking into the phone | b43f21a6-133e-48e6-8918-785f5024ed59 |
+| E | Car back seat, Nia upright, phone at chest height (LOCKED) | 848f2d08-ec58-4b07-894e-a5f393531d80 |
 
 Clips per plate: A → C01 (robe), C03 (robe), C05, C08, C16, C18, C20. B → C02, C04, C06, C07.
-C → C10, C12, C14. D → C09, C11, C13, C15, C17, C19.
+C → C10, C12, C14. D → C09, C11, C13, C15, C17, C19. E → C21, C22, C61, C62, C63.
 
 ## First-pass clip jobs (superseded once the master-plate rebuild is approved)
 Kept for reference only; see Higgsfield gallery. Filter rejections on first pass: C05, C10,
