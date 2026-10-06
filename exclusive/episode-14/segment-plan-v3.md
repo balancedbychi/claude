@@ -91,3 +91,14 @@ Off-screen lines for the edit: ChiChi "Put on the other one." ee21bb5d; "Turn ar
 | G7 | | not created: 422 then out of credits (105 needed) |
 Balance after this batch: 27 credits. Remaining for the scene: 560 to generate + about 120 Topaz.
 G1, G2, G4 shown to the user for review. G3, G5, G6, G7 wait on a top-up (560 credits).
+
+## Canon-recipe pass, 6 Oct 2026 (evening), 720p
+Balance topped up to 5,027. G9 (exterior, 20 s) filmed first at the user's request in the
+Episode 13 format: start_image = plate F 3891bf20; video reference = Episode 13 bar clip
+55e9dca5-1e3b-4c37-bcce-578586c5fb44 (Nia voice authority); elements in the prompt: set
+a5c9f90f, Nia face 3497a052, Nia dress 62615e58, voice b3d2fc9b. Two added host lines on the
+walk up ("He's been checking the door every four minutes." / "Of course he has.") to fill
+the segment; cut them in the edit if unwanted.
+| Seg | Job | Cost |
+|---|---|---|
+| G9 | 77a0189c-9e59-4153-bd33-dd626ec310ee | 140 |
