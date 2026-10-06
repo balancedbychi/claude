@@ -188,3 +188,5 @@ Third-round: C08 → a06e5195-328d-4ae9-918a-1096b67ac64b (3dc1f7da also filter-
 C01 → 888c20da-6d88-4747-aa94-95d240c976e1, line moved onto the C03 start frame (robe frame
 ce89a36f rejected three times: 47c49e5a, 51ef7dd4, 9a9e8015). C20 → 320 (ebb87595 also
 rejected; minimal wording, no audio).
+C08: three filter rejections (f63b448f, 3dc1f7da, a06e5195) on the back-to-camera turn frame.
+Not retried further; the still b1820539 is used as a hold with a slow push-in in the edit.
