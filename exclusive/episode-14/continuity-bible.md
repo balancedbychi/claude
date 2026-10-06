@@ -235,8 +235,8 @@ Girl, I am not being your friend right now. I'm being honest. That man is going 
 walk in and fall in love with you on the spot. In front of everybody. He's not gonna be able
 to help it."
 
-**C10 — Nia looks down at herself.** CAMERA: WIDE, same as C05 (the waist-up crop trips the output filter; not tighter than
-C05. Nia faces camera-ish, chin down. HANDS: both hands run once down the dress from her
+**C10 — Nia looks down at herself.** CAMERA: WIDE, same as C05 (a tighter waist-up crop
+trips the output filter). Nia faces camera-ish, chin down. HANDS: both hands run once down the dress from her
 waist to her hips and stop on her hips. FACE: eyes down at the dress. LINE: "It's been two
 weeks, Chi."
 
