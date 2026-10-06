@@ -293,7 +293,7 @@ C16 and C17 are now spoken in sequence inside one shot. C04, C08, C14 are absorb
 How the episodes that look right were actually made (Seedance 2.5 jobs b8403218, 5839271e,
 55e9dca5 in the account history):
 
-1. **Seedance 2.5, 720p, 9:16, generate_audio ON, 8 to 26 seconds, one job per segment.**
+1. **Seedance 2.5, mode omni_reference, 720p, 9:16, generate_audio ON, 8 to 26 seconds, one job per segment.**
    No separate text-to-speech, no imported audio file. Voices come from the VOICE ELEMENTS
    written into the prompt as placeholders: Nia <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>
    (Nia-Canon-Voice-v2), ChiChi <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>
@@ -317,8 +317,8 @@ How the episodes that look right were actually made (Seedance 2.5 jobs b8403218,
 4. **The previous approved clip is attached as a VIDEO reference** (role "video") and the
    prompt names it THE AUTHORITY for looks, voices, place, light and camera, and says no line
    from it is repeated. The first segment of a scene references the last approved clip that
-   has the same characters (for Nia and ChiChi: Episode 13 kitchen clip e354ea5a; for Tay:
-   Episode 13 bar clip 55e9dca5, the authority for his voice). Each later segment references
+   has the same characters (for Nia and ChiChi: Episode 13 kitchen clip e354ea5a-8c1a-4735-822f-42dbfa39d8ec; for Tay and for Nia at
+   night: Episode 13 bar clip 55e9dca5-1e3b-4c37-bcce-578586c5fb44, the authority for his voice). Each later segment references
    the segment before it. This chain is what keeps voices and faces identical for an episode.
 5. **One segment can hold several shots and both characters.** The prompt is written SHOT BY
    SHOT with timestamps, each line tagged with its speaker and accent, cuts between angles
