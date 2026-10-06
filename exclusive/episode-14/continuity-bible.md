@@ -111,7 +111,10 @@ still in which they read the same height is rejected, whatever else is right abo
 rule for Zarya and Tay (Zarya 5'7" in heels, her head at his chin) and for the host and Nia
 (the host is taller, Nia's head at the host's chin).
 
-**Extras and the boys (user ruling 6 Oct 2026).** Every person in frame is a whole person
+**Extras and the boys (user ruling 6 Oct 2026).** A principal's face or look image is NEVER
+attached to a generation as a style guide for extras: it clones the principal into the
+crowd. The boys are described in words only, and the prompt says Tay is not among them.
+ Every person in frame is a whole person
 standing on the floor with legs, feet and both arms where they belong. Nobody sits in, leans
 out of, or stands inside the brass bar cage: the bar is a COUNTER, the six boys stand on the
 FLOOR side of it in a line, full length, glasses in hand, shoulder to shoulder, nobody

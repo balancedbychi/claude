@@ -212,3 +212,12 @@ Rules added to bible 1a (furniture lock per set, side-by-side for any hand-on-ba
 | Vault V2 take 6 (C34), EDIT of V1 351, slight push-in | 357 78c3a0ab-bd92-4048-b426-3dbfc3a444d6 | |
 349 and 355 are retired. Bible C34–C38 now say Tay sits IN the chair on its seat, feet on the
 rug; C31 is staged from behind the couple so the hand on her back is unambiguous.
+
+## Fix, 6 Oct 2026 (seventh review): Tay cloned into the boys
+Cause: Tay's look image was attached to the boys plate (348) as a clothing reference, so
+the middle boy became Tay. Rule added to bible 1a. Fix = edit of 381/382 swapping only that
+one man for a different friend.
+| Item | Job |
+|---|---|
+| C31 fix, from 381 | 383 9976adca-fb1d-4cf3-8dd9-ac6c2f71ac55 |
+| C31 fix, from 382 | 384 6d13305e-1261-487b-9a45-6dab5de9ffb1 |
