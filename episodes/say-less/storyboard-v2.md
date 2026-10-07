@@ -17,7 +17,7 @@
 | `[Nia-Gym]` | Nia | `Nia-GPS-v2` `709f0a07…` (image `7bb4d088…`): the original cast Nia in her gym outfit, your approved still | Ready |
 | `[Tay-Gym]` | Tay | `Tay-GPS` `d49370d7…` (image `c1eaf28d…`): your screenshot of Tay in his gym outfit | Ready |
 | `[Dorian-Full]` | Dorian | `Dorian-Say-Less-Full` `606734b1…` (image `b5f1682c…`): your full-length upload, with shoes | Ready |
-| `[Simone-Gym]` | Simone | **Needs one approved full-length image of her in her gym outfit (rule 14).** Today she exists only as three separate pieces (face `Simone-Face-v5`, body `Simone-Body-v2`, outfit `Simone-Say-Less-Look`). That split setup is what made Nia and Tay come out wrong. | **Needs you** |
+| `[Simone-Gym]` | Simone | **One full-length image of her in her gym outfit (rule 14).** It's your image from Higgsfield, which you'll download and upload (7 Oct 2026). The split face, body and outfit elements aren't used. | **Waiting for your upload** |
 | `[Gym]` | Set | `Gym-Day` `897f65a6…` (image `a615722c…`), G3 industrial loft | Ready |
 
 Same outfits as "GPS Tracker", which you confirmed ("Nia, Tay and Dorian's outfit is the same as the gym scene").
@@ -83,20 +83,31 @@ The dialogue is unchanged.
 
 ---
 
-## SEGMENT 2: "We go together now" (target 25 s at 720p, 175 credits)
+## SEGMENT 2: "We go together now" (REWRITTEN from your notes, 7 Oct 2026; target 25 s at 720p, 175 credits)
 
-The dialogue is your rewrite, plus your "Okay, he's coming" cue.
+**Your new flow:**
+- After "Say less", Tay goes back to the side, lifting weights, cued and ready to be "rented".
+- Dorian walks over to ask Nia whether she's thought about the conversation they had the other night.
+- She doesn't get a chance to answer: Tay steps in.
+- Dorian is confused (did she make a decision? is she dating him?) and says "Nah, I got it". He looks back at Nia, then walks away.
+- Then Tay and Nia's "job interview" ending.
+
+**New lines, drafted from your notes. Approve or change the wording:**
 
 | Panel | Shot | What happens (positions and facing) | Line |
 |---|---|---|---|
-| **7** | Medium-wide (the same frame Segment 1 ended on) | **First frame.** Tay LEFT, Nia RIGHT, by the rack. At the back, Dorian leaves Simone and starts walking toward them. Simone stays at the water station, sipping water and checking her watch. Nia sees him over Tay's shoulder: she's facing the back, so she can see him. | NIA (low, quick): "Okay, he's coming." |
-| **8** | Medium-wide | Tay gives a small nod. Nia and Tay turn to face the room, side by side (**Tay LEFT, Nia RIGHT**). Dorian walks up and stops on **Nia's RIGHT (screen right),** facing left toward them. Left to right: **Tay, Nia, Dorian.** | — |
-| **9** | Waist-up three-shot | Dorian is smooth and unhurried. Tay slides his RIGHT arm around Nia's shoulders from her left side. | DORIAN: "So… you decided?" / TAY: "She's good over here." |
-| **10** | Waist-up three-shot, then a single on Dorian (from Nia's side) | Nia makes a face, then quickly fixes it and leans into Tay. Dorian looks from one to the other, confused (half a beat). | DORIAN: "Aight." |
-| **11** | Medium-wide | Dorian turns around and walks back across the gym to Simone at the water station. **Only one Dorian, ever.** | — |
-| **12** | Waist-up two-shot (Tay left, Nia right) | Nia brushes Tay's arm off her shoulders. He grins. Nia's eye roll happens **during** his last line. The clip ends within half a second of it, then silence. | TAY: "I'm Tay." / NIA: "I'm Nia." (said "NEE-uh") / TAY (grinning): "I guess we go together now." |
+| **7** | Medium-wide (the frame Segment 1 ended on) | **First frame.** Tay LEFT and Nia RIGHT by the rack. Tay gives her a quick nod and steps back to the rack on the LEFT. He picks up a dumbbell and starts curling it, keeping one eye on the room. Nia stays where she is, a few steps to his right, sipping her water. At the back, Dorian leaves Simone and walks toward Nia. Simone stays at the water station, stretching her arms and sipping water. | — |
+| **8** | Medium two-shot, Nia and Dorian | Dorian stops on **Nia's RIGHT (screen right)**, facing left toward her. He's smooth and unhurried. Behind them on the LEFT, Tay is still curling and has spotted him. | DORIAN: "So… you think about what we talked about the other night?" |
+| **9** | Medium-wide | Nia opens her mouth to answer, but **Tay gets there first.** He sets the dumbbell down on the rack and walks over, stopping on **Nia's LEFT.** Left to right: **Tay, Nia, Dorian.** | TAY (easy, a little territorial): "Oh, she's good over here. You need something, bro?" |
+| **10** | Waist-up three-shot | Dorian looks from Tay to Nia, confused (half a beat). | DORIAN: "Nah… I got it." |
+| **11** | Single on Dorian, then medium-wide | Dorian turns to go, then **looks back at Nia once** (*what's going on? did you decide?*). He turns and walks back across the gym to Simone. **Only one Dorian, ever.** | — |
+| **12** | Waist-up two-shot (Tay left, Nia right) | Tay turns to Nia with a grin. Nia folds her arms, trying not to smile. The clip ends **on Nia's line**, cutting within half a second, then silence. | TAY: "I'm Tay. So… do I got the job? You gonna rent me?" / NIA (dry; said "NEE-uh"): "I'm Nia. I think I can work with you." |
 
-**Why the eye roll moves into the last line:** in the old v4, the clip ended on a silent eye roll, and the model filled that silence with an extra line in the wrong voice (rule 9).
+**What changed from the last version:**
+- "So… you decided?" became the "other night" question.
+- Tay's arm around Nia's shoulders and her brushing it off are gone.
+- "I guess we go together now" and the eye roll are replaced by the "job" lines.
+- The clip now ends on a spoken line (Nia's), which is the safest ending (rule 9).
 
 ---
 
