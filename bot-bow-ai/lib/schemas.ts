@@ -1,0 +1,219 @@
+import { HOOK_STYLES } from "./playbook.ts";
+import { z } from "zod";
+
+// ---- Request bodies (validated on every API route) ----
+
+export const CharacterIn = z.object({
+  id: z.string().max(64),
+  name: z.string().min(1).max(80),
+  role: z.string().max(120),
+  age: z.string().max(40),
+  look: z.string().max(600),
+  wardrobe: z.string().max(400),
+  voice: z.string().max(300),
+  personality: z.string().max(400),
+});
+
+export const LocationIn = z.object({
+  id: z.string().max(64),
+  setName: z.string().max(120),
+  name: z.string().min(1).max(120),
+  details: z.string().max(1200),
+  lighting: z.string().max(300),
+});
+
+export const ProductIn = z.object({
+  id: z.string().max(64),
+  name: z.string().min(1).max(120),
+  brand: z.string().max(120),
+  category: z.string().max(120),
+  packaging: z.string().max(1000),
+  benefits: z.string().max(1000),
+  usage: z.string().max(600),
+});
+
+export const BriefIn = z.object({
+  productId: z.string().max(64),
+  characterId: z.string().max(64),
+  locationId: z.string().max(64),
+  angle: z.string().max(120),
+  lengthSeconds: z.number().int().min(5).max(120),
+  items: z.string().max(1500),
+  message: z.string().max(600),
+  cta: z.string().max(200),
+  notes: z.string().max(1000),
+});
+
+export const ToolKindIn = z.enum(["episode", "ugc", "commercial", "transition"]);
+
+export const BibleIn = z.object({
+  seriesName: z.string().max(120),
+  niche: z.string().max(200),
+  visualStyle: z.string().max(300),
+  setting: z.string().max(400),
+  aspectRatio: z.enum(["9:16", "16:9", "1:1"]),
+  imageModel: z.string().max(60).optional(),
+  videoModel: z.string().max(60).optional(),
+});
+
+export const ConceptIn = z.object({
+  title: z.string().max(200),
+  logline: z.string().max(1000),
+  hook: z.string().max(500),
+  hookStyle: z.string().max(60).default(""),
+  whyItWorks: z.string().max(1000),
+});
+
+export const LineOut = z.object({ speaker: z.string(), text: z.string() });
+
+export const SceneOut = z.object({
+  number: z.number().int(),
+  title: z.string(),
+  location: z.string(),
+  durationSeconds: z.number().int(),
+  characterIds: z.array(z.string()),
+  locationId: z.string(),
+  action: z.string(),
+  onScreenText: z.string(),
+  lines: z.array(LineOut),
+});
+
+/** What the model returns for a script. */
+export const ScriptOut = z.object({
+  title: z.string(),
+  totalSeconds: z.number().int(),
+  hookStyle: z.enum(HOOK_STYLES),
+  altHooks: z.array(z.string()),
+  scenes: z.array(SceneOut),
+});
+
+/** A script sent back by the browser (older saves may lack the newer fields). */
+export const ScriptIn = ScriptOut.extend({
+  hookStyle: z.string().max(60).default(""),
+  altHooks: z.array(z.string().max(300)).max(10).default([]),
+});
+
+// ---- Model outputs ----
+
+export const ConceptsOut = z.object({
+  concepts: z.array(
+    z.object({
+      title: z.string(),
+      logline: z.string(),
+      hook: z.string(),
+      hookStyle: z.enum(HOOK_STYLES),
+      whyItWorks: z.string(),
+    }),
+  ),
+});
+
+export const ShotsOut = z.object({
+  shots: z.array(
+    z.object({
+      number: z.number().int(),
+      durationSeconds: z.number().int(),
+      characterIds: z.array(z.string()),
+      productIds: z.array(z.string()),
+      action: z.string(),
+      camera: z.string(),
+      cameraMove: z.string(),
+      mood: z.string(),
+      lighting: z.string(),
+      transition: z.string(),
+      startFrame: z.string(),
+      endFrame: z.string(),
+      continueFromPrevious: z.boolean(),
+      performance: z.array(z.string()),
+      choreography: z.array(z.string()),
+      mechanics: z.array(z.string()),
+      priorities: z.array(z.string()),
+      wardrobe: z.array(z.string()),
+    }),
+  ),
+});
+
+export const SetOut = z.object({
+  setName: z.string(),
+  rooms: z.array(z.object({ name: z.string(), details: z.string(), lighting: z.string() })),
+});
+
+export const CharacterFromPhotoOut = z.object({
+  age: z.string(),
+  look: z.string(),
+  wardrobe: z.string(),
+});
+
+export const ProductFromPhotoOut = z.object({
+  name: z.string(),
+  brand: z.string(),
+  category: z.string(),
+  packaging: z.string(),
+});
+
+export const RoomFromPhotoOut = z.object({
+  name: z.string(),
+  details: z.string(),
+  lighting: z.string(),
+});
+
+export const PackageOut = z.object({
+  titles: z.array(z.string()),
+  description: z.string(),
+  hashtags: z.array(z.string()),
+  thumbnail: z.object({
+    concept: z.string(),
+    textOverlay: z.string(),
+    prompt: z.string(),
+  }),
+});
+
+export const CharacterOut = z.object({
+  name: z.string(),
+  role: z.string(),
+  age: z.string(),
+  look: z.string(),
+  wardrobe: z.string(),
+  voice: z.string(),
+  personality: z.string(),
+});
+
+export const PlanOut = z.object({
+  kind: z.enum(["episode", "ugc", "commercial", "transition"]),
+  topic: z.string(),
+  targetMinutes: z.number(),
+  productId: z.string(),
+  characterId: z.string(),
+  locationId: z.string(),
+  angle: z.string(),
+  lengthSeconds: z.number().int(),
+  items: z.string(),
+  message: z.string(),
+  cta: z.string(),
+  notes: z.string(),
+  reply: z.string(),
+});
+
+export const PricingIn = z.object({
+  attempts: z.number().min(1).max(10),
+  models: z
+    .array(
+      z.object({
+        id: z.string().min(1).max(60).regex(/^[a-z0-9_]+$/),
+        family: z.string().max(60).default(""),
+        label: z.string().min(1).max(80),
+        type: z.enum(["image", "video"]),
+        resolution: z.string().max(20).default(""),
+        credits: z.number().min(0).max(10_000),
+        minSeconds: z.number().min(0).max(60).optional(),
+        secondsToMake: z.number().min(0).max(36_000),
+        source: z.enum(["account", "published", "estimate"]).default("estimate"),
+      }),
+    )
+    .min(1)
+    .max(60)
+    .refine((m) => m.some((x) => x.type === "image") && m.some((x) => x.type === "video"), "Keep at least one image and one video model."),
+  defaultImage: z.string().max(60),
+  defaultVideo: z.string().max(60),
+  testVideo: z.string().max(60).default(""),
+  updatedAt: z.string().max(40).default(""),
+});
