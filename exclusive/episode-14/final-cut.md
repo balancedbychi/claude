@@ -49,24 +49,24 @@ blanket approval of every rendered clip. Topaz 1080p queue: the 18 clips not yet
 ## Topaz 1080p masters (submitted 7 Oct 2026, 03:08, user go "Topaz for 160")
 | # | Clip | 720p job | Topaz 1080p job | Status |
 |---|---|---|---|---|
-| 2 | C1 car there | 8870ef1b | 60b839e0-44fe-45fd-baba-23c24ffd8bca | pending (8 cr) |
+| 2 | C1 car there | 8870ef1b | 60b839e0-44fe-45fd-baba-23c24ffd8bca | DONE |
 | 3 | G9 | 77a0189c | cd25da3a-141b-40ef-9f4a-c48462872716 | DONE earlier |
 | 4 | G10 v2 | f774dbe6 | 1016e508-32f8-4f3f-bace-dddc0ebd4efc | DONE earlier |
-| 5 | A | 2823cccb | f56e1b3d-8d43-4209-88a1-e36e5e029dcd | pending |
-| 6 | B | 2be82143 | e815b4c1-bfff-45c3-8a07-c60e1f5e36ce | pending |
-| 7 | C | e28bf90a | 06285f43-44eb-45bf-b200-c867611b9e8a | pending |
-| 8 | W1 | 15c9642e | 6977a899-88be-4312-b876-730afb4a9e6b | pending |
-| 9 | W2 v2 | 9cb679d9 | aefeec52-df30-4e62-afb9-b0de79165c50 | pending |
-| 10 | V1 | 5f4762ce | cd19749f-61ea-41de-8faa-2cd7c2f5341c | pending |
-| 11 | V2 | c0496d12 | 56c83e72-eb85-44e3-8a4f-ab0861b0c26a | pending |
-| 12 | V3 v2 | 634db095 | dc7b3d7a-ddaf-4020-9f39-a7cecb031c4b | pending |
-| 13 | N1 | 4a814a29 | a66bbd7d-1912-4db2-a87d-90298e8ca689 | pending |
-| 14 | N2 v2 | 30298827 | fe225a12-297d-4ae4-9514-312a0a071da4 | pending |
-| 15 | N3 | cc961123 | a1361b07-bc4e-4e24-b580-78d58a01116f | pending (11 cr) |
-| 16 | R1 | 92e09a66 | 2af0da08-8994-4777-9898-7e90d02a1520 | pending |
-| 17 | R2 | 57f80555 | 174ae155-a0fb-46a6-94cf-d650ead74b85 | pending |
-| 18 | R3 | 3d500d14 | 3d2bb643-e1c4-4a11-8b93-42ac72888988 | pending |
-| 19 | R4 | 67f57055 | e9267ae9-ab50-4fbc-aa36-113062a2c342 | pending |
-| 20 | R5 v2 | c68aae47 | e1d0fcec-b28c-4189-afa0-67e309ae4693 | pending |
-| 21 | X1 v2 | dae54cf7 | 514ac6fa-4ca6-4654-a0d1-9b1acf1e2e1e | pending |
-Billing seen: 20 s = 8, 30 s = 11.
+| 5 | A | 2823cccb | f56e1b3d-8d43-4209-88a1-e36e5e029dcd | DONE |
+| 6 | B | 2be82143 | e815b4c1-bfff-45c3-8a07-c60e1f5e36ce | DONE |
+| 7 | C | e28bf90a | 06285f43-44eb-45bf-b200-c867611b9e8a | DONE |
+| 8 | W1 | 15c9642e | 6977a899-88be-4312-b876-730afb4a9e6b | DONE |
+| 9 | W2 v2 | 9cb679d9 | aefeec52-df30-4e62-afb9-b0de79165c50 | DONE |
+| 10 | V1 | 5f4762ce | cd19749f-61ea-41de-8faa-2cd7c2f5341c | DONE |
+| 11 | V2 | c0496d12 | 56c83e72-eb85-44e3-8a4f-ab0861b0c26a | DONE |
+| 12 | V3 v2 | 634db095 | dc7b3d7a-ddaf-4020-9f39-a7cecb031c4b | DONE |
+| 13 | N1 | 4a814a29 | b8371385-b0f2-4648-ab44-e425e2f82254 | DONE (first job a66bbd7d failed, refunded) |
+| 14 | N2 v2 | 30298827 | fe225a12-297d-4ae4-9514-312a0a071da4 | DONE |
+| 15 | N3 | cc961123 | 0453ebc8-1d51-4c1d-ab10-90c231c3d568 | DONE (first job a1361b07 failed, refunded) |
+| 16 | R1 | 92e09a66 | 2af0da08-8994-4777-9898-7e90d02a1520 | DONE |
+| 17 | R2 | 57f80555 | 174ae155-a0fb-46a6-94cf-d650ead74b85 | DONE |
+| 18 | R3 | 3d500d14 | 3d2bb643-e1c4-4a11-8b93-42ac72888988 | DONE |
+| 19 | R4 | 67f57055 | e9267ae9-ab50-4fbc-aa36-113062a2c342 | DONE |
+| 20 | R5 v2 | c68aae47 | e1d0fcec-b28c-4189-afa0-67e309ae4693 | DONE |
+| 21 | X1 v2 | dae54cf7 | 514ac6fa-4ca6-4654-a0d1-9b1acf1e2e1e | DONE |
+Billing: 10 s = 5, 14-15 s = 6, 20 s = 8, 25 s = 9, 30 s = 11. Total for the 18 clips: 151 credits (two failures refunded and retried). All 20 masters at 1080x1920, HEVC, 24 fps, AAC 32 kHz stereo.
