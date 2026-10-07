@@ -70,3 +70,11 @@ blanket approval of every rendered clip. Topaz 1080p queue: the 18 clips not yet
 | 20 | R5 v2 | c68aae47 | e1d0fcec-b28c-4189-afa0-67e309ae4693 | DONE |
 | 21 | X1 v2 | dae54cf7 | 514ac6fa-4ca6-4654-a0d1-9b1acf1e2e1e | DONE |
 Billing: 10 s = 5, 14-15 s = 6, 20 s = 8, 25 s = 9, 30 s = 11. Total for the 18 clips: 151 credits (two failures refunded and retried). All 20 masters at 1080x1920, HEVC, 24 fps, AAC 32 kHz stereo.
+
+## Stitched episode (7 Oct 2026, 03:27)
+All 20 Topaz 1080p masters joined in order 2-21 by lossless stream copy (same codec, size, frame rate and audio in every clip), faststart.
+- Higgsfield library media: 056ff27c-0757-46ee-972c-d0673552bb54, "EXCLUSIVE_Ep14_Nice_Building_1080p.mp4"
+- URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/056ff27c-0757-46ee-972c-d0673552bb54.mp4
+- 435.4 s (7 min 15 s), 461 MB, 1080x1920, HEVC 24 fps, AAC 32 kHz stereo.
+- Checked frames at 100 s (walk-and-talk) and 300 s (roof).
+Episode 14 production total since the 6 Oct top-up: generation plus 151 Topaz plus stills and voice tests.
