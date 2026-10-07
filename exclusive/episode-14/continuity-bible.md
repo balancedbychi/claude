@@ -885,3 +885,6 @@ does that." gentle, almost sympathetic, which is worse.
 
 ### Roof door (user ruling 7 Oct 2026)
 The rooftop door is a GLASS door and must match R1 (92e09a66) in every roof clip: full-height clear glass in a slim black metal frame, a long vertical brushed-steel pull handle, warm party light glowing through it, set in the glass wall at the party end of the terrace. Never solid, wooden or metal. Objects keep their look across clips; name the door this way in every prompt that shows it.
+
+### Series method (7 Oct 2026)
+The standing production prompt distilled from episodes 12 to 14 lives at ../PRODUCTION-PROMPT.md. Paste it at the start of every filming session.
