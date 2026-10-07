@@ -7,7 +7,7 @@ clip (two jobs), i.e. 0.4 credits per second.
 | # | Scene | Clip | Job | s | Status |
 |---|---|---|---|---|---|
 | 1 | 14.1 FaceTime, Nia and ChiChi | not filmed in the current format | (plate-era G1 7b43d1cf, G2 d695b07d, G4 fa30be8e exist, unapproved; G3, G5-G7 never made) | ~70 or ~110 | PENDING: Option A (~770) or Option B (~490) |
-| 2 | 14.2 Car on the way there, Tay's texts | C1 | 8870ef1b-9dc0-4f4e-8ad0-a70f58958adc | 20 | rendering (140 approved) |
+| 2 | 14.2 Car on the way there, Tay's texts | C1 | 8870ef1b-9dc0-4f4e-8ad0-a70f58958adc | 20 | awaiting verdict |
 | 3 | 14.3 Exterior, the car door and the host | G9 | 77a0189c-9e59-4153-bd33-dd626ec310ee | 20 | APPROVED; Topaz done cd25da3a |
 | 4 | 14.4 Main floor, the doorway and the greeting | G10 v2 | f774dbe6-9239-47ac-b38f-d6c0cd9a32aa | 20 | APPROVED; Topaz done 1016e508 |
 | 5 | 14.4 Main floor, "The safe one" | A | 2823cccb-8c80-4e96-80e1-7eba8821b7bb | 15 | APPROVED |
