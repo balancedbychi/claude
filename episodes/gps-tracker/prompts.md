@@ -1,0 +1,330 @@
+# "GPS Tracker": production notes and prompts (FOR REVIEW)
+
+## Production notes, Segment 1
+
+- **Model:** Seedance 2.5, omni-reference, 30 s, 1080p, 9:16, with audio. **360 credits.**
+- **No reference video for Segment 1.** It's a new place and a new scene, so it's built from elements, like the first segment of every episode. Segment 2 will attach the approved Segment 1 (rule 7).
+- **Elements attached:**
+  - Set: `Sucre-Day` `7f9a4d83…`.
+  - Nia: `Nia-Face`, `Nia-Body`, her gym outfit `Nia-Say-Less-Look`.
+  - Tay: `Tay-Face`, `Tay-Body`, his gym outfit `Tay-Say-Less-Look`.
+  - Dorian: `Dorian-Say-Less-Full`, the original Dorian in his gym outfit with shoes.
+  - Prop: `Nia-Phone` `c9e91260…`.
+  - Voice: `Nia-Canon-Voice-v2`.
+- **Voices:** Nia British. Tay's written voice, word for word. Dorian doesn't speak in Segment 1.
+- **Floor plan:**
+  - The camera is always on the right of the room, looking left.
+  - The entrance is at the back left, propped open, so there's no door action.
+  - The counter and register are on the left.
+  - Nia sits on the left chair facing right; Tay on the right chair facing left.
+- **Sightlines:**
+  - Tay walks in behind Nia and comes round into her view.
+  - Tay faces the entrance, so he sees Dorian.
+  - Dorian stands at the register facing the barista and never sees them.
+  - Nia turns round in her chair to see him.
+- **Headcount:** one Nia, one Tay, one Dorian. A barista and 2–3 silent customers.
+- **Phone:** locked. Tay hands it over and sets it on the table, where it stays.
+- **What everyone is doing** (rule 12) is written in for every person.
+- **Ending:** on Nia's "I guess so", cut within half a second, then silence.
+- **No rings on anyone; Dorian never lightened; no zooms.**
+
+## SEGMENT 1 — PROMPT
+
+```
+30 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16.
+
+*** HEADCOUNT: EXACTLY THREE MAIN PEOPLE IN THIS CLIP: ONE NIA, ONE TAY, ONE DORIAN. NEVER TWO OF ANYONE. *** One barista behind the counter and two or three quiet customers at the back tables only; none of them speaks, none looks like Nia, Tay or Dorian, and none comes near the main table.
+
+SET AND FLOOR PLAN, FIXED FOR THE WHOLE CLIP: the cafe <<<7f9a4d83-44b7-470f-a1ec-73740c0630d0>>>, SUCRE, exactly as the reference image shows; nothing is restyled or moved. The camera is always on the RIGHT side of the room looking LEFT, so left and right never flip. The ENTRANCE is at the BACK LEFT: a glass door already PROPPED FULLY OPEN; nobody touches it. The COUNTER runs along the LEFT side just inside the entrance, with the REGISTER in the middle of it, about five steps from the table. THE TABLE is a small two-seat table CENTRE-RIGHT, near the camera. NIA sits on the table's LEFT chair, FACING RIGHT: her back is to the entrance and the counter. TAY will sit on the RIGHT chair, FACING LEFT: he looks straight past Nia's shoulder at the entrance and the counter. No text, logos or signage anywhere.
+
+NIA: face, hair and skin from <<<3497a052-ed61-4fbc-babe-c9f7fc11bf77>>>; body from <<<9b1d610c-f6e6-421b-a801-89e22827e1bf>>>; HER CLOTHES COME ONLY FROM <<<f7d303df-2f64-4a64-ae3e-761a21b865cd>>>: ONE outfit, unchanged in every shot; nothing from the face or body references is worn; never a green sweatshirt. Thirty, Black British, deep warm brown skin, jet-black waist-length water-wave curls, diamond stud earrings. PETITE AND CURVY: the SHORTEST person on screen (about 5'2"), with an hourglass figure: small defined waist, fuller bust, full rounded hips and thighs; never tall, never slim-hipped. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring.
+
+TAY: face, eyes, hair and skin from <<<288d8911-4b45-4246-aac4-0ec3a69003c2>>>; build and tattoos from <<<fe030a7d-7a8c-4fef-9596-50a213e15201>>>; HIS CLOTHES COME ONLY FROM <<<261210f2-283f-4e6b-9140-d237b81f4741>>>, unchanged in every shot; the fitting-room shorts in the body reference are never worn. Twenty-six, caramel brown skin, striking LIGHT GREY eyes, low-cut fade with a sharp lineup, a pretty-boy face. SKINNY, about 5'10": standing next to Nia, the top of her head is level with his chin. Tattooed from the neck down wherever the outfit leaves skin bare; no face tattoos. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band.
+
+DORIAN: <<<606734b1-423b-469c-a95b-c98743b1ccde>>> IS DORIAN, HEAD TO TOE: the ORIGINAL Dorian, in his full gym outfit WITH SHOES, exactly as in that image; the same top, bottoms and shoes from the front, side and back; never barefoot, never a black outfit, never a grey T-shirt. DEEP, DARK BROWN complexion, exactly as the reference: NEVER lightened, and lighting never lifts his skin tone. TALL AND HEAVILY BUILT, about 6'3": the tallest person on screen. He carries NOTHING: no drink, no phone. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band.
+
+NIA'S PHONE: <<<c9e91260-9ef3-4d7f-ab7c-94498fed5e5c>>>, a phone in a BEIGE/TAN case, exactly as that image: the same case, colour, size and model in every shot. Once Tay sets it on the table beside Nia's latte, it STAYS on the table, untouched, for the rest of the clip. It is the only phone in the clip.
+
+VOICES:
+- *** NIA IS BRITISH. EVERY WORD SHE SAYS IS IN A BRITISH ACCENT. *** Her voice is <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>: a warm, low, dry, deadpan London British accent with British vowels, crisp consonants and NO hard R. Nia is the ONLY British speaker. Her accent never turns American and never drifts mid-line.
+- TAY'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A young Black American man of twenty-six with an URBAN, contemporary Black American accent and cadence. His voice is DEEP for his age: a smooth, low baritone with a relaxed chest resonance and a soft, slightly husky edge. He talks SMOOTH and LAID-BACK, like a player who knows he's charming: an unhurried, easy rhythm, words sliding into each other, relaxed consonant endings, a little melodic lift at the end of a flirty line, a low half-laugh in his throat. He speaks in natural modern slang and says it with full confidence; never forced, never a caricature. Even when he's excited about business, the voice stays low and smooth. Never high-pitched, never nasal, never squeaky or boyish, never nervous, never rushed, never shouting, never a radio announcer. Clearly younger and lighter in energy than Dorian, but just as deep.
+- Tay is AMERICAN, never British. Nia and Tay never sound alike and never swap lines.
+- Dorian does NOT speak in this clip.
+
+SEQUENCE, IN ORDER:
+FIRST FRAME: Nia sits alone at the table on the left chair, facing right, both hands around a latte cup, taking a sip. Tay and Dorian are NOT in frame.
+1. (0-4 s) Medium-wide two-shot of the table with the open entrance and the counter visible behind Nia. TAY walks in through the open entrance BEHIND Nia, at a natural pace, Nia's phone in his hand. He comes round the RIGHT side of the table into her view and stops, putting on an exaggerated "oh, it's you, what a surprise" face. Nia looks up and rolls her eyes. Tay pulls out the RIGHT chair with his free hand, sits down in it naturally (real weight, the chair scraping back slightly) and settles in, FACING LEFT toward Nia and the entrance. HE IS FULLY SEATED BEFORE HE SAYS HIS FIRST LINE, and he STAYS SEATED in that chair for the rest of the clip: he never stands up, never moves to the other side of the table, and never sits beside Nia.
+2. Two-shot across the table, with clean waist-up over-the-shoulder cuts for key lines:
+TAY (American), easy and smooth: "I don't want to seem like I'm stalking you or anything, but I think you left your phone."
+He hands it across and SETS IT ON THE TABLE beside her latte. It stays there.
+Nia smiles despite herself.
+NIA (British), dry and teasing: "I guess you're trying to wife me up now?"
+TAY (American), laughing: "Nah, I think that's what you're trying to do. Period."
+They share a quick, cute moment: both laughing, Nia shaking her head, Tay grinning.
+3. Over Nia's shoulder, behind her in the background: DORIAN walks in through the open entrance and goes STRAIGHT to the register. He stands FACING THE BARISTA (facing left), his back and side to the table, ordering. He does NOT look toward the table and does NOT see Nia or Tay.
+Tay, facing the entrance, sees Dorian over Nia's shoulder. His smile drops. He sits back in his chair and folds his arms, annoyed.
+TAY (American), flat, to Nia: "I guess your boo thing has a GPS tracker on you, huh?"
+Nia turns round in her chair and looks back over her LEFT shoulder toward the counter: she sees Dorian at the register. A small smile flickers, then she looks unsure and a little torn, glancing back at Tay.
+NIA (British), quietly: "I guess so."
+After Nia's line the clip ends within half a second. After that, silence: nobody speaks.
+
+WHAT EVERYONE IS DOING (nobody ever stands or sits frozen like a prop):
+- NIA: sipping her latte, turning the cup in her hands, reacting with eye rolls, smiles and laughs; she never just stares.
+- TAY: animated and playful while flirting, leaning in, small hand gestures; after seeing Dorian, arms folded, jaw set, glancing between Nia and the counter.
+- DORIAN (background, after he enters): ordering at the register, nodding to the barista, then looking over the pastry case. He keeps facing the counter the whole time.
+- BARISTA: working the espresso machine, taking Dorian's order.
+- CUSTOMERS (far back): sipping drinks and chatting quietly, never looking at the main three.
+
+LINE OWNERSHIP, NEVER SWAPPED: Tay says "I don't want to seem like I'm stalking you...", "Nah, I think that's what you're trying to do. Period." and "I guess your boo thing has a GPS tracker on you, huh?" Nia says "I guess you're trying to wife me up now?" and "I guess so." The final spoken line is Nia's "I guess so." Dorian, the barista and the customers say nothing.
+
+CAMERA: steady, eye level, always from the right side of the room looking left. NO ZOOMS. NO PUSH-INS. NO EXTREME CLOSE-UPS: faces never tighter than waist-up.
+
+PHYSICS: natural walking and sitting with real weight; chairs move naturally; nobody appears, vanishes, morphs or walks through anything; the phone never changes or moves once it is on the table.
+
+TIMING: replies land quickly; natural reactions fill every pause; no frozen dead air. The clip ends within half a second of Nia's "I guess so."
+
+AUDIO: only these lines, plus soft cafe ambience (espresso machine, cups, quiet murmur). No music, no narration.
+```
+
+
+---
+
+## SEGMENT 1 v2 — RE-FILM (30 s) — PROMPT FOR REVIEW
+
+**Your notes on v1 (`c9024010`):** Nia's character was wrong, Tay's outfit was wrong, and the barista spoke gibberish. Dorian was right.
+
+**Fixes:**
+1. **Nia and Tay each come from one picture:** your screenshots from "Say Less" Segment 1, saved as `Nia-GPS` `ca79ebfe…` and `Tay-GPS` `d49370d7…`. That's the same single-picture setup that worked for Dorian. The old face, body and outfit elements are no longer attached.
+2. **The barista has one scripted line** (your choice (b)): "What can I get you?" in clear English. Dorian nods and points at the pastry case without speaking. Otherwise she's silent with her mouth closed. **The customers are silent**, and there's no background murmur in the audio.
+3. **"Period." removed** from Tay's line (your note). It's now "Nah, I think that's what you're trying to do."
+4. **Unchanged:**
+   - Dorian (`Dorian-Say-Less-Full`), the set, the phone, the floor plan and every line.
+   - Tay sits down before he speaks.
+   - The "What everyone is doing" block, no rings, Nia British, the ending on "I guess so."
+
+**Attached:** `Sucre-Day`, `Nia-GPS`, `Tay-GPS`, `Dorian-Say-Less-Full`, `Nia-Phone`, `Nia-Canon-Voice-v2`. No reference video.
+
+**Cost:** 360 credits.
+
+```
+30 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16.
+
+*** HEADCOUNT: EXACTLY THREE MAIN PEOPLE IN THIS CLIP: ONE NIA, ONE TAY, ONE DORIAN. NEVER TWO OF ANYONE. *** One BARISTA (a woman behind the counter, clearly not Nia) and two or three customers at the back tables only; none looks like Nia, Tay or Dorian, and none comes near the main table. THE CUSTOMERS NEVER SPEAK: mouths closed the whole clip. THE BARISTA SAYS ONE LINE ONLY, written below, in clear English, and is silent with her mouth closed the rest of the time. No other voices, no background chatter, no gibberish.
+
+SET AND FLOOR PLAN, FIXED FOR THE WHOLE CLIP: the cafe <<<7f9a4d83-44b7-470f-a1ec-73740c0630d0>>>, SUCRE, exactly as the reference image shows; nothing is restyled or moved. The camera is always on the RIGHT side of the room looking LEFT, so left and right never flip. The ENTRANCE is at the BACK LEFT: a glass door already PROPPED FULLY OPEN; nobody touches it. The COUNTER runs along the LEFT side just inside the entrance, with the REGISTER in the middle of it, about five steps from the table. THE TABLE is a small two-seat table CENTRE-RIGHT, near the camera. NIA sits on the table's LEFT chair, FACING RIGHT: her back is to the entrance and the counter. TAY will sit on the RIGHT chair, FACING LEFT: he looks straight past Nia's shoulder at the entrance and the counter. No text, logos or signage anywhere.
+
+NIA: <<<ca79ebfe-7f2e-4ce6-aa25-78fd1d992557>>> IS NIA: her face, hair, skin, body AND outfit come ONLY from that one image, reproduced exactly as she looks there, in exactly that outfit, unchanged in every shot. Take ONLY Nia from that image: ignore anyone and anything else in it. Thirty, Black British. PETITE AND CURVY: the SHORTEST person on screen (about 5'2"), with an hourglass figure: small defined waist, fuller bust, full rounded hips and thighs; never tall, never slim-hipped. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring.
+
+TAY: <<<d49370d7-9378-4394-b1f8-01ea3127a3b2>>> IS TAY: his face, eyes, hair, skin, tattoos, build AND outfit come ONLY from that one image, reproduced exactly as he looks there, in exactly that outfit, unchanged in every shot. Take ONLY Tay from that image: ignore anyone and anything else in it. Twenty-six, Black American. SKINNY, about 5'10": standing next to Nia, the top of her head is level with his chin. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band.
+
+DORIAN: <<<606734b1-423b-469c-a95b-c98743b1ccde>>> IS DORIAN, HEAD TO TOE: the ORIGINAL Dorian, in his full gym outfit WITH SHOES, exactly as in that image; the same top, bottoms and shoes from the front, side and back; never barefoot, never a black outfit, never a grey T-shirt. DEEP, DARK BROWN complexion, exactly as the reference: NEVER lightened, and lighting never lifts his skin tone. TALL AND HEAVILY BUILT, about 6'3": the tallest person on screen. He carries NOTHING: no drink, no phone. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band.
+
+NIA'S PHONE: <<<c9e91260-9ef3-4d7f-ab7c-94498fed5e5c>>>, a phone in a BEIGE/TAN case, exactly as that image: the same case, colour, size and model in every shot. Once Tay sets it on the table beside Nia's latte, it STAYS on the table, untouched, for the rest of the clip. It is the only phone in the clip.
+
+VOICES:
+- *** NIA IS BRITISH. EVERY WORD SHE SAYS IS IN A BRITISH ACCENT. *** Her voice is <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>: a warm, low, dry, deadpan London British accent with British vowels, crisp consonants and NO hard R. Nia is the ONLY British speaker. Her accent never turns American and never drifts mid-line.
+- TAY'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A young Black American man of twenty-six with an URBAN, contemporary Black American accent and cadence. His voice is DEEP for his age: a smooth, low baritone with a relaxed chest resonance and a soft, slightly husky edge. He talks SMOOTH and LAID-BACK, like a player who knows he's charming: an unhurried, easy rhythm, words sliding into each other, relaxed consonant endings, a little melodic lift at the end of a flirty line, a low half-laugh in his throat. He speaks in natural modern slang and says it with full confidence; never forced, never a caricature. Even when he's excited about business, the voice stays low and smooth. Never high-pitched, never nasal, never squeaky or boyish, never nervous, never rushed, never shouting, never a radio announcer. Clearly younger and lighter in energy than Dorian, but just as deep.
+- Tay is AMERICAN, never British. Nia and Tay never sound alike and never swap lines.
+- Dorian does NOT speak in this clip.
+
+SEQUENCE, IN ORDER:
+FIRST FRAME: Nia sits alone at the table on the left chair, facing right, both hands around a latte cup, taking a sip. Tay and Dorian are NOT in frame.
+1. (0-4 s) Medium-wide two-shot of the table with the open entrance and the counter visible behind Nia. TAY walks in through the open entrance BEHIND Nia, at a natural pace, Nia's phone in his hand. He comes round the RIGHT side of the table into her view and stops, putting on an exaggerated "oh, it's you, what a surprise" face. Nia looks up and rolls her eyes. Tay pulls out the RIGHT chair with his free hand, sits down in it naturally (real weight, the chair scraping back slightly) and settles in, FACING LEFT toward Nia and the entrance. HE IS FULLY SEATED BEFORE HE SAYS HIS FIRST LINE, and he STAYS SEATED in that chair for the rest of the clip: he never stands up, never moves to the other side of the table, and never sits beside Nia.
+2. Two-shot across the table, with clean waist-up over-the-shoulder cuts for key lines:
+TAY (American), easy and smooth: "I don't want to seem like I'm stalking you or anything, but I think you left your phone."
+He hands it across and SETS IT ON THE TABLE beside her latte. It stays there.
+Nia smiles despite herself.
+NIA (British), dry and teasing: "I guess you're trying to wife me up now?"
+TAY (American), laughing: "Nah, I think that's what you're trying to do."
+They share a quick, cute moment: both laughing, Nia shaking her head, Tay grinning.
+3. Over Nia's shoulder, behind her in the background: DORIAN walks in through the open entrance and goes STRAIGHT to the register. He stands FACING THE BARISTA (facing left), his back and side to the table, ordering. He does NOT look toward the table and does NOT see Nia or Tay.
+BARISTA (General American, friendly, in the background, to Dorian): "What can I get you?"
+Dorian answers WITHOUT SPEAKING: he nods and points at the pastry case.
+Tay, facing the entrance, sees Dorian over Nia's shoulder. His smile drops. He sits back in his chair and folds his arms, annoyed.
+TAY (American), flat, to Nia: "I guess your boo thing has a GPS tracker on you, huh?"
+Nia turns round in her chair and looks back over her LEFT shoulder toward the counter: she sees Dorian at the register. A small smile flickers, then she looks unsure and a little torn, glancing back at Tay.
+NIA (British), quietly: "I guess so."
+After Nia's line the clip ends within half a second. After that, silence: nobody speaks.
+
+WHAT EVERYONE IS DOING (nobody ever stands or sits frozen like a prop):
+- NIA: sipping her latte, turning the cup in her hands, reacting with eye rolls, smiles and laughs; she never just stares.
+- TAY: animated and playful while flirting, leaning in, small hand gestures; after seeing Dorian, arms folded, jaw set, glancing between Nia and the counter.
+- DORIAN (background, after he enters): ordering at the register, nodding to the barista, then looking over the pastry case. He keeps facing the counter the whole time.
+- BARISTA: working the espresso machine; says her one line to Dorian, then takes a pastry from the case for him, mouth closed.
+- CUSTOMERS (far back): sipping drinks, reading a book or a newspaper (NO phones); mouths closed, never speaking, never looking at the main three.
+
+LINE OWNERSHIP, NEVER SWAPPED: Tay says "I don't want to seem like I'm stalking you...", "Nah, I think that's what you're trying to do." and "I guess your boo thing has a GPS tracker on you, huh?" Nia says "I guess you're trying to wife me up now?" and "I guess so." The barista says only "What can I get you?" The final spoken line is Nia's "I guess so." Dorian and the customers say nothing.
+
+CAMERA: steady, eye level, always from the right side of the room looking left. NO ZOOMS. NO PUSH-INS. NO EXTREME CLOSE-UPS: faces never tighter than waist-up.
+
+PHYSICS: natural walking and sitting with real weight; chairs move naturally; nobody appears, vanishes, morphs or walks through anything; the phone never changes or moves once it is on the table.
+
+TIMING: replies land quickly; natural reactions fill every pause; no frozen dead air. The clip ends within half a second of Nia's "I guess so."
+
+AUDIO: only these lines, plus soft cafe ambience (espresso machine, cups clinking). No background voices or murmur, no music, no narration.
+```
+
+
+---
+
+## SEGMENT 1 v3 — RE-FILM (30 s) — PROMPT FOR REVIEW
+
+**Your notes on v2 (`31f91b00`):** Nia's face and clothes were wrong. Tay was right.
+
+**The fix:** Nia is now `Nia-GPS-v2` `709f0a07…` (image `7bb4d088…`), the still you approved. It shows **the original cast Nia** (`Nia` `bcd528d3…`, the face you confirmed) in **the outfit you uploaded** (`niagymoutfit.jpg`). It replaces the screenshot element `Nia-GPS`.
+
+**Your edits (2 Oct 2026):**
+- **The barista's line is removed.** She has no audible words, but she isn't frozen: her mouth moves naturally as she chats with Dorian while taking his order (your note: her mouth should move when she's acting like she's talking to him). Her words are inaudible, so there's no gibberish audio. Dorian nods and points at the pastry case. Customers stay silent.
+- **Tay's reaction to Dorian is shorter:** one quick glance, his smile drops, he sits back, and he goes straight into "I guess your boo thing has a GPS tracker on you, huh?" There's no held reaction.
+
+**Unchanged from v2:**
+- Tay (`Tay-GPS`, right in v2), Dorian, the café, the phone and the floor plan.
+- Every line, including Tay's line without "Period".
+- Silent customers with no phones.
+- No rings, Nia British, the ending on "I guess so."
+
+**Attached:** `Sucre-Day`, `Nia-GPS-v2`, `Tay-GPS`, `Dorian-Say-Less-Full`, `Nia-Phone`, `Nia-Canon-Voice-v2`. **Cost:** 360 credits.
+
+```
+30 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16.
+
+*** HEADCOUNT: EXACTLY THREE MAIN PEOPLE IN THIS CLIP: ONE NIA, ONE TAY, ONE DORIAN. NEVER TWO OF ANYONE. *** One BARISTA (a woman behind the counter, clearly not Nia) and two or three customers at the back tables only; none looks like Nia, Tay or Dorian, and none comes near the main table. THE CUSTOMERS NEVER SPEAK: mouths closed the whole clip. THE BARISTA chats briefly and warmly with Dorian as she takes his order: her mouth moves naturally as she talks, but her words are NOT audible. There is no spoken audio from her at all, no gibberish, no words. Only Nia and Tay are heard. No other voices, no background chatter.
+
+SET AND FLOOR PLAN, FIXED FOR THE WHOLE CLIP: the cafe <<<7f9a4d83-44b7-470f-a1ec-73740c0630d0>>>, SUCRE, exactly as the reference image shows; nothing is restyled or moved. The camera is always on the RIGHT side of the room looking LEFT, so left and right never flip. The ENTRANCE is at the BACK LEFT: a glass door already PROPPED FULLY OPEN; nobody touches it. The COUNTER runs along the LEFT side just inside the entrance, with the REGISTER in the middle of it, about five steps from the table. THE TABLE is a small two-seat table CENTRE-RIGHT, near the camera. NIA sits on the table's LEFT chair, FACING RIGHT: her back is to the entrance and the counter. TAY will sit on the RIGHT chair, FACING LEFT: he looks straight past Nia's shoulder at the entrance and the counter. No text, logos or signage anywhere.
+
+NIA: <<<709f0a07-14b6-4d1f-8d36-e2a7c8092782>>> IS NIA: her face, hair, skin, body AND outfit come ONLY from that one image, reproduced exactly as she looks there, in exactly that outfit, unchanged in every shot. Take ONLY Nia from that image: ignore the cafe background in it. Thirty, Black British. PETITE AND CURVY: the SHORTEST person on screen (about 5'2"), with an hourglass figure: small defined waist, fuller bust, full rounded hips and thighs; never tall, never slim-hipped. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring.
+
+TAY: <<<d49370d7-9378-4394-b1f8-01ea3127a3b2>>> IS TAY: his face, eyes, hair, skin, tattoos, build AND outfit come ONLY from that one image, reproduced exactly as he looks there, in exactly that outfit, unchanged in every shot. Take ONLY Tay from that image: ignore anyone and anything else in it. Twenty-six, Black American. SKINNY, about 5'10": standing next to Nia, the top of her head is level with his chin. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band.
+
+DORIAN: <<<606734b1-423b-469c-a95b-c98743b1ccde>>> IS DORIAN, HEAD TO TOE: the ORIGINAL Dorian, in his full gym outfit WITH SHOES, exactly as in that image; the same top, bottoms and shoes from the front, side and back; never barefoot, never a black outfit, never a grey T-shirt. DEEP, DARK BROWN complexion, exactly as the reference: NEVER lightened, and lighting never lifts his skin tone. TALL AND HEAVILY BUILT, about 6'3": the tallest person on screen. He carries NOTHING: no drink, no phone. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band.
+
+NIA'S PHONE: <<<c9e91260-9ef3-4d7f-ab7c-94498fed5e5c>>>, a phone in a BEIGE/TAN case, exactly as that image: the same case, colour, size and model in every shot. Once Tay sets it on the table beside Nia's latte, it STAYS on the table, untouched, for the rest of the clip. It is the only phone in the clip.
+
+VOICES:
+- *** NIA IS BRITISH. EVERY WORD SHE SAYS IS IN A BRITISH ACCENT. *** Her voice is <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>: a warm, low, dry, deadpan London British accent with British vowels, crisp consonants and NO hard R. Nia is the ONLY British speaker. Her accent never turns American and never drifts mid-line.
+- TAY'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A young Black American man of twenty-six with an URBAN, contemporary Black American accent and cadence. His voice is DEEP for his age: a smooth, low baritone with a relaxed chest resonance and a soft, slightly husky edge. He talks SMOOTH and LAID-BACK, like a player who knows he's charming: an unhurried, easy rhythm, words sliding into each other, relaxed consonant endings, a little melodic lift at the end of a flirty line, a low half-laugh in his throat. He speaks in natural modern slang and says it with full confidence; never forced, never a caricature. Even when he's excited about business, the voice stays low and smooth. Never high-pitched, never nasal, never squeaky or boyish, never nervous, never rushed, never shouting, never a radio announcer. Clearly younger and lighter in energy than Dorian, but just as deep.
+- Tay is AMERICAN, never British. Nia and Tay never sound alike and never swap lines.
+- Dorian does NOT speak in this clip.
+
+SEQUENCE, IN ORDER:
+FIRST FRAME: Nia sits alone at the table on the left chair, facing right, both hands around a latte cup, taking a sip. Tay and Dorian are NOT in frame.
+1. (0-4 s) Medium-wide two-shot of the table with the open entrance and the counter visible behind Nia. TAY walks in through the open entrance BEHIND Nia, at a natural pace, Nia's phone in his hand. He comes round the RIGHT side of the table into her view and stops, putting on an exaggerated "oh, it's you, what a surprise" face. Nia looks up and rolls her eyes. Tay pulls out the RIGHT chair with his free hand, sits down in it naturally (real weight, the chair scraping back slightly) and settles in, FACING LEFT toward Nia and the entrance. HE IS FULLY SEATED BEFORE HE SAYS HIS FIRST LINE, and he STAYS SEATED in that chair for the rest of the clip: he never stands up, never moves to the other side of the table, and never sits beside Nia.
+2. Two-shot across the table, with clean waist-up over-the-shoulder cuts for key lines:
+TAY (American), easy and smooth: "I don't want to seem like I'm stalking you or anything, but I think you left your phone."
+He hands it across and SETS IT ON THE TABLE beside her latte. It stays there.
+Nia smiles despite herself.
+NIA (British), dry and teasing: "I guess you're trying to wife me up now?"
+TAY (American), laughing: "Nah, I think that's what you're trying to do."
+They share a quick, cute moment: both laughing, Nia shaking her head, Tay grinning.
+3. Over Nia's shoulder, behind her in the background: DORIAN walks in through the open entrance and goes STRAIGHT to the register. He stands FACING THE BARISTA (facing left), his back and side to the table, ordering. He does NOT look toward the table and does NOT see Nia or Tay.
+The barista smiles and chats with him as she takes his order, her mouth moving naturally, but her words can't be heard (no audio from her, only the soft cafe ambience); Dorian nods and points at the pastry case. Dorian says nothing.
+Tay, facing the entrance, glances up and sees Dorian over Nia's shoulder: ONE QUICK BEAT, his smile drops and he sits back, and he says his line straight away, with no long look or held reaction.
+TAY (American), flat, to Nia: "I guess your boo thing has a GPS tracker on you, huh?"
+Nia turns round in her chair and looks back over her LEFT shoulder toward the counter: she sees Dorian at the register. A small smile flickers, then she looks unsure and a little torn, glancing back at Tay.
+NIA (British), quietly: "I guess so."
+After Nia's line the clip ends within half a second. After that, silence: nobody speaks.
+
+WHAT EVERYONE IS DOING (nobody ever stands or sits frozen like a prop):
+- NIA: sipping her latte, turning the cup in her hands, reacting with eye rolls, smiles and laughs; she never just stares.
+- TAY: animated and playful while flirting, leaning in, small hand gestures; after his quick glance at Dorian, sitting back, jaw set.
+- DORIAN (background, after he enters): ordering at the register, nodding to the barista, then looking over the pastry case. He keeps facing the counter the whole time.
+- BARISTA: working the espresso machine, then chatting with Dorian as she takes his order (mouth moving naturally, smiling, words inaudible), then takes a pastry from the case for him.
+- CUSTOMERS (far back): sipping drinks, reading a book or a newspaper (NO phones); mouths closed, never speaking, never looking at the main three.
+
+LINE OWNERSHIP, NEVER SWAPPED: Tay says "I don't want to seem like I'm stalking you...", "Nah, I think that's what you're trying to do." and "I guess your boo thing has a GPS tracker on you, huh?" Nia says "I guess you're trying to wife me up now?" and "I guess so." The barista's chat with Dorian is visible but inaudible: no audio from her. The final spoken line is Nia's "I guess so." Dorian and the customers say nothing.
+
+CAMERA: steady, eye level, always from the right side of the room looking left. NO ZOOMS. NO PUSH-INS. NO EXTREME CLOSE-UPS: faces never tighter than waist-up.
+
+PHYSICS: natural walking and sitting with real weight; chairs move naturally; nobody appears, vanishes, morphs or walks through anything; the phone never changes or moves once it is on the table.
+
+TIMING: replies land quickly; natural reactions fill every pause; no frozen dead air. The clip ends within half a second of Nia's "I guess so."
+
+AUDIO: only these lines, plus soft cafe ambience (espresso machine, cups clinking). No background voices or murmur, no music, no narration.
+```
+
+---
+
+## SEGMENT 2 v1 (20 s) — PROMPT FOR REVIEW
+
+**Segment 1 v3 (`36c277c0`) is APPROVED (your "approved", 3 Oct 2026).** It's attached to Segment 2 as the reference video (rule 7), so everyone's looks, outfits, voices, the café and the camera side carry over.
+
+**Production notes:**
+- **Length: 20 seconds, not 30 (my recommendation).** Segment 2 has five short lines and two walks, which is about 18–20 seconds of action. At 30 seconds the model would have about 10 seconds to fill, and that's how "Say Less" got the extra line in the wrong voice. 20 seconds costs **240 credits** instead of 360. If you'd rather keep 30 seconds, say so.
+- **Reference video:** Segment 1 v3 is for looks, voices, place and camera only. The prompt says none of its dialogue is replayed and the clip opens on Dorian's first line.
+- **Headcount:** exactly one Nia, one Tay and one Dorian, the same three people already in the café in the first frame. Nobody new arrives, so there's only ever one Dorian.
+- **First frame (where Segment 1 ended):** Nia seated, turned looking over her shoulder at the counter; Tay seated, sitting back; Dorian at the register facing the counter, hands empty.
+- **Dorian's voice:** his written description only, word for word, as agreed. No "Miscommunication" clip. The reference video also carries his look.
+- **Barista:** she isn't talking to anyone in this scene, so she works quietly behind the counter (wiping it down, the espresso machine) and doesn't speak. **Customers:** silent, sipping and reading, no phones. **No background murmur** (your call).
+- **Ending:** on Nia's "I guess so.", then the clip cuts within half a second. After that, silence.
+- **Confirmed (your answers, 3 Oct 2026):** 20 seconds is OK, and Dorian's hands are empty at the end of Segment 1, so he walks out with nothing.
+
+**Floor plan for this clip (camera on the right, looking left):**
+1. Nia gets up from the LEFT chair and walks LEFT to the register, stopping at Dorian's right side. Her latte and phone stay on the table.
+2. Dorian turns to his right to face her. Tay is now directly behind her at the table, so Dorian looks up over her head at Tay, then back at her.
+3. "Oh, what? Whatcha walking over here for?" / "What's your problem?" / "I guess you."
+4. Dorian walks a few steps LEFT, straight out through the propped-open entrance. Nia watches him go and her shoulders drop (half a second).
+5. Tay gets up and walks LEFT to Nia, stopping on her right. "Everything okay?" / "I guess so." End.
+
+**What everyone is doing (rule 12):**
+- **Nia:** gets up, walks over, confused then hurt, watches the door, turns to Tay.
+- **Tay:** watches from the table with his jaw set, then walks over as soon as Dorian leaves.
+- **Dorian:** at the register until Nia arrives, turns, glances at Tay, says his lines, walks out.
+- **Barista:** wiping the counter and working the espresso machine, eyes down, not talking.
+- **Customers:** sipping and reading at the back, never looking over, never speaking.
+
+**Attached:** reference video Segment 1 v3 `36c277c0`; elements `Sucre-Day`, `Nia-GPS-v2`, `Tay-GPS`, `Dorian-Say-Less-Full`, `Nia-Phone`, `Nia-Canon-Voice-v2`. **Cost:** 240 credits (20 s).
+
+```
+20 SECONDS. BRIGHT DAYTIME. Photoreal cinematic drama, vertical 9:16. This clip continues directly from the attached reference video.
+
+REFERENCE VIDEO: the attached video is the scene just before this one. It is for LOOKS, VOICES, PLACE AND CAMERA ONLY: everyone looks, dresses and sounds exactly as in the reference video, in the same cafe, with the same layout and camera side. NO LINE FROM THE REFERENCE VIDEO IS REPLAYED: this clip does not open with any of the reference video's dialogue. The first words spoken in this clip are Dorian's "Oh, what? Whatcha walking over here for?"
+
+*** HEADCOUNT: EXACTLY THREE MAIN PEOPLE IN THIS CLIP: ONE NIA, ONE TAY, ONE DORIAN. NEVER TWO OF ANYONE. *** They are the SAME three people as in the reference video, already in the cafe in the first frame: nobody new arrives and nobody is duplicated. One BARISTA behind the counter and two or three customers at the back tables only; none looks like Nia, Tay or Dorian, and none comes near the main three. THE BARISTA AND THE CUSTOMERS NEVER SPEAK in this clip: no voices from them at all, no gibberish. Only Dorian, Nia and Tay are heard. No other voices, no background chatter.
+
+SET AND FLOOR PLAN, EXACTLY AS IN THE REFERENCE VIDEO: the cafe <<<7f9a4d83-44b7-470f-a1ec-73740c0630d0>>>, SUCRE. The camera is always on the RIGHT side of the room looking LEFT, so left and right never flip. The ENTRANCE is at the BACK LEFT: a glass door already PROPPED FULLY OPEN; nobody touches it. The COUNTER runs along the LEFT side just inside the entrance, with the REGISTER in the middle, about five steps from the table. THE TABLE is the small two-seat table CENTRE-RIGHT, near the camera, with Nia's latte and her phone on it. No text, logos or signage anywhere.
+
+FIRST FRAME, EXACTLY WHERE THE REFERENCE VIDEO ENDS: NIA is seated on the table's LEFT chair, turned in her chair looking back over her left shoulder toward the counter. TAY is seated on the RIGHT chair, facing left, sitting back. DORIAN stands at the REGISTER, facing the counter (facing left), his back and side to the table, hands empty. The barista is behind the counter.
+
+NIA: <<<709f0a07-14b6-4d1f-8d36-e2a7c8092782>>> IS NIA, exactly as in the reference video: the same face, hair, skin, body and outfit, unchanged in every shot. Thirty, Black British. PETITE AND CURVY: the SHORTEST person on screen (about 5'2"), with an hourglass figure: small defined waist, fuller bust, full rounded hips and thighs; never tall, never slim-hipped. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring.
+
+TAY: <<<d49370d7-9378-4394-b1f8-01ea3127a3b2>>> IS TAY, exactly as in the reference video: the same face, hair, skin, tattoos, build and outfit, unchanged in every shot. Twenty-six, Black American. SKINNY, about 5'10": standing next to Nia, the top of her head is level with his chin. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band.
+
+DORIAN: <<<606734b1-423b-469c-a95b-c98743b1ccde>>> IS DORIAN, exactly as in the reference video, HEAD TO TOE: the ORIGINAL Dorian, in his full gym outfit WITH SHOES; the same top, bottoms and shoes from the front, side and back, including as he walks away; never barefoot, never a black outfit, never a grey T-shirt. DEEP, DARK BROWN complexion, exactly as the reference: NEVER lightened, and lighting never lifts his skin tone. TALL AND HEAVILY BUILT, about 6'3": the tallest person on screen, a head and more above Nia. He carries NOTHING: no drink, no phone, no bag. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band.
+
+NIA'S PHONE: <<<c9e91260-9ef3-4d7f-ab7c-94498fed5e5c>>>, in its BEIGE/TAN case, stays on the table beside her latte the WHOLE clip, untouched, even after she walks away. Nobody holds a phone in this clip.
+
+VOICES:
+- *** NIA IS BRITISH. EVERY WORD SHE SAYS IS IN A BRITISH ACCENT. *** Her voice is <<<b3d2fc9b-513a-4ea0-9a5b-c7ef95b2b18c>>>, exactly as in the reference video: a warm, low, dry, deadpan London British accent with British vowels, crisp consonants and NO hard R. Nia is the ONLY British speaker. Her accent never turns American and never drifts mid-line.
+- DORIAN'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY: a deep, low, calm adult male voice, an unhurried General American baritone pitched well below the women's, with relaxed chest resonance, warm rather than gravelly. In this clip he is cool, flat and dismissive, but the voice itself never changes: never high, never shouting. Dorian is AMERICAN, never British.
+- TAY'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY. A young Black American man of twenty-six with an URBAN, contemporary Black American accent and cadence. His voice is DEEP for his age: a smooth, low baritone with a relaxed chest resonance and a soft, slightly husky edge. He talks SMOOTH and LAID-BACK, like a player who knows he's charming: an unhurried, easy rhythm, words sliding into each other, relaxed consonant endings, a little melodic lift at the end of a flirty line, a low half-laugh in his throat. He speaks in natural modern slang and says it with full confidence; never forced, never a caricature. Even when he's excited about business, the voice stays low and smooth. Never high-pitched, never nasal, never squeaky or boyish, never nervous, never rushed, never shouting, never a radio announcer. Clearly younger and lighter in energy than Dorian, but just as deep.
+- Tay is AMERICAN, never British. Dorian and Tay are both deep but never the same voice: Dorian is older, calmer and lower; Tay is younger and smoother. Nobody ever swaps lines.
+
+SEQUENCE, IN ORDER (each person keeps moving naturally; no frozen moments):
+1. (0-4 s) Medium-wide shot from the right side looking left: the table near the camera, the counter and the entrance behind. NIA turns back from looking over her shoulder, stands up from her chair at a natural pace, leaves her latte and her phone on the table, and walks LEFT across the cafe to the register, stopping at Dorian's RIGHT side. TAY stays seated at the table, sitting back, watching her go.
+2. As Nia reaches him, DORIAN turns to his right to face her: now he faces RIGHT, toward Nia and toward the camera side, with Tay seated at the table behind her. Waist-up two-shot of Nia and Dorian at the counter. Dorian looks down at Nia, then looks up over her head at Tay at the table, then back down at Nia.
+DORIAN (American), cool and flat: "Oh, what? Whatcha walking over here for?"
+NIA (British), confused, brow furrowed, no gap: "What's your problem?"
+DORIAN (American), flat, looking right at her: "I guess you."
+3. (no pause) Dorian turns away to his left and walks at a natural pace a few steps LEFT, straight out through the propped-open entrance, and is gone. He never looks back. Nia stays at the counter, turning to watch him go: she is crushed, her shoulders drop, for no more than half a second.
+4. Straight away, TAY gets up from his chair and walks LEFT across the cafe at a natural pace to Nia at the counter, stopping beside her on her right. Waist-up two-shot of Tay and Nia.
+TAY (American), gently: "Everything okay?"
+NIA (British), quietly, still looking toward the entrance, then glancing at Tay: "I guess so."
+After Nia's line the clip ends within half a second. After that, silence: nobody speaks.
+
+WHAT EVERYONE IS DOING (nobody ever stands or sits frozen like a prop):
+- NIA: turning back, getting up, walking to the counter; confused and then hurt while talking to Dorian; watching the entrance after he leaves, shoulders dropping; turning to Tay for her last line.
+- TAY: seated and watching, jaw set, while Nia walks over and while she talks to Dorian; as soon as Dorian leaves, standing and walking over to her, concerned.
+- DORIAN: at the register facing the counter until Nia arrives, then turning to her, glancing up at Tay, saying his lines, and walking out. Hands empty.
+- BARISTA: behind the counter, wiping the counter and working the espresso machine, politely keeping her eyes down; she does not talk in this clip.
+- CUSTOMERS (far back): sipping drinks and reading (NO phones), never looking at the main three, never speaking.
+
+LINE OWNERSHIP, NEVER SWAPPED: Dorian says "Oh, what? Whatcha walking over here for?" and "I guess you." Nia says "What's your problem?" and "I guess so." Tay says "Everything okay?" Those are the only five lines in the clip, in that order. The barista and the customers say nothing. The final spoken line is Nia's "I guess so."
+
+CAMERA: steady, eye level, always from the right side of the room looking left. Medium-wide shots with clean cuts to waist-up two-shots and over-the-shoulder singles for key lines. NO ZOOMS. NO PUSH-INS. NO EXTREME CLOSE-UPS: faces never tighter than waist-up.
+
+PHYSICS: natural walking with real weight and feet on the floor; Nia's chair moves naturally as she stands; nobody appears, vanishes, morphs, glides or walks through anything; Dorian walks out through the open entrance without touching the door; the phone never moves from the table.
+
+TIMING: replies land quickly, no gap longer than a fraction of a second; the only beat is Nia's half-second of hurt after Dorian leaves. No frozen dead air. The clip ends within half a second of Nia's "I guess so."
+
+AUDIO: only these five lines, plus soft cafe ambience (espresso machine, cups clinking) and footsteps. No background voices or murmur, no music, no narration.
+```
