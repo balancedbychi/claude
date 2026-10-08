@@ -46,6 +46,7 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - If any reference image shows a ring, the ring is **never** reproduced.
 - Reject any take with a ring on the left ring finger.
 - **A video reference carries rings** (lesson, "Hold On" Clip 01 v1, 8 Oct 2026). DB came out with a thin band on his left ring finger in all three wide shots although the prompt said no rings. Episode 11's approved Clip 05, attached for voices, shows the same band on the same hand, and `DB-Body` and `DB-Museum-Look` are bare. The reference paragraph had listed what not to take (restaurant, clothes, dialogue) but not the ring. So: **check the hands in any clip before attaching it as a reference; name the ring in the REFERENCE VIDEO paragraph as never to be taken; check DB's left hand in every take before showing it** (the ring is small and shows in wide shots).
+- **What worked and what didn't** ("Hold On" Clip 01 v2, Clips 02+03 and 04+05, 8 Oct 2026). The ring stayed out when the REFERENCE VIDEO paragraph named it as never to be taken, DB's description said "bare hands" in positive words (without "wedding ring"), and his left hand was kept in his trouser pocket. The pocket held in every shot of v2 and of Clips 02+03, but in Clips 04+05 his left hand swung free in the walk back. So **check the left hand in every shot, not only the wides.**
 
 ### 3b. Dorian's voice must not drift
 - Dorian has **no voice element and won't get one** (user, 2 Oct 2026: a voice can't be attached for him). His voice always comes from the written description below.
@@ -59,6 +60,7 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - Only beats that the script calls for explicitly, kept to **half a second each**, one second at the absolute most for a door slam or a phone hang-up.
 - **No super-long pauses, ever:** no lingering looks, no held reaction shots, no dead air before a line, after a line or at the end of a clip. Silences get filled the way real people fill them: someone keeps talking, moves or reacts.
 - Prefer a few longer segments that cut between shots inside one render over many short clips.
+- **Lesson ("Hold On", 8 Oct 2026):** writing "no dead air" and "answers at once" did not close the gaps. Gaps of 0.4 to 1 s between lines were normal, and a beat or a reaction shot ran far longer than written: a buzz planned at half a second ran about 1 s with 0.7 s of quiet either side, and a listening reaction left about 2.8 s of silence. **Give a reaction shot a window barely longer than the line it carries, and measure the audio gaps of every take before showing it.**
 
 ### 5. Physical logic and natural movement
 - **Doors are opened ONLY from the handle side.** A hand touches only the handle. The hinge edge stays fixed in the frame and pivots; only the handle edge swings, and the gap opens on the handle side first. Nobody ever opens, pushes or grips a door from its hinge side.

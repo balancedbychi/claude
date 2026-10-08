@@ -2,7 +2,21 @@
 
 Read `script.md` first: it has the story, the cast and tags, the floor plan and the beat-by-beat. This file holds what is sent to Seedance 2.5. **Nothing is filmed until you say "film"** (rule 9), and a clip is filmed only after you have seen and approved the one before it.
 
-**Status (8 Oct 2026, after Clips 02+03): Clip 01 v2 and the combined Clips 02+03 (job `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc`, 24 s, 168 credits) are filmed and you approved them. My check finds no ring on either hand in either clip. Clips 04+05 are next: the combined prompt below waits for your "film". You said "approved, film clips 4+5" before the pair's prompt existed, so I am showing you the text first (rule 9). Nothing else is filmed.** Evidence: `qa/clip01-ring-evidence.jpg` (v1) and `qa/clip01v2-hands.jpg` (v2).
+**Status (8 Oct 2026, after Clips 04+05): all five clips of the episode are filmed. Clip 01 v2 and the combined Clips 02+03 are approved; the combined Clips 04+05 (job `777680d8-641f-4675-be71-86572ce9d3eb`, 17 s, 119 credits) were filmed on your "film" and wait for your approval.** My check finds no ring where DB's hands are visible, but in the walk back his left hand swings free instead of staying in his pocket. Evidence: `qa/clip01-ring-evidence.jpg` (v1) and `qa/clip01v2-hands.jpg` (v2).
+
+## WHAT I FOUND IN CLIPS 04+05 (job `777680d8-641f-4675-be71-86572ce9d3eb`, 17.06 s, 720p, 119 credits)
+
+| Check | Result |
+|---|---|
+| The lines | **All five, in the scripted order, each said once, nothing added** (speech-to-text). ChiChi says nothing until her line at 14.1 s, and nothing is said after "this." |
+| Who speaks | DB's lines sit around 86 to 122 Hz and ChiChi's "Not continuing this." at about 198 Hz (pitch check), so no line is swapped and DB's voice stays low. Accent and tone are for your ears. |
+| **Rings** | **None seen.** In the walk back (10.6 to 13.3 s) **DB's left hand swings free, not in his pocket as the prompt said**; the watch shows on his wrist and I see no ring in the frames where the hand is clear (11.6, 12.0, 12.6 and 12.8 s). At 11.0 s both hands are on the phone and too blurred to be sure. His right hand has pocketed the phone by 13.3 s. In the far-corner shots he is too small to see his hands. |
+| The picture | ChiChi LEFT and DB RIGHT, outfits constant, one ChiChi and one DB (the small figure in the far corner is DB, and no second DB appears). The hard cut lands at 9.8 s on ChiChi at the picture and DB walking back; he arrives on her right and leans away at the end with his mouth closed. Faces look sharp. |
+| Staging | In shot 1 ChiChi walks out of frame to the left instead of away from the camera; the picture itself is not in the wide shots. |
+| Pacing (rule 4) | **Several long silences:** about 1.7 s before DB's first line; **about 2.8 s of silence (5.3 to 8.1 s)** between his second and third lines, over ChiChi's listening reaction; about 1.0 s before "Sorry."; 0.6 s gaps inside that line; 0.8 s before ChiChi's line; and 2.0 s of silence at the end (the planned silent reaction was about 1.5 s). |
+| Cuts | At 3.7, 9.8, 13.9 and 15.1 s. |
+
+**Credits:** 119 spent once; balance **183.27**.
 
 ## WHAT I FOUND IN CLIPS 02+03 (job `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc`, 24.06 s, 720p, 168 credits)
 
@@ -71,15 +85,25 @@ Seedance renders up to 30 s in one go and charges per second, so **one 24 s clip
 |---|---|---|---|---|---|
 | before | after Clip 01 v1 | | | 561.27 | |
 | 1 | **Clip 01 v2** (ring fix), filmed 8 Oct | 13 s | 91 | 470.27 | done, approved |
-| 2 | **Clips 02+03**, one render, filmed 8 Oct | 24 s | 168 | **302.27 (now)** | done, approved |
-| 3 | **Clips 04+05**, one render | 17 s | 119 | 183.27 | your "film" |
+| 2 | **Clips 02+03**, one render, filmed 8 Oct | 24 s | 168 | 302.27 | done, approved |
+| 3 | **Clips 04+05**, one render, filmed 8 Oct | 17 s | 119 | **183.27 (now)** | filmed; awaiting your approval |
 
-Clip 01 v2 went first as the cheap test of the ring fix; it passed and Clips 02+03 chained from it. Clips 04+05 now chain from the approved Clips 02+03 (rule 7). A cost preflight for 17 s at 720p returned 119 credits.
+Clip 01 v2 went first as the cheap test of the ring fix; it passed and Clips 02+03 chained from it. Clips 04+05 chained from the approved Clips 02+03 (rule 7); the 17 s preflight returned 119 credits and 119 was charged once.
+
+## CUT LIST (when you approve Clips 04+05)
+
+| # | Scene | Job ID | Link | Length | Credits |
+|---|---|---|---|---|---|
+| 01 v2 | One Second | `704a4b8b-1236-4230-a906-c9176c1efe16` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_043205_704a4b8b-1236-4230-a906-c9176c1efe16.mp4) | 13 s | 91 |
+| 02+03 | Hold On / I Have to Take This | `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_045139_eabbe640-8eeb-4ba4-9b98-48f7d46a78bc.mp4) | 24 s | 168 |
+| 04+05 | Not Doing Anything / Where Were We? | `777680d8-641f-4675-be71-86572ce9d3eb` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_051137_777680d8-641f-4675-be71-86572ce9d3eb.mp4) | 17 s | 119 |
+
+Total runtime **54 s**, three renders at 720p, 378 credits. Clip 01 v1 (91 credits, a ring on DB's left hand) is not in the cut.
 
 ## WHAT YOU ARE APPROVING
 
-- **Clips 04+05 combined** (17 s, 119 credits): one render chained from the approved Clips 02+03 (job `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc`), with the same ring fix. The five lines and the ending are the ones you approved in the script: DB's three phone lines, "Sorry. That's done. Where were we?", ChiChi's "Not continuing this.", and DB leaning back, taken aback, with a cut within half a second.
-- **Who and what is attached:** the set `Atlanta-Art-Museum-Gallery`; ChiChi (`ChiChi-Face`, `ChiChi-Body`, `ChiChi-Museum-Look`, her voice element, which is attached this time because she speaks once); DB (`DB-Face`, `DB-Body`, `DB-Museum-Look`, and his voice from his written description, word for word).
+- **Clips 04+05** (job `777680d8-641f-4675-be71-86572ce9d3eb`, 17 s, filmed on your "film"): approve it, or tell me what to change. If you approve it the episode is complete (cut list above).
+- **What I'd weigh before approving:** the long silences (about 2.8 s mid-clip and about 1.7 s at the start) and DB's left hand swinging free in the walk back. A re-film costs 119 credits and would leave 64.27.
 
 ## MY DEFAULTS (say so if you want any changed)
 
@@ -314,9 +338,9 @@ PHYSICS: natural posture and weight, feet on the polished floor, ordinary walkin
 AUDIO: only these eleven lines, the phone's one short buzz and then its low continuous vibration, soft footsteps on the wood floor and the faint hush of a large quiet gallery. No ringtone, no music, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIPS 04 + 05 · "Not Doing Anything" and "Where Were We?" combined · 17 s · 119 credits · AWAITING YOUR "FILM"
+## CLIPS 04 + 05 · "Not Doing Anything" and "Where Were We?" combined · 17 s · 119 credits · FILMED 8 Oct (job `777680d8-641f-4675-be71-86572ce9d3eb`) · awaiting your approval
 
-**First line:** DB's "No, I saw it. Send me the revised one." **Final line:** ChiChi's "Not continuing this." The clip ends within half a second of DB's lean settling; DB says nothing after her line. Five lines, six shots, a hard cut at 10 s.
+**First line:** DB's "No, I saw it. Send me the revised one." **Final line:** ChiChi's "Not continuing this." The clip ends within half a second of DB's lean settling; DB says nothing after her line. Five lines, six shots, a hard cut at 10 s. This is the exact text that was filmed.
 
 **Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 17`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`; `medias`: `video_references` = `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc` (Clips 02+03), plus the seven element images as `image_references` (`33950dd7-42a1-47fc-bdcc-7a3d229c49e6`, `7af2905b-301b-4d9a-b114-2ff61b9f565a`, `03584942-3cc7-4562-bf81-0d33e0c8d135`, `ed958852-09a0-47a6-8033-1bf01dd841d7`, `59a6dfb3-9ee2-475c-9bec-93cd290c8524`, `96c7a2a8-9a0e-45b6-a8e0-a05fffc18969`, `245c3cca-b933-4b23-b07a-17c426904ffe`); the eight elements in `reference_elements` (ChiChi's voice element is attached: she speaks once, in shot 5). No start image. Cost preflight: 119 credits.
 
@@ -709,4 +733,4 @@ AUDIO: only these two lines, soft footsteps on the wood floor and the faint hush
 | 01 | v1 | `9f01f419-0461-476d-858c-cebcfdf18f95` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_040319_9f01f419-0461-476d-858c-cebcfdf18f95.mp4)) | 13 s | 720p | 91 | You approved it 8 Oct. **My check found a ring on DB's left ring finger (rule 3a)**; also gaps of 0.4 to 0.9 s between lines. Replaced by v2. |
 | 01 | v2 | `704a4b8b-1236-4230-a906-c9176c1efe16` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_043205_704a4b8b-1236-4230-a906-c9176c1efe16.mp4)) | 13 s | 720p | 91 | Filmed 8 Oct on your "film clip 1". **No ring on either hand**; six lines in order; voices match v1; pacing no better than v1. **Approved** (your "film clips 2+3"). |
 | 02+03 | v1 | `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_045139_eabbe640-8eeb-4ba4-9b98-48f7d46a78bc.mp4)) | 24 s | 720p | 168 | Filmed 8 Oct on your "film clips 2+3". **No ring on either hand**; eleven lines in order; one dead stretch of about 2.4 s around the second buzz; the first shot has them stop facing the camera. **Approved** ("approved, film clips 4+5"). |
-| 04+05 | v1 | not filmed | 17 s | 720p | 119 | Awaiting your "film" |
+| 04+05 | v1 | `777680d8-641f-4675-be71-86572ce9d3eb` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_051137_777680d8-641f-4675-be71-86572ce9d3eb.mp4)) | 17 s | 720p | 119 | Filmed 8 Oct on your "film". Five lines in order; no ring seen, but DB's left hand swings free in the walk back; long silences (about 1.7 s at the start, 2.8 s mid-clip, 2.0 s at the end). Awaiting your approval. |
