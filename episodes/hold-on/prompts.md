@@ -2,7 +2,22 @@
 
 Read `script.md` first: it has the story, the cast and tags, the floor plan and the beat-by-beat. This file holds what is sent to Seedance 2.5. **Nothing is filmed until you say "film"** (rule 9), and a clip is filmed only after you have seen and approved the one before it.
 
-**Status (8 Oct 2026, after Clip 01 v2): Clip 01 v1 had a ring on DB's left hand (rule 3a), so on your "film clip 1" I re-filmed it as v2 (job `704a4b8b-1236-4230-a906-c9176c1efe16`, 91 credits). My check finds no ring on either hand. Clips 02+03 are next: the combined prompt below is final and waits for your "film", which will also mean you approve v2 as the reference. Nothing else is filmed.** The evidence is in `qa/clip01-ring-evidence.jpg` (v1) and `qa/clip01v2-hands.jpg` (v2).
+**Status (8 Oct 2026, after Clips 02+03): Clip 01 v2 and the combined Clips 02+03 (job `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc`, 24 s, 168 credits) are filmed and you approved them. My check finds no ring on either hand in either clip. Clips 04+05 are next: the combined prompt below waits for your "film". You said "approved, film clips 4+5" before the pair's prompt existed, so I am showing you the text first (rule 9). Nothing else is filmed.** Evidence: `qa/clip01-ring-evidence.jpg` (v1) and `qa/clip01v2-hands.jpg` (v2).
+
+## WHAT I FOUND IN CLIPS 02+03 (job `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc`, 24.06 s, 720p, 168 credits)
+
+| Check | Result |
+|---|---|
+| **Rings** | **None.** DB's left hand stays in his pocket in every frame I checked (wide, waist-up and bench shots), with the watch at the cuff. His right hand, holding the phone as he walks, stands, sits and rises, has no ring (close crops at 1.5, 5.5, 8.2, 9.1, 12.0, 13.6, 14.4 and 18.0 s). |
+| The lines | **All eleven, in the scripted order, each said once, nothing added** (speech-to-text). ChiChi's long line stops on "imagine" with no word after it. |
+| Voices | ChiChi matches Clip 01 v2 on a spectrum-match check (0.99); DB 0.96, a little lower. His hushed last line is a quieter register, as written. It is a rough check, and you approved the voices by ear. |
+| The picture | ChiChi LEFT and DB RIGHT throughout, outfits constant, headcount two. The hard cut lands at 11.4 s on ChiChi already seated and DB standing with the phone. He sits, rises and walks away; ChiChi is alone at the end. No visitor shows in the frames I checked. Faces look sharp. |
+| First shot | They stop in the middle of the room facing the camera; the small picture on the white wall is not in frame. |
+| Pacing (rule 4) | Most gaps between lines are 0.4 to 0.9 s. **One dead stretch of about 2.4 s:** after ChiChi's "Can I say something that isn't about the art?" (ends about 17.3 s) there is 0.7 s of quiet, then a phone buzz of about 1.0 s (planned 0.5 s, running under his line), then 0.7 s more quiet before DB's "Hold on." (about 19.7 s). There is also 1.2 to 1.4 s of quiet between ChiChi's "Of course." and DB's last line, and 0.5 s inside that line. The clip ends about 0.2 s after the last word. |
+| Over-the-shoulder shots | In ChiChi's singles DB's phone hand sits in front of her waist (perspective; no contact). |
+| Cuts | At 3.3, 4.7, 8.6, 9.7, 10.6, 11.4, 15.1, 17.5, 19.0, 21.0 and 21.8 s. |
+
+**Credits:** 168 spent once; balance **302.27**.
 
 ## WHAT I FOUND IN CLIP 01 v2 (job `704a4b8b-1236-4230-a906-c9176c1efe16`, 13.06 s, 720p, 91 credits)
 
@@ -30,14 +45,14 @@ Read `script.md` first: it has the story, the cast and tags, the floor plan and 
 
 **Where the ring most likely comes from.** Episode 11's approved Clip 05, which I attached as the voice reference, shows DB with the same band on the same hand (row B of the evidence sheet). `DB-Body` and `DB-Museum-Look` show bare hands (row C). My reference paragraph listed what not to take (the restaurant, the server, the clothes, any dialogue) and the model obeyed those, but it never said the ring. Episode 11's own prompts also said no rings and the ring got in anyway, so I'm not relying on the reference alone: the fix also keeps his left hand out of sight.
 
-## THE RING FIX (in both revised prompts)
+## THE RING FIX (in every revised prompt)
 
 1. **The reference paragraph now names the ring:** the ring on the man's left hand in the reference is a mistake and is never reproduced; DB's hands are bare.
 2. **DB's description says "bare hands" in positive words** and no longer says "wedding ring" for him (the "Say Less" lesson: naming a thing can bring it in). Rule 3a's core words stay: *NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin with no tan line.* ChiChi's wording is unchanged.
 3. **DB's left hand stays in his left trouser pocket in every shot**, so there is nothing to draw. The old "Hold on." beat, his left hand half raised, becomes a small apologetic tilt of his head. **Say so if you want the raised hand back**; it would show his left hand for under a second.
-4. **Pacing:** three shots in Clip 01 now say she or he "answers at once", to close the 0.4 to 0.9 s gaps.
+4. **Pacing:** three shots in Clip 01 now say she or he "answers at once", to close the 0.4 to 0.9 s gaps. It did not change them.
 
-**Result:** it worked in v2 (above).
+**Result:** it worked in v2 and in Clips 02+03 (above).
 
 I also dropped the old words "the wrist nearest ChiChi" for the watch: his left wrist is the one *away* from her, at the picture and on the bench, and the clip drew it that way anyway. The watch is still on his left wrist; his phone is still in his right hand.
 
@@ -48,25 +63,23 @@ Seedance renders up to 30 s in one go and charges per second, so **one 24 s clip
 - **What fits:** 02+03 is 24 s and 04+05 is 17 s. All of 02 to 04 would be 34 s, over the 30 s cap, so I'd stop at pairs.
 - **The trade-off:** if the second half goes wrong, the re-roll is the whole 168, not 91, and you can't stop between the two clips to approve them one at a time.
 - **The one story change is the join:** at 11 s there is a **hard cut** from the small picture to the foreground bench, "a few minutes later", with ChiChi already seated. Nobody walks to the bench on screen. ChiChi's "Sure." and "Come sit. Just for a minute." sit either side of the cut.
-- **The prompt is longer:** about 16,600 characters, against about 12,700 for the longest earlier prompt, because the shot list is 13 shots. The shared blocks appear once. If the submission is refused for length, I trim and tell you.
+- **The prompt was longer:** about 16,600 characters, against about 12,700 for the longest earlier prompt, and it was accepted.
 
 ## THE PLAN AND THE CREDITS
 
 | Step | Render | Length | Credits | Balance after | Waits for |
 |---|---|---|---|---|---|
 | before | after Clip 01 v1 | | | 561.27 | |
-| 1 | **Clip 01 v2** (ring fix), filmed 8 Oct | 13 s | 91 | **470.27 (now)** | done |
-| 2 | **Clips 02+03**, one render | 24 s | 168 | 302.27 | your "film", which also approves Clip 01 v2 as the reference |
-| 3 | Clips 04+05, one render | 17 s | 119 | 183.27 | your approval of 02+03; I write the pair's prompt then, with the same ring fix |
+| 1 | **Clip 01 v2** (ring fix), filmed 8 Oct | 13 s | 91 | 470.27 | done, approved |
+| 2 | **Clips 02+03**, one render, filmed 8 Oct | 24 s | 168 | **302.27 (now)** | done, approved |
+| 3 | **Clips 04+05**, one render | 17 s | 119 | 183.27 | your "film" |
 
-Clip 01 v2 went first as the cheap test of the ring fix, and every later clip chains from it (rule 7). The test passed, so Clips 02+03 can use it as the reference. If you want anything in v2 changed first (the pacing, for instance), say so before I attach it.
+Clip 01 v2 went first as the cheap test of the ring fix; it passed and Clips 02+03 chained from it. Clips 04+05 now chain from the approved Clips 02+03 (rule 7). A cost preflight for 17 s at 720p returned 119 credits.
 
 ## WHAT YOU ARE APPROVING
 
-- **Clip 01 v2** (13 s, 91 credits, already filmed): the same story and lines as v1, with the ring fix.
-- **Clips 02+03 combined** (24 s, 168 credits): one render, chained from Clip 01 v2 (job `704a4b8b-1236-4230-a906-c9176c1efe16`). The eleven lines are the ones you approved in the script. Your "film" approves v2 as the reference and starts the render.
-- **Who and what is attached to every clip:** the set `Atlanta-Art-Museum-Gallery`; ChiChi (`ChiChi-Face`, `ChiChi-Body`, `ChiChi-Museum-Look`, her voice element); DB (`DB-Face`, `DB-Body`, `DB-Museum-Look`, and his voice from his written description, word for word).
-- **The ending** is unchanged: DB leaning back, taken aback, and a cut within half a second (Clip 05).
+- **Clips 04+05 combined** (17 s, 119 credits): one render chained from the approved Clips 02+03 (job `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc`), with the same ring fix. The five lines and the ending are the ones you approved in the script: DB's three phone lines, "Sorry. That's done. Where were we?", ChiChi's "Not continuing this.", and DB leaning back, taken aback, with a cut within half a second.
+- **Who and what is attached:** the set `Atlanta-Art-Museum-Gallery`; ChiChi (`ChiChi-Face`, `ChiChi-Body`, `ChiChi-Museum-Look`, her voice element, which is attached this time because she speaks once); DB (`DB-Face`, `DB-Body`, `DB-Museum-Look`, and his voice from his written description, word for word).
 
 ## MY DEFAULTS (say so if you want any changed)
 
@@ -77,19 +90,20 @@ Clip 01 v2 went first as the cheap test of the ring fix, and every later clip ch
 | 3 | Voices for Clip 01 v2 | Episode 11's approved Clip 05 (`1a685bed…`), **voices only**, with the ring now named as not to be taken. | DB has no voice element, so an approved clip is the anchor (rules 3b and 7). If v2 still shows a ring I drop this reference and use the written voice alone, then ask you to judge the voice. |
 | 4 | Visitors | **One** silent visitor, far back, in muted charcoal and cream, never within ten feet of the leads. | Fewer extras, fewer surprises. |
 | 5 | The bench | They sit side by side **facing the room, toward the camera**, with the white wall and the two-panel picture behind them. | Keeps both faces visible for the key line. |
-| 6 | DB's left hand | **In his left trouser pocket in every shot** of Clip 01 v2 and Clips 02+03. | The ring fix, item 3 above. |
+| 6 | DB's left hand | **In his left trouser pocket in every shot** of Clip 01 v2, Clips 02+03 and Clips 04+05. | The ring fix, item 3 above. |
 | 7 | Sides | **ChiChi frame LEFT, DB frame RIGHT** in every shot and every cut. | As in the script's floor plan. |
 
-## WHAT I CHECKED (skill step 9: the call-outs, and how each is answered)
+## WHAT I CHECKED FOR CLIPS 04+05 (skill step 9: the call-outs, and how each is answered)
 
-- **"Hold on" is DB's refrain** (shots 5 and 11 of the combined clip). The rule against repeating the reference clip's dialogue could make the model avoid it, so the prompt carries one sentence saying those words are new lines, exactly as written.
-- **Left and right on the bench.** ChiChi faces the camera there, so she pats the empty cushion with her **left** hand (the cushion at frame RIGHT).
-- **DB's phone is always in his right hand** and his watch on his left wrist; his left hand is in his pocket.
-- **The walk (shots 1 to 6):** side by side, same direction, same pace, along the wall; at the small picture DB stops on her right, half a step further along. ChiChi's line stops on the word "imagine" and the prompt says no word follows it.
-- **The join (11 s):** a hard cut, written as such, with ChiChi already seated in the first bench frame and the headcount repeated for it (one ChiChi, one DB).
-- **ChiChi seated:** knees together, ankles crossed, the dress falling to mid-calf.
-- **Timings:** no line is faster than about 2.9 words a second; the shot windows are the ones from the earlier drafts, joined end to end (checked by script: contiguous, 0 to 24 s).
-- **Wording:** no "fully clothed" and no body words beyond "full-figured with a defined waist". The one banned-list word in the prompts, "mature", is inside DB's locked voice description.
+- **DB's refrain** ("Hold on. Let me pull it up.") is a new line in this clip; the prompt carries the sentence saying so, as before.
+- **ChiChi's silent half.** She says nothing in shots 1 to 3 and has one line in shot 5. Her voice element is attached now (it was left off in the separate Clip 04), and the prompt says she makes no sound of any kind in the first half.
+- **DB, small and far away.** The prompt says the small figure in the far corner IS DB, that after the cut the man walking back is the same DB, and that there is only ever one.
+- **The caller is never heard:** no voice from the phone, no muffled reply, no second voice.
+- **The join (10 s):** a hard cut a moment later to a wide shot, ChiChi already at the picture and DB already walking back. The phone is at his ear in the first half and in his hand, finishing a text, in the second; he pockets it on "done".
+- **Sightlines:** DB comes up on ChiChi's RIGHT, the far-corner side, so he never crosses in front of her; she turns her head to her right for her line.
+- **The ending:** a silent reaction of about a second and a half; the prompt says DB makes no sound of speech and quotes none of the words the model might reach for (the "Say Less" lesson).
+- **Timings:** the shot windows are the earlier drafts' joined end to end (0 to 16.7 s in a 17 s render); no line is faster than about 2.8 words a second (checked by script: contiguous, lines match the script).
+- **Wording:** neutral and wholesome; the one banned-list word, "mature", is inside DB's locked voice description.
 
 ## SETTINGS (every render)
 
@@ -127,9 +141,10 @@ Clip 01 v2 went first as the cheap test of the ring fix, and every later clip ch
 | DB's voice drifting or turning into a caricature | His full written description, word for word, including "never a heavy stereotype"; the approved voice clip as the authority (rule 7). |
 | Extra lines, or the visitor talking | "Only these lines, in this order, each said once"; LINE OWNERSHIP in every prompt; the visitor's mouth is closed; AUDIO bans other voices and music. |
 | Replaying the reference's lines (rule 9) | Each prompt names its own first line and refers to the reference's last line only as "the reference video's final line, which is NOT said again". DB's refrain gets one explicit sentence. |
-| Two of anyone | HEADCOUNT in every prompt, repeated for the bench half of the combined clip: one ChiChi, one DB. |
-| The hard cut at 11 s (new) | Written as a HARD CUT "a few minutes later"; the first bench frame is described in full (who sits where, where the phone is); nobody walks to the bench on screen. |
-| The longer prompt (about 16,600 characters) | Shared blocks appear once. If the submission is refused for length, I trim and tell you before resubmitting. |
+| Two of anyone, above all a second DB (Clips 04+05) | HEADCOUNT in every prompt; the far-corner figure IS DB and there is only ever one DB, before and after the cut. |
+| The hard cut at 10 s (Clips 04+05) | Written as a HARD CUT "a moment later"; ChiChi's position and DB's walk back are described in full; the call has ended and the phone is in his hand. |
+| ChiChi making a sound in the silent half (Clips 04+05) | "She says nothing: no words, no mm, no sound of any kind" in the voices, the line ownership and the prompt's shot 1 to 3; her one line is in shot 5. |
+| Dead air (the Clip 02+03 stretch of about 2.4 s) | 04+05 has no scripted beats except DB's reaction after the last line; if a long gap shows up again I tell you what I'd change before a re-film. |
 | Dead air, or an invented line at the end | The clip ends on a spoken line; "after that, silence: nobody speaks". |
 | The phone | One object moves; the screen never faces the camera; no text or bubbles; right hand every time; the first buzz is half a second, the second is one low continuous vibration, never a ringtone; a real phone at his ear, never on speaker (rule 1). |
 | ChiChi's shape drifting slimmer | Fixed in the look image itself (the C2 dress follows her shape); every prompt says "full-figured with a defined waist and full hips and thighs, never slimmed, never boxy". |
@@ -146,16 +161,15 @@ Clip 01 v2 went first as the cheap test of the ring fix, and every later clip ch
 |---|---|---|---|---|
 | 01 v2 | ChiChi and DB at the foot of the two-panel picture | ChiChi's eyes on the picture; DB looking at her, the phone lowered but still in his right hand | right hand, hanging | Episode 11 Clip 05, voices only |
 | 02+03 | Mid-walk along the white wall toward the small picture | ChiChi alone on the left cushion; DB walking away up the room, phone at his right ear | held up, then on his knee, then at his ear | the approved Clip 01 v2 |
-| 04 | ChiChi rising from the bench; DB far away in the back corner, phone at his ear | ChiChi at the two-panel picture, hands tight, jaw set; DB still in the corner, heard only | at his ear | (with 05, after 02+03) |
-| 05 | ChiChi at the two-panel picture; DB walking back from the corner, finishing a text | DB leaning back, taken aback; the phone in his right trouser pocket | into his pocket | (with 04) |
+| 04+05 | ChiChi rising from the bench; DB far away in the back corner, phone at his ear | DB leaning back, taken aback; the phone in his right trouser pocket; ChiChi at the picture | at his ear, then in his hand, then in his pocket | the approved Clips 02+03 |
 
 Sightline checks are in `script.md`; every look, turn and exit they list is written into the shots below.
 
 ---
 
-# THE REVISED PROMPTS (for your review)
+# THE PROMPTS
 
-## CLIP 01 v2 · "One Second" · 13 s · 91 credits · FILMED 8 Oct (job `704a4b8b-1236-4230-a906-c9176c1efe16`) · awaiting your approval
+## CLIP 01 v2 · "One Second" · 13 s · 91 credits · FILMED 8 Oct (job `704a4b8b-1236-4230-a906-c9176c1efe16`) · approved
 
 **First line:** ChiChi's "I could stand here all afternoon." **Final line:** DB's "Give it time. I like that." This is the exact text that was filmed; it replaces v1 (below).
 
@@ -221,9 +235,9 @@ PHYSICS: natural posture and weight, feet on the polished floor, ordinary walkin
 AUDIO: only these six lines and the one short phone buzz, soft footsteps on the wood floor and the faint hush of a large quiet gallery. No music, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIPS 02 + 03 · "Hold On" and "I Have to Take This" combined · 24 s · 168 credits · AWAITING YOUR "FILM"
+## CLIPS 02 + 03 · "Hold On" and "I Have to Take This" combined · 24 s · 168 credits · FILMED 8 Oct (job `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc`) · approved
 
-**First line:** ChiChi's "This one's my favorite so far." **Final line:** DB's "Yeah. Go ahead." Eleven lines, 13 shots, a hard cut at 11 s.
+**First line:** ChiChi's "This one's my favorite so far." **Final line:** DB's "Yeah. Go ahead." Eleven lines, 13 shots, a hard cut at 11 s. This is the exact text that was filmed.
 
 **Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 24`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`; `medias`: `video_references` = `704a4b8b-1236-4230-a906-c9176c1efe16` (Clip 01 v2), plus the seven element images as `image_references` (`33950dd7-42a1-47fc-bdcc-7a3d229c49e6`, `7af2905b-301b-4d9a-b114-2ff61b9f565a`, `03584942-3cc7-4562-bf81-0d33e0c8d135`, `ed958852-09a0-47a6-8033-1bf01dd841d7`, `59a6dfb3-9ee2-475c-9bec-93cd290c8524`, `96c7a2a8-9a0e-45b6-a8e0-a05fffc18969`, `245c3cca-b933-4b23-b07a-17c426904ffe`); the eight elements in `reference_elements`. No start image.
 
@@ -300,11 +314,77 @@ PHYSICS: natural posture and weight, feet on the polished floor, ordinary walkin
 AUDIO: only these eleven lines, the phone's one short buzz and then its low continuous vibration, soft footsteps on the wood floor and the faint hush of a large quiet gallery. No ringtone, no music, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
+## CLIPS 04 + 05 · "Not Doing Anything" and "Where Were We?" combined · 17 s · 119 credits · AWAITING YOUR "FILM"
+
+**First line:** DB's "No, I saw it. Send me the revised one." **Final line:** ChiChi's "Not continuing this." The clip ends within half a second of DB's lean settling; DB says nothing after her line. Five lines, six shots, a hard cut at 10 s.
+
+**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 17`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`; `medias`: `video_references` = `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc` (Clips 02+03), plus the seven element images as `image_references` (`33950dd7-42a1-47fc-bdcc-7a3d229c49e6`, `7af2905b-301b-4d9a-b114-2ff61b9f565a`, `03584942-3cc7-4562-bf81-0d33e0c8d135`, `ed958852-09a0-47a6-8033-1bf01dd841d7`, `59a6dfb3-9ee2-475c-9bec-93cd290c8524`, `96c7a2a8-9a0e-45b6-a8e0-a05fffc18969`, `245c3cca-b933-4b23-b07a-17c426904ffe`); the eight elements in `reference_elements` (ChiChi's voice element is attached: she speaks once, in shot 5). No start image. Cost preflight: 119 credits.
+
+```
+17 SECONDS. Photoreal cinematic drama, vertical 9:16, AFTERNOON, a large gallery in the Atlanta Art Museum. A couple on a Saturday afternoon date, looking at art together. Wholesome.
+
+TIMING, READ THIS FIRST. NO DEAD AIR. NO LONG PAUSES. Every reply starts within two tenths of a second of the line before it; there are no beats except DB's reaction after ChiChi's last line, about a second and a half, and then the clip ends. Nobody stands frozen: every gap is filled with natural movement or a reaction. The clip opens with the action already moving and ends within half a second of DB's lean settling.
+
+REFERENCE VIDEO: the attached video is the APPROVED previous clip of this same afternoon, in this same gallery. It is THE AUTHORITY for LOOKS, VOICES, PLACE, LIGHT AND CAMERA ONLY: the same woman CHICHI on the LEFT, the same man DB on the RIGHT, the same faces, hair, clothes, the same gallery and the same light, and both voices exactly as they sound in it. NO LINE OF DIALOGUE from the reference video is repeated. This clip continues from the reference video's final moment. The FIRST line of this clip is DB's "No, I saw it. Send me the revised one." DB's habit of saying "Hold on" is part of the story: where this clip's lines contain those words they are NEW lines, exactly as written below. DB's hands are bare in the reference video and stay bare in this clip.
+
+WHERE WE ARE: this picks up a few moments after the reference video's final line, which is NOT said again. DB has walked away up the gallery to take a call and is now standing far away in the back corner, the phone at his ear. ChiChi has been left alone on the foreground bench and is just rising from it. At 10 seconds the call is over and the clip cuts to a wide shot a moment later: ChiChi is standing at the foot of the big two-panel picture and DB is walking back to her from the far corner, finishing a text. The first words spoken are DB's "No, I saw it. Send me the revised one."
+
+*** HEADCOUNT: EXACTLY TWO MAIN PEOPLE: ONE CHICHI, ONE DB. NEVER TWO OF ANYONE. *** ChiChi is at the bench and DB is already in the back corner in the first frame; nobody new arrives, and there is never a second DB: the small figure in the far corner IS DB, and after the cut at 10 seconds the man walking back from that corner is the same DB. ONE other museum visitor, far away at the FAR RIGHT END of the orange wall, well away from DB's corner, tiny in the frame, dressed in muted charcoal and cream (nothing orange, rust, red, emerald or navy), looking at the framed prints, MOUTH CLOSED, never speaking, never crossing in front of the leads and never within ten feet of them.
+
+SET: the gallery <<<f4bd8e99-83bd-4904-9f98-510f71713494>>>, exactly as the reference image shows; THE REFERENCE IMAGE DECIDES THE LAYOUT, and where it disagrees with any left or right wording here, the image wins. A very large, high gallery: white barrel-vaulted ceiling with small track spotlights, polished honey-coloured wood floor. THE CAMERA stands on the room side at eye level, looking along the long white wall toward the back corner, as in the reference image. In the vertical frame the tall white wall runs down the LEFT with the large two-panel picture in a thick black frame (two figures in hats working with tools, built from small collaged pieces) and, further along, the smaller square picture (a field of tall grass); the back corner is in the middle of the frame; the bold ORANGE wall faces the camera across the back RIGHT with its row of seven small framed prints; a low white platform with a stack of three printed boxes stands mid-floor; two long grey-cushioned benches, one in the foreground at frame LEFT, one in the middle distance in front of the orange wall. The art is exactly as in the reference image: nothing added, moved, swapped or restyled. Soft, even gallery light, afternoon, no windows. Wall labels blank; no readable text anywhere except the printing on the boxes; no logos or signage. Floor reflections are soft colour only, never a second figure.
+
+CHICHI: face, hair and skin EXACTLY <<<b03240bd-4562-4d2f-8b14-de32c018e346>>>, body <<<46074b6d-b0b3-4d7f-9f33-ebeaadccd9dc>>>: forty, warm brown complexion, her skin one even, uniform warm brown everywhere, never patchy or blotchy, with a small beauty mark on her cheek and a few subtle freckles; HONEY-BLONDE shoulder-length layered blowout with darker roots, deep side part on the LEFT side of her head, never dark brown; small stud earrings. About 5'5", full-figured with a defined waist and full hips and thighs, never slimmed, never boxy. HER CLOTHES COME ONLY FROM <<<fc4e50ad-000e-4c0d-98d9-a1256f2a4010>>>: the deep emerald knit midi dress with three-quarter sleeves and a soft round neckline, a slim muted tan-brown belt at the waist, the skirt falling to mid-calf, and cream leather flats, identical in every shot; nothing is worn from the face or body references. She carries nothing: no bag, no phone. CHICHI'S FACE NEVER DRIFTS and is ALWAYS IN SHARP FOCUS, her eyes crisp in every shot; never soft, smeared or hazy. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring; no bracelets, no watch.
+
+DB: face, hair, beard and skin EXACTLY <<<1023755a-b704-4c10-b0f4-bf9887d2558c>>>, build <<<952f3fb0-ed54-4551-a07c-c56934939a44>>>: forty-eight, Dominican, warm golden-tan to light-brown complexion, thick dark softly wavy hair with silver at the temples, a neatly trimmed short beard with a few silver flecks. TALL, about 6'1", clearly taller than ChiChi in every shot. HIS CLOTHES COME ONLY FROM <<<1130f30a-cfff-4a89-9a1e-eece45bd1a70>>>: the navy fine-knit crew-neck sweater, light-grey tailored trousers, brown leather loafers, and a steel bracelet watch with a dark dial on his LEFT wrist, identical in every shot; nothing is worn from the face or body references. Kind, attentive, self-assured, never smug. DB'S FACE NEVER DRIFTS and is ALWAYS IN SHARP FOCUS. NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin with no tan line. DB'S HANDS ARE BARE: plain, bare fingers on both hands, nothing on any finger, and nothing on either wrist but the steel watch on his LEFT. His LEFT hand stays in his left trouser pocket in every shot.
+
+PROP: DB's phone is a plain black smartphone with no logo; its screen always faces him or his body, never the camera; no text, no message bubbles and no screen light is ever visible. It is the ONLY object that moves in this clip, and only while DB's hand holds it. ChiChi's hands are empty. FIRST HALF (0 to 10 s): it is at DB's RIGHT ear for the whole time, a real phone held to his ear, never on speaker. THE PERSON ON THE OTHER END IS NEVER HEARD: no voice from the phone, no muffled reply, no second voice at all. SECOND HALF (10 to 17 s): it is in DB's RIGHT hand, his thumb finishing a text, until he slips it into his right trouser pocket on the word "done"; from then on his right hand is empty and the phone stays in the pocket.
+
+BLOCKING: ChiChi is ALWAYS on the LEFT of the frame and DB ALWAYS on the RIGHT, in every shot and every cut. FIRST HALF: ChiChi starts at the foreground bench at frame LEFT and walks away from the camera to the foot of the big two-panel picture on the white wall, where she stands facing it with her hands clasped. DB is far away in the FAR BACK CORNER at frame RIGHT, where the long white wall meets the orange wall: a small figure half turned away from her, the phone at his RIGHT ear, his left hand in his trouser pocket; he paces two slow steps but never comes closer and never looks toward her. ChiChi never turns toward the corner. SECOND HALF: ChiChi stands at the foot of the big two-panel picture at frame LEFT, facing it. DB walks back toward her along the white wall from the far back corner, coming up on her RIGHT, the far-corner side, so he never crosses in front of her, and stops beside her on her right at frame RIGHT, one step further along the wall. When ChiChi speaks she turns her head to her right, toward him. DB's steel WATCH is on his LEFT wrist; his phone is in his RIGHT hand. DB'S LEFT HAND stays in his left trouser pocket in every shot of the clip, the fingers never seen.
+
+FIRST FRAME: a WIDE shot from the room side. ChiChi at frame LEFT, just rising from the foreground bench, her hands empty. DB far away in the back corner at frame RIGHT, tiny in the frame, half turned away, the phone at his right ear, his left hand in his trouser pocket. DB starts speaking at once.
+
+THE CLIP, SHOT BY SHOT:
+1. (0-3.4 s) Wide. ChiChi walks away from the camera from the bench to the big two-panel picture on the white wall at an unhurried pace, her hands loosely clasped, without looking toward him. DB, in the far corner, paces two slow steps, half turned away. His voice carries low across the quiet gallery.
+  DB (Dominican), low and hushed, into the phone: "No, I saw it. Send me the revised one."
+2. (3.4-5.9 s) Waist-up on ChiChi, three-quarter view, at the foot of the big two-panel picture: she stops and looks up at the two figures at work. DB's voice is heard OFF CAMERA, far across the gallery.
+  DB (Dominican), low, off camera: "Hold on. Let me pull it up."
+3. (5.9-10 s) Waist-up on ChiChi. She HEARS it: her clasped hands tighten, she lets out one slow breath through her nose, her eyes stay on the picture, her jaw sets. Her mouth stays closed; she says nothing. DB's voice is heard off camera, easy and absent.
+  DB (Dominican), off camera, easy and absent: "No, it's fine. I'm not doing anything."
+4. (10-13.4 s) HARD CUT to a WIDE shot a moment later: ChiChi stands still at the foot of the big two-panel picture, looking up at it, hearing him come. DB, now off the call, speaks as he walks back along the white wall at a natural pace; on "done" he slips the phone into his right trouser pocket, and he arrives beside her at frame RIGHT on the last word, warm, a little out of breath, a hopeful smile.
+  DB (Dominican), warm, a little out of breath: "Sorry. That's done. Where were we?"
+5. (13.4-15 s) Waist-up on ChiChi, three-quarter view, DB's shoulder at the frame-right edge. She turns her head to him, level and calm, her eyes clear, not raised, not softened.
+  CHICHI (American), level, calm: "Not continuing this."
+6. (15-16.7 s) Waist-up on DB, three-quarter view, ChiChi's shoulder at the frame-left edge. His smile drops. His head draws back an inch and he leans away from her, taken aback. His mouth stays closed; he says NOTHING.
+  END within half a second of the lean settling: DB leaning back, his eyes on her. ChiChi's "Not continuing this." is the last line of the clip. After that, silence: nobody speaks, and nothing more is said. DB makes no sound of speech at all: no word of any kind.
+
+LINE OWNERSHIP, NEVER SWAPPED: the first three lines are DB's, spoken into the phone: "No, I saw it. Send me the revised one." = DB. "Hold on. Let me pull it up." = DB. "No, it's fine. I'm not doing anything." = DB. Then: "Sorry. That's done. Where were we?" = DB. "Not continuing this." = CHICHI. Only these five lines, in this order, each said once. ChiChi says NOTHING until shot 5: no words, no "mm", no sound of any kind. The caller is never heard. DB says nothing after her line.
+
+PRONUNCIATION: "revised" is said rih-VIZED.
+
+VOICES, TWO DIFFERENT PEOPLE, NEVER MIXED:
+- CHICHI IS AMERICAN: <<<de50f37f-82fa-4a70-bdca-52355b2f4ca2>>>, a warm, smooth, mid-to-low Black American woman's voice with a GENERAL AMERICAN ACCENT, calm authority and dry humour; the same voice as in the reference video. ChiChi is AMERICAN: General American accent, NEVER British, never Nia's voice. She has ONE line only, "Not continuing this.", in shot 5; in the first half (shots 1 to 3) she says nothing at all: no words, no "mm", no sound of any kind. Smooth, whole words; never broken or stuttered.
+- DB'S VOICE — HE HAS NO SAVED VOICE ELEMENT, SO BUILD IT FROM THIS DESCRIPTION EXACTLY, AND MATCH HIS VOICE IN THE REFERENCE VIDEO. A Dominican man of forty-eight speaking fluent English with a NATURAL HISPANIC ACCENT: a warm Caribbean Spanish flair in the vowels, lightly tapped r's, softened word endings, and the occasional Spanish rhythm in a phrase. His voice is LOW, WARM and CALMING: a soft-spoken, slightly husky baritone, mature and composed, with a gentle gravel at the bottom and a quiet intimacy, as if he never needs to raise his voice to be heard. He speaks SLOWLY and DELIBERATELY, with thoughtful pauses inside a sentence (never between lines), a reassuring tone, and a faint, knowing warmth, like a smile you can hear. A lawyer's clear, precise diction under the accent. Never loud, never fast, never slick or salesy, never cartoonish or exaggerated, never a heavy stereotype; the accent is real and natural, never put on. In the first half DB speaks quietly, low and hushed, as a man on a phone call in a quiet gallery; it is still HIS voice, the same voice, and every line is one easy continuous run. In the second half he is warm and a little out of breath.
+DB'S PACING: his slow, deliberate quality is in his calm TONE, never in gaps. No pause inside or between his lines longer than two tenths of a second; each line is one continuous, easy run.
+The two voices never sound alike and never swap.
+CHICHI'S SPEECH: smooth, fluent, continuous sentences: whole words, no stutters, no broken or clipped words, no restarts, no hesitations.
+
+WHAT EVERYONE IS DOING (nobody ever stands frozen like a prop, on or off camera):
+- CHICHI: rising from the bench, walking to the picture, looking up at it, her hands tightening, one slow breath, her jaw setting; then standing at the picture, looking up at it, turning her head to him.
+- DB: on the call in the far back corner, a step or two of slow pacing, half turned away from her; then walking back, finishing the text, pocketing the phone, smiling, then drawing his head back and leaning away; his left hand rests in his pocket the whole time.
+- THE VISITOR: far back at the far right end of the orange wall, looking at the framed prints, silent, nowhere near DB.
+
+CAMERA: steady, eye level, always from the room side, the vantage of the set reference. A medium-wide two-shot and waist-up singles in three-quarter view: the speaker's face is always visible, never a full back. NO ZOOMS, NO PUSH-INS, NO EXTREME CLOSE-UPS; faces never tighter than waist-up. ChiChi stays on the LEFT of the frame and DB on the RIGHT in every shot.
+
+PHYSICS: natural posture and weight, feet on the polished floor, ordinary walking pace, five-finger hands, exactly two arms per person; the phone moves only while DB's hand holds it; nothing else in the gallery moves; no physical contact between them.
+
+AUDIO: only DB's four lines and ChiChi's one line, soft footsteps on the wood floor and the faint hush of a large quiet gallery. No caller voice, no music, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
+```
+
 ---
 
 # THE EARLIER PROMPTS (kept for the record)
 
-Clips 04 and 05 below are the v1 prompts. When I combine them I apply the same ring fix (reference paragraph, bare hands, left hand in his pocket) and write the pair after 02+03 is approved.
+Clips 02, 03, 04 and 05 below are the separate v1 prompts, superseded by the combined prompts above. They are kept for the record only.
 
 ## CLIP 01 · "One Second" · 13 s · 91 credits · v1 · FILMED 8 Oct (job `9f01f419-0461-476d-858c-cebcfdf18f95`) · you approved it; ring found, replaced by v2
 
@@ -372,7 +452,7 @@ PHYSICS: natural posture and weight, feet on the polished floor, ordinary walkin
 AUDIO: only these six lines and the one short phone buzz, soft footsteps on the wood floor and the faint hush of a large quiet gallery. No music, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIP 02 · "Hold On" · 11 s · 77 credits · v1 · SEPARATE VERSION, superseded by the combined 02+03 (use only if you prefer them apart; the ring fix would be applied first)
+## CLIP 02 · "Hold On" · 11 s · 77 credits · v1 · SEPARATE VERSION, superseded by the combined 02+03 (the ring fix was not applied to this text)
 
 **First line:** ChiChi's "This one's my favorite so far." **Final line:** ChiChi's "Sure."
 
@@ -438,7 +518,7 @@ PHYSICS: natural posture and weight, feet on the polished floor, ordinary walkin
 AUDIO: only these five lines and the one short phone buzz, soft footsteps on the wood floor and the faint hush of a large quiet gallery. No music, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIP 03 · "I Have to Take This" · 13 s · 91 credits · v1 · SEPARATE VERSION, superseded by the combined 02+03 (use only if you prefer them apart; the ring fix would be applied first)
+## CLIP 03 · "I Have to Take This" · 13 s · 91 credits · v1 · SEPARATE VERSION, superseded by the combined 02+03 (the ring fix was not applied to this text)
 
 **First line:** ChiChi's "Come sit. Just for a minute." **Final line:** DB's "Yeah. Go ahead."
 
@@ -504,7 +584,7 @@ PHYSICS: natural posture and weight, feet on the polished floor, ordinary walkin
 AUDIO: only these six lines and the phone's low continuous vibration, soft footsteps on the wood floor and the faint hush of a large quiet gallery. No ringtone, no music, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIP 04 · "Not Doing Anything" · 10 s · 70 credits · v1 · NOT FILMED
+## CLIP 04 · "Not Doing Anything" · 10 s · 70 credits · v1 · SEPARATE VERSION, superseded by the combined 04+05 (the ring fix was not applied to this text)
 
 **First line:** DB's "No, I saw it. Send me the revised one." **Final line:** DB's "No, it's fine. I'm not doing anything."
 
@@ -564,7 +644,7 @@ PHYSICS: natural posture and weight, feet on the polished floor, ordinary walkin
 AUDIO: only DB's three lines, soft footsteps on the wood floor and the faint hush of a large quiet gallery. No caller voice, no music, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIP 05 · "Where Were We?" · 7 s · 49 credits · v1 · NOT FILMED
+## CLIP 05 · "Where Were We?" · 7 s · 49 credits · v1 · SEPARATE VERSION, superseded by the combined 04+05 (the ring fix was not applied to this text)
 
 **First line:** DB's "Sorry. That's done. Where were we?" **Final line:** ChiChi's "Not continuing this." The clip ends within half a second of DB's lean settling; DB says nothing.
 
@@ -627,6 +707,6 @@ AUDIO: only these two lines, soft footsteps on the wood floor and the faint hush
 | Clip | Version | Job ID | Duration | Resolution | Credits | Verdict |
 |---|---|---|---|---|---|---|
 | 01 | v1 | `9f01f419-0461-476d-858c-cebcfdf18f95` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_040319_9f01f419-0461-476d-858c-cebcfdf18f95.mp4)) | 13 s | 720p | 91 | You approved it 8 Oct. **My check found a ring on DB's left ring finger (rule 3a)**; also gaps of 0.4 to 0.9 s between lines. Replaced by v2. |
-| 01 | v2 | `704a4b8b-1236-4230-a906-c9176c1efe16` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_043205_704a4b8b-1236-4230-a906-c9176c1efe16.mp4)) | 13 s | 720p | 91 | Filmed 8 Oct on your "film clip 1". **No ring on either hand** (left hand in his pocket); six lines in order; voices match v1; pacing no better than v1. Awaiting your approval. |
-| 02+03 | v1 | not filmed | 24 s | 720p | 168 | Awaiting your "film" |
-| 04+05 | | not drafted as a pair | 17 s | 720p | 119 | After 02+03 |
+| 01 | v2 | `704a4b8b-1236-4230-a906-c9176c1efe16` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_043205_704a4b8b-1236-4230-a906-c9176c1efe16.mp4)) | 13 s | 720p | 91 | Filmed 8 Oct on your "film clip 1". **No ring on either hand**; six lines in order; voices match v1; pacing no better than v1. **Approved** (your "film clips 2+3"). |
+| 02+03 | v1 | `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_045139_eabbe640-8eeb-4ba4-9b98-48f7d46a78bc.mp4)) | 24 s | 720p | 168 | Filmed 8 Oct on your "film clips 2+3". **No ring on either hand**; eleven lines in order; one dead stretch of about 2.4 s around the second buzz; the first shot has them stop facing the camera. **Approved** ("approved, film clips 4+5"). |
+| 04+05 | v1 | not filmed | 17 s | 720p | 119 | Awaiting your "film" |
