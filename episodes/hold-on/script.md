@@ -1,11 +1,11 @@
 # EXCLUSIVE with Nia and Chi: Episode 15, "Hold On"
 
-**Status:** DRAFT 4 FOR REVIEW (7 Oct 2026). Built on your second gallery photo, `artmuse3.jpg` (media `88a93c2b-93b0-4b3d-8f8f-d641557e7cf8`), which replaces `artmuse1.jpeg`. The story is your direction: an afternoon at the Atlanta Art Museum, DB on his phone, "Hold on," and an ending on *"Where were we?"* / *"Not continuing this."* The lines and looks below are proposals. **No video has been generated.** Three 4K plate options were generated and cost 12.75 credits (decision 4).
-**What changed from draft 3:** the room is now the one in `artmuse3.jpg`: a long white wall with a two-panel picture and a small field picture, an orange wall with seven portrait prints, a white platform with a stack of boxes, and two benches. So the bench is back, ChiChi's art lines fit the new pictures (*"You have to give it time"*), and the sides go back to **ChiChi frame LEFT, DB frame RIGHT**, because DB now leaves toward the far corner on the right. Drafts 1 to 3 are in git history (`4819582`, `ac48563`, `9780f46`).
-**Format:** vertical 9:16, 720p, Seedance 2.5. **Five clips**, about 54 seconds in total. Which video-reference recipe the clips use is your call (decision 9).
+**Status:** DRAFT 5 FOR REVIEW (8 Oct 2026). Built on your second gallery photo, `artmuse3.jpg` (media `88a93c2b-93b0-4b3d-8f8f-d641557e7cf8`), which replaces `artmuse1.jpeg`. The story is your direction: an afternoon at the Atlanta Art Museum, DB on his phone, "Hold on," and an ending on *"Where were we?"* / *"Not continuing this."* **On 8 Oct you picked plate option 1 and approved the recipe, the lines and the ending**; the looks are still yours to pick. **No video has been generated, and none will be made without your feedback.** Image stills are fine to make, and so far that is three 4K plates (12.75 credits) and nine outfit stills (18 credits).
+**What changed from draft 4:** your 8 Oct answers are recorded (decisions 4, 5, 7, 9 and 10), and there is a new **THE LOOKS** section with the nine outfit stills and my review of each against the face and body sheets. **ChiChi's first three looks came out slimmer than her body sheet**: loose wide-leg trousers and boxy knits hid her waist and hips. I re-ran them with cuts that follow her shape, and the midi dress (C2) is the closest match. The story, lines and clips are unchanged from draft 4 (`ef0a2f4`). Earlier drafts are in git history (`4819582`, `ac48563`, `9780f46`).
+**Format:** vertical 9:16, 720p, Seedance 2.5. **Five clips**, about 54 seconds in total. **Recipe:** each approved clip becomes the next clip's video reference (rule 7; approved, decision 9).
 **Cast:** ChiChi · DB. Nobody else speaks. One or two silent visitors far in the background.
 **Picks up from:** Episode 13 (DB: *"Saturday is completely cleared for you."* ChiChi: *"Saturday."*). This is that Saturday, in the afternoon. Episode 14's night at the Ledger happens later the same day.
-**Estimated cost:** about **378 credits** for the five clips if every one works first time (7 credits a second at 720p). A 30% retake allowance plus the Topaz 1080p pass brings it to about 510. Balance on 7 Oct 2026 after the plates: **742.27**. The two look stills are extra, and **every image is priced separately**, so I quote a per-image price and a total before I spend anything.
+**Estimated cost:** about **378 credits** for the five clips if every one works first time (7 credits a second at 720p). A 30% retake allowance plus the Topaz 1080p pass brings it to about 510. Balance on 8 Oct 2026: **724.27**, after the plates (12.75) and the nine outfit stills (18: six in round 1 and three in round 2, at 2 credits each). **Every image is priced separately**, so I quote a per-image price and multiply before I spend anything.
 **Working title alternatives:** "Where Were We?", "Cleared".
 
 ---
@@ -34,18 +34,20 @@ He comes back, pockets the phone, warm and a little out of breath: *"Sorry. That
 | 1 | Story | Afternoon at the museum, DB keeps texting and saying "Hold on," and the last *"Where were we?"* gets *"Not continuing this."* | **Your direction** (7 Oct 2026) |
 | 2 | Title | "Hold On" | Needs your OK |
 | 3 | Nia and the call | **Out.** It's afternoon now, so Nia's night call, the car and the green dress are gone, and the cast is ChiChi and DB. The *"Pencil me in"* idea could move to Episode 16 as ChiChi telling Nia about the museum. | Needs your OK |
-| 4 | The set | `artmuse3.jpg` is the room. Three empty-room plates were made from it at 4K (3504 × 2336): the visitor and the wall text panel are gone, and everything else is as in your photo. **Cost 12.75 credits, spent (4.25 each).** I checked all three at full size. **Pick one and upload it yourself** (rule 8); the set element is saved from your upload. **Option 1** is my pick. Option 2's lower box reads "Billo". | **Needs your pick and upload** |
-| 5 | The art | The plates keep real, identifiable artworks close to your photo: a two-panel collage picture, a small field picture, seven sepia portrait prints, and a stack of boxes printed with "Brillo" lettering, a recognisable pop-art sculpture. They are re-rendered, not copied, and I describe them in words only, never naming an artist. If you'd rather avoid real pieces, I can swap the stack for plain white boxes or make an invented-art plate (4.25 credits per image). | **Needs your ruling** |
-| 6 | Looks | Both new, one full-length image each (rule 14). ChiChi: deep emerald fitted knit top, cream wide-leg trousers, tan loafers. DB: navy knit polo, light-grey trousers, brown loafers, slim steel watch on his left wrist. **Nothing orange or rust**: it would vanish into the orange wall. I can make three option stills each from their face and body elements; you pick one each and upload it. | **Needs your uploads** (two images) |
-| 7 | The ending | Ends on DB's reaction with no line after hers: he leans back, taken aback, and we cut as the lean settles, within half a second. Same shape as Episode 11's wordless ending, which worked first time. I'm reading "leans" as leaning back; tell me if you meant leaning in. | Needs your OK |
+| 4 | The set | `artmuse3.jpg` is the room. Three empty-room plates were made from it at 4K (3504 × 2336): the visitor and the wall text panel are gone, and everything else is as in your photo. **Cost 12.75 credits, spent (4.25 each).** I checked all three at full size. **You picked option 1** (`bb8e86cd-911e-4a9e-8425-0f6cb4cb5968`) on 8 Oct. Download it from Higgsfield and upload it yourself (rule 8); the set element is saved from your upload. | **Picked. Waiting on your upload** |
+| 5 | The art | The plates keep real, identifiable artworks close to your photo: a two-panel collage picture, a small field picture, seven sepia portrait prints, and a stack of boxes printed with "Brillo" lettering, a recognisable pop-art sculpture. They are re-rendered, not copied, and I describe them in words only, never naming an artist. If you'd rather avoid real pieces, I can swap the stack for plain white boxes or make an invented-art plate (4.25 credits per image). | **Kept as in plate 1.** You picked it and didn't ask for a swap. Tell me before I save the set element if you'd rather swap, because the description can't be edited afterwards |
+| 6 | Looks | Both new, one full-length image each (rule 14). ChiChi: deep emerald and cream, cut to follow her shape (round 1's wide-leg trousers hid her hips, so round 2 is tailored). DB: navy knit polo, light-grey trousers, brown loafers, slim steel watch on his left wrist. **Nothing orange or rust**: it would vanish into the orange wall. Nine option stills are made (three for DB, six for ChiChi in two rounds; see THE LOOKS). You pick one each and upload it. | **Stills made. Waiting on your picks and uploads** (two images) |
+| 7 | The ending | Ends on DB's reaction with no line after hers: he leans back, taken aback, and we cut as the lean settles, within half a second. Same shape as Episode 11's wordless ending, which worked first time. "Leans" is read as leaning back. | **Approved** (8 Oct) |
 | 8 | The phone | DB's black phone is in his hand in every clip until he pockets it in Clip 05. No screen faces the camera, no text is visible, and the caller is never heard. His side of the call (Clip 04) is scripted. | Needs your OK |
-| 9 | Recipe | `CLAUDE.md` rule 7: each approved clip becomes the next clip's video reference (my default). Episode 14 finished on the "Rented" recipe: one fixed voices clip (`159822f7…`), no start image. | **Needs your ruling** |
-| 10 | The lines | Every line in quotes is a proposal. I'd look first at ChiChi's *"I'd always imagine—"* and DB's *"I'm not doing anything."* Clip 01's lines now fit the two-panel picture. | Needs your OK |
+| 9 | Recipe | `CLAUDE.md` rule 7: each approved clip becomes the next clip's video reference (my default). Episode 14 finished on the "Rented" recipe instead: one fixed voices clip (`159822f7…`), no start image. | **Approved** (8 Oct), read as the rule 7 chain |
+| 10 | The lines | Every line in quotes was a proposal. I'd have looked first at ChiChi's *"I'd always imagine—"* and DB's *"I'm not doing anything."* Clip 01's lines now fit the two-panel picture. | **Approved** (8 Oct) |
 | 11 | DB's voice | His written description, word for word (`characters/db.md`), plus Episode 11 Clip 05 `1a685bed-7301-4d05-b755-4928b3202078` as the voice authority (rule 7) | Carried over |
 | 12 | The bench | Your photo has benches, so Clip 03 is on the foreground bench: two grey cushions, one each. | Needs your OK |
 | 13 | Sides | **ChiChi frame LEFT, DB frame RIGHT**, as in Episode 11, because DB leaves toward the far corner on the right and comes back from it. | Needs your OK |
 
-**Uploads needed from you:** the plate you pick, ChiChi's look and DB's look.
+Rows 2, 3, 8, 12 and 13 weren't in your 8 Oct answer. They stand as proposed, and I'll confirm each again in the prompts review before anything is filmed.
+
+**Uploads needed from you, one at a time, each named and tagged:** (1) plate option 1, (2) ChiChi's look, (3) DB's look.
 
 ---
 
@@ -74,7 +76,7 @@ He comes back, pockets the phone, warm and a little out of breath: *"Sorry. That
 |---|---|---|---|---|
 | Gallery photo 1 | `artmuse1.jpeg` (1200 × 630) | `7ac767fe-f38b-4a78-bb64-58b57a4bc4e1` | `[Gallery-Photo-1]` | **Superseded** by photo 3. Not used. |
 | Gallery photo 3 | `artmuse3.jpg` (2085 × 1390) | `88a93c2b-93b0-4b3d-8f8f-d641557e7cf8` | `[Gallery-Photo]` | Uploaded 7 Oct 2026. Source for the plates. **Not saved as an element.** |
-| Plate option 1 | job | `bb8e86cd-911e-4a9e-8425-0f6cb4cb5968` | `[Plate-1]` | Clean. Man and wall text gone, "Brillo" lettering crisp. **My pick.** |
+| Plate option 1 | job | `bb8e86cd-911e-4a9e-8425-0f6cb4cb5968` | `[Plate-1]` | Clean. Man and wall text gone, "Brillo" lettering crisp. **Your pick (8 Oct).** Upload pending. |
 | Plate option 2 | job | `82416315-e958-45ee-8e2d-5072b0f85954` | `[Plate-2]` | Clean, but the lower box's lettering has warped to "Billo". |
 | Plate option 3 | job | `6e24ee73-938f-4da0-99ba-2b674c568bd0` | `[Plate-3]` | Clean. Lettering fine. |
 
@@ -100,6 +102,39 @@ Shot at eye level, looking into the back corner of a large gallery: a long white
 > STAGE MAP: a very large, high gallery with a WHITE BARREL-VAULTED CEILING (curved white ribs) carrying small TRACK SPOTLIGHTS, and a POLISHED HONEY-COLOURED WOOD PLANK FLOOR with narrow dark METAL VENT STRIPS and soft reflections. LEFT: a tall, long, plain WHITE WALL receding to the back, carrying a large TWO-PANEL PICTURE in a thick black frame (two figures in hats working with tools, built from countless small collaged pieces) and, to its right, a SMALLER SQUARE PICTURE in a black frame (a field of tall ochre and rust grass under a pale sky, with tiny distant figures). BACK RIGHT: a bold ORANGE WALL facing the camera, carrying one row of SEVEN framed sepia portrait prints in black frames with white mats, a tiny BLANK label beside each. CENTRE: a low WHITE SQUARE PLATFORM carrying a stack of three boxes printed in red, white and blue. TWO LONG DOUBLE BENCHES, each with two GREY CUSHIONS on white bases: one in the FOREGROUND LEFT, one in the MIDDLE DISTANCE in front of the orange wall. The FAR CORNER, where the white wall meets the orange wall, is plain.
 >
 > NO PEOPLE in this element. No readable words, numbers or signage anywhere except the printing on the boxes; the wall labels are blank. Soft, even gallery light; no windows, no sun beams; afternoon, never night. TAKE DECISIONS STAY OUT of this description: people, props and clothes belong in the prompt.
+
+---
+
+## THE LOOKS (stills made 8 Oct 2026)
+
+One full-length image per character (rule 14). Each still was made from the character's face and body elements, on a plain light-grey background at 2K, 9:16, for **2 credits an image (18 in total)**. **You pick one each and upload it yourself** (rule 8). The look element is saved from your upload, and its description needs your OK first because it can't be edited afterwards.
+
+### DB (one round)
+
+| Option | Job | The look |
+|---|---|---|
+| **A** (my pick) | `23384be5-7549-4c69-a859-856c601bb0e1` | Navy knit polo, light-grey tailored trousers, brown leather loafers, slim steel watch on the left wrist |
+| B | `3244a7f6-c476-458f-923b-d1058f729b20` | Navy fine-knit crew-neck sweater, same trousers, loafers and watch |
+| C | `002f4d42-86f1-4f1d-8ef9-7cb15ddc4bec` | Navy linen-blend shirt open at the collar, sleeves turned back twice, same trousers, loafers and watch |
+
+**Checked against `DB-Face` and `DB-Body`:** face, dark wavy hair with silver at the temples, and trimmed beard match in all three, and so do his height and build. The watch is on his left wrist in all three. **No ring on any visible finger of his left hand** (checked at full size; his hands hang relaxed, so the fourth finger is partly hidden, and I'll check again in every take). I'd take **A**: a knit polo reads relaxed for a museum afternoon and stays quiet beside the orange wall.
+
+### ChiChi (two rounds)
+
+**Round 1 came out slimmer and straighter than her body sheet.** `ChiChi-Body` shows a full bust, a defined waist, wide hips and full thighs. In A, B and C the face, honey-blonde hair and skin match, but the loose wide-leg trousers hid her hips and the boxy knits hid her waist. **Round 2** keeps the emerald and cream palette, cuts every garment to follow her shape, and names her shape in words (a full bust, a waist clearly narrower than her hips, wide full hips, full thighs).
+
+| Option | Job | The look | Against her body sheet |
+|---|---|---|---|
+| A | `fdd72a94-a2a7-4b11-81a7-284240d7e2ee` | Short-sleeve emerald knit, cream wide-leg trousers, tan loafers | Slimmer and straighter than the sheet |
+| B | `74939849-4efa-41df-873d-1179fbf96ac3` | Three-quarter sleeve V-neck emerald knit, cream wide-leg trousers, tan loafers | Same |
+| C | `3f02ea22-777a-4db5-8d82-6d91f97f8030` | Sleeveless emerald knit, cream wide-leg trousers, cream flats | Same, and the shoulders read broad |
+| A2 | `e1408a08-2579-4f79-a37e-7ec2a65061cf` | Fitted short-sleeve emerald knit, tucked in, slim tan belt, cream tailored straight-leg trousers, tan loafers | Waist and hips show; still slimmer through the hips and thighs than the sheet |
+| B2 | `4aee36e0-1c82-4f6a-8523-620eca5c7e1f` | Emerald wrap-front knit tied at the waist, three-quarter sleeves, cream tailored tapered trousers, tan loafers | Better: the wrap draws in the waist |
+| **C2** (my pick) | `e731de50-d78a-47a7-80d9-db6b3d33ec20` | Emerald knit midi dress, three-quarter sleeves, slim tan belt, skirt skimming the hips to mid-calf, cream flats | **Closest to the sheet:** bust, waist, hips and thighs all read |
+
+**No ring on any visible finger of her left hand in any of the six**, and her face, honey-blonde hair and skin tone match `ChiChi-Face`. The tan belt and loafers are a warm caramel brown, so the prompts will say *"muted caramel-brown, never orange"*.
+
+**What the pick means for filming:** the look you upload becomes her one full-length image for every clip, so her build in the video follows that image. The closer the still is to her body sheet, the less she drifts. C2 is the safest on that point, and B2 is the pick if you'd rather see trousers.
 
 ---
 
@@ -351,7 +386,7 @@ Shot at eye level, looking into the back corner of a large gallery: a long white
 6. **The art is exactly what the plate shows:** the two-panel picture, the small field picture, the seven portrait prints, the white platform with its stack of boxes, the two benches. Nothing added, moved or swapped. **No readable text anywhere except the printing on the boxes**; the wall labels stay blank. I never name an artist.
 7. **The phone:** only DB's, a plain black smartphone. It is in his hand in every clip until he pockets it in Clip 05. No screen ever faces the camera, no text or message bubbles are visible, and the caller is never heard.
 8. **Visitors:** one or two, far back, muted clothing (**no orange, no rust, no red**), deep soft focus, looking at the portraits, mouths closed. They never cross in front of the leads, never come within about ten feet of them, and never stand near DB's call spot.
-9. **Clothes:** nothing orange or rust on either lead, so neither disappears into the orange wall.
+9. **Clothes:** nothing orange or rust on either lead, so neither disappears into the orange wall. Any tan belt or loafers are a muted caramel brown, never orange.
 10. **Movement:** ordinary walking pace, feet on the floor. In Clip 02 they walk side by side, the same direction, the same pace. In Clip 03 DB leaves up the room, as scripted. No zooms or push-ins, and no framing tighter than waist-up.
 11. **Headcount:** exactly two main people (one ChiChi, one DB), never two of anyone. Reflections in the polished floor are soft colour only. Visitors are background.
 12. **Last clip:** nothing is said after "Not continuing this." DB's mouth stays closed, and the clip ends as the lean settles.
