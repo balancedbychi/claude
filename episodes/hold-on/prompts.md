@@ -101,6 +101,15 @@ Clip 01 v2 went first as the cheap test of the ring fix; it passed and Clips 02+
 
 Total runtime **54 s**. Credits for the final cut: 378 to generate and 21 for Topaz, 399 in all. Clip 01 v1 (91 credits, a ring on DB's left hand) is not in the cut.
 
+## STITCHED EPISODE (8 Oct 2026)
+
+The three 1080p masters joined in order (01 v2, 02+03, 04+05) by lossless stream copy, with no re-encode, faststart. The three had identical settings (HEVC Main 1080 x 1920, 24 fps, yuv420p; AAC LC 32 kHz stereo).
+- Higgsfield library media: `b1d60163-ba79-4b81-b09f-181f9ba8f163`, "EXCLUSIVE_Ep15_Hold_On_1080p.mp4"
+- URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/b1d60163-ba79-4b81-b09f-181f9ba8f163.mp4
+- 54.2 s, 61.5 MB, 1080 x 1920, HEVC 24 fps, AAC 32 kHz stereo, about 9.1 Mbit/s overall. The moov atom is at the front, so it plays while it loads.
+- Checked frames on both sides of each join (12.95 and 13.20 s, 37.00 and 37.30 s): the first join goes from ChiChi and DB at the picture to them walking, the second from ChiChi alone on the bench with DB walking away to ChiChi rising from the bench with DB far away in the corner. Audio is continuous across both joins (room tone only, no digital silence, one 0.1 s dip to about -45 dB at the second join). The video stream is 54.16 s and the audio 54.21 s.
+- No credits were used.
+
 The three masters are 1080 x 1920, HEVC, 24 fps, AAC 32 kHz stereo, with the same lengths as the 720p clips (13.06, 24.06 and 17.06 s), so they can be joined in order by lossless stream copy, as in Episode 14. A frame check against the 720p originals shows the same picture, a little crisper, with no new artifacts.
 
 ## WHAT WAS APPROVED
