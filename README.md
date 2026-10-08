@@ -21,6 +21,7 @@ Two projects live here.
 | `sets/` | Filming locations. `nia-apartment-prompts.md` shows the method: wide still prompts, the user approves one, and the approved still becomes a Higgsfield environment element. It also records the approved elements and Nia's door geometry. |
 | `episodes/<name>/` | `script.md` and `prompts.md` for each episode: the script, then the production notes and Seedance prompts, with a render log in several. Episodes 11 to 13 are `just-as-important`, `take-your-own-advice` and `read-receipts`. |
 | `exclusive/episode-14/` | Episode 14, "Nice Building": continuity bible, stills log, production plan, scene and segment plans, final cut. |
+| `docs/` | `connector-playbook.md`: the method from Episode 15 ("Hold On", `episodes/hold-on/`, the first episode where every render passed), written to paste into a connector's instructions, plus a ranked list of how to improve the connector. `tools/qa_render.sh` checks a finished render in one command (run it in the Higgsfield sandbox). `tools/prototypes/` is a prompt builder and linter; its `README.md` says how to run it. |
 | `bot-bow-ai/` | The bot + bow ai app. It has its own `README.md`, `CLAUDE.md` and `docs/BUILD_SPEC.md`, and its commands run from inside that folder. |
 
 ## The app
