@@ -306,7 +306,7 @@ AUDIO: only these eleven lines, the phone's one short buzz and then its low cont
 
 Clips 04 and 05 below are the v1 prompts. When I combine them I apply the same ring fix (reference paragraph, bare hands, left hand in his pocket) and write the pair after 02+03 is approved.
 
-## CLIP 01 · "One Second" · 13 s · 91 credits · v1 · FILMED 8 Oct (job `9f01f419-0461-476d-858c-cebcfdf18f95`) · you approved it; ring found, replaced by v2 if you say film
+## CLIP 01 · "One Second" · 13 s · 91 credits · v1 · FILMED 8 Oct (job `9f01f419-0461-476d-858c-cebcfdf18f95`) · you approved it; ring found, replaced by v2
 
 **First line:** ChiChi's "I could stand here all afternoon." **Final line:** DB's "Give it time. I like that."
 
@@ -626,7 +626,7 @@ AUDIO: only these two lines, soft footsteps on the wood floor and the faint hush
 
 | Clip | Version | Job ID | Duration | Resolution | Credits | Verdict |
 |---|---|---|---|---|---|---|
-| 01 | v1 | `9f01f419-0461-476d-858c-cebcfdf18f95` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_040319_9f01f419-0461-476d-858c-cebcfdf18f95.mp4)) | 13 s | 720p | 91 | You approved it 8 Oct. **My check found a ring on DB's left ring finger (rule 3a)**; also gaps of 0.4 to 0.9 s between lines. Replaced by v2 if you say film. |
+| 01 | v1 | `9f01f419-0461-476d-858c-cebcfdf18f95` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_040319_9f01f419-0461-476d-858c-cebcfdf18f95.mp4)) | 13 s | 720p | 91 | You approved it 8 Oct. **My check found a ring on DB's left ring finger (rule 3a)**; also gaps of 0.4 to 0.9 s between lines. Replaced by v2. |
 | 01 | v2 | `704a4b8b-1236-4230-a906-c9176c1efe16` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_043205_704a4b8b-1236-4230-a906-c9176c1efe16.mp4)) | 13 s | 720p | 91 | Filmed 8 Oct on your "film clip 1". **No ring on either hand** (left hand in his pocket); six lines in order; voices match v1; pacing no better than v1. Awaiting your approval. |
 | 02+03 | v1 | not filmed | 24 s | 720p | 168 | Awaiting your "film" |
 | 04+05 | | not drafted as a pair | 17 s | 720p | 119 | After 02+03 |
