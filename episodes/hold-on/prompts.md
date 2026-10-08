@@ -2,7 +2,7 @@
 
 Read `script.md` first: it has the story, the cast and tags, the floor plan and the beat-by-beat. This file holds what is sent to Seedance 2.5. **Nothing is filmed until you say "film"** (rule 9), and a clip is filmed only after you have seen and approved the one before it.
 
-**Status (8 Oct 2026, after Clips 04+05): all five clips of the episode are filmed. Clip 01 v2 and the combined Clips 02+03 are approved; the combined Clips 04+05 (job `777680d8-641f-4675-be71-86572ce9d3eb`, 17 s, 119 credits) were filmed on your "film" and wait for your approval.** My check finds no ring where DB's hands are visible, but in the walk back his left hand swings free instead of staying in his pocket. Evidence: `qa/clip01-ring-evidence.jpg` (v1) and `qa/clip01v2-hands.jpg` (v2).
+**Status (8 Oct 2026, final): the episode is complete and approved. Clip 01 v2, Clips 02+03 and Clips 04+05 are filmed at 720p and upscaled to 1080p with Topaz (cut list below). Nothing else is planned.** Evidence for the ring fix: `qa/clip01-ring-evidence.jpg` (v1) and `qa/clip01v2-hands.jpg` (v2).
 
 ## WHAT I FOUND IN CLIPS 04+05 (job `777680d8-641f-4675-be71-86572ce9d3eb`, 17.06 s, 720p, 119 credits)
 
@@ -86,24 +86,28 @@ Seedance renders up to 30 s in one go and charges per second, so **one 24 s clip
 | before | after Clip 01 v1 | | | 561.27 | |
 | 1 | **Clip 01 v2** (ring fix), filmed 8 Oct | 13 s | 91 | 470.27 | done, approved |
 | 2 | **Clips 02+03**, one render, filmed 8 Oct | 24 s | 168 | 302.27 | done, approved |
-| 3 | **Clips 04+05**, one render, filmed 8 Oct | 17 s | 119 | **183.27 (now)** | filmed; awaiting your approval |
+| 3 | **Clips 04+05**, one render, filmed 8 Oct | 17 s | 119 | 183.27 | done, approved |
+| 4 | **Topaz 1080p** on the three renders (6 + 9 + 6) | 54 s | 21 | **162.27 (now)** | done |
 
 Clip 01 v2 went first as the cheap test of the ring fix; it passed and Clips 02+03 chained from it. Clips 04+05 chained from the approved Clips 02+03 (rule 7); the 17 s preflight returned 119 credits and 119 was charged once.
 
-## CUT LIST (when you approve Clips 04+05)
+## FINAL CUT LIST (8 Oct 2026): APPROVED, 1080p MASTERS DONE
 
-| # | Scene | Job ID | Link | Length | Credits |
-|---|---|---|---|---|---|
-| 01 v2 | One Second | `704a4b8b-1236-4230-a906-c9176c1efe16` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_043205_704a4b8b-1236-4230-a906-c9176c1efe16.mp4) | 13 s | 91 |
-| 02+03 | Hold On / I Have to Take This | `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_045139_eabbe640-8eeb-4ba4-9b98-48f7d46a78bc.mp4) | 24 s | 168 |
-| 04+05 | Not Doing Anything / Where Were We? | `777680d8-641f-4675-be71-86572ce9d3eb` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_051137_777680d8-641f-4675-be71-86572ce9d3eb.mp4) | 17 s | 119 |
+| # | Scene | 720p job | 1080p Topaz job | Link (1080p) | Length | Credits |
+|---|---|---|---|---|---|---|
+| 01 v2 | One Second | `704a4b8b-1236-4230-a906-c9176c1efe16` | `902a7932-0b78-404e-986b-bad10332011b` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_052621_902a7932-0b78-404e-986b-bad10332011b.mp4) | 13 s | 91 + 6 |
+| 02+03 | Hold On / I Have to Take This | `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc` | `21105c20-7d3b-4232-b3b7-826a44cac836` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_052624_21105c20-7d3b-4232-b3b7-826a44cac836.mp4) | 24 s | 168 + 9 |
+| 04+05 | Not Doing Anything / Where Were We? | `777680d8-641f-4675-be71-86572ce9d3eb` | `0a81a12c-6a14-4ee4-867b-4ca0c496309b` | [video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_052626_0a81a12c-6a14-4ee4-867b-4ca0c496309b.mp4) | 17 s | 119 + 6 |
 
-Total runtime **54 s**, three renders at 720p, 378 credits. Clip 01 v1 (91 credits, a ring on DB's left hand) is not in the cut.
+Total runtime **54 s**. Credits for the final cut: 378 to generate and 21 for Topaz, 399 in all. Clip 01 v1 (91 credits, a ring on DB's left hand) is not in the cut.
 
-## WHAT YOU ARE APPROVING
+The three masters are 1080 x 1920, HEVC, 24 fps, AAC 32 kHz stereo, with the same lengths as the 720p clips (13.06, 24.06 and 17.06 s), so they can be joined in order by lossless stream copy, as in Episode 14. A frame check against the 720p originals shows the same picture, a little crisper, with no new artifacts.
 
-- **Clips 04+05** (job `777680d8-641f-4675-be71-86572ce9d3eb`, 17 s, filmed on your "film"): approve it, or tell me what to change. If you approve it the episode is complete (cut list above).
-- **What I'd weigh before approving:** the long silences (about 2.8 s mid-clip and about 1.7 s at the start) and DB's left hand swinging free in the walk back. A re-film costs 119 credits and would leave 64.27.
+## WHAT WAS APPROVED
+
+- **Clip 01 v2** and **Clips 02+03**: approved on your "film clips 2+3" and "approved, film clips 4+5".
+- **Clips 04+05**: approved on your "approved, upscale all clips to 1080p", with the long silences and DB's free-swinging left hand in the walk back noted in the findings above.
+- **1080p:** Topaz on all three renders, on the same message.
 
 ## MY DEFAULTS (say so if you want any changed)
 
@@ -733,4 +737,7 @@ AUDIO: only these two lines, soft footsteps on the wood floor and the faint hush
 | 01 | v1 | `9f01f419-0461-476d-858c-cebcfdf18f95` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_040319_9f01f419-0461-476d-858c-cebcfdf18f95.mp4)) | 13 s | 720p | 91 | You approved it 8 Oct. **My check found a ring on DB's left ring finger (rule 3a)**; also gaps of 0.4 to 0.9 s between lines. Replaced by v2. |
 | 01 | v2 | `704a4b8b-1236-4230-a906-c9176c1efe16` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_043205_704a4b8b-1236-4230-a906-c9176c1efe16.mp4)) | 13 s | 720p | 91 | Filmed 8 Oct on your "film clip 1". **No ring on either hand**; six lines in order; voices match v1; pacing no better than v1. **Approved** (your "film clips 2+3"). |
 | 02+03 | v1 | `eabbe640-8eeb-4ba4-9b98-48f7d46a78bc` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_045139_eabbe640-8eeb-4ba4-9b98-48f7d46a78bc.mp4)) | 24 s | 720p | 168 | Filmed 8 Oct on your "film clips 2+3". **No ring on either hand**; eleven lines in order; one dead stretch of about 2.4 s around the second buzz; the first shot has them stop facing the camera. **Approved** ("approved, film clips 4+5"). |
-| 04+05 | v1 | `777680d8-641f-4675-be71-86572ce9d3eb` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_051137_777680d8-641f-4675-be71-86572ce9d3eb.mp4)) | 17 s | 720p | 119 | Filmed 8 Oct on your "film". Five lines in order; no ring seen, but DB's left hand swings free in the walk back; long silences (about 1.7 s at the start, 2.8 s mid-clip, 2.0 s at the end). Awaiting your approval. |
+| 04+05 | v1 | `777680d8-641f-4675-be71-86572ce9d3eb` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_051137_777680d8-641f-4675-be71-86572ce9d3eb.mp4)) | 17 s | 720p | 119 | Filmed 8 Oct on your "film". Five lines in order; no ring seen, but DB's left hand swings free in the walk back; long silences (about 1.7 s at the start, 2.8 s mid-clip, 2.0 s at the end). **Approved** ("approved, upscale all clips to 1080p"). |
+| 01 v2 | Topaz 1080p | `902a7932-0b78-404e-986b-bad10332011b` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_052621_902a7932-0b78-404e-986b-bad10332011b.mp4)) | 13 s | 1080p | 6 | Done 8 Oct. 1080 x 1920, HEVC, 24 fps. |
+| 02+03 | Topaz 1080p | `21105c20-7d3b-4232-b3b7-826a44cac836` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_052624_21105c20-7d3b-4232-b3b7-826a44cac836.mp4)) | 24 s | 1080p | 9 | Done 8 Oct. 1080 x 1920, HEVC, 24 fps. |
+| 04+05 | Topaz 1080p | `0a81a12c-6a14-4ee4-867b-4ca0c496309b` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_052626_0a81a12c-6a14-4ee4-867b-4ca0c496309b.mp4)) | 17 s | 1080p | 6 | Done 8 Oct. 1080 x 1920, HEVC, 24 fps. |
