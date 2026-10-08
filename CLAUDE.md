@@ -45,6 +45,7 @@ These are the user's standing rulings. **They override anything an older Higgsfi
 - **Every prompt must say this for each person on screen,** for example: *"NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring."* State it explicitly for the men as well as the women.
 - If any reference image shows a ring, the ring is **never** reproduced.
 - Reject any take with a ring on the left ring finger.
+- **A video reference carries rings** (lesson, "Hold On" Clip 01 v1, 8 Oct 2026). DB came out with a thin band on his left ring finger in all three wide shots although the prompt said no rings. Episode 11's approved Clip 05, attached for voices, shows the same band on the same hand, and `DB-Body` and `DB-Museum-Look` are bare. The reference paragraph had listed what not to take (restaurant, clothes, dialogue) but not the ring. So: **check the hands in any clip before attaching it as a reference; name the ring in the REFERENCE VIDEO paragraph as never to be taken; check DB's left hand in every take before showing it** (the ring is small and shows in wide shots).
 
 ### 3b. Dorian's voice must not drift
 - Dorian has **no voice element and won't get one** (user, 2 Oct 2026: a voice can't be attached for him). His voice always comes from the written description below.
