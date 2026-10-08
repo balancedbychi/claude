@@ -36,7 +36,7 @@ He comes back, pockets the phone, warm and a little out of breath: *"Sorry. That
 | 3 | Nia and the call | **Out.** It's afternoon now, so Nia's night call, the car and the green dress are gone, and the cast is ChiChi and DB. The *"Pencil me in"* idea could move to Episode 16 as ChiChi telling Nia about the museum. | Needs your OK |
 | 4 | The set | `artmuse3.jpg` is the room. Three empty-room plates were made from it at 4K (3504 × 2336): the visitor and the wall text panel are gone, and everything else is as in your photo. **Cost 12.75 credits, spent (4.25 each).** I checked all three at full size. **You picked option 1** (`bb8e86cd-911e-4a9e-8425-0f6cb4cb5968`) on 8 Oct. Download it from Higgsfield and upload it yourself (rule 8); the set element is saved from your upload. | **Uploaded and checked** (media `33950dd7…`). Waiting on your OK of the set description |
 | 5 | The art | The plates keep real, identifiable artworks close to your photo: a two-panel collage picture, a small field picture, seven sepia portrait prints, and a stack of boxes printed with "Brillo" lettering, a recognisable pop-art sculpture. They are re-rendered, not copied, and I describe them in words only, never naming an artist. If you'd rather avoid real pieces, I can swap the stack for plain white boxes or make an invented-art plate (4.25 credits per image). | **Kept as in plate 1.** You picked it and didn't ask for a swap. Tell me before I save the set element if you'd rather swap, because the description can't be edited afterwards |
-| 6 | Looks | Both new, one full-length image each (rule 14). ChiChi: deep emerald and cream, cut to follow her shape (round 1's wide-leg trousers hid her hips, so round 2 is tailored). DB: navy knit polo, light-grey trousers, brown loafers, slim steel watch on his left wrist. **Nothing orange or rust**: it would vanish into the orange wall. Nine option stills are made (three for DB, six for ChiChi in two rounds; see THE LOOKS). You pick one each and upload it. | **Stills made. Waiting on your picks and uploads** (two images) |
+| 6 | Looks | Both new, one full-length image each (rule 14). ChiChi: deep emerald and cream, cut to follow her shape (round 1's wide-leg trousers hid her hips, so round 2 is tailored). DB: navy knit polo, light-grey trousers, brown loafers, slim steel watch on his left wrist. **Nothing orange or rust**: it would vanish into the orange wall. Nine option stills are made (three for DB, six for ChiChi in two rounds; see THE LOOKS). You pick one each and upload it. | **DB: your pick is B, uploaded and checked.** ChiChi: A2 is uploaded, and I'm waiting to hear it is your pick. Waiting on your OK of the look descriptions |
 | 7 | The ending | Ends on DB's reaction with no line after hers: he leans back, taken aback, and we cut as the lean settles, within half a second. Same shape as Episode 11's wordless ending, which worked first time. "Leans" is read as leaning back. | **Approved** (8 Oct) |
 | 8 | The phone | DB's black phone is in his hand in every clip until he pockets it in Clip 05. No screen faces the camera, no text is visible, and the caller is never heard. His side of the call (Clip 04) is scripted. | Needs your OK |
 | 9 | Recipe | `CLAUDE.md` rule 7: each approved clip becomes the next clip's video reference (my default). Episode 14 finished on the "Rented" recipe instead: one fixed voices clip (`159822f7…`), no start image. | **Approved** (8 Oct), read as the rule 7 chain |
@@ -47,7 +47,7 @@ He comes back, pockets the phone, warm and a little out of breath: *"Sorry. That
 
 Rows 2, 3, 8, 12 and 13 weren't in your 8 Oct answer. They stand as proposed, and I'll confirm each again in the prompts review before anything is filmed.
 
-**Still needed from you:** (1) ChiChi's look (the 8 Oct upload was A2: tell me if that is your pick), (2) DB's look, uploaded one at a time, each named and tagged, and (3) your OK on the set description below. **Plate option 1 is uploaded and checked.**
+**Still needed from you:** (1) your OK on the set description and on the two look descriptions below, and (2) confirmation that A2 is ChiChi's look. **Uploaded and checked:** plate option 1, ChiChi's A2, DB's look B.
 
 ---
 
@@ -81,6 +81,7 @@ Rows 2, 3, 8, 12 and 13 weren't in your 8 Oct answer. They stand as proposed, an
 | Plate option 3 | job | `6e24ee73-938f-4da0-99ba-2b674c568bd0` | `[Plate-3]` | Clean. Lettering fine. |
 | ChiChi look upload | `hf_20261008_002400_e1408a08-2579-4f79-a37e-7ec2a65061cf.png` (1536 × 2752) | `c7ffbe46-82e1-4f38-b942-a90f3c656240` | `[ChiChi-Look-Upload]` | Uploaded 8 Oct through the **plate** widget. **Pixel-identical to look A2** (job `e1408a08…`); it is not plate option 1. **Not saved as an element.** Waiting to hear whether A2 is your pick for ChiChi. The plate upload is still pending. |
 | Plate upload (option 1) | `hf_20261007_234748_bb8e86cd-911e-4a9e-8425-0f6cb4cb5968.png` (3504 × 2336) | `33950dd7-42a1-47fc-bdcc-7a3d229c49e6` | `[Plate-Upload]` | Uploaded 8 Oct. **Pixel-identical to plate option 1** (job `bb8e86cd…`); no people, layout as in your photo. **Not saved as an element yet:** waiting on your OK of the description. |
+| DB look upload | `hf_20261008_001822_3244a7f6-c476-458f-923b-d1058f729b20.png` (1536 × 2752) | `245c3cca-b933-4b23-b07a-17c426904ffe` | `[DB-Look-Upload]` | Uploaded 8 Oct. **Pixel-identical to look B** (job `3244a7f6…`), your pick. **Not saved as an element yet:** waiting on your OK of the description. |
 
 **Credits:** the three plates (GPT Image 2.5, 4K, 3:2, high quality) were charged **4.25 each, 12.75 in total**, on 7 Oct 2026. I had quoted 4.25 for all three: the preflight for a count of three returned the per-image price, and I read it as the total. **From now on I quote per image and multiply.** Balance after the plates: 742.27, which also reflects an 11-credit "GPT Image 2.0" charge at 12:37 UTC the same day that did not come from this session.
 
@@ -116,7 +117,7 @@ One full-length image per character (rule 14). Each still was made from the char
 | Option | Job | The look |
 |---|---|---|
 | **A** (my pick) | `23384be5-7549-4c69-a859-856c601bb0e1` | Navy knit polo, light-grey tailored trousers, brown leather loafers, slim steel watch on the left wrist |
-| B | `3244a7f6-c476-458f-923b-d1058f729b20` | Navy fine-knit crew-neck sweater, same trousers, loafers and watch |
+| **B** (your pick, uploaded 8 Oct) | `3244a7f6-c476-458f-923b-d1058f729b20` | Navy fine-knit crew-neck sweater, same trousers, loafers and watch |
 | C | `002f4d42-86f1-4f1d-8ef9-7cb15ddc4bec` | Navy linen-blend shirt open at the collar, sleeves turned back twice, same trousers, loafers and watch |
 
 **Checked against `DB-Face` and `DB-Body`:** face, dark wavy hair with silver at the temples, and trimmed beard match in all three, and so do his height and build. The watch is on his left wrist in all three. **No ring on any visible finger of his left hand** (checked at full size; his hands hang relaxed, so the fourth finger is partly hidden, and I'll check again in every take). I'd take **A**: a knit polo reads relaxed for a museum afternoon and stays quiet beside the orange wall.
@@ -137,6 +138,16 @@ One full-length image per character (rule 14). Each still was made from the char
 **No ring on any visible finger of her left hand in any of the six**, and her face, honey-blonde hair and skin tone match `ChiChi-Face`. The tan belt and loafers are a warm caramel brown, so the prompts will say *"muted caramel-brown, never orange"*.
 
 **What the pick means for filming:** the look you upload becomes her one full-length image for every clip, so her build in the video follows that image. The closer the still is to her body sheet, the less she drifts. C2 is the safest on that point, and B2 is the pick if you'd rather see trousers.
+
+### Draft look-element descriptions (write-once: need your OK before I save them)
+
+**`ChiChi-Museum-Look`** (category character; written for A2, and I rewrite it if you pick another):
+
+> CHICHI (EXCLUSIVE with Nia and Chi), episode "Hold On" (Episode 15), the user's pick (option A2), 8 Oct 2026, generated from ChiChi-Face b03240bd and ChiChi-Body 46074b6d and uploaded by the user. Full-length reference for her museum-afternoon look: a deep emerald fitted short-sleeved crew-neck knit top, snug over her bust and waist and tucked in, high-waisted cream tailored straight-leg trousers cut to follow her hips and thighs, a slim muted tan-brown leather belt at the waist, and muted tan-brown leather loafers. Nothing orange or rust. Worn identically in every shot. Face, hair and skin from ChiChi-Face: forty, warm brown complexion, cheek beauty mark, freckles; HONEY-BLONDE shoulder-length layered blowout, darker roots, deep side part on the LEFT side of her head; never dark brown. Small stud earrings. About 5'5", full-figured: a full bust, a soft defined waist clearly narrower than her hips, wide full hips and full thighs; never slimmed, never straight up and down, never boxy; taller than Nia, shorter than DB. SINGLE: NO RINGS on any finger of either hand; left ring finger bare skin; no bracelets, no watch. AMERICAN accent, never British.
+
+**`DB-Museum-Look`** (category character):
+
+> DB (EXCLUSIVE with Nia and Chi), episode "Hold On" (Episode 15), the user's pick (option B), 8 Oct 2026, generated from DB-Face 1023755a and DB-Body 952f3fb0 and uploaded by the user. Full-length reference for his museum-afternoon look: a navy fine-knit crew-neck sweater, light-grey tailored trousers, brown leather loafers, and a steel bracelet watch with a dark dial on his LEFT wrist. Nothing orange or rust. Worn identically in every shot. Face, hair, beard and skin from DB-Face: about 48, Dominican, warm golden-tan to light-brown complexion; thick, dark, softly wavy groomed hair with a touch of silver at the temples; a neatly trimmed short beard with a few silver flecks. Tall, about 6'1", clearly taller than ChiChi; fit, well-kept natural build. SINGLE (divorced): NO RINGS on any finger of either hand; left ring finger bare skin with no tan line. His phone: a plain black smartphone, no logo.
 
 ---
 
@@ -380,7 +391,7 @@ One full-length image per character (rule 14). Each still was made from the char
 
 ## CARRY-FORWARD RULES (every clip)
 
-1. **No rings on either of them.** *NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring* (rule 3a). ChiChi wears no watch and no bracelets. DB wears his slim steel watch on his left wrist.
+1. **No rings on either of them.** *NO RINGS on any finger of either hand; the fourth finger of the left hand is bare skin; no wedding band, no engagement ring* (rule 3a). ChiChi wears no watch and no bracelets. DB wears his steel bracelet watch (dark dial) on his left wrist.
 2. **ChiChi's hair is honey-blonde**, deep side part on the left, American accent. **DB is Dominican**, tall and clearly taller than ChiChi.
 3. **Voices:** ChiChi from her saved voice element, DB from his written description, word for word. **Only these lines are spoken.** DB's lines into the phone are hushed, the caller is never heard, and ChiChi is silent in Clip 04.
 4. **Pacing:** no silent beats, every clip but 05 ends on a line, and nobody speaks after the last line.
