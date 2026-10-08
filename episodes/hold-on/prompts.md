@@ -2,9 +2,22 @@
 
 Read `script.md` first: it has the story, the cast and tags, the floor plan and the beat-by-beat. This file holds what is sent to Seedance 2.5. **Nothing is filmed until you say "film"** (rule 9), and a clip is filmed only after you have seen and approved the one before it.
 
-**Status (8 Oct 2026, after Clip 01): Clip 01 v1 is filmed and you approved it, but my check found a ring on DB's left hand (rule 3a). You asked me to remove the ring and combine Clips 2 and 3. Both revised prompts are below for your review. Nothing else is filmed, and nothing will be until you say "film".** The evidence is in `qa/clip01-ring-evidence.jpg`.
+**Status (8 Oct 2026, after Clip 01 v2): Clip 01 v1 had a ring on DB's left hand (rule 3a), so on your "film clip 1" I re-filmed it as v2 (job `704a4b8b-1236-4230-a906-c9176c1efe16`, 91 credits). My check finds no ring on either hand. Clips 02+03 are next: the combined prompt below is final and waits for your "film", which will also mean you approve v2 as the reference. Nothing else is filmed.** The evidence is in `qa/clip01-ring-evidence.jpg` (v1) and `qa/clip01v2-hands.jpg` (v2).
 
-## WHAT I FOUND IN CLIP 01 (job `9f01f419-0461-476d-858c-cebcfdf18f95`, 13 s, 720p, 91 credits)
+## WHAT I FOUND IN CLIP 01 v2 (job `704a4b8b-1236-4230-a906-c9176c1efe16`, 13.06 s, 720p, 91 credits)
+
+| Check | Result |
+|---|---|
+| **Rings** | **None.** DB's left hand stays in his left trouser pocket in every shot, with the watch showing at the cuff; his right hand, holding and thumbing the phone, has no ring (sheet: `qa/clip01v2-hands.jpg`). ChiChi's hands are clasped, none seen. |
+| The lines | **All six, in the scripted order, each said once, nothing added** (speech-to-text on the audio). |
+| Voices | The same voices as v1 on a spectrum-match check: ChiChi 0.98 and DB 0.99 against v1, against 0.92 to 0.95 between the two speakers. It is a rough check, so **judge the voices by ear**. |
+| The picture | ChiChi frame LEFT in the emerald dress, DB frame RIGHT in navy and light grey, the set as in the reference image, one silent visitor far back. Faces look sharp. |
+| Pacing (rule 4) | **No better than v1.** About 0.5 to 1.0 s of quiet before most replies; the longest, about 1 s, is again before ChiChi's "Little pieces up close.", and there is a 0.3 to 0.9 s pause inside that line. DB's "Tell me what you see." is quick, about a second. ChiChi's first word lands about 0.7 s in (the breath first). The clip ends about 0.2 s after the last word. "Answers at once" did not change the gaps. |
+| Cuts | At 2.4, 3.8, 7.6, 9.0, 10.1 and 11.25 s. |
+
+**Credits:** 91 spent once (checked in the transactions); balance **470.27**.
+
+## WHAT I FOUND IN CLIP 01 v1 (job `9f01f419-0461-476d-858c-cebcfdf18f95`, 13 s, 720p, 91 credits; you approved it, replaced by v2)
 
 | Check | Result |
 |---|---|
@@ -24,6 +37,8 @@ Read `script.md` first: it has the story, the cast and tags, the floor plan and 
 3. **DB's left hand stays in his left trouser pocket in every shot**, so there is nothing to draw. The old "Hold on." beat, his left hand half raised, becomes a small apologetic tilt of his head. **Say so if you want the raised hand back**; it would show his left hand for under a second.
 4. **Pacing:** three shots in Clip 01 now say she or he "answers at once", to close the 0.4 to 0.9 s gaps.
 
+**Result:** it worked in v2 (above).
+
 I also dropped the old words "the wrist nearest ChiChi" for the watch: his left wrist is the one *away* from her, at the picture and on the bench, and the clip drew it that way anyway. The watch is still on his left wrist; his phone is still in his right hand.
 
 ## COMBINING CLIPS 2 AND 3: YES, AS ONE 24-SECOND CLIP
@@ -39,17 +54,17 @@ Seedance renders up to 30 s in one go and charges per second, so **one 24 s clip
 
 | Step | Render | Length | Credits | Balance after | Waits for |
 |---|---|---|---|---|---|
-| now | (balance after Clip 01 v1) | | | **561.27** | |
-| 1 | **Clip 01 v2** (ring fix) | 13 s | 91 | 470.27 | your "film" |
-| 2 | **Clips 02+03**, one render | 24 s | 168 | 302.27 | your approval of Clip 01 v2, then your "film" |
+| before | after Clip 01 v1 | | | 561.27 | |
+| 1 | **Clip 01 v2** (ring fix), filmed 8 Oct | 13 s | 91 | **470.27 (now)** | done |
+| 2 | **Clips 02+03**, one render | 24 s | 168 | 302.27 | your "film", which also approves Clip 01 v2 as the reference |
 | 3 | Clips 04+05, one render | 17 s | 119 | 183.27 | your approval of 02+03; I write the pair's prompt then, with the same ring fix |
 
-Why Clip 01 v2 goes first: it is the cheap test of the ring fix, and every later clip chains from it (rule 7), so a ring in it would run through the whole episode. If you would rather keep Clip 01 v1 as it is, steps 2 and 3 cost 287 and leave 274.27, but the ring comes with the chain; I'd add the stronger sentence (`The man in the reference video wears a ring on his left hand: that ring is a mistake and is NEVER reproduced; in THIS clip DB's hands are completely bare.`) to the reference paragraph and still keep his left hand in his pocket.
+Clip 01 v2 went first as the cheap test of the ring fix, and every later clip chains from it (rule 7). The test passed, so Clips 02+03 can use it as the reference. If you want anything in v2 changed first (the pacing, for instance), say so before I attach it.
 
 ## WHAT YOU ARE APPROVING
 
-- **Clip 01 v2** (13 s, 91 credits): the same story and lines as v1, with the ring fix and the pacing tweak.
-- **Clips 02+03 combined** (24 s, 168 credits): one render, chained from the approved Clip 01 v2. The eleven lines are the ones you approved in the script.
+- **Clip 01 v2** (13 s, 91 credits, already filmed): the same story and lines as v1, with the ring fix.
+- **Clips 02+03 combined** (24 s, 168 credits): one render, chained from Clip 01 v2 (job `704a4b8b-1236-4230-a906-c9176c1efe16`). The eleven lines are the ones you approved in the script. Your "film" approves v2 as the reference and starts the render.
 - **Who and what is attached to every clip:** the set `Atlanta-Art-Museum-Gallery`; ChiChi (`ChiChi-Face`, `ChiChi-Body`, `ChiChi-Museum-Look`, her voice element); DB (`DB-Face`, `DB-Body`, `DB-Museum-Look`, and his voice from his written description, word for word).
 - **The ending** is unchanged: DB leaning back, taken aback, and a cut within half a second (Clip 05).
 
@@ -140,9 +155,9 @@ Sightline checks are in `script.md`; every look, turn and exit they list is writ
 
 # THE REVISED PROMPTS (for your review)
 
-## CLIP 01 v2 · "One Second" · 13 s · 91 credits · AWAITING YOUR "FILM"
+## CLIP 01 v2 · "One Second" · 13 s · 91 credits · FILMED 8 Oct (job `704a4b8b-1236-4230-a906-c9176c1efe16`) · awaiting your approval
 
-**First line:** ChiChi's "I could stand here all afternoon." **Final line:** DB's "Give it time. I like that." Replaces v1 (below) if you say film.
+**First line:** ChiChi's "I could stand here all afternoon." **Final line:** DB's "Give it time. I like that." This is the exact text that was filmed; it replaces v1 (below).
 
 **Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 13`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`; `medias`: `video_references` = `1a685bed-7301-4d05-b755-4928b3202078` (Episode 11's approved Clip 05, voices only), plus the seven element images as `image_references` (`33950dd7-42a1-47fc-bdcc-7a3d229c49e6`, `7af2905b-301b-4d9a-b114-2ff61b9f565a`, `03584942-3cc7-4562-bf81-0d33e0c8d135`, `ed958852-09a0-47a6-8033-1bf01dd841d7`, `59a6dfb3-9ee2-475c-9bec-93cd290c8524`, `96c7a2a8-9a0e-45b6-a8e0-a05fffc18969`, `245c3cca-b933-4b23-b07a-17c426904ffe`); the eight elements in `reference_elements`. No start image.
 
@@ -206,11 +221,11 @@ PHYSICS: natural posture and weight, feet on the polished floor, ordinary walkin
 AUDIO: only these six lines and the one short phone buzz, soft footsteps on the wood floor and the faint hush of a large quiet gallery. No music, no background chatter, no other voices, no narration. No subtitles, captions or on-screen text.
 ```
 
-## CLIPS 02 + 03 · "Hold On" and "I Have to Take This" combined · 24 s · 168 credits · AWAITING CLIP 01 v2, THEN YOUR "FILM"
+## CLIPS 02 + 03 · "Hold On" and "I Have to Take This" combined · 24 s · 168 credits · AWAITING YOUR "FILM"
 
 **First line:** ChiChi's "This one's my favorite so far." **Final line:** DB's "Yeah. Go ahead." Eleven lines, 13 shots, a hard cut at 11 s.
 
-**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 24`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`; `medias`: `video_references` = the approved Clip 01 v2 (job ID filled in after your approval), plus the seven element images as `image_references` (`33950dd7-42a1-47fc-bdcc-7a3d229c49e6`, `7af2905b-301b-4d9a-b114-2ff61b9f565a`, `03584942-3cc7-4562-bf81-0d33e0c8d135`, `ed958852-09a0-47a6-8033-1bf01dd841d7`, `59a6dfb3-9ee2-475c-9bec-93cd290c8524`, `96c7a2a8-9a0e-45b6-a8e0-a05fffc18969`, `245c3cca-b933-4b23-b07a-17c426904ffe`); the eight elements in `reference_elements`. No start image. If you keep Clip 01 v1 instead, the sentence `DB's hands are bare in the reference video and stay bare in this clip.` is replaced by: `The man in the reference video wears a ring on his left hand: that ring is a mistake and is NEVER reproduced; in THIS clip DB's hands are completely bare.`
+**Request:** `model: seedance_2_5`, `mode: omni_reference`, `duration: 24`, `aspect_ratio: 9:16`, `resolution: 720p`, `generate_audio: true`, `declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612`; `medias`: `video_references` = `704a4b8b-1236-4230-a906-c9176c1efe16` (Clip 01 v2), plus the seven element images as `image_references` (`33950dd7-42a1-47fc-bdcc-7a3d229c49e6`, `7af2905b-301b-4d9a-b114-2ff61b9f565a`, `03584942-3cc7-4562-bf81-0d33e0c8d135`, `ed958852-09a0-47a6-8033-1bf01dd841d7`, `59a6dfb3-9ee2-475c-9bec-93cd290c8524`, `96c7a2a8-9a0e-45b6-a8e0-a05fffc18969`, `245c3cca-b933-4b23-b07a-17c426904ffe`); the eight elements in `reference_elements`. No start image.
 
 ```
 24 SECONDS. Photoreal cinematic drama, vertical 9:16, AFTERNOON, a large gallery in the Atlanta Art Museum. A couple on a Saturday afternoon date, looking at art together. Wholesome.
@@ -612,6 +627,6 @@ AUDIO: only these two lines, soft footsteps on the wood floor and the faint hush
 | Clip | Version | Job ID | Duration | Resolution | Credits | Verdict |
 |---|---|---|---|---|---|---|
 | 01 | v1 | `9f01f419-0461-476d-858c-cebcfdf18f95` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_040319_9f01f419-0461-476d-858c-cebcfdf18f95.mp4)) | 13 s | 720p | 91 | You approved it 8 Oct. **My check found a ring on DB's left ring finger (rule 3a)**; also gaps of 0.4 to 0.9 s between lines. Replaced by v2 if you say film. |
-| 01 | v2 | not filmed | 13 s | 720p | 91 | Awaiting your "film" |
-| 02+03 | v1 | not filmed | 24 s | 720p | 168 | Awaiting Clip 01 v2's approval, then your "film" |
+| 01 | v2 | `704a4b8b-1236-4230-a906-c9176c1efe16` ([video](https://d8j0ntlcm91z4.cloudfront.net/user_3I1nwPWIW4SJzgP8MbxsbNW0or9/hf_20261008_043205_704a4b8b-1236-4230-a906-c9176c1efe16.mp4)) | 13 s | 720p | 91 | Filmed 8 Oct on your "film clip 1". **No ring on either hand** (left hand in his pocket); six lines in order; voices match v1; pacing no better than v1. Awaiting your approval. |
+| 02+03 | v1 | not filmed | 24 s | 720p | 168 | Awaiting your "film" |
 | 04+05 | | not drafted as a pair | 17 s | 720p | 119 | After 02+03 |
