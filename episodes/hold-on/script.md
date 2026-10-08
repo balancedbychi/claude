@@ -79,6 +79,7 @@ Rows 2, 3, 8, 12 and 13 weren't in your 8 Oct answer. They stand as proposed, an
 | Plate option 1 | job | `bb8e86cd-911e-4a9e-8425-0f6cb4cb5968` | `[Plate-1]` | Clean. Man and wall text gone, "Brillo" lettering crisp. **Your pick (8 Oct).** Upload pending. |
 | Plate option 2 | job | `82416315-e958-45ee-8e2d-5072b0f85954` | `[Plate-2]` | Clean, but the lower box's lettering has warped to "Billo". |
 | Plate option 3 | job | `6e24ee73-938f-4da0-99ba-2b674c568bd0` | `[Plate-3]` | Clean. Lettering fine. |
+| ChiChi look upload | `hf_20261008_002400_e1408a08-2579-4f79-a37e-7ec2a65061cf.png` (1536 × 2752) | `c7ffbe46-82e1-4f38-b942-a90f3c656240` | `[ChiChi-Look-Upload]` | Uploaded 8 Oct through the **plate** widget. **Pixel-identical to look A2** (job `e1408a08…`); it is not plate option 1. **Not saved as an element.** Waiting to hear whether A2 is your pick for ChiChi. The plate upload is still pending. |
 
 **Credits:** the three plates (GPT Image 2.5, 4K, 3:2, high quality) were charged **4.25 each, 12.75 in total**, on 7 Oct 2026. I had quoted 4.25 for all three: the preflight for a count of three returned the per-image price, and I read it as the total. **From now on I quote per image and multiply.** Balance after the plates: 742.27, which also reflects an 11-credit "GPT Image 2.0" charge at 12:37 UTC the same day that did not come from this session.
 
